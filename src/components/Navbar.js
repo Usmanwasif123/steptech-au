@@ -10,7 +10,7 @@ const Navbar = () => {
 
   const toggleSidebar = () => {
     console.log('Toggle Sidebar clicked');
-    setSidebarOpen(isSidebarOpen);
+    setSidebarOpen(!isSidebarOpen);
    
   };
 
