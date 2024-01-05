@@ -1,4 +1,3 @@
-import React, { useState } from 'react';
 import React, { Component, useState, useEffect } from 'react';
 import '../assets/wrapper/services.css';
 import Slider from 'react-slick';
