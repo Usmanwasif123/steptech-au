@@ -22,7 +22,6 @@ const Navbar = () => {
               {isSidebarOpen ? <FaTimes /> : <FaBars />}
           </button>
         <nav>
-         {isSidebarOpen && (
         <ul className='nav-items'>
             <li><a href='https://steptech.com.au/'>home</a></li>
             <li><a className='about'>about us</a></li>
@@ -36,7 +35,6 @@ const Navbar = () => {
               <FaTimes/>
             </button>
         </ul>
-         )}
         </nav>
       <img src='https://i.ibb.co/Y8F8xfL/Rectangle-1.png' alt='Banner'></img>
       <div className='banner-line'></div>
