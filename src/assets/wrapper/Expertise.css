@@ -1,0 +1,99 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.expertise-container{
+    height: 100vh;
+    width: 98.7vw;
+    background-color: #fff;
+    margin-top: 40px;
+}
+
+.exper-heading{
+    color: #333;
+    font-family: Poppins, sans-serif;
+    font-size: 49px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48.5px; /* 98.98% */
+    letter-spacing: -1px;
+    margin: 20px;
+    padding-left: 280px;
+}
+
+.exper-p{
+    color: #6E6E6E;
+    font-family: Poppins, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28.5px; /* 142.5% */
+    padding-left: 70px;
+    margin: 10px 70px 10px 0px;
+}
+
+.exper-grid-con{
+    margin:10px;
+}
+.Ecommerce {
+    font-size: 30px;
+    margin-top: -25px;
+    padding-left: 50px;
+}
+.Entertainment {
+    font-size: 30px;
+    margin-top: -25px;
+    padding-left: 50px;
+}
+.NewsWeather {
+    font-size: 28px;
+    margin-top: -25px;
+    padding-left: 49px;
+    padding-bottom: 2px;
+}
+.Realestate {
+    font-size: 30px;
+    margin-top: -25px;
+    padding-left: 5px;
+}
+.Social{
+    font-size: 27px;
+    margin-top: -25px;
+    padding-left: 48px;
+}
+.Sports {
+    font-size: 30px;
+    margin-top: -28px;
+    margin-left: -50px;
+}
+.OnDemand {
+    font-size: 30px;
+    margin-top: -25px;
+    padding-left: 10px;
+}
+.Healthcare {
+    font-size: 30px;
+    margin-top: -25px;
+    padding-left: 10px;
+}
+.Airline {
+    font-size: 30px;
+    margin-top: -25px;
+    margin-left: -50px;
+}
+.Medical {
+    font-size: 30px;
+    margin-top: -25px;
+    margin-left: -50px;
+}
+.Event {
+    font-size: 30px;
+    margin-top: -25px;
+    margin-left: -50px;
+}
+.Entertainments {
+    font-size: 30px;
+    margin-top: -25px;
+    padding-left: 50px;
+}
