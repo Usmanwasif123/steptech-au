@@ -1,8 +1,6 @@
 import React, {useState} from 'react';
 import '../assets/wrapper/Navbar.css';
 import {Link} from 'react-router-dom';
-import MenuIcon from '@mui/icons-material/Menu';
-import EastIcon from '@mui/icons-material/East';
 import {FaBars, FaTimes} from 'react-icons/fa';
 
 const Navbar = () => {
