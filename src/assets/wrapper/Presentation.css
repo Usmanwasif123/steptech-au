@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.present-container{
+    height: 200vh;
+    width: 98.7vw;
+    margin-top: 340px;
+    background: #fff;
+    position: relative;
+}
+
+.present-grid1{
+    position: absolute;
+    z-index: 2;
+    top: 20%;
+    left: 5%;
+}
+.present-item1 img{
+    position: absolute;
+    z-index: 2;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    height: 45vh;
+    width: 27vw;
+    left: 5%;
+    top: 15%;
+}
+.present-grid2{
+    position: absolute;
+    z-index: 2;
+    left: 38%;
+    top: 20%;
+}
+.present-item2 img{
+    position: absolute;
+    z-index: 2;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    height: 45vh;
+    width: 27vw;
+    left: 5%;
+    top: 15%;
+}
+.present-grid3{
+    position: absolute;
+    z-index: 2;
+    left: 70%;
+    top: 20%;
+}
+
+.present-item3 img{
+    position: absolute;
+    z-index: 2;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    height: 45vh;
+    width: 27vw;
+    left: 5%;
+    top: 15%;
+}
+
+.present-grid4{
+    position: absolute;
+    z-index: 2;
+    top: 55%;
+    left: 5%;
+}
+.present-item4 img{
+    position: absolute;
+    z-index: 2;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    height: 45vh;
+    width: 27vw;
+    left: 5%;
+    top: 15%;
+}
+.present-grid5{
+    position: absolute;
+    z-index: 2;
+    left: 38%;
+    top: 55%;
+}
+.present-item5 img{
+    position: absolute;
+    z-index: 2;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    height: 45vh;
+    width: 27vw;
+    left: 5%;
+    top: 15%;
+}
+.present-grid6{
+    position: absolute;
+    z-index: 2;
+    left: 70%;
+    top: 55%;
+}
+
+.present-item6 img{
+    position: absolute;
+    z-index: 2;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    height: 45vh;
+    width: 27vw;
+    left: 5%;
+    top: 15%;
+}

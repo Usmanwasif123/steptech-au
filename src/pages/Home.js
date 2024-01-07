@@ -11,6 +11,9 @@ import About from '../components/About';
 import Solution from '../components/Solution';
 import Services from '../components/Services';
 import Expertise from '../components/Expertise';
+import Process from '../components/Process';
+import Presentation from '../components/Presentation';
+import Partner from '../components/Partner';
 
 const Home = () => {
   return (
@@ -30,6 +33,9 @@ const Home = () => {
       <Solution/>
       <Services/>
       <Expertise/>
+      <Process/>
+      <Presentation/>
+      <Partner/>
     </div>
   )
 }

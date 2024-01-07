@@ -146,9 +146,9 @@ const Services = () => {
       <p className='service-phone-p'>Have Questions Call Us Now!<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
       (877)229-0844</p>
       <HeadsetMic style={{position: 'absolute', color: '#fff', transform: 'scale(2.5)', left: '48%', top: '20%'}} classsName='service-headset'/>
-      <p className='service-headset-p'>Live Chat With Expert<br/>It's Free 24/7</p>
+      <p className='service-headset-p'>Live Chat With Expert<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;It's Free 24/7</p>
       <MenuBook style={{position: 'absolute', color: '#fff', transform: 'scale(2.5)', left: '80%', top: '20%'}} classsName='service-book'/>
-      <p className='service-book-p'>Estimate Your Project's Cost<br/>Talk to Consultant</p>
+      <p className='service-book-p'>Estimate Your Project's Cost<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Talk to Consultant</p>
       </div>
   </div>  
   </div>  
