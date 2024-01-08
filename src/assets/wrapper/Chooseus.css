@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.choose-container{
+    height: 100vh;
+    width: 98.7vw;
+    background: #fff;
+    margin-top: 100px;
+    position: relative;
+}
+
+.choose-container img{
+    height: 100vh;
+    width: 98.7vw;
+    margin-left: -1px;
+    position: relative;
+}
+.choose-container h1{
+    position: absolute;
+    z-index: 2;
+    top: 25%;
+    left: 35%;
+    color: #fff;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.choose-container h2{
+    position: absolute;
+    z-index: 2;
+    top: 35%;
+    left: 37%;
+    color: #fff;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+
+.choose-grid1{
+    position: absolute;
+    z-index: 2;
+    left: 4%;
+}
+
+.choose-item1 h2{
+    font-family: Poppins, sans-serif;
+    font-size: 20px;
+    position: absolute;
+    left: 2%;
+    top: 50%;
+
+}
+.choose-grid2{
+    position: absolute;
+    z-index: 2;
+    left: 23%;
+}
+
+.choose-item2 h2{
+    font-family: Poppins, sans-serif;
+    font-size: 20px;
+    position: absolute;
+    left: 2%;
+    top: 50%;
+
+}
+
+.choose-grid3{
+    position: absolute;
+    z-index: 2;
+    left: 42%;
+}
+.choose-item3 h2{
+    font-family: Poppins, sans-serif;
+    font-size: 20px;
+    position: absolute;
+    left: 2%;
+    top: 50%;
+
+}
+
+.choose-grid4{
+    position: absolute;
+    z-index: 2;
+    left: 61%;
+}
+.choose-item4 h2{
+    font-family: Poppins, sans-serif;
+    font-size: 20px;
+    position: absolute;
+    left: 2%;
+    top: 50%;
+
+}
+
+.choose-grid5{
+    position: absolute;
+    z-index: 2;
+    left: 80%;
+}
+.choose-item5 h2{
+    font-family: Poppins, sans-serif;
+    font-size: 20px;
+    position: absolute;
+    left: 2%;
+    top: 50%;
+
+}
+
+

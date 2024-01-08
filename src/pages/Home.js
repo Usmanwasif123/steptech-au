@@ -14,6 +14,8 @@ import Expertise from '../components/Expertise';
 import Process from '../components/Process';
 import Presentation from '../components/Presentation';
 import Partner from '../components/Partner';
+import Chooseus from '../components/Chooseus';
+import Clients from '../components/Clients';
 
 const Home = () => {
   return (
@@ -36,6 +38,8 @@ const Home = () => {
       <Process/>
       <Presentation/>
       <Partner/>
+      <Chooseus/>
+      <Clients/>
     </div>
   )
 }

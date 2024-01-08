@@ -8,7 +8,11 @@
     width: 98.7vw;
     position: relative;
     background: #fff;
-    margin-top: -284px;
+    margin-top: -284px; 
+}
+
+.partner-container.open {
+    max-height: 500vh;
 }
 
 .partner-grid1{
@@ -114,11 +118,11 @@
     background: linear-gradient(255deg, #7554C1 29.51%, #243F82 93.15%);
     border-radius: 15px;
     border: none;
-    left: 50%;
-    top: 95%;
+    left: 45%;
+    top: 110%;
     color: #fff;
     font-size: 20px;
-    font-family: 'Poppins', sans-serif;
+    font-family: Poppins, sans-serif;
     font-style: normal;
     font-weight: 200;
     text-transform: capitalize;

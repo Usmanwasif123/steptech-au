@@ -3,7 +3,7 @@ import '../assets/wrapper/Partner.css';
 import { Grid, styled, Paper } from '@mui/material';
 
 const paragraphStyles ={
-    WebkitLineClamp: 5,
+    WebkitLineClamp: 8,
     WebkitBoxOrient: 'vertical',
     overflow: 'hidden',
     display: '-webkit-box',
@@ -11,8 +11,7 @@ const paragraphStyles ={
 
 const Partner = () => {
     const [isOpen, setIsOpen] = useState(false)
-
-
+    
     const Item = styled(Paper)(({ theme }) => ({
         padding: theme.spacing(10),
         textAlign: 'center',
@@ -23,10 +22,8 @@ const Partner = () => {
         left: '2%',
     }));
 
-  
-
   return (
-    <div className='partner-container'>
+    <div className={`partner-container ${isOpen ? 'open' : ''}`}>
       <Grid container spacing={5}>
         <Grid item xs={6} md={4} className='partner-grid1'>
         <Item className='partner-item1'>
@@ -58,7 +55,8 @@ const Partner = () => {
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Wyoming, USA</h1>
         <div id='line-partner'></div>
-        <p style={isOpen ? null : paragraphStyles}>Are you also looking for the best web and app development company in the USA? Then stop scrolling anymore. 
+        <p style={isOpen ? null : paragraphStyles}>
+            Are you also looking for the best web and app development company in the USA? Then stop scrolling anymore. 
             Step Tech Global is the best web and mobile app development services provider, but there are more-in-one 
             solutions for all your digital needs. We’ve driven the rollercoaster of startups, so we understand the 
             complexity and conquests of building a prosperous business in Wyoming. We collaborate with you as developers
