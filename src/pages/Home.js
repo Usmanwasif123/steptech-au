@@ -16,6 +16,7 @@ import Presentation from '../components/Presentation';
 import Partner from '../components/Partner';
 import Chooseus from '../components/Chooseus';
 import Clients from '../components/Clients';
+import Contact from '../components/Contact';
 
 const Home = () => {
   return (
@@ -40,6 +41,7 @@ const Home = () => {
       <Partner/>
       <Chooseus/>
       <Clients/>
+      <Contact/>
     </div>
   )
 }
