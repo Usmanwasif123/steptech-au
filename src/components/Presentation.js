@@ -6,7 +6,6 @@ const Presentation = () => {
     const Item = styled(Paper)(({ theme }) => ({
         padding: theme.spacing(10),
         textAlign: 'center',
-        border: '1px solid #333',
         background:  'linear-gradient(256deg, #6347AA 7.85%, #233F81 107.97%)',
         position: 'absolute',
         width: '250px',
