@@ -17,6 +17,7 @@ import Partner from '../components/Partner';
 import Chooseus from '../components/Chooseus';
 import Clients from '../components/Clients';
 import Contact from '../components/Contact';
+import Footer from '../components/Footer';
 
 const Home = () => {
   return (
@@ -42,6 +43,7 @@ const Home = () => {
       <Chooseus/>
       <Clients/>
       <Contact/>
+      <Footer/>
     </div>
   )
 }

@@ -23,16 +23,13 @@
     background: url('https://i.ibb.co/WxpLfrH/image.png');
     height: 100vh;
     width: 50vw;
-    top: 10%;
+    top: 10.2%;
     left: 14%;
     cursor: pointer;
     background-size: 20%;
-    top: 11%;
-    left: 14%;
-    cursor: pointer;
-    background-size: 22%;
     background-repeat: no-repeat;
 }
+
 .nav-items{
     margin-top: -21px;
     display: flex;
