@@ -32,22 +32,22 @@ const Partner = () => {
         </Grid>
         <Grid item xs={6} md={4} className='partner-grid2'>
         <Item className='partner-item2'>
-            <img src='https://i.ibb.co/hgkfw35/image1.png' alt='campaign'/>
+            <img src='https://i.ibb.co/VYjTnMp/Adobe-Solution-Partner-Program.png' alt='campaign'/>
         </Item>
         </Grid>
         <Grid item xs={6} md={4} className='partner-grid3'>
         <Item className='partner-item3'>
-            <img src='https://i.ibb.co/hgkfw35/image1.png' alt='campaign'/>
+            <img src='https://i.ibb.co/h7HDHLC/image.png' alt='campaign'/>
         </Item>
         </Grid>
         <Grid item xs={6} md={4} className='partner-grid4'>
         <Item className='partner-item4'>
-            <img src='https://i.ibb.co/hgkfw35/image1.png' alt='campaign'/>
+            <img src='https://i.ibb.co/f9V59K5/image.png' alt='campaign'/>
         </Item>
         </Grid>
         <Grid item xs={6} md={4} className='partner-grid5'>
         <Item className='partner-item5'>
-            <img src='https://i.ibb.co/hgkfw35/image1.png' alt='campaign'/>
+            <img src='https://i.ibb.co/LpwJXkm/image.png' alt='campaign'/>
         </Item>
         </Grid>
         </Grid>

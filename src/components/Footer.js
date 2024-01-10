@@ -1,6 +1,6 @@
 import React from 'react';
 import '../assets/wrapper/Footer.css';
-import {Facebook, Instagram, LinkedIn, Twitter} from '@mui/icons-material/';
+import {Facebook, Instagram, LinkedIn, Twitter, ArrowRight, ChevronRight} from '@mui/icons-material/';
 
 const Footer = () => {
   return (
@@ -19,45 +19,53 @@ const Footer = () => {
         <Twitter style={{position: 'absolute', zIndex: '3', top: '85%', left: '11%',
         color: '#fff', transform: 'scale(1.5)'}}/>
         <div className='quick-links'>
-            <h1>QUICK LINKS</h1>
+            <h1>quick links</h1>
             <nav>
-            <li><a href='https://steptech.com.au/'>home</a></li>
-            <li><a className='about'>about us</a></li>
-            <li><a className='portfolio'>portfolio</a></li>
-            <li><a className='contact'>contact us</a></li>
-            <li><a className='blog'>blog</a></li>
+            <ul className='quick-foolinks'>
+            <li><ArrowRight style={{position: 'absolute', left: '-5%', top: '23%'}}/><a href='https://steptech.com.au/'>home</a></li>
+            <li><ArrowRight style={{position: 'absolute', left: '-5%',  top: '39%'}}/><a className='about'>about us</a></li>
+            <li><ArrowRight style={{position: 'absolute', left: '-5%', top: '55%'}}/><a className='portfolio'>portfolio</a></li>
+            <li><ArrowRight style={{position: 'absolute', left: '-5%', top: '72%'}}/><a className='contact'>contact us</a></li>
+            <li><ArrowRight style={{position: 'absolute', left: '-5%', top: '89%'}}/><a className='blog'>blog</a></li>
+            </ul>
             </nav>
         </div>
         <div className='service-links'>
             <h1>Services</h1>
-            <nav>
-            <li><a href='https://steptech.com.au/'>home</a></li>
-            <li><a className='about'>about us</a></li>
-            <li><a className='portfolio'>portfolio</a></li>
-            <li><a className='contact'>contact us</a></li>
-            <li><a className='blog'>blog</a></li>
+            <nav className='service-foolinks'>
+            <li><ChevronRight style={{position: 'absolute', left: '-8%', top: '18%'}}/><a href='#'>Graphics Designing</a></li>
+            <li><ChevronRight style={{position: 'absolute', left: '-8%', top: '31%'}}/><a>Website Design & Development</a></li>
+            <li><ChevronRight style={{position: 'absolute', left: '-8%', top: '44%'}}/><a>Mobile App UI/UX Design &<br/> Development</a></li>
+            <li><ChevronRight style={{position: 'absolute', left: '-8%', top: '65%'}}/><a>Software Development</a></li>
+            <li><ChevronRight style={{position: 'absolute', left: '-8%', top: '78%'}}/><a>Search Engine Optimization</a></li>
+            <li><ChevronRight style={{position: 'absolute', left: '-8%', top: '91%'}}/><a>Social Media Management</a></li>
             </nav>
         </div>
         <div className='service-links2'>
             <h1>Services</h1>
-            <nav>
-            <li><a href='https://steptech.com.au/'>home</a></li>
-            <li><a className='about'>about us</a></li>
-            <li><a className='portfolio'>portfolio</a></li>
-            <li><a className='contact'>contact us</a></li>
-            <li><a className='blog'>blog</a></li>
+            <nav className='service-foolinks2'>
+            <li><ChevronRight style={{position: 'absolute', left: '-8%', top: '18%'}}/><a href='#'>Digital Marketing</a></li>
+            <li><ChevronRight style={{position: 'absolute', left: '-8%', top: '30%'}}/><a>E-Commerce</a></li>
+            <li><ChevronRight style={{position: 'absolute', left: '-8%', top: '42%'}}/><a>Game Design & Development</a></li>
+            <li><ChevronRight style={{position: 'absolute', left: '-8%', top: '54%'}}/><a>2D/3D Animation</a></li>
+            <li><ChevronRight style={{position: 'absolute', left: '-8%', top: '67%'}}/><a>Block Chain Development</a></li>
+            <li><ChevronRight style={{position: 'absolute', left: '-8%', top: '79%'}}/><a>NFT</a></li>
+            <li><ChevronRight style={{position: 'absolute', left: '-8%', top: '92%'}}/><a>Artificial Intelligence</a></li>
             </nav>
         </div>
         <div className='contact-link'>
             <h1>Contact us</h1>
-            <nav>
-            <li><a href='https://steptech.com.au/'>home</a></li>
-            <li><a className='about'>about us</a></li>
-            <li><a className='portfolio'>portfolio</a></li>
-            <li><a className='contact'>contact us</a></li>
-            <li><a className='blog'>blog</a></li>
+            <nav className='contact-foolinks'>
+            <li><img src='https://i.ibb.co/b3XwQZv/aus-flag.png'/><a href='#'>AUS: +61 410 025 346</a></li>
+            <li><img src='https://i.ibb.co/Jd2ytp6/Untitled-design-1-1.png'/><a>USA: (877) 229 0844</a></li>
+            <li><img src='https://i.ibb.co/F40skg4/uk-flag.png'/><a className='portfolio'>UK: +44 203 038 4780</a></li>
+            <li><img src='https://i.ibb.co/Wn56L99/pk-flag.png'/><a className='contact'>PK: +92 304 298 9911</a></li>
             </nav>
         </div>
+        <div className='copyright'>&nbsp;
+        <h1 className='copyright-h1'>Copyright© [2024] Steptechglobal</h1>
+        </div>
+       
     </div>
   )
 }

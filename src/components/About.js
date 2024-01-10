@@ -9,8 +9,11 @@ const About = () => {
         <div id='line1-about'></div>
         <div id='line2-about'></div>
         <div id='line3-about'></div>
-        <h1 className='right-heading'>WHERE YOUR VISION IS REALISED</h1>
-      <p className='right-p'>Step Tech is a software development and web design 
+        <h1 className='right-heading'>
+          WHERE YOUR VISION IS REALISED
+        </h1>
+      <p className='right-p'>
+        Step Tech is a software development and web design 
       company. We provide State of the art IT solutions for small and medium 
       businesses and enterprises. We've helped hundreds of businesses plan, 
       develop and manage the perfect websites and apps for their internal needs 

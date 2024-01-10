@@ -28,17 +28,19 @@ const Solution = () => {
         <div className='sol-background'></div>
         <div id='sol-line1'></div>
         <div id='sol-line2'></div>
-        <h1 class='sol-heading-left'>ONE-STOP CREATIVE DESIGN & DEVELOPMENT SOLUTION</h1>
-        <h2 className='sol-heading2-left'>Step Tech Is A Creative Design & Software 
+        <h1 class='sol-heading-left' >ONE-STOP CREATIVE DESIGN & DEVELOPMENT SOLUTION</h1>
+        <h2 className='sol-heading2-left' >Step Tech Is A Creative Design & Software 
           Development Company Based In Melbourne, Australia.</h2>
-        <p className='sol-para-left'>We provide creative, IT, and digital marketing solutions to small and medium 
+        <p className='sol-para-left' >We provide creative, IT, and digital marketing solutions to small and medium 
           enterprises using cutting-edge technology. We do not only help businesses with brand 
           designs, websites, apps, and game design and development, 2D & 3D animation, product 
           photography, and videography but also optimize their digital potential with SEO, social 
           media, and search engine management. It’s what makes us a complete software development 
           company.
         </p>
-        <Link to='/step-tech-on-designrush' className='btn-design'>Step Tech on designrush</Link>
+        <Link to='/step-tech-on-designrush' className='btn-design'>
+          Step Tech on designrush
+        </Link>
         <div className='right-side'>
           <img src='https://i.ibb.co/WDV5tKS/Layer-1.png' alt="layer"/>
           <div className='right-half'>&nbsp;
@@ -53,14 +55,14 @@ const Solution = () => {
             <img className='re' src={re} alt='react'/>
             <img className='fl' src={fl} alt='flutter'/>
             <img className='sw' src={sw} alt='swift'/>
-            <img className='wf' src={wf} alt='wf'/>
-            <img className='fb' src={fb} alt='firebase'/>
-            <img className='aws' src={aws} alt='aws'/>
-            <img className='xd' src={xd} alt='xd'/>
-            <img className='fg' src={fg} alt='figma'/>
-            <img className='ht' src={ht} alt='html'/>
-            <img className='ko' src={ko} alt='ko'/>
-            <img className='gc' src={gc} alt='googlecloud'/>
+            <img className='wf' data-aos="slide-up" data-aos-duration="600" data-aos-easing="ease-in-sine" src={wf} alt='wf'/>
+            <img className='fb' data-aos="slide-right" data-aos-duration="600" data-aos-easing="ease-in-sine" src={fb} alt='firebase'/>
+            <img className='aws' data-aos="slide-left" data-aos-duration="600" data-aos-easing="ease-in-sine" src={aws} alt='aws'/>
+            <img className='xd'  data-aos="slide-up" data-aos-duration="600" data-aos-easing="ease-in-sine" src={xd} alt='xd'/>
+            <img className='fg' data-aos="slide-down" data-aos-duration="600" data-aos-easing="ease-in-sine" src={fg} alt='figma'/>
+            <img className='ht' data-aos="slide-up" data-aos-duration="600" data-aos-easing="ease-in-sine" src={ht} alt='html'/>
+            <img className='ko' data-aos="slide-right" data-aos-duration="600" data-aos-easing="ease-in-sine" src={ko} alt='ko'/>
+            <img className='gc' data-aos="slide-left" data-aos-duration="600" data-aos-easing="ease-in-sine"src={gc} alt='googlecloud'/>
             <img className='st' src={st} alt='stack'/>
           </div>
         </div>

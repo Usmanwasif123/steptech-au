@@ -47,9 +47,19 @@
     left: 1%; 
     top: 40%;
 }
+
+.dis-grid .dis-img{
+    position: absolute;
+    top: 4%;
+    left: 40%;
+    height: 60px;
+    width: 60px;
+}
+
 .discovery{
     font-size: 30px;
     color: #fff;
+    padding-top: 12px;
 }
 .dis-p{
     font-size: 20px;
@@ -63,15 +73,26 @@
     left: 26%; 
     top: 40%;
 }
+
+.des-grid .des-img{
+    position: absolute;
+    top: 4%;
+    left: 40%;
+    height: 60px;
+    width: 60px;
+}
+
 .design{
     font-size: 30px;
     color: #fff;
+    padding-top: 12px;
 }
+
 .des-p{
     font-size: 20px;
     color: #fff;
-    margin: 20px -70px 0px -70px;
-    padding: 75px 0px 0px 0px;
+    margin: 0px -100px 0px -130px;
+    padding: 65px 40px 0px 65px;
 }
 .dev-grid{
     position: absolute;
@@ -79,16 +100,25 @@
     left: 51%; 
     top: 40%;
 }
+
+.dev-grid .dev-img{
+    position: absolute;
+    top: 4%;
+    left: 40%;
+    height: 60px;
+    width: 60px;
+}
 .develop{
     font-size: 30px;
     color: #fff;
-
+    padding-top: 12px;
 }
+
 .dev-p{
     font-size: 20px;
     color: #fff;
-    margin: 20px -70px 0px -70px;
-    padding: 50px 0px 0px 0px;
+    margin: 0px -70px 0px -70px;
+    padding: 65px 0px 0px 0px;
 }
 .dep-grid{
     position: absolute;
@@ -96,13 +126,24 @@
     left: 76%; 
     top: 40%;
 }
+
+.dep-grid .dep-img{
+    position: absolute;
+    top: 4%;
+    left: 40%;
+    height: 60px;
+    width: 60px;
+}
+
 .deploy{
     font-size: 30px;
     color: #fff;
+    padding-top: 12px;
 }
+
 .dep-p{
     font-size: 20px;
     color: #fff;
-    margin: 20px -70px 0px -70px;
-    padding: 75px 0px 0px 0px;
+    margin: 0px -70px 0px -70px;
+    padding: 90px 0px 0px 0px;
 }
