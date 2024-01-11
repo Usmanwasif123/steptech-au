@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.achoose-container{
+    height: 100vh;
+    width: 98.7vw;
+    background: #fff;
+    margin-top: 280px;
+    position: relative;
+}
+
+.achoose-container img{
+    height: 100vh;
+    width: 98.7vw;
+    margin-left: -1px;
+    position: relative;
+}
+.achoose-container h1{
+    position: absolute;
+    z-index: 2;
+    top: 25%;
+    left: 35%;
+    color: #fff;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.achoose-container h2{
+    position: absolute;
+    z-index: 2;
+    top: 35%;
+    left: 37%;
+    color: #fff;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+
+.achoose-grid1{
+    position: absolute;
+    z-index: 2;
+    left: 15%;
+}
+
+.achoose-item1 h2{
+    font-family: Poppins, sans-serif;
+    font-size: 20px;
+    position: absolute;
+    left: 2%;
+    top: 50%;
+
+}
+.achoose-grid2{
+    position: absolute;
+    z-index: 2;
+    left: 35%;
+}
+
+.achoose-item2 h2{
+    font-family: Poppins, sans-serif;
+    font-size: 20px;
+    position: absolute;
+    left: 2%;
+    top: 50%;
+
+}
+
+.achoose-grid3{
+    position: absolute;
+    z-index: 2;
+    left: 55%;
+}
+.achoose-item3 h2{
+    font-family: Poppins, sans-serif;
+    font-size: 20px;
+    position: absolute;
+    left: 2%;
+    top: 50%;
+}
+
+.achoose-grid4{
+    position: absolute;
+    z-index: 2;
+    left: 75%;
+}
+.achoose-item4 h2{
+    font-family: Poppins, sans-serif;
+    font-size: 20px;
+    position: absolute;
+    left: 2%;
+    top: 50%;
+}
+
+

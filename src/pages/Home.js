@@ -7,7 +7,7 @@ import Tetra from '../components/Tetra';
 import { OrbitControls } from '@react-three/drei';
 import Tetra1 from '../components/Tetra1';
 import Tetra2 from '../components/Tetra2';
-import About from '../components/About';
+import Vision from '../components/Vision';
 import Solution from '../components/Solution';
 import Services from '../components/Services';
 import Process from '../components/Process';
@@ -33,7 +33,7 @@ const Home = () => {
       </Canvas>
       <Navbar/>
       <Quote/>
-      <About/>
+      <Vision/>
       <Solution/>
       <Services/>
       <Process/>

@@ -102,29 +102,19 @@ const Contact = () => {
       <button className='submit-btn' type='submit'>send message</button>
       </form>
       <div className='contact-box1' >&nbsp;</div>
-     
-          <Slider className='contact-slider'{...setting}>
-          <Grid container spacing={1}>
-        <Grid item xs={6} md={4} className='contact-grid1'>
-        <Item className='contact-item1'>
-            <DraftsOutlined style={{transform:'scale(2.5)', position:'absolute', top: '20%',left: '45%', color: '#fff' }}/>
-            <h2>CONSTANT CLIENT CO-ORDINATION</h2>
-        </Item>
-        </Grid>
-        <Grid item xs={6} md={4} className='contact-grid2'>
-        <Item className='contact-item2'>
-        <DraftsOutlined style={{transform:'scale(2.5)', position:'absolute', top: '20%', left: '45%', color: '#fff'}}/>
-            <h2>SUPREME CUSTOMER SATISFACTION</h2>
-        </Item>
-        </Grid>
-        <Grid item xs={6} md={4} className='contact-grid3'>
-        <Item className='contact-item3'>
-        <DraftsOutlined style={{transform:'scale(2.5)', position:'absolute', top: '20%', left: '45%', color: '#fff'}}/>
-            <h2>100% OWNERSHIP RIGHTS</h2>
-        </Item>
-        </Grid>
-        </Grid>
-        </Slider>
+      <div className='contact-carousel'>
+          <Slider {...setting}>
+            <div>
+            <h3 className='h1-ai'>Artificial intelligence</h3>
+            </div> 
+            <div>
+            <h3 className='h1-ai'>Artificial intelligence</h3>
+            </div>
+            <div>
+            <h3 className='h1-ai'>Artificial intelligence</h3>
+            </div> 
+          </Slider>
+      </div>
     </div>
   )
 }

@@ -46,26 +46,24 @@
     text-transform: capitalize;
     color: #fff;
     top: 9%;
-    left: 35%;
+    left: 36%;
     cursor: pointer;
     text-decoration: none;
 }
 
 .nav-items .about{
-    left: 41%;
+    left: 43%;
 }
 .nav-items .service{
-    left: 49%;
+    left: 52%;
 }
 
 .nav-items .portfolio{
-    left: 56%;
+    left: 60%;
 }
-.nav-items .contact{
-    left: 64%;
-}
+
 .nav-items .blog{
-    left: 73%;
+    left: 68%;
 }
 
 .quote-btn{
@@ -83,8 +81,8 @@
     z-index: 1;
     outline: 1px solid #fff;
     background: transparent;
-    top: 7%;
-    left: 80%;
+    top: 8%;
+    left: 78%;
 }
 
 .banner-line{
@@ -123,6 +121,7 @@
     font-weight: 700;
     line-height: 100.5px; 
     letter-spacing: -1px;
+    text-transform: capitalize;
 }
 .banner-half-h {
     position: absolute;
@@ -140,6 +139,13 @@ h1.digital {
     color: #6C50B1;
     margin-top: -45px;
     margin-left: 70px;
+    text-transform: capitalize;
+    font-family: Poppins, sans-serif;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100.5px; 
+    letter-spacing: -1px;
 }
 
 .banner-heading .potential {
@@ -154,6 +160,7 @@ h1.digital {
     font-weight: 700;
     line-height: 100.5px; 
     letter-spacing: -1px;
+    text-transform: capitalize;
 }
 
 #line1{

@@ -3,7 +3,7 @@
     padding: 0px;
 }
 
-.expertise-container{
+.brand-container{
     height: 90vh;
     width: 98.7vw;
     background-color: #fff;
@@ -25,7 +25,7 @@
 }
 
 #line1-brand{
-    top: 512%;
+    top: 665%;
     left: 51.9%;
     position: absolute;
     z-index: 1;
@@ -34,7 +34,7 @@
     padding: 0px 50px 4px 100px;
 }
 #line2-brand{
-    top: 512%;
+    top: 665%;
     left: 63.2%;
     position: absolute;
     z-index: 1;
@@ -43,7 +43,7 @@
     padding: 0px 10px 4px 35px;
 }
 #line3-brand{
-    top: 512%;
+    top: 665%;
     left: 66.9%;
     position: absolute;
     z-index: 1;
@@ -79,64 +79,39 @@
 .exper-grid-con{
     margin:10px;
 }
-.Ecommerce {
-    font-size: 30px;
-    margin-top: -25px;
-    padding-left: 50px;
+.brand-carousel{
+    margin-top: 40px;
+    margin-left: 80px;
+    position: absolute;
+    top: 680%;
 }
-.Entertainment {
-    font-size: 30px;
-    margin-top: -25px;
-    padding-left: 50px;
+
+.brand-carousel img{
+    height: 100px;
+    cursor: pointer;
 }
-.NewsWeather {
-    font-size: 28px;
-    margin-top: -25px;
-    padding-left: 49px;
-    padding-bottom: 2px;
+
+.brand-carousel .slick-slider {
+    width: 500px !important;
 }
-.Realestate {
-    font-size: 30px;
-    margin-top: -25px;
-    padding-left: 5px;
+.slick-dots li.slick-active button:before {
+    color: #3C4B90 !important;
 }
-.Social{
-    font-size: 27px;
-    margin-top: -25px;
-    padding-left: 48px;
+
+.slick-dots li button:before {
+    color: #DDE3FF;
+    font-size: 1.5rem !important;
+    top: 2rem !important;
 }
-.Sports {
-    font-size: 30px;
-    margin-top: -28px;
-    margin-left: -50px;
+
+.brand-carousel .slick-prev {
+    display: none;
+    left: 0px;
+
 }
-.OnDemand {
-    font-size: 30px;
-    margin-top: -25px;
-    padding-left: 10px;
-}
-.Healthcare {
-    font-size: 30px;
-    margin-top: -25px;
-    padding-left: 10px;
-}
-.Airline {
-    font-size: 30px;
-    margin-top: -25px;
-    margin-left: -50px;
-}
-.Medical {
-    font-size: 30px;
-    margin-top: -25px;
-    margin-left: -50px;
-}
-.Event {
-    font-size: 30px;
-    margin-top: -25px;
-    margin-left: -50px;
-}
-.Entertainments {
-    font-size: 30px;
-    margin-top: -25px;
-    padding-left: 50px;
+.brand-carousel .slick-next{
+    display: none;
+    right: 0px;
+    margin-right: -20px;
+
 }

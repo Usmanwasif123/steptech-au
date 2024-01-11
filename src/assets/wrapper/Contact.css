@@ -147,118 +147,41 @@
     color: #fff;
 }
 
-.contact-grid1{
+.contact-carousel{
+    margin-top: 40px;
+    margin-left: 100px;
     position: absolute;
+    top: 30%;
     z-index: 2;
-    left: 4%;
 }
 
-.contact-item1 h2{
-    font-family: Poppins, sans-serif;
-    font-size: 20px;
-    position: absolute;
-    left: 2%;
-    top: 0%;
-
-}
-.contact-grid2{
-    position: absolute;
-    z-index: 2;
-    left: 23%;
+.bcontact-carousel img{
+    height: 50px;
+    cursor: pointer;
 }
 
-.contact-item2 h2{
-    font-family: Poppins, sans-serif;
-    font-size: 20px;
-    position: absolute;
-    left: 2%;
-    top: 0%;
-
+.contact-carousel .slick-slider {
+    width: 450px !important;
+    margin-left: 700px;
+}
+.slick-dots li.slick-active button:before {
+    color: #3C4B90 !important;
 }
 
-.contact-grid3{
-    position: absolute;
-    z-index: 2;
-    left: 42%;
-}
-.contact-item3 h2{
-    font-family: Poppins, sans-serif;
-    font-size: 20px;
-    position: absolute;
-    left: 2%;
-    top: 0%;
-
+.slick-dots li button:before {
+    color: #DDE3FF;
+    font-size: 1rem !important;
+    top: 5rem !important;
 }
 
-.contact-div1{
-    height: 100px;
-    padding-bottom: 20px;
-    width: 0px;
-    background: #df0d0d;
-   
-}
+.contact-carousel .slick-prev {
+    display: none;
+    left: 0px;
 
-.head-p{
-    background: #fff;
-    font-size: 10px;
-    font-family: Poppins, sans-serif;
-    position: absolute;
-    z-index: 3;
-    padding: 1px 0px 1px 0px;
-    margin: 10px 0px 10px 100px;
-    left: -50%;
-    color: #333;
-    height: 50vh;
 }
+.contact-carousel .slick-next{
+    display: none;
+    right: 0px;
+    margin-right: -20px;
 
-.head-p span{
-    background: #fff;
-    font-size: 10px;
-    font-family: Poppins, sans-serif;
-    position: absolute;
-    z-index: 3;
-    padding: 1px 0px 1px 0px;
-    margin: -18px 0px 10px 750px;
-    left: 15%;
-    color: #333;
-}
-
-.contact-email{
-    position: absolute;
-    z-index: 4;
-    top: 100%;
-    font-size: 20px;
-    font-family: Poppins, sans-serif;
-    color: #fff;
-}
-
-.contact-slider .slick-slider {
-    width: 50px !important;
-}
-
-.contact-slider .slick-slide div{
-    margin:0 1px;
-}
-
-.contact-slider .slick-dots li.slick-active button:before {
-    color: #fff !important;
-    margin-left: 300px;
-}
-.contact-slider .slick-dots li button:before {
-    color: #333;
-    font-size: 0.6rem !important;
-    top: 2rem !important;
-    margin-left: 300px;
-    margin-top: 130px;
-}
-
-.contact-slider .slick-initialized .slick-slide {
-    display: flex;
-}
-
-.contact-slider .slick-prev {
-  display: none !important;
-}
-.contact-slider .slick-next{
-    display: none !important;
 }

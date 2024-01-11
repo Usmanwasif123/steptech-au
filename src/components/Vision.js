@@ -1,14 +1,14 @@
 import React from 'react';
-import '../assets/wrapper/About.css';
+import '../assets/wrapper/Vision.css';
 import {Link} from 'react-router-dom';
 
 const About = () => {
   return (
-    <div className='about-main'>
-        <h1 className='right-about'>About Us</h1>
-        <div id='line1-about'></div>
-        <div id='line2-about'></div>
-        <div id='line3-about'></div>
+    <div className='vision-main'>
+        <h1 className='right-vision'>About Us</h1>
+        <div id='line1-vision'></div>
+        <div id='line2-vision'></div>
+        <div id='line3-vision'></div>
         <h1 className='right-heading'>
           WHERE YOUR VISION IS REALISED
         </h1>
@@ -26,10 +26,10 @@ const About = () => {
       Having been in the creative and IT industry for longer than a decade, our 
       focus is on understanding the specific need of our clients. Integrating this.
       </p>
-      <Link to='/read-more' className='btn-aboutread'>read more</Link>
+      <Link to='/read-more' className='btn-visionread'>read more</Link>
       <div className='box'>&nbsp;</div>
       <div className='box1' >&nbsp;</div>
-      <div className='about-image'>
+      <div className='vision-image'>
       </div>
     </div>
   )

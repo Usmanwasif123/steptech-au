@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import '../assets/wrapper/Brand.css';
 import { Grid, styled, Paper } from '@mui/material';
 import { ShoppingCart, HeadsetMic, Cloud, 
@@ -6,19 +6,85 @@ import { ShoppingCart, HeadsetMic, Cloud,
          SignalCellularAlt, LocalHospital, Flight, 
          MonitorHeart, Celebration, PersonalVideo}
      from '@mui/icons-material';
+import Slider from 'react-slick';
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 const Brand = () => {
-    const Item = styled(Paper)(({ theme }) => ({
-        backgroundColor: theme.palette.mode === '#fff',
-        padding: theme.spacing(2),
-        textAlign: 'center',
-        border: '2px solid #333',
-        borderRadius: '10px',
-        margin: '5px',
-      }));
+
+  const[setting, setSetting] = useState({
+    dots: true,
+    infinite: true,
+    autoplay: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    initialSlide: 0,
+    responsive: [
+      {
+        breakpoint: 1920,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: true
+        }
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          initialSlide: 2
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      },
+      {
+        breakpoint: 320,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      }
+    ]
+      });
 
   return (
-    <div className='expertise-container'>
+    <div className='brand-container'>
+      <div className='brand-carousel'>
+          <Slider {...setting}>
+            <div>
+                <img src='https://i.ibb.co/WvR8mck/image.png' alt='ai'/>
+            </div> 
+            <div>
+                <img src='https://i.ibb.co/VxmvFKy/image.png' alt='ai'/>
+            </div>
+            <div>
+                <img src='https://i.ibb.co/HFc9GBq/image.png' alt='ai'/>
+            </div> 
+            <div>
+                <img src='https://i.ibb.co/hsqPR4Y/image.png' alt='ai'/>
+              </div>
+            <div>
+                <img src='https://i.ibb.co/jDp4WFv/image.png' alt='ai'/>
+            </div> 
+            <div>
+                <img src='https://i.ibb.co/3WWnwR5/image.png' alt='ai'/>
+            </div>
+            <div>
+                <img src='https://i.ibb.co/SB1P0ny/image.png' alt='ai'/>
+            </div>
+            <div>
+                <img src='https://i.ibb.co/Cm34K0Q/image.png' alt='ai'/>
+            </div> 
+          </Slider>
+      </div>
         <h1 className='let-heading'>LET US INTRODUCE YOU!</h1>
         <div id='line1-brand'></div>
         <div id='line2-brand'></div>
