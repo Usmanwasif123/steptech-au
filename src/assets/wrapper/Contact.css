@@ -149,7 +149,7 @@
 
 .contact-carousel{
     margin-top: 40px;
-    margin-left: 100px;
+    margin-left: 180px;
     position: absolute;
     top: 30%;
     z-index: 2;
@@ -161,22 +161,22 @@
 }
 
 .contact-carousel .slick-slider {
-    width: 450px !important;
+    width: 400px !important;
     margin-left: 700px;
 }
+.contact-carousel
 .slick-dots li.slick-active button:before {
     color: #3C4B90 !important;
 }
 
-.slick-dots li button:before {
+.contact-carousel .slick-dots li button:before {
     color: #DDE3FF;
-    font-size: 1rem !important;
+    font-size: 0.5rem !important;
     top: 5rem !important;
 }
 
 .contact-carousel .slick-prev {
     display: none;
-    left: 0px;
 
 }
 .contact-carousel .slick-next{

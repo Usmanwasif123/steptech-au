@@ -16,7 +16,7 @@ const Contact = () => {
     position: 'absolute',
     height: '100px',
     width: '70px',
-    left: '2%',
+    left: '10%',
     top: '-100%',
 }));
 
