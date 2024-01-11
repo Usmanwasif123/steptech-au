@@ -4,9 +4,22 @@ import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import {DraftsOutlined,PhoneInTalkOutlined, PinDropOutlined } from '@mui/icons-material';
+import { Grid, styled, Paper } from '@mui/material';
 
 
 const Contact = () => {
+  const Item = styled(Paper)(({ theme }) => ({
+    padding: theme.spacing(10),
+    textAlign: 'center',
+    background: 'transparent',
+    border: '1px solid #fff',
+    position: 'absolute',
+    height: '100px',
+    width: '70px',
+    left: '2%',
+    top: '-100%',
+}));
+
   const[setting, setSetting] = useState({
     dots: true,
     infinite: true,
@@ -89,25 +102,29 @@ const Contact = () => {
       <button className='submit-btn' type='submit'>send message</button>
       </form>
       <div className='contact-box1' >&nbsp;</div>
-      <div className='contact-carousel'>
+     
           <Slider className='contact-slider'{...setting}>
-            <div className='contact-div'></div> 
-              <p className='head-p'>Take your business higher than ever of accomplishment with our 
-                  unrivaled administrations.<br/><span>Reach out at this point!</span>
-              </p>
-              <DraftsOutlined style={{position: 'absolute', zIndex: '2', transform:'scale(3.0)', top: '-20%'}}/>
-            <div>
-                {/*<p>Take your business higher than ever of accomplishment with our 
-                  unrivaled administrations.Reach out at this point!
-                 </p>*/}
-            </div>
-            <div>
-                 {/*<p>Take your business higher than ever of accomplishment with our 
-                  unrivaled administrations.Reach out at this point!
-                 </p>*/}
-            </div> 
-          </Slider>
-      </div>
+          <Grid container spacing={1}>
+        <Grid item xs={6} md={4} className='contact-grid1'>
+        <Item className='contact-item1'>
+            <DraftsOutlined style={{transform:'scale(2.5)', position:'absolute', top: '20%',left: '45%', color: '#fff' }}/>
+            <h2>CONSTANT CLIENT CO-ORDINATION</h2>
+        </Item>
+        </Grid>
+        <Grid item xs={6} md={4} className='contact-grid2'>
+        <Item className='contact-item2'>
+        <DraftsOutlined style={{transform:'scale(2.5)', position:'absolute', top: '20%', left: '45%', color: '#fff'}}/>
+            <h2>SUPREME CUSTOMER SATISFACTION</h2>
+        </Item>
+        </Grid>
+        <Grid item xs={6} md={4} className='contact-grid3'>
+        <Item className='contact-item3'>
+        <DraftsOutlined style={{transform:'scale(2.5)', position:'absolute', top: '20%', left: '45%', color: '#fff'}}/>
+            <h2>100% OWNERSHIP RIGHTS</h2>
+        </Item>
+        </Grid>
+        </Grid>
+        </Slider>
     </div>
   )
 }

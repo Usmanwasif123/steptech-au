@@ -147,32 +147,80 @@
     color: #fff;
 }
 
-.contact-carousel{
+.contact-grid1{
     position: absolute;
     z-index: 2;
-    top: 20%;
-    left: 10%;
+    left: 4%;
 }
 
-.contact-div{
-    height: 200px;
-    padding-bottom: 20px;
+.contact-item1 h2{
+    font-family: Poppins, sans-serif;
     font-size: 20px;
-    width: 50px;
+    position: absolute;
+    left: 2%;
+    top: 0%;
+
+}
+.contact-grid2{
+    position: absolute;
+    z-index: 2;
+    left: 23%;
+}
+
+.contact-item2 h2{
+    font-family: Poppins, sans-serif;
+    font-size: 20px;
+    position: absolute;
+    left: 2%;
+    top: 0%;
+
+}
+
+.contact-grid3{
+    position: absolute;
+    z-index: 2;
+    left: 42%;
+}
+.contact-item3 h2{
+    font-family: Poppins, sans-serif;
+    font-size: 20px;
+    position: absolute;
+    left: 2%;
+    top: 0%;
+
+}
+
+.contact-div1{
+    height: 100px;
+    padding-bottom: 20px;
+    width: 0px;
+    background: #df0d0d;
+   
 }
 
 .head-p{
     background: #fff;
-    font-size: 50px;
+    font-size: 10px;
     font-family: Poppins, sans-serif;
     position: absolute;
     z-index: 3;
-    padding: 1px 250px 1px 1px;
-    margin: 10px 200px 10px 100px;
-    height: 200px;
+    padding: 1px 0px 1px 0px;
+    margin: 10px 0px 10px 100px;
+    left: -50%;
+    color: #333;
+    height: 50vh;
+}
 
-    left: -40%;
-
+.head-p span{
+    background: #fff;
+    font-size: 10px;
+    font-family: Poppins, sans-serif;
+    position: absolute;
+    z-index: 3;
+    padding: 1px 0px 1px 0px;
+    margin: -18px 0px 10px 750px;
+    left: 15%;
+    color: #333;
 }
 
 .contact-email{

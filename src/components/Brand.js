@@ -1,5 +1,5 @@
 import React from 'react';
-import '../assets/wrapper/Expertise.css';
+import '../assets/wrapper/Brand.css';
 import { Grid, styled, Paper } from '@mui/material';
 import { ShoppingCart, HeadsetMic, Cloud, 
          Home, ConnectWithoutContact, SportsGymnastics,
@@ -7,7 +7,7 @@ import { ShoppingCart, HeadsetMic, Cloud,
          MonitorHeart, Celebration, PersonalVideo}
      from '@mui/icons-material';
 
-const Expertise = () => {
+const Brand = () => {
     const Item = styled(Paper)(({ theme }) => ({
         backgroundColor: theme.palette.mode === '#fff',
         padding: theme.spacing(2),
@@ -32,4 +32,4 @@ const Expertise = () => {
   )
 }
 
-export default Expertise
+export default Brand

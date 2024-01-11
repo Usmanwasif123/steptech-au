@@ -10,7 +10,6 @@ import Tetra2 from '../components/Tetra2';
 import About from '../components/About';
 import Solution from '../components/Solution';
 import Services from '../components/Services';
-import Expertise from '../components/Expertise';
 import Process from '../components/Process';
 import Presentation from '../components/Presentation';
 import Partner from '../components/Partner';
@@ -18,6 +17,7 @@ import Chooseus from '../components/Chooseus';
 import Clients from '../components/Clients';
 import Contact from '../components/Contact';
 import Footer from '../components/Footer';
+import Brand from '../components/Brand';
 
 const Home = () => {
   return (
@@ -36,8 +36,8 @@ const Home = () => {
       <About/>
       <Solution/>
       <Services/>
-      <Expertise/>
       <Process/>
+      <Brand/>
       <Presentation/>
       <Partner/>
       <Chooseus/>
