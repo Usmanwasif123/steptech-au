@@ -105,13 +105,37 @@ const Contact = () => {
       <div className='contact-carousel'>
           <Slider {...setting}>
             <div>
-            <h3 className='h1-ai'>Artificial intelligence</h3>
+            <h3 className='contact-ai'>Take your business higher than ever of accomplishment with our 
+            unrivaled administrations.
+            </h3>
+            <DraftsOutlined/>
+            <p>sales@steptechglobal.com</p>
+            <PhoneInTalkOutlined/>
+            <p>+61 410 025 346</p>
+            <PinDropOutlined/>
+            <p>Australia</p>
             </div> 
             <div>
-            <h3 className='h1-ai'>Artificial intelligence</h3>
+            <h3 className='contact-ai'>Take your business higher than ever of accomplishment with our 
+            unrivaled administrations.
+            </h3>
+            <DraftsOutlined/>
+            <p>sales@steptechglobal.com</p>
+            <PhoneInTalkOutlined/>
+            <p>+61 410 025 346</p>
+            <PinDropOutlined/>
+            <p>Australia</p>
             </div>
             <div>
-            <h3 className='h1-ai'>Artificial intelligence</h3>
+            <h3 className='contact-ai'>Take your business higher than ever of accomplishment with our 
+            unrivaled administrations.
+            </h3>
+            <DraftsOutlined/>
+            <p>sales@steptechglobal.com</p>
+            <PhoneInTalkOutlined/>
+            <p>+61 410 025 346</p>
+            <PinDropOutlined/>
+            <p>Australia</p>
             </div> 
           </Slider>
       </div>
