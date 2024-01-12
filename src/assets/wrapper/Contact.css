@@ -148,39 +148,59 @@
 }
 
 .contact-carousel{
-    margin-top: 40px;
+    margin-top: -50px;
     margin-left: 220px;
     position: absolute;
     top: 30%;
     z-index: 2;
 }
 
-.bcontact-carousel img{
-    height: 50px;
-    cursor: pointer;
+.contact-carousel .contact-ai{
+    color: #fff;
+    margin-left: -1px;
+    font-size: 18px;
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 131.492% */
+    letter-spacing: -0.331px
 }
-
+.contact-carousel .contact-email-p{
+    color: #fff;
+    margin-left: 35px;
+    margin-top: 67px;
+    font-size: 16px;
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 131.492% */
+    letter-spacing: -0.100px;
+    text-transform: lowercase;
+}
+.contact-carousel .slick-slider div{
+    height: 350px;
+}
 .contact-carousel .slick-slider {
     width: 340px !important;
     margin-left: 700px;
 }
 .contact-carousel
 .slick-dots li.slick-active button:before {
-    color: #3C4B90 !important;
+    color: #333 !important;
 }
 
 .contact-carousel .slick-dots li button:before {
-    color: #DDE3FF;
-    font-size: 0.5rem !important;
-    top: 5rem !important;
+    color: #fff;
+    font-size: 0.6rem !important;
+    top: 3rem !important;
+    left: -1.5rem;
 }
 
-.contact-carousel .slick-prev {
-    display: none;
+.contact-carousel .slick-prev { 
+    left: -20px;
 
 }
 .contact-carousel .slick-next{
-    display: none;
     right: 0px;
     margin-right: -20px;
 

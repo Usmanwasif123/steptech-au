@@ -108,33 +108,33 @@ const Contact = () => {
             <h3 className='contact-ai'>Take your business higher than ever of accomplishment with our 
             unrivaled administrations.
             </h3>
-            <DraftsOutlined/>
+            <DraftsOutlined style={{position: 'absolute', zIndex: '3', top: '45%', fontSize: '40px', color: '#fff'}}/>
             <p>sales@steptechglobal.com</p>
-            <PhoneInTalkOutlined/>
+            <PhoneInTalkOutlined style={{position: 'absolute', zIndex: '3', top: '70%', fontSize: '40px', color: '#fff'}}/>
             <p>+61 410 025 346</p>
-            <PinDropOutlined/>
+            <PinDropOutlined style={{position: 'absolute', zIndex: '3', top: '90%', fontSize: '40px', color: '#fff'}}/>
             <p>Australia</p>
             </div> 
             <div>
             <h3 className='contact-ai'>Take your business higher than ever of accomplishment with our 
             unrivaled administrations.
             </h3>
-            <DraftsOutlined/>
-            <p>sales@steptechglobal.com</p>
-            <PhoneInTalkOutlined/>
+            <DraftsOutlined style={{position: 'absolute', zIndex: '3', top: '45%', fontSize: '40px', color: '#fff'}}/>
+            <p className='contact-email-p'>sales@steptechglobal.com</p>
+            <PhoneInTalkOutlined style={{position: 'absolute', zIndex: '3', top: '70%', fontSize: '40px', color: '#fff'}}/>
             <p>+61 410 025 346</p>
-            <PinDropOutlined/>
+            <PinDropOutlined style={{position: 'absolute', zIndex: '3', top: '90%', fontSize: '40px', color: '#fff'}}/>
             <p>Australia</p>
             </div>
             <div>
             <h3 className='contact-ai'>Take your business higher than ever of accomplishment with our 
             unrivaled administrations.
             </h3>
-            <DraftsOutlined/>
+            <DraftsOutlined style={{position: 'absolute', zIndex: '3', top: '45%', fontSize: '40px', color: '#fff'}}/>
             <p>sales@steptechglobal.com</p>
-            <PhoneInTalkOutlined/>
+            <PhoneInTalkOutlined style={{position: 'absolute', zIndex: '3', top: '70%', fontSize: '40px', color: '#fff'}}/>
             <p>+61 410 025 346</p>
-            <PinDropOutlined/>
+            <PinDropOutlined style={{position: 'absolute', zIndex: '3', top: '90%', fontSize: '40px', color: '#fff'}}/>
             <p>Australia</p>
             </div> 
           </Slider>
