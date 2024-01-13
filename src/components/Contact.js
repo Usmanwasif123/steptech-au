@@ -108,8 +108,9 @@ const Contact = () => {
             <h3 className='contact-ai'>Take your business higher than ever of accomplishment with our 
             unrivaled administrations.
             </h3>
+            <span className='contact-span'>reach out at this point!</span>
             <DraftsOutlined style={{position: 'absolute', zIndex: '3', top: '45%', fontSize: '40px', color: '#fff'}}/>
-            <p>sales@steptechglobal.com</p>
+            <p className='contact-email-p1'>sales@steptechglobal.com</p>
             <PhoneInTalkOutlined style={{position: 'absolute', zIndex: '3', top: '70%', fontSize: '40px', color: '#fff'}}/>
             <p>+61 410 025 346</p>
             <PinDropOutlined style={{position: 'absolute', zIndex: '3', top: '90%', fontSize: '40px', color: '#fff'}}/>

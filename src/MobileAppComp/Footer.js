@@ -1,10 +1,10 @@
 import React from 'react';
-import '../assets/WebWrapper/Footer.css';
+import '../assets/MobileAppWrapper/Footer.css';
 import {Facebook, Instagram, LinkedIn, Twitter, ArrowRight, ChevronRight} from '@mui/icons-material/';
 
 const Footer = () => {
   return (
-    <div className='webfooter-container'>
+    <div className='footer-container'>
       <img src='https://i.ibb.co/fMtLC6F/footer.jpg' alt='footer-bg'/>
       <div className='footer-logo'><a href='https://steptech.com.au/'></a></div>
       <p>At Step Tech Global, your journey isn’t just a project; it’s our shared expedition towards excellence. 

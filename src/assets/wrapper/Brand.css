@@ -80,7 +80,7 @@
     margin:10px;
 }
 .brand-carousel{
-    margin-top: 40px;
+    margin-top: 100px;
     margin-left: 80px;
     position: absolute;
     top: 680%;
@@ -100,18 +100,16 @@
 
 .brand-carousel .slick-dots li button:before {
     color: #DDE3FF;
-    font-size: 1.5rem !important;
-    top: 2rem !important;
+    font-size: 1rem !important;
+    top: 9rem !important;
 }
 
 .brand-carousel .slick-prev {
     display: none;
-    left: 0px;
+    background: transparent;
 
 }
 .brand-carousel .slick-next{
     display: none;
-    right: 0px;
-    margin-right: -20px;
-
+    background: transparent;
 }

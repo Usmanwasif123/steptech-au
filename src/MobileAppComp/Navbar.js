@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import '../assets/WebWrapper/Navbar.css';
+import '../assets/MobileAppWrapper/Navbar.css';
 import {Link} from 'react-router-dom';
 import {FaBars, FaTimes} from 'react-icons/fa';
 import Slider from 'react-slick';
@@ -81,61 +81,15 @@ const Navbar = () => {
         </nav>
       <img src='https://i.ibb.co/Y8F8xfL/Rectangle-1.png' alt='Banner'></img>
       <div className='banner-line'></div>
-      <div className='web-banner-heading'>
-        <h1>Unleash The Power Of Pixel With Our Web Development Services<br/>
-        <p>Welcome to Step Tech Global, your expert partner in extensive web development services. 
-          From initial ideation to a successful launch, our convenient approach ensures a seamless experience 
-          through every stage of development.</p>
+      <div className='app-banner-heading'>
+        <h1>Build Your Online Success With Our Precise App Development Services<br/>
+        <p>At Step Tech Global, we are turning app concepts into digital masterpieces. As a well-known mobile app 
+        development company, we offer the best app development services to clear up your business concerns.
+        </p>
         </h1>
       </div>
-      <div className='webnavbar-carousel'>
-          <Slider {...setting}>
-            <div>
-                <img src='https://i.ibb.co/9qkyRDw/image.png' alt='wordpress'/>
-            </div> 
-            <div>
-            <img src='https://i.ibb.co/mS8mqmB/image.png' alt='elementor'/>
-            </div>
-            <div>
-            <img src='https://i.ibb.co/jLjxj3Z/image.png' alt='angular'/>
-            </div> 
-            <div>
-            <img src='https://i.ibb.co/0hgZfCw/image.png' alt='wordpress'/>
-              </div>
-            <div>
-            <img src='https://i.ibb.co/9qkyRDw/image.png' alt='wordpress'/>
-            </div> 
-            <div>
-            <img src='https://i.ibb.co/9qkyRDw/image.png' alt='wordpress'/>
-            </div>
-            <div>
-            <img src='https://i.ibb.co/9qkyRDw/image.png' alt='wordpress'/>
-            </div>
-            <div>
-            <img src='https://i.ibb.co/9qkyRDw/image.png' alt='wordpress'/>
-            </div> 
-            <div>
-            <img src='https://i.ibb.co/9qkyRDw/image.png' alt='wordpress'/>
-            </div>  
-            <div>
-            <img src='https://i.ibb.co/9qkyRDw/image.png' alt='wordpress'/>
-            </div> 
-            <div>
-            <img src='https://i.ibb.co/9qkyRDw/image.png' alt='wordpress'/>
-            </div> 
-            <div>
-            <img src='https://i.ibb.co/9qkyRDw/image.png' alt='wordpress'/>
-            </div> 
-            <div>
-            <img src='https://i.ibb.co/9qkyRDw/image.png' alt='wordpress'/>
-            </div> 
-            <div>
-            <img src='https://i.ibb.co/9qkyRDw/image.png' alt='wordpress'/>
-            </div> 
-          </Slider>
-      </div>
-      <Link to='/read-more' className='btn-read'>read more</Link>
-      <div className='webnav-image'></div>
+      <Link to='/read-more' className='appbtn-read'>read more</Link>
+      <div className='appnav-image'></div>
     </div>
    </>
   );

@@ -3,15 +3,14 @@
     padding: 0;
 }
 
-.ecommerce-container{
-    height: 100vh;
+.appsec4-container{
+    height: 120vh;
     width: 98.7vw;
-    background: linear-gradient(255deg, #7554C1 29.51%, #243F82 93.15%);
+    background: #f1f4ff;
     position: relative;
-    margin-top: 0px !important;
 }
 
-.ecommerce-left-h{
+.appsec4-container h1{
     position: absolute;
     z-index: 1;
     font-family: Poppins, sans-serif;
@@ -20,12 +19,12 @@
     font-weight: 700;
     line-height: 60px; 
     letter-spacing: -1px;
-    top: 10%;
-    left: 1%;
-    padding: 30px 600px 0px 0px;
-    color: #fff;
+    top: 5%;
+    left: 50%;
+    padding: 30px 5px 0px 0px;
+    color: #333;
 }
-.ecommerce-left-p{
+.appsec4-container p{
     position: absolute;
     z-index: 1;
     font-family: Poppins, sans-serif;
@@ -34,12 +33,13 @@
     font-weight: 400;
     line-height: 30px; 
     letter-spacing: -1px;
-    top: 40%;
-    left: 1%;
-    padding: 30px 700px 0px 0px;
-    color: #fff;
+    top: 35%;
+    left: 50%;
+    padding: 30px 50px 0px 0px;
+    color: #808080;
 }
-.ebtn{
+
+.appsec4-container .btn{ 
     display: flex;
     align-items: center;
     justify-content: center;
@@ -50,31 +50,31 @@
     position: absolute;
     border-radius: 20px;
     cursor: pointer;
-    color: #fff;
+    color: #333;
     z-index: 1;
-    outline: 1px solid #fff;
+    outline: 1px solid #333;
     background: transparent;
-    top: 80%;
-    left: 2%;
-    box-shadow: inset 0 0 0 0 #233F81;
+    top: 85%;
+    left: 50%;
+    box-shadow: inset 0 0 0 0 #333;
     -webkit-transition: ease-out 0.4s;
     -moz-transition: ease-out 0.4s;
     transition: ease-out 0.4s;
 }
 
-.ebtn:hover {
-    box-shadow: inset 0 0 0 50px #e6e1e4;
-    color: #233F81;
+.appsec4-container .btn:hover {
+    box-shadow: inset 0 0 0 50px #333;
+    color: #fff;
 }
 
-.ecom-image{
+.appsec4-container .left-img{
     position:absolute;
     z-index: 3;
-    background: url('https://i.ibb.co/pjzzGPB/image.png');
+    background: url('https://i.ibb.co/c8rgCwQ/image.png');
     height: 500px;
     width: 500px;
     top: 25%;
-    left: 55%;
+    left: 5%;
     background-size: 100%;
     background-repeat: no-repeat;
 }

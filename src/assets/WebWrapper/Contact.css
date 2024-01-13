@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-.contact-container{
+.webcontact-container{
     height: 100vh;
     width: 98.7vw;
     background: #fff;
@@ -16,7 +16,6 @@
     width: 98.7vw;
     position: relative;
 }
-
 
 .contact-box{
     top:-20%;
@@ -32,7 +31,7 @@
     padding: 600px 300px 100px 200px;
 }
 
-.contact-container h1{
+.webcontact-container h1 {
     position: absolute;
     z-index: 2;
     top: 15%;
@@ -42,7 +41,7 @@
     text-transform: capitalize;
     color: #333;
 }
-.contact-container span{
+.webcontact-container span{
     position: absolute;
     z-index: 2;
     left: 105%;
@@ -52,7 +51,7 @@
     color:#6C50B1;
 }
 
-.contact-container p{
+.webcontact-container p{
     position: absolute;
     z-index: 2;
     top: 28%;

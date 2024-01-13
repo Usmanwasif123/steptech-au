@@ -6,10 +6,10 @@ import {Link} from 'react-router-dom';
 
 const Webdevelopement = () => {
   return (
-    <div className='consultant-container'>
+    <div className='web-container'>
         <h1>Unleash The Full Potential Of Your Business With &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           Stunning Web Development Agency</h1>
-        <div id='line'></div>
+        <div className='web-line'></div>
         <p>
         Are you in search of an impeccable streaming application for your auditory recreation? You may crave a convenient
         food or shopping app to cater to your daily needs. At Step Tech Global, we not only recognize your brand’s

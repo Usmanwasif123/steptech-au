@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '../assets/WebWrapper/Contact.css';
+import '../assets/MobileAppWrapper/Contact.css';
 import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";

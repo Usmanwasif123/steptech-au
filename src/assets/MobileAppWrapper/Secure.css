@@ -3,29 +3,28 @@
     padding: 0;
 }
 
-.ecommerce-container{
+.secure-container{
     height: 100vh;
     width: 98.7vw;
-    background: linear-gradient(255deg, #7554C1 29.51%, #243F82 93.15%);
+    background: #eceefe;
     position: relative;
-    margin-top: 0px !important;
 }
 
-.ecommerce-left-h{
+.secure-left-h{
     position: absolute;
     z-index: 1;
     font-family: Poppins, sans-serif;
-    font-size: 50px;
+    font-size: 40px;
     font-style: normal;
     font-weight: 700;
-    line-height: 60px; 
+    line-height: 50px; 
     letter-spacing: -1px;
-    top: 10%;
+    top: 20%;
     left: 1%;
     padding: 30px 600px 0px 0px;
-    color: #fff;
+    color: #333;
 }
-.ecommerce-left-p{
+.secure-left-p{
     position: absolute;
     z-index: 1;
     font-family: Poppins, sans-serif;
@@ -37,9 +36,9 @@
     top: 40%;
     left: 1%;
     padding: 30px 700px 0px 0px;
-    color: #fff;
+    color: #333;
 }
-.ebtn{
+.secbtn{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -50,27 +49,27 @@
     position: absolute;
     border-radius: 20px;
     cursor: pointer;
-    color: #fff;
+    color: #333;
     z-index: 1;
-    outline: 1px solid #fff;
+    outline: 1px solid #333;
     background: transparent;
-    top: 80%;
+    top: 75%;
     left: 2%;
-    box-shadow: inset 0 0 0 0 #233F81;
+    box-shadow: inset 0 0 0 0 #333;
     -webkit-transition: ease-out 0.4s;
     -moz-transition: ease-out 0.4s;
     transition: ease-out 0.4s;
 }
 
-.ebtn:hover {
-    box-shadow: inset 0 0 0 50px #e6e1e4;
-    color: #233F81;
+.secbtn:hover {
+    box-shadow: inset 0 0 0 50px #333;
+    color: #fff;
 }
 
-.ecom-image{
+.sec-image{
     position:absolute;
     z-index: 3;
-    background: url('https://i.ibb.co/pjzzGPB/image.png');
+    background: url('https://i.ibb.co/QKdGfbh/image.png');
     height: 500px;
     width: 500px;
     top: 25%;

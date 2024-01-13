@@ -95,10 +95,10 @@
     padding: 0px 673px 1px;
 }
 
-.web-banner-heading h1{
+.app-banner-heading h1{
     position: absolute;
     z-index: 1;
-    top: 40%;
+    top: 30%;
     left: 5%;
     margin: 0px 400px 0px -20px;
     padding: 0px 100px 0px 5px;
@@ -112,7 +112,7 @@
     text-transform: capitalize;
 }
 
-.web-banner-heading p{
+.app-banner-heading p{
     position: absolute;
     z-index: 1;
     top: 120%;
@@ -128,49 +128,22 @@
     letter-spacing: -1px;
     text-transform: capitalize;
 }
-.webnavbar-carousel{
-    margin-top: -160px;
-    margin-left: -640px;
-}
-
-.webnavbar-carousel img{
-    height: 50px;
-    width: 50px;
-    cursor: pointer;
-
-}
-.webnavbar-carousel .slick-slider div{
-    height: 70px;
-}
-.webnavbar-carousel .slick-slider {
-    width: 700px !important;
-    margin-left: 700px;
-}
-.webnavbar-carousel .slick-prev {
-    top: 30%;
-    border-radius: 10px;
-}
-.webnavbar-carousel .slick-next{
-    top: 30%;
-    right: 0px;
-    margin-right: -20px;
-}
-.btn-read{
+.appbtn-read{
     display: flex;
     align-items: center;
     justify-content: center;
     text-transform: capitalize;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 25px;
     padding: 10px 25px 10px 25px;
     position: absolute;
-    border-radius: 0px 60px 60px 0px;
+    border-radius: 20px;
     cursor: pointer;
     color: #fff;
     z-index: 1;
     outline: 1px solid #fff;
     background: transparent;
-    top: 92%;
+    top: 80%;
     left: 4.5%;
     box-shadow: inset 0 0 0 0 #233F81;
     -webkit-transition: ease-out 0.4s;
@@ -178,20 +151,20 @@
     transition: ease-out 0.4s;
 }
 
-.btn-read:hover {
+.appbtn-read:hover {
     box-shadow: inset 0 0 0 50px #e6e1e4;
     color: #233F81;
 }
 
-.webnav-image{
+.appnav-image{
     position:absolute;
     z-index: 3;
-    background: url('https://i.ibb.co/NZzy8Ff/image.png');
+    background: url('https://i.ibb.co/KF1YkYy/image.png');
     height: 500px;
     width: 500px;
-    top: 30%;
-    left: 60%;
-    background-size: 100%;
+    top: 20%;
+    left: 65%;
+    background-size: 80%;
     background-repeat: no-repeat;
 }
 
