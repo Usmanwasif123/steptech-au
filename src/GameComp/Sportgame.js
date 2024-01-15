@@ -2,7 +2,7 @@ import React from 'react';
 import '../assets/GameWrapper/Sportgame.css';
 import {Link} from 'react-router-dom';
 
-const SportGame = () => {
+const Sportgame = () => {
   return (
     <div className='magneto-container'>
       <h1 className='magneto-right-h'>
@@ -19,4 +19,4 @@ const SportGame = () => {
   )
 }
 
-export default SportGame
+export default Sportgame

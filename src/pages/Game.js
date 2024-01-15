@@ -9,7 +9,7 @@ import Help from '../GameComp/Help';
 import Partner from '../GameComp/Partner';
 import GameDev from '../GameComp/GameDev';
 import ActionGame from '../GameComp/ActionGame';
-import SportGame from '../GameComp/Sportgame';
+import Sportgame from '../GameComp/SportGame';
 
 const Game = () => {
   return (
@@ -18,7 +18,7 @@ const Game = () => {
       <Quote/>
       <GameDev/>
       <ActionGame/>
-      <SportGame/>
+      <Sportgame/>
       <Shopify/>
       <Help/>
       <Process/>
