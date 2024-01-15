@@ -9,7 +9,7 @@ import Help from '../GameComp/Help';
 import Partner from '../GameComp/Partner';
 import GameDev from '../GameComp/GameDev';
 import ActionGame from '../GameComp/ActionGame';
-import Sportgame from '../GameComp/SportGame';
+import Sportgame from '../GameComp/Sportgame';
 
 const Game = () => {
   return (
