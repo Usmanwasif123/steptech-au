@@ -3,11 +3,6 @@ import '../assets/MobileAppWrapper/services.css';
 import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import ai from '../assets/images/asi.png';
-import desktop from '../assets/images/pc.png';
-import laptop from '../assets/images/pc1.png';
-import mobile from '../assets/images/mb.png';
-import {PhoneInTalk, HeadsetMic, MenuBook} from '@mui/icons-material';
 
 const Services = () => {
 
@@ -103,32 +98,40 @@ const Services = () => {
               </div>
             </div>  
             <div className='cards'>
+              <div className='card5'>
                 <img className='img5' src='https://i.ibb.co/DfLxmcT/image.png' alt='ai'/>
-                <h3 className='h5-ai'>Artificial intelligence</h3>
-                <p className='p5-ai'>Lorem Ipsum is simply dummy text of the <br/>printing and 
-                typesetting industry. Lorem Ipsum <br/>has been the industry's 
-                standard dummy text <br/>ever since the 1500s, when an unknown</p>
+                <h3 className='h5-ai'>Prototyping</h3>
+                <p className='p5-ai'>Divert your thoughts from paper to computerized structure since we make an intelligent model to catch the 
+                most recent plan ideas. It's a second to see your thoughts with your eyes and approve your ideas and plans to go with the right 
+                methodology. We cleverly discharge your items and administrations.</p>
+              </div>
             </div> 
             <div className='cards'>
                 <img className='img6' src='https://i.ibb.co/t3syVkT/image.png' alt='ai'/>
-                <h3 className='h6-ai'>Graphic Design</h3>
-                <p className='p6-ai'>Lorem Ipsum is simply dummy text of the <br/>printing and 
-                typesetting industry. Lorem Ipsum <br/>has been the industry's 
-                standard dummy text <br/>ever since the 1500s, when an unknown</p>
+                <div className='card6'>
+                <h3 className='h6-ai'>Blockchain App</h3>
+                <p className='p6-ai'>Secure your information with open-source innovation since we're specialists in blockchain application 
+                advancement. Experience a powerful 'Brilliant Worker for hire' and a legitimate decentralized structure to work cleverly in 
+                blockchains. Reshape your method of business even with portable based applications.</p>
+                </div>
             </div>
             <div className='cards'>
                 <img  className='img7' src='https://i.ibb.co/XWvvfJm/image.png' alt='ai'/>
-                <h3 className='h7-ai'>Web Design & Developement</h3>
-                <p className='p7-ai'>Lorem Ipsum is simply dummy text of the <br/>printing and 
-                typesetting industry. Lorem Ipsum <br/>has been the industry's 
-              standard dummy text <br/>ever since the 1500s, when an unknown</p>
+                <div className='card7'>
+                <h3 className='h7-ai'>AR/VR Technology</h3>
+                <p className='p7-ai'>Get the energies of advanced visual substance in reality while having our expanded reality application 
+                improvement Administrations. Experience super current AR applications to facilitate the course of any specialty, including 
+                clinical, design, inside, and land. 'Imagine something amazing, Act current' with Increased Reality Applications.</p>
+                </div>
             </div> 
             <div className='cards'>
                 <img className='img8' src='https://i.ibb.co/31gjpbg/image.png' alt='ai'/>
-                <h3 className='h8-ai'>Artificial intelligence</h3>            
-                <p className='p8-ai'>Lorem Ipsum is simply dummy text of the <br/>printing and 
-                typesetting industry. Lorem Ipsum <br/>has been the industry's 
-                standard dummy text <br/>ever since the 1500s, when an unknown</p>
+                <div className='card8'>
+                <h3 className='h8-ai'>Wearables</h3>            
+                <p className='p8-ai'>We are renowned for our wearable application improvement administrations. We assemble wearable applications
+                loaded with redid warnings and updates, simple to explore and stack, worked in sensors with bluetooth network, extreme 
+                information and solid security. Wear brilliant watches and glasses that are savvy enough to flex.</p>
+                </div>
           </div> 
           </Slider>
       </div>

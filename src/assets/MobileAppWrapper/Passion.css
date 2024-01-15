@@ -3,15 +3,15 @@
     padding: 0;
 }
 
-.service-container{
+.passion-container{
     height: 120vh;
     width: 98.7vw;
-    background: #eceefe;
+    background: #f2f5ff;
     position: relative;
-    margin-top: 350px;
+    margin-top: 0px;
 }
 
-.service-container h1{
+.passion-container h1{
     position: absolute;
     z-index: 1;
     color: #464646;
@@ -22,430 +22,142 @@
     line-height: 48.5px; 
     letter-spacing: -1px;
     top: 8%;
-    left: 5%;
-}
-.service-p{
-    position: absolute;
-    z-index: 1;
-    color: #616163;
-    text-align: center;
-    font-family: Poppins, sans-serif;
-    font-size: 15.21px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 20px; /* 131.492% */
-    letter-spacing: -0.331px;
-    top: 18%;
-    left: 2%;
-    padding: 0px 50px 0px 0px ;
+    left: 30%;
 }
 
-.carousel{
+.passion-carousel{
     box-sizing: border-box;
     padding: 5rem;
     height: 100vh;
 }
 
-.cards{
+.passion-card1{
     background: transparent;
-    height: 400px;
+    height: 420px;
     border-radius: 5px;
-    border: 2px solid #333;
-    width: 350px !important;
-
+    border: 5px solid #fff;
+    width: 360px !important;
+    margin-left: 40px;
+}
+.passion-card1 .img1{
+    height: 420px;
+    width: 360px;
+    border-radius: 5px; 
 }
 
-.cards:hover {
-    background: linear-gradient(255deg, #7554C1 29.51%, #243F82 93.15%);
-}
-.card1 .h1-ai{
-    font-size: 30px;
-    position: absolute;
-    margin-top: 90px;
+.passion-card2{
+    background: transparent;
+    height: 420px;
+    border-radius: 5px;
+    border: 5px solid #fff;
+    width: 360px !important;
     margin-left: 10px;
-    color: #333;
-}
-.card1 .p1-ai{
-   position: absolute;
-   z-index: 3;
-   margin-top: 180px; 
-   color: #616163;
-   text-align: center;
-   font-family: Poppins, sans-serif;
-   font-size: 15.21px;
-   font-style: normal;
-   font-weight: 400;
-   line-height: 20px; /* 131.492% */
-   letter-spacing: -0.331px;
-   left: 16.1%;
-   margin: 140px 2500px 0px -20px;
-   padding: 0px 3547px 0px 0px;
-}
-.card2 .h2-ai{
-    font-size: 30px;
-    position: absolute;
-    margin-top: 90px;
-    margin-left: 12px;
-    color: #333;
-}
-.card2 .p2-ai{
-   position: absolute;
-   z-index: 3;
-   margin-top: 180px; 
-   color: #616163;
-   text-align: center;
-   font-family: Poppins, sans-serif;
-   font-size: 15.21px;
-   font-style: normal;
-   font-weight: 400;
-   line-height: 20px; /* 131.492% */
-   letter-spacing: -0.331px;
-   left: 21.3%;
-   margin: 140px 2520px 0px -10px;
-   padding: 0px 3143px 0px 0px;
-}
-.card3 .h3-ai{
-    font-size: 30px;
-    position: absolute;
-    margin-top: 90px;
-    margin-left: -100px;
-    color: #333;
-}
-.card3 .p3-ai{
-   position: absolute;
-   z-index: 3;
-   margin-top: 180px; 
-   color: #616163;
-   text-align: center;
-   font-family: Poppins, sans-serif;
-   font-size: 15.21px;
-   font-style: normal;
-   font-weight: 400;
-   line-height: 20px; /* 131.492% */
-   letter-spacing: -0.331px;
-   left: 27%;
-   margin: 140px 2400px 0px -35px;
-   padding: 0px 2860px 0px 0px;
 }
 
-.card4 .h4-ai{
-    font-size: 30px;
-    position: absolute;
-    margin-top: 90px;
+.passion-card2 .img2{
+    height: 420px;
+    width: 360px;
+    border-radius: 5px; 
+
+}
+
+.passion-card3{
+    background: transparent;
+    height: 420px;
+    border-radius: 5px;
+    border: 5px solid #fff;
+    width: 360px !important;
+    margin-left: -20px;
+}
+
+.passion-card3 .img3{
+    height: 420px;
+    width: 360px;
+    border-radius: 5px; 
+
+}
+
+.passion-card4{
+    background: transparent;
+    height: 420px;
+    border-radius: 5px;
+    border: 5px solid #fff;
+    width: 360px !important;
+    margin-left: 40px;
+}
+.passion-card4 .img4{
+    height: 420px;
+    width: 360px;
+    border-radius: 5px; 
+}
+
+.passion-card5{
+    background: transparent;
+    height: 420px;
+    border-radius: 5px;
+    border: 5px solid #fff;
+    width: 360px !important;
     margin-left: 10px;
-    color: #333;
-}
-.card4 .p4-ai{
-   position: absolute;
-   z-index: 3;
-   margin-top: 180px; 
-   color: #616163;
-   text-align: center;
-   font-family: Poppins, sans-serif;
-   font-size: 15.21px;
-   font-style: normal;
-   font-weight: 400;
-   line-height: 20px; /* 131.492% */
-   letter-spacing: -0.331px;
-   left: 35%;
-   margin: 140px 2400px 0px -250px;
-   padding: 0px 2455px 0px 0px;
 }
 
-.card5 .h5-ai{
-    font-size: 30px;
-    position: absolute;
-    margin-top: 90px;
-    margin-left: 10px;
-    color: #333;
-}
-.card5 .p5-ai{
-   position: absolute;
-   z-index: 3;
-   margin-top: 180px; 
-   color: #616163;
-   text-align: center;
-   font-family: Poppins, sans-serif;
-   font-size: 15.21px;
-   font-style: normal;
-   font-weight: 400;
-   line-height: 20px; /* 131.492% */
-   letter-spacing: -0.331px;
-   left: 40%;
-   margin: 140px 2400px 0px -235px;
-   padding: 0px 2050px 0px 0px;
-}
-
-.card6 .h6-ai{
-    font-size: 30px;
-    position: absolute;
-    margin-top: 90px;
-    margin-left: 10px;
-    color: #333;
-}
-.card6 .p6-ai{
-   position: absolute;
-   z-index: 3;
-   margin-top: 180px; 
-   color: #616163;
-   text-align: center;
-   font-family: Poppins, sans-serif;
-   font-size: 15.21px;
-   font-style: normal;
-   font-weight: 400;
-   line-height: 20px; /* 131.492% */
-   letter-spacing: -0.331px;
-   left: 45%;
-   margin: 140px 2400px 0px -218px;
-   padding: 0px 1660px 0px 0px;
-}
-.card7 .h7-ai{
-    font-size: 30px;
-    position: absolute;
-    margin-top: 90px;
-    margin-left: 10px;
-    color: #333;
-}
-.card7 .p7-ai{
-   position: absolute;
-   z-index: 3;
-   margin-top: 180px; 
-   color: #616163;
-   text-align: center;
-   font-family: Poppins, sans-serif;
-   font-size: 15.21px;
-   font-style: normal;
-   font-weight: 400;
-   line-height: 20px; /* 131.492% */
-   letter-spacing: -0.331px;
-   left: 50%;
-   margin: 140px 2400px 0px -195px;
-   padding: 0px 1250px 0px 0px;
-}
-
-.card8 .h8-ai{
-    font-size: 30px;
-    position: absolute;
-    margin-top: 90px;
-    margin-left: 10px;
-    color: #333;
-}
-.card8 .p8-ai{
-   position: absolute;
-   z-index: 3;
-   margin-top: 180px; 
-   color: #616163;
-   text-align: center;
-   font-family: Poppins, sans-serif;
-   font-size: 15.21px;
-   font-style: normal;
-   font-weight: 400;
-   line-height: 20px; /* 131.492% */
-   letter-spacing: -0.331px;
-   left: 55%;
-   margin: 140px 2400px 0px -175px;
-   padding: 0px 850px 0px 0px;
-}
-
-
-.cards .img1{
-    position: absolute;
-    z-index: 3;
-    height: 90px;
-    width: 90px;
-    top: 35%;
-    left: 16%;
-    -webkit-filter: brightness(100%);
-    
-}
-
-.cards .img2{
-    position: absolute;
-    z-index: 3;
-    height: 90px;
-    width: 90px;
-    top: 35%;
-    left: 21.3%;
-    -webkit-filter: brightness(100%);
-    
-}
-
-.cards .img3{
-    position: absolute;
-    z-index: 3;
-    height: 90px;
-    width: 90px;
-    top: 35%;
-    left: 26.5%;
-    -webkit-filter: brightness(100%);
-    
-}
-
-.cards .img4{
-    position: absolute;
-    z-index: 3;
-    height: 90px;
-    width: 90px;
-    top: 35%;
-    left: 31.8%;
-    -webkit-filter: brightness(100%);
-    
-}
-.cards .img5{
-    position: absolute;
-    z-index: 3;
-    height: 90px;
-    width: 90px;
-    top: 35%;
-    left: 37.1%;
-    -webkit-filter: brightness(100%);
-    
-}
-.cards .img6{
-    position: absolute;
-    z-index: 3;
-    height: 90px;
-    width: 90px;
-    top: 35%;
-    left: 42.4%;
-    -webkit-filter: brightness(100%);
-    
-}
-.cards .img7{
-    position: absolute;
-    z-index: 3;
-    height: 90px;
-    width: 90px;
-    top: 35%;
-    left: 47.6%;
-    -webkit-filter: brightness(100%);
-    
-}
-.cards .img8{
-    position: absolute;
-    z-index: 3;
-    height: 90px;
-    width: 90px;
-    top: 35%;
-    left: 53%;
-    -webkit-filter: brightness(100%);
-    
-}
-.cards img:hover{
-    box-shadow:
-1px 1px #8298ff,
-2px 2px #8298ff,
-3px 3px #8298ff,
-4px 4px #8298ff,
-5px 5px #8298ff,
-6px 6px #8298ff;
--webkit-transform: translateX(-3px);
-transform: translateX(-3px);
-transition: .5s ease;
--webkit-filter: brightness(50%);
--webkit-transition: all 0.5s ease;
--moz-transition: all 0.5s ease;
--o-transition: all 0.5s ease;
--ms-transition: all 0.5s ease;
-transition: all 0.5s ease;
+.passion-card5 .img5{
+    height: 420px;
+    width: 360px;
+    border-radius: 5px; 
 
 }
 
-.carousel .slick-slider {
+.passion-card6{
+    background: transparent;
+    height: 420px;
+    border-radius: 5px;
+    border: 5px solid #fff;
+    width: 360px !important;
+    margin-left: -20px;
+}
+
+.passion-card6 .img6{
+    height: 420px;
+    width: 360px;
+    border-radius: 5px; 
+
+}
+.passion-carousel .slick-slider {
     width: 1200px !important;
+    height: 500px;
 }
 
-.carousel .slick-slide div{
-    margin-top:60px;
-    width: 500px;
+.passion-carousel .slick-slide div{
+    margin-top: 60px;
+    width: 300px;
 }
 
-.carousel .slick-dots li.slick-active button:before {
-    color: #3C4B90 !important;
+.passion-carousel .slick-dots li.slick-active button:before {
+    color: #333 !important;
     
 }
-.carousel .slick-dots li button:before {
-    color: #DDE3FF;
-    font-size: 1rem !important;
-    top: 2rem !important;
+.passion-carousel .slick-dots li button:before {
+    color: #c2c4cc;
+    font-size: 0.5rem !important;
+    top: 5rem !important;
 }
 
-.carousel .slick-initialized .slick-slide {
+.passion-carousel .slick-initialized .slick-slide {
     display: flex;
 }
 
-.carousel .slick-prev {
+.passion-carousel .slick-prev {
     left: 0px;
     margin-left: -30px;
-    background-color:#434395 !important;
+    background-color:#333 !important;
     border-radius: 10px;
 }
-.carousel .slick-next{
+.passion-carousel .slick-next{
     right: 0px;
-    background-color: #434395 !important;
+    background-color: #333 !important;
     border-radius: 10px 10px 10px 10px;
 }
 
-.service-box{
-        background: linear-gradient(256deg, #6347AA 7.85%, #233F81 107.97%);
-        height: 20px;
-        width: 75vw;
-        border-radius: 35px;
-        margin-top: -40px;
-        padding: 80px;
-        margin-left: 70px;
-        position: absolute;
-        box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.7);
-}
-
-.service-phone{
-    position: absolute;
-    z-index: 2;
-    color: #fff;
-    left: 15%;
-    top: 20%;
-    transform: scale(2.5);
-}
-.service-phone-p{
-    position: absolute;
-    z-index: 2;
-    color: #fff;
-    font-size: 25px;
-    top: 50%;
-    left: 3%;
-}
-.service-headset{
-    position: absolute;
-    z-index: 2;
-    color: #fff;
-    left: 10%;
-    top: 135%;
-    transform: scale(2.5);
-}
-.service-headset-p{
-    position: absolute;
-    z-index: 2;
-    color: #fff;
-    font-size: 25px;
-    top: 50%;
-    left: 40%;
-}
-.service-book{
-    position: absolute;
-    z-index: 2;
-    color: #fff;
-    left: 10%;
-    top: 135%;
-    transform: scale(2.5);
-}
-.service-book-p{
-    position: absolute;
-    z-index: 2;
-    color: #fff;
-    font-size: 25px;
-    top: 50%;
-    left: 70%;
-}
 @media only screen and (max-width: 1024px) {
         .service-heading1{
             left: 45%;

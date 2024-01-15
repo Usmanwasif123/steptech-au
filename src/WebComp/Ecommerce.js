@@ -14,7 +14,7 @@ const Ecommerce = () => {
        an easy-to-use backend and an interactive front end, ensuring responsiveness, SEO-friendliness, and aesthetic appeal.
       </p>
       <Link to='/read-more' className='ebtn'>talk to consultant</Link>
-      <div className='ecom-image'></div>
+      <div className='ecom-image' data-aos="slide-left" data-aos-duration="750" data-aos-easing="ease-in-sine" data-aos-offset="0"></div>
     </div>
   )
 }

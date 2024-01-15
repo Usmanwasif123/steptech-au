@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '../assets/wrapper/Contact.css';
+import '../assets/GameWrapper/Contact.css';
 import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -88,7 +88,7 @@ const Contact = () => {
   }
 
   return (
-    <div className='contact-container'>
+    <div className='webcontact-container'>
       <img src='https://i.ibb.co/chrdsWb/contact.png' alt='contact-bg'/>
       <div className='contact-box'>&nbsp;</div>
       <h1>Contact<span>us</span></h1>

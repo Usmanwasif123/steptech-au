@@ -15,7 +15,7 @@ const Magneto = () => {
       user experience.
       </p>
       <Link to='/read-more' className='mbtn'>talk to consultant</Link>
-      <div className='mag-image'></div>
+      <div className='mag-image' data-aos="slide-right" data-aos-duration="750" data-aos-easing="ease-in-sine" data-aos-offset="0"></div>
     </div>
   )
 }

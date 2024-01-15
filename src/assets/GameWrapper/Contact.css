@@ -3,12 +3,12 @@
     padding: 0;
 }
 
-.contact-container{
+.webcontact-container{
     height: 100vh;
     width: 98.7vw;
     background: #fff;
     position: relative;
-    margin-top: 40px;
+    margin-top: -60px;
 }
 
 .contact-container img{
