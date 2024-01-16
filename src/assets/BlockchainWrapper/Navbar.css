@@ -4,14 +4,14 @@
 
 }
 
-.nav-container{
-    height: 100vh;
+.animate-nav-container{
+    height: 125vh;
     width: 98.7vw;
     position: relative;
 }
-.nav-container img{
+.animate-nav-container img{
     position: relative;
-    height:  100vh;
+    height:  125vh;
     width: 98.7vw;
     object-fit: cover;
     background-repeat: no-repeat;
@@ -85,7 +85,7 @@
     left: 78%;
 }
 
-.banner-line{
+.animatie-banner-line{
     top: 20%;
     left: 9%;
     position: absolute;
@@ -95,12 +95,12 @@
     padding: 0px 673px 1px;
 }
 
-.web-banner-heading h1{
+.animate-heading h1{
     position: absolute;
     z-index: 1;
-    top: 40%;
+    top: 30%;
     left: 5%;
-    margin: 0px 400px 0px -20px;
+    margin: 0px 500px 0px -20px;
     padding: 0px 100px 0px 5px;
     color: #FFF;
     font-family: Poppins, sans-serif;
@@ -112,13 +112,13 @@
     text-transform: capitalize;
 }
 
-.web-banner-heading p{
+.animate-heading p{
     position: absolute;
     z-index: 1;
     top: 120%;
     left: 3%;
     margin: 0px 50px 0px -20px;
-    padding: 0px 100px 0px 5px;
+    padding: 0px 110px 0px 5px;
     color: #FFF;
     font-family: Poppins, sans-serif;
     font-size: 20px;
@@ -128,49 +128,22 @@
     letter-spacing: -1px;
     text-transform: capitalize;
 }
-.web-carousel{
-    margin-top: -160px;
-    margin-left: -640px;
-}
-
-.web-carousel img{
-    height: 50px;
-    width: 50px;
-    cursor: pointer;
-}
-
-.web-carousel .slick-slider div{
-    height: 70px;
-}
-.web-carousel .slick-slider {
-    width: 700px !important;
-    margin-left: 700px;
-}
-.web-carousel .slick-prev {
-    top: 50%;
-    border-radius: 10px;
-}
-.web-carousel .slick-next{
-    top: 50%;
-    right: 0px;
-    margin-right: -20px;
-}
-.webbtn-start{
+.animatebtn1-start{
     display: flex;
     align-items: center;
     justify-content: center;
     text-transform: capitalize;
     text-decoration: none;
-    font-size: 14px;
-    padding: 10px 25px 10px 25px;
+    font-size: 25px;
+    padding: 10px 20px 10px 20px;
     position: absolute;
-    border-radius: 0px 60px 60px 0px;
+    border-radius: 15px;
     cursor: pointer;
     color: #fff;
     z-index: 1;
     outline: 1px solid #fff;
     background: transparent;
-    top: 92%;
+    top: 75%;
     left: 4.5%;
     box-shadow: inset 0 0 0 0 #233F81;
     -webkit-transition: ease-out 0.4s;
@@ -178,19 +151,19 @@
     transition: ease-out 0.4s;
 }
 
-.webbtn-start:hover {
+.animatebtn1-start:hover {
     box-shadow: inset 0 0 0 50px #e6e1e4;
     color: #233F81;
 }
 
-.webnav-image{
+.animate-nav-image{
     position:absolute;
     z-index: 3;
-    background: url('https://i.ibb.co/NZzy8Ff/image.png');
-    height: 500px;
-    width: 500px;
+    background: url('https://i.ibb.co/9yQY1JN/image.png');
+    height: 550px;
+    width: 550px;
     top: 30%;
-    left: 60%;
+    left: 55%;
     background-size: 100%;
     background-repeat: no-repeat;
 }

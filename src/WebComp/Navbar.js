@@ -88,7 +88,7 @@ const Navbar = () => {
           through every stage of development.</p>
         </h1>
       </div>
-      <div className='webnavbar-carousel'>
+      <div className='web-carousel'>
           <Slider {...setting}>
             <div>
               <img src='https://i.ibb.co/9qkyRDw/image.png' alt='wordpress'/>
@@ -134,7 +134,7 @@ const Navbar = () => {
             </div> 
           </Slider>
       </div>
-      <Link to='/read-more' className='btn-read'>read more</Link>
+      <Link to='/read-more' className='webbtn-start'>get started</Link>
       <div className='webnav-image' data-aos="slide-left" data-aos-duration="750" data-aos-easing="ease-in-sine" data-aos-offset="0"></div>
     </div>
    </>

@@ -113,13 +113,21 @@
     border: 2px solid #E3E4F6;
     width:80% !important;
 }
-.cards .circle{
+.circle1{
     position: absolute;
     height: 50px;
     width: 50px;
     background: #8298FF;
-    border-radius: 250px;
-    margin-left: 90px;
+    border-radius: 50%;
+    padding-left: 0px;
+    margin-top: 20px;
+}
+.cards .circle{
+    position: absolute;
+    height: 50px;
+    width: 0px;
+    background: #8298FF;
+    border-radius: 200px;
     margin-top: 20px;
 }
 .cards .h1-ai{

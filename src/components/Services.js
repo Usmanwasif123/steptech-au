@@ -67,7 +67,7 @@ const Services = () => {
       <div className='carousel'>
           <Slider {...setting}>
             <div className='cards'>
-              <div className='circle'>
+              <div className='circle1'>
                 <img src={ai} alt='ai'/>
               </div>
                 <h3 className='h1-ai'>Artificial intelligence</h3>
@@ -76,7 +76,7 @@ const Services = () => {
                 standard dummy text <br/>ever since the 1500s, when an unknown</p>
             </div> 
             <div className='cards'>
-              <div className='circle'>
+              <div className='circle2'>
                 <img src={desktop} alt='ai'/>
               </div>
                 <h3 className='h2-ai'>Graphic Design</h3>
@@ -85,7 +85,7 @@ const Services = () => {
                 standard dummy text <br/>ever since the 1500s, when an unknown</p>
             </div>
             <div className='cards'>
-              <div className='circle'>
+              <div className='circle3'>
                 <img src={laptop} alt='ai'/>
               </div>
                 <h3 className='h3-ai'>Web Design & Developement</h3>
@@ -94,7 +94,7 @@ const Services = () => {
                 standard dummy text <br/>ever since the 1500s, when an unknown</p>
             </div> 
             <div className='cards'>
-              <div className='circle'>
+              <div className='circle4'>
                 <img src={mobile} alt='ai'/>
               </div>
                 <h3 className='h4-ai'>Artificial intelligence</h3>            
@@ -103,7 +103,7 @@ const Services = () => {
                 standard dummy text <br/>ever since the 1500s, when an unknown</p>
             </div>  
             <div className='cards'>
-              <div className='circle'>
+              <div className='circle5'>
                 <img src={ai} alt='ai'/>
               </div>
                 <h3 className='h5-ai'>Artificial intelligence</h3>
@@ -112,7 +112,7 @@ const Services = () => {
                 standard dummy text <br/>ever since the 1500s, when an unknown</p>
             </div> 
             <div className='cards'>
-              <div className='circle'>
+              <div className='circle6'>
                 <img src={desktop} alt='ai'/>
               </div>
                 <h3 className='h6-ai'>Graphic Design</h3>
@@ -121,7 +121,7 @@ const Services = () => {
                 standard dummy text <br/>ever since the 1500s, when an unknown</p>
             </div>
             <div className='cards'>
-              <div className='circle'>
+              <div className='circle7'>
                 <img src={laptop} alt='ai'/>
               </div>
                 <h3 className='h7-ai'>Web Design & Developement</h3>
@@ -130,7 +130,7 @@ const Services = () => {
               standard dummy text <br/>ever since the 1500s, when an unknown</p>
             </div> 
             <div className='cards'>
-              <div className='circle'>
+              <div className='circle8'>
                 <img src={mobile} alt='ai'/>
               </div>
                 <h3 className='h8-ai'>Artificial intelligence</h3>            

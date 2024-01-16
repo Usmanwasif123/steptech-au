@@ -44,8 +44,9 @@
 .contact-container span{
     position: absolute;
     z-index: 2;
-    left: 14.3%;
-    font-size: 15px;
+    top: 15%;
+    left: 15%;
+    font-size: 50px;
     font-family: Poppins, sans-serif;
     text-transform: capitalize;
     color:#fff;
@@ -55,11 +56,11 @@
     position: absolute;
     z-index: 2;
     top: 28%;
-    left: 15%;
-    font-size: 20px;
+    left: 105%;
+    font-size: 50px;
     font-family: Poppins, sans-serif;
     text-transform: capitalize;
-    color:#333;
+    color:#6C50B1;
 
 }
 .contact-box1{
@@ -164,7 +165,7 @@
     line-height: 20px; /* 131.492% */
     letter-spacing: -0.331px
 }
-.heading1 span{
+.heading1 .span1{
     color: #333;
     margin-left: 5px;
     font-size: 25px;

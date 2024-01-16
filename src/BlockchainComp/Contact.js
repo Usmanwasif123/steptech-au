@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '../assets/WebWrapper/Contact.css';
+import '../assets/AnimationWrapper/Contact.css';
 import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -90,10 +90,10 @@ const Contact = () => {
   return (
     <div className='webcontact-container'>
       <img src='https://i.ibb.co/chrdsWb/contact.png' alt='contact-bg'/>
-      <div className='webcontact-box'>&nbsp;</div>
+      <div className='contact-box'>&nbsp;</div>
       <h1>Contact<span>us</span></h1>
       <p>Get To Know More About  By Connecting With Us.</p>
-      <form className='webcontact-form' onSubmit={onSubmit}>
+      <form className='contact-form' onSubmit={onSubmit}>
       <input className='firstname-input' type='text' name='First Name' value={values.firstname} placeholder='First Name' handleChange={handleChange}/>
       <input className='lastname-input'type='text' name='Last Name'value={values.lastname} placeholder='Last Name'  handleChange={handleChange}/>
       <input className='email-input' type='email' name='Email' value={values.email} placeholder='Email'  handleChange={handleChange}/>
@@ -101,8 +101,8 @@ const Contact = () => {
       <textarea className='message-input' name='Message' value={values.message} placeholder='Message' handleChange={handleChange}></textarea>
       <button className='submit-btn' type='submit'>send message</button>
       </form>
-      <div className='webcontact-box1' >&nbsp;</div>
-      <div className='webcontact-carousel'>
+      <div className='contact-box1' >&nbsp;</div>
+      <div className='contact-carousel'>
           <Slider {...setting}>
             <div>
             <h3 className='heading1'>Take your business higher than ever of accomplishment with our 
@@ -122,9 +122,9 @@ const Contact = () => {
             <DraftsOutlined style={{position: 'absolute', zIndex: '3', top: '45%', fontSize: '40px', color: '#fff'}}/>
             <p className='email-p2'>sales@steptechglobal.com</p>
             <PhoneInTalkOutlined style={{position: 'absolute', zIndex: '3', top: '65%', fontSize: '40px', color: '#fff'}}/>
-            <p className='phone-p2'>+61 410 025 346</p>
+            <p className='phone-p2'>(877) 229 0844</p>
             <PinDropOutlined style={{position: 'absolute', zIndex: '3', top: '85%', fontSize: '40px', color: '#fff'}}/>
-            <p className='location-p2'>Australia</p>
+            <p className='location-p2'>united state of america</p>
             </div>
             <div>
             <h3 className='heading3'>Take your business higher than ever of accomplishment with our 
@@ -133,9 +133,9 @@ const Contact = () => {
             <DraftsOutlined style={{position: 'absolute', zIndex: '3', top: '45%', fontSize: '40px', color: '#fff'}}/>
             <p className='email-p3'>sales@steptechglobal.com</p>
             <PhoneInTalkOutlined style={{position: 'absolute', zIndex: '3', top: '65%', fontSize: '40px', color: '#fff'}}/>
-            <p className='phone-p3'>+61 410 025 346</p>
+            <p className='phone-p3'>+44 203 038 4780</p>
             <PinDropOutlined style={{position: 'absolute', zIndex: '3', top: '85%', fontSize: '40px', color: '#fff'}}/>
-            <p className='location-p3'>Australia</p>
+            <p  className='location-p3'>united kingdom</p>
             </div> 
           </Slider>
       </div>

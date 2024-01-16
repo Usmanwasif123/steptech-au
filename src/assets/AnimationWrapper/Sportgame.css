@@ -3,80 +3,54 @@
     padding: 0;
 }
 
-.avision-main{
-    height: 50vh;
+.animate-section2{
+    height: 100vh;
     width: 98.7vw;
+    background: linear-gradient(256deg, #6347AA 7.85%, #233F81 107.97%);
+    position: relative;
 }
 
-.vision{
+.animate-section2 h1{
+    position: absolute;
+    z-index: 1;
     font-family: Poppins, sans-serif;
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 92.5px; 
-    letter-spacing: -1px;
-    padding: 30px 0px 0px 65px;
-    background: linear-gradient(255deg, #7554C1 29.51%, #243F82 93.15%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-#aline1-vision{
-    top: 113%;
-    left: 5%;
-    position: absolute;
-    z-index: 1;
-    border-radius: 2px 2px 2px 2px;
-    background: linear-gradient(255deg, #7554C1 29.51%, #243F82 93.15%);
-    padding: 0px 50px 4px 150px;
-}
-#aline2-vision{
-    top: 113%;
-    left: 20.5%;
-    position: absolute;
-    z-index: 1;
-    border-radius: 2px 2px 2px 2px;
-    background: linear-gradient(255deg, #7554C1 29.51%, #243F82 93.15%);
-    padding: 0px 10px 4px 90px;
-}
-#aline3-vision{
-    top: 113%;
-    left: 28.5%;
-    position: absolute;
-    z-index: 1;
-    border-radius: 2px 2px 2px 2px;
-    background: linear-gradient(255deg, #7554C1 29.51%, #243F82 93.15%);
-    padding: 0px 5px 4px 30px;
-}
-
-.heading{
-    color: #464646;
-    font-family: Poppins, sans-serif;
-    font-size: 39px;
+    font-size: 50px;
     font-style: normal;
     font-weight: 700;
-    line-height: 48.5px; 
+    line-height: 60px; 
     letter-spacing: -1px;
-    padding: 14px 0px 1px 1px;
-    margin: 1px 0px 12px 50px;
+    top: 25%;
+    left: 50%;
+    margin-right: -155px;
+    color: #fff;
 }
-
-.avision-main p{
-    color: #6E6E6E;
+.animate-section2 p{
+    position: absolute;
+    z-index: 1;
     font-family: Poppins, sans-serif;
-    font-size: 18px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 400;
-    line-height: 28.5px;
-    padding: 0px 0px 1px 1px;
-    margin: 17px 70px 12px 50px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    line-height: 30px; 
+    letter-spacing: -1px;
+    top: 45%;
+    left: 50%;
+    padding: 30px 50px 0px 0px;
+    color: #fff;
 }
 
+
+.animate-img2{
+    position:absolute;
+    z-index: 3;
+    background: url('https://i.ibb.co/mTqd1Nd/image.png');
+    height: 600px;
+    width: 600px;
+    top: 15%;
+    left: 3%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
 
 @media only screen and (max-width: 1024px) {
     .right-vision{

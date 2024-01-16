@@ -49,15 +49,15 @@ const Services = () => {
         });
     
   return (
-    <div className='service-container'>
+    <div className='appservice-container'>
       <h1>Get All App Development Services From Technophiles</h1>
-      <p className='service-p'>We know the force of versatile application improvement, that is the reason we decide to 
+      <p>We know the force of versatile application improvement, that is the reason we decide to 
       fill in as an imaginative portable application improvement organization. We just lean toward stylish plans and 
       great usefulness while creating applications for your organizations. It’s our tendency to convey the best. Win more
       with versatile application improvement administrations.</p>
-      <div className='carousel'>
+      <div className='app-carousel'>
           <Slider {...setting}>
-            <div className='cards'>
+            <div className='app-cards'>
                 <img className='img1' src='https://i.ibb.co/jhhbnm7/image.png' alt='ai'/>
                 <div className='card1'>
                 <h3 className='h1-ai'>Software Quality</h3>
@@ -67,7 +67,7 @@ const Services = () => {
                 vigorous with measurements and programming quality testing.</p>
                 </div>
             </div> 
-            <div className='cards'> 
+            <div className='app-cards'> 
                 <img className='img2' src='https://i.ibb.co/C9rNB3j/image.png' alt='ai'/>
                 <div className='card2'>
                 <h3 className='h2-ai'>Migration Services</h3>
@@ -77,7 +77,7 @@ const Services = () => {
                 stream carefully with us.</p>
                 </div>
             </div>
-            <div className='cards'>
+            <div className='app-cards'>
                 <img className='img3' src='https://i.ibb.co/4RMvfQT/image.png' alt='ai'/>
                 <div className='card3'>
                 <h3 className='h3-ai'>UX/UI Engineering</h3>
@@ -87,7 +87,7 @@ const Services = () => {
                  eye.</p>
                  </div>
             </div> 
-            <div className='cards'>
+            <div className='app-cards'>
                 <img className='img4' src='https://i.ibb.co/BT0yLd7/image.png' alt='ai'/>
                 <div className='card4'>
                 <h3 className='h4-ai'>Android App</h3>            
@@ -97,7 +97,7 @@ const Services = () => {
                 with an android application improvement office.</p>
               </div>
             </div>  
-            <div className='cards'>
+            <div className='app-cards'>
               <div className='card5'>
                 <img className='img5' src='https://i.ibb.co/DfLxmcT/image.png' alt='ai'/>
                 <h3 className='h5-ai'>Prototyping</h3>
@@ -106,7 +106,7 @@ const Services = () => {
                 methodology. We cleverly discharge your items and administrations.</p>
               </div>
             </div> 
-            <div className='cards'>
+            <div className='app-cards'>
                 <img className='img6' src='https://i.ibb.co/t3syVkT/image.png' alt='ai'/>
                 <div className='card6'>
                 <h3 className='h6-ai'>Blockchain App</h3>
@@ -115,7 +115,7 @@ const Services = () => {
                 blockchains. Reshape your method of business even with portable based applications.</p>
                 </div>
             </div>
-            <div className='cards'>
+            <div className='app-cards'>
                 <img  className='img7' src='https://i.ibb.co/XWvvfJm/image.png' alt='ai'/>
                 <div className='card7'>
                 <h3 className='h7-ai'>AR/VR Technology</h3>
@@ -124,7 +124,7 @@ const Services = () => {
                 clinical, design, inside, and land. 'Imagine something amazing, Act current' with Increased Reality Applications.</p>
                 </div>
             </div> 
-            <div className='cards'>
+            <div className='app-cards'>
                 <img className='img8' src='https://i.ibb.co/31gjpbg/image.png' alt='ai'/>
                 <div className='card8'>
                 <h3 className='h8-ai'>Wearables</h3>            
