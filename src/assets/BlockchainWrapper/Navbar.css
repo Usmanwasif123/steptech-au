@@ -156,7 +156,7 @@
     color: #233F81;
 }
 
-.animate-nav-image{
+.block-nav-image{
     position:absolute;
     z-index: 3;
     background: url('https://i.ibb.co/9yQY1JN/image.png');

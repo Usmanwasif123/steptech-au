@@ -43,7 +43,7 @@ const Navbar = () => {
         </h1>
       </div>
       <Link to='/read-more' className='animatebtn1-start' data-aos="flip-right" data-aos-duration="500" data-aos-easing="ease-in-sine" data-aos-offset="0">get started</Link>
-      <div className='animate-nav-image' data-aos="slide-left" data-aos-duration="500" data-aos-easing="ease-in-sine" data-aos-offset="0"></div>
+      <div className='block-nav-image' data-aos="slide-left" data-aos-duration="500" data-aos-easing="ease-in-sine" data-aos-offset="0"></div>
     </div>
    </>
   );
