@@ -108,12 +108,11 @@
 }
 
 .card1{
-    background-color: #F4F6FF;
+    background-color: #e40d0d;
     height: 380px;
     border-radius: 20px;
     border: 2px solid #E3E4F6;
     width:80% !important;
-    background: #e60e0e;
     margin-top: -50px;
     
 }
@@ -427,9 +426,9 @@ transition: all 0.5s ease;
 }
 
 .service-carousel .slick-slide div{
-    margin: -5px 1px 0 0;
-    width: 380px;
-    height: 400px;
+    margin: -100px 1px 0 0;
+    width: 370px;
+    height: 500px;
     background: #233F81;
     
 }
