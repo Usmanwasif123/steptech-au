@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import '../assets/BlockchainWrapper/Partner.css';
+import '../assets/ArtificialIntelWrapper/Partner.css';
 
 const paragraphStyles ={
     WebkitLineClamp: 8,

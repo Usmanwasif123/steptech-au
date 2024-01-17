@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import '../assets/BlockchainWrapper/Partner.css';
+import '../assets/NftWrapper/Partner.css';
 
 const paragraphStyles ={
     WebkitLineClamp: 8,
@@ -12,11 +12,11 @@ const Partner = () => {
     const [isOpen, setIsOpen] = useState(false)
 
   return (
-    <div className={`block-section6 ${isOpen ? 'open' : ''}`}>
+    <div className={`nft-section6 ${isOpen ? 'open' : ''}`}>
         <h1>Best Web and App Development Company in &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Wyoming, USA</h1>
-        <div id='line-block'></div>
+        <div id='line-nft'></div>
         <p style={isOpen ? null : paragraphStyles}>
             Are you also looking for the best web and app development company in the USA? Then stop scrolling anymore. 
             Step Tech Global is the best web and mobile app development services provider, but there are more-in-one 
@@ -55,7 +55,7 @@ const Partner = () => {
             can expect us to have an exhaustive understanding of your needs, industry regulations, and requirements. So 
             partner with us right now and give your business new heights with our expertise!! 
         </p>
-        <button className={`blockbtn-read ${isOpen ? 'open' : ''}`} onClick={()=> setIsOpen(!isOpen)}>{isOpen ? 'read less': 'read more'}</button>
+        <button className={`nft-read ${isOpen ? 'open' : ''}`} onClick={()=> setIsOpen(!isOpen)}>{isOpen ? 'read less': 'read more'}</button>
     </div>
   )
 }

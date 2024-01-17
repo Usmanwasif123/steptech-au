@@ -14,7 +14,7 @@ const Brand = () => {
 
   const[setting, setSetting] = useState({
     dots: true,
-    infinite: true,
+    infinite: false,
     autoplay: true,
     speed: 500,
     slidesToShow: 1,
@@ -26,7 +26,7 @@ const Brand = () => {
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
-          infinite: true,
+          infinite: false,
           dots: true
         }
       },
@@ -60,28 +60,13 @@ const Brand = () => {
       <div className='brand-carousel'>
           <Slider {...setting}>
             <div>
-                <img src='https://i.ibb.co/WvR8mck/image.png' alt='ai'/>
+                <img src='https://i.ibb.co/y5VqCNL/image.png' alt='ai'/>
             </div> 
             <div>
-                <img src='https://i.ibb.co/VxmvFKy/image.png' alt='ai'/>
+                <img src='https://i.ibb.co/x3HCdm5/image.png' alt='ai'/>
             </div>
             <div>
-                <img src='https://i.ibb.co/HFc9GBq/image.png' alt='ai'/>
-            </div> 
-            <div>
-                <img src='https://i.ibb.co/hsqPR4Y/image.png' alt='ai'/>
-              </div>
-            <div>
-                <img src='https://i.ibb.co/jDp4WFv/image.png' alt='ai'/>
-            </div> 
-            <div>
-                <img src='https://i.ibb.co/3WWnwR5/image.png' alt='ai'/>
-            </div>
-            <div>
-                <img src='https://i.ibb.co/SB1P0ny/image.png' alt='ai'/>
-            </div>
-            <div>
-                <img src='https://i.ibb.co/Cm34K0Q/image.png' alt='ai'/>
+                <img src='https://i.ibb.co/y5VqCNL/image.png' alt='ai'/>
             </div> 
           </Slider>
       </div>

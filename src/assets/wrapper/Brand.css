@@ -83,16 +83,19 @@
     margin-top: 100px;
     margin-left: 80px;
     position: absolute;
-    top: 680%;
+    top: 660%;
+    left: 5%;
 }
 
 .brand-carousel img{
-    height: 100px;
+    height: 400px;
+    width: 400px;
+    padding-right: 200px;
     cursor: pointer;
 }
 
 .brand-carousel .slick-slider {
-    width: 500px !important;
+    width: 400px !important;
 }
 .brand-carousel .slick-dots li.slick-active button:before {
     color: #3C4B90 !important;
@@ -101,15 +104,13 @@
 .brand-carousel .slick-dots li button:before {
     color: #DDE3FF;
     font-size: 1rem !important;
-    top: 9rem !important;
+    top: 1rem !important;
 }
 
 .brand-carousel .slick-prev {
-    display: none;
     background: transparent;
 
 }
 .brand-carousel .slick-next{
-    display: none;
     background: transparent;
 }

@@ -3,223 +3,158 @@
     padding: 0;
 }
 
-.block-section4{
-    height: 160vh;
+.backexp-container{
+    height: 80vh;
     width: 98.7vw;
-    background: #ebefff;
+    background: #fff;
     position: relative;
 }
 
-.block-section4 .main-heading{
+.backexp-container h1{
     position: absolute;
     z-index: 1;
     font-family: Poppins, sans-serif;
-    font-size: 45px;
+    font-size: 40px;
     font-style: normal;
     font-weight: 700;
-    line-height: 60px; 
+    line-height: 50px; 
     letter-spacing: -1px;
-    top: 10%;
-    left: 5%;
-    color: #333;
-}
-.block-section4 .main-p{
-    position: absolute;
-    z-index: 1;
-    font-family: Poppins, sans-serif;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 30px; 
-    letter-spacing: -1px;
-    top: 18%;
+    top: 15%;
     left: 25%;
-    color: #808080;
+    padding: 0px 0px 0px 0px;
+    color: #333;
 }
-
-
-.block-section4 .eye-img{
-    position:absolute;
-    z-index: 3;
-    background: url('https://i.ibb.co/09BkYrN/image.png');
-    height: 100px;
-    width: 100px;
-    top: 25%;
-    left: 15%;
-    background-size: 100%;
-    background-repeat: no-repeat;
-}
-.block-section4 .h1{
+.backexp-container .backexp-p{
     position: absolute;
     z-index: 1;
     font-family: Poppins, sans-serif;
-    font-size: 30px;
+    font-size: 20px;
     font-style: normal;
-    font-weight: 700;
-    line-height: 60px; 
+    font-weight: 400;
+    line-height: 30px; 
     letter-spacing: -1px;
-    top: 35%;
+    top: 30%;
     left: 10%;
-    margin-right: -155px;
+    padding: 0px 100px 0px 0px;
     color: #333;
 }
-.block-section4 .p1{
-    position: absolute;
-    z-index: 1;
-    font-family: Poppins, sans-serif;
+.php-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform:uppercase;
+    text-decoration: none;
     font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 30px; 
-    letter-spacing: -1px;
-    top: 40%;
-    left: 5%;
-    padding: 30px 900px 0px 0px;
-    color: #808080;
-}
-.block-section4 .arch-img{
-    position:absolute;
-    z-index: 3;
-    background: url('https://i.ibb.co/zrmTq5H/image.png');
-    height: 100px;
-    width: 100px;
-    top: 25%;
-    left: 49%;
-    background-size: 100%;
-    background-repeat: no-repeat;
-}
-.block-section4 .h2{
+    font-weight: 500;
+    padding: 20px 25px 20px 25px;
     position: absolute;
-    z-index: 1;
-    font-family: Poppins, sans-serif;
-    font-size: 30px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 60px; 
-    letter-spacing: -1px;
-    top: 35%;
-    left: 42.5%;
-    margin-right: -155px;
+    border-radius: 20px;
+    cursor: pointer;
     color: #333;
-}
-.block-section4 .p2{
-    position: absolute;
     z-index: 1;
-    font-family: Poppins, sans-serif;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 30px; 
-    letter-spacing: -1px;
-    top: 40%;
-    left: 38%;
-    padding: 30px 400px 0px 0px;
-    color: #808080;
-}
-.block-section4 .effi-img{
-    position:absolute;
-    z-index: 3;
-    background: url('https://i.ibb.co/V9YYsWP/image.png');
-    height: 100px;
-    width: 100px;
-    top: 25%;
-    left: 80%;
-    background-size: 100%;
-    background-repeat: no-repeat;
-}
-.block-section4 .h3{
-    position: absolute;
-    z-index: 1;
-    font-family: Poppins, sans-serif;
-    font-size: 30px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 60px; 
-    letter-spacing: -1px;
-    top: 35%;
-    left: 80%;
-    margin-right: -155px;
-    color: #333;
-}
-.block-section4 .p3{
-    position: absolute;
-    z-index: 1;
-    font-family: Poppins, sans-serif;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 30px; 
-    letter-spacing: -1px;
-    top: 40%;
-    left: 73%;
-    padding: 30px 1px 0px 0px;
-    color: #808080;
-}
-.block-section4 .sec-img{
-    position:absolute;
-    z-index: 3;
-    background: url('https://i.ibb.co/c2Fqr6G/image.png');
-    height: 100px;
-    width: 100px;
+    outline: 1px solid #333;
+    background: transparent;
     top: 55%;
-    left: 27%;
-    background-size: 100%;
-    background-repeat: no-repeat;
-}
-.block-section4 .h4{
-    position: absolute;
-    z-index: 1;
-    font-family: Poppins, sans-serif;
-    font-size: 30px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 60px; 
-    letter-spacing: -1px;
-    top: 65%;
-    left: 21%;
-    margin-right: -155px;
-    color: #333;
-}
-.block-section4 .p4{
-    position: absolute;
-    z-index: 1;
-    font-family: Poppins, sans-serif;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 30px; 
-    letter-spacing: -1px;
-    top: 70%;
     left: 15%;
-    padding: 30px 710px 0px 0px;
-    color: #808080;
 }
-.block-section4 .user-img{
-    position:absolute;
-    z-index: 3;
-    background: url('https://i.ibb.co/7VqTgLW/image.png');
-    height: 100px;
-    width: 100px;
-    top: 55%;
-    left: 67%;
-    background-size: 100%;
-    background-repeat: no-repeat;
-}
-.block-section4 .h5{
+
+.nodejs-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform:uppercase;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 20px 25px 20px 25px;
     position: absolute;
-    z-index: 1;
-    font-family: Poppins, sans-serif;
-    font-size: 30px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 60px; 
-    letter-spacing: -1px;
-    top: 65%;
-    left: 63%;
-    margin-right: -155px;
+    border-radius: 20px;
+    cursor: pointer;
     color: #333;
+    z-index: 1;
+    outline: 1px solid #333;
+    background: transparent;
+    top: 55%;
+    left: 25%;
 }
-.block-section4 .p5{
+.laravel-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform:uppercase;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 20px 40px 20px 40px;
+    position: absolute;
+    border-radius: 20px;
+    cursor: pointer;
+    color: #333;
+    z-index: 1;
+    outline: 1px solid #333;
+    background: transparent;
+    top: 55%;
+    left: 40%;
+}
+.chashtag-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform:uppercase;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 20px 40px 20px 40px;
+    position: absolute;
+    border-radius: 20px;
+    cursor: pointer;
+    color: #333;
+    z-index: 1;
+    outline: 1px solid #333;
+    background: transparent;
+    top: 55%;
+    left: 55%;
+}
+.net-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform:uppercase;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 20px 50px 20px 50px;
+    position: absolute;
+    border-radius: 20px;
+    cursor: pointer;
+    color: #333;
+    z-index: 1;
+    outline: 1px solid #333;
+    background: transparent;
+    top: 55%;
+    left: 65%;
+}
+.expressjs-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform:uppercase;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 20px 50px 20px 50px;
+    position: absolute;
+    border-radius: 20px;
+    cursor: pointer;
+    color: #333;
+    z-index: 1;
+    outline: 1px solid #333;
+    background: transparent;
+    top: 55%;
+    left: 78%;
+}
+
+.php-p{
     position: absolute;
     z-index: 1;
     font-family: Poppins, sans-serif;
@@ -228,11 +163,12 @@
     font-weight: 400;
     line-height: 30px; 
     letter-spacing: -1px;
-    top: 70%;
-    left: 58%;
-    padding: 30px 100px 0px 0px;
-    color: #808080;
+    top: 75%;
+    left: 10%;
+    padding: 0px 100px 0px 0px;
+    color: #333;
 }
+
 @media only screen and (max-width: 1024px) {
     .right-vision{
         font-size: 20px;

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '../assets/wrapper/Contact.css';
+import '../assets/ArtificialIntelWrapper/Contact.css';
 import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -88,10 +88,10 @@ const Contact = () => {
   }
 
   return (
-    <div className='contact-container'>
+    <div className='webcontact-container'>
       <img src='https://i.ibb.co/chrdsWb/contact.png' alt='contact-bg'/>
       <div className='contact-box'>&nbsp;</div>
-      <h1 className='main-heading'>Contact<span className='main-span'>us</span></h1>
+      <h1>Contact<span>us</span></h1>
       <p>Get To Know More About  By Connecting With Us.</p>
       <form className='contact-form' onSubmit={onSubmit}>
       <input className='firstname-input' type='text' name='First Name' value={values.firstname} placeholder='First Name' handleChange={handleChange}/>
@@ -106,7 +106,7 @@ const Contact = () => {
           <Slider {...setting}>
             <div>
             <h3 className='heading1'>Take your business higher than ever of accomplishment with our 
-            unrivaled administrations.<span className='span1'>reach out at this point!</span>
+            unrivaled administrations.<span>reach out at this point!</span>
             </h3>
             <DraftsOutlined style={{position: 'absolute', zIndex: '3', top: '45%', fontSize: '40px', color: '#fff'}}/>
             <p className='email-p1'>sales@steptechglobal.com</p>
@@ -117,7 +117,7 @@ const Contact = () => {
             </div> 
             <div>
             <h3 className='heading2'>Take your business higher than ever of accomplishment with our 
-            unrivaled administrations.<span className='span2'>reach out at this point!</span>
+            unrivaled administrations.
             </h3>
             <DraftsOutlined style={{position: 'absolute', zIndex: '3', top: '45%', fontSize: '40px', color: '#fff'}}/>
             <p className='email-p2'>sales@steptechglobal.com</p>
@@ -128,7 +128,7 @@ const Contact = () => {
             </div>
             <div>
             <h3 className='heading3'>Take your business higher than ever of accomplishment with our 
-            unrivaled administrations.<span className='span3'>reach out at this point!</span>
+            unrivaled administrations.
             </h3>
             <DraftsOutlined style={{position: 'absolute', zIndex: '3', top: '45%', fontSize: '40px', color: '#fff'}}/>
             <p className='email-p3'>sales@steptechglobal.com</p>

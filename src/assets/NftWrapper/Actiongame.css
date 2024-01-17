@@ -3,28 +3,27 @@
     padding: 0;
 }
 
-.frontexp-container{
-    height: 80vh;
+.nft-section5{
+    height: 150vh;
     width: 98.7vw;
-    background: linear-gradient(255deg, #7554C1 29.51%, #243F82 60%);
+    background: #f3f6ff;
     position: relative;
+    margin-top: 0px !important;
 }
-
-.frontexp-container h1{
+.nft-section5 .main-heading{
     position: absolute;
     z-index: 1;
     font-family: Poppins, sans-serif;
-    font-size: 40px;
+    font-size: 50px;
     font-style: normal;
     font-weight: 700;
-    line-height: 50px; 
+    line-height: 60px; 
     letter-spacing: -1px;
-    top: 15%;
-    left: 25%;
-    padding: 0px 0px 0px 0px;
-    color: #fff;
+    top: 5%;
+    left: 8%;
+    color: #333;
 }
-.frontexp-container .frontexp-p{
+.nft-section5 .main-p{
     position: absolute;
     z-index: 1;
     font-family: Poppins, sans-serif;
@@ -33,109 +32,11 @@
     font-weight: 400;
     line-height: 30px; 
     letter-spacing: -1px;
-    top: 30%;
-    left: 10%;
-    padding: 0px 100px 0px 0px;
-    color: #fff;
+    top: 12%;
+    left: 12%;
+    color: #808080;
 }
-.reactjs-btn{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-transform:uppercase;
-    text-decoration: none;
-    font-size: 20px;
-    font-weight: 500;
-    padding: 20px 25px 20px 25px;
-    position: absolute;
-    border-radius: 20px;
-    cursor: pointer;
-    color: #fff;
-    z-index: 1;
-    outline: 1px solid #fff;
-    background: transparent;
-    top: 55%;
-    left: 15%;
-}
-
-.angular-btn{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-transform:uppercase;
-    text-decoration: none;
-    font-size: 20px;
-    font-weight: 500;
-    padding: 20px 25px 20px 25px;
-    position: absolute;
-    border-radius: 20px;
-    cursor: pointer;
-    color: #fff;
-    z-index: 1;
-    outline: 1px solid #fff;
-    background: transparent;
-    top: 55%;
-    left: 28%;
-}
-.vue-btn{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-transform:uppercase;
-    text-decoration: none;
-    font-size: 20px;
-    font-weight: 500;
-    padding: 20px 40px 20px 40px;
-    position: absolute;
-    border-radius: 20px;
-    cursor: pointer;
-    color: #fff;
-    z-index: 1;
-    outline: 1px solid #fff;
-    background: transparent;
-    top: 55%;
-    left: 42%;
-}
-.html-btn{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-transform:uppercase;
-    text-decoration: none;
-    font-size: 20px;
-    font-weight: 500;
-    padding: 20px 40px 20px 40px;
-    position: absolute;
-    border-radius: 20px;
-    cursor: pointer;
-    color: #fff;
-    z-index: 1;
-    outline: 1px solid #fff;
-    background: transparent;
-    top: 55%;
-    left: 55%;
-}
-.js-btn{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-transform:uppercase;
-    text-decoration: none;
-    font-size: 20px;
-    font-weight: 500;
-    padding: 20px 50px 20px 50px;
-    position: absolute;
-    border-radius: 20px;
-    cursor: pointer;
-    color: #fff;
-    z-index: 1;
-    outline: 1px solid #fff;
-    background: transparent;
-    top: 55%;
-    left: 69%;
-}
-
-.react-p{
+.nft-section5 .main-p1{
     position: absolute;
     z-index: 1;
     font-family: Poppins, sans-serif;
@@ -144,10 +45,105 @@
     font-weight: 400;
     line-height: 30px; 
     letter-spacing: -1px;
-    top: 75%;
-    left: 10%;
-    padding: 0px 100px 0px 0px;
-    color: #fff;
+    top: 20%;
+    left: 5%;
+    color: #808080;
+}
+
+.nft-section5 .nft-h1{
+    position: absolute;
+    z-index: 1;
+    font-family: Poppins, sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; 
+    letter-spacing: -1px;
+    top: 25%;
+    left: 1%;
+    padding: 30px 650px 0px 0px;
+    color: #333;
+}
+.nft-section5 .nft-p1{
+    position: absolute;
+    z-index: 1;
+    font-family: Poppins, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; 
+    letter-spacing: -1px;
+    top: 32%;
+    left: 1%;
+    padding: 30px 700px 0px 0px;
+    color: #808080;
+}
+.nft-section5 .nft-h2{
+    position: absolute;
+    z-index: 1;
+    font-family: Poppins, sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; 
+    letter-spacing: -1px;
+    top: 48%;
+    left: 1%;
+    padding: 30px 650px 0px 0px;
+    color: #333;
+}
+.nft-section5 .nft-p2{
+    position: absolute;
+    z-index: 1;
+    font-family: Poppins, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; 
+    letter-spacing: -1px;
+    top: 55%;
+    left: 1%;
+    padding: 30px 700px 0px 0px;
+    color: #808080;
+}
+.nft-section5 .nft-h3{
+    position: absolute;
+    z-index: 1;
+    font-family: Poppins, sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; 
+    letter-spacing: -1px;
+    top: 73%;
+    left: 1%;
+    padding: 30px 650px 0px 0px;
+    color: #333;
+}
+.nft-section5 .nft-p3{
+    position: absolute;
+    z-index: 1;
+    font-family: Poppins, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; 
+    letter-spacing: -1px;
+    top: 80%;
+    left: 1%;
+    padding: 30px 700px 0px 0px;
+    color: #808080;
+}
+.nft-img4{
+    position:absolute;
+    z-index: 3;
+    background: url('https://i.ibb.co/n6WDX7c/image.png');
+    height: 500px;
+    width: 500px;
+    top: 20%;
+    left: 57%;
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 @media only screen and (max-width: 1024px) {

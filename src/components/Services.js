@@ -64,75 +64,67 @@ const Services = () => {
       <h1 className='service-heading2'>Check out Our Services</h1>
       <p className='service-p'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
       standard dummy text ever since the 1500s, when an unknown</p>
-      <div className='carousel'>
+      <div className='service-carousel'>
           <Slider {...setting}>
-            <div className='cards'>
-              <div className='circle1'>
-                <img src={ai} alt='ai'/>
-              </div>
+            <div className='card1'>
+              <img className='circle1' src='https://i.ibb.co/1QnZmL0/circle.png'/>
+                <img className='ai' alt='ai'/>
                 <h3 className='h1-ai'>Artificial intelligence</h3>
                 <p className='p1-ai'>Lorem Ipsum is simply dummy text of the <br/>printing and 
                 typesetting industry. Lorem Ipsum <br/>has been the industry's 
                 standard dummy text <br/>ever since the 1500s, when an unknown</p>
             </div> 
-            <div className='cards'>
-              <div className='circle2'>
-                <img src={desktop} alt='ai'/>
-              </div>
+            <div className='card2'>
+              <img className='circle2' src='https://i.ibb.co/1QnZmL0/circle.png'/>
+                {/*<img src={desktop} alt='ai'/>*/} 
                 <h3 className='h2-ai'>Graphic Design</h3>
                 <p className='p2-ai'>Lorem Ipsum is simply dummy text of the <br/>printing and 
                 typesetting industry. Lorem Ipsum <br/>has been the industry's 
                 standard dummy text <br/>ever since the 1500s, when an unknown</p>
             </div>
             <div className='cards'>
-              <div className='circle3'>
-                <img src={laptop} alt='ai'/>
-              </div>
+            <img className='circle3' src='https://i.ibb.co/1QnZmL0/circle.png'/>
+                {/*<img src={laptop} alt='ai'/> */}  
                 <h3 className='h3-ai'>Web Design & Developement</h3>
                 <p className='p3-ai'>Lorem Ipsum is simply dummy text of the <br/>printing and 
                 typesetting industry. Lorem Ipsum <br/>has been the industry's 
                 standard dummy text <br/>ever since the 1500s, when an unknown</p>
             </div> 
             <div className='cards'>
-              <div className='circle4'>
-                <img src={mobile} alt='ai'/>
-              </div>
+            <img className='circle4' src='https://i.ibb.co/1QnZmL0/circle.png'/>
+                {/*<img src={mobile} alt='ai'/>*/} 
                 <h3 className='h4-ai'>Artificial intelligence</h3>            
                 <p className='p4-ai'>Lorem Ipsum is simply dummy text of the <br/>printing and 
                 typesetting industry. Lorem Ipsum <br/>has been the industry's 
                 standard dummy text <br/>ever since the 1500s, when an unknown</p>
             </div>  
             <div className='cards'>
-              <div className='circle5'>
-                <img src={ai} alt='ai'/>
-              </div>
+            <img className='circle5' src='https://i.ibb.co/1QnZmL0/circle.png'/>
+                {/*<img src={ai} alt='ai'/> */}               
                 <h3 className='h5-ai'>Artificial intelligence</h3>
                 <p className='p5-ai'>Lorem Ipsum is simply dummy text of the <br/>printing and 
                 typesetting industry. Lorem Ipsum <br/>has been the industry's 
                 standard dummy text <br/>ever since the 1500s, when an unknown</p>
             </div> 
             <div className='cards'>
-              <div className='circle6'>
-                <img src={desktop} alt='ai'/>
-              </div>
+            <img className='circle6' src='https://i.ibb.co/1QnZmL0/circle.png'/>
+                {/*<img src={desktop} alt='ai'/> */}               
                 <h3 className='h6-ai'>Graphic Design</h3>
                 <p className='p6-ai'>Lorem Ipsum is simply dummy text of the <br/>printing and 
                 typesetting industry. Lorem Ipsum <br/>has been the industry's 
                 standard dummy text <br/>ever since the 1500s, when an unknown</p>
             </div>
             <div className='cards'>
-              <div className='circle7'>
-                <img src={laptop} alt='ai'/>
-              </div>
+            <img className='circle7' src='https://i.ibb.co/1QnZmL0/circle.png'/>
+                {/*<img src={laptop} alt='ai'/> */}             
                 <h3 className='h7-ai'>Web Design & Developement</h3>
                 <p className='p7-ai'>Lorem Ipsum is simply dummy text of the <br/>printing and 
                 typesetting industry. Lorem Ipsum <br/>has been the industry's 
               standard dummy text <br/>ever since the 1500s, when an unknown</p>
             </div> 
             <div className='cards'>
-              <div className='circle8'>
-                <img src={mobile} alt='ai'/>
-              </div>
+            <img className='circle8' src='https://i.ibb.co/1QnZmL0/circle.png'/>
+                {/*<img src={mobile} alt='ai'/> */}            
                 <h3 className='h8-ai'>Artificial intelligence</h3>            
                 <p className='p8-ai'>Lorem Ipsum is simply dummy text of the <br/>printing and 
                 typesetting industry. Lorem Ipsum <br/>has been the industry's 

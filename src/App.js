@@ -6,6 +6,8 @@ import MobileApp from './pages/MobileApp';
 import Game from './pages/Game';
 import Animation from './pages/Animation';
 import BlockChain from './pages/BlockChain';
+import Nft from './pages/NFT';
+import ArtificialIntelligence from './pages/ArtificialIntelligence';
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
         <Route path='game-design-and-development' element={<Game/>}/>
         <Route path='2D/3D-Animation' element={<Animation/>}/>
         <Route path='block-chain-development' element={<BlockChain/>}/>
+        <Route path='nft' element={<Nft/>}/>
+        <Route path='artificial-intelligence-development' element={<ArtificialIntelligence/>}/>
       </Routes>
     </Router>
   );

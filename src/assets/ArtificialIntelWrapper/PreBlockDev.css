@@ -3,28 +3,27 @@
     padding: 0;
 }
 
-.animate-section3{
-    height: 100vh;
+.ai-section4{
+    height: 160vh;
     width: 98.7vw;
-    background:  #f1f4ff;
+    background: #ebefff;
     position: relative;
 }
 
-.animate-section3 h1{
+.ai-section4 .main-heading{
     position: absolute;
     z-index: 1;
     font-family: Poppins, sans-serif;
-    font-size: 40px;
+    font-size: 45px;
     font-style: normal;
     font-weight: 700;
-    line-height: 50px; 
+    line-height: 60px; 
     letter-spacing: -1px;
-    top: 20%;
-    left: 1%;
-    padding: 30px 1000px 0px 0px;
-    color:  #243F82;
+    top: 10%;
+    left: 20%;
+    color: #333;
 }
-.animate-section3 p{
+.ai-section4 .main-p{
     position: absolute;
     z-index: 1;
     font-family: Poppins, sans-serif;
@@ -33,23 +32,206 @@
     font-weight: 400;
     line-height: 30px; 
     letter-spacing: -1px;
-    top: 40%;
-    left: 1%;
-    padding: 30px 700px 0px 0px;
-    color:  #808080;
+    top: 18%;
+    left: 25%;
+    color: #808080;
 }
-.animate-img3{
+
+
+.ai-section4 .ml-img{
     position:absolute;
     z-index: 3;
-    background: url('https://i.ibb.co/zNq5WR4/image.png');
-    height: 600px;
-    width: 600px;
-    top: 15%;
-    left: 52%;
+    background: url('https://i.ibb.co/PCsQtKm/image.png');
+    height: 100px;
+    width: 100px;
+    top: 25%;
+    left: 15%;
     background-size: 100%;
     background-repeat: no-repeat;
 }
-
+.ai-section4 .h1{
+    position: absolute;
+    z-index: 1;
+    font-family: Poppins, sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; 
+    letter-spacing: -1px;
+    top: 35%;
+    left: 10%;
+    margin-right: -155px;
+    color: #333;
+}
+.ai-section4 .p1{
+    position: absolute;
+    z-index: 1;
+    font-family: Poppins, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; 
+    letter-spacing: -1px;
+    top: 42%;
+    left: 4%;
+    padding-right: 880px;
+    color: #808080;
+}
+.ai-section4 .neu-img{
+    position:absolute;
+    z-index: 3;
+    background: url('https://i.ibb.co/8sdpfmL/image.png');
+    height: 100px;
+    width: 100px;
+    top: 25%;
+    left: 49%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.ai-section4 .h2{
+    position: absolute;
+    z-index: 1;
+    font-family: Poppins, sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; 
+    letter-spacing: -1px;
+    top: 35%;
+    left: 45%;
+    margin-right: -155px;
+    color: #333;
+}
+.ai-section4 .p2{
+    position: absolute;
+    z-index: 1;
+    font-family: Poppins, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; 
+    letter-spacing: -1px;
+    top: 42%;
+    left: 38%;
+    padding-right: 450px;
+    color: #808080;
+}
+.ai-section4 .exper-img{
+    position:absolute;
+    z-index: 3;
+    background: url('https://i.ibb.co/VJZQQHF/image.png');
+    height: 100px;
+    width: 100px;
+    top: 25%;
+    left: 80%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.ai-section4 .h3{
+    position: absolute;
+    z-index: 1;
+    font-family: Poppins, sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; 
+    letter-spacing: -1px;
+    top: 35%;
+    left: 77%;
+    color: #333;
+}
+.ai-section4 .p3{
+    position: absolute;
+    z-index: 1;
+    font-family: Poppins, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; 
+    letter-spacing: -1px;
+    top: 42%;
+    left: 70%;
+    margin-right: 10px;
+    color: #808080;
+}
+.ai-section4 .aid-img{
+    position:absolute;
+    z-index: 3;
+    background: url('https://i.ibb.co/bN0Xv6T/image.png');
+    height: 100px;
+    width: 100px;
+    top: 60%;
+    left: 23%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.ai-section4 .h4{
+    position: absolute;
+    z-index: 1;
+    font-family: Poppins, sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; 
+    letter-spacing: -1px;
+    top: 70%;
+    left: 22%;
+    margin-right: -155px;
+    color: #333;
+}
+.ai-section4 .p4{
+    position: absolute;
+    z-index: 1;
+    font-family: Poppins, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; 
+    letter-spacing: -1px;
+    top: 77%;
+    left: 10%;
+    padding-right: 750px;
+    color: #808080;
+}
+.ai-section4 .nlp-img{
+    position:absolute;
+    z-index: 3;
+    background: url('https://i.ibb.co/ZmRc1By/image.png');
+    height: 100px;
+    width: 100px;
+    top: 60%;
+    left: 63%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.ai-section4 .h5{
+    position: absolute;
+    z-index: 1;
+    font-family: Poppins, sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; 
+    letter-spacing: -1px;
+    top: 70%;
+    left: 55%;
+    margin-right: -155px;
+    color: #333;
+}
+.ai-section4 .p5{
+    position: absolute;
+    z-index: 1;
+    font-family: Poppins, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; 
+    letter-spacing: -1px;
+    top: 77%;
+    left: 52%;
+    padding-right: 140px;
+    color: #808080;
+}
 @media only screen and (max-width: 1024px) {
     .right-vision{
         font-size: 20px;

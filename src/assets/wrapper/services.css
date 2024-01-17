@@ -98,43 +98,167 @@
     padding: 0px 300px 0px 0px ;
 }
 
-.carousel{
+.service-carousel{
     box-sizing: border-box;
     padding: 5rem;
-    height: 100vh;
-    width: 0vw;
-    margin-top: -350px;
+    height: 80vh;
+    width: 98.7vw;
+    margin-top: -300px;
+    background: #333;
 }
 
-.cards{
+.card1{
     background-color: #F4F6FF;
-    height: 400px;
+    height: 380px;
     border-radius: 20px;
     border: 2px solid #E3E4F6;
     width:80% !important;
+    background: #e60e0e;
+    margin-top: -50px;
+    
 }
-.circle1{
+.card2{
+    background-color: #F4F6FF;
+    height: 380px;
+    border-radius: 20px;
+    border: 2px solid #E3E4F6;
+    width:80% !important;
+    background: #e60e0e;
+    
+}
+.card1 .circle1{
     position: absolute;
+    z-index: 3;
+    height: 100px;
+    width: 100px;
+    top: 12%;
+    left: 17.2%;
+    -webkit-filter: brightness(100%);
+    background-size: 100%;
+    background-repeat: none;
+    background-size: contain;
+}
+.card2 .circle2{
+    position: absolute;
+    z-index: 3;
+    height: 100px;
+    width: 100px;
+    top: 12%;
+    left: 22.5%;
+    -webkit-filter: brightness(100%);
+    background-size: 100%;
+    background-repeat: none;
+    background-size: contain;
+}
+.cards .circle3{
+    position: absolute;
+    z-index: 3;
+    height: 100px;
+    width: 100px;
+    top: 12%;
+    left: 27.8%;
+    -webkit-filter: brightness(100%);
+    background-size: 100%;
+    background-repeat: none;
+    background-size: contain;
+}
+.cards .circle4{
+    position: absolute;
+    z-index: 3;
+    height: 100px;
+    width: 100px;
+    top: 12%;
+    left: 33%;
+    -webkit-filter: brightness(100%);
+    background-size: 100%;
+    background-repeat: none;
+    background-size: contain;
+}
+.cards .circle5{
+    position: absolute;
+    z-index: 3;
+    height: 100px;
+    width: 100px;
+    top: 12%;
+    left: 38.2%;
+    -webkit-filter: brightness(100%);
+    background-size: 100%;
+    background-repeat: none;
+    background-size: contain;
+}
+.cards .circle6{
+    position: absolute;
+    z-index: 3;
+    height: 100px;
+    width: 100px;
+    top: 12%;
+    left: 43.6%;
+    -webkit-filter: brightness(100%);
+    background-size: 100%;
+    background-repeat: none;
+    background-size: contain;
+}
+.cards .circle7{
+    position: absolute;
+    z-index: 3;
+    height: 100px;
+    width: 100px;
+    top: 12%;
+    left: 48.8%;
+    -webkit-filter: brightness(100%);
+    background-size: 100%;
+    background-repeat: none;
+    background-size: contain;
+}
+.cards .circle8{
+    position: absolute;
+    z-index: 3;
+    height: 100px;
+    width: 100px;
+    top: 12%;
+    left: 54%;
+    -webkit-filter: brightness(100%);
+    background-size: 100%;
+    background-repeat: none;
+    background-size: contain;
+}
+.circle1 .ai{
+    position:absolute;
+    z-index: 4;
     height: 50px;
     width: 50px;
-    background: #8298FF;
-    border-radius: 50%;
-    padding-left: 0px;
-    margin-top: 20px;
+    top: 40%;
+    left: 18%;
+    background-repeat: no-repeat;
+    background: url('https://i.ibb.co/m6Cw4yy/image.png');
+    background-size: 10%;
 }
-.cards .circle{
-    position: absolute;
-    height: 50px;
-    width: 0px;
-    background: #8298FF;
-    border-radius: 200px;
-    margin-top: 20px;
+
+.cards img:hover{
+    box-shadow:
+1px 1px #8298ff,
+2px 2px #8298ff,
+3px 3px #8298ff,
+4px 4px #8298ff,
+5px 5px #8298ff,
+6px 6px #8298ff;
+-webkit-transform: translateX(-3px);
+transform: translateX(-3px);
+transition: .5s ease;
+-webkit-filter: brightness(50%);
+-webkit-transition: all 0.5s ease;
+-moz-transition: all 0.5s ease;
+-o-transition: all 0.5s ease;
+-ms-transition: all 0.5s ease;
+transition: all 0.5s ease;
 }
+
 .cards .h1-ai{
     position: absolute;
     margin-top: 230px;
     margin-left: 60px;
     color: #333;
+    z-index: 4;
 }
 .cards .p1-ai{
    position: absolute;
@@ -298,66 +422,39 @@
 }
 
 
-.cards img{
-    position: absolute;
-    z-index: 3;
-    height: 90px;
-    width: 90px;
-    top: 60%;
-    left: 30%;
-    -webkit-filter: brightness(100%);
-    
-}
-.cards img:hover{
-    box-shadow:
-1px 1px #8298ff,
-2px 2px #8298ff,
-3px 3px #8298ff,
-4px 4px #8298ff,
-5px 5px #8298ff,
-6px 6px #8298ff;
--webkit-transform: translateX(-3px);
-transform: translateX(-3px);
-transition: .5s ease;
--webkit-filter: brightness(50%);
--webkit-transition: all 0.5s ease;
--moz-transition: all 0.5s ease;
--o-transition: all 0.5s ease;
--ms-transition: all 0.5s ease;
-transition: all 0.5s ease;
-
-}
-
-.carousel .slick-slider {
+.service-carousel .slick-slider {
     width: 1200px !important;
 }
 
-.carousel .slick-slide div{
-    margin:0 1px;
-    width: 500px;
+.service-carousel .slick-slide div{
+    margin: -5px 1px 0 0;
+    width: 380px;
+    height: 400px;
+    background: #233F81;
+    
 }
 
-.carousel .slick-dots li.slick-active button:before {
+.service-carousel .slick-dots li.slick-active button:before {
     color: #3C4B90 !important;
     
 }
-.carousel .slick-dots li button:before {
+.service-carousel .slick-dots li button:before {
     color: #DDE3FF;
     font-size: 1rem !important;
-    top: 2rem !important;
+    top: 1rem !important;
 }
 
-.carousel .slick-initialized .slick-slide {
+.service-carousel .slick-initialized .slick-slide {
     display: flex;
 }
 
-.carousel .slick-prev {
+.service-carousel .slick-prev {
     left: 0px;
     margin-left: -30px;
     background-color:#434395 !important;
     border-radius: 10px;
 }
-.carousel .slick-next{
+.service-carousel .slick-next{
     right: 0px;
     background-color: #434395 !important;
     border-radius: 10px 10px 10px 10px;
@@ -368,7 +465,7 @@ transition: all 0.5s ease;
         height: 20px;
         width: 75vw;
         border-radius: 35px;
-        margin-top: -40px;
+        margin-top: 20px;
         padding: 80px;
         margin-left: 70px;
         position: absolute;
