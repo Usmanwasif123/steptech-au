@@ -1,6 +1,7 @@
 import React from 'react';
 import '../assets/ArtificialIntelWrapper/Footer.css';
 import {Facebook, Instagram, LinkedIn, Twitter, ArrowRight, ChevronRight} from '@mui/icons-material/';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
