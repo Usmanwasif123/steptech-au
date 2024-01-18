@@ -1,6 +1,7 @@
 import React from 'react';
 import '../assets/AnimationWrapper/Footer.css';
 import {Facebook, Instagram, LinkedIn, Twitter, ArrowRight, ChevronRight} from '@mui/icons-material/';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -22,7 +23,7 @@ const Footer = () => {
             <h1>quick links</h1>
             <nav>
             <ul className='quick-foolinks'>
-            <li><ArrowRight style={{position: 'absolute', left: '-5%', top: '23%'}}/><a href='https://steptech.com.au/'>home</a></li>
+            <li><ArrowRight style={{position: 'absolute', left: '-5%', top: '23%'}}/><Link to='/'>home</Link></li>
             <li><ArrowRight style={{position: 'absolute', left: '-5%',  top: '39%'}}/><a className='about'>about us</a></li>
             <li><ArrowRight style={{position: 'absolute', left: '-5%', top: '55%'}}/><a className='portfolio'>portfolio</a></li>
             <li><ArrowRight style={{position: 'absolute', left: '-5%', top: '72%'}}/><a className='contact'>contact us</a></li>
@@ -34,8 +35,10 @@ const Footer = () => {
             <h1>Services</h1>
             <nav className='service-foolinks'>
             <li><ChevronRight style={{position: 'absolute', left: '-8%', top: '18%'}}/><a href='#'>Graphics Designing</a></li>
-            <li><ChevronRight style={{position: 'absolute', left: '-8%', top: '31%'}}/><a>Website Design & Development</a></li>
-            <li><ChevronRight style={{position: 'absolute', left: '-8%', top: '44%'}}/><a>Mobile App UI/UX Design &<br/> Development</a></li>
+            <li><ChevronRight style={{position: 'absolute', left: '-8%', top: '31%'}}/><Link to='/web-design-and-development'>Website Design & 
+            Development</Link></li>
+            <li><ChevronRight style={{position: 'absolute', left: '-8%', top: '44%'}}/><Link to='/app-development'>Mobile App UI/UX Design &<br/>
+             Development</Link></li>
             <li><ChevronRight style={{position: 'absolute', left: '-8%', top: '65%'}}/><a>Software Development</a></li>
             <li><ChevronRight style={{position: 'absolute', left: '-8%', top: '78%'}}/><a>Search Engine Optimization</a></li>
             <li><ChevronRight style={{position: 'absolute', left: '-8%', top: '91%'}}/><a>Social Media Management</a></li>
@@ -44,13 +47,19 @@ const Footer = () => {
         <div className='service-links2'>
             <h1>Services</h1>
             <nav className='service-foolinks2'>
-            <li><ChevronRight style={{position: 'absolute', left: '-8%', top: '18%'}}/><a href='#'>Digital Marketing</a></li>
+            <li><ChevronRight style={{position: 'absolute', left: '-8%', top: '18%'}}/><a>Digital Marketing</a></li>
             <li><ChevronRight style={{position: 'absolute', left: '-8%', top: '30%'}}/><a>E-Commerce</a></li>
-            <li><ChevronRight style={{position: 'absolute', left: '-8%', top: '42%'}}/><a>Game Design & Development</a></li>
-            <li><ChevronRight style={{position: 'absolute', left: '-8%', top: '54%'}}/><a>2D/3D Animation</a></li>
-            <li><ChevronRight style={{position: 'absolute', left: '-8%', top: '67%'}}/><a>Block Chain Development</a></li>
-            <li><ChevronRight style={{position: 'absolute', left: '-8%', top: '79%'}}/><a>NFT</a></li>
-            <li><ChevronRight style={{position: 'absolute', left: '-8%', top: '92%'}}/><a>Artificial Intelligence</a></li>
+            <li><ChevronRight style={{position: 'absolute', left: '-8%', top: '42%'}}/><Link to='/game-design-and-development'>Game Design & Development
+            </Link>
+            </li>
+            <li><ChevronRight style={{position: 'absolute', left: '-8%', top: '54%'}}/><Link to='/2D/3D-Animation'>2D/3D Animation</Link>
+            </li>
+            <li><ChevronRight style={{position: 'absolute', left: '-8%', top: '67%'}}/><Link to='/block-chain-development'>Block Chain Development</Link>
+            </li>
+            <li><ChevronRight style={{position: 'absolute', left: '-8%', top: '79%'}}/><Link to='/nft'>NFT</Link>
+            </li>
+            <li><ChevronRight style={{position: 'absolute', left: '-8%', top: '92%'}}/><Link to='/artificial-intelligence-development'>Artificial Intelligence</Link>
+            </li>
             </nav>
         </div>
         <div className='contact-link'>

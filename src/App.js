@@ -8,6 +8,7 @@ import Animation from './pages/Animation';
 import BlockChain from './pages/BlockChain';
 import Nft from './pages/NFT';
 import ArtificialIntelligence from './pages/ArtificialIntelligence';
+import Portfolio from './pages/Portfolio';
 
 function App() {
   return (
@@ -15,13 +16,14 @@ function App() {
       <Routes>
         <Route exact path='/' element={<Home/>}/>
         <Route path='get-a-quote' element={<Quote/>}/>
-        <Route path='web-design-and-development' element={<Web/>}/>
-        <Route path='app-development' element={<MobileApp/>}/>
-        <Route path='game-design-and-development' element={<Game/>}/>
-        <Route path='2D/3D-Animation' element={<Animation/>}/>
-        <Route path='block-chain-development' element={<BlockChain/>}/>
-        <Route path='nft' element={<Nft/>}/>
-        <Route path='artificial-intelligence-development' element={<ArtificialIntelligence/>}/>
+        <Route path='/web-design-and-development' element={<Web/>}/>
+        <Route path='/app-development' element={<MobileApp/>}/>
+        <Route path='/game-design-and-development' element={<Game/>}/>
+        <Route path='/2D/3D-Animation' element={<Animation/>}/>
+        <Route path='/block-chain-development' element={<BlockChain/>}/>
+        <Route path='/nft' element={<Nft/>}/>
+        <Route path='/artificial-intelligence-development' element={<ArtificialIntelligence/>}/>
+        <Route path='/portfolio' element={<Portfolio/>}/>
       </Routes>
     </Router>
   );

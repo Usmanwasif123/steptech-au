@@ -9,7 +9,7 @@ const Passion = () => {
 
     const[setting, setSetting] = useState({
       dots: true,
-      infinite: false,
+      infinite: true,
       speed: 500,
       slidesToShow: 4,
       slidesToScroll: 4,
@@ -29,21 +29,27 @@ const Passion = () => {
           settings: {
             slidesToShow: 2,
             slidesToScroll: 2,
-            initialSlide: 2
+            initialSlide: 2,
+            infinite: true,
+            dots: true
           }
         },
         {
           breakpoint: 480,
           settings: {
             slidesToShow: 1,
-            slidesToScroll: 1
+            slidesToScroll: 1,
+            infinite: true,
+            dots: true
           }
         },
         {
           breakpoint: 320,
           settings: {
             slidesToShow: 1,
-            slidesToScroll: 1
+            slidesToScroll: 1,
+            infinite: true,
+            dots: true
           }
         }
       ]

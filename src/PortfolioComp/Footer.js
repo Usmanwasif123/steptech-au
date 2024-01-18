@@ -1,5 +1,5 @@
 import React from 'react';
-import '../assets/AnimationWrapper/Footer.css';
+import '../assets/WebWrapper/Footer.css';
 import {Facebook, Instagram, LinkedIn, Twitter, ArrowRight, ChevronRight} from '@mui/icons-material/';
 import { Link } from 'react-router-dom';
 
@@ -19,7 +19,7 @@ const Footer = () => {
         color: '#fff', transform: 'scale(1.5)'}}/>
         <Twitter style={{position: 'absolute', zIndex: '3', top: '85%', left: '11%',
         color: '#fff', transform: 'scale(1.5)'}}/>
-         <div className='quick-links'>
+        <div className='quick-links'>
             <h1>quick links</h1>
             <nav>
             <ul className='quick-foolinks'>
@@ -61,7 +61,8 @@ const Footer = () => {
             <li><ChevronRight style={{position: 'absolute', left: '-8%', top: '92%'}}/><Link to='/artificial-intelligence-development'>Artificial Intelligence</Link>
             </li>
             </nav>
-        </div>        <div className='contact-link'>
+        </div>
+        <div className='contact-link'>
             <h1>Contact us</h1>
             <nav className='contact-foolinks'>
             <li><img src='https://i.ibb.co/b3XwQZv/aus-flag.png'/><a href='#'>AUS: +61 410 025 346</a></li>
