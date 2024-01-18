@@ -104,34 +104,121 @@
     height: 80vh;
     width: 98.7vw;
     margin-top: -300px;
-    background: #333;
 }
 
 .card1{
-    background-color: #e40d0d;
-    height: 380px;
+    background: #F4F6FF;
+    height: 340px !important;
     border-radius: 20px;
     border: 2px solid #E3E4F6;
-    width:80% !important;
-    margin-top: -50px;
-    
+    width:90% !important;
+    margin-top: 140px !important;
+   
 }
+
 .card2{
-    background-color: #F4F6FF;
-    height: 380px;
+    background: #F4F6FF;
+    height: 340px !important;
     border-radius: 20px;
     border: 2px solid #E3E4F6;
-    width:80% !important;
-    background: #e60e0e;
-    
+    width:90% !important;
+    margin-top: 140px !important;
+}
+.card3{
+    background: #F4F6FF;
+    height: 340px !important;
+    border-radius: 20px;
+    border: 2px solid #E3E4F6;
+    width:90% !important;
+    margin-top: 140px !important;
+}
+.card4{
+    background: #F4F6FF;
+    height: 340px !important;
+    border-radius: 20px;
+    border: 2px solid #E3E4F6;
+    width:90% !important;
+    margin-top: 140px !important;
+}
+.card5{
+    background: #F4F6FF;
+    height: 340px !important;
+    border-radius: 20px;
+    border: 2px solid #E3E4F6;
+    width:90% !important;
+    margin-top: 140px !important;
+}
+.card6{
+    background: #F4F6FF;
+    height: 340px !important;
+    border-radius: 20px;
+    border: 2px solid #E3E4F6;
+    width:90% !important;
+    margin-top: 140px !important;
+}
+.card7{
+    background: #F4F6FF;
+    height: 340px !important;
+    border-radius: 20px;
+    border: 2px solid #E3E4F6;
+    width:90% !important;
+    margin-top: 140px !important;
+}
+.card8{
+    background: #F4F6FF;
+    height: 340px !important;
+    border-radius: 20px;
+    border: 2px solid #E3E4F6;
+    width:90% !important;
+    margin-top: 140px !important;
+}
+.card9{
+    background: #F4F6FF;
+    height: 340px !important;
+    border-radius: 20px;
+    border: 2px solid #E3E4F6;
+    width:90% !important;
+    margin-top: 140px !important;
+}
+.card10{
+    background: #F4F6FF;
+    height: 340px !important;
+    border-radius: 20px;
+    border: 2px solid #E3E4F6;
+    width:90% !important;
+    margin-top: 140px !important;
+}
+.card11{
+    background: #F4F6FF;
+    height: 340px !important;
+    border-radius: 20px;
+    border: 2px solid #E3E4F6;
+    width:90% !important;
+    margin-top: 140px !important;
+}
+.card12{
+    background: #F4F6FF;
+    height: 340px !important;
+    border-radius: 20px;
+    border: 2px solid #E3E4F6;
+    width:90% !important;
+    margin-top: 140px !important;
+}
+.card13{
+    background: #F4F6FF;
+    height: 340px !important;
+    border-radius: 20px;
+    border: 2px solid #E3E4F6;
+    width:90% !important;
+    margin-top: 140px !important;
 }
 .card1 .circle1{
     position: absolute;
     z-index: 3;
     height: 100px;
     width: 100px;
-    top: 12%;
-    left: 17.2%;
+    top: 13%;
+    left: 32%;
     -webkit-filter: brightness(100%);
     background-size: 100%;
     background-repeat: none;
@@ -142,98 +229,251 @@
     z-index: 3;
     height: 100px;
     width: 100px;
-    top: 12%;
-    left: 22.5%;
+    top: 13%;
+    left: 32%;
     -webkit-filter: brightness(100%);
     background-size: 100%;
     background-repeat: none;
     background-size: contain;
 }
-.cards .circle3{
+.card3 .circle3{
     position: absolute;
     z-index: 3;
     height: 100px;
     width: 100px;
-    top: 12%;
-    left: 27.8%;
+    top: 13%;
+    left: 32%;
     -webkit-filter: brightness(100%);
     background-size: 100%;
     background-repeat: none;
     background-size: contain;
 }
-.cards .circle4{
+.card4 .circle4{
     position: absolute;
     z-index: 3;
     height: 100px;
     width: 100px;
-    top: 12%;
+    top: 13%;
     left: 33%;
     -webkit-filter: brightness(100%);
     background-size: 100%;
     background-repeat: none;
     background-size: contain;
 }
-.cards .circle5{
+.card5 .circle5{
     position: absolute;
     z-index: 3;
     height: 100px;
     width: 100px;
-    top: 12%;
+    top: 13%;
     left: 38.2%;
     -webkit-filter: brightness(100%);
     background-size: 100%;
     background-repeat: none;
     background-size: contain;
 }
-.cards .circle6{
+.card6 .circle6{
     position: absolute;
     z-index: 3;
     height: 100px;
     width: 100px;
-    top: 12%;
-    left: 43.6%;
+    top: 13%;
+    left: 32%;
     -webkit-filter: brightness(100%);
     background-size: 100%;
     background-repeat: none;
     background-size: contain;
 }
-.cards .circle7{
+.card7 .circle7{
     position: absolute;
     z-index: 3;
     height: 100px;
     width: 100px;
-    top: 12%;
-    left: 48.8%;
+    top: 13%;
+    left: 32%;
     -webkit-filter: brightness(100%);
     background-size: 100%;
     background-repeat: none;
     background-size: contain;
 }
-.cards .circle8{
+.card8 .circle8{
     position: absolute;
     z-index: 3;
     height: 100px;
     width: 100px;
-    top: 12%;
-    left: 54%;
+    top: 13%;
+    left: 32%;
     -webkit-filter: brightness(100%);
     background-size: 100%;
     background-repeat: none;
     background-size: contain;
 }
-.circle1 .ai{
+.card9 .circle9{
+    position: absolute;
+    z-index: 3;
+    height: 100px;
+    width: 100px;
+    top: 13%;
+    left: 32%;
+    -webkit-filter: brightness(100%);
+    background-size: 100%;
+    background-repeat: none;
+    background-size: contain;
+}
+.card10 .circle10{
+    position: absolute;
+    z-index: 3;
+    height: 100px;
+    width: 100px;
+    top: 13%;
+    left: 32%;
+    -webkit-filter: brightness(100%);
+    background-size: 100%;
+    background-repeat: none;
+    background-size: contain;
+}
+.card11 .circle11{
+    position: absolute;
+    z-index: 3;
+    height: 100px;
+    width: 100px;
+    top: 13%;
+    left: 32%;
+    -webkit-filter: brightness(100%);
+    background-size: 100%;
+    background-repeat: none;
+    background-size: contain;
+}
+.card12 .circle12{
+    position: absolute;
+    z-index: 3;
+    height: 100px;
+    width: 100px;
+    top: 13%;
+    left: 32%;
+    -webkit-filter: brightness(100%);
+    background-size: 100%;
+    background-repeat: none;
+    background-size: contain;
+}
+.card13 .circle13{
+    position: absolute;
+    z-index: 3;
+    height: 100px;
+    width: 100px;
+    top: 13%;
+    left: 32%;
+    -webkit-filter: brightness(100%);
+    background-size: 100%;
+    background-repeat: none;
+    background-size: contain;
+}
+.card1 .ai{
     position:absolute;
-    z-index: 4;
-    height: 50px;
-    width: 50px;
-    top: 40%;
-    left: 18%;
-    background-repeat: no-repeat;
-    background: url('https://i.ibb.co/m6Cw4yy/image.png');
-    background-size: 10%;
+    z-index: 3;
+    height: 100px;
+    width: 100px;
+    top: 20%;
+    left: 40%;
+}
+.card2 .ai{
+    position:absolute;
+    z-index: 3;
+    height: 100px;
+    width: 100px;
+    top: 20%;
+    left: 40%;
+}
+.card3 .ai{
+    position:absolute;
+    z-index: 3;
+    height: 100px;
+    width: 100px;
+    top: 20%;
+    left: 40%;
+}
+.card4 .ai{
+    position:absolute;
+    z-index: 3;
+    height: 100px;
+    width: 100px;
+    top: 20%;
+    left: 40%;
+}
+.card5 .ai{
+    position:absolute;
+    z-index: 3;
+    height: 100px;
+    width: 100px;
+    top: 20%;
+    left: 40%;
+}
+.card6 .ai{
+    position:absolute;
+    z-index: 3;
+    height: 100px;
+    width: 100px;
+    top: 20%;
+    left: 40%;
+}
+.card7 .ai{
+    position:absolute;
+    z-index: 3;
+    height: 100px;
+    width: 100px;
+    top: 20%;
+    left: 40%;
+}
+.card8 .ai{
+    position:absolute;
+    z-index: 3;
+    height: 100px;
+    width: 100px;
+    top: 20%;
+    left: 40%;
+}
+.card9 .ai{
+    position:absolute;
+    z-index: 3;
+    height: 100px;
+    width: 100px;
+    top: 20%;
+    left: 40%;
 }
 
-.cards img:hover{
+.card10 .ai{
+    position:absolute;
+    z-index: 3;
+    height: 100px;
+    width: 100px;
+    top: 20%;
+    left: 40%;
+}
+.card11 .ai{
+    position:absolute;
+    z-index: 3;
+    height: 100px;
+    width: 100px;
+    top: 20%;
+    left: 40%;
+}
+.card12 .ai{
+    position:absolute;
+    z-index: 3;
+    height: 100px;
+    width: 100px;
+    top: 20%;
+    left: 40%;
+}
+.card13 .ai{
+    position:absolute;
+    z-index: 3;
+    height: 100px;
+    width: 100px;
+    top: 20%;
+    left: 40%;
+}
+.ai:hover{
     box-shadow:
 1px 1px #8298ff,
 2px 2px #8298ff,
@@ -252,185 +492,285 @@ transition: .5s ease;
 transition: all 0.5s ease;
 }
 
-.cards .h1-ai{
+.card1 .h1-f{
     position: absolute;
-    margin-top: 230px;
-    margin-left: 60px;
+    margin-top: 150px !important;
+    margin-left: 50px !important;
     color: #333;
-    z-index: 4;
+    font-size: 22px;
 }
-.cards .p1-ai{
-   position: absolute;
-   z-index: 3;
-   margin-top: 280px;
-   color: #616163;
-   text-align: center;
-   font-family: Poppins, sans-serif;
-   font-size: 15.21px;
-   font-style: normal;
-   font-weight: 400;
-   line-height: 20px; /* 131.492% */
-   letter-spacing: -0.331px;
-   left: 16%;
-}
-.cards .h2-ai{
-    position: absolute;
-    margin-top: 230px;
-    margin-left: 80px;
-    color: #333;
-}
-.cards .p2-ai{
+.card1 .p1-f{
    position: absolute;
    z-index: 2;
-   margin-top: 280px;
+   margin: 200px -500px 0px 10px !important;
    color: #616163;
    text-align: center;
    font-family: Poppins, sans-serif;
-   font-size: 15.21px;
+   font-size: 16px;
    font-style: normal;
    font-weight: 400;
    line-height: 20px; /* 131.492% */
    letter-spacing: -0.331px;
-   left: 21.2%;
+}
+.card2 .h2-g{
+    position: absolute;
+    margin-top: 150px !important;
+    margin-left: 2px !important;
+    color: #333;
+    font-size: 22px;
+}
+.card2 .p2-g{
+   position: absolute;
+   z-index: 2;
+   margin: 200px -500px 0px 10px !important;
+   color: #616163;
+   text-align: center;
+   font-family: Poppins, sans-serif;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 20px; /* 131.492% */
+   letter-spacing: -0.331px;
 }
 
-.cards .h3-ai{
+.card3 .h3-w{
     position: absolute;
-    margin-top: 230px;
-    margin-left: -90px;
-    padding-left: 120px;
+    margin-top: 150px !important;
+    margin-left: 18px !important;
     color: #333;
+    font-size: 22px;
 }
-.cards .p3-ai{
-   position: absolute;
-   z-index: 2;
-   margin-top: 280px;
-   color: #616163;
-   text-align: center;
-   font-family: Poppins, sans-serif;
-   font-size: 15.21px;
-   font-style: normal;
-   font-weight: 400;
-   line-height: 20px; /* 131.492% */
-   letter-spacing: -0.331px;
-   left: 26.5%;
+.card3 .p3-w{
+    position: absolute;
+    z-index: 2;
+    margin: 200px -500px 0px 10px !important;
+    color: #616163;
+    text-align: center;
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 131.492% */
+    letter-spacing: -0.331px;
 }
 
-.cards .h4-ai{
+.card4 .h4-a{
     position: absolute;
-    margin-top: 230px;
-    margin-left: 50px;
+    margin-top: 150px !important;
+    margin-left: 40px !important;
     color: #333;
+    font-size: 22px;
 }
-.cards .p4-ai{
-   position: absolute;
-   z-index: 2;
-   margin-top: 280px;
-   color: #616163;
-   text-align: center;
-   font-family: Poppins, sans-serif;
-   font-size: 15.21px;
-   font-style: normal;
-   font-weight: 400;
-   line-height: 20px; /* 131.492% */
-   letter-spacing: -0.331px;
-   left: 31.7%;
+.card4 .p4-a{
+    position: absolute;
+    z-index: 2;
+    margin: 200px -500px 0px 10px !important;
+    color: #616163;
+    text-align: center;
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 131.492% */
+    letter-spacing: -0.331px;
 }
 
-.cards .h5-ai{
+.card5 .h5-b{
     position: absolute;
-    margin-top: 230px;
-    margin-left: 50px;
+    margin-top: 150px !important;
+    margin-left: 22px !important;
     color: #333;
+    font-size: 22px;
 }
-.cards .p5-ai{
-   position: absolute;
-   z-index: 2;
-   margin-top: 280px;
-   color: #616163;
-   text-align: center;
-   font-family: Poppins, sans-serif;
-   font-size: 15.21px;
-   font-style: normal;
-   font-weight: 400;
-   line-height: 20px; /* 131.492% */
-   letter-spacing: -0.331px;
-   left: 37%;
+.card5 .p5-b{
+    position: absolute;
+    z-index: 2;
+    margin: 200px -500px 0px 10px !important;
+    color: #616163;
+    text-align: center;
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 131.492% */
+    letter-spacing: -0.331px;
 }
 
-.cards .h6-ai{
+.card6 .h6-c{
     position: absolute;
-    margin-top: 230px;
-    margin-left: 90px;
+    margin-top: 150px !important;
+    margin-left: 22px !important;
     color: #333;
+    font-size: 22px;
 }
-.cards .p6-ai{
-   position: absolute;
-   z-index: 2;
-   margin-top: 280px;
-   color: #616163;
-   text-align: center;
-   font-family: Poppins, sans-serif;
-   font-size: 15.21px;
-   font-style: normal;
-   font-weight: 400;
-   line-height: 20px; /* 131.492% */
-   letter-spacing: -0.331px;
-   left: 42.3%;
-}
-.cards .h7-ai{
+.card6 .p6-c{
     position: absolute;
-    margin-top: 230px;
-    margin-left: 30px;
-    color: #333;
+    z-index: 2;
+    margin: 200px -500px 0px 10px !important;
+    color: #616163;
+    text-align: center;
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 131.492% */
+    letter-spacing: -0.331px;
 }
-.cards .p7-ai{
-   position: absolute;
-   z-index: 2;
-   margin-top: 280px;
-   color: #616163;
-   text-align: center;
-   font-family: Poppins, sans-serif;
-   font-size: 15.21px;
-   font-style: normal;
-   font-weight: 400;
-   line-height: 20px; /* 131.492% */
-   letter-spacing: -0.331px;
-   left: 47.5%;
+.card7 .h7-d{
+    position: absolute;
+    margin-top: 150px !important;
+    margin-left: 70px !important;
+    color: #333;
+    font-size: 22px;
+}
+.card7 .p7-d{
+    position: absolute;
+    z-index: 2;
+    margin: 200px -500px 0px 10px !important;
+    color: #616163;
+    text-align: center;
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 131.492% */
+    letter-spacing: -0.331px;
 }
 
-.cards .h8-ai{
+.card8 .h8-e{
     position: absolute;
-    margin-top: 230px;
-    margin-left: 60px;
+    margin-top: 150px !important;
+    margin-left: 90px !important;
     color: #333;
+    font-size: 22px;
 }
-.cards .p8-ai{
-   position: absolute;
-   z-index: 2;
-   margin-top: 280px;
-   color: #616163;
-   text-align: center;
-   font-family: Poppins, sans-serif;
-   font-size: 15.21px;
-   font-style: normal;
-   font-weight: 400;
-   line-height: 20px; /* 131.492% */
-   letter-spacing: -0.331px;
-   left: 52.8%;
+.card8 .p8-e{
+    position: absolute;
+    z-index: 2;
+    margin: 200px -500px 0px 10px !important;
+    color: #616163;
+    text-align: center;
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 131.492% */
+    letter-spacing: -0.331px;
+}
+.card9 .h9-e{
+    position: absolute;
+    margin-top: 150px !important;
+    margin-left: 12px !important;
+    color: #333;
+    font-size: 22px;
+}
+.card9 .p9-e{
+    position: absolute;
+    z-index: 2;
+    margin: 200px -500px 0px 10px !important;
+    color: #616163;
+    text-align: center;
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 131.492% */
+    letter-spacing: -0.331px;
 }
 
+.card10 .h10-e{
+    position: absolute;
+    margin-top: 150px !important;
+    margin-left: 80px !important;
+    color: #333;
+    font-size: 22px;
+}
+.card10 .p10-e{
+    position: absolute;
+    z-index: 2;
+    margin: 200px -500px 0px 10px !important;
+    color: #616163;
+    text-align: center;
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 131.492% */
+    letter-spacing: -0.331px;
+}
+.card11 .h11-e{
+    position: absolute;
+    margin-top: 150px !important;
+    margin-left: 30px !important;
+    color: #333;
+    font-size: 22px;
+}
+.card11 .p11-e{
+    position: absolute;
+    z-index: 2;
+    margin: 200px -500px 0px 10px !important;
+    color: #616163;
+    text-align: center;
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 131.492% */
+    letter-spacing: -0.331px;
+}
+.card12 .h12-e{
+    position: absolute;
+    margin-top: 150px !important;
+    margin-left: 150px !important;
+    color: #333;
+    font-size: 22px;
+}
+.card12 .p12-e{
+    position: absolute;
+    z-index: 2;
+    margin: 200px -500px 0px 10px !important;
+    color: #616163;
+    text-align: center;
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 131.492% */
+    letter-spacing: -0.331px;
+}
+.card13 .h13-e{
+    position: absolute;
+    margin-top: 150px !important;
+    margin-left: 50px !important;
+    color: #333;
+    font-size: 22px;
+}
+.card13 .p13-e{
+    position: absolute;
+    z-index: 2;
+    margin: 200px -500px 0px 10px !important;
+    color: #616163;
+    text-align: center;
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 131.492% */
+    letter-spacing: -0.331px;
+}
 
 .service-carousel .slick-slider {
     width: 1200px !important;
 }
 
 .service-carousel .slick-slide div{
-    margin: -100px 1px 0 0;
+    margin: -140px 1px 0 0;
     width: 370px;
     height: 500px;
-    background: #233F81;
-    
+    position: relative;
+    z-index: 3;
+
+   
 }
 
 .service-carousel .slick-dots li.slick-active button:before {
