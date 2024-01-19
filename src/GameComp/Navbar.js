@@ -89,7 +89,7 @@ const Navbar = () => {
         </h1>
       </div>
       <Link to='/read-more' className='gamebtn-start' data-aos="flip-right" data-aos-duration="500" data-aos-easing="ease-in-sine" data-aos-offset="0">get started</Link>
-      <div className='webnav-image' data-aos="slide-left" data-aos-duration="500" data-aos-easing="ease-in-sine" data-aos-offset="0"></div>
+      <div className='gamenav-image' data-aos="slide-left" data-aos-duration="500" data-aos-easing="ease-in-sine" data-aos-offset="0"></div>
     </div>
    </>
   );

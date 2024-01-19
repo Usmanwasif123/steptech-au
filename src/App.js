@@ -9,6 +9,9 @@ import BlockChain from './pages/BlockChain';
 import Nft from './pages/NFT';
 import ArtificialIntelligence from './pages/ArtificialIntelligence';
 import Portfolio from './pages/Portfolio';
+import Service from './pages/Service';
+import SoftDev from './pages/SoftDevelopement';
+import Ecom from './pages/Ecommerce';
 
 function App() {
   return (
@@ -24,6 +27,9 @@ function App() {
         <Route path='/nft' element={<Nft/>}/>
         <Route path='/artificial-intelligence-development' element={<ArtificialIntelligence/>}/>
         <Route path='/portfolio' element={<Portfolio/>}/>
+        <Route path='/service' element={<Service/>}/>
+        <Route path='/software-developement' element={<SoftDev/>}/>
+        <Route path='/ecommerce' element={<Ecom/>}/>
       </Routes>
     </Router>
   );

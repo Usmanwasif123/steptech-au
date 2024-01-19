@@ -4,14 +4,14 @@
 
 }
 
-.game-nav-container{
-    height: 110vh;
+.software-nav-container{
+    height: 125vh;
     width: 98.7vw;
     position: relative;
 }
-.game-nav-container img{
+.software-nav-container img{
     position: relative;
-    height:  110vh;
+    height:  125vh;
     width: 98.7vw;
     object-fit: cover;
     background-repeat: no-repeat;
@@ -85,7 +85,7 @@
     left: 78%;
 }
 
-.banner-line{
+.software-banner-line{
     top: 20%;
     left: 9%;
     position: absolute;
@@ -95,12 +95,12 @@
     padding: 0px 673px 1px;
 }
 
-.game-heading h1{
+.software-heading h1{
     position: absolute;
     z-index: 1;
-    top: 30%;
+    top: 40%;
     left: 5%;
-    margin: 0px 400px 0px -20px;
+    margin: 0px 500px 0px -20px;
     padding: 0px 100px 0px 5px;
     color: #FFF;
     font-family: Poppins, sans-serif;
@@ -112,13 +112,13 @@
     text-transform: capitalize;
 }
 
-.game-heading p{
+.software-heading p{
     position: absolute;
     z-index: 1;
     top: 120%;
     left: 3%;
     margin: 0px 50px 0px -20px;
-    padding: 0px 100px 0px 5px;
+    padding: 0px 110px 0px 5px;
     color: #FFF;
     font-family: Poppins, sans-serif;
     font-size: 20px;
@@ -128,7 +128,7 @@
     letter-spacing: -1px;
     text-transform: capitalize;
 }
-.gamebtn-start{
+.softwarebtn1-start{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -143,7 +143,7 @@
     z-index: 1;
     outline: 1px solid #fff;
     background: transparent;
-    top: 80%;
+    top: 75%;
     left: 4.5%;
     box-shadow: inset 0 0 0 0 #233F81;
     -webkit-transition: ease-out 0.4s;
@@ -151,19 +151,19 @@
     transition: ease-out 0.4s;
 }
 
-.gamebtn-start:hover {
+.softwarebtn1-start:hover {
     box-shadow: inset 0 0 0 50px #e6e1e4;
     color: #233F81;
 }
 
-.gamenav-image{
+.software-nav-image{
     position:absolute;
     z-index: 3;
-    background: url('https://i.ibb.co/tsfxT7c/image.png');
-    height: 500px;
-    width: 500px;
-    top: 30%;
-    left: 60%;
+    background: url('https://i.ibb.co/7r4fDn2/image.png');
+    height: 550px;
+    width: 550px;
+    top: 25%;
+    left: 55%;
     background-size: 100%;
     background-repeat: no-repeat;
 }

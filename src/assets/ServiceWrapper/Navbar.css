@@ -4,12 +4,12 @@
 
 }
 
-.game-nav-container{
+.service-nav-container{
     height: 110vh;
     width: 98.7vw;
     position: relative;
 }
-.game-nav-container img{
+.service-nav-container img{
     position: relative;
     height:  110vh;
     width: 98.7vw;
@@ -95,14 +95,12 @@
     padding: 0px 673px 1px;
 }
 
-.game-heading h1{
+.service-heading h1{
     position: absolute;
     z-index: 1;
-    top: 30%;
-    left: 5%;
-    margin: 0px 400px 0px -20px;
-    padding: 0px 100px 0px 5px;
-    color: #FFF;
+    top: 50%;
+    left: 40%;
+    color: hsl(0, 0%, 100%);
     font-family: Poppins, sans-serif;
     font-size: 50px;
     font-style: normal;
@@ -112,61 +110,6 @@
     text-transform: capitalize;
 }
 
-.game-heading p{
-    position: absolute;
-    z-index: 1;
-    top: 120%;
-    left: 3%;
-    margin: 0px 50px 0px -20px;
-    padding: 0px 100px 0px 5px;
-    color: #FFF;
-    font-family: Poppins, sans-serif;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 300;
-    line-height: 30px; 
-    letter-spacing: -1px;
-    text-transform: capitalize;
-}
-.gamebtn-start{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-transform: capitalize;
-    text-decoration: none;
-    font-size: 25px;
-    padding: 10px 20px 10px 20px;
-    position: absolute;
-    border-radius: 15px;
-    cursor: pointer;
-    color: #fff;
-    z-index: 1;
-    outline: 1px solid #fff;
-    background: transparent;
-    top: 80%;
-    left: 4.5%;
-    box-shadow: inset 0 0 0 0 #233F81;
-    -webkit-transition: ease-out 0.4s;
-    -moz-transition: ease-out 0.4s;
-    transition: ease-out 0.4s;
-}
-
-.gamebtn-start:hover {
-    box-shadow: inset 0 0 0 50px #e6e1e4;
-    color: #233F81;
-}
-
-.gamenav-image{
-    position:absolute;
-    z-index: 3;
-    background: url('https://i.ibb.co/tsfxT7c/image.png');
-    height: 500px;
-    width: 500px;
-    top: 30%;
-    left: 60%;
-    background-size: 100%;
-    background-repeat: no-repeat;
-}
 
 @media only screen and (max-width: 1024px) {
     .logo{
