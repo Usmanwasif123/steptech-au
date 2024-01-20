@@ -12,6 +12,8 @@ import Portfolio from './pages/Portfolio';
 import Service from './pages/Service';
 import SoftDev from './pages/SoftDevelopement';
 import Ecom from './pages/Ecommerce';
+import Blog from './pages/Blog';
+import Bitcoinblog from './pages/Bitcoin-blog';
 
 function App() {
   return (
@@ -30,6 +32,8 @@ function App() {
         <Route path='/service' element={<Service/>}/>
         <Route path='/software-developement' element={<SoftDev/>}/>
         <Route path='/ecommerce' element={<Ecom/>}/>
+        <Route path='/blog' element={<Blog/>}/>
+        <Route path='/bitcoin-halving-2024-everything-you-need-to-know' element={<Bitcoinblog/>}/>
       </Routes>
     </Router>
   );

@@ -3,271 +3,133 @@
     padding: 0;
 }
 
-.ecom-section5{
-    height: 200vh;
+.blog-section2{
+    height: 130vh;
     width: 98.7vw;
-    background: #ebefff;
+    background: #f1f4ff;
     position: relative;
+    margin-top: 0px !important;
+}
+.blog-section2 .box1{
+    top: 25%;
+    left:25%;
+    position: absolute;
+    z-index: 1;
+    border-radius: 5px;
+    transform: rotate(180deg);
+    background: #fff;
+    padding: 340px 280px 250px 100px;
+    -webkit-box-shadow: 0 0 15px #b8b2b6;
+        box-shadow: 0 0 15px #b8b2b6;
+}
+.blog1-img{
+    position:absolute;
+    z-index: 3;
+    background: url('https://i.ibb.co/tK1tb7r/image.png');
+    height: 384px;
+    width: 384px;
+    top: 9.5%;
+    left: 7.9%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-radius: 5px 5px 0px 0px;
 }
 
-.ecom-section5 .main-heading{
-    position: absolute;
-    z-index: 1;
-    font-family: Poppins, sans-serif;
-    font-size: 50px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 60px; 
-    letter-spacing: -1px;
-    top: 5%;
-    left: 10%;
-    color: #333;
-}
-.ecom-section5 .main-p{
-    position: absolute;
-    z-index: 1;
-    font-family: Poppins, sans-serif;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 30px; 
-    letter-spacing: -1px;
-    top: 14%;
-    left: 2%;
-    color: #808080;
+.blog-section2 .blog1-logo{
+    position:absolute;
+    z-index: 4;
+    background: url('https://i.ibb.co/FW2WdmS/image.png');
+    height: 70px;
+    width: 70px;
+    top: 37%;
+    left: 9%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-radius: 50px;
 }
 
-
-.ecom-section5 .ecomp-img{
-    position:absolute;
-    z-index: 3;
-    background: url('https://i.ibb.co/nfRDWYz/image.png');
-    height: 100px;
-    width: 100px;
-    top: 22%;
-    left: 15%;
-    background-size: 100%;
-    background-repeat: no-repeat;
-}
-.ecom-section5 .h1{
-    position: absolute;
-    z-index: 1;
-    font-family: Poppins, sans-serif;
-    font-size: 30px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 60px; 
-    letter-spacing: -1px;
-    top: 33%;
-    left: 3%;
-    color: #333;
-}
-.ecom-section5 .p1{
+.blog-section2 .blog1-h{
     position: absolute;
     z-index: 1;
     font-family: Poppins, sans-serif;
     font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 30px; 
-    letter-spacing: -1px;
-    top: 40%;
-    left: 4%;
-    padding: 0px 850px 0px 0px;
-    color: #808080;
-}
-.ecom-section5 .ecomt-img{
-    position:absolute;
-    z-index: 3;
-    background: url('https://i.ibb.co/9rN9TRX/image.png');
-    height: 100px;
-    width: 100px;
-    top: 22%;
-    left: 49%;
-    background-size: 100%;
-    background-repeat: no-repeat;
-}
-.ecom-section5 .h2{
-    position: absolute;
-    z-index: 1;
-    font-family: Poppins, sans-serif;
-    font-size: 30px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 60px; 
-    letter-spacing: -1px;
-    top: 33%;
-    left: 38%;
-    color: #333;
-}
-.ecom-section5 .p2{
-    position: absolute;
-    z-index: 1;
-    font-family: Poppins, sans-serif;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 30px; 
-    letter-spacing: -1px;
-    top: 40%;
-    left: 38%;
-    padding: 0px 400px 0px 0px;
-    color: #808080;
-}
-.ecom-section5 .ecoms-img{
-    position:absolute;
-    z-index: 3;
-    background: url('https://i.ibb.co/9WSgZyk/image.png');
-    height: 100px;
-    width: 100px;
-    top: 22%;
-    left: 80%;
-    background-size: 100%;
-    background-repeat: no-repeat;
-}
-.ecom-section5 .h3{
-    position: absolute;
-    z-index: 1;
-    font-family: Poppins, sans-serif;
-    font-size: 30px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 50px; 
-    letter-spacing: -1px;
-    top: 33%;
-    left: 75%;
-    color: #333;
-}
-.ecom-section5 .p3{
-    position: absolute;
-    z-index: 1;
-    font-family: Poppins, sans-serif;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 30px; 
-    letter-spacing: -1px;
-    top: 44%;
-    left: 73%;
-    padding: 0px 1px 0px 0px;
-    color: #808080;
-}
-.ecom-section5 .ecomm-img{
-    position:absolute;
-    z-index: 3;
-    background: url('https://i.ibb.co/xhvYM3J/image.png');
-    height: 100px;
-    width: 100px;
-    top: 62%;
-    left: 15%;
-    background-size: 100%;
-    background-repeat: no-repeat;
-}
-.ecom-section5 .h4{
-    position: absolute;
-    z-index: 1;
-    font-family: Poppins, sans-serif;
-    font-size: 30px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 60px; 
-    letter-spacing: -1px;
-    top: 72%;
-    left: 3%;
-    color: #333;
-}
-.ecom-section5 .p4{
-    position: absolute;
-    z-index: 1;
-    font-family: Poppins, sans-serif;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 30px; 
-    letter-spacing: -1px;
-    top: 79%;
-    left: 3%;
-    padding: 0px 840px 0px 0px;
-    color: #808080;
-}
-.ecom-section5 .ecomc-img{
-    position:absolute;
-    z-index: 3;
-    background: url('https://i.ibb.co/KG5YXpm/image.png');
-    height: 100px;
-    width: 100px;
-    top: 62%;
-    left: 49%;
-    background-size: 100%;
-    background-repeat: no-repeat;
-}
-.ecom-section5 .h5{
-    position: absolute;
-    z-index: 1;
-    font-family: Poppins, sans-serif;
-    font-size: 30px;
     font-style: normal;
     font-weight: 700;
     line-height: 40px; 
     letter-spacing: -1px;
-    top: 73%;
-    left: 43%;
-    margin-right: 350px;
-    color: #333;
+    top: 48%;
+    left: 10%;
+    padding: 0px 950px 0px 0px;
+    color: #243f82;
 }
-.ecom-section5 .p5{
+
+.blog-section2 .blog1-p{
     position: absolute;
     z-index: 1;
     font-family: Poppins, sans-serif;
-    font-size: 20px;
+    font-size: 15px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
     line-height: 30px; 
     letter-spacing: -1px;
-    top: 79%;
-    left: 38%;
-    padding: 30px 400px 0px 0px;
-    color: #808080;
-}
-.ecom-section5 .ecomi-img{
-    position:absolute;
-    z-index: 3;
-    background: url('https://i.ibb.co/9WSgZyk/image.png');
-    height: 100px;
-    width: 100px;
-    top: 62%;
-    left: 80%;
-    background-size: 100%;
-    background-repeat: no-repeat;
-}
-.ecom-section5 .h6{
-    position: absolute;
-    z-index: 1;
-    font-family: Poppins, sans-serif;
-    font-size: 30px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 60px; 
-    letter-spacing: -1px;
-    top: 72%;
-    left: 74%;
-    margin-right: -155px;
+    top: 60%;
+    left: 10%;
+    padding: 0px 850px 0px 0px;
     color: #333;
 }
-.ecom-section5 .p6{
+.blog-section2 .readmore-link{
     position: absolute;
     z-index: 1;
     font-family: Poppins, sans-serif;
-    font-size: 20px;
+    font-size: 15px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 700;
     line-height: 30px; 
     letter-spacing: -1px;
     top: 75%;
-    left: 73%;
-    padding: 30px 1px 0px 0px;
-    color: #808080;
+    left: 10%;
+    padding: 0px 850px 0px 0px;
+    color: #61ce70;
+    text-decoration: none;
+    text-transform: uppercase;
 }
+.blog-section2 .banner-line{
+    top:80%;
+    left: 16.8%;
+    position: absolute;
+    z-index: 1;
+    background:#b8b2b6;
+    margin-left: -120px;
+    padding: 0px 192px 1px;
+}
+.blog-section2 .date1{
+    position: absolute;
+    z-index: 1;
+    font-family: Poppins, sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px; 
+    letter-spacing: -1px;
+    top: 82%;
+    left: 10%;
+    color: #b8b2b6;
+}
+.blog-section2 .comment1{
+    position: absolute;
+    z-index: 1;
+    font-family: Poppins, sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px; 
+    letter-spacing: -1px;
+    top: 82%;
+    left: 20%;
+    color: #b8b2b6;
+}
+
+
 @media only screen and (max-width: 1024px) {
     .right-vision{
         font-size: 20px;
