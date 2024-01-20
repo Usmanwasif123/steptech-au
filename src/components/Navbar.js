@@ -21,12 +21,11 @@ const Navbar = () => {
           </button>
         <nav>
         <ul className='nav-items'>
-            <li><a href='https://steptech.com.au/'>home</a></li>
-            <li><a className='about'>about us</a></li>
-            <li><a className='service'>services</a></li>
-            <li><a className='portfolio'>portfolio</a></li>
-            <li><a className='blog'>blog</a></li>
-            <hr></hr>
+            <li><Link to='/'>home</Link></li>
+            <li><Link to='/about-us' className='about'>about us</Link></li>
+            <li><Link to='/service' className='service'>services</Link></li>
+            <li><Link to='/portfolio' className='portfolio'>portfolio</Link></li>
+            <li><Link to='/blog' className='blog'>blog</Link></li>
             <Link to='/get-a-quote' className='quote-btn'>get a quote </Link>
             <button>
               <FaTimes/>

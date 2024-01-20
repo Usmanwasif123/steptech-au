@@ -24,10 +24,10 @@ const Footer = () => {
             <nav>
             <ul className='quick-foolinks'>
             <li><ArrowRight style={{position: 'absolute', left: '-5%', top: '23%'}}/><Link to='/'>home</Link></li>
-            <li><ArrowRight style={{position: 'absolute', left: '-5%',  top: '39%'}}/><a className='about'>about us</a></li>
-            <li><ArrowRight style={{position: 'absolute', left: '-5%', top: '55%'}}/><a className='portfolio'>portfolio</a></li>
-            <li><ArrowRight style={{position: 'absolute', left: '-5%', top: '72%'}}/><a className='contact'>contact us</a></li>
-            <li><ArrowRight style={{position: 'absolute', left: '-5%', top: '89%'}}/><a className='blog'>blog</a></li>
+            <li><ArrowRight style={{position: 'absolute', left: '-5%',  top: '39%'}}/><Link to='/about-us' className='about'>about us</Link></li>
+            <li><ArrowRight style={{position: 'absolute', left: '-5%', top: '55%'}}/><Link to='/service' className='service'>services</Link></li>
+            <li><ArrowRight style={{position: 'absolute', left: '-5%', top: '72%'}}/><Link to='/portfolio' className='portfolio'>portfolio</Link></li>
+            <li><ArrowRight style={{position: 'absolute', left: '-5%', top: '89%'}}/><Link to='/blog' className='blog'>blog</Link></li>
             </ul>
             </nav>
         </div>
