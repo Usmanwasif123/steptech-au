@@ -146,7 +146,7 @@
     color: #fff;
 }
 
-.contact-carousel{
+.appcontact-carousel{
     margin-top: -50px;
     margin-left: 220px;
     position: absolute;
@@ -154,17 +154,30 @@
     z-index: 2;
 }
 
-.contact-carousel .contact-ai{
+.appcontact-carousel .heading1{
     color: #fff;
-    margin-left: -1px;
+    margin-left: 5px;
+    margin-top: 40px;
     font-size: 18px;
     font-family: Poppins, sans-serif;
     font-style: normal;
     font-weight: 400;
     line-height: 20px; /* 131.492% */
-    letter-spacing: -0.331px
+    letter-spacing: -0.331px;
+    text-transform: initial;
 }
-.contact-carousel .contact-email-p{
+.heading1 .span1{
+    color: #fff;
+    margin-left: 5px;
+    font-size: 18px;
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 20px; /* 131.492% */
+    letter-spacing: -0.331px;
+    margin-top: -70px;
+}
+.appcontact-carousel .email-p1{
     color: #fff;
     margin-left: 35px;
     margin-top: 67px;
@@ -176,30 +189,171 @@
     letter-spacing: -0.100px;
     text-transform: lowercase;
 }
-.contact-carousel .slick-slider div{
+.appcontact-carousel .phone-p1{
+    color: #fff;
+    margin-left: 35px;
+    margin-top: 140px;
+    font-size: 16px;
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 131.492% */
+    letter-spacing: -0.100px;
+    text-transform: lowercase;
+}
+.appcontact-carousel .location-p1{
+    color: #fff;
+    margin-left: 35px;
+    margin-top: 210px;
+    font-size: 16px;
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 131.492% */
+    letter-spacing: 2px;
+    text-transform: capitalize;
+
+}
+.appcontact-carousel .heading2{
+    color: #fff;
+    margin-left: 5px;
+    margin-top: 40px;
+    font-size: 18px;
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 131.492% */
+    letter-spacing: -0.331px
+}
+.heading2 .span2{
+    color: #fff;
+    margin-left: 345px;
+    font-size: 18px;
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 20px; /* 131.492% */
+    letter-spacing: -0.331px;
+    margin-top: -70px;
+}
+.appcontact-carousel .email-p2{
+    color: #fff;
+    margin-left: 370px;
+    margin-top: 67px;
+    font-size: 16px;
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 131.492% */
+    letter-spacing: -0.100px;
+    text-transform: lowercase;
+}
+.appcontact-carousel .phone-p2{
+    color: #fff;
+    margin-left:370px;
+    margin-top: 140px;
+    font-size: 16px;
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 131.492% */
+    letter-spacing: -0.100px;
+    text-transform: lowercase;
+}
+.appcontact-carousel .location-p2{
+    color: #fff;
+    margin-left: 370px;
+    margin-top: 210px;
+    font-size: 16px;
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 131.492% */
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+.appcontact-carousel .heading3{
+    color: #fff;
+    margin-left: 5px;
+    margin-top: 40px;
+    font-size: 18px;
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 131.492% */
+    letter-spacing: -0.331px
+}
+.heading3 .span3{
+    color: #fff;
+    margin-left: 685px;
+    font-size: 18px;
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 20px; /* 131.492% */
+    letter-spacing: -0.331px;
+    margin-top: -70px;
+}
+.appcontact-carousel .email-p3{
+    color: #fff;
+    margin-left: 710px;
+    margin-top: 67px;
+    font-size: 16px;
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 131.492% */
+    letter-spacing: -0.100px;
+    text-transform: lowercase;
+}
+.appcontact-carousel .phone-p3{
+    color: #fff;
+    margin-left: 710px;
+    margin-top: 140px;
+    font-size: 16px;
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 131.492% */
+    letter-spacing: -0.100px;
+    text-transform: lowercase;
+}
+.appcontact-carousel .location-p3{
+    color: #fff;
+    margin-left: 710px;
+    margin-top: 210px;
+    font-size: 16px;
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 131.492% */
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+.appcontact-carousel .slick-slider div{
     height: 350px;
 }
-.contact-carousel .slick-slider {
+.appcontact-carousel .slick-slider {
     width: 340px !important;
     margin-left: 700px;
 }
-.contact-carousel
+.appcontact-carousel
 .slick-dots li.slick-active button:before {
     color: #333 !important;
 }
 
-.contact-carousel .slick-dots li button:before {
+.appcontact-carousel .slick-dots li button:before {
     color: #fff;
     font-size: 0.6rem !important;
     top: 3rem !important;
     left: -1.5rem;
 }
 
-.contact-carousel .slick-prev { 
+.appcontact-carousel .slick-prev { 
     left: -20px;
 
 }
-.contact-carousel .slick-next{
+.appcontact-carousel .slick-next{
     right: 0px;
     margin-right: -20px;
 

@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom';
 
 const Ecommerce = () => {
   return (
-    <div className='ecommerce-container'>
+    <div className='web-section3'>
       <h1 className='ecommerce-left-h'>
         ECommerce & CMS Development Services
       </h1>
@@ -13,7 +13,7 @@ const Ecommerce = () => {
       gateway to all-inclusive and up-to-date website solutions. We create eCommerce web development and CMS platforms with
        an easy-to-use backend and an interactive front end, ensuring responsiveness, SEO-friendliness, and aesthetic appeal.
       </p>
-      <Link to='/read-more' className='ebtn'>talk to consultant</Link>
+      <Link to='/read-more' className='ecombtn'>talk to consultant</Link>
       <div className='ecom-image' data-aos="slide-left" data-aos-duration="750" data-aos-easing="ease-in-sine" data-aos-offset="0"></div>
     </div>
   )

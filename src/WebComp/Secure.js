@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom';
 
 const Secure = () => {
   return (
-    <div className='secure-container'>
+    <div className='web-section7'>
       <h1 className='secure-left-h'>
       Secure & High-Quality WordPress Development Services
       </h1>

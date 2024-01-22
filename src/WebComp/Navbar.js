@@ -90,46 +90,46 @@ const Navbar = () => {
       <div className='web-carousel'>
           <Slider {...setting}>
             <div>
-              <img src='https://i.ibb.co/9qkyRDw/image.png' alt='wordpress'/>
+              <img src='' alt='wordpress'/>
             </div> 
             <div>
-            <img src='https://i.ibb.co/mS8mqmB/image.png' alt='elementor'/>
+            <img src='' alt='elementor'/>
             </div>
             <div>
-            <img src='https://i.ibb.co/jLjxj3Z/image.png' alt='angular'/>
+            <img src='' alt='angular'/>
             </div> 
             <div>
-            <img src='https://i.ibb.co/0hgZfCw/image.png' alt='wordpress'/>
+            <img src='' alt='wordpress'/>
               </div>
             <div>
-            <img src='https://i.ibb.co/9qkyRDw/image.png' alt='wordpress'/>
+            <img src='' alt='wordpress'/>
             </div> 
             <div>
-            <img src='https://i.ibb.co/9qkyRDw/image.png' alt='wordpress'/>
+            <img src='' alt='wordpress'/>
             </div>
             <div>
-            <img src='https://i.ibb.co/9qkyRDw/image.png' alt='wordpress'/>
+            <img src='' alt='wordpress'/>
             </div>
             <div>
-            <img src='https://i.ibb.co/9qkyRDw/image.png' alt='wordpress'/>
+            <img src='' alt='wordpress'/>
             </div> 
             <div>
-            <img src='https://i.ibb.co/9qkyRDw/image.png' alt='wordpress'/>
+            <img src='' alt='wordpress'/>
             </div>  
             <div>
-            <img src='https://i.ibb.co/9qkyRDw/image.png' alt='wordpress'/>
+            <img src='' alt='wordpress'/>
             </div> 
             <div>
-            <img src='https://i.ibb.co/9qkyRDw/image.png' alt='wordpress'/>
+            <img src='' alt='wordpress'/>
             </div> 
             <div>
-            <img src='https://i.ibb.co/9qkyRDw/image.png' alt='wordpress'/>
+            <img src='' alt='wordpress'/>
             </div> 
             <div>
-            <img src='https://i.ibb.co/9qkyRDw/image.png' alt='wordpress'/>
+            <img src='' alt='wordpress'/>
             </div> 
             <div>
-            <img src='https://i.ibb.co/9qkyRDw/image.png' alt='wordpress'/>
+            <img src='https://i.ibb.co/ZTmxgrT/image.png' alt='wordpress'/>
             </div> 
           </Slider>
       </div>

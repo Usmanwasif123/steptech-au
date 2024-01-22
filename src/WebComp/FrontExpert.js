@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom';
 
 const FrontExpert = () => {
   return (
-    <div className='frontexp-container'>
+    <div className='web-section8'>
       <h1>
       Our Front- End Developer Expertise
       </h1>

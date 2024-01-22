@@ -3,14 +3,14 @@
     padding: 0;
 }
 
-.secure-container{
+.web-section7{
     height: 100vh;
     width: 98.7vw;
     background: #eceefe;
     position: relative;
 }
 
-.secure-left-h{
+.web-section7  .secure-left-h{
     position: absolute;
     z-index: 1;
     font-family: Poppins, sans-serif;
@@ -24,7 +24,7 @@
     padding: 30px 600px 0px 0px;
     color: #333;
 }
-.secure-left-p{
+.web-section7 .secure-left-p{
     position: absolute;
     z-index: 1;
     font-family: Poppins, sans-serif;
@@ -38,7 +38,7 @@
     padding: 30px 700px 0px 0px;
     color: #333;
 }
-.secbtn{
+.web-section7 .secbtn{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -61,12 +61,12 @@
     transition: ease-out 0.4s;
 }
 
-.secbtn:hover {
+.web-section7 .secbtn:hover {
     box-shadow: inset 0 0 0 50px #333;
     color: #fff;
 }
 
-.sec-image{
+.web-section7 .sec-image{
     position:absolute;
     z-index: 3;
     background: url('https://i.ibb.co/QKdGfbh/image.png');

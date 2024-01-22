@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom';
 
 const BackExpert = () => {
   return (
-    <div className='backexp-container'>
+    <div className='web-section9'>
       <h1>
       Our Back-End Developer Expertise
       </h1>

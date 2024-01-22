@@ -58,17 +58,20 @@
 .app-cards:hover {
     background: linear-gradient(255deg, #7554C1 29.51%, #243F82 93.15%);
 }
-.card1 .h1-ai{
+.app-cards .h1-ai{
     font-size: 30px;
     position: absolute;
-    margin-top: 50px;
+    margin-top: 150px;
     margin-left: 10px;
     color: #333;
 }
-.card1 .p1-ai{
+.app-cards .h1-ai:hover{
+    color: #fff;
+    background: linear-gradient(255deg, #7554C1 29.51%, #243F82 93.15%);
+}
+.app-cards .p1-ai{
    position: absolute;
    z-index: 3;
-   margin-top: 180px; 
    color: #616163;
    text-align: center;
    font-family: Poppins, sans-serif;
@@ -78,17 +81,20 @@
    line-height: 20px; /* 131.492% */
    letter-spacing: -0.331px;
    left: 16.1%;
-   margin: 200px 2500px 0px -20px;
+   margin: 250px 2500px 0px -20px;
    padding: 0px 3547px 0px 0px;
 }
-.card2 .h2-ai{
+.app-cards .p1-ai:hover{
+    color: #fff;
+}
+.app-cards .h2-ai{
     font-size: 30px;
     position: absolute;
-    margin-top: 50px;
+    margin-top: 150px;
     margin-left: 12px;
     color: #333;
 }
-.card2 .p2-ai{
+.app-cards .p2-ai{
    position: absolute;
    z-index: 3;
    margin-top: 180px; 
@@ -101,17 +107,17 @@
    line-height: 20px; /* 131.492% */
    letter-spacing: -0.331px;
    left: 21.3%;
-   margin: 200px 2520px 0px -10px;
+   margin: 250px 2520px 0px -10px;
    padding: 0px 3143px 0px 0px;
 }
-.card3 .h3-ai{
+.app-cards .h3-ai{
     font-size: 30px;
     position: absolute;
-    margin-top: 50px;
+    margin-top: 150px;
     margin-left: 10px;
     color: #333;
 }
-.card3 .p3-ai{
+.app-cards .p3-ai{
    position: absolute;
    z-index: 3;
    margin-top: 180px; 
@@ -124,18 +130,18 @@
    line-height: 20px; /* 131.492% */
    letter-spacing: -0.331px;
    left: 27%;
-   margin: 200px 2400px 0px -40px;
+   margin: 250px 2400px 0px -40px;
    padding: 0px 2860px 0px 0px;
 }
 
-.card4 .h4-ai{
+.app-cards .h4-ai{
     font-size: 30px;
     position: absolute;
-    margin-top: 50px;
+    margin-top: 150px;
     margin-left: 10px;
     color: #333;
 }
-.card4 .p4-ai{
+.app-cards .p4-ai{
    position: absolute;
    z-index: 3;
    margin-top: 180px; 
@@ -148,18 +154,18 @@
    line-height: 20px; /* 131.492% */
    letter-spacing: -0.331px;
    left: 35%;
-   margin: 200px 2400px 0px -250px;
+   margin: 250px 2400px 0px -250px;
    padding: 0px 2455px 0px 0px;
 }
 
-.card5 .h5-ai{
+.app-cards .h5-ai{
     font-size: 30px;
     position: absolute;
-    margin-top: 50px;
+    margin-top: 150px;
     margin-left: 10px;
     color: #333;
 }
-.card5 .p5-ai{
+.app-cards .p5-ai{
    position: absolute;
    z-index: 3;
    margin-top: 180px; 
@@ -172,18 +178,18 @@
    line-height: 20px; /* 131.492% */
    letter-spacing: -0.331px;
    left: 40%;
-   margin: 200px 2400px 0px -235px;
+   margin: 250px 2400px 0px -235px;
    padding: 0px 2050px 0px 0px;
 }
 
-.card6 .h6-ai{
+.app-cards .h6-ai{
     font-size: 30px;
     position: absolute;
-    margin-top: 50px;
+    margin-top: 150px;
     margin-left: 10px;
     color: #333;
 }
-.card6 .p6-ai{
+.app-cards .p6-ai{
    position: absolute;
    z-index: 3;
    margin-top: 180px; 
@@ -196,17 +202,17 @@
    line-height: 20px; /* 131.492% */
    letter-spacing: -0.331px;
    left: 45%;
-   margin: 200px 2400px 0px -220px;
+   margin: 250px 2400px 0px -220px;
    padding: 0px 1660px 0px 0px;
 }
-.card7 .h7-ai{
+.app-cards .h7-ai{
     font-size: 30px;
     position: absolute;
-    margin-top: 50px;
+    margin-top: 150px;
     margin-left: 10px;
     color: #333;
 }
-.card7 .p7-ai{
+.app-cards .p7-ai{
    position: absolute;
    z-index: 3;
    margin-top: 180px; 
@@ -219,18 +225,18 @@
    line-height: 20px; /* 131.492% */
    letter-spacing: -0.331px;
    left: 50%;
-   margin: 200px 2400px 0px -195px;
+   margin: 250px 2400px 0px -195px;
    padding: 0px 1250px 0px 0px;
 }
 
-.card8 .h8-ai{
+.app-cards .h8-ai{
     font-size: 30px;
     position: absolute;
-    margin-top: 50px;
+    margin-top: 150px;
     margin-left: 10px;
     color: #333;
 }
-.card8 .p8-ai{
+.app-cards .p8-ai{
    position: absolute;
    z-index: 3;
    margin-top: 180px; 
@@ -243,10 +249,9 @@
    line-height: 20px; /* 131.492% */
    letter-spacing: -0.331px;
    left: 55%;
-   margin: 200px 2400px 0px -175px;
+   margin: 250px 2400px 0px -175px;
    padding: 0px 850px 0px 0px;
 }
-
 
 .app-cards .img1{
     position: absolute;
@@ -329,7 +334,7 @@
     -webkit-filter: brightness(100%);
     
 }
-.cards img:hover{
+.app-cards img:hover{
     box-shadow:
 1px 1px #8298ff,
 2px 2px #8298ff,

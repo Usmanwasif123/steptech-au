@@ -76,14 +76,11 @@
     margin: 17px 100px 12px 700px;
 }
 
-.exper-grid-con{
-    margin:10px;
-}
 .brand-carousel{
     margin-top: 100px;
     margin-left: 80px;
     position: absolute;
-    top: 660%;
+    top: 640%;
     left: 5%;
 }
 

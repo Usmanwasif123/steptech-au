@@ -102,40 +102,40 @@ const Contact = () => {
       <button className='submit-btn' type='submit'>send message</button>
       </form>
       <div className='contact-box1' >&nbsp;</div>
-      <div className='contact-carousel'>
+      <div className='appcontact-carousel'>
           <Slider {...setting}>
-            <div>
-            <h3 className='contact-ai'>Take your business higher than ever of accomplishment with our 
-            unrivaled administrations.
+          <div>
+            <h3 className='heading1'>Take your business higher than ever of accomplishment with our 
+            unrivaled administrations.<span className='span1'>reach out at this point!</span>
             </h3>
             <DraftsOutlined style={{position: 'absolute', zIndex: '3', top: '45%', fontSize: '40px', color: '#fff'}}/>
-            <p>sales@steptechglobal.com</p>
-            <PhoneInTalkOutlined style={{position: 'absolute', zIndex: '3', top: '70%', fontSize: '40px', color: '#fff'}}/>
-            <p>+61 410 025 346</p>
-            <PinDropOutlined style={{position: 'absolute', zIndex: '3', top: '90%', fontSize: '40px', color: '#fff'}}/>
-            <p>Australia</p>
+            <p className='email-p1'>sales@steptechglobal.com</p>
+            <PhoneInTalkOutlined style={{position: 'absolute', zIndex: '3', top: '65%', fontSize: '40px', color: '#fff'}}/>
+            <p className='phone-p1'>+61 410 025 346</p>
+            <PinDropOutlined style={{position: 'absolute', zIndex: '3', top: '85%', fontSize: '40px', color: '#fff'}}/>
+            <p className='location-p1'>Australia</p>
             </div> 
             <div>
-            <h3 className='contact-ai'>Take your business higher than ever of accomplishment with our 
-            unrivaled administrations.
+            <h3 className='heading2'>Take your business higher than ever of accomplishment with our 
+            unrivaled administrations.<span className='span2'>reach out at this point!</span>
             </h3>
             <DraftsOutlined style={{position: 'absolute', zIndex: '3', top: '45%', fontSize: '40px', color: '#fff'}}/>
-            <p className='contact-email-p'>sales@steptechglobal.com</p>
-            <PhoneInTalkOutlined style={{position: 'absolute', zIndex: '3', top: '70%', fontSize: '40px', color: '#fff'}}/>
-            <p>+61 410 025 346</p>
-            <PinDropOutlined style={{position: 'absolute', zIndex: '3', top: '90%', fontSize: '40px', color: '#fff'}}/>
-            <p>Australia</p>
+            <p className='email-p2'>sales@steptechglobal.com</p>
+            <PhoneInTalkOutlined style={{position: 'absolute', zIndex: '3', top: '65%', fontSize: '40px', color: '#fff'}}/>
+            <p className='phone-p2'>(877) 229 0844</p>
+            <PinDropOutlined style={{position: 'absolute', zIndex: '3', top: '85%', fontSize: '40px', color: '#fff'}}/>
+            <p className='location-p2'>united state of america</p>
             </div>
             <div>
-            <h3 className='contact-ai'>Take your business higher than ever of accomplishment with our 
-            unrivaled administrations.
+            <h3 className='heading3'>Take your business higher than ever of accomplishment with our 
+            unrivaled administrations.<span className='span3'>reach out at this point!</span>
             </h3>
             <DraftsOutlined style={{position: 'absolute', zIndex: '3', top: '45%', fontSize: '40px', color: '#fff'}}/>
-            <p>sales@steptechglobal.com</p>
-            <PhoneInTalkOutlined style={{position: 'absolute', zIndex: '3', top: '70%', fontSize: '40px', color: '#fff'}}/>
-            <p>+61 410 025 346</p>
-            <PinDropOutlined style={{position: 'absolute', zIndex: '3', top: '90%', fontSize: '40px', color: '#fff'}}/>
-            <p>Australia</p>
+            <p className='email-p3'>sales@steptechglobal.com</p>
+            <PhoneInTalkOutlined style={{position: 'absolute', zIndex: '3', top: '65%', fontSize: '40px', color: '#fff'}}/>
+            <p className='phone-p3'>+44 203 038 4780</p>
+            <PinDropOutlined style={{position: 'absolute', zIndex: '3', top: '85%', fontSize: '40px', color: '#fff'}}/>
+            <p  className='location-p3'>united kingdom</p>
             </div> 
           </Slider>
       </div>

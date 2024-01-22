@@ -11,7 +11,7 @@
     margin-top: 0px;
 }
 
-.promoted-container h1{
+.promoted-container .main-heading{
     position: absolute;
     z-index: 1;
     color: #464646;
@@ -32,7 +32,7 @@
     z-index: 1;
     border: 1px solid #7554C1;
     border-radius: 10px;
-    background: linear-gradient(350deg, #6347AA 30.85%, #233F81 100.97%);
+    background: linear-gradient(350deg, #6347AA 40.85%, #233F81 150.97%);
     color: transparent;
     padding: 400px 200px 100px 50px;
 }
@@ -44,7 +44,7 @@
     left: 2%;
     font-size: 15px;
     border-radius: 5px;
-    border: 1px solid #fff;
+    border: 2px solid #fff;
     background: transparent;
     color: #fff;
     text-transform: uppercase;
@@ -63,7 +63,7 @@
     left: 2%;
     font-size: 15px;
     border-radius: 5px;
-    border: 1px solid #fff;
+    border: 2px solid #fff;
     background: transparent;
     color: #fff;
     text-transform: uppercase;
@@ -82,7 +82,7 @@
     left: 2%;
     font-size: 15px;
     border-radius: 5px;
-    border: 1px solid #fff;
+    border: 2px solid #fff;
     background: transparent;
     color: #fff;
     text-transform: uppercase;
@@ -101,7 +101,7 @@
     left: 2%;
     font-size: 15px;
     border-radius: 5px;
-    border: 1px solid #fff;
+    border: 2px solid #fff;
     background: transparent;
     color: #fff;
     text-transform: uppercase;
@@ -120,7 +120,7 @@
     left: 2%;
     font-size: 15px;
     border-radius: 5px;
-    border: 1px solid #fff;
+    border: 2px solid #fff;
     background: transparent;
     color: #fff;
     text-transform: uppercase;
@@ -138,7 +138,7 @@
     position: absolute;
     z-index: 1;
     border-radius: 20px;
-    border: 1px solid #e9eeff;
+    border: 2px solid #e9eeff;
     background: #e9eeff;
     color: transparent;
     padding: 700px 200px 200px 100px;
@@ -162,16 +162,16 @@
 .p-left-img{
     position:absolute;
     z-index: 3;
-    background: url('https://i.ibb.co/V33HHvz/image.png');
-    height: 370px;
-    width: 370px;
+    height: 350px;
+    width: 200px;
     top: 32%;
     left: 39%;
-    background-size: 50%;
+    background-size: 100%;
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.promoted-container .health-h1{
+.promoted-container .heading-h1{
     position: absolute;
     z-index: 1;
     color: #464646;
@@ -188,9 +188,9 @@
 .promoted-container p{
     position: absolute;
     z-index: 1;
-    color: #464646;
+    color: #8a8888;
     font-family: Poppins, sans-serif;
-    font-size: 20px;
+    font-size: 17.9px;
     font-style: normal;
     font-weight: 300;
     line-height: 30px; 

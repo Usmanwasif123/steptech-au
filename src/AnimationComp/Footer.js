@@ -34,21 +34,21 @@ const Footer = () => {
         <div className='service-links'>
             <h1>Services</h1>
             <nav className='service-foolinks'>
-            <li><ChevronRight style={{position: 'absolute', left: '-8%', top: '18%'}}/><a href='#'>Graphics Designing</a></li>
+            <li><ChevronRight style={{position: 'absolute', left: '-8%', top: '18%'}}/><Link to='/graphic-designing'>Graphics Designing</Link></li>
             <li><ChevronRight style={{position: 'absolute', left: '-8%', top: '31%'}}/><Link to='/web-design-and-development'>Website Design & 
             Development</Link></li>
             <li><ChevronRight style={{position: 'absolute', left: '-8%', top: '44%'}}/><Link to='/app-development'>Mobile App UI/UX Design &<br/>
              Development</Link></li>
-            <li><ChevronRight style={{position: 'absolute', left: '-8%', top: '65%'}}/><a>Software Development</a></li>
-            <li><ChevronRight style={{position: 'absolute', left: '-8%', top: '78%'}}/><a>Search Engine Optimization</a></li>
-            <li><ChevronRight style={{position: 'absolute', left: '-8%', top: '91%'}}/><a>Social Media Management</a></li>
+            <li><ChevronRight style={{position: 'absolute', left: '-8%', top: '65%'}}/><Link to='/software-developement'>Software Development</Link></li>
+            <li><ChevronRight style={{position: 'absolute', left: '-8%', top: '78%'}}/><Link to='/search-engine-optimization'>Search Engine Optimization</Link></li>
+            <li><ChevronRight style={{position: 'absolute', left: '-8%', top: '91%'}}/><Link to='/social-media-management'>Social Media Management</Link></li>
             </nav>
         </div>
         <div className='service-links2'>
             <h1>Services</h1>
             <nav className='service-foolinks2'>
-            <li><ChevronRight style={{position: 'absolute', left: '-8%', top: '18%'}}/><a>Digital Marketing</a></li>
-            <li><ChevronRight style={{position: 'absolute', left: '-8%', top: '30%'}}/><a>E-Commerce</a></li>
+            <li><ChevronRight style={{position: 'absolute', left: '-8%', top: '18%'}}/><Link to='/digital-marketing'>Digital Marketing</Link></li>
+            <li><ChevronRight style={{position: 'absolute', left: '-8%', top: '30%'}}/><Link to='/ecommerce'>E-commerce</Link></li>
             <li><ChevronRight style={{position: 'absolute', left: '-8%', top: '42%'}}/><Link to='/game-design-and-development'>Game Design & Development
             </Link>
             </li>

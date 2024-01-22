@@ -3,14 +3,14 @@
     padding: 0;
 }
 
-.shopify-container{
+.web-section5{
     height: 100vh;
     width: 98.7vw;
     background: linear-gradient(255deg, #7554C1 29.51%, #243F82 93.15%);
     position: relative;
 }
 
-.shopify-left-h{
+.web-section5 .shopify-left-h{
     position: absolute;
     z-index: 1;
     font-family: Poppins, sans-serif;
@@ -24,7 +24,7 @@
     padding: 30px 600px 0px 0px;
     color: #fff;
 }
-.shopify-left-p{
+.web-section5 .shopify-left-p{
     position: absolute;
     z-index: 1;
     font-family: Poppins, sans-serif;
@@ -38,7 +38,7 @@
     padding: 30px 700px 0px 0px;
     color: #fff;
 }
-.sbtn{
+.shobtn{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -61,12 +61,12 @@
     transition: ease-out 0.4s;
 }
 
-.sbtn:hover {
+.shobtn:hover {
     box-shadow: inset 0 0 0 50px #e6e1e4;
     color: #233F81;
 }
 
-.sho-image{
+.web-section5 .sho-image{
     position:absolute;
     z-index: 3;
     background: url('https://i.ibb.co/k0SQ9cL/image.png');

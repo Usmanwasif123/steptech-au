@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom';
 
 const Magneto = () => {
   return (
-    <div className='magneto-container'>
+    <div className='web-section4'>
       <h1 className='magneto-right-h'>
       Trusted Best Magento Development Company
       </h1>
@@ -14,7 +14,7 @@ const Magneto = () => {
       experience, ensuring each webpage is not just responsive but also optimized for search engines, offering a seamless 
       user experience.
       </p>
-      <Link to='/read-more' className='mbtn'>talk to consultant</Link>
+      <Link to='/read-more' className='magbtn'>talk to consultant</Link>
       <div className='mag-image' data-aos="slide-right" data-aos-duration="750" data-aos-easing="ease-in-sine" data-aos-offset="0"></div>
     </div>
   )

@@ -134,13 +134,14 @@
 }
 
 .web-carousel img{
-    height: 50px;
-    width: 50px;
-    cursor: pointer;
+    height: 0px;
+    width:0px;
+    top: 35%;
 }
 
 .web-carousel .slick-slider div{
-    height: 70px;
+    height: 80px;
+    top: -20%;
 }
 .web-carousel .slick-slider {
     width: 700px !important;

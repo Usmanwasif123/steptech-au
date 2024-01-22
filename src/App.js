@@ -14,6 +14,9 @@ import SoftDev from './pages/SoftDevelopement';
 import Ecom from './pages/Ecommerce';
 import Blog from './pages/Blog';
 import Bitcoinblog from './pages/Bitcoin-blog';
+import GraphicsDes from './pages/GraphicDesign';
+import Seo from './pages/Seo';
+import SocailMed from './pages/Socialmedia';
 
 function App() {
   return (
@@ -34,6 +37,9 @@ function App() {
         <Route path='/ecommerce' element={<Ecom/>}/>
         <Route path='/blog' element={<Blog/>}/>
         <Route path='/bitcoin-halving-2024-everything-you-need-to-know' element={<Bitcoinblog/>}/>
+        <Route path='/graphic-designing' element={<GraphicsDes/>}/>
+        <Route path='/search-engine-optimization' element={<Seo/>}/>
+        <Route path='/social-media-management' element={<SocailMed/>}/>
       </Routes>
     </Router>
   );

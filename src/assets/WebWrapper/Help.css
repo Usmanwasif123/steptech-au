@@ -3,14 +3,14 @@
     padding: 0;
 }
 
-.help-container{
+.web-section6{
     height: 100vh;
     width: 98.7vw;
     background: #f1f4ff;
     position: relative;
 }
 
-.help-right-h{
+.web-section6 .help-right-h{
     position: absolute;
     z-index: 1;
     font-family: Poppins, sans-serif;
@@ -24,7 +24,7 @@
     padding: 30px 5px 0px 0px;
     color: #333;
 }
-.help-right-p{
+.web-section6 .help-right-p{
     position: absolute;
     z-index: 1;
     font-family: Poppins, sans-serif;
@@ -39,7 +39,7 @@
     color: #808080;
 }
 
-.hbtn{
+.helpbtn{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -62,12 +62,12 @@
     transition: ease-out 0.4s;
 }
 
-.hbtn:hover {
+.helpbtn:hover {
     box-shadow: inset 0 0 0 50px #333;
     color: #fff;
 }
 
-.hel-image{
+.web-section6 .hel-image{
     position:absolute;
     z-index: 3;
     background: url('https://i.ibb.co/c8rgCwQ/image.png');

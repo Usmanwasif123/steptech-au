@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom';
 
 const Help = () => {
   return (
-    <div className='help-container'>
+    <div className='web-section6'>
       <h1 className='help-right-h'>
       How does Step Tech Global help eCommerce businesses with Shopify Development Services?
       </h1>
@@ -13,7 +13,7 @@ const Help = () => {
       From eCommerce development and custom theme design to integrations, mobile app development, and migration, we’ve 
       delivered over 1000 Shopify stores with precision and finesse.
       </p>
-      <Link to='/read-more' className='hbtn'>talk to consultant</Link>
+      <Link to='/read-more' className='helpbtn'>talk to consultant</Link>
       <div className='hel-image'></div>
     </div>
   )

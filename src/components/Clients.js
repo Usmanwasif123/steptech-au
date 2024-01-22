@@ -3,10 +3,7 @@ import '../assets/wrapper/Clients.css';
 import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import ai from '../assets/images/asi.png';
-import desktop from '../assets/images/pc.png';
-import laptop from '../assets/images/pc1.png';
-import mobile from '../assets/images/mb.png';
+
 
 const Clients = () => {
 

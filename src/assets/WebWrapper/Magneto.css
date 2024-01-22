@@ -3,14 +3,14 @@
     padding: 0;
 }
 
-.magneto-container{
+.web-section4{
     height: 100vh;
     width: 98.7vw;
     background: #fff;
     position: relative;
 }
 
-.magneto-right-h{
+.web-section4 .magneto-right-h{
     position: absolute;
     z-index: 1;
     font-family: Poppins, sans-serif;
@@ -24,7 +24,7 @@
     padding: 30px 5px 0px 0px;
     color: #333;
 }
-.magneto-right-p{
+.web-section4 .magneto-right-p{
     position: absolute;
     z-index: 1;
     font-family: Poppins, sans-serif;
@@ -39,7 +39,7 @@
     color: #333;
 }
 
-.mbtn{
+.magbtn{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -62,12 +62,12 @@
     transition: ease-out 0.4s;
 }
 
-.mbtn:hover {
+.magbtn:hover {
     box-shadow: inset 0 0 0 50px #333;
     color: #fff;
 }
 
-.mag-image{
+.web-section4 .mag-image{
     position:absolute;
     z-index: 3;
     background: url('https://i.ibb.co/xmTszXW/image.png');

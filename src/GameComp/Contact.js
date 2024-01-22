@@ -102,11 +102,11 @@ const Contact = () => {
       <button className='submit-btn' type='submit'>send message</button>
       </form>
       <div className='contact-box1' >&nbsp;</div>
-      <div className='contact-carousel'>
+      <div className='gamecontact-carousel'>
           <Slider {...setting}>
-            <div>
+          <div>
             <h3 className='heading1'>Take your business higher than ever of accomplishment with our 
-            unrivaled administrations.<span>reach out at this point!</span>
+            unrivaled administrations.<span className='span1'>reach out at this point!</span>
             </h3>
             <DraftsOutlined style={{position: 'absolute', zIndex: '3', top: '45%', fontSize: '40px', color: '#fff'}}/>
             <p className='email-p1'>sales@steptechglobal.com</p>
@@ -117,7 +117,7 @@ const Contact = () => {
             </div> 
             <div>
             <h3 className='heading2'>Take your business higher than ever of accomplishment with our 
-            unrivaled administrations.
+            unrivaled administrations.<span className='span2'>reach out at this point!</span>
             </h3>
             <DraftsOutlined style={{position: 'absolute', zIndex: '3', top: '45%', fontSize: '40px', color: '#fff'}}/>
             <p className='email-p2'>sales@steptechglobal.com</p>
@@ -128,7 +128,7 @@ const Contact = () => {
             </div>
             <div>
             <h3 className='heading3'>Take your business higher than ever of accomplishment with our 
-            unrivaled administrations.
+            unrivaled administrations.<span className='span3'>reach out at this point!</span>
             </h3>
             <DraftsOutlined style={{position: 'absolute', zIndex: '3', top: '45%', fontSize: '40px', color: '#fff'}}/>
             <p className='email-p3'>sales@steptechglobal.com</p>
@@ -136,7 +136,7 @@ const Contact = () => {
             <p className='phone-p3'>+44 203 038 4780</p>
             <PinDropOutlined style={{position: 'absolute', zIndex: '3', top: '85%', fontSize: '40px', color: '#fff'}}/>
             <p  className='location-p3'>united kingdom</p>
-            </div> 
+            </div>  
           </Slider>
       </div>
     </div>
