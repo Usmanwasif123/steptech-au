@@ -1,5 +1,5 @@
 import React from 'react';
-import '../assets/AnimationWrapper/Footer.css';
+import '../assets/DigitalMarWrapper/Footer.css';
 import {Facebook, Instagram, LinkedIn, Twitter, ArrowRight, ChevronRight} from '@mui/icons-material/';
 import { Link } from 'react-router-dom';
 
@@ -62,7 +62,7 @@ const Footer = () => {
             </li>
             </nav>
         </div>
-        <div className='contact-link'>
+            <div className='contact-link'>
             <h1>Contact us</h1>
             <nav className='contact-foolinks'>
             <li><img src='https://i.ibb.co/b3XwQZv/aus-flag.png'/><a href='#'>AUS: +61 410 025 346</a></li>

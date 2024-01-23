@@ -1,11 +1,11 @@
 import React from 'react';
-import '../assets/SeoWrapper/AnimateDev.css';
+import '../assets/DigitalMarWrapper/AnimateDev.css';
 
 
 
 const AnimateDev = () => {
   return (
-    <div className='seo-section3'>
+    <div className='digi-section3'>
         <h1>The benefit of Step Tech for Ecommerce Development &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;

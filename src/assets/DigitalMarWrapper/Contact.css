@@ -3,15 +3,15 @@
     padding: 0;
 }
 
-.graphcontact-container{
+.digicontact-container{
     height: 100vh;
     width: 98.7vw;
     background: #fff;
     position: relative;
-    margin-top: -60px;
+    margin-top: 40px;
 }
 
-.graphcontact-container img{
+.digicontact-container img{
     height: 100vh;
     width: 98.7vw;
     position: relative;
@@ -31,7 +31,7 @@
     padding: 600px 300px 100px 200px;
 }
 
-.graphcontact-container .main-heading{
+.digicontact-container .main-heading{
     position: absolute;
     z-index: 2;
     top: 15%;
@@ -41,7 +41,7 @@
     text-transform: capitalize;
     color: #333;
 }
-.graphcontact-container .main-span{
+.digicontact-container .main-span{
     position: absolute;
     z-index: 2;
     left: 105%;
@@ -51,7 +51,7 @@
     color:#6C50B1;
 }
 
-.graphcontact-container p{
+.digicontact-container p{
     position: absolute;
     z-index: 2;
     top: 28%;
@@ -60,8 +60,8 @@
     font-family: Poppins, sans-serif;
     text-transform: capitalize;
     color:#333;
-
 }
+
 .contact-box1{
     top: -0.1%;
     left:75%;
@@ -146,7 +146,15 @@
     color: #fff;
 }
 
-.contact-carousel .heading1{
+.digicontact-carousel{
+    margin-top: -50px;
+    margin-left: 220px;
+    position: absolute;
+    top: 30%;
+    z-index: 2;
+}
+
+.digicontact-carousel .heading1{
     color: #fff;
     margin-left: 5px;
     margin-top: 40px;
@@ -160,7 +168,7 @@
 }
 .heading1 .span1{
     color: #fff;
-    margin-left: 39px;
+    margin-left: 32px;
     font-size: 18px;
     font-family: Poppins, sans-serif;
     font-style: normal;
@@ -168,12 +176,11 @@
     line-height: 20px; /* 131.492% */
     letter-spacing: -0.331px;
     margin-top: -70px;
-    text-transform: capitalize;
 }
-.contact-carousel .email-p1{
+.digicontact-carousel .email-p1{
     color: #fff;
     margin-left: 35px;
-    margin-top: 67px;
+    margin-top: 65px;
     font-size: 16px;
     font-family: Poppins, sans-serif;
     font-style: normal;
@@ -182,7 +189,7 @@
     letter-spacing: -0.100px;
     text-transform: lowercase;
 }
-.contact-carousel .phone-p1{
+.digicontact-carousel .phone-p1{
     color: #fff;
     margin-left: 35px;
     margin-top: 140px;
@@ -194,7 +201,7 @@
     letter-spacing: -0.100px;
     text-transform: lowercase;
 }
-.contact-carousel .location-p1{
+.digicontact-carousel .location-p1{
     color: #fff;
     margin-left: 35px;
     margin-top: 210px;
@@ -207,7 +214,7 @@
     text-transform: capitalize;
 
 }
-.contact-carousel .heading2{
+.digicontact-carousel .heading2{
     color: #fff;
     margin-left: 5px;
     margin-top: 40px;
@@ -228,9 +235,8 @@
     line-height: 20px; /* 131.492% */
     letter-spacing: -0.331px;
     margin-top: -70px;
-    text-transform: capitalize;
 }
-.contact-carousel .email-p2{
+.digicontact-carousel .email-p2{
     color: #fff;
     margin-left: 370px;
     margin-top: 67px;
@@ -242,7 +248,7 @@
     letter-spacing: -0.100px;
     text-transform: lowercase;
 }
-.contact-carousel .phone-p2{
+.digicontact-carousel .phone-p2{
     color: #fff;
     margin-left:370px;
     margin-top: 140px;
@@ -254,7 +260,7 @@
     letter-spacing: -0.100px;
     text-transform: lowercase;
 }
-.contact-carousel .location-p2{
+.digicontact-carousel .location-p2{
     color: #fff;
     margin-left: 370px;
     margin-top: 210px;
@@ -266,7 +272,7 @@
     letter-spacing: 2px;
     text-transform: capitalize;
 }
-.contact-carousel .heading3{
+.digicontact-carousel .heading3{
     color: #fff;
     margin-left: 5px;
     margin-top: 40px;
@@ -279,7 +285,7 @@
 }
 .heading3 .span3{
     color: #fff;
-    margin-left: -375px;
+    margin-left: -380px;
     font-size: 18px;
     font-family: Poppins, sans-serif;
     font-style: normal;
@@ -287,9 +293,8 @@
     line-height: 20px; /* 131.492% */
     letter-spacing: -0.331px;
     margin-top: -70px;
-    text-transform: capitalize;
 }
-.contact-carousel .email-p3{
+.digicontact-carousel .email-p3{
     color: #fff;
     margin-left: 710px;
     margin-top: 67px;
@@ -301,7 +306,7 @@
     letter-spacing: -0.100px;
     text-transform: lowercase;
 }
-.contact-carousel .phone-p3{
+.digicontact-carousel .phone-p3{
     color: #fff;
     margin-left: 710px;
     margin-top: 140px;
@@ -313,7 +318,7 @@
     letter-spacing: -0.100px;
     text-transform: lowercase;
 }
-.contact-carousel .location-p3{
+.digicontact-carousel .location-p3{
     color: #fff;
     margin-left: 710px;
     margin-top: 210px;
@@ -325,32 +330,33 @@
     letter-spacing: 2px;
     text-transform: capitalize;
 }
-.contact-carousel .slick-slider div{
+.digicontact-carousel .slick-slider div{
     height: 350px;
 }
-.contact-carousel .slick-slider {
+.digicontact-carousel .slick-slider {
     width: 340px !important;
     margin-left: 700px;
 }
-.contact-carousel
+.digicontact-carousel
 .slick-dots li.slick-active button:before {
     color: #333 !important;
 }
 
-.contact-carousel .slick-dots li button:before {
+.digicontact-carousel .slick-dots li button:before {
     color: #fff;
     font-size: 0.6rem !important;
     top: 3rem !important;
     left: -1.5rem;
 }
 
-.contact-carousel .slick-prev { 
+.digicontact-carousel .slick-prev { 
     display: none;
-    background: transparent;
+    margin-left: -38px;
 
 }
-.contact-carousel .slick-next{
+.digicontact-carousel .slick-next{
     display: none;
     background: transparent;
+    color: transparent;
 
 }

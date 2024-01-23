@@ -17,6 +17,7 @@ import Bitcoinblog from './pages/Bitcoin-blog';
 import GraphicsDes from './pages/GraphicDesign';
 import Seo from './pages/Seo';
 import SocailMed from './pages/Socialmedia';
+import Digitalmarketing from './pages/DigitMarketing';
 
 function App() {
   return (
@@ -40,6 +41,7 @@ function App() {
         <Route path='/graphic-designing' element={<GraphicsDes/>}/>
         <Route path='/search-engine-optimization' element={<Seo/>}/>
         <Route path='/social-media-management' element={<SocailMed/>}/>
+        <Route path='/digital-marketing' element={<Digitalmarketing/>}/>
       </Routes>
     </Router>
   );

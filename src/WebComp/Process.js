@@ -8,12 +8,12 @@ const Process = () => {
         textAlign: 'center',
         position: 'absolute',
         zIndex: 2,
-        borderRadius: '10px',
+        borderRadius: '30px',
         top: '-10%',
         left: '2%',
         background: 'transparent',
         marginLeft: '5px',
-        width: '150px',
+        width: '120px',
         height: '300px',
         background: 'linear-gradient(256deg, #6347AA 7.85%, #233F81 107.97%)'
 
@@ -21,9 +21,9 @@ const Process = () => {
     }));
 
   return (
-    <div className='webprocess-container'>
+    <div className='web-section10'>
       <h1 className='webprocess-h1'>Our Web Development Processes</h1>
-      <p className='webprocess-p'>We look out of every stage. We begin with an all-inclusive and detailed understanding of your guidelines. Once 
+      <p className='main-p'>We look out of every stage. We begin with an all-inclusive and detailed understanding of your guidelines. Once 
       the task ends, we ensure your solution’s uninterrupted operation after deployment.
       </p>
       <Grid container spacing={-10}>

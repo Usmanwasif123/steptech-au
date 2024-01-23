@@ -3,14 +3,14 @@
     padding: 0;
 }
 
-.smm-section4{
+.digi-section4{
     height: 100vh;
     width: 98.7vw;
     background: #f1f4ff;
     position: relative;
 }
 
-.smm-section4 .span1{
+.digi-section4 .span1{
     position: absolute;
     z-index: 1;
     font-family: Poppins, sans-serif;
@@ -24,7 +24,7 @@
     color: #808080;
     padding-right: 50px;
 }
-.smm-section4 .span2{
+.digi-section4 .span2{
     position: absolute;
     z-index: 1;
     font-family: Poppins, sans-serif;
@@ -38,7 +38,7 @@
     color: #808080;
     margin-right: 20px;
 }
-.smm-section4 .span3{
+.digi-section4 .span3{
     position: absolute;
     z-index: 1;
     font-family: Poppins, sans-serif;
@@ -51,7 +51,7 @@
     left: 53%;
     color: #808080;
 }
-.smm-section4 .span4{
+.digi-section4 .span4{
     position: absolute;
     z-index: 1;
     font-family: Poppins, sans-serif;
@@ -65,7 +65,7 @@
     color: #808080;
     margin-right: 20px;
 }
-.smm-section4 .span5{
+.digi-section4 .span5{
     position: absolute;
     z-index: 1;
     font-family: Poppins, sans-serif;
@@ -79,7 +79,7 @@
     color: #808080;
     margin-right: 20px;
 }
-.smm-section4 .span6{
+.digi-section4 .span6{
     position: absolute;
     z-index: 1;
     font-family: Poppins, sans-serif;
@@ -93,10 +93,10 @@
     color: #808080;
     margin-right: 20px;
 }
-.smm-img4{
+.digi-img4{
     position:absolute;
     z-index: 3;
-    background: url('https://i.ibb.co/3N6zwrQ/illustration-07.png');
+    background: url('https://i.ibb.co/7NNzKnc/illustration-06.png');
     height: 550px;
     width: 550px;
     top: 15%;

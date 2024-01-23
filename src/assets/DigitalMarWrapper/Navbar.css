@@ -4,14 +4,14 @@
 
 }
 
-.animate-nav-container{
-    height: 110vh;
+.digi-nav-container{
+    height: 140vh;
     width: 98.7vw;
     position: relative;
 }
-.animate-nav-container img{
+.digi-nav-container img{
     position: relative;
-    height:  110vh;
+    height:  125vh;
     width: 98.7vw;
     object-fit: cover;
     background-repeat: no-repeat;
@@ -85,8 +85,8 @@
     left: 78%;
 }
 
-.animatie-banner-line{
-    top: 20%;
+.digi-banner-line{
+    top: 18%;
     left: 9%;
     position: absolute;
     z-index: 1;
@@ -95,12 +95,12 @@
     padding: 0px 673px 1px;
 }
 
-.animate-heading h1{
+.digi-heading h1{
     position: absolute;
     z-index: 1;
-    top: 30%;
+    top: 25%;
     left: 5%;
-    margin: 0px 400px 0px -20px;
+    margin: 0px 500px 0px -20px;
     padding: 0px 100px 0px 5px;
     color: #FFF;
     font-family: Poppins, sans-serif;
@@ -112,13 +112,13 @@
     text-transform: capitalize;
 }
 
-.animate-heading p{
+.digi-heading p{
     position: absolute;
     z-index: 1;
     top: 120%;
     left: 3%;
     margin: 0px 50px 0px -20px;
-    padding: 0px 150px 0px 5px;
+    padding: 0px 110px 0px 5px;
     color: #FFF;
     font-family: Poppins, sans-serif;
     font-size: 20px;
@@ -128,7 +128,7 @@
     letter-spacing: -1px;
     text-transform: capitalize;
 }
-.animate-startbtn{
+.digibtn1-start{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -145,20 +145,24 @@
     background: transparent;
     top: 80%;
     left: 4.5%;
+    box-shadow: inset 0 0 0 0 #233F81;
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
 }
 
-.animate-startbtn:hover {
+.digibtn1-start:hover {
     box-shadow: inset 0 0 0 50px #e6e1e4;
     color: #233F81;
 }
 
-.animate-nav-image{
+.digi-nav-image{
     position:absolute;
     z-index: 3;
-    background: url('https://i.ibb.co/0qQrb4L/image.png');
+    background: url('https://i.ibb.co/rkfdfvZ/image.png');
     height: 550px;
     width: 550px;
-    top: 30%;
+    top: 25%;
     left: 55%;
     background-size: 100%;
     background-repeat: no-repeat;

@@ -3,14 +3,27 @@
     padding: 0;
 }
 
-.smm-section4{
-    height: 100vh;
+.digi-section5{
+    height: 160vh;
     width: 98.7vw;
-    background: #f1f4ff;
+    background: #ebefff;
     position: relative;
 }
 
-.smm-section4 .span1{
+.digi-section5 .main-heading{
+    position: absolute;
+    z-index: 1;
+    font-family: Poppins, sans-serif;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; 
+    letter-spacing: -1px;
+    top: 10%;
+    left: 5%;
+    color: #333;
+}
+.digi-section5 .main-p{
     position: absolute;
     z-index: 1;
     font-family: Poppins, sans-serif;
@@ -19,12 +32,38 @@
     font-weight: 400;
     line-height: 30px; 
     letter-spacing: -1px;
-    top: 15%;
-    left: 53%;
+    top: 18%;
+    left: 25%;
     color: #808080;
-    padding-right: 50px;
 }
-.smm-section4 .span2{
+
+
+.digi-section5 .loseo-img{
+    position:absolute;
+    z-index: 3;
+    background: url('https://i.ibb.co/Yywws8T/seo-icons-02.png');
+    height: 150px;
+    width: 150px;
+    top: 23%;
+    left: 13%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.digi-section5 .h1{
+    position: absolute;
+    z-index: 1;
+    font-family: Poppins, sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; 
+    letter-spacing: -1px;
+    top: 35%;
+    left: 14%;
+    margin-right: -155px;
+    color: #333;
+}
+.digi-section5 .p1{
     position: absolute;
     z-index: 1;
     font-family: Poppins, sans-serif;
@@ -33,12 +72,37 @@
     font-weight: 400;
     line-height: 30px; 
     letter-spacing: -1px;
-    top: 34%;
-    left: 53%;
+    top: 40%;
+    left: 5%;
+    padding: 30px 900px 0px 0px;
     color: #808080;
-    margin-right: 20px;
 }
-.smm-section4 .span3{
+.digi-section5 .teseo-img{
+    position:absolute;
+    z-index: 3;
+    background: url('https://i.ibb.co/QYVpgS5/seo-icons-01.png');
+    height: 100px;
+    width: 100px;
+    top: 25%;
+    left: 49%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.digi-section5 .h2{
+    position: absolute;
+    z-index: 1;
+    font-family: Poppins, sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; 
+    letter-spacing: -1px;
+    top: 35%;
+    left: 45%;
+    margin-right: -155px;
+    color: #333;
+}
+.digi-section5 .p2{
     position: absolute;
     z-index: 1;
     font-family: Poppins, sans-serif;
@@ -47,11 +111,76 @@
     font-weight: 400;
     line-height: 30px; 
     letter-spacing: -1px;
-    top: 53%;
-    left: 53%;
+    top: 40%;
+    left: 38%;
+    padding: 30px 400px 0px 0px;
     color: #808080;
 }
-.smm-section4 .span4{
+.digi-section5 .coma-img{
+    position:absolute;
+    z-index: 3;
+    background: url('https://i.ibb.co/ZTkTV0N/seo-icons-05.png');
+    height: 250px;
+    width: 250px;
+    top: 16%;
+    left: 76%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.digi-section5 .h3{
+    position: absolute;
+    z-index: 1;
+    font-family: Poppins, sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; 
+    letter-spacing: -1px;
+    top: 35%;
+    left: 75%;
+    margin-right: -155px;
+    color: #333;
+}
+.digi-section5 .p3{
+    position: absolute;
+    z-index: 1;
+    font-family: Poppins, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; 
+    letter-spacing: -1px;
+    top: 40%;
+    left: 73%;
+    padding: 30px 1px 0px 0px;
+    color: #808080;
+}
+.digi-section5 .enseo-img{
+    position:absolute;
+    z-index: 3;
+    background: url('https://i.ibb.co/fnkYXbN/seo-icons-03.png');
+    height: 200px;
+    width: 200px;
+    top: 50%;
+    left: 23%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.digi-section5 .h4{
+    position: absolute;
+    z-index: 1;
+    font-family: Poppins, sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; 
+    letter-spacing: -1px;
+    top: 65%;
+    left: 23%;
+    margin-right: -155px;
+    color: #333;
+}
+.digi-section5 .p4{
     position: absolute;
     z-index: 1;
     font-family: Poppins, sans-serif;
@@ -61,50 +190,49 @@
     line-height: 30px; 
     letter-spacing: -1px;
     top: 70%;
-    left: 53%;
+    left: 15%;
+    padding: 30px 710px 0px 0px;
     color: #808080;
-    margin-right: 20px;
 }
-.smm-section4 .span5{
-    position: absolute;
-    z-index: 1;
-    font-family: Poppins, sans-serif;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 30px; 
-    letter-spacing: -1px;
-    top: 90%;
-    left: 53%;
-    color: #808080;
-    margin-right: 20px;
-}
-.smm-section4 .span6{
-    position: absolute;
-    z-index: 1;
-    font-family: Poppins, sans-serif;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 30px; 
-    letter-spacing: -1px;
-    top: 79%;
-    left: 53%;
-    color: #808080;
-    margin-right: 20px;
-}
-.smm-img4{
+.digi-section5 .conseo-img{
     position:absolute;
     z-index: 3;
-    background: url('https://i.ibb.co/3N6zwrQ/illustration-07.png');
-    height: 550px;
-    width: 550px;
-    top: 15%;
-    left: 5%;
+    background: url('https://i.ibb.co/tbmJvJ9/seo-icons-04.png');
+    height: 120px;
+    width: 120px;
+    top: 55%;
+    left: 67%;
     background-size: 100%;
     background-repeat: no-repeat;
 }
-
+.digi-section5 .h5{
+    position: absolute;
+    z-index: 1;
+    font-family: Poppins, sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; 
+    letter-spacing: -1px;
+    top: 65%;
+    left: 65%;
+    margin-right: -155px;
+    color: #333;
+}
+.digi-section5 .p5{
+    position: absolute;
+    z-index: 1;
+    font-family: Poppins, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; 
+    letter-spacing: -1px;
+    top: 70%;
+    left: 58%;
+    padding: 30px 100px 0px 0px;
+    color: #808080;
+}
 @media only screen and (max-width: 1024px) {
     .right-vision{
         font-size: 20px;

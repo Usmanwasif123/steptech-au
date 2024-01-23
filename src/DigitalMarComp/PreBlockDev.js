@@ -1,10 +1,10 @@
 import React from 'react';
-import '../assets/SeoWrapper/PreBlockDev.css';
+import '../assets/DigitalMarWrapper/PreBlockDev.css';
 
 
 const PreBlockDev = () => {
   return (
-    <div className='seo-section5'>
+    <div className='digi-section5'>
       <h1 className='main-heading'>Our Premium Blockchain Application Development Service​</h1>
       <p className='main-p'>We offer an assortment of blockchain app development solutions to meet your needs.</p>
       <div className='loseo-img'></div>

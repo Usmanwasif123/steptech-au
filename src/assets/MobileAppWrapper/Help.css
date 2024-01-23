@@ -70,12 +70,12 @@
 .appsec4-container .left-img{
     position:absolute;
     z-index: 3;
-    background: url('https://i.ibb.co/c8rgCwQ/image.png');
-    height: 500px;
-    width: 500px;
-    top: 25%;
+    background: url('https://i.ibb.co/SwS8QfL/image.png');
+    height: 650px;
+    width: 650px;
+    top: 1%;
     left: 5%;
-    background-size: 100%;
+    background-size: 75%;
     background-repeat: no-repeat;
 }
 

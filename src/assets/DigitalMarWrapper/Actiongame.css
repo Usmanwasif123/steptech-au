@@ -3,107 +3,118 @@
     padding: 0;
 }
 
-.smm-section4{
-    height: 100vh;
+.digi-section6{
+    height: 120vh;
     width: 98.7vw;
-    background: #f1f4ff;
+    background: #f3f6ff;
     position: relative;
 }
 
-.smm-section4 .span1{
+.digi-section6 .main-heading{
     position: absolute;
     z-index: 1;
     font-family: Poppins, sans-serif;
-    font-size: 20px;
+    font-size: 50px;
     font-style: normal;
-    font-weight: 400;
-    line-height: 30px; 
+    font-weight: 700;
+    line-height: 60px; 
     letter-spacing: -1px;
-    top: 15%;
-    left: 53%;
-    color: #808080;
-    padding-right: 50px;
-}
-.smm-section4 .span2{
-    position: absolute;
-    z-index: 1;
-    font-family: Poppins, sans-serif;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 30px; 
-    letter-spacing: -1px;
-    top: 34%;
-    left: 53%;
-    color: #808080;
-    margin-right: 20px;
-}
-.smm-section4 .span3{
-    position: absolute;
-    z-index: 1;
-    font-family: Poppins, sans-serif;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 30px; 
-    letter-spacing: -1px;
-    top: 53%;
-    left: 53%;
-    color: #808080;
-}
-.smm-section4 .span4{
-    position: absolute;
-    z-index: 1;
-    font-family: Poppins, sans-serif;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 30px; 
-    letter-spacing: -1px;
-    top: 70%;
-    left: 53%;
-    color: #808080;
-    margin-right: 20px;
-}
-.smm-section4 .span5{
-    position: absolute;
-    z-index: 1;
-    font-family: Poppins, sans-serif;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 30px; 
-    letter-spacing: -1px;
-    top: 90%;
-    left: 53%;
-    color: #808080;
-    margin-right: 20px;
-}
-.smm-section4 .span6{
-    position: absolute;
-    z-index: 1;
-    font-family: Poppins, sans-serif;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 30px; 
-    letter-spacing: -1px;
-    top: 79%;
-    left: 53%;
-    color: #808080;
-    margin-right: 20px;
-}
-.smm-img4{
-    position:absolute;
-    z-index: 3;
-    background: url('https://i.ibb.co/3N6zwrQ/illustration-07.png');
-    height: 550px;
-    width: 550px;
-    top: 15%;
+    top: 25%;
     left: 5%;
-    background-size: 100%;
-    background-repeat: no-repeat;
+    padding: 0px 700px 0px 0px;
+    color: #243F82;
 }
+
+.digi-section6 .main-p{
+    position: absolute;
+    z-index: 1;
+    font-family: Poppins, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; 
+    letter-spacing: -1px;
+    top: 55%;
+    left: 5%;
+    padding: 0px 700px 0px 0px;
+    color: #808080;
+}
+.digi-section6 .h1{
+    position: absolute;
+    z-index: 1;
+    font-family: Poppins, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; 
+    letter-spacing: -1px;
+    top: 5%;
+    left: 55%;
+    padding: 30px 5px 0px 0px;
+    color: #243F82;
+    text-transform: capitalize;
+}
+.digi-section6 .h2{
+    position: absolute;
+    z-index: 1;
+    font-family: Poppins, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; 
+    letter-spacing: -1px;
+    top: 20%;
+    left: 55%;
+    padding: 30px 5px 0px 0px;
+    color: #243F82;
+    text-transform: capitalize;
+}
+.digi-section6 .h3{
+    position: absolute;
+    z-index: 1;
+    font-family: Poppins, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; 
+    letter-spacing: -1px;
+    top: 35%;
+    left: 55%;
+    padding: 30px 5px 0px 0px;
+    color: #243F82;
+    text-transform: capitalize;
+}
+.digi-section6 .h4{
+    position: absolute;
+    z-index: 1;
+    font-family: Poppins, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; 
+    letter-spacing: -1px;
+    top: 50%;
+    left: 55%;
+    padding: 30px 5px 0px 0px;
+    color: #243F82;
+    text-transform: capitalize;
+}
+.digi-section6 .h5{
+    position: absolute;
+    z-index: 1;
+    font-family: Poppins, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; 
+    letter-spacing: -1px;
+    top: 65%;
+    left: 55%;
+    padding: 30px 5px 0px 0px;
+    color: #243F82;
+    text-transform: capitalize;
+}
+
 
 @media only screen and (max-width: 1024px) {
     .right-vision{

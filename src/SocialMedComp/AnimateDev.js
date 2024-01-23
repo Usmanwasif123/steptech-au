@@ -5,7 +5,7 @@ import '../assets/SocialMedWrapper/AnimateDev.css';
 
 const AnimateDev = () => {
   return (
-    <div className='seo-section3'>
+    <div className='smm-section3'>
         <h1>The benefit of Step Tech for Ecommerce Development &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;

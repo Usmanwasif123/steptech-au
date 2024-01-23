@@ -4,7 +4,7 @@ import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import {DraftsOutlined,PhoneInTalkOutlined, PinDropOutlined } from '@mui/icons-material';
-import { Grid, styled, Paper } from '@mui/material';
+import {styled, Paper } from '@mui/material';
 
 
 const Contact = () => {
@@ -106,7 +106,7 @@ const Contact = () => {
           <Slider {...setting}>
           <div>
             <h3 className='heading1'>Take your business higher than ever of accomplishment with our 
-            unrivaled administrations.<span className='span1'>reach out at this point!</span>
+            unrivaled administrations.<span className='web-span1'>reach out at this point!</span>
             </h3>
             <DraftsOutlined style={{position: 'absolute', zIndex: '3', top: '45%', fontSize: '40px', color: '#fff'}}/>
             <p className='email-p1'>sales@steptechglobal.com</p>

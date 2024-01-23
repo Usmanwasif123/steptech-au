@@ -3,8 +3,8 @@
     padding: 0;
 }
 
-.webprocess-container{
-    height: 140vh;
+.gameprocess-container{
+    height: 130vh;
     width: 98.7vw;
     background: #eceefe;
     position: relative;
@@ -30,7 +30,7 @@
 .research-grid{
     position: absolute;
     z-index: 2;
-    left: 1%; 
+    left: 7%; 
     top: 30%;
 }
 
@@ -58,7 +58,7 @@
 .webdev-grid{
     position: absolute;
     z-index: 2;
-    left: 26%; 
+    left: 29%; 
     top: 30%;
 }
 
@@ -74,7 +74,7 @@
     font-size: 30px;
     color: #fff;
     padding-top: 12px;
-    margin-left: -10px;
+    margin-left: -30px;
 }
 
 .webdev-p{
@@ -83,7 +83,7 @@
     font-size: 20px;
     color: #fff;
     margin: 0px 20px 0px -50px;
-    padding: 40px 0px 0px 0px;
+    padding-top: 10px;
 }
 .test-grid{
     position: absolute;
@@ -116,7 +116,7 @@
 .launch-grid{
     position: absolute;
     z-index: 2;
-    left: 76%; 
+    left: 73%; 
     top: 30%;
 }
 

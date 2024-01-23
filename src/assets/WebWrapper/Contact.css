@@ -157,6 +157,7 @@
 .webcontact-carousel .heading1{
     color: #fff;
     margin-left: 5px;
+    margin-top: 40px;
     font-size: 18px;
     font-family: Poppins, sans-serif;
     font-style: normal;
@@ -165,7 +166,7 @@
     letter-spacing: -0.331px
 }
 
-.heading1 .span1{
+.webcontact-container .heading1 .web-span1{
     color: #fff;
     margin-left: 5px;
     font-size: 18px;
@@ -215,6 +216,7 @@
 .webcontact-carousel .heading2{
     color: #fff;
     margin-left: 5px;
+    margin-top: 40px;
     font-size: 18px;
     font-family: Poppins, sans-serif;
     font-style: normal;
@@ -222,7 +224,7 @@
     line-height: 20px; /* 131.492% */
     letter-spacing: -0.331px
 }
-.heading2 .span2{
+.webcontact-carousel .heading2 .span2{
     color: #fff;
     margin-left: 345px;
     font-size: 18px;
@@ -272,6 +274,7 @@
 .webcontact-carousel .heading3{
     color: #fff;
     margin-left: 5px;
+    margin-top: 40px;
     font-size: 18px;
     font-family: Poppins, sans-serif;
     font-style: normal;
@@ -279,7 +282,7 @@
     line-height: 20px; /* 131.492% */
     letter-spacing: -0.331px
 }
-.heading3 .span3{
+.webcontact-carousel .heading3 .span3{
     color: #fff;
     margin-left: 685px;
     font-size: 18px;
@@ -346,11 +349,12 @@
 }
 
 .webcontact-carousel .slick-prev { 
-    left: -20px;
+    margin-left: -20px;
+    margin-top: 50px;
 
 }
 .webcontact-carousel .slick-next{
-    right: 0px;
-    margin-right: -20px;
+    margin-right: 10px;
+    margin-top: 50px;
 
 }

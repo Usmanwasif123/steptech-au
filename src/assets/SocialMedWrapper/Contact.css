@@ -11,7 +11,7 @@
     margin-top: -60px;
 }
 
-.contact-container img{
+.smmcontact-container img{
     height: 100vh;
     width: 98.7vw;
     position: relative;
@@ -31,27 +31,27 @@
     padding: 600px 300px 100px 200px;
 }
 
-.contact-container h1{
+.smmcontact-container .main-heading{
     position: absolute;
     z-index: 2;
-    top: 9%;
-    left: 14.3%;
-    font-size: 15px;
+    top: 15%;
+    left: 15%;
+    font-size: 50px;
     font-family: Poppins, sans-serif;
     text-transform: capitalize;
-    color: #fff;
+    color: #333;
 }
-.contact-container span{
+.smmcontact-container .main-span{
     position: absolute;
     z-index: 2;
-    left: 14.3%;
-    font-size: 15px;
+    left: 105%;
+    font-size: 50px;
     font-family: Poppins, sans-serif;
     text-transform: capitalize;
-    color:#fff;
+    color:#6C50B1;
 }
 
-.contact-container p{
+.smmcontact-container p{
     position: absolute;
     z-index: 2;
     top: 28%;
@@ -146,7 +146,7 @@
     color: #fff;
 }
 
-.contact-carousel{
+.smmcontact-carousel{
     margin-top: -50px;
     margin-left: 220px;
     position: absolute;
@@ -154,9 +154,10 @@
     z-index: 2;
 }
 
-.contact-carousel .heading1{
+.smmcontact-carousel .heading1{
     color: #fff;
     margin-left: 5px;
+    margin-top: 40px;
     font-size: 18px;
     font-family: Poppins, sans-serif;
     font-style: normal;
@@ -164,17 +165,20 @@
     line-height: 20px; /* 131.492% */
     letter-spacing: -0.331px
 }
-.heading1 span{
-    color: #333;
-    margin-left: 5px;
-    font-size: 25px;
+
+.smmcontact-carousel .span1{
+    color: #fff;
+    margin-left: 33px;
+    font-size: 18px;
     font-family: Poppins, sans-serif;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 100;
     line-height: 20px; /* 131.492% */
-    letter-spacing: -0.331px
+    letter-spacing: -0.331px;
+    margin-top: -70px;
+    text-transform: capitalize;
 }
-.contact-carousel .email-p1{
+.smmcontact-carousel .email-p1{
     color: #fff;
     margin-left: 35px;
     margin-top: 67px;
@@ -186,7 +190,7 @@
     letter-spacing: -0.100px;
     text-transform: lowercase;
 }
-.contact-carousel .phone-p1{
+.smmcontact-carousel .phone-p1{
     color: #fff;
     margin-left: 35px;
     margin-top: 140px;
@@ -198,7 +202,7 @@
     letter-spacing: -0.100px;
     text-transform: lowercase;
 }
-.contact-carousel .location-p1{
+.smmcontact-carousel .location-p1{
     color: #fff;
     margin-left: 35px;
     margin-top: 210px;
@@ -211,9 +215,10 @@
     text-transform: capitalize;
 
 }
-.contact-carousel .heading2{
+.smmcontact-carousel .heading2{
     color: #fff;
     margin-left: 5px;
+    margin-top: 40px;
     font-size: 18px;
     font-family: Poppins, sans-serif;
     font-style: normal;
@@ -221,7 +226,19 @@
     line-height: 20px; /* 131.492% */
     letter-spacing: -0.331px
 }
-.contact-carousel .email-p2{
+.smmcontact-carousel .span2{
+    color: #fff;
+    margin-left: 50px;
+    font-size: 18px;
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 20px; /* 131.492% */
+    letter-spacing: -0.331px;
+    margin-top: -70px;
+    text-transform: capitalize;
+}
+.smmcontact-carousel .email-p2{
     color: #fff;
     margin-left: 370px;
     margin-top: 67px;
@@ -233,7 +250,7 @@
     letter-spacing: -0.100px;
     text-transform: lowercase;
 }
-.contact-carousel .phone-p2{
+.smmcontact-carousel .phone-p2{
     color: #fff;
     margin-left:370px;
     margin-top: 140px;
@@ -245,7 +262,7 @@
     letter-spacing: -0.100px;
     text-transform: lowercase;
 }
-.contact-carousel .location-p2{
+.smmcontact-carousel .location-p2{
     color: #fff;
     margin-left: 370px;
     margin-top: 210px;
@@ -257,9 +274,10 @@
     letter-spacing: 2px;
     text-transform: capitalize;
 }
-.contact-carousel .heading3{
+.smmcontact-carousel .heading3{
     color: #fff;
     margin-left: 5px;
+    margin-top: 40px;
     font-size: 18px;
     font-family: Poppins, sans-serif;
     font-style: normal;
@@ -267,7 +285,19 @@
     line-height: 20px; /* 131.492% */
     letter-spacing: -0.331px
 }
-.contact-carousel .email-p3{
+.smmcontact-carousel .span3{
+    color: #fff;
+    margin-left: 50px;
+    font-size: 18px;
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 20px; /* 131.492% */
+    letter-spacing: -0.331px;
+    margin-top: -70px;
+    text-transform: capitalize;
+}
+.smmcontact-carousel .email-p3{
     color: #fff;
     margin-left: 710px;
     margin-top: 67px;
@@ -279,7 +309,7 @@
     letter-spacing: -0.100px;
     text-transform: lowercase;
 }
-.contact-carousel .phone-p3{
+.smmcontact-carousel .phone-p3{
     color: #fff;
     margin-left: 710px;
     margin-top: 140px;
@@ -291,7 +321,7 @@
     letter-spacing: -0.100px;
     text-transform: lowercase;
 }
-.contact-carousel .location-p3{
+.smmcontact-carousel .location-p3{
     color: #fff;
     margin-left: 710px;
     margin-top: 210px;
@@ -303,32 +333,32 @@
     letter-spacing: 2px;
     text-transform: capitalize;
 }
-.contact-carousel .slick-slider div{
+.smmcontact-carousel .slick-slider div{
     height: 350px;
 }
-.contact-carousel .slick-slider {
+.smmcontact-carousel .slick-slider {
     width: 340px !important;
     margin-left: 700px;
 }
-.contact-carousel
+.smmcontact-carousel
 .slick-dots li.slick-active button:before {
     color: #333 !important;
 }
 
-.contact-carousel .slick-dots li button:before {
+.smmcontact-carousel .slick-dots li button:before {
     color: #fff;
     font-size: 0.6rem !important;
     top: 3rem !important;
     left: -1.5rem;
 }
 
-.contact-carousel .slick-prev { 
-    display: none;
-    background: transparent;
+.smmcontact-carousel .slick-prev { 
+     margin-left: -20px;
+    margin-top: 50px;
 
 }
-.contact-carousel .slick-next{
-    display: none;
-    background: transparent;
+.smmcontact-carousel .slick-next{
+    margin-right: 10px;
+    margin-top: 50px;
 
 }

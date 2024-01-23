@@ -350,16 +350,12 @@
 }
 
 .gamecontact-carousel .slick-prev { 
-    display: none;
-    background: transparent;
-    right: 5%;
-    top:60%;
+    margin-left: -20px;
+    margin-top: 50px;
 
 }
 .gamecontact-carousel .slick-next{
-    display: none;
-    background: transparent;
-    right: 1%;
-    top:60%;
+    margin-right: 10px;
+    margin-top: 50px;
     
 }

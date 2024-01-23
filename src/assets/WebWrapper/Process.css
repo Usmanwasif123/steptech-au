@@ -3,8 +3,8 @@
     padding: 0;
 }
 
-.webprocess-container{
-    height: 140vh;
+.web-section10{
+    height: 130vh;
     width: 98.7vw;
     background: #eceefe;
     position: relative;
@@ -18,7 +18,7 @@
     position: absolute;
     z-index: 2;
 }
-.webprocess-p{
+.web-section10 .main-p{
     top: 16%;
     left: 10%;
     padding: 0 200px 0px 50px;
@@ -27,14 +27,14 @@
     position: absolute;
     z-index: 2;
 }
-.research-grid{
+.web-section10 .research-grid{
     position: absolute;
     z-index: 2;
-    left: 1%; 
+    left: 7%; 
     top: 30%;
 }
 
-.research-grid .research-img{
+.web-section10 .research-grid .research-img{
     position: absolute;
     top: 4%;
     left: 40%;
@@ -42,23 +42,23 @@
     width: 60px;
 }
 
-.research{
+.web-section10 .research{
     font-size: 30px;
     color: #fff;
     padding-top: 12px;
 }
-.research-p{
+.web-section10 .research-p{
     position: absolute;
     z-index: 2;
     font-size: 20px;
     color: #fff;
-    margin: 0px 20px 0px -50px;
+    margin: 0px 20px 0px -60px;
     padding: 40px 0px 0px 0px;
 }
-.webdev-grid{
+.web-section10 .webdev-grid{
     position: absolute;
     z-index: 2;
-    left: 26%; 
+    left: 29%; 
     top: 30%;
 }
 
@@ -70,22 +70,22 @@
     width: 60px;
 }
 
-.webdev{
+.web-section10 .webdev{
     font-size: 30px;
     color: #fff;
     padding-top: 12px;
-    margin-left: -10px;
+    margin-left: -30px;
 }
 
-.webdev-p{
+.web-section10 .webdev-p{
     position: absolute;
     z-index: 2;
     font-size: 20px;
     color: #fff;
     margin: 0px 20px 0px -50px;
-    padding: 40px 0px 0px 0px;
+    padding-top: 10px;
 }
-.test-grid{
+.web-section10 .test-grid{
     position: absolute;
     z-index: 2;
     left: 51%; 
@@ -113,10 +113,10 @@
     margin: 0px 20px 0px -50px;
     padding: 40px 0px 0px 0px;
 }
-.launch-grid{
+.web-section10 .launch-grid{
     position: absolute;
     z-index: 2;
-    left: 76%; 
+    left: 73%; 
     top: 30%;
 }
 
