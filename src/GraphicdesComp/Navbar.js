@@ -35,12 +35,12 @@ const Navbar = () => {
       <img src='https://i.ibb.co/Y8F8xfL/Rectangle-1.png' alt='Banner'></img>
       <div className='graph-banner-line'></div>
       <div className='graph-heading'>
-        <h1>Get The Top-Quality And Robust Ecommmerce Development Services<br/>
-        <p>Be ready to improve your digital presence and skyrocket your revenue with Ecommmerce Web Development 
-          services. Step Tech Global is a leading Ecommmerce Website Development company, offering the best 
-          all-inclusive and memorable Custom Ecommmerce Development services to indulge your business needs 
-          and ambitions. As a well-known service provider, Ecommmerce Development services guarantee high-grade
-          and competent website performance, offering an excellent user experience for all of our clients.
+        <h1>Embrace The Beauty Of Creativity With Our Design Services<br/>
+        <p>Want to enchant your user with visually appealing graphics and design? At Step Tech, the <b>best logo design company</b>, our 
+          skillful <b>graphic designers</b> worldwide will make it happen for you. We understand the need for your design project and work based
+          on Our client’s requirements. With our <b>best logo designers</b>, we can build the best design, <b>creative logo design, vector 
+          illustration</b>, etc, for start-ups or well-established ventures to accomplish their goals. We assist you in organizing and 
+          materializing your demands with compelling designs that leave a permanent impression on your customers. 
         </p>
         </h1>
       </div>

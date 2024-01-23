@@ -19,8 +19,8 @@
     font-weight: 700;
     line-height: 60px; 
     letter-spacing: -1px;
-    top: 10%;
-    left: 20%;
+    top: 8%;
+    left: 5%;
     color: #333;
 }
 .graph-section5 .main-p{
@@ -32,9 +32,10 @@
     font-weight: 400;
     line-height: 30px; 
     letter-spacing: -1px;
-    top: 18%;
-    left: 25%;
+    top: 16%;
+    left: 10%;
     color: #808080;
+    padding: 0px 100px 0px 0px;
 }
 
 
@@ -59,7 +60,7 @@
     line-height: 60px; 
     letter-spacing: -1px;
     top: 35%;
-    left: 5%;
+    left: 13%;
     margin-right: -155px;
     color: #333;
 }
@@ -74,7 +75,7 @@
     letter-spacing: -1px;
     top: 42%;
     left: 4%;
-    padding-right: 880px;
+    padding-right: 855px;
     color: #808080;
 }
 .graph-section5 .mog-img{
@@ -84,7 +85,7 @@
     height: 100px;
     width: 100px;
     top: 25%;
-    left: 49%;
+    left: 48%;
     background-size: 100%;
     background-repeat: no-repeat;
 }
@@ -98,7 +99,7 @@
     line-height: 60px; 
     letter-spacing: -1px;
     top: 35%;
-    left: 45%;
+    left: 43%;
     margin-right: -155px;
     color: #333;
 }
@@ -113,7 +114,7 @@
     letter-spacing: -1px;
     top: 42%;
     left: 38%;
-    padding-right: 450px;
+    padding-right: 420px;
     color: #808080;
 }
 .graph-section5 .gmd-img{
@@ -137,7 +138,7 @@
     line-height: 60px; 
     letter-spacing: -1px;
     top: 35%;
-    left: 77%;
+    left: 80%;
     color: #333;
 }
 .graph-section5 .p3{
@@ -160,7 +161,7 @@
     background: url('https://i.ibb.co/K0shXWN/graphic-designing-icon-04.png');
     height: 100px;
     width: 100px;
-    top: 60%;
+    top: 68%;
     left: 23%;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -174,8 +175,8 @@
     font-weight: 700;
     line-height: 60px; 
     letter-spacing: -1px;
-    top: 70%;
-    left: 15%;
+    top: 78%;
+    left: 23%;
     margin-right: -155px;
     color: #333;
 }
@@ -188,8 +189,8 @@
     font-weight: 400;
     line-height: 30px; 
     letter-spacing: -1px;
-    top: 77%;
-    left: 10%;
+    top: 85%;
+    left: 5%;
     padding-right: 750px;
     color: #808080;
 }
@@ -199,7 +200,7 @@
     background: url('https://i.ibb.co/By70Jjk/graphic-designing-icon-05.png');
     height: 100px;
     width: 100px;
-    top: 60%;
+    top: 68%;
     left: 63%;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -213,7 +214,7 @@
     font-weight: 700;
     line-height: 60px; 
     letter-spacing: -1px;
-    top: 70%;
+    top: 78%;
     left: 62%;
     margin-right: -155px;
     color: #333;
@@ -227,7 +228,7 @@
     font-weight: 400;
     line-height: 30px; 
     letter-spacing: -1px;
-    top: 77%;
+    top: 85%;
     left: 52%;
     padding-right: 140px;
     color: #808080;
