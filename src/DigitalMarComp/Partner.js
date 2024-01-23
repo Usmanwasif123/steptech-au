@@ -28,7 +28,7 @@ const Partner = () => {
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Wyoming, USA</h1>
         <div id='line-digi' style={lineStyle}></div>
-        <p  className='top-para'style={isOpen ? null : paragraphStyles1}>
+        <p  className='top-para' style={isOpen ? null : paragraphStyles1}>
             Are you also looking for the best web and app development company in the USA? Then stop scrolling anymore. 
             Step Tech Global is the best web and mobile app development services provider, but there are more-in-one 
             solutions for all your digital needs. We’ve driven the rollercoaster of startups, so we understand the 

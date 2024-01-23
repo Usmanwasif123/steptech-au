@@ -4,27 +4,23 @@
 }
 
 .seo-section7{
-    height: 100vh;
+    height: 200vh;
     width: 98.7vw;
     position: relative;
     background: #fff;
     margin-top: -10px; 
 }
 
-.seo-section7.open {
-    max-height: 1000vh;
-}
-
 .seo-section7 h1{
     color: #333;
     font-size: 40px;
     position: absolute;
-    top: 10%;
+    top: 5%;
     margin: 0px 100px 0px 300px;
     padding: 0px 100px 0px 0px;
 }
 #line-seo{
-    top: 30%;
+    top: 15%;
     left: 43.3%;
     position: absolute;
     border-radius: 2px 2px 2px 2px;
@@ -32,7 +28,14 @@
     padding: 0px 150px 4px 50px;
 }
 
-.seo-section7 p{
+.seo-section7 .top-para{
+    color: #333;
+    font-size: 20px;
+    position: absolute;
+    margin: 0px 80px 0px 70px;
+    top: 20%;
+}
+.seo-section7 .middle-para{
     color: #333;
     font-size: 20px;
     position: absolute;
@@ -46,7 +49,7 @@
     border-radius: 15px;
     border: none;
     left: 45%;
-    top: 80%;
+    top: 96%;
     color: #fff;
     font-size: 20px;
     font-family: Poppins, sans-serif;
@@ -57,7 +60,4 @@
     transition: margin-top 0.4s ease-in-out;
 }
 
-.seobtn-read.open {
-    margin-top: 760px;  
-}
 
