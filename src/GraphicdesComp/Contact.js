@@ -102,7 +102,7 @@ const Contact = () => {
       <button className='submit-btn' type='submit'>send message</button>
       </form>
       <div className='contact-box1' >&nbsp;</div>
-      <div className='contact-carousel'>
+      <div className='graphcontact-carousel'>
           <Slider {...setting}>
           <div>
             <h3 className='heading1'>Take your business higher than ever of accomplishment with our 

@@ -4,15 +4,11 @@
 }
 
 .webpartner-container{
-    height: 100vh;
+    height: 200vh;
     width: 98.7vw;
     position: relative;
     background: #fff;
     margin-top: -10px; 
-}
-
-.webpartner-container.open {
-    max-height: 1000vh;
 }
 
 .webpartner-container h1{
@@ -32,12 +28,19 @@
     padding: 0px 150px 4px 50px;
 }
 
-.webpartner-container p{
+.webpartner-container .top-para{
     color: #333;
     font-size: 20px;
     position: absolute;
     margin: 0px 80px 0px 70px;
-    top: 40%;
+    top: 22%;
+}
+.webpartner-container .middle-para{
+    color: #333;
+    font-size: 20px;
+    position: absolute;
+    margin: 0px 80px 0px 70px;
+    top: 42%;
 }
  
 .webread-btn{
@@ -55,9 +58,5 @@
     text-transform: capitalize;
     padding: 8px;
     transition: margin-top 0.4s ease-in-out;
-}
-
-.webread-btn.open {
-    margin-top: 760px;  
 }
 

@@ -4,7 +4,7 @@
 }
 
 .present-container{
-    height: 250vh;
+    height: 170vh;
     width: 98.7vw;
     background: #fff;
     position: relative;
@@ -14,8 +14,8 @@
 .present-grid1{
     position: absolute;
     z-index: 2;
-    top: 12%;
     left: 5%;
+    top: 30%;
 }
 .present-item1 img{
     position: absolute;
@@ -29,30 +29,32 @@
 }
 
 .present-item1 img:hover{
-    opacity: 0.3;   
+    opacity: .2;  
     cursor: pointer;
 }
 
 .present-item1 .present-btn{
+    position: absolute;
     background: transparent;
     border: 2px solid #fff;
     color: #fff;
     padding: 10px;
     margin-top: 70px;
-    margin-left: -110px;
+    margin-left: -150px;
     font-family: Poppins, sans-serif;
     cursor: pointer;
     font-size: 20px;
+    text-decoration: none;   
 }
 
 .present-item1 .present-btn:hover{
     position: absolute;
-    z-index: 3;
+    z-index: 4;
 }
+
 .present-item1 h1{
     color: #fff;
-    padding: 10px;
-    margin-top: 0px;
+    margin-top: 50px;
     font-family: Poppins, sans-serif;
     font-size: 25px;
     cursor: pointer;
@@ -60,11 +62,12 @@
     position: absolute;
     z-index: 3;
 }
+
 .present-grid2{
     position: absolute;
     z-index: 2;
     left: 38%;
-    top: 12%;
+    top: 30%;
 }
 .present-item2 img{
     position: absolute;
@@ -77,20 +80,22 @@
     top: 12%;
 }
 .present-item2 img:hover{
-    opacity: .5;
+    opacity: .2;
     cursor: pointer;
 }
 
 .present-item2 .present-btn{
+    position: absolute;
     background: transparent;
     border: 2px solid #fff;
     color: #fff;
     padding: 10px;
-    margin-top: 70px;
-    margin-left: -110px;
+    margin-top: 50px;
+    margin-left: -80px;
     font-family: Poppins, sans-serif;
     cursor: pointer;
     font-size: 20px;
+    text-decoration: none;    
 }
 
 .present-item2 .present-btn:hover{
@@ -99,20 +104,19 @@
 }
 .present-item2 h1{
     color: #fff;
-    padding: 10px;
-    margin-top: 0px;
+    margin-top: 50px;
     font-family: Poppins, sans-serif;
     font-size: 25px;
     cursor: pointer;
     display:contents;
     position: absolute;
-    z-index: 3;
+    z-index: 4;
 }
 .present-grid3{
     position: absolute;
     z-index: 2;
     left: 70%;
-    top: 12%;
+    top: 30%;
 }
 
 .present-item3 img{
@@ -126,24 +130,27 @@
     top: 12%;
 }
 .present-item3 img:hover{
-    opacity: .5;
+    opacity: .2;
     cursor: pointer;
 }
 .present-item3 .present-btn{
+    position: absolute;
     background: transparent;
     border: 2px solid #fff;
     color: #fff;
     padding: 10px;
     margin-top: 70px;
-    margin-left: -110px;
+    margin-left: -120px;
     font-family: Poppins, sans-serif;
     cursor: pointer;
     font-size: 20px;
+    text-decoration: none;   
 }
 
 .present-item3 .present-btn:hover{
     position: absolute;
-    z-index: 3;
+    z-index: 5;
+    color: #fff;
 }
 .present-item3 h1{
     color: #fff;
@@ -159,7 +166,7 @@
 .present-grid4{
     position: absolute;
     z-index: 2;
-    top: 37%;
+    top: 68%;
     left: 5%;
 }
 .present-item4 img{
@@ -173,20 +180,22 @@
     top: 12%;
 }
 .present-item4 img:hover{
-    opacity: .5;
+    opacity: .2;
     cursor: pointer;
 }
 
 .present-item4 .present-btn{
+    position: absolute;
     background: transparent;
     border: 2px solid #fff;
     color: #fff;
     padding: 10px;
     margin-top: 70px;
-    margin-left: -110px;
+    margin-left: -120px;
     font-family: Poppins, sans-serif;
     cursor: pointer;
     font-size: 20px;
+    text-decoration: none;   
 }
 
 .present-item4 .present-btn:hover{
@@ -208,7 +217,7 @@
     position: absolute;
     z-index: 2;
     left: 38%;
-    top: 37%;
+    top: 68%;
 }
 .present-item5 img{
     position: absolute;
@@ -221,19 +230,21 @@
     top: 12%;
 }
 .present-item5 img:hover{
-    opacity: .5;
+    opacity: .2;
     cursor: pointer;
 }
 .present-item5 .present-btn{
+    position: absolute;
     background: transparent;
     border: 2px solid #fff;
     color: #fff;
     padding: 10px;
     margin-top: 70px;
-    margin-left: -110px;
+    margin-left: -150px;
     font-family: Poppins, sans-serif;
     cursor: pointer;
     font-size: 20px;
+    text-decoration: none;   
 }
 
 .present-item5 .present-btn:hover{
@@ -255,7 +266,7 @@
     position: absolute;
     z-index: 2;
     left: 70%;
-    top: 37%;
+    top: 68%;
 }
 
 .present-item6 img{
@@ -269,19 +280,21 @@
     top: 12%;
 }
 .present-item6 img:hover{
-    opacity: .5;
+    opacity: .2;
     cursor: pointer;
 }
 .present-item6 .present-btn{
+    position: absolute;
     background: transparent;
     border: 2px solid #fff;
     color: #fff;
     padding: 10px;
     margin-top: 70px;
-    margin-left: -110px;
+    margin-left: -160px;
     font-family: Poppins, sans-serif;
     cursor: pointer;
     font-size: 20px;
+    text-decoration: none;   
 }
 
 .present-item6 .present-btn:hover{
@@ -299,143 +312,70 @@
     position: absolute;
     z-index: 3;
 }
-.present-grid7{
-    position: absolute;
-    z-index: 2;
-    top: 62%;
-    left: 5%;
-}
-.present-item7 img{
-    position: absolute;
-    z-index: 2;
-    object-fit: initial;
-    background-repeat: no-repeat;
-    height: 45vh;
-    width: 25vw;
-    left: 8%;
-    top: 12%;
-}
-.present-item7 img:hover{
-    opacity: .5;
-    cursor: pointer;
-}
-.present-item7 .present-btn{
+
+.webpresent-btn{
     background: transparent;
-    border: 2px solid #fff;
-    color: #fff;
-    padding: 10px;
-    margin-top: 70px;
-    margin-left: -110px;
+    border: 1px solid #6347AA;
+    color: #333;
+    padding: 15px;
+    margin-top:60px;
+    margin-left: 350px;
     font-family: Poppins, sans-serif;
     cursor: pointer;
-    font-size: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 5px;
+    text-transform: uppercase;
 }
-
-.present-item7 .present-btn:hover{
-    position: absolute;
-    z-index: 3;
-}
-.present-item7 h1{
+.webpresent-btn:hover{
+    background: linear-gradient(256deg, #6347AA 7.85%, #233F81 107.97%);
     color: #fff;
-    padding: 10px;
-    margin-top: 0px;
-    font-family: Poppins, sans-serif;
-    font-size: 25px;
-    cursor: pointer;
-    display:contents;
-    position: absolute;
-    z-index: 3;
 }
-
-.present-grid8{
-    position: absolute;
-    z-index: 2;
-    left: 38%;
-    top: 62%;
+.webpresent-btn:focus{
+    background: linear-gradient(256deg, #6347AA 7.85%, #233F81 107.97%);
+    color: #fff ;
 }
-.present-item8 img{
-    position: absolute;
-    z-index: 2;
-    object-fit: initial;
-    background-repeat: no-repeat;
-    height: 45vh;
-    width: 25vw;
-    left: 8%;
-    top: 12%;
-}
-.present-item8 img:hover{
-    opacity: .5;
-    cursor: pointer;
-}
-.present-item8 .present-btn{
+.apppresent-btn{
     background: transparent;
-    border: 2px solid #fff;
-    color: #fff;
-    padding: 10px;
-    margin-top: 70px;
-    margin-left: -110px;
+    border: 1px solid #6347AA;
+    color: #333;
+    padding: 15px;
+    margin-top:60px;
+    margin-left: 20px;
     font-family: Poppins, sans-serif;
     cursor: pointer;
-    font-size: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 5px;
+    text-transform: uppercase;
 }
-
-.present-item8 .present-btn:hover{
-    position: absolute;
-    z-index: 3;
-}
-.present-item8 h1{
+.apppresent-btn:hover{
+    background: linear-gradient(256deg, #6347AA 7.85%, #233F81 107.97%);
     color: #fff;
-    font-family: Poppins, sans-serif;
-    font-size: 25px;
-    cursor: pointer;
-    display:contents;
-    position: absolute;
-    z-index: 3;
 }
-
-.present-grid9{
-    position: absolute;
-    z-index: 2;
-    left: 70%;
-    top: 62%;
+.apppresent-btn:focus{
+    background: linear-gradient(256deg, #6347AA 7.85%, #233F81 107.97%);
+    color: #fff ;
 }
-
-.present-item9 img{
-    position: absolute;
-    z-index: 2;
-    object-fit: initial;
-    background-repeat: no-repeat;
-    height: 45vh;
-    width: 25vw;
-    left: 8%;
-    top: 12%;
-}
-.present-item9 img:hover{
-    opacity: .5;
-    cursor: pointer;
-}
-.present-item9 .present-btn{
+.gamepresent-btn{
     background: transparent;
-    border: 2px solid #fff;
-    color: #fff;
-    padding: 10px;
-    margin-top: 70px;
-    margin-left: -110px;
+    border: 1px solid #6347AA;
+    color: #333;
+    padding: 15px;
+    margin-top:60px;
+    margin-left: 20px;
     font-family: Poppins, sans-serif;
     cursor: pointer;
-    font-size: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 5px;
+    text-transform: uppercase;
 }
-
-.present-item9 .present-btn:hover{
-    position: absolute;
-    z-index: 3;
-}
-.present-item9 h1{
+.gamepresent-btn:hover{
+    background: linear-gradient(256deg, #6347AA 7.85%, #233F81 107.97%);
     color: #fff;
-    font-family: Poppins, sans-serif;
-    font-size: 25px;
-    cursor: pointer;
-    display:contents;
-    position: absolute;
-    z-index: 3;
+}
+.gamepresent-btn:focus{
+    background: linear-gradient(256deg, #6347AA 7.85%, #233F81 107.97%);
+    color: #fff ;
 }

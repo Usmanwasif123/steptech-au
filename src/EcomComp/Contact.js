@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
-import '../assets/AnimationWrapper/Contact.css';
+import '../assets/EcomWrapper/Contact.css';
 import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import {DraftsOutlined,PhoneInTalkOutlined, PinDropOutlined } from '@mui/icons-material';
-import { Grid, styled, Paper } from '@mui/material';
+import { styled, Paper } from '@mui/material';
 
 
 const Contact = () => {
@@ -102,11 +102,11 @@ const Contact = () => {
       <button className='submit-btn' type='submit'>send message</button>
       </form>
       <div className='contact-box1' >&nbsp;</div>
-      <div className='contact-carousel'>
+      <div className='ecomcontact-carousel'>
           <Slider {...setting}>
             <div>
             <h3 className='heading1'>Take your business higher than ever of accomplishment with our 
-            unrivaled administrations.<span>reach out at this point!</span>
+            unrivaled administrations.<span className='span1'>reach out at this point!</span>
             </h3>
             <DraftsOutlined style={{position: 'absolute', zIndex: '3', top: '45%', fontSize: '40px', color: '#fff'}}/>
             <p className='email-p1'>sales@steptechglobal.com</p>
@@ -117,7 +117,7 @@ const Contact = () => {
             </div> 
             <div>
             <h3 className='heading2'>Take your business higher than ever of accomplishment with our 
-            unrivaled administrations.
+            unrivaled administrations.<span className='span2'>reach out at this point!</span>
             </h3>
             <DraftsOutlined style={{position: 'absolute', zIndex: '3', top: '45%', fontSize: '40px', color: '#fff'}}/>
             <p className='email-p2'>sales@steptechglobal.com</p>
@@ -128,7 +128,7 @@ const Contact = () => {
             </div>
             <div>
             <h3 className='heading3'>Take your business higher than ever of accomplishment with our 
-            unrivaled administrations.
+            unrivaled administrations.<span className='span3'>reach out at this point!</span>
             </h3>
             <DraftsOutlined style={{position: 'absolute', zIndex: '3', top: '45%', fontSize: '40px', color: '#fff'}}/>
             <p className='email-p3'>sales@steptechglobal.com</p>

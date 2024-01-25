@@ -6,7 +6,7 @@ const Partner = () => {
 
     const paragraphStyles1 = {
       maxHeight: isOpen ? 'none' : '200vh', 
-      top: isOpen ? '20%;' : '35%',
+      top: isOpen ? '30%;' : '40%',
       transition: 'max-height 0.6s ease', 
     };
     const paragraphStyles2 = {
@@ -20,15 +20,19 @@ const Partner = () => {
     };
     
     const lineStyle={
-      top: isOpen? '15%' : '30%',
+      top: isOpen ? '15%' : '30%',
+    }
+
+    const btnStyles={
+      top: isOpen ? '96%' : '90%'
     }
   return (
-    <div className={`graph-section6 ${isOpen ? 'open' : ''}`} style={containerStyles}>
+   <div className={`graph-section7 ${isOpen ? 'open' : ''}`} style={containerStyles}>
         <h1>Best Web and App Development Company in &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Wyoming, USA</h1>
-        <div id='line-graph' style={lineStyle}></div>
-        <p  className='top-para'style={isOpen ? null : paragraphStyles1}>
+        <div id='line-graph'  style={lineStyle}></div>
+        <p  className='top-para' style={isOpen ? null : paragraphStyles1}>
             Are you also looking for the best web and app development company in the USA? Then stop scrolling anymore. 
             Step Tech Global is the best web and mobile app development services provider, but there are more-in-one 
             solutions for all your digital needs. We’ve driven the rollercoaster of startups, so we understand the 
@@ -66,8 +70,8 @@ const Partner = () => {
             your expectations. We’ve already worked with thousands of businesses like yours in dimension and niche, so you
             can expect us to have an exhaustive understanding of your needs, industry regulations, and requirements. So 
             partner with us right now and give your business new heights with our expertise!! 
-            </p>
-        <button className={`graphbtn-read`} onClick={()=> setIsOpen(!isOpen)}>{isOpen ? 'read less': 'read more'}</button>
+        </p>
+        <button style={btnStyles} className={`graphbtn-read`} onClick={()=> setIsOpen(!isOpen)}>{isOpen ? 'read less': 'read more'}</button>
     </div>
   )
 }

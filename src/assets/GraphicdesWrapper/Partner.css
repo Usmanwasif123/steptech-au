@@ -3,15 +3,14 @@
     padding: 0;
 }
 
-.graph-section6{
+.graph-section7{
     height: 200vh;
     width: 98.7vw;
     position: relative;
-    background: #333;
-    margin-top: -10px; 
+    background: #F3F6FF;
 }
 
-.graph-section6 h1{
+.graph-section7 h1{
     color: #333;
     font-size: 40px;
     position: absolute;
@@ -28,14 +27,14 @@
     padding: 0px 150px 4px 50px;
 }
 
-.graph-section6 .top-para{
+.graph-section7 .top-para{
     color: #333;
     font-size: 20px;
     position: absolute;
     margin: 0px 80px 0px 70px;
     top: 20%;
 }
-.graph-section6 .middle-para{
+.graph-section7 .middle-para{
     color: #333;
     font-size: 20px;
     position: absolute;
@@ -49,7 +48,7 @@
     border-radius: 15px;
     border: none;
     left: 45%;
-    top: 90%;
+    top: 96%;
     color: #fff;
     font-size: 20px;
     font-family: Poppins, sans-serif;

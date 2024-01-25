@@ -166,7 +166,7 @@
     letter-spacing: -0.331px;
     text-transform: initial;
 }
-.heading1 .span1{
+.digicontact-carousel .heading1 .span1{
     color: #fff;
     margin-left: 32px;
     font-size: 18px;
@@ -176,6 +176,7 @@
     line-height: 20px; /* 131.492% */
     letter-spacing: -0.331px;
     margin-top: -70px;
+    text-transform: capitalize;
 }
 .digicontact-carousel .email-p1{
     color: #fff;
@@ -225,7 +226,7 @@
     line-height: 20px; /* 131.492% */
     letter-spacing: -0.331px
 }
-.heading2 .span2{
+.digicontact-carousel .heading2 .span2{
     color: #fff;
     margin-left: -195px;
     font-size: 18px;
@@ -235,6 +236,7 @@
     line-height: 20px; /* 131.492% */
     letter-spacing: -0.331px;
     margin-top: -70px;
+    text-transform: capitalize;
 }
 .digicontact-carousel .email-p2{
     color: #fff;
@@ -283,7 +285,7 @@
     line-height: 20px; /* 131.492% */
     letter-spacing: -0.331px
 }
-.heading3 .span3{
+.digicontact-carousel .heading3 .span3{
     color: #fff;
     margin-left: -380px;
     font-size: 18px;
@@ -293,6 +295,7 @@
     line-height: 20px; /* 131.492% */
     letter-spacing: -0.331px;
     margin-top: -70px;
+    text-transform: capitalize;
 }
 .digicontact-carousel .email-p3{
     color: #fff;

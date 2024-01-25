@@ -3,19 +3,15 @@
     padding: 0;
 }
 
-.nft-section6{
-    height: 100vh;
+.nft-section7{
+    height: 200vh;
     width: 98.7vw;
     position: relative;
-    background: #f3f6ff;
+    background: #f1f4ff;
     margin-top: -10px; 
 }
 
-.nft-section6.open {
-    max-height: 1000vh;
-}
-
-.nft-section6 h1{
+.nft-section7 h1{
     color: #333;
     font-size: 40px;
     position: absolute;
@@ -32,12 +28,19 @@
     padding: 0px 150px 4px 50px;
 }
 
-.nft-section6 p{
+.nft-section7 .top-para{
     color: #333;
     font-size: 20px;
     position: absolute;
     margin: 0px 80px 0px 70px;
-    top: 40%;
+    top: 22%;
+}
+.nft-section7 .middle-para{
+    color: #333;
+    font-size: 20px;
+    position: absolute;
+    margin: 0px 80px 0px 70px;
+    top: 42%;
 }
  
 .nft-read{
@@ -55,9 +58,5 @@
     text-transform: capitalize;
     padding: 8px;
     transition: margin-top 0.4s ease-in-out;
-}
-
-.nft-read.open {
-    margin-top: 760px;  
 }
 

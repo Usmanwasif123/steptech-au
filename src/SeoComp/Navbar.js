@@ -35,13 +35,14 @@ const Navbar = () => {
       <img src='https://i.ibb.co/Y8F8xfL/Rectangle-1.png' alt='Banner'></img>
       <div className='seo-banner-line'></div>
       <div className='seo-heading'>
-        <h1>Get The Top-Quality And Robust Ecommmerce Development Services<br/>
-        <p>Be ready to improve your digital presence and skyrocket your revenue with Ecommmerce Web Development 
-          services. Step Tech Global is a leading Ecommmerce Website Development company, offering the best 
-          all-inclusive and memorable Custom Ecommmerce Development services to indulge your business needs 
-          and ambitions. As a well-known service provider, Ecommmerce Development services guarantee high-grade
-          and competent website performance, offering an excellent user experience for all of our clients.
-        </p>
+        <h1>Make Your Website Spark With Our Best Quality SEO Service In Australia<br/>
+        <p>At Step Tech <b>SEO agency</b>, we offer our clients the best <b>search engine optimization</b> services,
+         allowing businesses to gain higher rankings, 100% organic traffic growth, and essential investment
+         returns. We offer affordable <b>SEO marketing</b> packages in Australia and assist companies in achieving
+         higher revenue. To drive traffic to your website, we blend on-page, off-page, Local SEO, and 
+         technical SEO Techniques to provoke more leads for your business growth. This enables us to give our
+         clients a great profit. 
+         </p>
         </h1>
       </div>
       <Link to='/read-more' className='seobtn1-start' data-aos="flip-right" data-aos-duration="500" data-aos-easing="ease-in-sine" data-aos-offset="0">get started</Link>

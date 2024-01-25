@@ -8,7 +8,7 @@
     width: 98.7vw;
     background: #fff;
     position: relative;
-    margin-top: -60px;
+
 }
 
 .contact-container img{
@@ -146,7 +146,7 @@
     color: #fff;
 }
 
-.contact-carousel{
+.ecomcontact-carousel{
     margin-top: -50px;
     margin-left: 220px;
     position: absolute;
@@ -154,7 +154,7 @@
     z-index: 2;
 }
 
-.contact-carousel .heading1{
+.ecomcontact-carousel .heading1{
     color: #fff;
     margin-left: 5px;
     font-size: 18px;
@@ -164,7 +164,7 @@
     line-height: 20px; /* 131.492% */
     letter-spacing: -0.331px
 }
-.heading1 span{
+.ecomcontact-carousel .heading1 .span1{
     color: #333;
     margin-left: 5px;
     font-size: 25px;
@@ -172,9 +172,9 @@
     font-style: normal;
     font-weight: 400;
     line-height: 20px; /* 131.492% */
-    letter-spacing: -0.331px
+    letter-spacing: -0.331px;
 }
-.contact-carousel .email-p1{
+.ecomcontact-carousel .email-p1{
     color: #fff;
     margin-left: 35px;
     margin-top: 67px;
@@ -186,7 +186,7 @@
     letter-spacing: -0.100px;
     text-transform: lowercase;
 }
-.contact-carousel .phone-p1{
+.ecomcontact-carousel .phone-p1{
     color: #fff;
     margin-left: 35px;
     margin-top: 140px;
@@ -198,7 +198,7 @@
     letter-spacing: -0.100px;
     text-transform: lowercase;
 }
-.contact-carousel .location-p1{
+.ecomcontact-carousel .location-p1{
     color: #fff;
     margin-left: 35px;
     margin-top: 210px;
@@ -211,7 +211,7 @@
     text-transform: capitalize;
 
 }
-.contact-carousel .heading2{
+.ecomcontact-carousel .heading2{
     color: #fff;
     margin-left: 5px;
     font-size: 18px;
@@ -221,7 +221,18 @@
     line-height: 20px; /* 131.492% */
     letter-spacing: -0.331px
 }
-.contact-carousel .email-p2{
+.ecomcontact-carousel .heading2 .span2{
+    color: #fff;
+    margin-left: 345px;
+    font-size: 18px;
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 20px; /* 131.492% */
+    letter-spacing: -0.331px;
+    margin-top: -70px;
+}
+.ecomcontact-carousel .email-p2{
     color: #fff;
     margin-left: 370px;
     margin-top: 67px;
@@ -233,7 +244,7 @@
     letter-spacing: -0.100px;
     text-transform: lowercase;
 }
-.contact-carousel .phone-p2{
+.ecomcontact-carousel .phone-p2{
     color: #fff;
     margin-left:370px;
     margin-top: 140px;
@@ -245,7 +256,7 @@
     letter-spacing: -0.100px;
     text-transform: lowercase;
 }
-.contact-carousel .location-p2{
+.ecomcontact-carousel .location-p2{
     color: #fff;
     margin-left: 370px;
     margin-top: 210px;
@@ -257,7 +268,7 @@
     letter-spacing: 2px;
     text-transform: capitalize;
 }
-.contact-carousel .heading3{
+.ecomcontact-carousel .heading3{
     color: #fff;
     margin-left: 5px;
     font-size: 18px;
@@ -267,7 +278,18 @@
     line-height: 20px; /* 131.492% */
     letter-spacing: -0.331px
 }
-.contact-carousel .email-p3{
+.ecomcontact-carousel .heading3 .span3{
+    color: #fff;
+    margin-left: 685px;
+    font-size: 18px;
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 20px; /* 131.492% */
+    letter-spacing: -0.331px;
+    margin-top: -70px;
+}
+.ecomcontact-carousel .email-p3{
     color: #fff;
     margin-left: 710px;
     margin-top: 67px;
@@ -279,7 +301,7 @@
     letter-spacing: -0.100px;
     text-transform: lowercase;
 }
-.contact-carousel .phone-p3{
+.ecomcontact-carousel .phone-p3{
     color: #fff;
     margin-left: 710px;
     margin-top: 140px;
@@ -291,7 +313,7 @@
     letter-spacing: -0.100px;
     text-transform: lowercase;
 }
-.contact-carousel .location-p3{
+.ecomcontact-carousel .location-p3{
     color: #fff;
     margin-left: 710px;
     margin-top: 210px;
@@ -303,32 +325,32 @@
     letter-spacing: 2px;
     text-transform: capitalize;
 }
-.contact-carousel .slick-slider div{
+.ecomcontact-carousel .slick-slider div{
     height: 350px;
 }
-.contact-carousel .slick-slider {
+.ecomcontact-carousel .slick-slider {
     width: 340px !important;
     margin-left: 700px;
 }
-.contact-carousel
+.ecomcontact-carousel
 .slick-dots li.slick-active button:before {
     color: #333 !important;
 }
 
-.contact-carousel .slick-dots li button:before {
+.ecomcontact-carousel .slick-dots li button:before {
     color: #fff;
     font-size: 0.6rem !important;
     top: 3rem !important;
     left: -1.5rem;
 }
 
-.contact-carousel .slick-prev { 
-    display: none;
-    background: transparent;
+.ecomcontact-carousel .slick-prev { 
+    margin-left: -20px;
+    margin-top: 50px;
 
 }
-.contact-carousel .slick-next{
-    display: none;
-    background: transparent;
+.ecomcontact-carousel .slick-next{
+    margin-right: 10px;
+    margin-top: 50px;
 
 }

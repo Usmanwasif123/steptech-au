@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-.software-section3{
+.ecom-section3{
     height: 40vh;
     width: 98.7vw;
     position: relative;
@@ -12,7 +12,7 @@
 }
 
 
-.software-section3 h1{
+.ecom-section3 h1{
     color: #fff;
     font-size: 45px;
     position: absolute;
@@ -20,7 +20,7 @@
     left: 7%;
 
 }
-.software-section3 p{
+.ecom-section3 p{
     position: absolute;
     z-index: 1;
     font-family: Poppins, sans-serif;

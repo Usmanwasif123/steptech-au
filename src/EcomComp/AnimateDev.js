@@ -5,7 +5,7 @@ import '../assets/EcomWrapper/AnimateDev.css';
 
 const AnimateDev = () => {
   return (
-    <div className='software-section3'>
+    <div className='ecom-section3'>
         <h1>The benefit of Step Tech for Ecommerce Development &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;

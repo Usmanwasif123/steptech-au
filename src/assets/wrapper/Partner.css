@@ -4,15 +4,11 @@
 }
 
 .partner-container{
-    height: 100vh;
+    height: 250vh;
     width: 98.7vw;
     position: relative;
-    background: #fff;
-    margin-top: -284px; 
-}
-
-.partner-container.open {
-    max-height: 500vh;
+    background: #F3F6FF;
+    margin-top: 0px; 
 }
 
 .partner-grid1{
@@ -92,12 +88,12 @@
     color: #333;
     font-size: 40px;
     position: absolute;
-    top: 50%;
+    top: 20%;
     margin: 0px 100px 0px 300px;
     padding: 0px 100px 0px 0px;
 }
 #line-partner{
-    top: 68%;
+    top:28%;
     left: 43.3%;
     position: absolute;
     border-radius: 2px 2px 2px 2px;
@@ -105,12 +101,19 @@
     padding: 0px 150px 4px 50px;
 }
 
-.partner-container p{
+.partner-container  .top-para{
     color: #333;
     font-size: 20px;
     position: absolute;
     margin: 0px 80px 0px 70px;
-    top: 70%;
+    top: 30%;
+}
+.partner-container  .middle-para{
+    color: #333;
+    font-size: 20px;
+    position: absolute;
+    margin: 0px 80px 0px 70px;
+    top: 47%;
 }
  
 .read-btn{
@@ -119,7 +122,7 @@
     border-radius: 15px;
     border: none;
     left: 45%;
-    top: 110%;
+    top: 90%;
     color: #fff;
     font-size: 20px;
     font-family: Poppins, sans-serif;
@@ -130,7 +133,4 @@
     transition: margin-top 0.4s ease-in-out;
 }
 
-.read-btn.open {
-    margin-top: 760px;  
-}
 

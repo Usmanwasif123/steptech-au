@@ -89,48 +89,7 @@ const Navbar = () => {
       </div>
       <div className='web-carousel'>
           <Slider {...setting}>
-            <div>
-              <img src='' alt='wordpress'/>
-            </div> 
-            <div>
-            <img src='' alt='elementor'/>
-            </div>
-            <div>
-            <img src='' alt='angular'/>
-            </div> 
-            <div>
-            <img src='' alt='wordpress'/>
-              </div>
-            <div>
-            <img src='' alt='wordpress'/>
-            </div> 
-            <div>
-            <img src='' alt='wordpress'/>
-            </div>
-            <div>
-            <img src='' alt='wordpress'/>
-            </div>
-            <div>
-            <img src='' alt='wordpress'/>
-            </div> 
-            <div>
-            <img src='' alt='wordpress'/>
-            </div>  
-            <div>
-            <img src='' alt='wordpress'/>
-            </div> 
-            <div>
-            <img src='' alt='wordpress'/>
-            </div> 
-            <div>
-            <img src='' alt='wordpress'/>
-            </div> 
-            <div>
-            <img src='' alt='wordpress'/>
-            </div> 
-            <div>
-            <img src='https://i.ibb.co/ZTmxgrT/image.png' alt='wordpress'/>
-            </div> 
+           
           </Slider>
       </div>
       <Link to='/read-more' className='webbtn-start'>get started</Link>

@@ -4,16 +4,13 @@
 }
 
 .block-section6{
-    height: 100vh;
+    height: 200vh;
     width: 98.7vw;
     position: relative;
     background: #fff;
     margin-top: -10px; 
 }
 
-.block-section6.open {
-    max-height: 1000vh;
-}
 
 .block-section6 h1{
     color: #333;
@@ -32,12 +29,19 @@
     padding: 0px 150px 4px 50px;
 }
 
-.block-section6 p{
+.block-section6 .top-para{
     color: #333;
     font-size: 20px;
     position: absolute;
     margin: 0px 80px 0px 70px;
-    top: 40%;
+    top: 22%;
+}
+.block-section6 .middle-para{
+    color: #333;
+    font-size: 20px;
+    position: absolute;
+    margin: 0px 80px 0px 70px;
+    top: 42%;
 }
  
 .blockbtn-read{
@@ -55,9 +59,5 @@
     text-transform: capitalize;
     padding: 8px;
     transition: margin-top 0.4s ease-in-out;
-}
-
-.blockbtn-read.open {
-    margin-top: 760px;  
 }
 

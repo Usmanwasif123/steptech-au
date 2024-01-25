@@ -8,7 +8,6 @@
     width: 98.7vw;
     background: #fff;
     position: relative;
-    margin-top: 0px;
 }
 
 .graphcontact-container img{
@@ -145,8 +144,15 @@
     border: 0.5px solid #808080;
     color: #fff;
 }
+.graphcontact-carousel{
+    margin-top: -50px;
+    margin-left: 220px;
+    position: absolute;
+    top: 30%;
+    z-index: 2;
+}
 
-.contact-carousel .heading1{
+.graphcontact-carousel .heading1{
     color: #fff;
     margin-left: 5px;
     margin-top: 40px;
@@ -158,7 +164,7 @@
     letter-spacing: -0.331px;
     text-transform: initial;
 }
-.heading1 .span1{
+.graphcontact-carousel .heading1 .span1{
     color: #fff;
     margin-left: 39px;
     font-size: 18px;
@@ -170,7 +176,7 @@
     margin-top: -70px;
     text-transform: capitalize;
 }
-.contact-carousel .email-p1{
+.graphcontact-carousel .email-p1{
     color: #fff;
     margin-left: 35px;
     margin-top: 67px;
@@ -182,7 +188,7 @@
     letter-spacing: -0.100px;
     text-transform: lowercase;
 }
-.contact-carousel .phone-p1{
+.graphcontact-carousel .phone-p1{
     color: #fff;
     margin-left: 35px;
     margin-top: 140px;
@@ -194,7 +200,7 @@
     letter-spacing: -0.100px;
     text-transform: lowercase;
 }
-.contact-carousel .location-p1{
+.graphcontact-carousel .location-p1{
     color: #fff;
     margin-left: 35px;
     margin-top: 210px;
@@ -207,7 +213,7 @@
     text-transform: capitalize;
 
 }
-.contact-carousel .heading2{
+.graphcontact-carousel .heading2{
     color: #fff;
     margin-left: 5px;
     margin-top: 40px;
@@ -230,7 +236,7 @@
     margin-top: -70px;
     text-transform: capitalize;
 }
-.contact-carousel .email-p2{
+.graphcontact-carousel .email-p2{
     color: #fff;
     margin-left: 370px;
     margin-top: 67px;
@@ -242,7 +248,7 @@
     letter-spacing: -0.100px;
     text-transform: lowercase;
 }
-.contact-carousel .phone-p2{
+.graphcontact-carousel .phone-p2{
     color: #fff;
     margin-left:370px;
     margin-top: 140px;
@@ -254,7 +260,7 @@
     letter-spacing: -0.100px;
     text-transform: lowercase;
 }
-.contact-carousel .location-p2{
+.graphcontact-carousel .location-p2{
     color: #fff;
     margin-left: 370px;
     margin-top: 210px;
@@ -266,7 +272,7 @@
     letter-spacing: 2px;
     text-transform: capitalize;
 }
-.contact-carousel .heading3{
+.graphcontact-carousel .heading3{
     color: #fff;
     margin-left: 5px;
     margin-top: 40px;
@@ -289,7 +295,7 @@
     margin-top: -70px;
     text-transform: capitalize;
 }
-.contact-carousel .email-p3{
+.graphcontact-carousel .email-p3{
     color: #fff;
     margin-left: 710px;
     margin-top: 67px;
@@ -301,7 +307,7 @@
     letter-spacing: -0.100px;
     text-transform: lowercase;
 }
-.contact-carousel .phone-p3{
+.graphcontact-carousel .phone-p3{
     color: #fff;
     margin-left: 710px;
     margin-top: 140px;
@@ -313,7 +319,7 @@
     letter-spacing: -0.100px;
     text-transform: lowercase;
 }
-.contact-carousel .location-p3{
+.graphcontact-carousel .location-p3{
     color: #fff;
     margin-left: 710px;
     margin-top: 210px;
@@ -325,31 +331,31 @@
     letter-spacing: 2px;
     text-transform: capitalize;
 }
-.contact-carousel .slick-slider div{
+.graphcontact-carousel .slick-slider div{
     height: 350px;
 }
-.contact-carousel .slick-slider {
+.graphcontact-carousel .slick-slider {
     width: 340px !important;
     margin-left: 700px;
 }
-.contact-carousel
+.graphcontact-carousel
 .slick-dots li.slick-active button:before {
     color: #333 !important;
 }
 
-.contact-carousel .slick-dots li button:before {
+.graphcontact-carousel .slick-dots li button:before {
     color: #fff;
     font-size: 0.6rem !important;
     top: 3rem !important;
     left: -1.5rem;
 }
 
-.contact-carousel .slick-prev { 
+.graphcontact-carousel .slick-prev { 
     display: none;
     background: transparent;
 
 }
-.contact-carousel .slick-next{
+.graphcontact-carousel .slick-next{
     display: none;
     background: transparent;
 
