@@ -8,23 +8,21 @@ const BlockAppDev = () => {
     <div className='digi-section4'>
       <ArrowForwardIcon style={{position:'absolute', zIndex:'1', color:'#243F82', fontSize: '30px', 
       fontWeight: '200', top: '15%', left: '50%'}}/>
-      <span className='span1'>Our team of professional developers uses simple and clean coding techniques to 
-      guarantee your website runs flawlessly and effectively</span>
+      <span className='span1'>With eye-catching graphics while interacting with animations, we are dedicated to helping you stick out from the
+       competitors.</span>
       <ArrowForwardIcon style={{position:'absolute', zIndex:'1', color:'#243F82', fontSize: '30px', 
       fontWeight: '200', top: '34%', left: '50%'}}/>
-      <span className='span2'>We offer our clients dependable Ecommerce development services and 24/7 support. 
-      By revolutionizing your brand, we build Ecommerce that meets your needs.</span>
+      <span className='span2'>Our experts offer clients dependable insight data that is reliable and fact-checked.</span>
       <ArrowForwardIcon style={{position:'absolute', zIndex:'1', color:'#243F82', fontSize: '30px', 
       fontWeight: '200', top: '53%', left: '50%'}}/>
-      <span className='span3'>Our crew Ecommerce specialist collaborates closely with you to understand your 
-      business vision and build your plan according to your needs.</span>
+      <span className='span3'>We offer custom optimization services to increase user traffic, which raises conversion rates and produces more
+       organic leads.</span>
       <ArrowForwardIcon style={{position:'absolute', zIndex:'1', color:'#243F82', fontSize: '30px', 
       fontWeight: '200', top: '70%', left: '50%'}}/>
-      <span className='span4'>We don’t just keep to the basic trends. Our team always comes up with creative minds
-       and innovative ideas to make your Ecommerce website stand out.</span>
+      <span className='span4'>Our complete suite of <b>digital marketing services</b> applies to all aspects of your online presence.</span>
       <ArrowForwardIcon style={{position:'absolute', zIndex:'1', color:'#243F82', fontSize: '30px', 
       fontWeight: '200', top: '90%', left: '50%'}}/>
-      <span className='span5'>We emphasize speed and protection in all our Ecommerce web development projects.
+      <span className='span5'>We have a highly skilled <b>digital marketing specialist</b> crew comprising some of the best talents in the industry.
       </span>
       <div className='digi-img4' data-aos="slide-right" data-aos-duration="600" data-aos-easing="ease-in-sine" data-aos-offset="0"></div>
     </div>

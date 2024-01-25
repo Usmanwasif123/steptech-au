@@ -4,7 +4,7 @@
 }
 
 .port-section2{
-    height: 120vh;
+    height: 800vh;
     width: 98.7vw;
     background: #ebefff;
     position: relative;
@@ -25,9 +25,9 @@
     font-weight: 700;
     line-height: 60px; 
     letter-spacing: -1px;
-    top: 30%;
-    left: 63%;
-    padding: 30px 5px 0px 0px;
+    top: 3%;
+    left: 81%;
+    padding: 0px 5px 0px 0px;
     color: #333;
     text-transform: capitalize;
 }
@@ -83,8 +83,9 @@
     height: 500px;
     border-radius: 5px;
     width: 700px !important;
-    margin-top: 100px !important;
     background: #fff;
+    margin-top: 30px;
+
 }
 .port-section2 .port-card1 .img1{
     height: 500px;
@@ -96,8 +97,8 @@
     height: 500px;
     border-radius: 5px;
     width: 700px !important;
-    margin-top: 100px !important;
     background: #fff;
+    margin-top: 30px;
 }
 
 .port-section2 .port-card2 .img2{
@@ -111,8 +112,8 @@
     height: 500px;
     border-radius: 5px;
     width: 700px !important;
-    margin-top: 100px !important;
     background: #fff;
+    margin-top: 30px;
 }
 
 .port-section2 .port-card3 .img3{
@@ -122,41 +123,191 @@
 
 }
 
-.port-section2 .port-carousel .slick-slider {
+.port1-carousel{
+    margin-top: 0px;
+}
+
+
+.port-section2 .port1-carousel .slick-slider {
     width: 700px;
     height: 500px;
     margin-left: 50px;
 }
 
-.port-section2 .port-carousel .slick-slide div{
+.port-section2 .port1-carousel .slick-slide div{
     width: 300px;
 }
 
-.port-section2 .port-carousel .slick-dots li.slick-active button:before {
+.port-section2 .port1-carousel .slick-dots li.slick-active button:before {
     color: #333 !important;
     
 }
-.port-section2 .port-carousel .slick-dots li button:before {
+.port-section2 .port1-carousel .slick-dots li button:before {
     color: #c2c4cc;
     font-size: 0.5rem !important;
     top: 8rem !important;
 }
 
-.port-section2 .port-carousel .slick-initialized .slick-slide {
+.port-section2 .port1-carousel .slick-initialized .slick-slide {
     display: flex;
 }
 
-.port-section2 .port-carousel .slick-prev {
+.port-section2 .port1-carousel .slick-prev {
     left: 0px;
     margin-left: -30px;
     background: transparent;
     border-radius: 10px;
 }
-.port-section2 .port-carousel .slick-next{
+.port-section2 .port1-carousel .slick-next{
     right: -30px;
     background: transparent;
     border-radius: 10px 10px 10px 10px;
 }
+
+.port-left-h{
+    position: absolute;
+    z-index: 1;
+    font-family: Poppins, sans-serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; 
+    letter-spacing: -1px;
+    top: 30%;
+    left: 5%;
+    padding: 30px 5px 0px 0px;
+    color: #333;
+    text-transform: capitalize;
+}
+
+.port-section3 .h1{
+    position: absolute;
+    z-index: 1;
+    font-family: Poppins, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; 
+    letter-spacing: -1px;
+    top: 39%;
+    left: 7%;
+    padding: 30px 5px 0px 0px;
+    color: #333;
+    text-transform: capitalize;
+}
+.port-section3 .h2{
+    position: absolute;
+    z-index: 1;
+    font-family: Poppins, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; 
+    letter-spacing: -1px;
+    top: 44%;
+    left: 7%;
+    padding: 30px 5px 0px 0px;
+    color: #333;
+    text-transform: capitalize;
+}
+.port-section3 .h3{
+    position: absolute;
+    z-index: 1;
+    font-family: Poppins, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; 
+    letter-spacing: -1px;
+    top: 49%;
+    left: 7%;
+    padding: 30px 5px 0px 0px;
+    color: #333;
+    text-transform: capitalize;
+}
+
+.port-section3 .port-card4{
+    height: 600px;
+    border-radius: 5px;
+    width: 700px !important;
+    background: #fff;
+    position: absolute;
+
+    
+}
+.port-section3 .port-card4 .img4{
+    height: 500px;
+    width: 700px;
+    border-radius: 5px; 
+}
+
+.port-section3 .port-card5{
+    height: 500px;
+    border-radius: 5px;
+    width: 700px !important;
+    background: #fff;
+}
+
+.port-section3 .port-card5 .img5{
+    height: 500px;
+    width: 700px;
+    border-radius: 5px; 
+
+}
+
+.port-section3 .port-card6{
+    height: 500px;
+    border-radius: 5px;
+    width: 700px !important;
+    background: #fff;
+}
+
+.port-section3 .port-card6 .img6{
+    height: 500px;
+    width: 700px;
+    border-radius: 5px; 
+
+}
+.port2-carousel{
+    margin-top: 200px;
+}
+
+.port-section3 .port2-carousel .slick-slider {
+    width: 700px;
+    height: 500px;
+    margin-left: 600px;
+}
+
+.port-section3 .port2-carousel .slick-slide div{
+    width: 300px;
+}
+
+.port-section3 .port2-carousel .slick-dots li.slick-active button:before {
+    color: #333 !important;
+    
+}
+.port-section3 .port2-carousel .slick-dots li button:before {
+    color: #c2c4cc;
+    font-size: 0.5rem !important;
+    top: 8rem !important;
+}
+
+.port-section3 .port2-carousel .slick-initialized .slick-slide {
+    display: flex;
+}
+
+.port-section3 .port2-carousel .slick-prev {
+    left: 0px;
+    margin-left: -30px;
+    background: transparent;
+    border-radius: 10px;
+}
+.port-section3 .port2-carousel .slick-next{
+    right: -30px;
+    background: transparent;
+    border-radius: 10px 10px 10px 10px;
+}
+
 
 @media only screen and (max-width: 1024px) {
     .right-vision{

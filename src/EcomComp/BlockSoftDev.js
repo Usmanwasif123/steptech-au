@@ -5,12 +5,12 @@ import '../assets/EcomWrapper/BlockSoftDev.css';
 const BlockSoftDev = () => {
   return (
     <div className='ecom-section2'>
-      <h1>Our Expert Ecommerce Website Developer</h1>
-      <p>We are a Software Development Firm at Step Tech Global. We offer our clients custom solutions tailored 
-        to their needs. The singular requirements may result from project type and product lifecycle stage, 
-        industry regulations, or particular market challenges a business has faced. Our Software Application 
-        company is a master in providing a solution that is efficient and powerful while also being user-friendly
-        and visceral.
+      <h1>Hire Our Ecommerce Website Developer in Australia</h1>
+      <p>With the commitment to offering leading-edge ecommerce website solutions, Step Tech blends technical expertise 
+        with creative flair to create an aesthetically beautiful and highly functional website. Our team of experienced 
+        Shopify website developers uses the latest technologies to ensure that every project satisfies and is beyond our
+         clients' expectations. They create visually stunning websites and offer Shopify website development, WordPress,
+          Shopify, ecommerce, and woo-commerce. 
       </p>
       <div className='ecom-img2' data-aos="slide-right" data-aos-duration="600" data-aos-easing="ease-in-sine" data-aos-offset="0"></div>
     </div>

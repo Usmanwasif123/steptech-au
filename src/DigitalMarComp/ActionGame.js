@@ -105,53 +105,62 @@ const ActionGame = () => {
   };
   return (
     <div className='digi-section6'>
-      <h1 className='main-heading'>Why Choose Our Ecommerce Development Services</h1>
-      <p className='main-p'>Searching for the best ecommerce developers agency in the AU for an appealing and 
-      functioning ecommerce website? Step Tech is here to offer you ecommerce development services. 
-      Let’s explore some reasons why you choose us.
+      <h1 className='main-heading'>Step Tech Digital Marketing Services</h1>
+      <p className='main-p'>We are dedicated to helping our clients achieve their company purposes and flourish online 
+      thanks to our experienced team of <b>digital marketing specialists</b>, creative tactics, and comprehensive understanding
+       of the digital environment. The <b>Digital Marketing Services</b> we offer our clients are the following.
       </p>
       <ArrowRightIcon style={{...arrowStyle1, top: '11%'}} onClick={toggleParagraphVisibility1}/>
       <ArrowRightIcon style={{...arrowStyle2, top: '26%'}} onClick={toggleParagraphVisibility2} />
       <ArrowRightIcon style={{...arrowStyle3, top: '41%'}} onClick={toggleParagraphVisibility3}/>
       <ArrowRightIcon style={{...arrowStyle4, top: '56%'}} onClick={toggleParagraphVisibility4}/>
       <ArrowRightIcon style={{...arrowStyle5, top: '71%'}} onClick={toggleParagraphVisibility5}/>
-      <h1 className='h1' onClick={toggleParagraphVisibility1} >Better Performance</h1>
+      <h1 className='h1' onClick={toggleParagraphVisibility1} >Search Engine Optimization</h1>
       <div style={containerStyle1}>
         {isParagraphVisible1 && (
           <p className='p1'>
-            Your paragraph content goes here.
+            As a trusted digital marketing agency,  our specialists will continue leading the search business with 
+            tenacity and enthusiasm. Use the most powerful global SEO to drive more visitors than ever. 
           </p>
         )}
       </div>
-      <h1 className='h2' onClick={toggleParagraphVisibility2} >Minimal Maintenance</h1>
+      <h1 className='h2' onClick={toggleParagraphVisibility2} >PPC</h1>
       <div style={containerStyle2}>
         {isParagraphVisible2 && (
           <p className='p2'>
-            Your paragraph content goes here.
+            As the best PPC agency in Australia, We explore multiple strategies that are appropriate for your business, 
+            fit inside your budget, and provide your campaign the boost it needs. We want your campaigns to be extremely 
+            prominent on Google. 
+
           </p>
         )}
       </div>
-      <h1 className='h3' onClick={toggleParagraphVisibility3}>Streamlined And Efficient Websites</h1>
+      <h1 className='h3' onClick={toggleParagraphVisibility3}>Social Media Marketing</h1>
       <div style={containerStyle3}>
         {isParagraphVisible3 && (
           <p className='p3'>
-            Your paragraph content goes here.
+            Being a top social media firm, we know how to turn rave reviews into sales for your business. We take 
+            precautions in creating broad strategies that do more than just create impressions through strong ads and 
+            active campaigns.
           </p>
         )}
       </div>
-      <h1 className='h4' onClick={toggleParagraphVisibility4} >Proven Record</h1>
+      <h1 className='h4' onClick={toggleParagraphVisibility4}>Content Strategy </h1>
       <div style={containerStyle4}>
         {isParagraphVisible4 && (
           <p className='p4'>
-            Your paragraph content goes here.
+            At Step Tech, we're so assured in our content strategy that we offer a guarantee. Our expertise allows us to 
+            generate traction on worldwide direct advertising systems, like social media networks, blogging platforms, 
+            landing sites, your website content, and more.
           </p>
         )}
       </div>
-      <h1 className='h5' onClick={toggleParagraphVisibility5}>Seamless Upgrades With Reliable Security</h1>
+      <h1 className='h5' onClick={toggleParagraphVisibility5}>Website</h1>
       <div style={containerStyle5}>
         {isParagraphVisible5 && (
           <p className='p5'>
-            Your paragraph content goes here.
+           As a digital marketing website agency, Step Tech develops tailored, mobile-ready, and search engine-optimized 
+           websites that assist you in meeting your business goals and supporting your digital marketing campaigns.
           </p>
         )}
       </div>

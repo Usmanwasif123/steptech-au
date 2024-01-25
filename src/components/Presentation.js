@@ -158,7 +158,7 @@ const handleButtonClick = (category) => {
         <Item className='present-item1'>
             <img src={content.items[0].imageSrc} alt='web-mockup'/>
             <h1>{content.items[0].heading}</h1>
-           <Link to='/portfolio' className='present-btn'>Click Here</Link>
+            <Link to='/portfolio'><button className='present-btn'>Click Here</button></Link>
         </Item>
         </Grid>
     ))}

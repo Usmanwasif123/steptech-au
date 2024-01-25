@@ -35,12 +35,12 @@ const Navbar = () => {
       <img src='https://i.ibb.co/Y8F8xfL/Rectangle-1.png' alt='Banner'></img>
       <div className='seo-banner-line'></div>
       <div className='seo-heading'>
-        <h1>Get The Top-Quality And Robust Ecommmerce Development Services<br/>
-        <p>Be ready to improve your digital presence and skyrocket your revenue with Ecommmerce Web Development 
-          services. Step Tech Global is a leading Ecommmerce Website Development company, offering the best 
-          all-inclusive and memorable Custom Ecommmerce Development services to indulge your business needs 
-          and ambitions. As a well-known service provider, Ecommmerce Development services guarantee high-grade
-          and competent website performance, offering an excellent user experience for all of our clients.
+        <h1>Get Ready to Accelerate Business Success With Our Digital Marketing Services<br/>
+        <p>We’re Australia’s well-known <b>Digital marketing agency</b>. We offer you an all-inclusive cohesive marketing 
+          solution to enhance your business. Whether that’s leads or product sales, boost your brand share in the 
+          marketplace. To thrive in the market, our strategy for <b>digital marketing</b> involves laying a strong foundation
+           in advertising concepts and experimenting with quick campaign deployment and flexible content creation. So 
+           be ready to revolutionize your digital journey with us!!
         </p>
         </h1>
       </div>
