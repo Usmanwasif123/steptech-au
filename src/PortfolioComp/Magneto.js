@@ -55,11 +55,20 @@ const Magneto = () => {
       });
   return (
     <div className='port-section2'>
-      <img className='bg-img' src='https://i.ibb.co/WctJPtB/World.png' alt='bg'></img>
-      <h1 className='port-right-h'>Alo</h1>
-      <ArrowRightIcon style={{position: 'absolute', zIndex: '1', top: '45%', left: '62%', fontSize: '30px'}}/>
-      <ArrowRightIcon style={{position: 'absolute', zIndex: '1', top: '50%', left: '62%', fontSize: '30px'}}/>
-      <ArrowRightIcon style={{position: 'absolute', zIndex: '1', top: '55%', left: '62%', fontSize: '30px'}}/>
+      <button className='webmag-btn' >
+        Web Developement
+      </button>
+      <button className='appmag-btn' >
+        App Developement
+      </button>
+      <button className='gamemagneto-btn' >
+        Game Developement
+      </button>
+      <img className='bg-img1' src='https://i.ibb.co/WctJPtB/World.png' alt='bg'></img>
+      <h1 className='port-right-h1'>Alo</h1>
+      <ArrowRightIcon style={{position: 'absolute', zIndex: '1', top: '9%', left: '68%', fontSize: '30px'}}/>
+      <ArrowRightIcon style={{position: 'absolute', zIndex: '1', top: '10%', left: '68%', fontSize: '30px'}}/>
+      <ArrowRightIcon style={{position: 'absolute', zIndex: '1', top: '11%', left: '68%', fontSize: '30px'}}/>
       <h1 className='h1'>Overview</h1>
       <h1 className='h2'>Features</h1>
       <h1 className='h3'>Technologies</h1>
@@ -76,11 +85,12 @@ const Magneto = () => {
             </div> 
           </Slider>
           </div>
-      <div className='port-section3'>
-      <h1 className='port-left-h'>Music Web Store</h1>
-      <ArrowRightIcon style={{position: 'absolute', zIndex: '1', top: '45%', left: '4%', fontSize: '30px'}}/>
-      <ArrowRightIcon style={{position: 'absolute', zIndex: '1', top: '50%', left: '4%', fontSize: '30px'}}/>
-      <ArrowRightIcon style={{position: 'absolute', zIndex: '1', top: '55%', left: '4%', fontSize: '30px'}}/>
+          <div className='port-section3'>
+          <img className='bg-img' src='https://i.ibb.co/WctJPtB/World.png' alt='bg'></img>
+            <h1 className='port-left-h2'>Music Web Store</h1>
+      <ArrowRightIcon style={{position: 'absolute', zIndex: '1', top: '24%', left: '5%', fontSize: '30px'}}/>
+      <ArrowRightIcon style={{position: 'absolute', zIndex: '1', top: '25%', left: '5%', fontSize: '30px'}}/>
+      <ArrowRightIcon style={{position: 'absolute', zIndex: '1', top: '26%', left: '5%', fontSize: '30px'}}/>
       <h1 className='h1'>Overview</h1>
       <h1 className='h2'>Features</h1>
       <h1 className='h3'>Technologies</h1>
@@ -97,9 +107,101 @@ const Magneto = () => {
             </div> 
           </Slider>
           </div>
+          <div className='port-section4'>
+      <img className='bg-img' src='https://i.ibb.co/WctJPtB/World.png' alt='bg'></img>
+      <h1 className='port-right-h3'>Motor Mods -AutoParts</h1>
+      <ArrowRightIcon style={{position: 'absolute', zIndex: '1', top: '44%', left: '62%', fontSize: '30px'}}/>
+      <ArrowRightIcon style={{position: 'absolute', zIndex: '1', top: '43%', left: '62%', fontSize: '30px'}}/>
+      <ArrowRightIcon style={{position: 'absolute', zIndex: '1', top: '45%', left: '62%', fontSize: '30px'}}/>
+      <h1 className='h1'>Overview</h1>
+      <h1 className='h2'>Features</h1>
+      <h1 className='h3'>Technologies</h1>
+      <div className='port3-carousel'>
+          <Slider {...setting}>
+            <div className='port-card1'>
+                <img className='img1' src='https://i.ibb.co/Kq5SBMw/image.png' alt='ai'/>
+            </div> 
+            <div className='port-card2'> 
+                <img className='img2' src='https://i.ibb.co/Ycz3TNP/image.png' alt='ai'/>
+            </div>
+            <div className='port-card3'>
+                <img className='img3' src='https://i.ibb.co/L0L3kjg/image.png' alt='ai'/>
+            </div> 
+          </Slider>
           </div>
-    </div>
-  )
+          <div className='port-section5'>
+      <img className='bg-img' src='https://i.ibb.co/WctJPtB/World.png' alt='bg'></img>
+      <h1 className='port-left-h4'>Study Web Store</h1>
+      <ArrowRightIcon style={{position: 'absolute', zIndex: '1', top: '61%', left: '5%', fontSize: '30px'}}/>
+      <ArrowRightIcon style={{position: 'absolute', zIndex: '1', top: '62%', left: '5%', fontSize: '30px'}}/>
+      <ArrowRightIcon style={{position: 'absolute', zIndex: '1', top: '63%', left: '5%', fontSize: '30px'}}/>
+      <h1 className='h1'>Overview</h1>
+      <h1 className='h2'>Features</h1>
+      <h1 className='h3'>Technologies</h1>
+      <div className='port4-carousel'>
+          <Slider {...setting}>
+            <div className='port-card1'>
+                <img className='img1' src='https://i.ibb.co/Ss0t33V/image.png' alt='ai'/>
+            </div> 
+            <div className='port-card2'> 
+                <img className='img2' src='https://i.ibb.co/m9H4LMm/image.png' alt='ai'/>
+            </div>
+            <div className='port-card3'>
+                <img className='img3' src='https://i.ibb.co/J5LyWLk/image.png' alt='ai'/>
+            </div> 
+          </Slider>
+          </div>
+          <div className='port-section6'>
+      <img className='bg-img' src='https://i.ibb.co/WctJPtB/World.png' alt='bg'></img>
+      <h1 className='port-right-h5'>Sweat - Fitness</h1>
+      <ArrowRightIcon style={{position: 'absolute', zIndex: '1', top: '78%', left: '63%', fontSize: '30px'}}/>
+      <ArrowRightIcon style={{position: 'absolute', zIndex: '1', top: '79%', left: '63%', fontSize: '30px'}}/>
+      <ArrowRightIcon style={{position: 'absolute', zIndex: '1', top: '80%', left: '63%', fontSize: '30px'}}/>
+      <h1 className='h1'>Overview</h1>
+      <h1 className='h2'>Features</h1>
+      <h1 className='h3'>Technologies</h1>
+      <div className='port5-carousel'>
+          <Slider {...setting}>
+            <div className='port-card1'>
+                <img className='img1' src='https://i.ibb.co/Th7M3gw/image.png' alt='ai'/>
+            </div> 
+            <div className='port-card2'> 
+                <img className='img2' src='https://i.ibb.co/pLsk32q/image.png' alt='ai'/>
+            </div>
+            <div className='port-card3'>
+                <img className='img3' src='https://i.ibb.co/CJBKXPc/image.png' alt='ai'/>
+            </div> 
+          </Slider>
+          </div>
+          <div className='port-section7'>
+      <img className='bg-img' src='https://i.ibb.co/WctJPtB/World.png' alt='bg'></img>
+      <h1 className='port-left-h6'>Tourism Web Store</h1>
+      <ArrowRightIcon style={{position: 'absolute', zIndex: '1', top: '92%', left: '5%', fontSize: '30px'}}/>
+      <ArrowRightIcon style={{position: 'absolute', zIndex: '1', top: '93%', left: '5%', fontSize: '30px'}}/>
+      <ArrowRightIcon style={{position: 'absolute', zIndex: '1', top: '94%', left: '5%', fontSize: '30px'}}/>
+      <h1 className='h1'>Overview</h1>
+      <h1 className='h2'>Features</h1>
+      <h1 className='h3'>Technologies</h1>
+      <div className='port6-carousel'>
+          <Slider {...setting}>
+            <div className='port-card1'>
+                <img className='img1' src='https://i.ibb.co/xLQGczF/image.png' alt='ai'/>
+            </div> 
+            <div className='port-card2'> 
+                <img className='img2' src='https://i.ibb.co/wgnYbXP/image.png' alt='ai'/>
+            </div>
+            <div className='port-card3'>
+                <img className='img3' src='https://i.ibb.co/68yPsrt/image.png' alt='ai'/>
+            </div> 
+          </Slider>
+          </div>
+       </div>
+        </div>
+        </div>
+        </div>
+        </div>
+      </div>
+     )
 }
 
 export default Magneto

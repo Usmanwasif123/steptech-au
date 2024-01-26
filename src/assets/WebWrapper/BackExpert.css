@@ -44,18 +44,23 @@
     justify-content: center;
     text-transform:uppercase;
     text-decoration: none;
-    font-size: 20px;
-    font-weight: 500;
-    padding: 20px 25px 20px 25px;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 20px 30px 20px 30px;
     position: absolute;
-    border-radius: 20px;
+    border-radius: 10px;
     cursor: pointer;
     color: #333;
     z-index: 1;
-    outline: 1px solid #333;
+    border: none;
     background: transparent;
     top: 55%;
     left: 15%;
+}
+.php-btn:focus{
+    background: #5749A9;
+    border: #5749A9;
+    color: #fff;
 }
 
 .web-section9 .nodejs-btn{
@@ -64,18 +69,23 @@
     justify-content: center;
     text-transform:uppercase;
     text-decoration: none;
-    font-size: 20px;
-    font-weight: 500;
-    padding: 20px 25px 20px 25px;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 20px 30px 20px 30px;
     position: absolute;
-    border-radius: 20px;
+    border-radius: 10px;
     cursor: pointer;
     color: #333;
     z-index: 1;
-    outline: 1px solid #333;
+    border: none;
     background: transparent;
     top: 55%;
     left: 25%;
+}
+.nodejs-btn:focus{
+    background: #5749A9;
+    border: #5749A9;
+    color: #fff;
 }
 .web-section9 .laravel-btn{
     display: flex;
@@ -83,18 +93,23 @@
     justify-content: center;
     text-transform:uppercase;
     text-decoration: none;
-    font-size: 20px;
-    font-weight: 500;
-    padding: 20px 40px 20px 40px;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 20px 30px 20px 30px;
     position: absolute;
-    border-radius: 20px;
+    border-radius: 10px;
     cursor: pointer;
     color: #333;
     z-index: 1;
-    outline: 1px solid #333;
+    border: none;
     background: transparent;
     top: 55%;
     left: 40%;
+}
+.laravel-btn:focus{
+    background: #5749A9;
+    border: #5749A9;
+    color: #fff;
 }
 .web-section9 .chashtag-btn{
     display: flex;
@@ -102,18 +117,23 @@
     justify-content: center;
     text-transform:uppercase;
     text-decoration: none;
-    font-size: 20px;
-    font-weight: 500;
+    font-size: 14px;
+    font-weight: 600;
     padding: 20px 40px 20px 40px;
     position: absolute;
-    border-radius: 20px;
+    border-radius: 10px;
     cursor: pointer;
     color: #333;
     z-index: 1;
-    outline: 1px solid #333;
+    border: none;
     background: transparent;
     top: 55%;
     left: 55%;
+}
+.chashtag-btn:focus{
+    background: #5749A9;
+    border: #5749A9;
+    color: #fff;
 }
 .web-section9 .net-btn{
     display: flex;
@@ -121,40 +141,52 @@
     justify-content: center;
     text-transform:uppercase;
     text-decoration: none;
-    font-size: 20px;
-    font-weight: 500;
-    padding: 20px 50px 20px 50px;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 20px 40px 20px 40px;
     position: absolute;
-    border-radius: 20px;
+    border-radius: 10px;
     cursor: pointer;
     color: #333;
     z-index: 1;
-    outline: 1px solid #333;
+    border: none;
     background: transparent;
     top: 55%;
     left: 65%;
 }
+
+.net-btn:focus{
+    background: #5749A9;
+    border: #5749A9;
+    color: #fff;
+}
+
 .web-section9 .expressjs-btn{
     display: flex;
     align-items: center;
     justify-content: center;
     text-transform:uppercase;
     text-decoration: none;
-    font-size: 20px;
-    font-weight: 500;
-    padding: 20px 50px 20px 50px;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 20px 20px 20px 20px;
     position: absolute;
-    border-radius: 20px;
+    border-radius: 10px;
     cursor: pointer;
     color: #333;
     z-index: 1;
-    outline: 1px solid #333;
+    border: none;
     background: transparent;
     top: 55%;
     left: 78%;
 }
+.expressjs-btn:focus{
+    background: #5749A9;
+    border: #5749A9;
+    color: #fff;
+}
 
-.web-section9 .php-p{
+.web-section9 .para{
     position: absolute;
     z-index: 1;
     font-family: Poppins, sans-serif;

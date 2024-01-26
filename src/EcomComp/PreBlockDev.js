@@ -5,65 +5,50 @@ import '../assets/EcomWrapper/PreBlockDev.css';
 const PreBlockDev = () => {
   return (
     <div className='ecom-section5'>
-      <h1 className='main-heading'>Step Tech Ecommerce Development Services​</h1>
-      <p className='main-p'>Step Tech Australia delivers a perfectly custom WordPress development solution using 
-      advanced trends for WordPress Development. These following service we offer</p>
-      <div className='ecomp-img'></div>
-      <h1 className='h1'>Discover 
+       <h1 className='main-heading'>Step Tech Ecommerce Development Services​</h1>
+      <p className='main-p'>Step tech delivery a perfectly custom Ecommerce development solution using advanced trends for Ecommerce 
+      Development these are the &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;following service we offer </p>
+      <div className='uid-img'></div>
+      <h1 className='h1'>Discover </h1>
+      <p className='p1'>We carefully research the information and data &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; you 
+      provide, structure it, and define the &nbsp; technology to achieve your  business objective. We also research the market of competitors
+       and target audiences to offer our clients fully satisfied  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;results. 
 
-      </h1>
-      <p className='p1'>At Step Tech, we are here to level up your website's &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      &nbsp;&nbsp;&nbsp;game with our Ecommerce plugin development services. Our ecommerce experts build 
-      user-friendly &nbsp;&nbsp;&nbsp;plugins for the back-end, front-end, or third-party components. Our team of 
-      experts develops solutions &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      &nbsp;&nbsp;&nbsp;&nbsp;according to the needs of clients.
       </p>
-      <div className='ecomt-img'></div>
+      <div className='mog-img'></div>
       <h1 className='h2'>Planning/ Conceptualization 
+      </h1>
+      <p className='p2'>We decide which strategy is appropriate for your &nbsp;business and select the software stack to utilize,
+       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;like the language, frameworks, and content management system. Also, create initial mock-ups,
+        &nbsp;&nbsp;a sitemap, and an overview of the item's usability.
+      </p>
+      <div className='gmd-img'></div>
+      <h1 className='h3'>Development <br/> and Launch
+      </h1>
+      <p className='p3'>We then go on to the coding process. Many functions are created, the software has been
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;built, and the code has been
+       tested. After testing and approval, the store gets uploaded &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;to a server. Customers may now make 
+       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;purchases from you online. 
+      </p>
+      <div className='pat-img'></div>
+      <h1 className='h4'>Illustration
+      </h1>
+      <p className='p4'>NLP lets computers effectively process extensive amounts of natural human language. Whether through voice or text, NLP 
+      specialists help your company better use language data, from  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;processing to persuasion analysis.
+      </p>
+      <div className='ill-img'></div>
+      <h1 className='h5'>Delivery 
+      </h1>
+      <p className='p5'>The project's delivery is not the end. Afterward, we do maintenance &nbsp;&nbsp;and updates to see whether end users 
+      have any problems.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; We analyze overall 
+      performance and make adjustments that are &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;needed. It's time to adjust and maximize your online store.
 
-      </h1>
-      <p className='p2'>Our crew of Ecommerce professionals is highly skillful in creating exalted Ecommerce 
-      Development Themes. Our ecommerce website designer integrates several theme features that are stunning 
-      and eye-catching, so &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      you have an appealing website.
-      </p>
-      <div className='ecoms-img'></div>
-      <h1 className='h3'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Development and Launch
-
-      </h1>
-      <p className='p3'>Ready to get your e-commerce store done by &nbsp;&nbsp;&nbsp;an expert ecommerce website 
-      developer? &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;We are here to assist you in building a 
-      &nbsp;&nbsp;&nbsp;vigorous and straightforward eCommerce &nbsp;&nbsp;&nbsp;store using Ecommerce, with 
-       features like &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;payment gateway integration, inventory &nbsp;&nbsp;&nbsp;
-       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-       &nbsp;&nbsp;&nbsp;&nbsp;management, and more.
-      </p>
-      <div className='ecomm-img'></div>
-      <h1 className='h4'>Delivery 
-
-      </h1>
-      <p className='p4'>Our services help you transfer your website from another &nbsp;&nbsp;&nbsp;platform to 
-      Ecommerce. We aim to offer you the finest &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ecommerce migration services,
-      ensuring error-free &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;transactions with little to no downtime or 
-      data loss.
-      </p>
-      <div className='ecomc-img'></div>
-      <h1 className='h5'>&nbsp;&nbsp;Custom Ecommerce Development Services
-      </h1>
-      <p className='p5'>At Step Tech Global, our team of experts can build a &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      custom Ecommerce solution according to our  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;customer's requirements.
-       We understand how important your website is to be built according to your business needs. That’s why we 
-       offer the best custom &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-       Ecommerce Development Services.
-      </p>
-      <div className='ecomi-img'></div>
-      <h1 className='h6'>Ecommerce Integrations
-      </h1>
-      <p className='p6'>&nbsp;&nbsp;&nbsp;&nbsp;We are here to integrate your website by &nbsp;&nbsp;&nbsp;&nbsp;
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;employing Third-party tools and 
-      &nbsp;applications.With our WordPress integration, &nbsp;&nbsp;&nbsp;we offer cohesive and robust experiences. 
-      &nbsp;&nbsp;We are here to enable your website to work &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      best with our custom solution.
       </p>
     </div>
   )

@@ -8,24 +8,22 @@ const BlockAppDev = () => {
     <div className='smm-section4'>
       <ArrowForwardIcon style={{position:'absolute', zIndex:'1', color:'#243F82', fontSize: '30px', 
       fontWeight: '200', top: '15%', left: '50%'}}/>
-      <span className='span1'>Our team of professional developers uses simple and clean coding techniques to 
-      guarantee your website runs flawlessly and effectively</span>
+      <span className='span1'>We help you build better exposure for your brand to audiences.</span>
       <ArrowForwardIcon style={{position:'absolute', zIndex:'1', color:'#243F82', fontSize: '30px', 
-      fontWeight: '200', top: '34%', left: '50%'}}/>
-      <span className='span2'>We offer our clients dependable Ecommerce development services and 24/7 support. 
-      By revolutionizing your brand, we build Ecommerce that meets your needs.</span>
+      fontWeight: '200', top: '27%', left: '50%'}}/>
+      <span className='span2'>We have a team of experts who understand your brand needs, and after that, they design the best social media 
+      marketing solution according to your brand needs.</span>
       <ArrowForwardIcon style={{position:'absolute', zIndex:'1', color:'#243F82', fontSize: '30px', 
-      fontWeight: '200', top: '53%', left: '50%'}}/>
-      <span className='span3'>Our crew Ecommerce specialist collaborates closely with you to understand your 
-      business vision and build your plan according to your needs.</span>
+      fontWeight: '200', top: '48%', left: '50%'}}/>
+      <span className='span3'>Our expert helps you to build 100% organic traffic to improve your website performance.</span>
       <ArrowForwardIcon style={{position:'absolute', zIndex:'1', color:'#243F82', fontSize: '30px', 
-      fontWeight: '200', top: '70%', left: '50%'}}/>
-      <span className='span4'>We don’t just keep to the basic trends. Our team always comes up with creative minds
-       and innovative ideas to make your Ecommerce website stand out.</span>
+      fontWeight: '200', top: '65%', left: '50%'}}/>
+      <span className='span4'>Engaging with your audience on social media will help you build your business and develop a loyal 
+      customer base.</span>
       <ArrowForwardIcon style={{position:'absolute', zIndex:'1', color:'#243F82', fontSize: '30px', 
-      fontWeight: '200', top: '90%', left: '50%'}}/>
-      <span className='span5'>We emphasize speed and protection in all our Ecommerce web development projects.
-      </span>
+      fontWeight: '200', top: '83%', left: '50%'}}/>
+      <span className='span5'>Our social media marketing team stays informed of your target market by engaging in online conversations and 
+      sharing insightful material about your business.</span>
       <div className='smm-img4' data-aos="slide-right" data-aos-duration="600" data-aos-easing="ease-in-sine" data-aos-offset="0"></div>
     </div>
   )

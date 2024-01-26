@@ -44,18 +44,22 @@
     justify-content: center;
     text-transform:uppercase;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 14px;
     font-weight: 500;
     padding: 20px 25px 20px 25px;
     position: absolute;
-    border-radius: 20px;
+    border-radius: 10px;
     cursor: pointer;
     color: #fff;
     z-index: 1;
-    outline: 1px solid #fff;
+    border: none;
     background: transparent;
     top: 55%;
-    left: 15%;
+    left: 20%;
+}
+.reactjs-btn:focus{
+    background: #5749A9;
+    border: #5749A9;
 }
 
 .web-section8 .angular-btn{
@@ -64,18 +68,23 @@
     justify-content: center;
     text-transform:uppercase;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 14px;
     font-weight: 500;
     padding: 20px 25px 20px 25px;
     position: absolute;
-    border-radius: 20px;
+    border-radius: 10px;
     cursor: pointer;
     color: #fff;
     z-index: 1;
-    outline: 1px solid #fff;
+    border: none;
     background: transparent;
     top: 55%;
-    left: 28%;
+    left: 33%;
+}
+
+.angular-btn:focus{
+    background: #5749A9;
+    border: #5749A9;
 }
 .web-section8 .vue-btn{
     display: flex;
@@ -83,37 +92,46 @@
     justify-content: center;
     text-transform:uppercase;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 14px;
     font-weight: 500;
     padding: 20px 40px 20px 40px;
     position: absolute;
-    border-radius: 20px;
+    border-radius: 10px;
     cursor: pointer;
     color: #fff;
     z-index: 1;
-    outline: 1px solid #fff;
+    border: none;
     background: transparent;
     top: 55%;
-    left: 42%;
+    left: 46%;
 }
+.vue-btn:focus{
+    background: #5749A9;
+    border: #5749A9;
+}
+
 .web-section8 .html-btn{
     display: flex;
     align-items: center;
     justify-content: center;
     text-transform:uppercase;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 14px;
     font-weight: 500;
     padding: 20px 40px 20px 40px;
     position: absolute;
-    border-radius: 20px;
+    border-radius: 10px;
     cursor: pointer;
     color: #fff;
     z-index: 1;
-    outline: 1px solid #fff;
+    border: none;
     background: transparent;
     top: 55%;
-    left: 55%;
+    left: 57%;
+}
+.html-btn:focus{
+    background:  #233F81;
+    border:  #233F81;
 }
 .web-section8 .js-btn{
     display: flex;
@@ -121,21 +139,25 @@
     justify-content: center;
     text-transform:uppercase;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 14px;
     font-weight: 500;
     padding: 20px 50px 20px 50px;
     position: absolute;
-    border-radius: 20px;
+    border-radius: 10px;
     cursor: pointer;
     color: #fff;
     z-index: 1;
-    outline: 1px solid #fff;
+    border: none;
     background: transparent;
     top: 55%;
     left: 69%;
 }
+.js-btn:focus{
+    background:  #233F81;
+    border:  #233F81;
+}
 
-.web-section8 .react-p{
+.web-section8 .para{
     position: absolute;
     z-index: 1;
     font-family: Poppins, sans-serif;

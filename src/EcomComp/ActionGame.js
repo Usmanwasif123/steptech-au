@@ -110,11 +110,11 @@ const ActionGame = () => {
        your eCommerce website across platforms. Regardless of the size and niche of your business, our experts are ready
         to take your e-commerce store to new heights
       </p>
-      <ArrowRightIcon style={{...arrowStyle1, top: '11%'}} onClick={toggleParagraphVisibility1}/>
-      <ArrowRightIcon style={{...arrowStyle2, top: '26%'}} onClick={toggleParagraphVisibility2} />
-      <ArrowRightIcon style={{...arrowStyle3, top: '41%'}} onClick={toggleParagraphVisibility3}/>
-      <ArrowRightIcon style={{...arrowStyle4, top: '56%'}} onClick={toggleParagraphVisibility4}/>
-      <ArrowRightIcon style={{...arrowStyle5, top: '71%'}} onClick={toggleParagraphVisibility5}/>
+      <ArrowRightIcon style={{...arrowStyle1, top: '5%'}} onClick={toggleParagraphVisibility1}/>
+      <ArrowRightIcon style={{...arrowStyle2, top: '25%'}} onClick={toggleParagraphVisibility2} />
+      <ArrowRightIcon style={{...arrowStyle3, top: '43%'}} onClick={toggleParagraphVisibility3}/>
+      <ArrowRightIcon style={{...arrowStyle4, top: '61%'}} onClick={toggleParagraphVisibility4}/>
+      <ArrowRightIcon style={{...arrowStyle5, top: '80%'}} onClick={toggleParagraphVisibility5}/>
       <h1 className='h1' onClick={toggleParagraphVisibility1} >eCommerce Web Design</h1>
       <div style={containerStyle1}>
         {isParagraphVisible1 && (

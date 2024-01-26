@@ -4,19 +4,85 @@
 }
 
 .port-section2{
-    height: 800vh;
+    height: 690vh;
     width: 98.7vw;
     background: #ebefff;
     position: relative;
+    margin-top: 0px;
 }
-.port-section2 .bg-img{
+.port-section2 .webmag-btn{
+    background: #fff;
+    border: 1px solid #6347AA;
+    color: #333;
+    padding: 15px;
+    margin-top:60px;
+    margin-left: 350px;
+    font-family: Poppins, sans-serif;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+.port-section2 .webmag-btn:hover{
+    background: linear-gradient(256deg, #6347AA 7.85%, #233F81 107.97%);
+    color: #fff;
+}
+.port-section2 .webmag-btn:focus{
+    background: linear-gradient(256deg, #6347AA 7.85%, #233F81 107.97%);
+    color: #fff ;
+}
+.port-section2 .appmag-btn{
+    background: #fff;
+    border: 1px solid #6347AA;
+    color: #333;
+    padding: 15px;
+    margin-top:60px;
+    margin-left: 20px;
+    font-family: Poppins, sans-serif;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+.port-section2 .appmag-btn:hover{
+    background: linear-gradient(256deg, #6347AA 7.85%, #233F81 107.97%);
+    color: #fff;
+}
+.port-section2 .appmag-btn:focus{
+    background: linear-gradient(256deg, #6347AA 7.85%, #233F81 107.97%);
+    color: #fff ;
+}
+.port-section2 .gamemagneto-btn{
+    background: #fff;
+    border: 1px solid #6347AA;
+    color: #333;
+    padding: 15px;
+    margin-top:60px;
+    margin-left: 20px;
+    font-family: Poppins, sans-serif;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+.port-section2 .gamemagneto-btn:hover{
+    background: linear-gradient(256deg, #6347AA 7.85%, #233F81 107.97%);
+    color: #fff;
+}
+
+.port-section2 .bg-img1{
     height: 120vh;
     width: 60vw;
     position: absolute;
-    left: 35%;
+    left: 39%;
+    top: 5%;
+    z-index: 0;
 }
 
-.port-right-h{
+.port-right-h1{
     position: absolute;
     z-index: 1;
     font-family: Poppins, sans-serif;
@@ -25,8 +91,8 @@
     font-weight: 700;
     line-height: 60px; 
     letter-spacing: -1px;
-    top: 3%;
-    left: 81%;
+    top: 7%;
+    left: 70%;
     padding: 0px 5px 0px 0px;
     color: #333;
     text-transform: capitalize;
@@ -34,45 +100,45 @@
 
 .port-section2 .h1{
     position: absolute;
-    z-index: 1;
+    z-index: 2;
     font-family: Poppins, sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
     line-height: 60px; 
     letter-spacing: -1px;
-    top: 39%;
-    left: 65%;
+    top: 8%;
+    left: 70%;
     padding: 30px 5px 0px 0px;
     color: #333;
     text-transform: capitalize;
 }
 .port-section2 .h2{
     position: absolute;
-    z-index: 1;
+    z-index: 2;
     font-family: Poppins, sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
     line-height: 60px; 
     letter-spacing: -1px;
-    top: 44%;
-    left: 65%;
+    top: 9%;
+    left: 70%;
     padding: 30px 5px 0px 0px;
     color: #333;
     text-transform: capitalize;
 }
 .port-section2 .h3{
     position: absolute;
-    z-index: 1;
+    z-index: 2;
     font-family: Poppins, sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
     line-height: 60px; 
     letter-spacing: -1px;
-    top: 49%;
-    left: 65%;
+    top: 10%;
+    left: 70%;
     padding: 30px 5px 0px 0px;
     color: #333;
     text-transform: capitalize;
@@ -84,13 +150,15 @@
     border-radius: 5px;
     width: 700px !important;
     background: #fff;
-    margin-top: 30px;
+    margin-top: 100px;
+
 
 }
 .port-section2 .port-card1 .img1{
     height: 500px;
     width: 700px;
     border-radius: 5px; 
+
 }
 
 .port-section2 .port-card2{
@@ -98,7 +166,7 @@
     border-radius: 5px;
     width: 700px !important;
     background: #fff;
-    margin-top: 30px;
+    margin-top: 100px;
 }
 
 .port-section2 .port-card2 .img2{
@@ -113,7 +181,7 @@
     border-radius: 5px;
     width: 700px !important;
     background: #fff;
-    margin-top: 30px;
+    margin-top: 100px;
 }
 
 .port-section2 .port-card3 .img3{
@@ -163,8 +231,14 @@
     background: transparent;
     border-radius: 10px 10px 10px 10px;
 }
+.port-section3 .bg-img{
+    height: 120vh;
+    width: 60vw;
+    position: absolute;
+    left: -1%;
+}
 
-.port-left-h{
+.port-left-h2{
     position: absolute;
     z-index: 1;
     font-family: Poppins, sans-serif;
@@ -173,7 +247,7 @@
     font-weight: 700;
     line-height: 60px; 
     letter-spacing: -1px;
-    top: 30%;
+    top: 21%;
     left: 5%;
     padding: 30px 5px 0px 0px;
     color: #333;
@@ -189,7 +263,7 @@
     font-weight: 700;
     line-height: 60px; 
     letter-spacing: -1px;
-    top: 39%;
+    top: 23%;
     left: 7%;
     padding: 30px 5px 0px 0px;
     color: #333;
@@ -204,7 +278,7 @@
     font-weight: 700;
     line-height: 60px; 
     letter-spacing: -1px;
-    top: 44%;
+    top: 24%;
     left: 7%;
     padding: 30px 5px 0px 0px;
     color: #333;
@@ -219,7 +293,7 @@
     font-weight: 700;
     line-height: 60px; 
     letter-spacing: -1px;
-    top: 49%;
+    top: 25%;
     left: 7%;
     padding: 30px 5px 0px 0px;
     color: #333;
@@ -307,7 +381,612 @@
     background: transparent;
     border-radius: 10px 10px 10px 10px;
 }
+.port-section4 .bg-img{
+    height: 120vh;
+    width: 60vw;
+    position: absolute;
+    left: 35%;
+}
+.port-section4 .port-right-h3{
+    position: absolute;
+    z-index: 1;
+    font-family: Poppins, sans-serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; 
+    letter-spacing: -1px;
+    top: 40%;
+    left: 60%;
+    padding: 30px 0px 0px 0px;
+    color: #333;
+    text-transform: capitalize;
+}
 
+.port-section4 .h1{
+    position: absolute;
+    z-index: 1;
+    font-family: Poppins, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; 
+    letter-spacing: -1px;
+    top: 42%;
+    left: 65%;
+    padding: 30px 5px 0px 0px;
+    color: #333;
+    text-transform: capitalize;
+}
+.port-section4 .h2{
+    position: absolute;
+    z-index: 1;
+    font-family: Poppins, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; 
+    letter-spacing: -1px;
+    top: 43%;
+    left: 65%;
+    padding: 30px 5px 0px 0px;
+    color: #333;
+    text-transform: capitalize;
+}
+.port-section4 .h3{
+    position: absolute;
+    z-index: 1;
+    font-family: Poppins, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; 
+    letter-spacing: -1px;
+    top: 44%;
+    left: 65%;
+    padding: 30px 5px 0px 0px;
+    color: #333;
+    text-transform: capitalize;
+}
+
+
+.port-section4 .port-card1{
+    height: 500px;
+    border-radius: 5px;
+    width: 700px !important;
+    margin-top: 100px !important;
+    background: #fff;
+}
+.port-section4 .port-card1 .img1{
+    height: 500px;
+    width: 700px;
+    border-radius: 5px; 
+}
+
+.port-section4 .port-card2{
+    height: 500px;
+    border-radius: 5px;
+    width: 700px !important;
+    margin-top: 100px !important;
+    background: #fff;
+}
+
+.port-section4 .port-card2 .img2{
+    height: 500px;
+    width: 700px;
+    border-radius: 5px; 
+
+}
+
+.port-section4 .port-card3{
+    height: 500px;
+    border-radius: 5px;
+    width: 700px !important;
+    margin-top: 100px !important;
+    background: #fff;
+}
+
+.port-section4 .port-card3 .img3{
+    height: 500px;
+    width: 700px;
+    border-radius: 5px; 
+
+}
+.port3-carousel{
+    margin-top: 210px;
+}
+.port-section4 .port3-carousel .slick-slider {
+    width: 700px;
+    height: 500px;
+    margin-left: 50px;
+}
+
+.port-section4 .port3-carousel .slick-slide div{
+    width: 300px;
+}
+
+.port-section4 .port3-carousel .slick-dots li.slick-active button:before {
+    color: #333 !important;
+    
+}
+.port-section4 .port3-carousel .slick-dots li button:before {
+    color: #c2c4cc;
+    font-size: 0.5rem !important;
+    top: 8rem !important;
+}
+
+.port-section4 .port3-carousel .slick-initialized .slick-slide {
+    display: flex;
+}
+
+.port-section4 .port3-carousel .slick-prev {
+    left: 0px;
+    margin-left: -30px;
+    background: transparent;
+    border-radius: 10px;
+}
+.port-section4 .port3-carousel .slick-next{
+    right: -30px;
+    background: transparent;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.port-section5 .bg-img{
+    height: 120vh;
+    width: 60vw;
+    position: absolute;
+    left: -1%;
+}
+
+.port-section5 .port-left-h4{
+    position: absolute;
+    z-index: 1;
+    font-family: Poppins, sans-serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; 
+    letter-spacing: -1px;
+    top: 58%;
+    left: 5%;
+    padding: 30px 5px 0px 0px;
+    color: #333;
+    text-transform: capitalize;
+}
+
+.port-section5 .h1{
+    position: absolute;
+    z-index: 1;
+    font-family: Poppins, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; 
+    letter-spacing: -1px;
+    top: 60%;
+    left: 7%;
+    padding: 30px 5px 0px 0px;
+    color: #333;
+    text-transform: capitalize;
+}
+.port-section5 .h2{
+    position: absolute;
+    z-index: 1;
+    font-family: Poppins, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; 
+    letter-spacing: -1px;
+    top: 61%;
+    left: 7%;
+    padding: 30px 5px 0px 0px;
+    color: #333;
+    text-transform: capitalize;
+}
+.port-section5 .h3{
+    position: absolute;
+    z-index: 1;
+    font-family: Poppins, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; 
+    letter-spacing: -1px;
+    top: 62%;
+    left: 7%;
+    padding: 30px 5px 0px 0px;
+    color: #333;
+    text-transform: capitalize;
+}
+
+
+.port-section5 .port-card1{
+    height: 500px;
+    border-radius: 5px;
+    width: 700px !important;
+    margin-top: 100px !important;
+    background: #fff;
+}
+.port-card1 .img1{
+    height: 500px;
+    width: 700px;
+    border-radius: 5px; 
+}
+
+.port-section5 .port-card2{
+    height: 500px;
+    border-radius: 5px;
+    width: 700px !important;
+    margin-top: 100px !important;
+    background: #fff;
+}
+
+.port-card2 .img2{
+    height: 500px;
+    width: 700px;
+    border-radius: 5px; 
+
+}
+
+.port-section5 .port-card3{
+    height: 500px;
+    border-radius: 5px;
+    width: 700px !important;
+    margin-top: 100px !important;
+    background: #fff;
+}
+
+.port-section5 .port-card3 .img3{
+    height: 500px;
+    width: 700px;
+    border-radius: 5px; 
+
+}
+.port4-carousel{
+    margin-top: 210px;
+}
+
+.port-section5 .port4-carousel .slick-slider {
+    width: 700px;
+    height: 500px;
+    margin-left: 600px;
+}
+
+.port-section5 .port4-carousel .slick-slide div{
+    width: 300px;
+}
+
+.port-section5 .port4-carousel .slick-dots li.slick-active button:before {
+    color: #333 !important;
+    
+}
+.port-section5 .port4-carousel .slick-dots li button:before {
+    color: #c2c4cc;
+    font-size: 0.5rem !important;
+    top: 8rem !important;
+}
+
+.port-section5 .port4-carousel .slick-initialized .slick-slide {
+    display: flex;
+}
+
+.port-section5 .port4-carousel .slick-prev {
+    left: 0px;
+    margin-left: -30px;
+    background: transparent;
+    border-radius: 10px;
+}
+.port-section5 .port4-carousel .slick-next{
+    right: -30px;
+    background: transparent;
+    border-radius: 10px 10px 10px 10px;
+}
+.port-section6 .bg-img{
+    height: 120vh;
+    width: 60vw;
+    position: absolute;
+    left: 35%;
+}
+
+.port-right-h5{
+    position: absolute;
+    z-index: 1;
+    font-family: Poppins, sans-serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; 
+    letter-spacing: -1px;
+    top: 75%;
+    left: 63%;
+    padding: 30px 5px 0px 0px;
+    color: #333;
+    text-transform: capitalize;
+}
+
+.port-section6 .h1{
+    position: absolute;
+    z-index: 1;
+    font-family: Poppins, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; 
+    letter-spacing: -1px;
+    top: 77%;
+    left: 65%;
+    padding: 30px 5px 0px 0px;
+    color: #333;
+    text-transform: capitalize;
+}
+.port-section6 .h2{
+    position: absolute;
+    z-index: 1;
+    font-family: Poppins, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; 
+    letter-spacing: -1px;
+    top: 78%;
+    left: 65%;
+    padding: 30px 5px 0px 0px;
+    color: #333;
+    text-transform: capitalize;
+}
+.port-section6 .h3{
+    position: absolute;
+    z-index: 1;
+    font-family: Poppins, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; 
+    letter-spacing: -1px;
+    top: 79%;
+    left: 65%;
+    padding: 30px 5px 0px 0px;
+    color: #333;
+    text-transform: capitalize;
+}
+
+
+.port-section6 .port-card1{
+    height: 500px;
+    border-radius: 5px;
+    width: 700px !important;
+    margin-top: 100px !important;
+    background: #fff;
+}
+.port-section6 .port-card1 .img1{
+    height: 500px;
+    width: 700px;
+    border-radius: 5px; 
+}
+
+.port-section6 .port-card2{
+    height: 500px;
+    border-radius: 5px;
+    width: 700px !important;
+    margin-top: 100px !important;
+    background: #fff;
+}
+
+.port-section6 .port-card2 .img2{
+    height: 500px;
+    width: 700px;
+    border-radius: 5px; 
+
+}
+
+.port-section6 .port-card3{
+    height: 500px;
+    border-radius: 5px;
+    width: 700px !important;
+    margin-top: 100px !important;
+    background: #fff;
+}
+
+.port-section6 .port-card3 .img3{
+    height: 500px;
+    width: 700px;
+    border-radius: 5px; 
+
+}
+
+.port5-carousel{
+    margin-top: 210px;
+}
+
+.port-section6 .port5-carousel .slick-slider {
+    width: 700px;
+    height: 500px;
+    margin-left: 50px;
+}
+
+.port-section6 .port5-carousel .slick-slide div{
+    width: 300px;
+}
+
+.port-section6 .port5-carousel .slick-dots li.slick-active button:before {
+    color: #333 !important;
+    
+}
+.port-section6 .port5-carousel .slick-dots li button:before {
+    color: #c2c4cc;
+    font-size: 0.5rem !important;
+    top: 8rem !important;
+}
+
+.port-section6 .port5-carousel .slick-initialized .slick-slide {
+    display: flex;
+}
+
+.port-section6 .port5-carousel .slick-prev {
+    left: 0px;
+    margin-left: -30px;
+    background: transparent;
+    border-radius: 10px;
+}
+.port-section6 .port5-carousel .slick-next{
+    right: -30px;
+    background: transparent;
+    border-radius: 10px 10px 10px 10px;
+}
+
+
+.port-section7 .bg-img{
+    height: 120vh;
+    width: 60vw;
+    position: absolute;
+    left: -1%;
+}
+
+.port-section7 .port-left-h6{
+    position: absolute;
+    z-index: 1;
+    font-family: Poppins, sans-serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; 
+    letter-spacing: -1px;
+    top: 89%;
+    left: 3%;
+    padding: 30px 5px 0px 0px;
+    color: #333;
+    text-transform: capitalize;
+}
+
+.port-section7 .h1{
+    position: absolute;
+    z-index: 1;
+    font-family: Poppins, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; 
+    letter-spacing: -1px;
+    top: 91%;
+    left: 7%;
+    padding: 30px 5px 0px 0px;
+    color: #333;
+    text-transform: capitalize;
+}
+.port-section7 .h2{
+    position: absolute;
+    z-index: 1;
+    font-family: Poppins, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; 
+    letter-spacing: -1px;
+    top: 92%;
+    left: 7%;
+    padding: 30px 5px 0px 0px;
+    color: #333;
+    text-transform: capitalize;
+}
+.port-section7 .h3{
+    position: absolute;
+    z-index: 1;
+    font-family: Poppins, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; 
+    letter-spacing: -1px;
+    top: 93%;
+    left: 7%;
+    padding: 30px 5px 0px 0px;
+    color: #333;
+    text-transform: capitalize;
+}
+
+
+.port-section7 .port-card1{
+    height: 500px;
+    border-radius: 5px;
+    width: 700px !important;
+    margin-top: 100px !important;
+    background: #fff;
+}
+.port-section7 .port-card1 .img1{
+    height: 500px;
+    width: 700px;
+    border-radius: 5px; 
+}
+
+.port-section7 .port-card2{
+    height: 500px;
+    border-radius: 5px;
+    width: 700px !important;
+    margin-top: 100px !important;
+    background: #fff;
+}
+
+.port-section7 .port-card2 .img2{
+    height: 500px;
+    width: 700px;
+    border-radius: 5px; 
+
+}
+
+.port-section7 .port-card3{
+    height: 500px;
+    border-radius: 5px;
+    width: 700px !important;
+    margin-top: 100px !important;
+    background: #fff;
+}
+
+.port-section7 .port-card3 .img3{
+    height: 500px;
+    width: 700px;
+    border-radius: 5px; 
+
+}
+.port6-carousel{
+    margin-top: 70px;
+}
+
+.port-section7 .port6-carousel .slick-slider {
+    width: 700px;
+    height: 500px;
+    margin-left: 600px;
+}
+
+.port-section7 .port6-carousel .slick-slide div{
+    width: 300px;
+}
+
+.port-section7 .port6-carousel .slick-dots li.slick-active button:before {
+    color: #333 !important;
+    
+}
+.port-section7 .port6-carousel .slick-dots li button:before {
+    color: #c2c4cc;
+    font-size: 0.5rem !important;
+    top: 8rem !important;
+}
+
+.port-section7 .port6-carousel .slick-initialized .slick-slide {
+    display: flex;
+}
+
+.port-section7 .port6-carousel .slick-prev {
+    left: 0px;
+    margin-left: -30px;
+    background: transparent;
+    border-radius: 10px;
+}
+.port-section7 .port6-carousel .slick-next{
+    right: -30px;
+    background: transparent;
+    border-radius: 10px 10px 10px 10px;
+}
 
 @media only screen and (max-width: 1024px) {
     .right-vision{

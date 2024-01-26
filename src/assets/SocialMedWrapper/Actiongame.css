@@ -34,12 +34,12 @@
     font-weight: 400;
     line-height: 30px; 
     letter-spacing: -1px;
-    top: 55%;
+    top: 45%;
     left: 5%;
     padding: 0px 700px 0px 0px;
     color: #808080;
 }
-.smm-section6 .h1{
+.smm-section6  .h1{
     position: absolute;
     z-index: 1;
     font-family: Poppins, sans-serif;
@@ -47,14 +47,29 @@
     font-style: normal;
     font-weight: 700;
     line-height: 60px; 
+    letter-spacing: -1px;
+    top: -1%;
+    left: 55%;
+    padding: 30px 5px 0px 0px;
+    color: #243F82;
+    text-transform: capitalize;
+}
+.smm-section6  .p1{
+    position: absolute;
+    z-index: 1;
+    font-family: Poppins, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25px; 
     letter-spacing: -1px;
     top: 5%;
     left: 55%;
-    padding: 30px 5px 0px 0px;
-    color: #243F82;
-    text-transform: capitalize;
+    padding: 30px 40px 0px 0px;
+    color: #808080;
+    text-transform: inherit; 
 }
-.smm-section6 .p1{
+.smm-section6  .h2{
     position: absolute;
     z-index: 1;
     font-family: Poppins, sans-serif;
@@ -63,43 +78,28 @@
     font-weight: 700;
     line-height: 60px; 
     letter-spacing: -1px;
-    top: 10%;
-    left: 55%;
-    padding: 30px 5px 0px 0px;
-    color: #333;
-    text-transform: capitalize; 
-}
-.smm-section6 .h2{
-    position: absolute;
-    z-index: 1;
-    font-family: Poppins, sans-serif;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 60px; 
-    letter-spacing: -1px;
-    top: 20%;
+    top: 18%;
     left: 55%;
     padding: 30px 5px 0px 0px;
     color: #243F82;
     text-transform: capitalize;
 }
-.smm-section6 .p2{
+.smm-section6  .p2{
     position: absolute;
     z-index: 1;
     font-family: Poppins, sans-serif;
-    font-size: 20px;
+    font-size: 18px;
     font-style: normal;
-    font-weight: 700;
-    line-height: 60px; 
+    font-weight: 500;
+    line-height: 25px;  
     letter-spacing: -1px;
-    top: 25%;
+    top: 24%;
     left: 55%;
-    padding: 30px 5px 0px 0px;
-    color: #333;
-    text-transform: capitalize; 
+    padding: 30px 40px 0px 0px;
+    color: #808080;
+    text-transform: inherit; 
 }
-.smm-section6 .h3{
+.smm-section6  .h3{
     position: absolute;
     z-index: 1;
     font-family: Poppins, sans-serif;
@@ -108,58 +108,28 @@
     font-weight: 700;
     line-height: 60px; 
     letter-spacing: -1px;
-    top: 35%;
-    left: 55%;
-    padding: 30px 5px 0px 0px;
-    color: #243F82;
-    text-transform: capitalize;
-}
-.smm-section6 .p3{
-    position: absolute;
-    z-index: 1;
-    font-family: Poppins, sans-serif;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 60px; 
-    letter-spacing: -1px;
-    top: 40%;
-    left: 55%;
-    padding: 30px 5px 0px 0px;
-    color: #333;
-    text-transform: capitalize; 
-}
-.smm-section6 .h4{
-    position: absolute;
-    z-index: 1;
-    font-family: Poppins, sans-serif;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 60px; 
-    letter-spacing: -1px;
-    top: 50%;
+    top: 39%;
     left: 55%;
     padding: 30px 5px 0px 0px;
     color: #243F82;
     text-transform: capitalize;
 }
-.smm-section6 .p4{
+.smm-section6  .p3{
     position: absolute;
     z-index: 1;
     font-family: Poppins, sans-serif;
-    font-size: 20px;
+    font-size: 18px;
     font-style: normal;
-    font-weight: 700;
-    line-height: 60px; 
+    font-weight: 500;
+    line-height: 25px; 
     letter-spacing: -1px;
-    top: 55%;
+    top: 45%;
     left: 55%;
-    padding: 30px 5px 0px 0px;
-    color: #333;
-    text-transform: capitalize; 
+    padding: 30px 40px 0px 0px;
+    color: #808080;
+    text-transform: inherit; 
 }
-.smm-section6 .h5{
+.smm-section6  .h4{
     position: absolute;
     z-index: 1;
     font-family: Poppins, sans-serif;
@@ -168,13 +138,28 @@
     font-weight: 700;
     line-height: 60px; 
     letter-spacing: -1px;
-    top: 65%;
+    top: 57%;
     left: 55%;
     padding: 30px 5px 0px 0px;
     color: #243F82;
     text-transform: capitalize;
 }
-.smm-section6 .p5{
+.smm-section6  .p4{
+    position: absolute;
+    z-index: 1;
+    font-family: Poppins, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25px; 
+    letter-spacing: -1px;
+    top: 63%;
+    left: 55%;
+    padding: 30px 40px 0px 0px;
+    color: #808080;
+    text-transform: inherit; 
+}
+.smm-section6  .h5{
     position: absolute;
     z-index: 1;
     font-family: Poppins, sans-serif;
@@ -183,13 +168,27 @@
     font-weight: 700;
     line-height: 60px; 
     letter-spacing: -1px;
-    top: 70%;
+    top: 74%;
     left: 55%;
     padding: 30px 5px 0px 0px;
-    color: #333;
-    text-transform: capitalize; 
+    color: #243F82;
+    text-transform: capitalize;
 }
-
+.smm-section6  .p5{
+    position: absolute;
+    z-index: 1;
+    font-family: Poppins, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25px; 
+    letter-spacing: -1px;
+    top: 80%;
+    left: 55%;
+    padding: 30px 40px 0px 0px;
+    color: #808080;
+    text-transform: inherit; 
+}
 
 @media only screen and (max-width: 1024px) {
     .right-vision{

@@ -105,53 +105,61 @@ const ActionGame = () => {
     };
   return (
     <div className='smm-section6'>
-      <h1 className='main-heading'>Why Choose Our Ecommerce Development Services</h1>
-      <p className='main-p'>Searching for the best ecommerce developers agency in the AU for an appealing and 
-      functioning ecommerce website? Step Tech is here to offer you ecommerce development services. 
-      Let’s explore some reasons why you choose us.
+      <h1 className='main-heading'>Our Social Media Marketing Services</h1>
+      <p className='main-p'>Step Tech offers its clients the best social media marketing services as a <b>digital marketing company</b>. The 
+      services we offer our clients are the following.
       </p>
-      <ArrowRightIcon style={{...arrowStyle1, top: '11%'}} onClick={toggleParagraphVisibility1}/>
-      <ArrowRightIcon style={{...arrowStyle2, top: '26%'}} onClick={toggleParagraphVisibility2} />
-      <ArrowRightIcon style={{...arrowStyle3, top: '41%'}} onClick={toggleParagraphVisibility3}/>
-      <ArrowRightIcon style={{...arrowStyle4, top: '56%'}} onClick={toggleParagraphVisibility4}/>
-      <ArrowRightIcon style={{...arrowStyle5, top: '71%'}} onClick={toggleParagraphVisibility5}/>
-      <h1 className='h1' onClick={toggleParagraphVisibility1} >Better Performance</h1>
+      <ArrowRightIcon style={{...arrowStyle1, top: '5%'}} onClick={toggleParagraphVisibility1}/>
+      <ArrowRightIcon style={{...arrowStyle2, top: '24%'}} onClick={toggleParagraphVisibility2} />
+      <ArrowRightIcon style={{...arrowStyle3, top: '45%'}} onClick={toggleParagraphVisibility3}/>
+      <ArrowRightIcon style={{...arrowStyle4, top: '63%'}} onClick={toggleParagraphVisibility4}/>
+      <ArrowRightIcon style={{...arrowStyle5, top: '80%'}} onClick={toggleParagraphVisibility5}/>
+      <h1 className='h1' onClick={toggleParagraphVisibility1} >PPC Advertising</h1>
       <div style={containerStyle1}>
         {isParagraphVisible1 && (
           <p className='p1'>
-            Your paragraph content goes here.
+            In our PPC advertising services, we work with you to identify your intended audience, find high-converting keywords, run sponsored
+             updates, and use attractive photos, videos, and captions to maximize your return on ad spend (ROAS) on social media marketing 
+             platforms.
           </p>
         )}
       </div>
-      <h1 className='h2' onClick={toggleParagraphVisibility2} >Minimal Maintenance</h1>
+      <h1 className='h2' onClick={toggleParagraphVisibility2} >Email Marketing</h1>
       <div style={containerStyle2}>
         {isParagraphVisible2 && (
           <p className='p2'>
-            Your paragraph content goes here.
+            To deliver an unparalleled customer experience, your social media marketing company integrates email marketing with your SMM 
+            strategies. By studying your target market and discovering their problems, we can create email campaigns, social media marketing 
+            strategies, and Instagram marketing plans that cater to their requirements.
           </p>
         )}
       </div>
-      <h1 className='h3' onClick={toggleParagraphVisibility3}>Streamlined And Efficient Websites</h1>
+      <h1 className='h3' onClick={toggleParagraphVisibility3}>E-Commerce Marketing</h1>
       <div style={containerStyle3}>
         {isParagraphVisible3 && (
           <p className='p3'>
-            Your paragraph content goes here.
+            To increase your online visibility, promote your eCommerce business on social media and Instagram marketing platforms. To boost 
+            traffic and sales to your online store, we produce and post promotional posts on Facebook social media marketing and share 
+            high-quality product photos.
           </p>
         )}
       </div>
-      <h1 className='h4' onClick={toggleParagraphVisibility4} >Proven Record</h1>
+      <h1 className='h4' onClick={toggleParagraphVisibility4}>Video Production</h1>
       <div style={containerStyle4}>
         {isParagraphVisible4 && (
           <p className='p4'>
-            Your paragraph content goes here.
+            Using social media videos that spark your audience's interest will help boost audience engagement on YouTube and other social media
+             campaigns. Our social media video marketing team has you covered anything from knowledge and product promotional videos to 
+             behind-the-scenes videos and interviews!
           </p>
         )}
       </div>
-      <h1 className='h5' onClick={toggleParagraphVisibility5}>Seamless Upgrades With Reliable Security</h1>
+      <h1 className='h5' onClick={toggleParagraphVisibility5}>Conversation Rate Optimization (CRO)</h1>
       <div style={containerStyle5}>
         {isParagraphVisible5 && (
           <p className='p5'>
-            Your paragraph content goes here.
+            To increase your conversion rate, our social networking marketing firm tests your headlines, improves your landing pages, crafts 
+            compelling calls-to-action (CTAs), and uses various social media substances, including photos and videos. 
           </p>
         )}
       </div>
