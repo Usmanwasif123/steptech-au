@@ -87,7 +87,7 @@ const Navbar = () => {
         </p>
         </h1>
       </div>
-      <Link to='/read-more' className='appbtn-read'>read more</Link>
+      <Link to='/read-more' className='appbtn-read'>get started</Link>
       <div className='appnav-image'></div>
     </div>
    </>

@@ -3,23 +3,23 @@
     padding: 0;
 }
 
-.webprocess-container{
+.appprocess-container{
     height: 150vh;
     width: 98.7vw;
     background: #eceefe;
     position: relative;
 }
 
-.webprocess-h1{
+.appprocess-h1{
     top: 6%;
-    left: 18%;
-    font-size: 50px;
+    left: 10%;
+    font-size: 40px;
     color: #333;
     position: absolute;
     z-index: 2;
 }
-.webprocess-p{
-    top: 25%;
+.appprocess-p{
+    top: 20%;
     left: 10%;
     padding: 0 200px 0px 50px;
     font-size: 20px;
@@ -27,14 +27,14 @@
     position: absolute;
     z-index: 2;
 }
-.research-grid{
+.resea-grid{
     position: absolute;
     z-index: 2;
     left: 1%; 
     top: 40%;
 }
 
-.research-grid .research-img{
+.resea-grid .resea-img{
     position: absolute;
     top: 4%;
     left: 40%;
@@ -42,12 +42,12 @@
     width: 60px;
 }
 
-.research{
+.resea{
     font-size: 30px;
     color: #fff;
     padding-top: 12px;
 }
-.research-p{
+.resea-p{
     position: absolute;
     z-index: 2;
     font-size: 20px;
@@ -55,14 +55,14 @@
     margin: 0px 20px 0px -50px;
     padding: 40px 0px 0px 0px;
 }
-.webdev-grid{
+.uiux-grid{
     position: absolute;
     z-index: 2;
     left: 26%; 
     top: 40%;
 }
 
-.webdev-grid .webdev-img{
+.uiux-grid .uiux-img{
     position: absolute;
     top: 4%;
     left: 37%;
@@ -70,14 +70,14 @@
     width: 60px;
 }
 
-.webdev{
+.uiux{
     font-size: 30px;
     color: #fff;
     padding-top: 12px;
     margin-left: -10px;
 }
 
-.webdev-p{
+.uiux-p{
     position: absolute;
     z-index: 2;
     font-size: 20px;
@@ -85,27 +85,27 @@
     margin: 0px 20px 0px -50px;
     padding: 40px 0px 0px 0px;
 }
-.test-grid{
+.deve-grid{
     position: absolute;
     z-index: 2;
     left: 51%; 
     top: 40%;
 }
 
-.test-grid .test-img{
+.deve-grid .deve-img{
     position: absolute;
     top: 4%;
     left: 40%;
     height: 60px;
     width: 60px;
 }
-.test{
+.deve{
     font-size: 30px;
     color: #fff;
     padding-top: 12px;
 }
 
-.test-p{
+.deve-p{
     position: absolute;
     z-index: 2;
     font-size: 20px;
@@ -113,14 +113,14 @@
     margin: 0px 20px 0px -50px;
     padding: 40px 0px 0px 0px;
 }
-.launch-grid{
+.qa-launch-grid{
     position: absolute;
     z-index: 2;
     left: 76%; 
     top: 40%;
 }
 
-.launch-grid .launch-img{
+.qa-launch-grid .qa-launch-img{
     position: absolute;
     top: 4%;
     left: 40%;
@@ -128,13 +128,13 @@
     width: 60px;
 }
 
-.launch{
+.qa-launch{
     font-size: 30px;
     color: #fff;
     padding-top: 12px;
 }
 
-.launch-p{
+.qa-launch-p{
     position: absolute;
     z-index: 2;
     font-size: 20px;

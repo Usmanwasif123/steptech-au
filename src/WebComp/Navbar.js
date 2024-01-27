@@ -6,6 +6,7 @@ import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
+
 const Navbar = () => {
   const[setting, setSetting] = useState({
     dots: false,
@@ -89,7 +90,24 @@ const Navbar = () => {
       </div>
       <div className='web-carousel'>
           <Slider {...setting}>
-           
+            <div>
+              <img className='wordpress-image' src='https://i.ibb.co/q5f894K/image.png' alt='wordpress'/>
+            </div> 
+            <div>
+            <img className='elementor-image' src='https://i.ibb.co/tbLmgRC/image.png' alt='elementor'/>
+            </div>
+            <div>
+            <img className='angular-image' src='https://i.ibb.co/K202fyg/image.png' alt='angular'/>
+            </div> 
+            <div>
+            <img className='vue-image' src='https://i.ibb.co/Jq88KxD/image.png' alt='wordpress'/>
+              </div>
+            <div>
+            <img className='js-image' src='https://i.ibb.co/CwRb7yn/image.png' alt='wordpress'/>
+            </div> 
+            <div>
+            <img className='js1-image' src='https://i.ibb.co/tBgLwP0/image.png' alt='wordpress'/>
+            </div>
           </Slider>
       </div>
       <Link to='/read-more' className='webbtn-start'>get started</Link>
