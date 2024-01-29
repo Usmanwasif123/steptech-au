@@ -34,7 +34,7 @@ const Shopify = () => {
           </form>
         </div>
       }
-      <div className='sho-image'></div>
+      <div className='sho-image'  data-aos="slide-down" data-aos-duration="750" data-aos-easing="ease-in-sine" data-aos-offset="0"></div>
     </div>
   )
 }

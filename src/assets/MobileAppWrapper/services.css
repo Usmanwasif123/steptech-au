@@ -67,7 +67,7 @@
 }
 .app-cards .h1-ai:hover{
     color: #fff;
-    background: linear-gradient(255deg, #7554C1 29.51%, #243F82 93.15%);
+    
 }
 .app-cards .p1-ai{
    position: absolute;
@@ -84,15 +84,17 @@
    margin: 250px 2500px 0px -20px;
    padding: 0px 3547px 0px 0px;
 }
-.app-cards .p1-ai:hover{
-    color: #fff;
-}
+
 .app-cards .h2-ai{
     font-size: 30px;
     position: absolute;
     margin-top: 150px;
     margin-left: 12px;
     color: #333;
+}
+.app-cards .h2-ai:hover{
+    color: #fff;
+    
 }
 .app-cards .p2-ai{
    position: absolute;
@@ -116,6 +118,10 @@
     margin-top: 150px;
     margin-left: 10px;
     color: #333;
+}
+.app-cards .h3-ai:hover{
+    color: #fff;
+    
 }
 .app-cards .p3-ai{
    position: absolute;
@@ -141,6 +147,10 @@
     margin-left: 10px;
     color: #333;
 }
+.app-cards .h4-ai:hover{
+    color: #fff;
+    
+}
 .app-cards .p4-ai{
    position: absolute;
    z-index: 3;
@@ -164,6 +174,10 @@
     margin-top: 150px;
     margin-left: 10px;
     color: #333;
+}
+.app-cards .h5-ai:hover{
+    color: #fff;
+    
 }
 .app-cards .p5-ai{
    position: absolute;
@@ -189,6 +203,10 @@
     margin-left: 10px;
     color: #333;
 }
+.app-cards .h6-ai:hover{
+    color: #fff;
+    
+}
 .app-cards .p6-ai{
    position: absolute;
    z-index: 3;
@@ -211,6 +229,10 @@
     margin-top: 150px;
     margin-left: 10px;
     color: #333;
+}
+.app-cards .h7-ai:hover{
+    color: #fff;
+    
 }
 .app-cards .p7-ai{
    position: absolute;
@@ -235,6 +257,10 @@
     margin-top: 150px;
     margin-left: 10px;
     color: #333;
+}
+.app-cards .h8-ai:hover{
+    color: #fff;
+    
 }
 .app-cards .p8-ai{
    position: absolute;

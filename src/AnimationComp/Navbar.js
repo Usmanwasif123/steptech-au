@@ -5,48 +5,7 @@ import {FaBars, FaTimes} from 'react-icons/fa';
 import {KeyboardArrowDownOutlined, Clear } from '@mui/icons-material';
 
 const Navbar = () => {
-  const[setting, setSetting] = useState({
-    dots: false,
-    infinite: true,
-    autoplay: true,
-    speed: 500,
-    slidesToShow: 5,
-    slidesToScroll: 1,
-    initialSlide: 0,
-    responsive: [
-      {
-        breakpoint: 1920,
-        settings: {
-          slidesToShow: 5,
-          slidesToScroll: 1,
-          infinite: true,
-          dots: false,
-        }
-      },
-      {
-        breakpoint: 768,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 2,
-          initialSlide: 2
-        }
-      },
-      {
-        breakpoint: 480,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1
-        }
-      },
-      {
-        breakpoint: 320,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1
-        }
-      }
-    ]
-      });
+
 
   const [isSidebarOpen, setSidebarOpen] = useState(false);
   const [isVisible, setIsVisible] = useState(false);
@@ -105,8 +64,8 @@ const Navbar = () => {
         <li><Link to='/'>home</Link></li>
             <li><Link to='/about-us' className='about'>about us</Link></li>
             <li className='dropdown' onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
-           <KeyboardArrowDownOutlined style={{position:'absolute', zIndex: 1, fontSize: '25px', top: '320%', left: '73.4px', color: "#fff"}}/>
-            <Link to='/service' className='service' style={{marginTop: '12px'}}>services</Link>
+           <KeyboardArrowDownOutlined style={{position:'absolute', zIndex: 1, fontSize: '25px', top: '380%', left: '73.4px', color: "#fff"}}/>
+            <Link to='/service' className='service' style={{marginTop: '25px'}}>services</Link>
             {isDropdownOpen && 
             <div className='dropdown-content' ref={dropdownRef} onMouseEnter={handleDropdownMouseEnter} onMouseLeave={handleDropdownMouseLeave}>
              <li><Link to='/web-design-and-development' className='nav-service1'>web design & development</Link></li>
@@ -163,7 +122,7 @@ const Navbar = () => {
           </form>
         </div>
       }
-      <div className='animate-nav-image' data-aos="slide-left" data-aos-duration="500" data-aos-easing="ease-in-sine" data-aos-offset="0"></div>
+      <div className='animate-nav-image' data-aos="slide-down" data-aos-duration="500" data-aos-easing="ease-in-sine" data-aos-offset="0"></div>
     </div>
    </>
   );

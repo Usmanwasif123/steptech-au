@@ -13,7 +13,7 @@ const Shopify = () => {
       with seamless transitions, ensuring a thrilling gaming experience that exceeds user expectations across various 
       platforms.
       </p>
-      <div className='animate-img3'  data-aos="slide-left" data-aos-duration="600" data-aos-easing="ease-in-sine" data-aos-offset="0"></div>
+      <div className='animate-img3'  ></div>
     </div>
   )
 }

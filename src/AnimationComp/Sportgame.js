@@ -11,7 +11,7 @@ const Sportgame = () => {
       By collaborating with our best 2d game makers, you can embrace the latest technologies and select the optimal database, language, and 
       framework for building mobile games.
       </p>
-      <div className='animate-img2' data-aos="slide-right" data-aos-duration="600" data-aos-easing="ease-in-sine" data-aos-offset="0"></div>
+      <div className='animate-img2' ></div>
     </div>
   )
 }

@@ -35,7 +35,7 @@ const Secure = () => {
           </form>
         </div>
       }
-      <div className='sec-image'></div>
+      <div className='sec-image' data-aos="slide-down" data-aos-duration="750" data-aos-easing="ease-in-sine" data-aos-offset="0"></div>
     </div>
   )
 }

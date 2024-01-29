@@ -373,15 +373,16 @@
     justify-content: center;
     text-transform: uppercase;
     font-size: 20px;
+    font-weight: 600;
     cursor: pointer;
     padding: 10px 25px 10px 25px;
     position: absolute;
     border-radius: 15px;
-    color: #fff;
-    z-index: 5;
+    color: #233F81;
+    z-index: 1;
     border: none;
-    outline: 1px solid linear-gradient(250deg, #7554C1 29.51%, #243F82 93.15%);;
-    background: linear-gradient(150deg, #47277f 29.100%, #101b37 93.15%);
+    outline: 1px solid #fff;
+    background: #fff;
     margin-top: 50px;
     margin-left: 70px;
 }

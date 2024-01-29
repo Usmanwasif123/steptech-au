@@ -35,7 +35,7 @@ const ActionGame = () => {
           </form>
         </div>
       }
-      <div className='actgame-img' data-aos="slide-left" data-aos-duration="600" data-aos-easing="ease-in-sine" data-aos-offset="0"></div>
+      <div className='actgame-img' data-aos="slide-up" data-aos-duration="600" data-aos-easing="ease-in-sine" data-aos-offset="0"></div>
     </div>
   )
 }
