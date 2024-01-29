@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.appdev-container{
+    height: 80vh;
+    width: 98.7vw;
+    position: relative;
+    background: #f1f4ff;
+}
+
+
+.appdev-container h1{
+    color: #333;
+    font-size: 50px;
+    position: absolute;
+    top: 10%;
+    margin: 0px -100px 0px 40px;
+    padding: 0px 10px 0px 0px;
+}
+.app-line{
+    top: 40%;
+    left: 35%;
+    position: absolute;
+    border-radius: 2px 2px 2px 2px;
+    background: linear-gradient(255deg, #7554C1 29.51%, #243F82 93.15%);
+    padding: 0px 300px 4px 50px;
+}
+
+.appdev-container p{
+    color: #333;
+    font-size: 18px;
+    position: absolute;
+    top: 50%;
+    margin: 0px -20px 0px 5px;
+    padding: 0px 10px 0px 30px;
+}
+.appbtn-con{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 10px 25px 10px 25px;
+    position: absolute;
+    border-radius: 20px;
+    cursor: pointer;
+    color: #333;
+    z-index: 1;
+    outline: 1px solid #333;
+    background: transparent;
+    top: 75%;
+    left: 40%;
+    box-shadow: inset 0 0 0 0 #333;
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
+}
+
+.appbtn-con:hover {
+    box-shadow: inset 0 0 0 50px #333;
+    color: #fff;
+}
+
+
+.app2-visible-div{
+    background: #47267F;
+    height: 600px;
+    width: 1000px;
+    position: absolute;
+    z-index: 5;
+    top: 18%;
+    left: 15%;
+    border-radius: 70px;
+}
+
+.app2-visible-div img{
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: 6;
+    top: 20%;
+    left: 1%;
+    border-radius: 50px 0px 50px 0px;
+}
+
+.app2-visible-div .visible-p1{
+    position: absolute;
+    z-index: 5;
+    top: 75%;
+    left: -1%;
+    color: #FFF;
+    font-family: Poppins, sans-serif;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px; 
+    letter-spacing: -1px;
+    text-transform: capitalize;
+    padding-left: 20px;
+    padding-right: 400px;
+}
+
+.app2-visible-div .visible-p2{
+    position: absolute;
+    z-index: 5;
+    top: 15%;
+    left: 55%;
+    color: #FFF;
+    font-family: Poppins, sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px; 
+    letter-spacing: -1px;
+    text-transform: capitalize;
+}
+
+.app2-visible-div .visible-p3{
+    position: absolute;
+    z-index: 5;
+    top: 25%;
+    left: 48%;
+    color: #FFF;
+    font-family: Poppins, sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25px; 
+    letter-spacing: -1px;
+    text-transform: inherit;
+}
+
+.visible-contact-form{
+    position: absolute;
+    z-index: 5;
+    top: 40%;
+    left: 55%;
+}
+
+.visible-contact-form .full-name{
+    height: 50px;
+    width: 390px;
+    color: #fff;
+    font-size: 19px;
+    margin-left: 10px;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #fff;
+}
+.visible-contact-form .email{
+    height: 50px;
+    width: 390px;
+    color: #fff;
+    font-size: 19px;
+    margin-left: 10px;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #fff;
+}
+.visible-contact-form .phone-no{
+    height: 50px;
+    width: 390px;
+    color: #fff;
+    font-size: 19px;
+    margin-left: 10px;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #fff;
+}
+.visible-contact-form .message-input{
+    position: absolute;
+    z-index: 5;
+    height: 25px;
+    width: 140px;
+    color: #fff;
+    font-size: 18px;
+    top:110%;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #fff;
+}
+
+.visible-contact-form .submit-btn{
+    position: absolute;
+    z-index: 5;
+    left: 25%;
+    top: 180%;
+    font-size: 15px;
+    font-family: Poppins, sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 10px;
+    border: 1px solid #212457;
+    background: #212457;
+    color: #fff;
+
+
+}
+
+.visible-contact-form .btn-close{
+    position: absolute;
+    z-index: 5;
+    left: 92%;
+    top: -160%;
+    font-family: Poppins, sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    background: transparent;
+    color: #fff;
+    padding: 5px;
+    cursor: pointer;
+}
+

@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.client-container{
+    height: 40vh;
+    width: 98.7vw;
+    background: #fff;
+    margin-top: 50px;
+}
+
+.client-container h1{
+    font-size: 40px;
+    font-weight: 800;
+    font-family: Poppins, sans-serif;
+    margin-left: 500px;
+    color: #233F81;
+}
+
+.client-container p{
+    font-size: 20px;
+    font-family: Poppins, sans-serif;
+    margin-left: 250px;
+    margin-top: 10px;
+    color: #333;
+}
+
+.client-carousel{
+    margin-top: 40px;
+    margin-left: 80px;
+}
+
+.client-carousel img{
+    height: 100px;
+    cursor: pointer;
+
+}
+.client-carousel .slick-slide div{
+    width: 50px;
+}
+
+
+.client-carousel .slick-prev {
+    left: 0px;
+    background-color:transparent !important;
+    margin-left: -50px;
+    border-radius: 50%;
+}
+.client-carousel .slick-next{
+    right: 0px;
+    margin-right: 0px;
+    background-color:transparent !important;
+    border-radius: 50%;
+
+}

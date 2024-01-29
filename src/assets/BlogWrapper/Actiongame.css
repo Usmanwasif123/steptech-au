@@ -1,0 +1,325 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.blog-section2{
+    height: 130vh;
+    width: 98.7vw;
+    background: #f1f4ff;
+    position: relative;
+    margin-top: 0px !important;
+}
+.blog-section2 .box1{
+    top: 25%;
+    left:25%;
+    position: absolute;
+    z-index: 1;
+    border-radius: 5px;
+    transform: rotate(180deg);
+    background: #fff;
+    padding: 340px 280px 250px 100px;
+    -webkit-box-shadow: 0 0 15px #b8b2b6;
+        box-shadow: 0 0 15px #b8b2b6;
+}
+.blog1-img{
+    position:absolute;
+    z-index: 3;
+    background: url('https://i.ibb.co/tK1tb7r/image.png');
+    height: 384px;
+    width: 384px;
+    top: 9.5%;
+    left: 7.9%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.blog-section2 .blog1-logo{
+    position:absolute;
+    z-index: 4;
+    background: url('https://i.ibb.co/FW2WdmS/image.png');
+    height: 70px;
+    width: 70px;
+    top: 37%;
+    left: 9%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-radius: 50px;
+}
+
+.blog-section2 .blog1-h{
+    position: absolute;
+    z-index: 1;
+    font-family: Poppins, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px; 
+    letter-spacing: -1px;
+    top: 48%;
+    left: 10%;
+    padding: 0px 950px 0px 0px;
+    color: #243f82;
+}
+
+.blog-section2 .blog1-p{
+    position: absolute;
+    z-index: 1;
+    font-family: Poppins, sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px; 
+    letter-spacing: -1px;
+    top: 60%;
+    left: 10%;
+    padding: 0px 850px 0px 0px;
+    color: #333;
+}
+.blog-section2 .readmore-link{
+    position: absolute;
+    z-index: 1;
+    font-family: Poppins, sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px; 
+    letter-spacing: -1px;
+    top: 75%;
+    left: 10%;
+    padding: 0px 850px 0px 0px;
+    color: #61ce70;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.blog-section2 .banner-line{
+    top:80%;
+    left: 16.8%;
+    position: absolute;
+    z-index: 1;
+    background:#b8b2b6;
+    margin-left: -120px;
+    padding: 0px 192px 1px;
+}
+.blog-section2 .date1{
+    position: absolute;
+    z-index: 1;
+    font-family: Poppins, sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px; 
+    letter-spacing: -1px;
+    top: 82%;
+    left: 10%;
+    color: #b8b2b6;
+}
+.blog-section2 .comment1{
+    position: absolute;
+    z-index: 1;
+    font-family: Poppins, sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px; 
+    letter-spacing: -1px;
+    top: 82%;
+    left: 20%;
+    color: #b8b2b6;
+}
+
+
+@media only screen and (max-width: 1024px) {
+    .right-vision{
+        font-size: 20px;
+        padding: 30px 0px 0px 530px;
+    }
+    #line1-vision{
+        top: 115%;
+        left: 52%;
+        padding: 0px 30px 4px 30px;
+    }
+    #line2-vision{
+        top: 115%;
+        left: 58.2%;
+        padding: 0px 10px 4px 10px;
+    }
+    #line3-vision{
+        top: 115%;
+        left: 60.5%;
+        padding: 0px 5px 4px 5px;
+    }
+    .right-heading{
+        font-size: 30px;
+        padding: 14px 0px 1px 10px;
+        margin: 1px 10px 12px 490px;
+    }
+    .right-p {
+        font-size: 16px;
+        padding: 0px 2px 1px 480px;
+        margin: 17px 30px 12px 25px;
+    }
+    .btn-visionread{
+        top: 205%;
+        left: 50%;
+    }
+    .box{
+        top: 117%;
+        left: 4%;
+        padding: 340px 200px 50px 100px;
+    }
+    .box1{
+        top: 125%;
+        left: 10%;
+        padding: 340px 200px 50px 100px;
+    }
+    .vision-image{
+        height: 100vh;
+        width: 65vw;
+        top: 112.9%;
+        left: 10%;
+    }
+}
+@media only screen and (max-width: 768px) {
+  
+    .right-vision{
+        font-size: 20px;
+        padding: 15px 0px 0px 395px;
+    }
+    #line1-vision{
+        top: 117%;
+        left: 52%;
+        padding: 0px 25px 4px 30px;
+    }
+    #line2-vision{
+        top: 117%;
+        left: 59.6%;
+        padding: 0px 5px 4px 10px;
+    }
+    #line3-vision{
+        top: 117%;
+        left: 61.9%;
+        padding: 0px 5px 4px 5px;
+    }
+    .right-heading{
+        font-size: 30px;
+        padding: 14px 0px 1px 85px;
+        margin: -10px 80px 12px 300px;
+    }
+    .right-p {
+        font-size: 14px;
+        padding: 0px 2px 1px 95px;
+        margin: -8px 10px 12px 280px;
+    }
+    .btn-visionread{
+        top: 209%;
+        left: 50%;
+    }
+    .box{
+        top: 117%;
+        left: 4%;
+        padding: 300px 150px 40px 100px;
+    }
+    .box1{
+        top: 125%;
+        left: 10%;
+        padding: 300px 150px 40px 100px;
+    }
+    .vision-image{
+        height: 60vh;
+        width: 67vw;
+        top: 125%;
+        left: 10%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .box{
+        display: none;
+    }
+    .box1{
+        display: none;
+    }
+    .vision-image{
+        display: none;
+    }    
+    .right-vision{
+        font-size: 17px;
+        padding: 30px 0px 0px 190px;
+    } 
+    #line1-vision{
+        top: 119%;
+        left: 39%;
+        padding: 0px 25px 4px 20px;
+    }
+    #line2-vision{
+        top: 119%;
+        left: 49%;
+        padding: 0px 10px 4px 10px;
+    }
+    #line3-vision{
+        top: 119%;
+        left: 53.5%;
+        padding: 0px 4px 4px 8px;
+    }
+    .right-heading{
+        font-size: 20px;
+        padding: 14px 0px 1px 10px;
+        margin: 1px 80px 12px 50px;
+    }
+
+    .right-p {
+        font-size: 14px;
+        padding: 0px 9px 1px 10px;
+        margin: 17px 25px 12px 35px;
+    }
+    .btn-visionread{
+        top: 213%;
+        font-size: 12px;
+        left: 10%;
+        padding-left: 15px;
+    }
+}
+@media only screen and (max-width: 320px) {
+    .vision-main{
+        height: 70vh;
+        width: 98.7vw;
+    }
+    .right-vision{
+        font-size: 20px;
+        padding: 10px 0px 0px 110px;
+    } 
+    #line1-vision{
+        top: 116%;
+        left: 36%;
+        padding: 0px 30px 4px 10px;
+    }
+    #line2-vision{
+        top: 116%;
+        left: 50%;
+        padding: 0px 10px 4px 10px;
+    }
+    #line3-vision{
+        top: 116%;
+        left: 57%;
+        padding: 0px 4px 4px 8px;
+    }
+    .right-heading{
+        font-size: 20px;
+        padding: 14px 0px 1px 10px;
+        margin: -18px 50px 12px 50px;
+    }
+
+    .right-p {
+        font-size: 12px;
+        padding: 0px 9px 1px 10px;
+        margin: -5px 25px 12px 35px;
+    }
+    .btn-visionread{
+        top: 228%;
+        font-size: 12px;
+        left: 13%;
+        padding-left: 15px;
+    }
+}

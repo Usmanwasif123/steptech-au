@@ -1,0 +1,428 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.digi-section5{
+    height: 160vh;
+    width: 98.7vw;
+    background: #ebefff;
+    position: relative;
+}
+
+.digi-section5 .main-heading{
+    position: absolute;
+    z-index: 1;
+    font-family: Poppins, sans-serif;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; 
+    letter-spacing: -1px;
+    top: 10%;
+    left: 10%;
+    color: #333;
+}
+.digi-section5 .main-p{
+    position: absolute;
+    z-index: 1;
+    font-family: Poppins, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; 
+    letter-spacing: -1px;
+    top: 18%;
+    left: 13%;
+    color: #808080;
+}
+
+
+.digi-section5 .loseo-img{
+    position:absolute;
+    z-index: 3;
+    background: url('https://i.ibb.co/Yywws8T/seo-icons-02.png');
+    height: 150px;
+    width: 150px;
+    top: 23%;
+    left: 13%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.digi-section5 .h1{
+    position: absolute;
+    z-index: 1;
+    font-family: Poppins, sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; 
+    letter-spacing: -1px;
+    top: 35%;
+    left: 14%;
+    margin-right: -155px;
+    color: #333;
+}
+.digi-section5 .p1{
+    position: absolute;
+    z-index: 1;
+    font-family: Poppins, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; 
+    letter-spacing: -1px;
+    top: 40%;
+    left: 5%;
+    padding: 30px 850px 0px 0px;
+    color: #808080;
+}
+.digi-section5 .teseo-img{
+    position:absolute;
+    z-index: 3;
+    background: url('https://i.ibb.co/QYVpgS5/seo-icons-01.png');
+    height: 100px;
+    width: 100px;
+    top: 25%;
+    left: 49%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.digi-section5 .h2{
+    position: absolute;
+    z-index: 1;
+    font-family: Poppins, sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; 
+    letter-spacing: -1px;
+    top: 35%;
+    left: 50%;
+    margin-right: -155px;
+    color: #333;
+}
+.digi-section5 .p2{
+    position: absolute;
+    z-index: 1;
+    font-family: Poppins, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; 
+    letter-spacing: -1px;
+    top: 40%;
+    left: 38%;
+    padding: 30px 400px 0px 0px;
+    color: #808080;
+}
+.digi-section5 .coma-img{
+    position:absolute;
+    z-index: 3;
+    background: url('https://i.ibb.co/ZTkTV0N/seo-icons-05.png');
+    height: 250px;
+    width: 250px;
+    top: 16%;
+    left: 76%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.digi-section5 .h3{
+    position: absolute;
+    z-index: 1;
+    font-family: Poppins, sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; 
+    letter-spacing: -1px;
+    top: 35%;
+    left: 82%;
+    margin-right: -155px;
+    color: #333;
+}
+.digi-section5 .p3{
+    position: absolute;
+    z-index: 1;
+    font-family: Poppins, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; 
+    letter-spacing: -1px;
+    top: 40%;
+    left: 73%;
+    padding: 30px 10px 0px 0px;
+    color: #808080;
+}
+.digi-section5 .enseo-img{
+    position:absolute;
+    z-index: 3;
+    background: url('https://i.ibb.co/fnkYXbN/seo-icons-03.png');
+    height: 200px;
+    width: 200px;
+    top: 57%;
+    left: 23%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.digi-section5 .h4{
+    position: absolute;
+    z-index: 1;
+    font-family: Poppins, sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; 
+    letter-spacing: -1px;
+    top: 73%;
+    left: 26%;
+    margin-right: -155px;
+    color: #333;
+}
+.digi-section5 .p4{
+    position: absolute;
+    z-index: 1;
+    font-family: Poppins, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; 
+    letter-spacing: -1px;
+    top: 77%;
+    left: 15%;
+    padding: 30px 640px 0px 0px;
+    color: #808080;
+}
+.digi-section5 .conseo-img{
+    position:absolute;
+    z-index: 3;
+    background: url('https://i.ibb.co/tbmJvJ9/seo-icons-04.png');
+    height: 120px;
+    width: 120px;
+    top: 63%;
+    left: 67%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.digi-section5 .h5{
+    position: absolute;
+    z-index: 1;
+    font-family: Poppins, sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; 
+    letter-spacing: -1px;
+    top: 73%;
+    left: 67%;
+    margin-right: -155px;
+    color: #333;
+}
+.digi-section5 .p5{
+    position: absolute;
+    z-index: 1;
+    font-family: Poppins, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; 
+    letter-spacing: -1px;
+    top: 77%;
+    left: 58%;
+    padding: 30px 100px 0px 0px;
+    color: #808080;
+}
+@media only screen and (max-width: 1024px) {
+    .right-vision{
+        font-size: 20px;
+        padding: 30px 0px 0px 530px;
+    }
+    #line1-vision{
+        top: 115%;
+        left: 52%;
+        padding: 0px 30px 4px 30px;
+    }
+    #line2-vision{
+        top: 115%;
+        left: 58.2%;
+        padding: 0px 10px 4px 10px;
+    }
+    #line3-vision{
+        top: 115%;
+        left: 60.5%;
+        padding: 0px 5px 4px 5px;
+    }
+    .right-heading{
+        font-size: 30px;
+        padding: 14px 0px 1px 10px;
+        margin: 1px 10px 12px 490px;
+    }
+    .right-p {
+        font-size: 16px;
+        padding: 0px 2px 1px 480px;
+        margin: 17px 30px 12px 25px;
+    }
+    .btn-visionread{
+        top: 205%;
+        left: 50%;
+    }
+    .box{
+        top: 117%;
+        left: 4%;
+        padding: 340px 200px 50px 100px;
+    }
+    .box1{
+        top: 125%;
+        left: 10%;
+        padding: 340px 200px 50px 100px;
+    }
+    .vision-image{
+        height: 100vh;
+        width: 65vw;
+        top: 112.9%;
+        left: 10%;
+    }
+}
+@media only screen and (max-width: 768px) {
+  
+    .right-vision{
+        font-size: 20px;
+        padding: 15px 0px 0px 395px;
+    }
+    #line1-vision{
+        top: 117%;
+        left: 52%;
+        padding: 0px 25px 4px 30px;
+    }
+    #line2-vision{
+        top: 117%;
+        left: 59.6%;
+        padding: 0px 5px 4px 10px;
+    }
+    #line3-vision{
+        top: 117%;
+        left: 61.9%;
+        padding: 0px 5px 4px 5px;
+    }
+    .right-heading{
+        font-size: 30px;
+        padding: 14px 0px 1px 85px;
+        margin: -10px 80px 12px 300px;
+    }
+    .right-p {
+        font-size: 14px;
+        padding: 0px 2px 1px 95px;
+        margin: -8px 10px 12px 280px;
+    }
+    .btn-visionread{
+        top: 209%;
+        left: 50%;
+    }
+    .box{
+        top: 117%;
+        left: 4%;
+        padding: 300px 150px 40px 100px;
+    }
+    .box1{
+        top: 125%;
+        left: 10%;
+        padding: 300px 150px 40px 100px;
+    }
+    .vision-image{
+        height: 60vh;
+        width: 67vw;
+        top: 125%;
+        left: 10%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .box{
+        display: none;
+    }
+    .box1{
+        display: none;
+    }
+    .vision-image{
+        display: none;
+    }    
+    .right-vision{
+        font-size: 17px;
+        padding: 30px 0px 0px 190px;
+    } 
+    #line1-vision{
+        top: 119%;
+        left: 39%;
+        padding: 0px 25px 4px 20px;
+    }
+    #line2-vision{
+        top: 119%;
+        left: 49%;
+        padding: 0px 10px 4px 10px;
+    }
+    #line3-vision{
+        top: 119%;
+        left: 53.5%;
+        padding: 0px 4px 4px 8px;
+    }
+    .right-heading{
+        font-size: 20px;
+        padding: 14px 0px 1px 10px;
+        margin: 1px 80px 12px 50px;
+    }
+
+    .right-p {
+        font-size: 14px;
+        padding: 0px 9px 1px 10px;
+        margin: 17px 25px 12px 35px;
+    }
+    .btn-visionread{
+        top: 213%;
+        font-size: 12px;
+        left: 10%;
+        padding-left: 15px;
+    }
+}
+@media only screen and (max-width: 320px) {
+    .vision-main{
+        height: 70vh;
+        width: 98.7vw;
+    }
+    .right-vision{
+        font-size: 20px;
+        padding: 10px 0px 0px 110px;
+    } 
+    #line1-vision{
+        top: 116%;
+        left: 36%;
+        padding: 0px 30px 4px 10px;
+    }
+    #line2-vision{
+        top: 116%;
+        left: 50%;
+        padding: 0px 10px 4px 10px;
+    }
+    #line3-vision{
+        top: 116%;
+        left: 57%;
+        padding: 0px 4px 4px 8px;
+    }
+    .right-heading{
+        font-size: 20px;
+        padding: 14px 0px 1px 10px;
+        margin: -18px 50px 12px 50px;
+    }
+
+    .right-p {
+        font-size: 12px;
+        padding: 0px 9px 1px 10px;
+        margin: -5px 25px 12px 35px;
+    }
+    .btn-visionread{
+        top: 228%;
+        font-size: 12px;
+        left: 13%;
+        padding-left: 15px;
+    }
+}

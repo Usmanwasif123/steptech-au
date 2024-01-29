@@ -1,0 +1,428 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.smm-section5{
+    height: 200vh;
+    width: 98.7vw;
+    background: #ebefff;
+    position: relative;
+}
+
+.smm-section5 .main-heading{
+    position: absolute;
+    z-index: 1;
+    font-family: Poppins, sans-serif;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; 
+    letter-spacing: -1px;
+    top: 6%;
+    left: 10%;
+    color: #333;
+}
+.smm-section5 .main-p{
+    position: absolute;
+    z-index: 1;
+    font-family: Poppins, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; 
+    letter-spacing: -1px;
+    top: 16%;
+    left: 10%;
+    color: #808080;
+    padding: 0px 100px 0px 0px;
+}
+
+.smm-section5 .uid-img{
+    position:absolute;
+    z-index: 3;
+    background: url('https://i.ibb.co/MZX0JFW/graphic-designing-icon-01.png');
+    height: 120px;
+    width: 120px;
+    top: 25%;
+    left: 15%;
+    background-size: 60%;
+    background-repeat: no-repeat;
+}
+.smm-section5 .h1{
+    position: absolute;
+    z-index: 1;
+    font-family: Poppins, sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; 
+    letter-spacing: -1px;
+    top: 35%;
+    left: 13%;
+    margin-right: -155px;
+    color: #333;
+}
+.smm-section5 .p1{
+    position: absolute;
+    z-index: 1;
+    font-family: Poppins, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; 
+    letter-spacing: -1px;
+    top: 42%;
+    left: 4%;
+    padding-right: 900px;
+    color: #808080;
+}
+.smm-section5 .mog-img{
+    position:absolute;
+    z-index: 3;
+    background: url('https://i.ibb.co/zSnSrY0/graphic-designing-icon-02.png');
+    height: 100px;
+    width: 100px;
+    top: 25%;
+    left: 48%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.smm-section5 .h2{
+    position: absolute;
+    z-index: 1;
+    font-family: Poppins, sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; 
+    letter-spacing: -1px;
+    top: 35%;
+    left: 42%;
+    margin-right: -155px;
+    color: #333;
+}
+.smm-section5 .p2{
+    position: absolute;
+    z-index: 1;
+    font-family: Poppins, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; 
+    letter-spacing: -1px;
+    top: 42%;
+    left: 38%;
+    padding-right: 420px;
+    color: #808080;
+}
+.smm-section5 .gmd-img{
+    position:absolute;
+    z-index: 3;
+    background: url('https://i.ibb.co/6RvHwdF/graphic-designing-icon-03.png');
+    height: 100px;
+    width: 100px;
+    top: 25%;
+    left: 80%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.smm-section5 .h3{
+    position: absolute;
+    z-index: 1;
+    font-family: Poppins, sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; 
+    letter-spacing: -1px;
+    top: 35%;
+    left: 75%;
+    color: #333;
+}
+.smm-section5 .p3{
+    position: absolute;
+    z-index: 1;
+    font-family: Poppins, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; 
+    letter-spacing: -1px;
+    top: 42%;
+    left: 70%;
+    margin-right: 10px;
+    color: #808080;
+}
+.smm-section5 .pat-img{
+    position:absolute;
+    z-index: 3;
+    background: url('https://i.ibb.co/K0shXWN/graphic-designing-icon-04.png');
+    height: 100px;
+    width: 100px;
+    top: 65%;
+    left: 23%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.smm-section5 .h4{
+    position: absolute;
+    z-index: 1;
+    font-family: Poppins, sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; 
+    letter-spacing: -1px;
+    top: 75%;
+    left: 17%;
+    margin-right: -155px;
+    color: #333;
+}
+.smm-section5 .p4{
+    position: absolute;
+    z-index: 1;
+    font-family: Poppins, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; 
+    letter-spacing: -1px;
+    top: 80%;
+    left: 10%;
+    padding-right: 750px;
+    color: #808080;
+}
+.smm-section5 .ill-img{
+    position:absolute;
+    z-index: 3;
+    background: url('https://i.ibb.co/By70Jjk/graphic-designing-icon-05.png');
+    height: 100px;
+    width: 100px;
+    top: 65%;
+    left: 65%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.smm-section5 .h5{
+    position: absolute;
+    z-index: 1;
+    font-family: Poppins, sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; 
+    letter-spacing: -1px;
+    top: 75%;
+    left: 59%;
+    margin-right: -155px;
+    color: #333;
+}
+.smm-section5 .p5{
+    position: absolute;
+    z-index: 1;
+    font-family: Poppins, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; 
+    letter-spacing: -1px;
+    top: 80%;
+    left: 47%;
+    padding-right: 170px;
+    padding-left: 100px;
+    color: #808080;
+}
+@media only screen and (max-width: 1024px) {
+    .right-vision{
+        font-size: 20px;
+        padding: 30px 0px 0px 530px;
+    }
+    #line1-vision{
+        top: 115%;
+        left: 52%;
+        padding: 0px 30px 4px 30px;
+    }
+    #line2-vision{
+        top: 115%;
+        left: 58.2%;
+        padding: 0px 10px 4px 10px;
+    }
+    #line3-vision{
+        top: 115%;
+        left: 60.5%;
+        padding: 0px 5px 4px 5px;
+    }
+    .right-heading{
+        font-size: 30px;
+        padding: 14px 0px 1px 10px;
+        margin: 1px 10px 12px 490px;
+    }
+    .right-p {
+        font-size: 16px;
+        padding: 0px 2px 1px 480px;
+        margin: 17px 30px 12px 25px;
+    }
+    .btn-visionread{
+        top: 205%;
+        left: 50%;
+    }
+    .box{
+        top: 117%;
+        left: 4%;
+        padding: 340px 200px 50px 100px;
+    }
+    .box1{
+        top: 125%;
+        left: 10%;
+        padding: 340px 200px 50px 100px;
+    }
+    .vision-image{
+        height: 100vh;
+        width: 65vw;
+        top: 112.9%;
+        left: 10%;
+    }
+}
+@media only screen and (max-width: 768px) {
+  
+    .right-vision{
+        font-size: 20px;
+        padding: 15px 0px 0px 395px;
+    }
+    #line1-vision{
+        top: 117%;
+        left: 52%;
+        padding: 0px 25px 4px 30px;
+    }
+    #line2-vision{
+        top: 117%;
+        left: 59.6%;
+        padding: 0px 5px 4px 10px;
+    }
+    #line3-vision{
+        top: 117%;
+        left: 61.9%;
+        padding: 0px 5px 4px 5px;
+    }
+    .right-heading{
+        font-size: 30px;
+        padding: 14px 0px 1px 85px;
+        margin: -10px 80px 12px 300px;
+    }
+    .right-p {
+        font-size: 14px;
+        padding: 0px 2px 1px 95px;
+        margin: -8px 10px 12px 280px;
+    }
+    .btn-visionread{
+        top: 209%;
+        left: 50%;
+    }
+    .box{
+        top: 117%;
+        left: 4%;
+        padding: 300px 150px 40px 100px;
+    }
+    .box1{
+        top: 125%;
+        left: 10%;
+        padding: 300px 150px 40px 100px;
+    }
+    .vision-image{
+        height: 60vh;
+        width: 67vw;
+        top: 125%;
+        left: 10%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .box{
+        display: none;
+    }
+    .box1{
+        display: none;
+    }
+    .vision-image{
+        display: none;
+    }    
+    .right-vision{
+        font-size: 17px;
+        padding: 30px 0px 0px 190px;
+    } 
+    #line1-vision{
+        top: 119%;
+        left: 39%;
+        padding: 0px 25px 4px 20px;
+    }
+    #line2-vision{
+        top: 119%;
+        left: 49%;
+        padding: 0px 10px 4px 10px;
+    }
+    #line3-vision{
+        top: 119%;
+        left: 53.5%;
+        padding: 0px 4px 4px 8px;
+    }
+    .right-heading{
+        font-size: 20px;
+        padding: 14px 0px 1px 10px;
+        margin: 1px 80px 12px 50px;
+    }
+
+    .right-p {
+        font-size: 14px;
+        padding: 0px 9px 1px 10px;
+        margin: 17px 25px 12px 35px;
+    }
+    .btn-visionread{
+        top: 213%;
+        font-size: 12px;
+        left: 10%;
+        padding-left: 15px;
+    }
+}
+@media only screen and (max-width: 320px) {
+    .vision-main{
+        height: 70vh;
+        width: 98.7vw;
+    }
+    .right-vision{
+        font-size: 20px;
+        padding: 10px 0px 0px 110px;
+    } 
+    #line1-vision{
+        top: 116%;
+        left: 36%;
+        padding: 0px 30px 4px 10px;
+    }
+    #line2-vision{
+        top: 116%;
+        left: 50%;
+        padding: 0px 10px 4px 10px;
+    }
+    #line3-vision{
+        top: 116%;
+        left: 57%;
+        padding: 0px 4px 4px 8px;
+    }
+    .right-heading{
+        font-size: 20px;
+        padding: 14px 0px 1px 10px;
+        margin: -18px 50px 12px 50px;
+    }
+
+    .right-p {
+        font-size: 12px;
+        padding: 0px 9px 1px 10px;
+        margin: -5px 25px 12px 35px;
+    }
+    .btn-visionread{
+        top: 228%;
+        font-size: 12px;
+        left: 13%;
+        padding-left: 15px;
+    }
+}

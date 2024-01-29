@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.promoted-container{
+    height: 110vh;
+    width: 98.7vw;
+    background: #f2f5ff;
+    position: relative;
+    margin-top: 0px;
+}
+
+.promoted-container .main-heading{
+    position: absolute;
+    z-index: 1;
+    color: #464646;
+    font-family: Poppins, sans-serif;
+    font-size: 49px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48.5px; 
+    letter-spacing: -1px;
+    top: 15%;
+    left: 30%;
+}
+
+.promoted-box{
+    top: 10%;
+    left: 0.1%;
+    position: absolute;
+    z-index: 1;
+    border: 1px solid #7554C1;
+    border-radius: 10px;
+    background: linear-gradient(350deg, #6347AA 40.85%, #233F81 150.97%);
+    color: transparent;
+    padding: 400px 200px 100px 50px;
+}
+
+.h-btn{
+    position: absolute;
+    z-index: 2;
+    top: 25%;
+    left: 2%;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 2px solid #fff;
+    background: transparent;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 15px 50px 15px 50px;
+    font-weight: 600;
+}
+.h-btn:hover{
+    background: #fff;
+    color: #6347AA;
+
+}
+.r-btn{
+    position: absolute;
+    z-index: 2;
+    top: 35%;
+    left: 2%;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 2px solid #fff;
+    background: transparent;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 15px 50px 15px 50px;
+    font-weight: 600;
+}
+.r-btn:hover{
+    background: #fff;
+    color: #6347AA;
+
+}
+.e-btn{
+    position: absolute;
+    z-index: 2;
+    top: 45%;
+    left: 2%;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 2px solid #fff;
+    background: transparent;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 15px 50px 15px 55px;
+    font-weight: 600;
+}
+.e-btn:hover{
+    background: #fff;
+    color: #6347AA;
+
+}
+.re-btn{
+    position: absolute;
+    z-index: 2;
+    top: 55%;
+    left: 2%;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 2px solid #fff;
+    background: transparent;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 15px 50px 15px 50px;
+    font-weight: 600;
+}
+.re-btn:hover{
+    background: #fff;
+    color: #6347AA;
+
+}
+.ed-btn{
+    position: absolute;
+    z-index: 2;
+    top: 65%;
+    left: 2%;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 2px solid #fff;
+    background: transparent;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 15px 50px 15px 60px;
+    font-weight: 600;
+}
+.ed-btn:hover{
+    background: #fff;
+    color: #6347AA;
+
+}
+.p-left-box{
+    top: -10%;
+    left: 54.2%;
+    position: absolute;
+    z-index: 1;
+    border-radius: 20px;
+    border: 2px solid #e9eeff;
+    background: #e9eeff;
+    color: transparent;
+    padding: 700px 200px 200px 100px;
+    transform: rotate(90deg);
+    transform-origin: 50% 50%;
+    box-shadow:  0px 0px 4px 4px #d6e0ff;
+}
+.p-left-box1{
+    top: 31.5%;
+    left: 35%;
+    position: absolute;
+    z-index: 1;
+    border-radius: 20px;
+    border: 1px solid #e9eeff;
+    background: #e9eeff;
+    color: transparent;
+    padding: 250px 200px 100px 100px;
+    box-shadow:  0px 0px 4px 4px #d6e0ff;
+}
+
+.p-left-img{
+    position:absolute;
+    z-index: 3;
+    height: 350px;
+    width: 200px;
+    top: 32%;
+    left: 39%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.promoted-container .heading-h1{
+    position: absolute;
+    z-index: 1;
+    color: #464646;
+    font-family: Poppins, sans-serif;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48.5px; 
+    letter-spacing: -1px;
+    top: 40%;
+    left:60%;
+}
+
+.promoted-container p{
+    position: absolute;
+    z-index: 1;
+    color: #8a8888;
+    font-family: Poppins, sans-serif;
+    font-size: 17.9px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 30px; 
+    letter-spacing: -1px;
+    top: 48%;
+    left:60%;
+}
+.click-btn{
+    position: absolute;
+    z-index: 2;
+    top: 72%;
+    left: 60%;
+    font-size: 15px;
+    border-radius: 5px;
+    border:none;
+    background: linear-gradient(256deg, #6347AA 7.85%, #233F81 107.97%);
+    color: #fff;
+    text-transform: capitalize;
+    padding: 15px 20px 15px 20px;
+    font-weight: 600;
+}
