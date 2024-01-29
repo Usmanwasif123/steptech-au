@@ -110,7 +110,7 @@ const Navbar = () => {
         <li><Link to='/'>home</Link></li>
             <li><Link to='/about-us' className='about'>about us</Link></li>
             <li className='dropdown' onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
-           <KeyboardArrowDownOutlined style={{position:'absolute', zIndex: 1, fontSize: '25px', top: '290%', left: '73.4px', color: "#fff"}}/>
+           <KeyboardArrowDownOutlined style={{position:'absolute', zIndex: 1, fontSize: '25px', top: '260%', left: '73.4px', color: "#fff"}}/>
             <Link to='/service' className='service'>services</Link>
             {isDropdownOpen && 
             <div className='dropdown-content' ref={dropdownRef} onMouseEnter={handleDropdownMouseEnter} onMouseLeave={handleDropdownMouseLeave}>

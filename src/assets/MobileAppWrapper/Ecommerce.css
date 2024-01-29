@@ -120,7 +120,7 @@
     position: absolute;
     z-index: 5;
     top: 15%;
-    left: 55%;
+    left: 60%;
     color: #FFF;
     font-family: Poppins, sans-serif;
     font-size: 30px;
@@ -129,13 +129,14 @@
     line-height: 40px; 
     letter-spacing: -1px;
     text-transform: capitalize;
+    padding-right: 20px;
 }
 
 .app3-visible-div .visible-p3{
     position: absolute;
     z-index: 5;
-    top: 25%;
-    left: 48%;
+    top: 23%;
+    left: 55%;
     color: #FFF;
     font-family: Poppins, sans-serif;
     font-size: 17px;
@@ -144,6 +145,7 @@
     line-height: 25px; 
     letter-spacing: -1px;
     text-transform: inherit;
+    padding-right: 20px;
 }
 
 .visible-contact-form{

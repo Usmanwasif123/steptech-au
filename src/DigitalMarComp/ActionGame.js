@@ -110,11 +110,11 @@ const ActionGame = () => {
       thanks to our experienced team of <b>digital marketing specialists</b>, creative tactics, and comprehensive understanding
        of the digital environment. The <b>Digital Marketing Services</b> we offer our clients are the following.
       </p>
-      <ArrowRightIcon style={{...arrowStyle1, top: '11%'}} onClick={toggleParagraphVisibility1}/>
-      <ArrowRightIcon style={{...arrowStyle2, top: '26%'}} onClick={toggleParagraphVisibility2} />
+      <ArrowRightIcon style={{...arrowStyle1, top: '5%'}} onClick={toggleParagraphVisibility1}/>
+      <ArrowRightIcon style={{...arrowStyle2, top: '21%'}} onClick={toggleParagraphVisibility2} />
       <ArrowRightIcon style={{...arrowStyle3, top: '41%'}} onClick={toggleParagraphVisibility3}/>
       <ArrowRightIcon style={{...arrowStyle4, top: '56%'}} onClick={toggleParagraphVisibility4}/>
-      <ArrowRightIcon style={{...arrowStyle5, top: '71%'}} onClick={toggleParagraphVisibility5}/>
+      <ArrowRightIcon style={{...arrowStyle5, top: '75%'}} onClick={toggleParagraphVisibility5}/>
       <h1 className='h1' onClick={toggleParagraphVisibility1} >Search Engine Optimization</h1>
       <div style={containerStyle1}>
         {isParagraphVisible1 && (

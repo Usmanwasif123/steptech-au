@@ -48,7 +48,7 @@
     font-weight: 700;
     line-height: 60px; 
     letter-spacing: -1px;
-    top: 5%;
+    top: -1%;
     left: 55%;
     padding: 30px 5px 0px 0px;
     color: #243F82;
@@ -58,16 +58,16 @@
     position: absolute;
     z-index: 1;
     font-family: Poppins, sans-serif;
-    font-size: 20px;
+    font-size: 18px;
     font-style: normal;
-    font-weight: 700;
-    line-height: 60px; 
+    font-weight: 500;
+    line-height: 25px; 
     letter-spacing: -1px;
-    top: 10%;
+    top: 5%;
     left: 55%;
-    padding: 30px 5px 0px 0px;
-    color: #333;
-    text-transform: capitalize; 
+    padding: 30px 40px 0px 0px;
+    color: #808080;
+    text-transform: inherit;  
 }
 .digi-section6 .h2{
     position: absolute;
@@ -78,7 +78,7 @@
     font-weight: 700;
     line-height: 60px; 
     letter-spacing: -1px;
-    top: 20%;
+    top: 15%;
     left: 55%;
     padding: 30px 5px 0px 0px;
     color: #243F82;
@@ -88,16 +88,16 @@
     position: absolute;
     z-index: 1;
     font-family: Poppins, sans-serif;
-    font-size: 20px;
+    font-size: 18px;
     font-style: normal;
-    font-weight: 700;
-    line-height: 60px; 
+    font-weight: 500;
+    line-height: 25px;  
     letter-spacing: -1px;
-    top: 25%;
+    top: 22%;
     left: 55%;
-    padding: 30px 5px 0px 0px;
-    color: #333;
-    text-transform: capitalize; 
+    padding: 30px 40px 0px 0px;
+    color: #808080;
+    text-transform: inherit; 
 }
 .digi-section6 .h3{
     position: absolute;
@@ -118,16 +118,16 @@
     position: absolute;
     z-index: 1;
     font-family: Poppins, sans-serif;
-    font-size: 20px;
+    font-size: 18px;
     font-style: normal;
-    font-weight: 700;
-    line-height: 60px; 
+    font-weight: 500;
+    line-height: 25px; 
     letter-spacing: -1px;
-    top: 40%;
+    top: 41%;
     left: 55%;
-    padding: 30px 5px 0px 0px;
-    color: #333;
-    text-transform: capitalize; 
+    padding: 30px 40px 0px 0px;
+    color: #808080;
+    text-transform: inherit; 
 }
 .digi-section6 .h4{
     position: absolute;
@@ -148,16 +148,16 @@
     position: absolute;
     z-index: 1;
     font-family: Poppins, sans-serif;
-    font-size: 20px;
+    font-size: 18px;
     font-style: normal;
-    font-weight: 700;
-    line-height: 60px; 
+    font-weight: 500;
+    line-height: 25px; 
     letter-spacing: -1px;
-    top: 55%;
+    top: 57%;
     left: 55%;
-    padding: 30px 5px 0px 0px;
-    color: #333;
-    text-transform: capitalize; 
+    padding: 30px 40px 0px 0px;
+    color: #808080;
+    text-transform: inherit; 
 }
 .digi-section6 .h5{
     position: absolute;
@@ -168,7 +168,7 @@
     font-weight: 700;
     line-height: 60px; 
     letter-spacing: -1px;
-    top: 65%;
+    top: 69%;
     left: 55%;
     padding: 30px 5px 0px 0px;
     color: #243F82;
@@ -178,16 +178,16 @@
     position: absolute;
     z-index: 1;
     font-family: Poppins, sans-serif;
-    font-size: 20px;
+    font-size: 18px;
     font-style: normal;
-    font-weight: 700;
-    line-height: 60px; 
+    font-weight: 500;
+    line-height: 25px; 
     letter-spacing: -1px;
-    top: 70%;
+    top: 75%;
     left: 55%;
-    padding: 30px 5px 0px 0px;
-    color: #333;
-    text-transform: capitalize; 
+    padding: 30px 40px 0px 0px;
+    color: #808080;
+    text-transform: inherit; 
 }
 
 

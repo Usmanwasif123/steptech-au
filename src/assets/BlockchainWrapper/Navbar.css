@@ -4,12 +4,12 @@
 
 }
 
-.animate-nav-container{
+.blockchain-nav-container{
     height: 125vh;
     width: 98.7vw;
     position: relative;
 }
-.animate-nav-container img{
+.blockchain-nav-container img{
     position: relative;
     height:  125vh;
     width: 98.7vw;
@@ -39,18 +39,6 @@
 .bars{
     display: none;
 }
-.nav-items li a{
-    position: absolute;
-    display: flex;
-    z-index: 1;
-    text-transform: capitalize;
-    color: #fff;
-    top: 9%;
-    left: 36%;
-    cursor: pointer;
-    text-decoration: none;
-}
-
 .nav-items .about{
     left: 43%;
 }
@@ -65,6 +53,186 @@
 .nav-items .blog{
     left: 68%;
 }
+.dropdown {
+    position: relative;
+    cursor: pointer;
+}
+.dropdown-content {
+    background: #fff;
+    height: 600px;
+    width: 300px;
+    position: absolute;
+    z-index: 5;
+    border-radius: 2px;
+    margin-top: 85px;
+    margin-left: 20px;
+    
+}
+
+.dropdown-content li{
+    list-style: none;
+}
+
+.dropdown-content .nav-service1{
+    position: absolute;
+    z-index: 3;
+    color: #333;
+    top: 5%;
+    left: 5%;
+    font-size: 18px;
+    font-family: Poppins, sans-serif;
+    font-weight: 500p;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.dropdown-content .nav-service2{
+    position: absolute;
+    z-index: 3;
+    color: #333;
+    top: 12%;
+    left: 5%;
+    font-size: 18px;
+    font-family: Poppins, sans-serif;
+    font-weight: 500p;
+    text-transform: capitalize;
+    cursor: pointer;
+    
+}
+
+.dropdown-content .nav-service3{
+    position: absolute;
+    z-index: 3;
+    color: #333;
+    top: 20%;
+    left: 5%;
+    font-size: 18px;
+    font-family: Poppins, sans-serif;
+    font-weight: 500p;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+.dropdown-content .nav-service4{
+    position: absolute;
+    z-index: 3;
+    color: #333;
+    top: 26%;
+    left: 5%;
+    font-size: 18px;
+    font-family: Poppins, sans-serif;
+    font-weight: 500p;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.dropdown-content .nav-service5{
+    position: absolute;
+    z-index: 3;
+    color: #333;
+    top: 33%;
+    left: 5%;
+    font-size: 18px;
+    font-family: Poppins, sans-serif;
+    font-weight: 500p;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.dropdown-content .nav-service6{
+    position: absolute;
+    z-index: 3;
+    color: #333;
+    top: 40%;
+    left: 5%;
+    font-size: 18px;
+    font-family: Poppins, sans-serif;
+    font-weight: 500p;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.dropdown-content .nav-service7{
+    position: absolute;
+    z-index: 3;
+    color: #333;
+    top: 47%;
+    left: 5%;
+    font-size: 18px;
+    font-family: Poppins, sans-serif;
+    font-weight: 500p;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.dropdown-content .nav-service8{
+    position: absolute;
+    z-index: 3;
+    color: #333;
+    top: 54%;
+    left: 5%;
+    font-size: 18px;
+    font-family: Poppins, sans-serif;
+    font-weight: 500p;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.dropdown-content .nav-service9{
+    position: absolute;
+    z-index: 3;
+    color: #333;
+    top: 61%;
+    left: 5%;
+    font-size: 18px;
+    font-family: Poppins, sans-serif;
+    font-weight: 500p;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.dropdown-content .nav-service10{
+    position: absolute;
+    z-index: 3;
+    color: #333;
+    top: 68%;
+    left: 5%;
+    font-size: 18px;
+    font-family: Poppins, sans-serif;
+    font-weight: 500p;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.dropdown-content .nav-service11{
+    position: absolute;
+    z-index: 3;
+    color: #333;
+    top: 75%;
+    left: 5%;
+    font-size: 18px;
+    font-family: Poppins, sans-serif;
+    font-weight: 500p;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.dropdown-content .nav-service12{
+    position: absolute;
+    z-index: 3;
+    color: #333;
+    top: 82%;
+    left: 5%;
+    font-size: 18px;
+    font-family: Poppins, sans-serif;
+    font-weight: 500p;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.dropdown-content .nav-service13{
+    position: absolute;
+    z-index: 3;
+    color: #333;
+    top: 89%;
+    left: 5%;
+    font-size: 18px;
+    font-family: Poppins, sans-serif;
+    font-weight: 500p;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
 
 .quote-btn{
     display: flex;
@@ -128,7 +296,7 @@
     letter-spacing: -1px;
     text-transform: capitalize;
 }
-.animatebtn1-start{
+.blockchain1-start{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -138,6 +306,7 @@
     padding: 10px 20px 10px 20px;
     position: absolute;
     border-radius: 15px;
+    border: none;
     cursor: pointer;
     color: #fff;
     z-index: 1;
@@ -151,7 +320,7 @@
     transition: ease-out 0.4s;
 }
 
-.animatebtn1-start:hover {
+.blockchain1-start:hover {
     box-shadow: inset 0 0 0 50px #e6e1e4;
     color: #233F81;
 }
@@ -166,6 +335,156 @@
     left: 55%;
     background-size: 100%;
     background-repeat: no-repeat;
+}
+.block1-visible-div{
+    background: #47267F;
+    height: 600px;
+    width: 1000px;
+    position: absolute;
+    z-index: 5;
+    top: 18%;
+    left: 15%;
+    border-radius: 70px;
+}
+
+.block1-visible-div img{
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: 6;
+    top: 20%;
+    left: 1%;
+    border-radius: 50px 0px 50px 0px;
+}
+
+.block1-visible-div .visible-p1{
+    position: absolute;
+    z-index: 5;
+    top: 75%;
+    left: -1%;
+    color: #FFF;
+    font-family: Poppins, sans-serif;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px; 
+    letter-spacing: -1px;
+    text-transform: capitalize;
+    padding-left: 20px;
+    padding-right: 400px;
+}
+
+.block1-visible-div .visible-p2{
+    position: absolute;
+    z-index: 5;
+    top: 15%;
+    left: 60%;
+    color: #FFF;
+    font-family: Poppins, sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px; 
+    letter-spacing: -1px;
+    text-transform: capitalize;
+}
+
+.block1-visible-div .visible-p3{
+    position: absolute;
+    z-index: 5;
+    top: 25%;
+    left: 55%;
+    color: #FFF;
+    font-family: Poppins, sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25px; 
+    letter-spacing: -1px;
+    text-transform: inherit;
+}
+
+.visible-contact-form{
+    position: absolute;
+    z-index: 5;
+    top: 40%;
+    left: 55%;
+}
+
+.visible-contact-form .full-name{
+    height: 50px;
+    width: 390px;
+    color: #fff;
+    font-size: 19px;
+    margin-left: 10px;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #fff;
+}
+.visible-contact-form .email{
+    height: 50px;
+    width: 390px;
+    color: #fff;
+    font-size: 19px;
+    margin-left: 10px;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #fff;
+}
+.visible-contact-form .phone-no{
+    height: 50px;
+    width: 390px;
+    color: #fff;
+    font-size: 19px;
+    margin-left: 10px;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #fff;
+}
+.visible-contact-form .message-input{
+    position: absolute;
+    z-index: 5;
+    height: 25px;
+    width: 140px;
+    color: #fff;
+    font-size: 18px;
+    top:110%;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #fff;
+}
+
+.visible-contact-form .submit-btn{
+    position: absolute;
+    z-index: 5;
+    left: 25%;
+    top: 180%;
+    font-size: 15px;
+    font-family: Poppins, sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 10px;
+    border: 1px solid #212457;
+    background: #212457;
+    color: #fff;
+
+
+}
+
+.visible-contact-form .btn-close{
+    position: absolute;
+    z-index: 5;
+    left: 92%;
+    top: -160%;
+    font-family: Poppins, sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    background: transparent;
+    color: #fff;
+    padding: 5px;
+    cursor: pointer;
 }
 
 @media only screen and (max-width: 1024px) {
