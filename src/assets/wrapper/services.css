@@ -504,7 +504,7 @@ transition: all 0.5s ease;
 .card1 .p1-f{
    position: absolute;
    z-index: 2;
-   margin: 200px -500px 0px 10px !important;
+   margin: 200px 30px 0px 15px !important;
    color: #616163;
    text-align: center;
    font-family: Poppins, sans-serif;
@@ -524,7 +524,7 @@ transition: all 0.5s ease;
 .card2 .p2-g{
    position: absolute;
    z-index: 2;
-   margin: 200px -500px 0px 10px !important;
+   margin: 200px 30px 0px 15px !important;
    color: #616163;
    text-align: center;
    font-family: Poppins, sans-serif;
@@ -545,7 +545,7 @@ transition: all 0.5s ease;
 .card3 .p3-w{
     position: absolute;
     z-index: 2;
-    margin: 200px -500px 0px 10px !important;
+    margin: 200px 30px 0px 15px !important;
     color: #616163;
     text-align: center;
     font-family: Poppins, sans-serif;
@@ -566,7 +566,7 @@ transition: all 0.5s ease;
 .card4 .p4-a{
     position: absolute;
     z-index: 2;
-    margin: 200px -500px 0px 10px !important;
+    margin: 200px 30px 0px 15px !important;
     color: #616163;
     text-align: center;
     font-family: Poppins, sans-serif;
@@ -587,7 +587,7 @@ transition: all 0.5s ease;
 .card5 .p5-b{
     position: absolute;
     z-index: 2;
-    margin: 200px -500px 0px 10px !important;
+    margin: 200px 30px 0px 15px !important;
     color: #616163;
     text-align: center;
     font-family: Poppins, sans-serif;
@@ -608,7 +608,7 @@ transition: all 0.5s ease;
 .card6 .p6-c{
     position: absolute;
     z-index: 2;
-    margin: 200px -500px 0px 10px !important;
+    margin: 200px 30px 0px 15px !important;
     color: #616163;
     text-align: center;
     font-family: Poppins, sans-serif;
@@ -628,7 +628,7 @@ transition: all 0.5s ease;
 .card7 .p7-d{
     position: absolute;
     z-index: 2;
-    margin: 200px -500px 0px 10px !important;
+    margin: 200px 30px 0px 15px !important;
     color: #616163;
     text-align: center;
     font-family: Poppins, sans-serif;
@@ -649,7 +649,7 @@ transition: all 0.5s ease;
 .card8 .p8-e{
     position: absolute;
     z-index: 2;
-    margin: 200px -500px 0px 10px !important;
+    margin: 200px 30px 0px 15px !important;
     color: #616163;
     text-align: center;
     font-family: Poppins, sans-serif;
@@ -669,7 +669,7 @@ transition: all 0.5s ease;
 .card9 .p9-e{
     position: absolute;
     z-index: 2;
-    margin: 200px -500px 0px 10px !important;
+    margin: 200px 30px 0px 15px !important;
     color: #616163;
     text-align: center;
     font-family: Poppins, sans-serif;
@@ -690,7 +690,7 @@ transition: all 0.5s ease;
 .card10 .p10-e{
     position: absolute;
     z-index: 2;
-    margin: 200px -500px 0px 10px !important;
+    margin: 200px 30px 0px 15px !important;
     color: #616163;
     text-align: center;
     font-family: Poppins, sans-serif;
@@ -710,7 +710,7 @@ transition: all 0.5s ease;
 .card11 .p11-e{
     position: absolute;
     z-index: 2;
-    margin: 200px -500px 0px 10px !important;
+    margin: 200px 30px 0px 15px !important;
     color: #616163;
     text-align: center;
     font-family: Poppins, sans-serif;
@@ -730,7 +730,7 @@ transition: all 0.5s ease;
 .card12 .p12-e{
     position: absolute;
     z-index: 2;
-    margin: 200px -500px 0px 10px !important;
+    margin: 200px 30px 0px 15px !important;
     color: #616163;
     text-align: center;
     font-family: Poppins, sans-serif;
@@ -750,7 +750,7 @@ transition: all 0.5s ease;
 .card13 .p13-e{
     position: absolute;
     z-index: 2;
-    margin: 200px -500px 0px 10px !important;
+    margin: 200px 30px 0px 15px !important;
     color: #616163;
     text-align: center;
     font-family: Poppins, sans-serif;
@@ -805,7 +805,7 @@ transition: all 0.5s ease;
         height: 20px;
         width: 75vw;
         border-radius: 35px;
-        margin-top: 20px;
+        margin-top: 240px;
         padding: 80px;
         margin-left: 70px;
         position: absolute;
