@@ -18,7 +18,7 @@ const BlockSoftDev = () => {
        Application</b> company is a master in providing a solution that is efficient and powerful while also being 
        user-friendly and visceral.
       </p>
-      <div className='software-img2' data-aos="slide-right" data-aos-duration="600" data-aos-easing="ease-in-sine" data-aos-offset="0"></div>
+      <div className='software-img2'></div>
     </div>
   )
 }

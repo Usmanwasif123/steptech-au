@@ -10,7 +10,7 @@ const BlockSoftDev = () => {
         finest return on investment social media marketing plan for your business. We have a crew of professionals who will offer you whatever
         you want to make your business thrive. Our experts give you the best suggestions and advice on what fits your business best.  
       </p>
-      <div className='smm-img2' data-aos="slide-right" data-aos-duration="600" data-aos-easing="ease-in-sine" data-aos-offset="0"></div>
+      <div className='smm-img2' ></div>
     </div>
   )
 }

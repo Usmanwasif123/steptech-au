@@ -22,7 +22,7 @@ const BlockSoftDev = () => {
       challenge. Head Start Our expert <b> Artificial Intelligence Development Services</b> to accelerate a 
       project or create custom AI solutions.
       </p>
-      <div className='ai-img1' data-aos="slide-left" data-aos-duration="600" data-aos-easing="ease-in-sine" data-aos-offset="0"></div>
+      <div className='ai-img1'></div>
     </div>
   )
 }

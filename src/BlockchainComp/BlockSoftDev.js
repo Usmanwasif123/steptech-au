@@ -16,7 +16,7 @@ const BlockSoftDev = () => {
       business development while changing organizations and laying out better plans of action with custom 
       cryptographic forms of money, agreement calculations, individual hubs, and designs.
       </p>
-      <div className='block-img1' data-aos="slide-right" data-aos-duration="600" data-aos-easing="ease-in-sine" data-aos-offset="0"></div>
+      <div className='block-img1'></div>
     </div>
   )
 }

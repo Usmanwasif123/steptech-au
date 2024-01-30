@@ -12,7 +12,7 @@ const ActionGame = () => {
       sports game. At Step Tech Global, we have extensive years of experience in the blockchain industry and assist you 
       with futuristic game development solutions. We assist you in bringing your gaming business to new heights.
       </p>
-      <div className='animate-img1' ></div>
+      <div className='animate-img1'></div>
     </div>
   )
 }

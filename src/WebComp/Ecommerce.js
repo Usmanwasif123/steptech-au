@@ -35,7 +35,7 @@ const Ecommerce = () => {
           </form>
         </div>
       }
-      <div className='ecom-image' data-aos="slide-up" data-aos-duration="750" data-aos-easing="ease-in-sine" data-aos-offset="0"></div>
+      <div className='ecom-image' ></div>
     </div>
   )
 }

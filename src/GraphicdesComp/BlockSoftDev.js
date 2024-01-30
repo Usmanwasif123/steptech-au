@@ -12,7 +12,7 @@ const BlockSoftDev = () => {
          team has an innovative idea for your business promotion. They are the best and are greatly committed to designing what you like. Also,
           they will apprehend the essence of your brand and will transfer it to the audience unaltered.
       </p>
-      <div className='graph-img2' data-aos="slide-right" data-aos-duration="600" data-aos-easing="ease-in-sine" data-aos-offset="0"></div>
+      <div className='graph-img2' ></div>
     </div>
   )
 }

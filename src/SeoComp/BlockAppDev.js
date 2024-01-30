@@ -23,7 +23,7 @@ const BlockAppDev = () => {
       <ArrowForwardIcon style={{position:'absolute', zIndex:'1', color:'#243F82', fontSize: '30px', 
       fontWeight: '200', top: '90%', left: '50%'}}/>
       <span className='span5'>We continuously change our SEO tactics to align the search scores with the latest search engine guidelines.</span>
-      <div className='seo-img4' data-aos="slide-right" data-aos-duration="600" data-aos-easing="ease-in-sine" data-aos-offset="0"></div>
+      <div className='seo-img4'></div>
     </div>
   )
 }

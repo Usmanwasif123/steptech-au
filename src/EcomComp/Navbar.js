@@ -120,7 +120,7 @@ const Navbar = () => {
           </form>
         </div>
       }
-      <div className='ecom-nav-image' data-aos="slide-left" data-aos-duration="500" data-aos-easing="ease-in-sine" data-aos-offset="0"></div>
+      <div className='ecom-nav-image'></div>
     </div>
    </>
   );

@@ -19,8 +19,8 @@ const ActionGame = () => {
       At Step Tech Global, we are turning app concepts into digital masterpieces. As a well-known mobile app development company, we offer the 
       best app development services to clear up your business concerns.
       </p>
-      <div className='service-left2' data-aos="slide-right" data-aos-duration="600" data-aos-easing="ease-in-sine" data-aos-offset="0"></div>
-      <div className='service-right2' data-aos="slide-left" data-aos-duration="600" data-aos-easing="ease-in-sine" data-aos-offset="0"></div>
+      <div className='service-left2' ></div>
+      <div className='service-right2'></div>
     </div>
   )
 }

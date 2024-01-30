@@ -27,7 +27,7 @@ const BlockAppDev = () => {
       <ArrowForwardIcon style={{position:'absolute', zIndex:'1', color:'#243F82', fontSize: '30px', 
       fontWeight: '200', top: '90%', left: '50%'}}/>
       <span className='span6'>Save time and budget on expanding your platform from scratch.</span>
-      <div className='nft-img3' data-aos="slide-right" data-aos-duration="600" data-aos-easing="ease-in-sine" data-aos-offset="0"></div>
+      <div className='nft-img3' ></div>
     </div>
   )
 }

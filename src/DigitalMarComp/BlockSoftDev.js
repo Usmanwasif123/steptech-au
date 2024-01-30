@@ -11,7 +11,7 @@ const BlockSoftDev = () => {
          devoted to assisting you in achieving your business goals and triumph online. Our professionals continually expand their knowledge 
          and expertise in their respective disciplines to bring you creative and practical solutions.
       </p>
-      <div className='digi-img2' data-aos="slide-right" data-aos-duration="600" data-aos-easing="ease-in-sine" data-aos-offset="0"></div>
+      <div className='digi-img2'></div>
     </div>
   )
 }

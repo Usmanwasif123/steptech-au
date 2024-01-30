@@ -34,7 +34,7 @@ const BlockAppDev = () => {
       fontWeight: '200', top: '79%', left: '50%'}}/>
       <span className='span6'>We are a blockchain developer company that builds decentralized digital community
       apps using Blockchain frameworks.</span>
-      <div className='block-img3' data-aos="slide-right" data-aos-duration="600" data-aos-easing="ease-in-sine" data-aos-offset="0"></div>
+      <div className='block-img3'></div>
     </div>
   )
 }

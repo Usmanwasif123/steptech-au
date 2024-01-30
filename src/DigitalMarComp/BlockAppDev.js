@@ -24,7 +24,7 @@ const BlockAppDev = () => {
       fontWeight: '200', top: '90%', left: '50%'}}/>
       <span className='span5'>We have a highly skilled <b>digital marketing specialist</b> crew comprising some of the best talents in the industry.
       </span>
-      <div className='digi-img4' data-aos="slide-right" data-aos-duration="600" data-aos-easing="ease-in-sine" data-aos-offset="0"></div>
+      <div className='digi-img4' ></div>
     </div>
   )
 }

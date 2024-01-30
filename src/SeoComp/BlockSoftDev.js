@@ -12,7 +12,7 @@ const BlockSoftDev = () => {
          are a full-service <b>SEO company</b> that will improve your internet exposure and help you remain forward of 
          the competition.
       </p>
-      <div className='seo-img2' data-aos="slide-right" data-aos-duration="600" data-aos-easing="ease-in-sine" data-aos-offset="0"></div>
+      <div className='seo-img2'></div>
     </div>
   )
 }

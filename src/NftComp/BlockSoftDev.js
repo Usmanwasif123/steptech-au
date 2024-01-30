@@ -18,7 +18,7 @@ const BlockSoftDev = () => {
       deep perception of your projects and determine areas where technology can be exploited to drive growth 
       and efficiency.
       </p>
-      <div className='nft-img1' data-aos="slide-left" data-aos-duration="600" data-aos-easing="ease-in-sine" data-aos-offset="0"></div>
+      <div className='nft-img1'></div>
     </div>
   )
 }

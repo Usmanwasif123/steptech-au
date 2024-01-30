@@ -121,7 +121,7 @@ const Navbar = () => {
           </form>
         </div>
       }
-      <div className='graph-nav-image' data-aos="slide-down" data-aos-duration="500" data-aos-easing="ease-in-sine" data-aos-offset="0"></div>
+      <div className='graph-nav-image'></div>
     </div>
    </>
   );

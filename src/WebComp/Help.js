@@ -34,7 +34,7 @@ const Help = () => {
           </form>
         </div>
       }
-      <div className='hel-image'  data-aos="slide-right" data-aos-duration="750" data-aos-easing="ease-in-sine" data-aos-offset="0"></div>
+      <div className='hel-image' ></div>
     </div>
   )
 }

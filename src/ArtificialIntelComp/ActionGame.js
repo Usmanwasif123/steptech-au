@@ -32,7 +32,7 @@ const ActionGame = () => {
       applications. Our artificial intelligence developers and AI engineers can help you retool your extant 
       system or boost your company results with proficient know-how.
       </p>
-      <div className='ai-img4' data-aos="slide-left" data-aos-duration="600" data-aos-easing="ease-in-sine" data-aos-offset="0"></div>
+      <div className='ai-img4'></div>
     </div>
   )
 }

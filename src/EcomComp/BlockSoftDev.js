@@ -12,7 +12,7 @@ const BlockSoftDev = () => {
          clients' expectations. They create visually stunning websites and offer Shopify website development, WordPress,
           Shopify, ecommerce, and woo-commerce. 
       </p>
-      <div className='ecom-img2' data-aos="slide-right" data-aos-duration="600" data-aos-easing="ease-in-sine" data-aos-offset="0"></div>
+      <div className='ecom-img2'></div>
     </div>
   )
 }

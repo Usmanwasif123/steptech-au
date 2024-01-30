@@ -24,7 +24,7 @@ const BlockAppDev = () => {
       <ArrowForwardIcon style={{position:'absolute', zIndex:'1', color:'#243F82', fontSize: '30px', 
       fontWeight: '200', top: '90%', left: '50%'}}/>
       <span className='span5'>Obtaining a 100% client satisfaction percentage is our primary objective.</span>
-      <div className='ecom-img4' data-aos="slide-right" data-aos-duration="600" data-aos-easing="ease-in-sine" data-aos-offset="0"></div>
+      <div className='ecom-img4' ></div>
     </div>
   )
 }

@@ -99,6 +99,8 @@
 }
 
 .service-carousel{
+    position: absolute;
+    z-index: 2;
     box-sizing: border-box;
     padding: 5rem;
     height: 80vh;
@@ -769,8 +771,7 @@ transition: all 0.5s ease;
     height: 500px;
     position: relative;
     z-index: 3;
-
-   
+  
 }
 
 .service-carousel .slick-dots li.slick-active button:before {
@@ -860,151 +861,638 @@ transition: all 0.5s ease;
     left: 70%;
 }
 @media only screen and (max-width: 1024px) {
+         .service-container{
+            height: 80vh;
+       }
+       .service-container img{
+        position: relative;
+    }
         .service-heading1{
             left: 45%;
-            top: 20%;
-            font-size: 22px;
+            top: 5% !important;
+
         }
         #line1-service{
-            top: 30%;
+            top: 20% !important;
             left: 44.6%;
             padding: 0px 45px 4px 20px;
         }
         #line2-service{
-            top: 30%;
+            top: 20% !important;
             left: 51.3%;
             padding: 0px 7px 4px 5px;
         }
         #line3-service{
-            top: 30%;
+            top: 20% !important;
             left: 52.6%;
             padding: 0px 6px 4px 3px;
         }
         .service-heading2{
             font-size: 35px;
-            top: 37%;
+            top: 25% !important;
             left: 30%;
         }
         .service-p{
-            top: 47%;
+            top: 40% !important;
             left: 20%;
             font-size: 13px;
             padding: 0px 5px 0px 0px;
             margin-left: -160px;
         }
-        .carousel{
-            box-sizing: border-box;
-            padding: 5rem;
-            height: 60vh;
-            width: 0vw;
-            margin-top: -350px;
-            padding-left: 50px; 
+        .service-carousel{
+            position: absolute !important;
+            z-index: 3 !important;
         }
         
-        .cards{
-            height: 300px;
+        .card1{
+            background: #F4F6FF;
+            height: 355px !important;
+            border-radius: 20px;
+            border: 2px solid #E3E4F6;
             width:90% !important;
+            margin-top: 140px !important;
+           
         }
-    
-        .slick-slider {
+        
+        .card2{
+            background: #F4F6FF;
+            height: 355px !important;
+            border-radius: 20px;
+            border: 2px solid #E3E4F6;
+            width:90% !important;
+            margin-top: 140px !important;
+        }
+        .card3{
+            background: #F4F6FF;
+            height: 355px !important;
+            border-radius: 20px;
+            border: 2px solid #E3E4F6;
+            width:90% !important;
+            margin-top: 140px !important;
+        }
+        .card4{
+            background: #F4F6FF;
+            height: 355px !important;
+            border-radius: 20px;
+            border: 2px solid #E3E4F6;
+            width:90% !important;
+            margin-top: 140px !important;
+        }
+        .card5{
+            background: #F4F6FF;
+            height: 355px !important;
+            border-radius: 20px;
+            border: 2px solid #E3E4F6;
+            width:90% !important;
+            margin-top: 140px !important;
+        }
+        .card6{
+            background: #F4F6FF;
+            height: 355px !important;
+            border-radius: 20px;
+            border: 2px solid #E3E4F6;
+            width:90% !important;
+            margin-top: 140px !important;
+        }
+        .card7{
+            background: #F4F6FF;
+            height: 355px !important;
+            border-radius: 20px;
+            border: 2px solid #E3E4F6;
+            width:90% !important;
+            margin-top: 140px !important;
+        }
+        .card8{
+            background: #F4F6FF;
+            height: 355px !important;
+            border-radius: 20px;
+            border: 2px solid #E3E4F6;
+            width:90% !important;
+            margin-top: 140px !important;
+        }
+        .card9{
+            background: #F4F6FF;
+            height: 355px !important;
+            border-radius: 20px;
+            border: 2px solid #E3E4F6;
+            width:90% !important;
+            margin-top: 140px !important;
+        }
+        .card10{
+            background: #F4F6FF;
+            height: 355px !important;
+            border-radius: 20px;
+            border: 2px solid #E3E4F6;
+            width:90% !important;
+            margin-top: 140px !important;
+        }
+        .card11{
+            background: #F4F6FF;
+            height: 355px !important;
+            border-radius: 20px;
+            border: 2px solid #E3E4F6;
+            width:90% !important;
+            margin-top: 140px !important;
+        }
+        .card12{
+            background: #F4F6FF;
+            height: 355px !important;
+            border-radius: 20px;
+            border: 2px solid #E3E4F6;
+            width:90% !important;
+            margin-top: 140px !important;
+        }
+        .card13{
+            background: #F4F6FF;
+            height: 355px !important;
+            border-radius: 20px;
+            border: 2px solid #E3E4F6;
+            width:90% !important;
+            margin-top: 140px !important;
+        }
+        .card1 .circle1{
+            position: absolute;
+            z-index: 3;
+            height: 100px;
+            width: 100px;
+            top: 13%;
+            left: 32%;
+            -webkit-filter: brightness(100%);
+            background-size: 100%;
+            background-repeat: none;
+            background-size: contain;
+        }
+        .card2 .circle2{
+            position: absolute;
+            z-index: 3;
+            height: 100px;
+            width: 100px;
+            top: 13%;
+            left: 32%;
+            -webkit-filter: brightness(100%);
+            background-size: 100%;
+            background-repeat: none;
+            background-size: contain;
+        }
+        .card3 .circle3{
+            position: absolute;
+            z-index: 3;
+            height: 100px;
+            width: 100px;
+            top: 13%;
+            left: 32%;
+            -webkit-filter: brightness(100%);
+            background-size: 100%;
+            background-repeat: none;
+            background-size: contain;
+        }
+        .card4 .circle4{
+            position: absolute;
+            z-index: 3;
+            height: 100px;
+            width: 100px;
+            top: 13%;
+            left: 33%;
+            -webkit-filter: brightness(100%);
+            background-size: 100%;
+            background-repeat: none;
+            background-size: contain;
+        }
+        .card5 .circle5{
+            position: absolute;
+            z-index: 3;
+            height: 100px;
+            width: 100px;
+            top: 13%;
+            left: 38.2%;
+            -webkit-filter: brightness(100%);
+            background-size: 100%;
+            background-repeat: none;
+            background-size: contain;
+        }
+        .card6 .circle6{
+            position: absolute;
+            z-index: 3;
+            height: 100px;
+            width: 100px;
+            top: 13%;
+            left: 32%;
+            -webkit-filter: brightness(100%);
+            background-size: 100%;
+            background-repeat: none;
+            background-size: contain;
+        }
+        .card7 .circle7{
+            position: absolute;
+            z-index: 3;
+            height: 100px;
+            width: 100px;
+            top: 13%;
+            left: 32%;
+            -webkit-filter: brightness(100%);
+            background-size: 100%;
+            background-repeat: none;
+            background-size: contain;
+        }
+        .card8 .circle8{
+            position: absolute;
+            z-index: 3;
+            height: 100px;
+            width: 100px;
+            top: 13%;
+            left: 32%;
+            -webkit-filter: brightness(100%);
+            background-size: 100%;
+            background-repeat: none;
+            background-size: contain;
+        }
+        .card9 .circle9{
+            position: absolute;
+            z-index: 3;
+            height: 100px;
+            width: 100px;
+            top: 13%;
+            left: 32%;
+            -webkit-filter: brightness(100%);
+            background-size: 100%;
+            background-repeat: none;
+            background-size: contain;
+        }
+        .card10 .circle10{
+            position: absolute;
+            z-index: 3;
+            height: 100px;
+            width: 100px;
+            top: 13%;
+            left: 32%;
+            -webkit-filter: brightness(100%);
+            background-size: 100%;
+            background-repeat: none;
+            background-size: contain;
+        }
+        .card11 .circle11{
+            position: absolute;
+            z-index: 3;
+            height: 100px;
+            width: 100px;
+            top: 13%;
+            left: 32%;
+            -webkit-filter: brightness(100%);
+            background-size: 100%;
+            background-repeat: none;
+            background-size: contain;
+        }
+        .card12 .circle12{
+            position: absolute;
+            z-index: 3;
+            height: 100px;
+            width: 100px;
+            top: 13%;
+            left: 32%;
+            -webkit-filter: brightness(100%);
+            background-size: 100%;
+            background-repeat: none;
+            background-size: contain;
+        }
+        .card13 .circle13{
+            position: absolute;
+            z-index: 3;
+            height: 100px;
+            width: 100px;
+            top: 13%;
+            left: 32%;
+            -webkit-filter: brightness(100%);
+            background-size: 100%;
+            background-repeat: none;
+            background-size: contain;
+        }
+        .card1 .ai{
+            position:absolute;
+            z-index: 3;
+            height: 100px;
+            width: 100px;
+            top: 20%;
+            left: 40%;
+        }
+        .card2 .ai{
+            position:absolute;
+            z-index: 3;
+            height: 100px;
+            width: 100px;
+            top: 20%;
+            left: 40%;
+        }
+        .card3 .ai{
+            position:absolute;
+            z-index: 3;
+            height: 100px;
+            width: 100px;
+            top: 20%;
+            left: 40%;
+        }
+        .card4 .ai{
+            position:absolute;
+            z-index: 3;
+            height: 100px;
+            width: 100px;
+            top: 20%;
+            left: 40%;
+        }
+        .card5 .ai{
+            position:absolute;
+            z-index: 3;
+            height: 100px;
+            width: 100px;
+            top: 20%;
+            left: 40%;
+        }
+        .card6 .ai{
+            position:absolute;
+            z-index: 3;
+            height: 100px;
+            width: 100px;
+            top: 20%;
+            left: 40%;
+        }
+        .card7 .ai{
+            position:absolute;
+            z-index: 3;
+            height: 100px;
+            width: 100px;
+            top: 20%;
+            left: 40%;
+        }
+        .card8 .ai{
+            position:absolute;
+            z-index: 3;
+            height: 100px;
+            width: 100px;
+            top: 20%;
+            left: 40%;
+        }
+        .card9 .ai{
+            position:absolute;
+            z-index: 3;
+            height: 100px;
+            width: 100px;
+            top: 20%;
+            left: 40%;
+        }
+        
+        .card10 .ai{
+            position:absolute;
+            z-index: 3;
+            height: 100px;
+            width: 100px;
+            top: 20%;
+            left: 40%;
+        }
+        .card11 .ai{
+            position:absolute;
+            z-index: 3;
+            height: 100px;
+            width: 100px;
+            top: 20%;
+            left: 40%;
+        }
+        .card12 .ai{
+            position:absolute;
+            z-index: 3;
+            height: 100px;
+            width: 100px;
+            top: 20%;
+            left: 40%;
+        }
+        .card13 .ai{
+            position:absolute;
+            z-index: 3;
+            height: 100px;
+            width: 100px;
+            top: 20%;
+            left: 40%;
+        }
+        .ai:hover{
+            box-shadow:
+        1px 1px #8298ff,
+        2px 2px #8298ff,
+        3px 3px #8298ff,
+        4px 4px #8298ff,
+        5px 5px #8298ff,
+        6px 6px #8298ff;
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+        transition: .5s ease;
+        -webkit-filter: brightness(50%);
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        -ms-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+        }
+        
+        .card1 .h1-f{
+            margin-left: 40px !important;
+            font-size: 20px;
+        }
+        .card1 .p1-f{
+           margin: 200px 1px 0px 10px !important;
+      
+        }
+        .card2 .h2-g{
+            margin-left: 50px !important;
+            font-size: 20px;
+        }
+        .card2 .p2-g{
+           margin: 210px 1px 0px 10px !important;
+        }
+        
+        .card3 .h3-w{
+            margin-left: 50px !important;
+            font-size: 20px;
+        }
+        .card3 .p3-w{
+            margin: 210px 1px 0px 10px !important;
+        }
+        
+        .card4 .h4-a{
+            margin-left: 40px !important;
+            font-size: 20px;
+        }
+        .card4 .p4-a{
+            margin: 200px 1px 0px 10px !important; 
+        }
+        
+        .card5 .h5-b{
+            margin-left: 60px !important;
+            font-size: 20px;
+        }
+        .card5 .p5-b{
+            margin: 210px 1px 0px 10px !important;
+
+        }
+        
+        .card6 .h6-c{
+            margin-left: 60px !important;
+            font-size: 20px;
+        }
+        .card6 .p6-c{
+            margin: 210px 1px 0px 10px !important;
+        }
+        .card7 .h7-d{
+            margin-left: 50px !important;
+            font-size: 20px;
+        }
+        .card7 .p7-d{
+            margin: 200px 1px 0px 10px !important;
+
+        }
+        
+        .card8 .h8-e{
+            margin-left: 90px !important;
+            font-size: 20px;
+        }
+        .card8 .p8-e{
+            margin: 200px 1px 0px 10px !important;
+          
+        }
+        .card9 .h9-e{
+            margin-left: 60px !important;
+        }
+        .card9 .p9-e{
+            margin: 210px 1px 0px 10px !important;
+
+        }
+        
+        .card10 .h10-e{
+            margin-left: 60px !important;
+            font-size: 20px;
+        }
+        .card10 .p10-e{
+            margin: 200px 1px 0px 10px !important;
+        }
+        .card11 .h11-e{
+            margin-left: 60px !important;
+            font-size: 20px;
+        }
+        .card11 .p11-e{
+            margin: 210px 1px 0px 10px !important;
+
+        }
+        .card12 .h12-e{
+            margin-left: 130px !important;
+            font-size: 20px;
+        }
+        .card12 .p12-e{
+            margin: 200px 1px 0px 10px !important;
+        }
+        .card13 .h13-e{
+            margin-left: 50px !important;
+            font-size: 20px;
+        }
+        .card13 .p13-e{
+            margin: 200px 1px 0px 10px !important;
+        }
+        
+        .service-carousel .slick-slider {
+            margin-top: -220px !important;
             width: 900px !important;
         }
-        .cards .circle{
-            height: 90px;
-            width: 90px;
-            margin-left: 75px;
+        
+        .service-carousel .slick-slide div{
+            margin: -140px 1px 0 0;
+            width: 370px;
+            height: 500px;
+            position: relative;
+            z-index: 3;
+          
         }
-        .cards img{
-            height: 80px;
-            width: 80px;
-            top: 75%;
-            left: 30%;
+        
+        .service-carousel .slick-dots li.slick-active button:before {
+            color: #3C4B90 !important;
+            
         }
-        .cards .h1-ai{
-            margin-top: 160px;
-            font-size: 20px;
-            margin-left: 30px;
-           
+        .service-carousel .slick-dots li button:before {
+            color: #DDE3FF;
+            font-size: 1rem !important;
+            top: 1rem !important;
         }
-        .cards .p1-ai{
-            font-size: 13.5px;
-            margin-top: 210px;
-            left: 15.9%;
+        
+        .service-carousel .slick-initialized .slick-slide {
+            display: flex;
         }
-        .cards .h2-ai{
-            margin-top: 160px;
-            font-size: 20px;
-            margin-left: 50px;
-           
+        
+        .service-carousel .slick-prev {
+            left: 0px;
+            margin-left: -30px;
+            background-color:#434395 !important;
+            border-radius: 10px;
         }
-        .cards .p2-ai{
-            font-size: 13.5px;
-            margin-top: 210px;
-            left: 21.2%;
+        .service-carousel .slick-next{
+            right: 0px;
+            background-color: #434395 !important;
+            border-radius: 10px 10px 10px 10px;
         }
-        .cards .h3-ai{
-            margin-top: 160px;
-            font-size: 18px;
-            margin-left: -2px;
-            padding: 0px 0px 0px 7px;
-        }
-        .cards .p3-ai{
-            font-size: 13.5px;
-            margin-top: 210px;
-            left: 26.5%;
-        }
-        .cards .h4-ai{
-            margin-top: 160px;
-            font-size: 20px;
-            margin-left: 30px;
-        }
-        .cards .p4-ai{
-            font-size: 13.5px;
-            margin-top: 210px;
-            left: 31.7%;
-        }
-        .cards .h5-ai{
-            margin-top: 160px;
-            font-size: 20px;
-            margin-left: 36px;
-        }
-        .cards .p5-ai{
-            font-size: 13.5px;
-            margin-top: 210px;
-            left: 37%;
-        }
-        .cards .h6-ai{
-            margin-top: 160px;
-            font-size: 20px;
-            margin-left: 50px;
-        }
-        .cards .p6-ai{
-            font-size: 13.5px;
-            margin-top: 210px;
-            left: 42.3%;
-        }
-        .cards .h7-ai{
-            margin-top: 160px;
-            margin-left: -53px;
-            padding: 0px 0px 0px 60px;
-            font-size: 18px;
-        }
-        .cards .p7-ai{
-            font-size: 13.5px;
-            margin-top: 210px;
-            left: 47.5%;
-        }
-        .cards .h8-ai{
-            margin-top: 160px;
-            font-size: 20px;
-            margin-left: 40px;
-        }
-        .cards .p8-ai{
-            font-size: 13.5px;
-            margin-top: 210px;
-            left: 52.8%;
-        }
-}
+        .service-box{
+            background: linear-gradient(256deg, #6347AA 7.85%, #233F81 107.97%);
+            height: 20px;
+            width: 75vw;
+            border-radius: 35px;
+            margin-top: 20px;
+            padding: 60px;
+            margin-left: 70px;
+            position: absolute;
+            box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.7);
+    }
+    
+    .service-phone{
+        position: absolute;
+        z-index: 2;
+        color: #fff;
+        left: 15%;
+        top: 20%;
+        transform: scale(2.0);
+    }
+    .service-phone-p{
+        position: absolute;
+        z-index: 2;
+        color: #fff;
+        font-size: 20px;
+        top: 50%;
+        left: 3%;
+    }
+    .service-headset{
+        position: absolute;
+        z-index: 2;
+        color: #fff;
+        left: 10%;
+        top: 135%;
+        transform: scale(2.0);
+    }
+    .service-headset-p{
+        position: absolute;
+        z-index: 2;
+        color: #fff;
+        font-size: 20px;
+        top: 50%;
+        left: 40%;
+    }
+    .service-book{
+        position: absolute;
+        z-index: 2;
+        color: #fff;
+        left: 10%;
+        top: 135%;
+        transform: scale(2.0);
+    }
+    .service-book-p{
+        position: absolute;
+        z-index: 2;
+        color: #fff;
+        font-size: 20px;
+        top: 50%;
+        left: 70%;
+    }
+    }
 
 @media only screen and (max-width: 768px) {
     

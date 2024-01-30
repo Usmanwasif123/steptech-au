@@ -48,11 +48,26 @@
     font-weight: 700;
     line-height: 60px; 
     letter-spacing: -1px;
-    top: 5%;
+    top: -1%;
     left: 55%;
     padding: 30px 5px 0px 0px;
     color: #243F82;
     text-transform: capitalize;
+}
+.graph-section6 .p1{
+    position: absolute;
+    z-index: 1;
+    font-family: Poppins, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25px; 
+    letter-spacing: -1px;
+    top: 5%;
+    left: 55%;
+    padding: 30px 40px 0px 0px;
+    color: #808080;
+    text-transform: inherit; 
 }
 .graph-section6 .h2{
     position: absolute;
@@ -63,11 +78,26 @@
     font-weight: 700;
     line-height: 60px; 
     letter-spacing: -1px;
-    top: 20%;
+    top: 15%;
     left: 55%;
     padding: 30px 5px 0px 0px;
     color: #243F82;
     text-transform: capitalize;
+}
+.graph-section6 .p2{
+    position: absolute;
+    z-index: 1;
+    font-family: Poppins, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25px;  
+    letter-spacing: -1px;
+    top: 21%;
+    left: 55%;
+    padding: 30px 40px 0px 0px;
+    color: #808080;
+    text-transform: inherit; 
 }
 .graph-section6 .h3{
     position: absolute;
@@ -84,6 +114,21 @@
     color: #243F82;
     text-transform: capitalize;
 }
+.graph-section6 .p3{
+    position: absolute;
+    z-index: 1;
+    font-family: Poppins, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25px; 
+    letter-spacing: -1px;
+    top: 42%;
+    left: 55%;
+    padding: 30px 40px 0px 0px;
+    color: #808080;
+    text-transform: inherit; 
+}
 .graph-section6 .h4{
     position: absolute;
     z-index: 1;
@@ -93,11 +138,26 @@
     font-weight: 700;
     line-height: 60px; 
     letter-spacing: -1px;
-    top: 50%;
+    top: 54%;
     left: 55%;
     padding: 30px 5px 0px 0px;
     color: #243F82;
     text-transform: capitalize;
+}
+.graph-section6 .p4{
+    position: absolute;
+    z-index: 1;
+    font-family: Poppins, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25px; 
+    letter-spacing: -1px;
+    top: 61%;
+    left: 55%;
+    padding: 30px 40px 0px 0px;
+    color: #808080;
+    text-transform: inherit; 
 }
 .graph-section6 .h5{
     position: absolute;
@@ -108,12 +168,28 @@
     font-weight: 700;
     line-height: 60px; 
     letter-spacing: -1px;
-    top: 65%;
+    top: 70%;
     left: 55%;
     padding: 30px 5px 0px 0px;
     color: #243F82;
     text-transform: capitalize;
 }
+.graph-section6 .p5{
+    position: absolute;
+    z-index: 1;
+    font-family: Poppins, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25px; 
+    letter-spacing: -1px;
+    top: 78%;
+    left: 55%;
+    padding: 30px 40px 0px 0px;
+    color: #808080;
+    text-transform: inherit; 
+}
+
 
 
 @media only screen and (max-width: 1024px) {

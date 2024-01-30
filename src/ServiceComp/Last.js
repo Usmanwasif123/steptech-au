@@ -11,7 +11,7 @@ const Last = () => {
       Welcome to Step Tech Global, your expert partner in extensive web development services. From initial ideation to a successful launch, 
       our convenient approach ensures a seamless experience through every stage of development.
       </p>
-      <div className='service8' data-aos="slide-right" data-aos-duration="600" data-aos-easing="ease-in-sine" data-aos-offset="0"></div>
+      <div className='service8' ></div>
     </div>
   )
 }

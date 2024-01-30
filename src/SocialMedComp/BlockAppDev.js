@@ -24,7 +24,7 @@ const BlockAppDev = () => {
       fontWeight: '200', top: '83%', left: '50%'}}/>
       <span className='span5'>Our social media marketing team stays informed of your target market by engaging in online conversations and 
       sharing insightful material about your business.</span>
-      <div className='smm-img4' data-aos="slide-right" data-aos-duration="600" data-aos-easing="ease-in-sine" data-aos-offset="0"></div>
+      <div className='smm-img4' ></div>
     </div>
   )
 }

@@ -11,7 +11,7 @@ const PreBlockDev = () => {
       dedicated team of <b>Software Developers</b> utilizes its technical prowess to provide tailored 
       software solutions that drive productivity and competence.
       </p>
-      <div className='software-img3' data-aos="slide-right" data-aos-duration="600" data-aos-easing="ease-in-sine" data-aos-offset="0"></div>
+      <div className='software-img3'></div>
     </div>
   )
 }

@@ -25,7 +25,7 @@ const BlockAppDev = () => {
       fontWeight: '200', top: '90%', left: '50%'}}/>
       <span className='span5'>We offer our clients custom business logos and custom-made graphic design services so our clients enjoy the best
        possible outcome they want.</span>
-      <div className='graph-img4' data-aos="slide-right" data-aos-duration="600" data-aos-easing="ease-in-sine" data-aos-offset="0"></div>
+      <div className='graph-img4' ></div>
     </div>
   )
 }

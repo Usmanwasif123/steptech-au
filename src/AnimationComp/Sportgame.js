@@ -1,6 +1,6 @@
 import React from 'react';
 import '../assets/AnimationWrapper/Sportgame.css';
-import {Link} from 'react-router-dom';
+
 
 const Sportgame = () => {
   return (

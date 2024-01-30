@@ -35,7 +35,7 @@ const Magneto = () => {
           </form>
         </div>
       }
-      <div className='mag-image' data-aos="slide-right" data-aos-duration="750" data-aos-easing="ease-in-sine" data-aos-offset="0"></div>
+      <div className='mag-image' ></div>
     </div>
   )
 }

@@ -26,7 +26,7 @@ const BlockAppDev = () => {
       fontWeight: '200', top: '90%', left: '50%'}}/>
       <span className='span5'>We adopt a strong methodology for Blockchain app development services that helps 
       accomplish higher security.</span>
-      <div className='software-img5' data-aos="slide-right" data-aos-duration="600" data-aos-easing="ease-in-sine" data-aos-offset="0"></div>
+      <div className='software-img5' ></div>
     </div>
   )
 }

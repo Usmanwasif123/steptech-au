@@ -383,40 +383,41 @@
     transform: rotate(0deg);
 }
 @media only screen and (max-width: 1024px) {
+
+    .solution-container{
+        height: 120vh !important;
+     }
     
     #sol-line1{
-        top: 232%;
+        top: 225% !important;
         left: 1%;
     }
 
     #sol-line2{
-        top: 230%;
+        top: 225% !important;
         left: 2%;
     }
     .sol-heading-left{
         font-size: 25px;
         padding: 0px 30px 1px 40px;
-        margin: -620px 400px 0px 20px;
+        margin: -650px 400px 0px 20px !important;
     }
     .sol-heading2-left{
         font-size: 20px;
-        padding: 0px 20px 1px 35px;
-        margin: -480px 650px 0px 5px;
+        padding: 0px 20px 1px 35px !important;
+        margin: -510px 650px 0px 5px !important;
     }
     .sol-para-left{
         font-size: 16px;
         padding: 0px 20px 1px 25px;
-        margin: -355px 610px 0px 15px;
+        margin: -390px 630px 0px 15px !important;
     }
     .btn-design{
-        top: 330%;
+        top: 327%;
         left: 8%;
         font-size: 17px;
-        box-shadow: inset 0 0 0 0 #233F81;
-        -webkit-transition: ease-out 0.4s;
-        -moz-transition: ease-out 0.4s;
-        transition: ease-out 0.4s ;
-        cursor: pointer;
+        font-weight: 600;
+    
     }
     .btn-design:hover{
         box-shadow: inset 0 0 0 50px #e6e1e4;
@@ -425,19 +426,11 @@
     .right-side img{
         top: 154%;
         left: 10%;
-        height: 155vh;
-        position: absolute;
-        z-index: 1;
     }
     .right-half{
-        position: absolute;
-        z-index: 2;
-        outline: 1px solid #fffeff;
-        background: linear-gradient(256deg, #453474 7.85%, #171425 107.97%);
-        border-radius:  100000px 0px 0px 100000px;
-        left: 35.4%;
+        left: 37.4%;
         top: 235%;
-        padding: 80px 100px 350px 550px;
+        padding: 80px 80px 350px 550px;
         margin-left: 0px;
     }
     .right-half .circle {

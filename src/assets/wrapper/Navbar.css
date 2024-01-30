@@ -551,27 +551,315 @@ cursor: pointer;
 
 @media only screen and (max-width: 1024px) {
     .logo{
-        height: 100vh;
+        margin-top: -40px;
+        position:absolute;
+        z-index: 3;
+        background: url('https://i.ibb.co/WxpLfrH/image.png');
+        height: 90vh;
         width: 50vw;
-        top: 11%;
-        left: 10%;
-        background-size: 25%;
+        top: 10.2%;
+        left: 14%;
+        cursor: pointer;
+        background-size: 20%;
+        background-repeat: no-repeat;
     }
-    #line1{
-        top: 75%;
-        left: 10%;
+    
+    .nav-items{
+        margin-top: -21px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
     }
-    #line2{
-        top: 75%;
-        left: 20.5%;
+    .bars{
+        display: none;
     }
-    #line3{
-        top: 75%;
-        left: 23%;
+    .nav-items .home{
+    cursor: pointer;
+    
     }
+    .nav-items .about{
+        left: 42%;
+    }
+    .nav-items .service{
+        left: 75%;
+    }
+    
+    .nav-items .portfolio{
+        left: 60%;
+    }
+    
+    .nav-items .blog{
+        left: 68%;
+    }
+    
+    .dropdown {
+        position: relative;
+        cursor: pointer;
+    }
+    .dropdown-content {
+        height: 500px !important;
+        width: 250px !important; 
+    }
+   
+    .dropdown-content .nav-service1{
+        font-size: 17px !important;
+    }
+    .dropdown-content .nav-service2{
+        font-size: 17px !important;
+        
+    }
+    
+    .dropdown-content .nav-service3{
+        font-size: 17px !important;
+        margin-top: 5px;
+    }
+    
+    .dropdown-content .nav-service4{
+        font-size: 17px !important;
+        margin-top: 20px;
+    }
+    .dropdown-content .nav-service5{
+        font-size: 17px !important;
+        margin-top: 20px;
+    }
+    .dropdown-content .nav-service6{
+        font-size: 17px !important;
+        margin-top: 20px;
+    }
+    .dropdown-content .nav-service7{
+        font-size: 17px !important;
+        margin-top: 20px;
+    }
+    .dropdown-content .nav-service8{
+        font-size: 17px !important;
+        margin-top: 20px;
+    }
+    .dropdown-content .nav-service9{
+        font-size: 17px !important;
+        margin-top: 20px;
+    }
+    .dropdown-content .nav-service10{
+        font-size: 17px !important;
+        margin-top: 20px;
+    }
+    .dropdown-content .nav-service11{
+        font-size: 17px !important;
+        margin-top: 20px;
+    }
+    .dropdown-content .nav-service12{
+        font-size: 17px !important;
+        margin-top: 20px;
+    }
+    .dropdown-content .nav-service13{
+        font-size: 17px !important;
+        margin-top: 20px;
+    }
+    
+    
+    .quote-btn{
+        top: 8%;
+        left: 78%;
+    }
+    
     .banner-line{
-        margin-left: -91px;
-        padding-right: 339px;
+        top: 20%;
+        left: 9%;
+    }
+    
+    .banner-span{
+        top: 30%;
+        left: 10%;
+        font-size: 39px;
+    }
+    .banner-heading h1{
+        top: 45%;
+        left: 9%;
+        font-size: 70px;
+
+    }
+    .banner-half-h {
+        top: 90%;
+        border-radius: 0px 12px 12px 0px;
+        margin-left: -120px;
+
+    }
+    
+    .banner-half-h .digital {
+        margin-top: -45px;
+        margin-left: 70px;
+        font-size: 70px;
+    }
+    
+    .banner-heading .potential {
+        top: 80%;
+        left: 55%;
+        font-size: 70px;
+    }
+    
+    .btn-start{
+        font-size: 20px;
+        padding: 10px 25px 10px 25px;
+        margin-top: -140px;
+        margin-left: 100px !important;
+    
+    }
+    
+    .btn-start:hover{ 
+        background: linear-gradient(200deg, #47277f 29.100%, #101b37 93.15%);
+    }
+    
+    
+    
+    .visible-div{
+        background: #47267F;
+        height: 600px;
+        width: 1000px;
+        position: absolute;
+        z-index: 5;
+        top: 18%;
+        left: 15%;
+        border-radius: 70px;
+    }
+    
+    .visible-div img{
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: absolute;
+        z-index: 6;
+        top: 20%;
+        left: 1%;
+        border-radius: 50px 0px 50px 0px;
+    }
+    
+    .visible-div .visible-p1{
+        position: absolute;
+        z-index: 5;
+        top: 75%;
+        left: -1%;
+        color: #FFF;
+        font-family: Poppins, sans-serif;
+        font-size: 35px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 40px; 
+        letter-spacing: -1px;
+        text-transform: capitalize;
+        padding-left: 20px;
+        padding-right: 400px;
+    }
+    
+    .visible-div .visible-p2{
+        position: absolute;
+        z-index: 5;
+        top: 15%;
+        left: 55%;
+        color: #FFF;
+        font-family: Poppins, sans-serif;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 40px; 
+        letter-spacing: -1px;
+        text-transform: capitalize;
+    }
+    
+    .visible-div .visible-p3{
+        position: absolute;
+        z-index: 5;
+        top: 25%;
+        left: 55%;
+        color: #FFF;
+        font-family: Poppins, sans-serif;
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 25px; 
+        letter-spacing: -1px;
+        text-transform: capitalize;
+    }
+    
+    .visible-contact-form{
+        position: absolute;
+        z-index: 5;
+        top: 40%;
+        left: 55%;
+    }
+    
+    .visible-contact-form .full-name{
+        height: 50px;
+        width: 390px;
+        color: #fff;
+        font-size: 19px;
+        margin-left: 10px;
+        background: transparent;
+        border: none;
+        border-bottom: 2px solid #fff;
+    }
+    .visible-contact-form .email{
+        height: 50px;
+        width: 390px;
+        color: #fff;
+        font-size: 19px;
+        margin-left: 10px;
+        background: transparent;
+        border: none;
+        border-bottom: 2px solid #fff;
+    }
+    .visible-contact-form .phone-no{
+        height: 50px;
+        width: 390px;
+        color: #fff;
+        font-size: 19px;
+        margin-left: 10px;
+        background: transparent;
+        border: none;
+        border-bottom: 2px solid #fff;
+    }
+    .visible-contact-form .message-input{
+        position: absolute;
+        z-index: 5;
+        height: 25px;
+        width: 140px;
+        color: #fff;
+        font-size: 18px;
+        top:110%;
+        background: transparent;
+        border: none;
+        border-bottom: 2px solid #fff;
+    }
+    
+    .visible-contact-form .submit-btn{
+        position: absolute;
+        z-index: 5;
+        left: 25%;
+        top: 180%;
+        font-size: 15px;
+        font-family: Poppins, sans-serif;
+        text-transform: uppercase;
+        font-weight: 600;
+        border-radius: 10px;
+        border: 1px solid #212457;
+        background: #212457;
+        color: #fff;
+    
+    
+    }
+    
+    .visible-contact-form .btn-close{
+        position: absolute;
+        z-index: 5;
+        left: 95%;
+        top: -160%;
+        font-family: Poppins, sans-serif;
+        text-transform: uppercase;
+        font-weight: 600;
+        border-radius: 10px;
+        border: 1px solid transparent;
+        background: transparent;
+        color: #fff;
+        padding: 5px;
+        cursor: pointer;
     }
 }
 

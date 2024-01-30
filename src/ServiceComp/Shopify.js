@@ -20,8 +20,8 @@ const Shopify = () => {
       of its exceptional experience and expertise in building fast-paced scalable marketplaces where users can 
       mint, sell, buy, and trade NFT.
       </p>
-      <div className='service-left4' data-aos="slide-right" data-aos-duration="600" data-aos-easing="ease-in-sine" data-aos-offset="0"></div>
-      <div className='service-right4' data-aos="slide-left" data-aos-duration="600" data-aos-easing="ease-in-sine" data-aos-offset="0"></div>
+      <div className='service-left4' ></div>
+      <div className='service-right4' ></div>
     </div>
   )
 }

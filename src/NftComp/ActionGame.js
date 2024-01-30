@@ -35,7 +35,7 @@ const ActionGame = () => {
       and efficiently. With our project-based model, we collaborate with you to know your project needs and 
       deliver top-quality <b>NFT Marketplace Development Services.</b>
       </p>
-      <div className='nft-img4' data-aos="slide-left" data-aos-duration="600" data-aos-easing="ease-in-sine" data-aos-offset="0"></div>
+      <div className='nft-img4'></div>
     </div>
   )
 }

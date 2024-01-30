@@ -21,8 +21,8 @@ const Sportgame = () => {
       experience and a developing team of skilled developers, We target to either build your project from scratch
       or augment your actual software development team.
       </p>
-      <div className='service-left3' data-aos="slide-right" data-aos-duration="600" data-aos-easing="ease-in-sine" data-aos-offset="0"></div>
-      <div className='service-right3' data-aos="slide-left" data-aos-duration="600" data-aos-easing="ease-in-sine" data-aos-offset="0"></div>
+      <div className='service-left3' ></div>
+      <div className='service-right3' ></div>
     </div>
   )
 }

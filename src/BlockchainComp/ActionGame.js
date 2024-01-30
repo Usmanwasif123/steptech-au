@@ -25,7 +25,7 @@ const ActionGame = () => {
       By incorporating blockchain, we design smart digital solutions that simplify and streamline the trading 
       system. Our digital solutions make investing and lending easy for financial organizations globally.
       </p>
-      <div className='block-img4' data-aos="slide-left" data-aos-duration="600" data-aos-easing="ease-in-sine" data-aos-offset="0"></div>
+      <div className='block-img4'></div>
     </div>
   )
 }
