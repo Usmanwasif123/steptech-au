@@ -175,8 +175,8 @@ const Services = () => {
       <div className='service-box'>
       &nbsp;
       <PhoneInTalk className='service-phone'/>
-      <p className='service-phone-p'>Have Questions Call Us Now!<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      (877)229-0844</p>
+      <p><a className='service-phone-p'  href='tel:+61410025346'>Have Questions Call Us Now!<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      +61 410 025346</a></p>
       <HeadsetMic style={{position: 'absolute', color: '#fff', transform: 'scale(2.5)', left: '48%', top: '20%'}} classsName='service-headset'/>
       <p className='service-headset-p'>Live Chat With Expert<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;It's Free 24/7</p>
       <MenuBook style={{position: 'absolute', color: '#fff', transform: 'scale(2.5)', left: '80%', top: '20%'}} classsName='service-book'/>

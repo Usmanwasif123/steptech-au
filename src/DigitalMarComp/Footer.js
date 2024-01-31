@@ -65,10 +65,10 @@ const Footer = () => {
             <div className='contact-link'>
             <h1>Contact us</h1>
             <nav className='contact-foolinks'>
-            <li><img src='https://i.ibb.co/b3XwQZv/aus-flag.png'/><a href='#'>AUS: +61 410 025 346</a></li>
-            <li><img src='https://i.ibb.co/Jd2ytp6/Untitled-design-1-1.png'/><a>USA: (877) 229 0844</a></li>
-            <li><img src='https://i.ibb.co/F40skg4/uk-flag.png'/><a className='portfolio'>UK: +44 203 038 4780</a></li>
-            <li><img src='https://i.ibb.co/Wn56L99/pk-flag.png'/><a className='contact'>PK: +92 304 298 9911</a></li>
+            <li><img src='https://i.ibb.co/b3XwQZv/aus-flag.png'/><a href='tel:+61410025346'>AUS: +61 410 025 346</a></li>
+            <li><img src='https://i.ibb.co/Jd2ytp6/Untitled-design-1-1.png'/><a href='tel:+8772290844'>USA: (877) 229 0844</a></li>
+            <li><img src='https://i.ibb.co/F40skg4/uk-flag.png'/><a href='tel:+442030384780'>UK: +44 203 038 4780</a></li>
+            <li><img src='https://i.ibb.co/Wn56L99/pk-flag.png'/><a href='tel:+923042989911'>PK: +92 304 298 9911</a></li>
             </nav>
         </div>
         <div className='copyright'>&nbsp;
