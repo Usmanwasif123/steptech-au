@@ -35,27 +35,25 @@
     display: flex;
     align-items: center;
     justify-content: center;
+
 }
 .bars{
     display: none;
 }
-.nav-items li a{
-    position: absolute;
-    display: flex;
-    z-index: 1;
-    text-transform: capitalize;
-    color: #fff;
-    top: 9%;
-    left: 36%;
-    cursor: pointer;
-    text-decoration: none;
-}
+.nav-items .home{
+cursor: pointer;
 
+}
 .nav-items .about{
     left: 43%;
+    cursor: pointer
 }
 .nav-items .service{
-    left: 52%;
+    padding-right: 20px;
+    margin-left: 20px;
+    left: 70%;
+    top: 260%;
+    cursor: pointer;
 }
 
 .nav-items .portfolio{
@@ -66,24 +64,207 @@
     left: 68%;
 }
 
-.quote-btn{
+.dropdown {
+    position: relative;
+    cursor: pointer;
+}
+.dropdown-content {
+    background: #fff;
+    height: 600px;
+    width: 300px;
+    position: absolute;
+    z-index: 5;
+    border-radius: 2px;
+    margin-top: 85px;
+    margin-left: 20px;
+    
+}
+
+.dropdown-content li{
+    list-style: none;
+}
+
+.dropdown-content .nav-service1{
+    position: absolute;
+    z-index: 3;
+    color: #333;
+    top: -2%;
+    left: 5%;
+    font-size: 18px;
+    font-family: Poppins, sans-serif;
+    font-weight: 500p;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.dropdown-content .nav-service2{
+    position: absolute;
+    z-index: 3;
+    color: #333;
+    top: 9%;
+    left: 5%;
+    font-size: 18px;
+    font-family: Poppins, sans-serif;
+    font-weight: 500p;
+    text-transform: capitalize;
+    cursor: pointer;
+    
+}
+
+.dropdown-content .nav-service3{
+    position: absolute;
+    z-index: 3;
+    color: #333;
+    top: 20%;
+    left: 5%;
+    font-size: 18px;
+    font-family: Poppins, sans-serif;
+    font-weight: 500p;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+.dropdown-content .nav-service4{
+    position: absolute;
+    z-index: 3;
+    color: #333;
+    top: 26%;
+    left: 5%;
+    font-size: 18px;
+    font-family: Poppins, sans-serif;
+    font-weight: 500p;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.dropdown-content .nav-service5{
+    position: absolute;
+    z-index: 3;
+    color: #333;
+    top: 33%;
+    left: 5%;
+    font-size: 18px;
+    font-family: Poppins, sans-serif;
+    font-weight: 500p;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.dropdown-content .nav-service6{
+    position: absolute;
+    z-index: 3;
+    color: #333;
+    top: 40%;
+    left: 5%;
+    font-size: 18px;
+    font-family: Poppins, sans-serif;
+    font-weight: 500p;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.dropdown-content .nav-service7{
+    position: absolute;
+    z-index: 3;
+    color: #333;
+    top: 47%;
+    left: 5%;
+    font-size: 18px;
+    font-family: Poppins, sans-serif;
+    font-weight: 500p;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.dropdown-content .nav-service8{
+    position: absolute;
+    z-index: 3;
+    color: #333;
+    top: 54%;
+    left: 5%;
+    font-size: 18px;
+    font-family: Poppins, sans-serif;
+    font-weight: 500p;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.dropdown-content .nav-service9{
+    position: absolute;
+    z-index: 3;
+    color: #333;
+    top: 61%;
+    left: 5%;
+    font-size: 18px;
+    font-family: Poppins, sans-serif;
+    font-weight: 500p;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.dropdown-content .nav-service10{
+    position: absolute;
+    z-index: 3;
+    color: #333;
+    top: 68%;
+    left: 5%;
+    font-size: 18px;
+    font-family: Poppins, sans-serif;
+    font-weight: 500p;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.dropdown-content .nav-service11{
+    position: absolute;
+    z-index: 3;
+    color: #333;
+    top: 75%;
+    left: 5%;
+    font-size: 18px;
+    font-family: Poppins, sans-serif;
+    font-weight: 500p;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.dropdown-content .nav-service12{
+    position: absolute;
+    z-index: 3;
+    color: #333;
+    top: 82%;
+    left: 5%;
+    font-size: 18px;
+    font-family: Poppins, sans-serif;
+    font-weight: 500p;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.dropdown-content .nav-service13{
+    position: absolute;
+    z-index: 3;
+    color: #333;
+    top: 89%;
+    left: 5%;
+    font-size: 18px;
+    font-family: Poppins, sans-serif;
+    font-weight: 500p;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+
+.call-btn{
     display: flex;
     align-items: center;
     justify-content: center;
     text-transform: capitalize;
     text-decoration: none;
-    font-size: 14px;
-    padding: 10px 25px 10px 25px;
+    font-size: 17px;
+    font-weight: 600;
+    padding: 15px 26px;
     position: absolute;
-    border-radius: 60px;
+    border-radius: 20px;
+    border: none;
     cursor: pointer;
-    color: #fff;
+    color: #233f81;
     z-index: 1;
-    outline: 1px solid #fff;
-    background: transparent;
-    top: 8%;
+    background: #fff;
+    top: 6%;
     left: 78%;
 }
+
 
 .banner-line{
     top: 20%;
