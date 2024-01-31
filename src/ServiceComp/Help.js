@@ -9,15 +9,19 @@ const Help = () => {
       Choose The Top Leading Artificial Intelligence Development Company.
       </h1>
       <h1 className='right-h1'data-aos="zoom-in" data-aos-duration="500" data-aos-easing="ease-in-sine" data-aos-offset="0">
-      Build Your Online Success With Our Precise App Development Services.
+      Embrace The Beauty Of Creativity With Our Design Services.
       </h1>
       <p className='left-p'data-aos="zoom-in" data-aos-duration="500" data-aos-easing="ease-in-sine" data-aos-offset="0">
       Step Tech Global Artificial Intelligence development services help businesses boost their decision-making 
       and automate business operations and workflows
       </p>
       <p className='right-p'data-aos="zoom-in" data-aos-duration="500" data-aos-easing="ease-in-sine" data-aos-offset="0">
-      At Step Tech Global, we are turning app concepts into digital masterpieces. As a well-known mobile app development company, we offer the 
-      best app development services to clear up your business concerns.
+      Want to enchant your user with visually appealing graphics and design? At Step Tech, the best logo design company,
+       our skillful graphic designers  worldwide will make it happen for you. We understand the need for your design 
+       project and work based on Our client’s requirements. With our best logo designers , we can build the best design, 
+       creative logo design, vector illustration, etc, for start-ups or well-established ventures to accomplish their 
+       goals. We assist you in organizing and materializing your demands with compelling designs that leave a permanent 
+       impression on your customers.
       </p>
       <div className='service-left5' ></div>
       <div className='service-right5' ></div>

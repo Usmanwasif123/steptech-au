@@ -5,7 +5,7 @@
 }
 
 .nav-container{
-    height: 100vh;
+    height: 120vh;
     width: 98.7vw;
     position: relative;
 }
@@ -56,6 +56,7 @@
 }
 .nav-items .service{
     left: 52%;
+    
 }
 
 .nav-items .portfolio{
@@ -246,22 +247,23 @@
     cursor: pointer;
 }
 
-.quote-btn{
+.call-btn{
     display: flex;
     align-items: center;
     justify-content: center;
     text-transform: capitalize;
     text-decoration: none;
-    font-size: 14px;
-    padding: 10px 25px 10px 25px;
+    font-size: 17px;
+    font-weight: 600;
+    padding: 15px 26px;
     position: absolute;
-    border-radius: 60px;
+    border-radius: 20px;
+    border: none;
     cursor: pointer;
-    color: #fff;
+    color: #233f81;
     z-index: 1;
-    outline: 1px solid #fff;
-    background: transparent;
-    top: 8%;
+    background: #fff;
+    top: 6%;
     left: 78%;
 }
 
@@ -325,7 +327,7 @@
     z-index: 1;
     outline: 1px solid #fff;
     background: #fff;
-    top: 80%;
+    top: 70%;
     left: 4.5%;
     box-shadow: inset 0 0 0 0 #233F81;
     -webkit-transition: ease-out 0.4s;
@@ -343,7 +345,7 @@
     z-index: 3;
     background: url('https://i.ibb.co/KF1YkYy/image.png');
     height: 500px;
-    width: 500px;
+    width: 450px;
     top: 20%;
     left: 65%;
     background-size: 80%;

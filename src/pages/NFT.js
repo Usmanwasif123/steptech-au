@@ -1,6 +1,5 @@
 import React from 'react';
 import Navbar from '../NftComp/Navbar';
-import Quote from './Quote';
 import Contact from '../NftComp/Contact';
 import Footer from '../NftComp/Footer';
 import AnimateDev from '../NftComp/AnimateDev';
@@ -14,7 +13,6 @@ const Nft = () => {
   return (
     <div>
       <Navbar/>
-      <Quote/>
       <BlockSoftDev/>
       <AnimateDev/>
       <BlockAppDev/>

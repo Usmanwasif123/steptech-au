@@ -77,7 +77,7 @@ const Navbar = () => {
           </li>
             <li><Link to='/portfolio' className='portfolio'>portfolio</Link></li>
             <li><Link to='/blog' className='blog'>blog</Link></li>
-            <Link to='/get-a-quote' className='quote-btn'>get a quote </Link>
+            <button><a href='tel:+61410025346' class='call-btn'>+61 410 025 346</a></button>
             <button>
               <FaTimes/>
             </button>

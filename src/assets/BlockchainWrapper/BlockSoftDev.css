@@ -22,6 +22,7 @@
     top: 10%;
     left: 2%;
     color: #243F82;
+   
 }
 .block-section1 .main-p{
     position: absolute;
@@ -35,6 +36,7 @@
     top: 15%;
     left: 2%;
     color: #808080;
+
 }
 
 .block-section1 h1{
@@ -48,7 +50,7 @@
     letter-spacing: -1px;
     top: 35%;
     left: 50%;
-    margin-right: -155px;
+    margin-right: 0px;
     color: #243F82;
 }
 .block-section1 p{

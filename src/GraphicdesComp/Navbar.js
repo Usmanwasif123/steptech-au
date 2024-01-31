@@ -62,7 +62,7 @@ const Navbar = () => {
             <li><Link to='/about-us' className='about'>about us</Link></li>
             <li className='dropdown' onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
            <KeyboardArrowDownOutlined style={{position:'absolute', zIndex: 1, fontSize: '25px', top: '350%', left: '73.4px', color: "#fff"}}/>
-            <Link to='/service' className='service' style={{marginTop: '5px'}}>services</Link>
+            <Link to='/service' className='service' style={{marginTop: '20px'}}>services</Link>
             {isDropdownOpen && 
             <div className='dropdown-content' ref={dropdownRef} onMouseEnter={handleDropdownMouseEnter} onMouseLeave={handleDropdownMouseLeave}>
              <li><Link to='/web-design-and-development' className='nav-service1'>web design & development</Link></li>
@@ -83,7 +83,7 @@ const Navbar = () => {
           </li>
             <li><Link to='/portfolio' className='portfolio'>portfolio</Link></li>
             <li><Link to='/blog' className='blog'>blog</Link></li>
-            <Link to='/get-a-quote' className='quote-btn'>get a quote </Link>
+            <button ><a href='tel:+61410025346' class='call-btn'>+61 410 025 346</a></button>
             <button>
               <FaTimes/>
             </button>

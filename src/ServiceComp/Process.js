@@ -5,18 +5,19 @@ const Process = () => {
   return (
     <div className='service-section6'>
       <h1 className='left-h1'data-aos="zoom-in" data-aos-duration="500" data-aos-easing="ease-in-sine" data-aos-offset="0">
-      Unleash The Power Of Pixel With Our Web Development Services.
+      Make Your Website Spark With Our Best Quality SEO Service.
       </h1>
       <h1 className='right-h1'data-aos="zoom-in" data-aos-duration="500" data-aos-easing="ease-in-sine" data-aos-offset="0">
-      Build Your Online Success With Our Precise App Development Services.
+      Tell Your Brand Story With Our Social Media Marketing Services.
       </h1>
       <p className='left-p'data-aos="zoom-in" data-aos-duration="500" data-aos-easing="ease-in-sine" data-aos-offset="0">
-      Welcome to Step Tech Global, your expert partner in extensive web development services. From initial ideation to a successful launch, 
-      our convenient approach ensures a seamless experience through every stage of development.
+      At Step Tech SEO agency, we offer our clients the best search engine optimization  services, allowing businesses to
+       gain higher rankings, 100% organic traffic growth, and essential investment returns.
       </p>
       <p className='right-p'data-aos="zoom-in" data-aos-duration="500" data-aos-easing="ease-in-sine" data-aos-offset="0">
-      At Step Tech Global, we are turning app concepts into digital masterpieces. As a well-known mobile app development company, we offer the 
-      best app development services to clear up your business concerns.
+      Step Tech social media marketing  firms offer high-quality social media marketing services  for all small business 
+      owners, enterprises, and multiple-location companies. Our crew of SMM enthusiasts offers a devoted social media 
+      presence that promotes your company's growth in the AUSTRALIAN market.
       </p>
       <div className='service-left6' ></div>
       <div className='service-right6' ></div>

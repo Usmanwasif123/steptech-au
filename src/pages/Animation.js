@@ -1,6 +1,5 @@
 import React from 'react';
 import Navbar from '../AnimationComp/Navbar';
-import Quote from './Quote';
 import Contact from '../AnimationComp/Contact';
 import Footer from '../AnimationComp/Footer';
 import Shopify from '../AnimationComp/Shopify';
@@ -14,7 +13,6 @@ const Animation = () => {
   return (
     <div>
       <Navbar/>
-      <Quote/>
       <ActionGame/>
       <Sportgame/>
       <Shopify/>

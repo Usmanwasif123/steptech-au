@@ -8,6 +8,7 @@
     width: 98.7vw;
     position: relative;
     background: #f1f4ff;
+    
 }
 
 
@@ -16,8 +17,8 @@
     font-size: 50px;
     position: absolute;
     top: 10%;
-    margin: 0px -100px 0px 40px;
-    padding: 0px 10px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 10px;
 }
 .app-line{
     top: 40%;
@@ -33,8 +34,8 @@
     font-size: 18px;
     position: absolute;
     top: 50%;
-    margin: 0px -20px 0px 5px;
-    padding: 0px 10px 0px 30px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 30px;
 }
 .appbtn-con{
     display: flex;

@@ -19,7 +19,7 @@
     font-weight: 700;
     line-height: 60px; 
     letter-spacing: -1px;
-    top: 50%;
+    top: 75%;
     left: 13%;
     padding: 30px 0px 0px 0px;
     color: #233F81;
@@ -34,15 +34,15 @@
     font-weight: 500;
     line-height: 30px; 
     letter-spacing: -1px;
-    top: 65%;
-    left: 5%;
+    top: 85%;
+    left: 14%;
     padding: 30px 0px 0px 0px;
     color: #333;
 }
 .service8{
     position:absolute;
     z-index: 3;
-    background: url('https://i.ibb.co/NZzy8Ff/image.png');
+    background: url('https://i.ibb.co/7r4fDn2/image.png');
     height: 450px;
     width: 450px;
     top: 5%;

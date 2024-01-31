@@ -8,7 +8,7 @@ const Sportgame = () => {
       Experience The Epic Adventure With Our Game Development Services
       </h1>
       <h1 className='right-h1'data-aos="zoom-in" data-aos-duration="500" data-aos-easing="ease-in-sine" data-aos-offset="0">
-      Upraise your Gaming Experience with Superior Game Development Agency
+      Why You Choose STEP TECH GLOBAL For 2D Game Development
       </h1>
       <p className='left-p'data-aos="zoom-in" data-aos-duration="500" data-aos-easing="ease-in-sine" data-aos-offset="0">
       Step Tech Global is one of the leading Game Development Companies that offer game development services 

@@ -1,6 +1,5 @@
 import React from 'react';
 import Navbar from '../SocialMedComp/Navbar';
-import Quote from './Quote';
 import Contact from '../SocialMedComp/Contact';
 import Footer from '../SocialMedComp/Footer';
 import AnimateDev from '../SocialMedComp/AnimateDev';
@@ -14,7 +13,6 @@ const SocailMed = () => {
   return (
     <div>
       <Navbar/>
-      <Quote/>
       <BlockSoftDev/>
       <AnimateDev/>
       <BlockAppDev/>

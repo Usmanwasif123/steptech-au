@@ -1,6 +1,5 @@
 import React from 'react';
 import Navbar from '../GameComp/Navbar';
-import Quote from './Quote';
 import Process from '../GameComp/Process';
 import Contact from '../GameComp/Contact';
 import Footer from '../GameComp/Footer';
@@ -15,7 +14,6 @@ const Game = () => {
   return (
     <div>
       <Navbar/>
-      <Quote/>
       <GameDev/>
       <ActionGame/>
       <Sportgame/>

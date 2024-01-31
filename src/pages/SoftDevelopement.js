@@ -1,6 +1,5 @@
 import React from 'react';
 import Navbar from '../SoftDevComp/Navbar';
-import Quote from './Quote';
 import Contact from '../SoftDevComp/Contact';
 import Footer from '../SoftDevComp/Footer';
 import AnimateDev from '../SoftDevComp/AnimateDev';
@@ -14,7 +13,6 @@ const SoftDev = () => {
   return (
     <div>
       <Navbar/>
-      <Quote/>
       <BlockSoftDev/>
       <PreBlockDev/>
       <AnimateDev/>

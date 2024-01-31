@@ -1,6 +1,5 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
-import Quote from './Quote';
 import { Canvas } from '@react-three/fiber';
 import Sphere from '../components/Sphere';
 import Tetra from '../components/Tetra';
@@ -32,7 +31,6 @@ const Home = () => {
        <Tetra2/>
       </Canvas>
       <Navbar/>
-      <Quote/>
       <Vision/>
       <Solution/>
       <Services/>

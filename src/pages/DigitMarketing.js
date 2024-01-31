@@ -1,6 +1,5 @@
 import React from 'react';
 import Navbar from '../DigitalMarComp/Navbar';
-import Quote from './Quote';
 import Contact from '../DigitalMarComp/Contact';
 import Footer from '../DigitalMarComp/Footer';
 import AnimateDev from '../DigitalMarComp/AnimateDev';
@@ -14,7 +13,6 @@ const Digitalmarketing = () => {
   return (
     <div>
       <Navbar/>
-      <Quote/>
       <BlockSoftDev/>
       <AnimateDev/>
       <BlockAppDev/>

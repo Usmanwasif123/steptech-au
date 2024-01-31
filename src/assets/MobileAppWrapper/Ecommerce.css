@@ -70,12 +70,13 @@
     position:absolute;
     z-index: 3;
     background: url('https://i.ibb.co/6XpnJmr/image.png');
-    height: 700px;
-    width: 700px;
+    height: 600px;
+    width: 650px;
     top: 15%;
     left: 50%;
     background-size: 80%;
     background-repeat: no-repeat;
+
 }
 
 .app3-visible-div{

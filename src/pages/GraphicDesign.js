@@ -1,6 +1,5 @@
 import React from 'react';
 import Navbar from '../GraphicdesComp/Navbar';
-import Quote from './Quote';
 import Contact from '../GraphicdesComp/Contact';
 import Footer from '../GraphicdesComp/Footer';
 import AnimateDev from '../GraphicdesComp/AnimateDev';
@@ -14,7 +13,6 @@ const GraphicsDes = () => {
   return (
     <div>
       <Navbar/>
-      <Quote/>
       <BlockSoftDev/>
       <AnimateDev/>
       <BlockAppDev/>

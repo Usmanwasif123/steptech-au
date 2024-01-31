@@ -63,7 +63,7 @@
     font-weight: 500;
     line-height: 30px; 
     letter-spacing: -1px;
-    top: 70%;
+    top: 68%;
     left:8%;
     padding: 30px 20px 0px 0px;
     color: #333;
@@ -72,21 +72,21 @@
 .service-left6{
     position:absolute;
     z-index: 3;
-    background: url('https://i.ibb.co/NZzy8Ff/image.png');
-    height: 450px;
-    width: 450px;
-    top: 5%;
-    left: 5%;
+    background: url('https://i.ibb.co/GtqMLZy/image.png');
+    height: 500px;
+    width: 500px;
+    top: -1%;
+    left: 3%;
     background-size: 100%;
     background-repeat: no-repeat;
 }
 .service-right6{
     position:absolute;
     z-index: 3;
-    background: url('https://i.ibb.co/NZzy8Ff/image.png');
-    height: 450px;
-    width: 450px;
-    top: 5%;
+    background: url('https://i.ibb.co/nL17Pq2/image.png');
+    height: 500px;
+    width: 500px;
+    top: -1%;
     left: 55%;
     background-size: 100%;
     background-repeat: no-repeat;

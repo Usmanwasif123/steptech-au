@@ -1,6 +1,5 @@
 import React from 'react';
 import Navbar from '../WebComp/Navbar';
-import Quote from './Quote';
 import Ecommerce from '../WebComp/Ecommerce';
 import Process from '../WebComp/Process';
 import Webdevelopement from '../WebComp/Webdevelopement';
@@ -18,7 +17,6 @@ const Web = () => {
   return (
     <div>
       <Navbar/>
-      <Quote/>
       <Webdevelopement/>
       <Ecommerce/>
       <Magneto/>

@@ -42,12 +42,13 @@
     position:absolute;
     z-index: 3;
     background: url('https://i.ibb.co/zNq5WR4/image.png');
-    height: 600px;
+    height: 500px;
     width: 600px;
     top: 15%;
     left: 52%;
     background-size: 100%;
     background-repeat: no-repeat;
+
 }
 
 @media only screen and (max-width: 1024px) {

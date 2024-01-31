@@ -1,6 +1,5 @@
 import React from 'react';
 import Navbar from '../ArtificialIntelComp/Navbar';
-import Quote from './Quote';
 import Contact from '../ArtificialIntelComp/Contact';
 import Footer from '../ArtificialIntelComp/Footer';
 import AnimateDev from '../ArtificialIntelComp/AnimateDev';
@@ -14,7 +13,6 @@ const ArtificialIntelligence = () => {
   return (
     <div>
       <Navbar/>
-      <Quote/>
       <BlockSoftDev/>
       <AnimateDev/>
       <BlockAppDev/>

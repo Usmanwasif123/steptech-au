@@ -1,6 +1,5 @@
 import React from 'react';
 import Navbar from '../SeoComp/Navbar';
-import Quote from './Quote';
 import Contact from '../SeoComp/Contact';
 import Footer from '../SeoComp/Footer';
 import AnimateDev from '../SeoComp/AnimateDev';
@@ -14,7 +13,6 @@ const Seo = () => {
   return (
     <div>
       <Navbar/>
-      <Quote/>
       <BlockSoftDev/>
       <AnimateDev/>
       <BlockAppDev/>

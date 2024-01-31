@@ -133,10 +133,12 @@
     list-style: none;
     text-transform: capitalize;
     color: #fff;
+  
 }
 .contact-foolinks li a{
     color: #fff;
     text-decoration: none;
+    cursor: pointer;
 }
 
 .contact-foolinks img{

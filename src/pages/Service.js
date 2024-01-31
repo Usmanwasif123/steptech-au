@@ -1,6 +1,5 @@
 import React from 'react';
 import Navbar from '../ServiceComp/Navbar';
-import Quote from './Quote';
 import Process from '../ServiceComp/Process';
 import Contact from '../ServiceComp/Contact';
 import Footer from '../ServiceComp/Footer';
@@ -15,7 +14,6 @@ const Service = () => {
   return (
     <div>
       <Navbar/>
-      <Quote/>
       <ActionGame/>
       <Sportgame/>
       <Shopify/>

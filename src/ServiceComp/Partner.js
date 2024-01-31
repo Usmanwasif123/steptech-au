@@ -5,18 +5,20 @@ const Partner = () => {
   return (
     <div className='service-section7'>
       <h1 className='left-h1'data-aos="zoom-in" data-aos-duration="500" data-aos-easing="ease-in-sine" data-aos-offset="0">
-      Unleash The Power Of Pixel With Our Web Development Services.
+      Get Business Success With Our Digital Marketing Services.
       </h1>
       <h1 className='right-h1'data-aos="zoom-in" data-aos-duration="500" data-aos-easing="ease-in-sine" data-aos-offset="0">
-      Build Your Online Success With Our Precise App Development Services.
+      Get Business Growth With Our E-Commerce Development Services.
       </h1>
       <p className='left-p'data-aos="zoom-in" data-aos-duration="500" data-aos-easing="ease-in-sine" data-aos-offset="0">
-      Welcome to Step Tech Global, your expert partner in extensive web development services. From initial ideation to a successful launch, 
-      our convenient approach ensures a seamless experience through every stage of development.
+      We’re Australia’s well-known Digital marketing agency. We offer you an all-inclusive cohesive marketing solution to 
+      enhance your business. Whether that’s leads or product sales, boost your brand share in the marketplace. To thrive 
+      in the market, our strategy for digital marketing.
       </p>
       <p className='right-p'data-aos="zoom-in" data-aos-duration="500" data-aos-easing="ease-in-sine" data-aos-offset="0">
-      At Step Tech Global, we are turning app concepts into digital masterpieces. As a well-known mobile app development company, we offer the 
-      best app development services to clear up your business concerns.
+      Are you searching to untie the highest potential of your e-commerce business? At Step Tech, an e-commerce 
+      development agency, we’re here to make your business stand at the cutting edge of digital advancement and 
+      creativity.
       </p>
       <div className='service-left7' ></div>
       <div className='service-right7' ></div>

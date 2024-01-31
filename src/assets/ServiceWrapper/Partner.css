@@ -49,7 +49,7 @@
     font-weight: 500;
     line-height: 30px; 
     letter-spacing: -1px;
-    top: 72%;
+    top: 70%;
     left: 2%;
     padding: 30px 790px 0px 0px;
     color: #fff;
@@ -72,21 +72,21 @@
 .service-left7{
     position:absolute;
     z-index: 3;
-    background: url('https://i.ibb.co/NZzy8Ff/image.png');
-    height: 450px;
-    width: 450px;
-    top: 5%;
-    left: 5%;
+    background: url('https://i.ibb.co/HgnXzkK/image.png');
+    height: 500px;
+    width: 500px;
+    top: -2%;
+    left: 3%;
     background-size: 100%;
     background-repeat: no-repeat;
 }
 .service-right7{
     position:absolute;
     z-index: 3;
-    background: url('https://i.ibb.co/NZzy8Ff/image.png');
-    height: 450px;
-    width: 450px;
-    top: 5%;
+    background: url('https://i.ibb.co/MsZ4Nb9/image.png');
+    height: 500px;
+    width: 500px;
+    top: -2%;
     left: 55%;
     background-size: 100%;
     background-repeat: no-repeat;

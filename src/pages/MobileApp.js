@@ -1,6 +1,5 @@
 import React from 'react';
 import Navbar from '../MobileAppComp/Navbar';
-import Quote from './Quote';
 import Ecommerce from '../MobileAppComp/Ecommerce';
 import Process from '../MobileAppComp/Process';
 import Webdevelopement from '../MobileAppComp/Webdevelopement';
@@ -19,7 +18,6 @@ const Web = () => {
   return (
     <div>
       <Navbar/>
-      <Quote/>
       <Webdevelopement/>
       <Ecommerce/>
       <Magneto/>

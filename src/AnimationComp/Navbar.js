@@ -86,7 +86,7 @@ const Navbar = () => {
           </li>
             <li><Link to='/portfolio' className='portfolio'>portfolio</Link></li>
             <li><Link to='/blog' className='blog'>blog</Link></li>
-            <Link to='/get-a-quote' className='quote-btn'>get a quote </Link>
+            <button ><a href='tel:+61410025346' class='call-btn'>+61 410 025 346</a></button>
             <button>
               <FaTimes/>
             </button>
@@ -102,7 +102,8 @@ const Navbar = () => {
         actual software development team.</p>
         </h1>
       </div>
-      <button className='animate-startbtn' onClick={() => setIsVisible(true)}  data-aos="flip-right" data-aos-duration="500" data-aos-easing="ease-in-sine" data-aos-offset="0">get started</button>
+      <button className='animate-startbtn' onClick={() => setIsVisible(true)}  data-aos="flip-right" data-aos-duration="500" 
+      data-aos-easing="ease-in-sine" data-aos-offset="0">get started</button>
       {isVisible && 
         <div className='animate1-visible-div'>
           <img style={{height: '300px', width: '500px'}} src='https://i.ibb.co/h8xCwvR/image.png' alt='visible-image' />

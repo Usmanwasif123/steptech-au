@@ -71,11 +71,12 @@
     z-index: 3;
     background: url('https://i.ibb.co/CmrSh3p/image.png');
     height: 600px;
-    width: 600px;
+    width: 500px;
     top: 10%;
     left: 60%;
     background-size: 80%;
     background-repeat: no-repeat;
+
 }
 
 .app5-visible-div{

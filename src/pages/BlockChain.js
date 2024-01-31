@@ -1,6 +1,5 @@
 import React from 'react';
 import Navbar from '../BlockchainComp/Navbar';
-import Quote from './Quote';
 import Contact from '../BlockchainComp/Contact';
 import Footer from '../BlockchainComp/Footer';
 import AnimateDev from '../BlockchainComp/AnimateDev';
@@ -14,7 +13,6 @@ const BlockChain = () => {
   return (
     <div>
       <Navbar/>
-      <Quote/>
       <BlockSoftDev/>
       <AnimateDev/>
       <BlockAppDev/>

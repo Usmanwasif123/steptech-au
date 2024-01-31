@@ -5,7 +5,7 @@
 }
 
 .nav-container{
-    height: 100vh;
+    height: 100vh !important;
     width: 98.7vw;
     position: relative;
 }
@@ -245,22 +245,23 @@ cursor: pointer;
 }
 
 
-.quote-btn{
+.call-btn{
     display: flex;
     align-items: center;
     justify-content: center;
     text-transform: capitalize;
     text-decoration: none;
-    font-size: 14px;
-    padding: 10px 25px 10px 25px;
+    font-size: 17px;
+    font-weight: 600;
+    padding: 15px 26px;
     position: absolute;
-    border-radius: 60px;
+    border-radius: 20px;
+    border: none;
     cursor: pointer;
-    color: #fff;
+    color: #233f81;
     z-index: 1;
-    outline: 1px solid #fff;
-    background: transparent;
-    top: 8%;
+    background: #fff;
+    top: 6%;
     left: 78%;
 }
 
@@ -386,7 +387,7 @@ cursor: pointer;
     border: none;
     outline: 1px solid #fff;
     background: #fff;
-    margin-top: -140px;
+    margin-top: -130px;
     margin-left: 115px;
 
 }

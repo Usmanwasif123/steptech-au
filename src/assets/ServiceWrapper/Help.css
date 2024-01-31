@@ -63,7 +63,7 @@
     font-weight: 500;
     line-height: 30px; 
     letter-spacing: -1px;
-    top: 70%;
+    top: 64%;
     left:8%;
     padding: 30px 20px 0px 0px;
     color: #fff;
@@ -83,9 +83,9 @@
 .service-right5{
     position:absolute;
     z-index: 3;
-    background: url('https://i.ibb.co/NZzy8Ff/image.png');
-    height: 450px;
-    width: 450px;
+    background: url('https://i.ibb.co/hXwm4G1/image.png');
+    height: 500px;
+    width: 500px;
     top: 5%;
     left: 55%;
     background-size: 100%;

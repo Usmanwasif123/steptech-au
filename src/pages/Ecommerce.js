@@ -1,6 +1,5 @@
 import React from 'react';
 import Navbar from '../EcomComp/Navbar';
-import Quote from './Quote';
 import Contact from '../EcomComp/Contact';
 import Footer from '../EcomComp/Footer';
 import AnimateDev from '../EcomComp/AnimateDev';
@@ -14,7 +13,6 @@ const Ecom = () => {
   return (
     <div>
       <Navbar/>
-      <Quote/>
       <BlockSoftDev/>
       <AnimateDev/>
       <BlockAppDev/>
