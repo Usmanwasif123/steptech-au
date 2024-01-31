@@ -39,7 +39,7 @@ const Footer = () => {
             Development</Link></li>
             <li><ChevronRight style={{position: 'absolute', left: '-8%', top: '44%'}}/><Link to='/app-development'>Mobile App UI/UX Design &<br/>
              Development</Link></li>
-            <li><ChevronRight style={{position: 'absolute', left: '-8%', top: '65%'}}/><Link to='/software-developement'>Software Development</Link></li>
+            <li><ChevronRight style={{position: 'absolute', left: '-8%', top: '65%'}}/><Link to='/software-development'>Software Development</Link></li>
             <li><ChevronRight style={{position: 'absolute', left: '-8%', top: '78%'}}/><Link to='/search-engine-optimization'>Search Engine Optimization</Link></li>
             <li><ChevronRight style={{position: 'absolute', left: '-8%', top: '91%'}}/><Link to='/social-media-management'>Social Media Management</Link></li>
             </nav>
