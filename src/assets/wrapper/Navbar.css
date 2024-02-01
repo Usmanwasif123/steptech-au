@@ -50,18 +50,12 @@
     cursor: pointer;
 }
 
-.nav-items .service{
-    padding-right: 20px;
-    margin-left: 20px;
-    cursor: pointer;
-}
-
 .bars{
     display: none;
 }
 
 .dropdown {
-    position: relative;
+    position: absolute;
     cursor: pointer;
 }
 .dropdown-content {
