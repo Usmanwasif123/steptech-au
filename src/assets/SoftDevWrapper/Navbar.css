@@ -30,33 +30,28 @@
     background-repeat: no-repeat;
 }
 
+
+.bars{
+    display: none;
+}
+
 .nav-items{
-    margin-top: -21px;
+    background: #fff;
+    z-index: 1;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.bars{
-    display: none;
-}
-.nav-items li a{
-    position: absolute;
-    display: flex;
-    z-index: 1;
-    text-transform: capitalize;
-    color: #fff;
-    top: 9%;
-    left: 36%;
-    cursor: pointer;
-    text-decoration: none;
+
+.nav-items li{
+    background: #455545;
 }
 
 .nav-items .about{
     left: 43%;
 }
 .nav-items .service{
-    left: 52%;
-    top: 50px;
+    padding-top: 60px;
 }
 
 .nav-items .portfolio{
@@ -68,14 +63,14 @@
 }
 .dropdown {
     position: relative;
-    cursor: pointer;
+    list-style: none;
 }
 .dropdown-content {
     background: #fff;
     height: 600px;
     width: 300px;
-    position: absolute;
-    z-index: 5;
+    position: relative;
+    z-index: 2;
     border-radius: 2px;
     margin-top: 85px;
     margin-left: 20px;
@@ -94,7 +89,7 @@
     left: 5%;
     font-size: 18px;
     font-family: Poppins, sans-serif;
-    font-weight: 500p;
+    font-weight: 500;
     text-transform: capitalize;
     cursor: pointer;
 }
@@ -326,7 +321,7 @@
     z-index: 1;
     outline: 1px solid #fff;
     background: #fff;
-    top: 75%;
+    top: 85%;
     left: 4.5%;
     box-shadow: inset 0 0 0 0 #233F81;
     -webkit-transition: ease-out 0.4s;

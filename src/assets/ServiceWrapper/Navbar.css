@@ -49,11 +49,9 @@ cursor: pointer;
     cursor: pointer
 }
 .nav-items .service{
-    padding-right: 20px;
-    margin-left: 20px;
-    left: 70%;
-    top: 260%;
     cursor: pointer;
+    padding-top: 0px;
+    margin-top: -10px;
 }
 
 .nav-items .portfolio{

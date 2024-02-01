@@ -31,37 +31,33 @@
 }
 
 .nav-items{
-    margin-top: -21px;
     display: flex;
     align-items: center;
     justify-content: center;
+    list-style: none;
 
 }
-.bars{
-    display: none;
+.nav-items li{
+    color: #fff;
+    font-size: 17px;
+    background: #333;
 }
 .nav-items .home{
-cursor: pointer;
-
-}
-.nav-items .about{
-    left: 43%;
-    cursor: pointer
-}
-.nav-items .service{
-    padding-right: 20px;
-    margin-left: 20px;
-    left: 70%;
-    top: 260%;
     cursor: pointer;
 }
 
-.nav-items .portfolio{
-    left: 60%;
+.nav-items .home:hover{
+    cursor: pointer;
 }
 
-.nav-items .blog{
-    left: 68%;
+.nav-items .service{
+    padding-right: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.bars{
+    display: none;
 }
 
 .dropdown {

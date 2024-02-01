@@ -8,24 +8,24 @@ const BlockAppDev = () => {
     <div className='block-section5'>
       <ArrowForwardIcon style={{position:'absolute', zIndex:'1', color:'#243F82', fontSize: '30px', 
       fontWeight: '200', top: '15%', left: '50%'}}/>
-      <span className='span1'>Custom software development permits businesses to build customized solutions to 
-      their elaborate requirements, warranting optimum functionality and performance.</span>
+      <span className='span1'><b>Custom software development</b> permits businesses to build customized solutions to their 
+      elaborate requirements, warranting optimum functionality and performance.</span>
       <ArrowForwardIcon style={{position:'absolute', zIndex:'1', color:'#243F82', fontSize: '30px', 
       fontWeight: '200', top: '34%', left: '50%'}}/>
-      <span className='span2'>We are skillful in developing cloud-based products that allow businesses to scale 
-      up their operations, maximize efficiency, and reduce costs.</span>
+      <span className='span2'>Our expertise focuses on developing cloud-based solutions that enable businesses to boost 
+      their productivity, reduce expenses, and expand their operations.</span>
       <ArrowForwardIcon style={{position:'absolute', zIndex:'1', color:'#243F82', fontSize: '30px', 
       fontWeight: '200', top: '49%', left: '50%'}}/>
-      <span className='span3'>Custom software prioritizes user-centric design, ensuring a seamless and intuitive
-      experience and substantially enhancing user satisfaction and engagement.</span>
+      <span className='span3'><b>Custom software applications</b> emphasize user-centric design, ensuring an effortless and 
+      intuitive experience while substantially improving customer satisfaction and engagement.</span>
       <ArrowForwardIcon style={{position:'absolute', zIndex:'1', color:'#243F82', fontSize: '30px', 
       fontWeight: '200', top: '70%', left: '50%'}}/>
-      <span className='span4'>Custom software effortlessly incorporates your current systems and procedures, 
-      restructuring operations and assenting to a consistent digital environment.</span>
+      <span className='span4'>Our <b>custom made software</b> integrates seamlessly with your current systems and procedures, 
+      simplifying operations and conforming to an identical digital environment.</span>
       <ArrowForwardIcon style={{position:'absolute', zIndex:'1', color:'#243F82', fontSize: '30px', 
       fontWeight: '200', top: '90%', left: '50%'}}/>
-      <span className='span5'>We adopt a strong methodology for Blockchain app development services that helps 
-      accomplish higher security.</span>
+      <span className='span5'>Custom software offers security control, enabling you to develop tailored, powerful scales 
+      that match your company's demands and properly secure sensitive information.</span>
       <div className='software-img5' ></div>
     </div>
   )

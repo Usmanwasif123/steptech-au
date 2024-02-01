@@ -1,8 +1,8 @@
 import React, {useState, useRef, useEffect} from 'react';
 import '../assets/wrapper/Navbar.css';
-import {Link} from 'react-router-dom';
+import {Link, NavLink} from 'react-router-dom';
 import {FaBars, FaTimes} from 'react-icons/fa';
-import {KeyboardArrowDownOutlined, Clear }from '@mui/icons-material';
+import {KeyboardArrowDownOutlined, Clear, ArrowRight }from '@mui/icons-material';
 
 const Navbar = () => {
   const [isSidebarOpen, setSidebarOpen] = useState(false);
@@ -44,6 +44,7 @@ const Navbar = () => {
     };
   }, [closeTimeout]);
 
+
   return (
     <div className='nav-container'>
          <div className='logo'><a href='https://steptech.com.au/'></a></div>
@@ -52,11 +53,11 @@ const Navbar = () => {
           </button>
         <nav>
         <ul className='nav-items'>
-            <li><Link to='/'>home</Link></li>
+            <li><NavLink to='/' className='home'>home</NavLink></li>
             <li><Link to='/about-us' className='about'>about us</Link></li>
             <li className='dropdown' onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
-           <KeyboardArrowDownOutlined style={{position:'absolute', zIndex: 1, fontSize: '25px', top: '260%', left: '73.4px', color: "#fff"}}/>
-            <Link to='/service' className='service' style={{marginTop: '1px'}}>services</Link>
+           <KeyboardArrowDownOutlined style={{position:'absolute', zIndex: 1, fontSize: '25px', marginTop: '46px', paddingLeft: '76px', color: "#fff"}}/>
+            <li><Link to='/service'  className='service' style={{marginTop: '44px'}}>services</Link></li>
             {isDropdownOpen && 
             <div className='dropdown-content' ref={dropdownRef} onMouseEnter={handleDropdownMouseEnter} onMouseLeave={handleDropdownMouseLeave}>
              <li><Link to='/web-design-and-development' className='nav-service1'>web design & development</Link></li>
@@ -119,6 +120,7 @@ const Navbar = () => {
           </form>
         </div>
       }
+
     </div>
   );
 }

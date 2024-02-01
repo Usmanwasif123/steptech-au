@@ -5,10 +5,12 @@ import '../assets/SoftDevWrapper/BlockSoftDev.css';
 const BlockSoftDev = () => {
   return (
     <div className='software-section2'>
-      <h1 className='main-heading'>Keep On Inspiring With Application Development Company</h1>
-      <p className='main-p'>We provide high-quality, cost-effective, reliable, full-cycle software solution
-      development that matches your needs, budget, and timeframe. Maximize your competitive benefits with a 
-      software solution.
+      <h1 className='main-heading'>Our Expert Custom Software Developer</h1>
+      <p className='main-p'>At Step Tech, a custom software development company. We offer our clients custom software 
+      development services tailored to satisfy their demands. Our custom software application company specializes in 
+      providing a visceral, easy-to-use, and powerful solution without compromising any of these attributes. Our custom
+       software developers are specialists in developing innovative, customized solutions with the latest tools and 
+       technology.
       </p>
       <h1 className='sub-heading'>Software Solution For Your Business Needs
       </h1>

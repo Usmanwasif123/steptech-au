@@ -63,8 +63,9 @@ const Navbar = () => {
         <li><Link to='/'>home</Link></li>
             <li><Link to='/about-us' className='about'>about us</Link></li>
             <li className='dropdown' onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
-           <KeyboardArrowDownOutlined style={{position:'absolute', zIndex: 1, fontSize: '25px', top: '330%', left: '73.4px', color: "#fff"}}/>
-            <Link to='/service' className='service' style={{marginTop: '15px'}}>services</Link>
+            <Link to='/service' className='service'>services</Link>
+           <KeyboardArrowDownOutlined style={{position: 'absolute', zIndex:1,  fontSize: '25px', paddingTop: '60px', paddingLeft: '77px', 
+           color: "#fff"}}/>
             {isDropdownOpen && 
             <div className='dropdown-content' ref={dropdownRef} onMouseEnter={handleDropdownMouseEnter} onMouseLeave={handleDropdownMouseLeave}>
              <li><Link to='/web-design-and-development' className='nav-service1'>web design & development</Link></li>
@@ -94,9 +95,12 @@ const Navbar = () => {
       <img src='https://i.ibb.co/Y8F8xfL/Rectangle-1.png' alt='Banner'></img>
       <div className='software-banner-line'></div>
       <div className='software-heading'>
-        <h1>Committed To The Future With Our Software Development Company<br/>
-        <p>Empower your business to soar, exceeding expectations with our tailor-made <b>Software Development 
-        Service</b> that unlocks innovation.</p>
+        <h1>Best Custom Sofware Development Agency in Australia<br/>
+        <p>Transform your business with successful, flexible, and trustworthy software solutions, fulfilling today's 
+          demands while offering up new potential for the future. Step Tech is a trustworthy custom software development 
+          company in Australia with expertise in creating innovative, customized software solutions for multiple 
+          industries
+          </p>
         </h1>
       </div>
       <button className='softwarebtn1-start' onClick={() => setIsVisible(true)}  data-aos="flip-right" data-aos-duration="500" data-aos-easing="ease-in-sine" data-aos-offset="0">get started</button>

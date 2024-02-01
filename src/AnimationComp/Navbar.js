@@ -95,11 +95,12 @@ const Navbar = () => {
       <img src='https://i.ibb.co/Y8F8xfL/Rectangle-1.png' alt='Banner'></img>
       <div className='animatie-banner-line'></div>
       <div className='animate-heading'>
-        <h1>Why You Choose STEP TECH GLOBAL For 2D Game Development<br/>
-        <p>At STEP TECH GLOBAL, Our focus is on 2D Game Development Services based on our commitment to creating 2D Games 
-        or delivering robust, secure, and scalable applications to businesses worldwide. With authenticated experience 
-        and a developing team of skilled developers, We target to either build your project from scratch or augment your 
-        actual software development team.</p>
+        <h1>We Turn Your Creative Ideas into Sparkling Reality<br/>
+        <p>Ready to tell your brand story to the world? At Step Tech, a well-known Animation service provider in Australia, we’re here to help 
+          your idea convert into an engaging video that connects through emotion and creativity. Our video animation firm works with businesses 
+          from all over the world to maximize their sales, competitive edge, and relationships with customers. Our business has an extensive 
+          record of working with notable Australian businesses and businesses, providing them with a wide range of services such as explainer 
+          films, TV commercials, social media advertisements, and more.</p>
         </h1>
       </div>
       <button className='animate-startbtn' onClick={() => setIsVisible(true)}  data-aos="flip-right" data-aos-duration="500" 

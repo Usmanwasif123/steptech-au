@@ -6,11 +6,9 @@ import '../assets/SoftDevWrapper/AnimateDev.css';
 const AnimateDev = () => {
   return (
     <div className='software-section4'>
-        <h1>How Our Custom Application Development Company Will &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        Modify Your Business</h1>
-        <p>Optimize the capability of your projects with intelligent automation, data-driven insights, custom 
-        software development, user interactions, and more.</p>
+        <h1>Benefits of Our Software Development Services</h1>
+        <p>Maximize the future potential of your projects through user interactions, custom software development, 
+          data-driven insights, intelligent automation, and more.</p>
     </div>
   )
 }
