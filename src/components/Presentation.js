@@ -73,27 +73,27 @@ const handleButtonClick = (category) => {
           items: [
             {
               heading: 'Study App',
-              imageSrc: 'https://i.ibb.co/XV1dQq0/web-mockupe.jpg',
+              imageSrc: 'https://i.ibb.co/jfMQP47/image.png',
             },
             {
               heading: 'Rental Service',
-              imageSrc:'https://i.ibb.co/Bq12K1k/mobilw-mock-STEP-TECH-GRADIENT.jpg',
+              imageSrc:'https://i.ibb.co/ZL8Z9Tg/image.png',
             },
             {
                 heading: 'Real Estate',
-                imageSrc: 'https://i.ibb.co/kByNQSR/BRANDING.jpg', 
+                imageSrc: 'https://i.ibb.co/mhcNLsM/image.png', 
             },
             {
                 heading: 'eShaafi: Healthcare',
-                imageSrc: 'https://i.ibb.co/xX7n3gV/brochure.jpg', 
+                imageSrc: 'https://i.ibb.co/z4688Pd/image.png', 
             },
             {
                 heading: 'Casamundo',
-                imageSrc: 'https://i.ibb.co/t3X5q2f/LOGOS.jpg', 
+                imageSrc: 'https://i.ibb.co/Hz12WV1/image.png', 
             },
             {
                 heading: 'Sneaker Den',
-                imageSrc: 'https://i.ibb.co/Kyw0Mnf/WHITE-PAPER.jpg', 
+                imageSrc: 'https://i.ibb.co/GR1Cdkf/image.png', 
                 buttonPosition: {position: 'absolute', left: '100%' },
             },
           ],
@@ -104,27 +104,27 @@ const handleButtonClick = (category) => {
           items: [
             {
               heading: 'Ultimate Racer',
-              imageSrc: 'https://i.ibb.co/XV1dQq0/web-mockupe.jpg',
+              imageSrc: 'https://i.ibb.co/Jtr7GR4/image.png',
             },
             {
               heading: 'Arcade',
-              imageSrc:'https://i.ibb.co/Bq12K1k/mobilw-mock-STEP-TECH-GRADIENT.jpg',
+              imageSrc:'https://i.ibb.co/zSn0nnb/image.png',
             },
             {
                 heading: 'Fantasy Game',
-                imageSrc: 'https://i.ibb.co/kByNQSR/BRANDING.jpg', 
+                imageSrc: 'https://i.ibb.co/whN4k08/image.png', 
             },
             {
                 heading: 'Ultimate Shooter',
-                imageSrc: 'https://i.ibb.co/xX7n3gV/brochure.jpg', 
+                imageSrc: 'https://i.ibb.co/k4hjTdm/image.png', 
             },
             {
                 heading: 'The Hallowen Nightmare',
-                imageSrc: 'https://i.ibb.co/t3X5q2f/LOGOS.jpg', 
+                imageSrc: 'https://i.ibb.co/YWVvx2j/image.png', 
             },
             {
                 heading: 'RPG Game',
-                imageSrc: 'https://i.ibb.co/Kyw0Mnf/WHITE-PAPER.jpg', 
+                imageSrc: 'https://i.ibb.co/qFM2Zmy/image.png', 
                 buttonPosition: {position: 'absolute', top: '20%', left: '100%' },
             },
           ],
