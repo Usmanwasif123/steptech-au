@@ -8,7 +8,7 @@
     width: 98.7vw;
 }
 
-.right-vision{
+.vision-main .right-vision{
     font-family: Poppins, sans-serif;
     font-size: 22px;
     font-style: normal;
@@ -20,9 +20,10 @@
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    margin-top: -105px;
 }
 
-#line1-vision{
+.vision-main #line1-vision{
     top: 115%;
     left: 44.6%;
     position: absolute;
@@ -31,7 +32,7 @@
     background: linear-gradient(255deg, #7554C1 29.51%, #243F82 93.15%);
     padding: 0px 50px 4px 50px;
 }
-#line2-vision{
+.vision-main #line2-vision{
     top: 115%;
     left: 52.2%;
     position: absolute;
@@ -40,7 +41,7 @@
     background: linear-gradient(255deg, #7554C1 29.51%, #243F82 93.15%);
     padding: 0px 10px 4px 10px;
 }
-#line3-vision{
+.vision-main #line3-vision{
     top: 115%;
     left: 53.8%;
     position: absolute;
@@ -50,7 +51,7 @@
     padding: 0px 5px 4px 5px;
 }
 
-.right-heading{
+.vision-main .right-heading{
     color: #464646;
     font-family: Poppins, sans-serif;
     font-size: 49px;
@@ -62,7 +63,7 @@
     margin: 1px 200px 12px 600px;
 }
 
-.right-p {
+.vision-main .right-p {
     color: #6E6E6E;
     font-family: Poppins, sans-serif;
     font-size: 18px;
@@ -77,7 +78,7 @@
     align-items: center;
 }
 
-.btn-visionread{
+.vision-main .btn-visionread{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -95,7 +96,7 @@
     top: 191%;
     left: 44.8%;
 }
-.box{
+.vision-main .box{
     top: 110%;
     left: 6.5%;
     position: absolute;
@@ -109,7 +110,7 @@
     padding: 340px 280px 100px 100px;
 }
 
-.box1{
+.vision-main .box1{
     top: 117%;
     left:9%;
     position: absolute;
@@ -122,14 +123,14 @@
     padding: 340px 280px 100px 100px;
 }
 
-.vision-image{
-        position:absolute;
+.vision-main .vision-image{
+        position: absolute;
         z-index: 3;
         background: url('https://i.ibb.co/hVNvHLj/man-1.png');
         height: 120vh;
         width: 50vw;
-        top: 111.5%;
-        left: 10%;
+        margin-top: -36.7%;
+        margin-left: 10%;
         transform: rotate(6deg);
         transform-origin: 20% 40%;
         background-size: 60%;
@@ -137,54 +138,56 @@
 }
 
 @media only screen and (max-width: 1024px) {
-    .right-vision{
+    .vision-main .right-vision{
         font-size: 20px;
         padding: 30px 0px 0px 530px;
+        margin-top: -125px;
     }
-    #line1-vision{
+    .vision-main #line1-vision{
         top: 115%;
         left: 52%;
         padding: 0px 30px 4px 30px;
     }
-    #line2-vision{
+    .vision-main #line2-vision{
         top: 115%;
         left: 58.2%;
         padding: 0px 10px 4px 10px;
     }
-    #line3-vision{
+    .vision-main #line3-vision{
         top: 115%;
         left: 60.5%;
         padding: 0px 5px 4px 5px;
     }
-    .right-heading{
+    .vision-main .right-heading{
         font-size: 30px;
         padding: 14px 0px 1px 10px;
         margin: 1px 10px 12px 490px;
     }
-    .right-p {
+    .vision-main .right-p {
         font-size: 16px;
         padding: 0px 2px 1px 480px;
         margin: 17px 30px 12px 25px;
     }
-    .btn-visionread{
-        top: 205%;
+    .vision-main .btn-visionread{
+        top: 201%;
         left: 50%;
     }
-    .box{
+    .vision-main .box{
         top: 117%;
         left: 4%;
         padding: 340px 200px 50px 100px;
     }
-    .box1{
+    .vision-main .box1{
         top: 125%;
         left: 10%;
         padding: 340px 200px 50px 100px;
     }
-    .vision-image{
+    .vision-main .vision-image{
         height: 100vh;
         width: 65vw;
-        top: 112.9%;
-        left: 10%;
+        margin-top: 1.8%;
+        margin-left: 0%;
+        background-size: 58%;
     }
 }
 @media only screen and (max-width: 768px) {

@@ -90,7 +90,7 @@
     position: absolute;
     top: 20%;
     margin: 0px 100px 0px 300px;
-    padding: 0px 100px 0px 0px;
+    padding: 0px 100px 0px 100px;
 }
 #line-partner{
     top:28%;
@@ -133,4 +133,103 @@
     transition: margin-top 0.4s ease-in-out;
 }
 
+@media only screen and (max-width: 1024px) {
+      .partner-grid1{
+        position: absolute;
+        z-index: 2;
+        left: 4%;
+        
+    }
 
+    .partner-item1 img{
+        position: absolute;
+        z-index: 2;
+        object-fit: cover;
+        background-repeat: no-repeat;
+        left: 15%;
+        top: 5%;
+        height: 10rem;
+    }
+    .partner-grid2{
+        position: absolute;
+        z-index: 2;
+        left: 23%;
+    }
+    .partner-item2 img{
+        position: absolute;
+        z-index: 2;
+        object-fit: cover;
+        background-repeat: no-repeat;
+        left: 9%;
+        top: 5%;
+        height: 10rem;
+    }
+    .partner-grid3{
+        position: absolute;
+        z-index: 2;
+        left: 42%;
+    }
+    
+    .partner-item3 img{
+        position: absolute;
+        z-index: 2;
+        object-fit: cover;
+        background-repeat: no-repeat;
+        left: 9%;
+        top: 5%;
+        height: 10rem;
+    }
+    .partner-grid4{
+        position: absolute;
+        z-index: 2;
+        left: 61%;
+    }
+    .partner-item4 img{
+        position: absolute;
+        z-index: 2;
+        object-fit: cover;
+        background-repeat: no-repeat;
+        left: 9%;
+        top: 5%;
+        height: 10rem;
+    }
+    .partner-grid5{
+        position: absolute;
+        z-index: 2;
+        left: 80%;
+    }
+    .partner-item5 img{
+        position: absolute;
+        z-index: 2;
+        object-fit: cover;
+        background-repeat: no-repeat;
+        left: 9%;
+        top: 5%;
+        height: 10rem;
+    }
+
+    .partner-container h1{
+        font-size: 35px;
+        margin: 0px 100px 0px 150px;
+        padding: 0px 100px 0px 100px;
+    }
+    #line-partner{
+        margin-top: -2%;
+    
+    }
+    .partner-container  .top-para{
+        margin: -30px 100px 0px 200px;
+        text-align: center;        
+    }
+
+    .partner-container  .middle-para{
+        margin: -30px 100px 0px 200px;
+        text-align: center;
+        top: 54%;
+    }
+
+    .read-btn{
+        margin-top: 40px;
+    }
+
+}

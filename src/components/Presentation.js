@@ -8,28 +8,28 @@ const Presentation = () => {
     const [content, setContent] = useState({
         items: [
             {
-              heading: 'Web Development 1',
+              heading: 'Clothing Brand',
               imageSrc: 'https://i.ibb.co/XV1dQq0/web-mockupe.jpg',
             },
             {
-              heading: 'Web Development 2',
-              imageSrc: 'https://i.ibb.co/Bq12K1k/mobilw-mock-STEP-TECH-GRADIENT.jpg',
+              heading: 'AutoParts - Motor Mods',
+              imageSrc:'https://i.ibb.co/Bq12K1k/mobilw-mock-STEP-TECH-GRADIENT.jpg',
             },
             {
-                heading: 'Web Development 3',
-                imageSrc: 'https://i.ibb.co/kByNQSR/BRANDING.jpg', 
+              heading: 'Tourism Web',
+              imageSrc: 'https://i.ibb.co/kByNQSR/BRANDING.jpg',
             },
             {
-                heading: 'Web Development 4',
-                imageSrc: 'https://i.ibb.co/xX7n3gV/brochure.jpg', 
+              heading: 'Music Web',
+              imageSrc: 'https://i.ibb.co/xX7n3gV/brochure.jpg', 
             },
             {
-                heading: 'Web Development 5',
-                imageSrc: 'https://i.ibb.co/t3X5q2f/LOGOS.jpg', 
+              heading: 'Sweat - Fitness',
+              imageSrc: 'https://i.ibb.co/t3X5q2f/LOGOS.jpg', 
             },
             {
-                heading: 'Web Development 6',
-                imageSrc: 'https://i.ibb.co/Kyw0Mnf/WHITE-PAPER.jpg', 
+              heading: 'Nutritional Web',
+              imageSrc: 'https://i.ibb.co/Kyw0Mnf/WHITE-PAPER.jpg',  
             },
           ],
 });
@@ -158,7 +158,7 @@ const handleButtonClick = (category) => {
         <Item className='present-item1'>
             <img src={content.items[0].imageSrc} alt='web-mockup'/>
             <h1>{content.items[0].heading}</h1>
-            <Link to='/portfolio'><button className='present-btn'>Click Here</button></Link>
+            <Link to='/portfolio' className='present-btn'>Click Here</Link>
         </Item>
         </Grid>
     ))}

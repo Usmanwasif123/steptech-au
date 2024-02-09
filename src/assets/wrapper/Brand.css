@@ -7,7 +7,7 @@
     height: 90vh;
     width: 98.7vw;
     background-color: #fff;
-    margin-top: 300px;
+    margin-top: 363px;
 }
 
 .let-heading{
@@ -22,10 +22,11 @@
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    margin-top: -20px;
 }
 
 #line1-brand{
-    top: 665%;
+    top: 675%;
     left: 51.9%;
     position: absolute;
     z-index: 1;
@@ -34,7 +35,7 @@
     padding: 0px 50px 4px 100px;
 }
 #line2-brand{
-    top: 665%;
+    top: 675%;
     left: 63.2%;
     position: absolute;
     z-index: 1;
@@ -43,7 +44,7 @@
     padding: 0px 10px 4px 35px;
 }
 #line3-brand{
-    top: 665%;
+    top: 675%;
     left: 66.9%;
     position: absolute;
     z-index: 1;
@@ -80,7 +81,7 @@
     margin-top: 100px;
     margin-left: 80px;
     position: absolute;
-    top: 640%;
+    top: 650%;
     left: 5%;
 }
 
@@ -110,4 +111,47 @@
 }
 .brand-carousel .slick-next{
     background: transparent;
+}
+
+@media only screen and (max-width: 1024px) {
+    .let-heading{
+        font-size: 19px;
+        margin-left: -59px;
+        margin-top: -66px;
+    }
+    #line1-brand{
+        top: 662%;
+        left: 63.9%;
+    }
+    #line2-brand{
+        top: 662%;
+        left: 78.9%;
+    }
+    #line3-brand{
+        top: 662%;
+        left: 83.9%;
+    }
+    .brand-heading{
+        font-size: 40px;
+        margin: -28px 50px 12px 631px;
+    }
+    .brand-p{
+        font-size: 19px;
+        margin: -17px 0px 12px 629px;
+    }
+    .brand-carousel{
+        margin-top: 61px;
+        margin-left: 80px;
+        position: absolute;
+        top: 650%;
+        left: 5%;
+    }
+    
+    .brand-carousel img{
+        height: 370px;
+        width: 370px;
+        padding-right: 200px;
+        cursor: pointer;
+    }
+
 }

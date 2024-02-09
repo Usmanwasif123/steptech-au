@@ -19,7 +19,14 @@ const Partner = () => {
   
   const containerStyles = {
     maxHeight: isOpen ? '250vh' : '140vh', 
+    
   };
+  const mediaQueryStyles = {
+    '@media (max-width: 1024px)': {
+      maxHeight: isOpen ? '350vh' : '120vh', // Adjust the values as needed
+    }
+  };
+  const mergedStyles = { ...containerStyles, ...mediaQueryStyles };
   
   const lineStyle={
     top: isOpen ? '28%' : '50%',
@@ -43,7 +50,7 @@ const Partner = () => {
     }));
 
   return (
-    <div className={`partner-container ${isOpen ? 'open' : ''}`} style={containerStyles}>
+    <div className={`partner-container ${isOpen ? 'open' : ''}`} style={mergedStyles}>
       <Grid container spacing={5}>
         <Grid item xs={6} md={4} className='partner-grid1'>
         <Item className='partner-item1'>
@@ -71,9 +78,7 @@ const Partner = () => {
         </Item>
         </Grid>
         </Grid>
-        <h1 style={headingStyle}>Best Web and App Development Company in &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Wyoming, USA</h1>
+        <h1 style={headingStyle}>Best Web and App Development Company in Wyoming, USA</h1>
         <div id='line-partner' style={lineStyle}></div>
         <p className='top-para' style={isOpen ? null : paragraphStyles1}>
             Are you also looking for the best web and app development company in the USA? Then stop scrolling anymore. 

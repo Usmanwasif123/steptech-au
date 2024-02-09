@@ -9,6 +9,7 @@
     background: #fff;
     position: relative;
     margin-top: 430px;
+    
 }
 
 .process-container img{
@@ -147,4 +148,93 @@
     color: #fff;
     margin: 0px -70px 0px -70px;
     padding: 90px 0px 0px 0px;
+}
+
+
+@media only screen and (max-width: 1024px) {
+    .process-detail{
+        font-size: 25px;
+    }
+    .process-define{
+        font-size: 40px;
+    }
+    .process-excellence{
+        font-size: 30px;
+    }
+    .dis-grid{
+        position: absolute;
+        z-index: 2;
+        left: 1%; 
+        top: 40%;
+    }
+
+    .dis-grid .dis-img{
+        top: 4%;
+        left: 40%;
+        height: 50px;
+        width: 50px;
+    }
+    .discovery{
+        font-size: 25px;
+    }
+    .dis-p{
+        font-size: 19px;
+    }
+    .des-grid{
+        position: absolute;
+        z-index: 2;
+        left: 26%; 
+        top: 40%;
+    }
+    .des-grid .des-img{
+        position: absolute;
+        top: 4%;
+        left: 40%;
+        height: 50px;
+        width: 50px;
+    }
+    .design{
+        font-size: 25px;
+    }
+    .des-p{
+        font-size: 19px;
+    }
+    .dev-grid{
+        position: absolute;
+        z-index: 2;
+        left: 51%; 
+        top: 40%;
+    }
+    .dev-grid .dev-img{
+        position: absolute;
+        top: 4%;
+        left: 40%;
+        height: 50px;
+        width: 50px;
+    }
+    .develop{
+        font-size: 25px;
+    }
+    .dev-p{
+        font-size: 19px;
+    }
+    .dep-grid{
+        position: absolute;
+        z-index: 2;
+        left: 76%; 
+        top: 40%;
+    }
+    .dep-grid .dep-img{
+        position: absolute;
+        top: 4%;
+        left: 40%;
+        height: 50px;
+        width: 50px;
+    }
+    .deploy{
+        font-size: 25px;
+    }
+    .dep-p{
+        font-size: 19px;
+    }
 }

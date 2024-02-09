@@ -65,9 +65,6 @@ const Brand = () => {
             <div>
                 <img src='https://i.ibb.co/x3HCdm5/image.png' alt='ai'/>
             </div>
-            <div>
-                <img src='https://i.ibb.co/y5VqCNL/image.png' alt='ai'/>
-            </div> 
           </Slider>
       </div>
         <h1 className='let-heading'>LET US INTRODUCE YOU!</h1>
