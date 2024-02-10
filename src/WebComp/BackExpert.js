@@ -4,39 +4,39 @@ import '../assets/WebWrapper/BackExpert.css';
 
 const BackExpert = () => {
   const [content, setContent] = useState({
-    paragraph: 'We bring authentically and trusted web development solutions with our ExpressJS development experts. Projects requiring lightweight and user-friendly web app solutions are done with utmost perfection. With our years of experience and unparalleled skills, we will build exceptional applications customized for your business needs. Get connected now.',
+    paragraph: 'Our PHP developer turns your concept into online web solutions and advances within the favorable timeframe and budget with a cleverly joined DevOps workflow, constant feedback, and an outcome-oriented strategy.',
   });
 
   const handleButtonClick = (category) => {
     switch (category) {
       case 'php':
         setContent({
-          paragraph: 'We bring authentically and trusted web development solutions with our ExpressJS development experts. Projects requiring lightweight and user-friendly web app solutions are done with utmost perfection. With our years of experience and unparalleled skills, we will build exceptional applications customized for your business needs. Get connected now.',
+          paragraph: 'Our PHP developer turns your concept into online web solutions and advances within the favorable timeframe and budget with a cleverly joined DevOps workflow, constant feedback, and an outcome-oriented strategy.',
         });
         break;
         case 'nodejs':
           setContent({
-            paragraph: 'We leverage AngularJS when developing captivating web applications, capturing its data binding and possession injection to diminish the need to write large code.',
+            paragraph: 'Our Node. JS experience helps organizations of every kind, whether they are startups or established businesses seeking a unique web-based application. Our professionals use agile Node.JS techniques to create backend and server-side apps.',
           });
           break;
           case 'laravel':
             setContent({
-              paragraph: 'Our software engineers use VUE JS to calculate, manipulate, and validate different data to create dynamic and reciprocal user experiences.',
+              paragraph: "Our Laravel Expert Team turns your business's ideas into interactive reality, giving customers the best browsing experience possible.",
             });
             break;
             case 'c#':
             setContent({
-              paragraph: 'Our Web Development experts have years of generic experience working with HTML programming to develop best-of-kind custom websites and applications.',
+              paragraph: 'Our experts specialize in enterprise-level software development using C#. We manage everything from custom software solutions to hybrid mobile applications for you.',
             });
             break;
             case '.net':
               setContent({
-                paragraph: 'Our Web Engineers use JavaScript to calculate, manipulate, and validate different data to create dynamic and reciprocal user experiences.',
+                paragraph: 'Our Web Engineers use JavaScript to calculate, manipulate, and validate different data to create dynamic and reciprocal user experiences.With a .Net system that is tailored to suit your requirements, we are prepared to handle both your internal and external activities. Get unique Windows programs intended that work across many devices.',
               });
               break;
               case 'expressjs':
                 setContent({
-                  paragraph: 'Our Web Engineers use JavaScript to calculate, manipulate, and validate different data to create dynamic and reciprocal user experiences.',
+                  paragraph: 'Our ExpressJS developers provide proper and dependable web development solutions. Projects requiring lightweight and user-friendly web app solutions are finished with the greatest of attention.',
                 });
           }
     };
@@ -46,9 +46,9 @@ const BackExpert = () => {
       Our Back-End Developer Expertise
       </h1>
       <p className='backexp-p'>
-      We optimize functionality, security, and performance, ensuring a solid foundation that supports your platform’s 
-      growth and evolution. Step Tech Global boasts expertise in various back-end technologies such as PHP, Node JS, 
-      Laravel, C#, .NET, and Express JS. This allows us to build powerful, scalable, and secure web applications.
+      Collaborating with Step Tech involves working with some of Australia's top <b>back-end developers</b>. Our developers work with a variety of 
+      languages and frameworks, including PHP, Laravel,.NET, and more. After meticulously thinking we start coding to make sure that the system
+      we used in overall development is simple and logical. 
       </p>
       <button className='php-btn' onClick={() => handleButtonClick('php')}>php</button>
       <button className='nodejs-btn' onClick={() => handleButtonClick('nodejs')}>nodejs</button>

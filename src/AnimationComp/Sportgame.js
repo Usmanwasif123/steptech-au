@@ -5,11 +5,11 @@ import '../assets/AnimationWrapper/Sportgame.css';
 const Sportgame = () => {
   return (
     <div className='animate-section2'>
-      <h1>Ideate, Plan, and Build;<br/>Mission Situated Games
-      </h1>
-      <p>
-      By collaborating with our best 2d game makers, you can embrace the latest technologies and select the optimal database, language, and 
-      framework for building mobile games.
+      <h1>Hire Our Best 3d Animation Experts</h1>
+      <p>Our 3D animators bring your ideas alive while leaving an impression that will last with 
+      your audience for decades to come. We are well known 3d animation agency in Australia, our 
+      3D animators can handle challenging tasks since they have unmatched knowledge and expertise
+       with the most recent technologies and tools.
       </p>
       <div className='animate-img2' ></div>
     </div>

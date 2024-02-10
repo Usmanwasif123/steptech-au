@@ -5,13 +5,13 @@ const Shopify = () => {
   return (
     <div className='animate-section3'>
       <h1>
-      Make Perfect and Eye-Getting UI/UX
+      Why Choose Us As Your Animation Experts
       </h1>
       <p>
-      One of our core strengths lies in crafting perfect and eye-catching UI/UX designs for interactive games that 
-      captivate mobile gamers. Leveraging robust game development services, we design and program engaging interfaces 
-      with seamless transitions, ensuring a thrilling gaming experience that exceeds user expectations across various 
-      platforms.
+      With extensive years of experience, Step Tech video animation services provider in 
+      Australia,  offers the best and most affordable video animation services. Our experts will 
+      provide you with an easy process to deliver the best outcome- no matter the budget. So 
+      explore why you choose Step Tech for animation services. 
       </p>
       <div className='animate-img3'  ></div>
     </div>

@@ -8,9 +8,7 @@ const AnimateDev = () => {
   const [isVisible, setIsVisible] = useState(false);
   return (
     <div className='animate-section4'>
-        <h1>Upraise your Gaming Experience with Superior &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        &nbsp;&nbsp;&nbsp;
-        Game Development Agency</h1>
+        <h1>Grab The Attention Of Your Audience With Our Fascinated Animation Services!!!</h1>
         <button className='animatebtn-start' onClick={() => setIsVisible(true)}>get started</button>
       {isVisible && 
         <div className='animate4-visible-div'>

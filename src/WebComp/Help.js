@@ -7,12 +7,13 @@ const Help = () => {
   return (
     <div className='web-section6'>
       <h1 className='help-right-h'>
-      How does Step Tech Global help eCommerce businesses with Shopify Development Services?
+      Get Your Hands on the Robust and Dependable WordPress Development Services
       </h1>
       <p className='help-right-p'>
-      Our team of Shopify developers brings a wealth of technical expertise to fulfill all your website development needs.
-      From eCommerce development and custom theme design to integrations, mobile app development, and migration, we’ve 
-      delivered over 1000 Shopify stores with precision and finesse.
+      Step Tech Global performs as an all-encompassing hub for WordPress development. With over 3000 projects accomplished, our team of 
+      experienced WordPress developers ensures strong online presences that match beyond your expectations. Whether you're launching a new 
+      WordPress site or upgrading an existing one, we'll help you create a website that stands out from others and produces traffic and revenue 
+      for your business.
       </p>
       <button className='helpbtn' onClick={() => setIsVisible(true)}>talk to consultant</button>
       {isVisible && 

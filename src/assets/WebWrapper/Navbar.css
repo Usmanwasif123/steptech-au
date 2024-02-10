@@ -277,7 +277,7 @@
 .web-banner-heading h1{
     position: absolute;
     z-index: 1;
-    top: 40%;
+    top: 25%;
     left: 5%;
     margin: 0px 400px 0px -20px;
     padding: 0px 100px 0px 5px;
@@ -294,10 +294,10 @@
 .web-banner-heading p{
     position: absolute;
     z-index: 1;
-    top: 120%;
-    left: 3%;
-    margin: 0px 50px 0px -20px;
-    padding: 0px 100px 0px 5px;
+    top: 39%;
+    left: 6%;
+    margin: 0px 80px 0px -20px;
+    padding: 0px 450px 0px 0px;
     color: #FFF;
     font-family: Poppins, sans-serif;
     font-size: 20px;
@@ -308,7 +308,7 @@
     text-transform: capitalize;
 }
 .web-carousel{
-    margin-top: -140px;
+    margin-top: -200px;
     margin-left: -640px;
 }
 
@@ -343,11 +343,6 @@
     top: 20%;
 }
 
-.web-carousel  .slick-slider {
-    width: 260px !important;
-    height: 70px;
-    margin-top: -9%;
-}
 
 .web-carousel .slick-slider div{
     height: 315px;
@@ -355,15 +350,15 @@
 
 }
 .web-carousel .slick-slider {
-    width: 700px !important;
-    margin-left: 700px;
+    width: 700px ;
+    margin-left: 100px;
 }
 .web-carousel .slick-prev {
-    top: 50%;
+    top: 20%;
     border-radius: 10px;
 }
 .web-carousel .slick-next{
-    top: 50%;
+    top: 20%;
     right: 0px;
     margin-right: -20px;
 }
@@ -383,12 +378,8 @@
     border: none;
     outline: 1px solid #fff;
     background: #fff;
-    margin-top: 50px;
-    margin-left: 70px;
-}
-
-.webbtn-start:hover {
-    background: linear-gradient(200deg, #47277f 29.100%, #101b37 93.15%);
+    margin-top: 550px;
+    margin-left: -1000px;
 }
 
 .webnav-image{

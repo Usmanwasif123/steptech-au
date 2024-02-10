@@ -7,12 +7,11 @@ const Shopify = () => {
   return (
     <div className='web-section5'>
       <h1 className='shopify-left-h'>
-      Explore New Business Possibilities With Our Shopify Development Services
-      </h1>
+      Unlock The Full-Potential Of Your Store With Our Shopify Website Development</h1>
       <p className='shopify-left-p'>
-      Upgrade your online business with our customized Shopify development services. Backed by over a decade of 
-      experience, our team specializes in creating visually stunning, high-performing, and search engine-friendly website
-      development. Our solutions cater to diverse industries, offering reliability, security, and exceptional performance.
+      Modernize your online business with our Shopify development services. Our team of experts, backed by a decade's worth of skills, excels 
+      in developing visually attractive, highly effective, and search engine-friendly websites. Our solutions cater to an extensive variety of 
+      businesses, guaranteeing dependability, security, and outstanding outcomes.
       </p>
       <button className='shobtn' onClick={() => setIsVisible(true)}>talk to consultant</button>
       {isVisible && 

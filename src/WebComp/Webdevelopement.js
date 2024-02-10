@@ -8,15 +8,12 @@ const Webdevelopement = () => {
   const [isVisible, setIsVisible] = useState(false);
   return (
     <div className='web-section2'>
-        <h1>Unleash The Full Potential Of Your Business With &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          Stunning Web Development Agency</h1>
+        <h1>Hire The Best Web Development Agency</h1>
         <div className='web-line'></div>
         <p>
-        Are you in search of an impeccable streaming application for your auditory recreation? You may crave a convenient
-        food or shopping app to cater to your daily needs. At Step Tech Global, we not only recognize your brand’s
-        digital needs but also tailor applications to perfectly fill any gaps in your brand identity with custom web 
-        development. Join hands with us to embark on a journey of advanced digital experiences that resonate with your 
-        audience.
+        We have an adept team of website developers. We deliver results-driven solutions that enable businesses to succeed. With websites that 
+        dynamically adjust to user behavior and choices, they produce highly personalized user experiences. This customization makes certain 
+        that each visitor has a unique experience by ranging from the way content is displayed to how the user interface is designed.
         </p>
         <button className='webbtn2-talk' onClick={() => setIsVisible(true)}>talk to consultant</button>
       {isVisible && 

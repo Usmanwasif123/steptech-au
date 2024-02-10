@@ -22,10 +22,9 @@ const Process = () => {
 
   return (
     <div className='web-section10'>
-      <h1 className='webprocess-h1'>Our Web Development Processes</h1>
-      <p className='main-p'>We look out of every stage. We begin with an all-inclusive and detailed understanding of your guidelines. Once 
-      the task ends, we ensure your solution’s uninterrupted operation after deployment.
-      </p>
+      <h1 className='webprocess-h1'>Our Processes of Website Development Services</h1>
+      <p className='main-p'>We look over every stage. We commence with a thorough knowledge of your instructions. We make sure your solution is 
+      working after deployment, even after the assignment is completed.</p>
       <Grid container spacing={-10}>
         <Grid item xs={6} md={3} className='research-grid'>
         <Item>
@@ -34,8 +33,8 @@ const Process = () => {
               Research
             </h1> 
             <p data-aos="zoom-in-down" data-aos-duration="500" data-aos-easing="ease-in-sine" className='research-p'>
-            During this stage, we will collect requirements, perform market research, build the range of the project, 
-            establish what resources are needed, and get to identify your business in general.
+            In this stage, we will collect requirements, do market research, establish the project's scope, evaluate the resources needed, and 
+            gain an overall understanding of your company.
             </p>
         </Item>
         </Grid>
@@ -46,8 +45,8 @@ const Process = () => {
             Web Development
             </h1> 
             <p data-aos="zoom-in-down" data-aos-duration="500" data-aos-easing="ease-in-sine" className='webdev-p'>
-            Now, our front-end and back-end developers will work together to develop your website or web application 
-            according to your vision and the roadmap we have outlined.
+            Our back-end and front-end developers are going to work together to develop your website or web application by your objectives and 
+            the strategy that we have sketched out.
             </p> 
         </Item>
         </Grid>
@@ -58,9 +57,8 @@ const Process = () => {
             Testing
             </h1> 
             <p data-aos="zoom-in-down" data-aos-duration="500" data-aos-easing="ease-in-sine" className='test-p'>
-            Our QA engineers will complete vast testing to assess your website's multiple aspects, including performance,
-            usability, functionality, loading capacity, and many more. They will also fix bugs and defects if any are 
-            found.
+            Our QA expert conducts broad testing to assess every facet of your website, including its functionality, efficiency, usability, 
+            loading acceleration, and a lot more. If any flaws or problems have been identified, they will also be fixed.
             </p> 
         </Item>
         </Grid>
@@ -71,9 +69,8 @@ const Process = () => {
             Launch
             </h1> 
             <p data-aos="zoom-in-down" data-aos-duration="500" data-aos-easing="ease-in-sine" className='launch-p'>
-            It’s finally time to launch your website. But prior we do, we will confirm that you are totally satisfied 
-            with it. If you have any issues, we will make sure that we treat them to your satisfaction before launching 
-            your website.
+            Now is a great time to launch your website. Nevertheless, while we move forward, we intend to make sure you are entirely satisfied. 
+            We will be sure that you solve any issues you may have to satisfy you before launching your website.
             </p> 
         </Item>
         </Grid>

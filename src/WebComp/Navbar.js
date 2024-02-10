@@ -142,11 +142,10 @@ const Navbar = () => {
       <img src='https://i.ibb.co/Y8F8xfL/Rectangle-1.png' alt='Banner'></img>
       <div className='banner-line'></div>
       <div className='web-banner-heading'>
-        <h1>Unleash The Power Of Pixel With Our Web Development Services<br/>
+        <h1>Get Our <b>Website Development Services</b> To Ignite Your Business</h1>  
         <p>Welcome to Step Tech Global, your expert partner in extensive web development services. 
           From initial ideation to a successful launch, our convenient approach ensures a seamless experience 
           through every stage of development.</p>
-        </h1>
       </div>
       <div className='web-carousel'>
           <Slider {...setting}>

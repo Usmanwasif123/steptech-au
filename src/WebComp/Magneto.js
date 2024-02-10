@@ -7,14 +7,11 @@ const Magneto = () => {
   return (
     <div className='web-section4'>
       <h1 className='magneto-right-h'>
-      Trusted Best Magento Development Company
+      We are your reliable partner in Magneto Development Services
       </h1>
       <p className='magneto-right-p'>
-      Website development forms the backbone of any online venture. With a focus on uniqueness and functionality, we 
-      specialize in crafting impressive eCommerce stores using Magento. Our solutions are backed by rich industry 
-      experience, ensuring each webpage is not just responsive but also optimized for search engines, offering a seamless 
-      user experience.
-      </p>
+      Our specialty uses Magento to create visually striking eCommerce shops. Our solutions are backed by vast industry expertise, ensuring 
+      that every webpage delivers a flawless user experience by being both responsive and search engine optimized.</p>
       <button className='magbtn' onClick={() => setIsVisible(true)}>talk to consultant</button>
       {isVisible && 
         <div className='mag-visible-div'>

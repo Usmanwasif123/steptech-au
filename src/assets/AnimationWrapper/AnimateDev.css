@@ -17,8 +17,9 @@
     font-size: 50px;
     position: absolute;
     top: 10%;
-    margin: 40px 0px 0px 0px;
-    padding: 0px 0px 0px 100px;
+    margin: 40px 0px 0px 50px;
+    padding: 0px 150px 0px 150px;
+    display: inline-block;
 }
 .animatebtn-start{
     display: flex;

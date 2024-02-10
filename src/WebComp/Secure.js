@@ -7,13 +7,12 @@ const Secure = () => {
   return (
     <div className='web-section7'>
       <h1 className='secure-left-h'>
-      Secure & High-Quality WordPress Development Services
+      To Make Your Experience More Personalized Get Our Custom Web Development  Services 
       </h1>
       <p className='secure-left-p'>
-      Looking to establish your website swiftly? Step Tech Global serves as a one-stop WordPress Development hub. Our 
-      team of dedicated WordPress developers has delivered over 3000 projects, ensuring robust digital presences that 
-      match your expectations. Leveraging this popular CMS’s features and plugin support, we create dynamic websites 
-      across various industry verticals.
+      Step Tech custom web development company, can develop customized web apps that satisfy the particular needs of your business. Our field of
+      expertise is developing customized approaches that allow your business to grow and succeed.  Our custom web development team collaborate
+      closely with businesses- be it startups, SMBs, or enterprises, to build custom web solutions that achieve your vision. 
       </p>
       <button className='secbtn' onClick={() => setIsVisible(true)}>talk to consultant</button>
       {isVisible && 

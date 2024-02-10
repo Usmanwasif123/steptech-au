@@ -4,34 +4,34 @@ import '../assets/WebWrapper/FrontExpert.css';
 
 const FrontExpert = () => {
   const [content, setContent] = useState({
-    paragraph: 'ReactJS is popular for its flexibility, adjustability, and convenience. Our ReactJS developers create hard software for your business involving web browsers and mobile application user interfaces.',
+    paragraph: 'Our ReactJS developers construct hard software for your company that includes web browsers and mobile application interfaces for users.',
   });
 
   const handleButtonClick = (category) => {
     switch (category) {
       case 'reactjs':
         setContent({
-          paragraph: 'ReactJS is popular for its flexibility, adjustability, and convenience. Our ReactJS developers create hard software for your business involving web browsers and mobile application user interfaces.',
+          paragraph: 'Our ReactJS developers construct hard software for your company that includes web browsers and mobile application interfaces for users.',
         });
         break;
         case 'angluar':
           setContent({
-            paragraph: 'We leverage AngularJS when developing captivating web applications, capturing its data binding and possession injection to diminish the need to write large code.',
+            paragraph: 'We utilized AngularJS when building fascinating website applications, grabbing its data mandatory and occupancy injection to reduce the need to write an extensive code.',
           });
           break;
           case 'vue':
             setContent({
-              paragraph: 'Our software engineers use VUE JS to calculate, manipulate, and validate different data to create dynamic and reciprocal user experiences.',
+              paragraph: 'To compute, adapt, and validate different information to generate dynamic and reciprocating user experiences, our software developers utilize VUE JS.',
             });
             break;
             case 'html':
             setContent({
-              paragraph: 'Our Web Development experts have years of generic experience working with HTML programming to develop best-of-kind custom websites and applications.',
+              paragraph: 'Our Web Development experts have decades of broad expertise with HTML programming for developing individual distinctive websites and applications.',
             });
             break;
             case 'js':
               setContent({
-                paragraph: 'Our Web Engineers use JavaScript to calculate, manipulate, and validate different data to create dynamic and reciprocal user experiences.',
+                paragraph: 'Javascript is generally employed for web development. JavaScript enables to execution of complicated features on web pages.',
               });
           }
     };
@@ -41,10 +41,10 @@ const FrontExpert = () => {
       Our Front- End Developer Expertise
       </h1>
       <p className='frontexp-p'>
-      Our front-end development experts understand your business objectives and develop top-quality solutions that meet 
-      your needs, influencing the best front-end development technologies and practices. Our front-end experts will 
-      utilize tested best techniques and their in-front-end development to give you a customer-centric and appealing web 
-      application.
+      Our designers push the bounds of creativity, and the <b>front-end developers</b> match this with gorgeous, pixel-perfect code, utilizing the 
+      most recent developments to develop your ideal website. Step Tech concentrates not only on the visual appeal of a website but also on 
+      its feel; we look at the entire digital experience.
+
       </p>
       <button className='reactjs-btn' onClick={() => handleButtonClick('reactjs')}>reactjs</button>
       <button className='angular-btn' onClick={() => handleButtonClick('angluar')}>angular</button>

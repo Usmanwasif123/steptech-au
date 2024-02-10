@@ -8,12 +8,12 @@ const Ecommerce = () => {
   return (
     <div className='web-section3'>
       <h1 className='ecommerce-left-h'>
-        ECommerce & CMS Development Services
+      Get The High-Quality CMS Development Services for your E-commerce 
       </h1>
       <p className='ecommerce-left-p'>
-      In today’s fast-paced digital world, establishing a powerful online presence is paramount. Step Tech Global is your 
-      gateway to all-inclusive and up-to-date website solutions. We create eCommerce web development and CMS platforms with
-       an easy-to-use backend and an interactive front end, ensuring responsiveness, SEO-friendliness, and aesthetic appeal.
+      Step Tech Global is your one-stop shop for comprehensive and modern website solutions. We create mobile, SEO-friendly, and visually 
+      appealing eCommerce web development and CMS platforms with an accessible backend and a captivating front end. Our Custom Software 
+      Application firm thrives at developing solutions that are both efficient and powerful, as well as user-friendly and straightforward. 
       </p>
       <button className='ecombtn' onClick={() => setIsVisible(true)}>talk to consultant</button>
       {isVisible && 
