@@ -4,26 +4,15 @@ import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import {DraftsOutlined,PhoneInTalkOutlined, PinDropOutlined } from '@mui/icons-material';
-import { Grid, styled, Paper } from '@mui/material';
+
 
 
 const Contact = () => {
-  const Item = styled(Paper)(({ theme }) => ({
-    padding: theme.spacing(10),
-    textAlign: 'center',
-    background: 'transparent',
-    border: '1px solid #fff',
-    position: 'absolute',
-    height: '100px',
-    width: '70px',
-    left: '10%',
-    top: '-100%',
-}));
 
   const[setting, setSetting] = useState({
     dots: true,
     infinite: true,
-    autoplay: false,
+    autoplay: true,
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
