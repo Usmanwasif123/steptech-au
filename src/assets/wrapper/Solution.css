@@ -19,7 +19,7 @@
 }
 
 #sol-line1{
-    top: 220%;
+    top: 245%;
     left: 2%;
     position: absolute;
     z-index: 1;
@@ -29,7 +29,7 @@
     padding: 0px 80px 1px 80px;
 }
 #sol-line2{
-    top: 220%;
+    top: 245%;
     left: 2%;
     position: absolute;
     z-index: 1;
@@ -92,7 +92,7 @@
     z-index: 1;
     outline: 1px solid #fff;
     background: transparent;
-    top: 317%;
+    top: 340%;
     left: 9%;
     color: #FDFDFD;
     font-family: Poppins, sans-serif;
@@ -112,7 +112,7 @@
 .right-side img{
     position: absolute;
     z-index: 1;
-    top: 153%;
+    top: 175%;
     left: 20%;
     margin-left: 414px;
     height: 150vh;
@@ -127,7 +127,7 @@
     background: linear-gradient(256deg, #453474 7.85%, #171425 107.97%);
     border-radius:  250px 0px 0px 250px;
     left: 84.7%;
-    top: 225%;
+    top: 250%;
     padding: 100px 100px 400px 550px;
     margin-left: -450px;
 }

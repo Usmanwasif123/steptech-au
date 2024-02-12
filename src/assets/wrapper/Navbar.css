@@ -41,12 +41,9 @@
     padding: 0;
 
 }
-.nav-items li{
-    color: #fff;
+.nav-items li {
     font-size: 17px;
-    background: #333;
 }
-
 .nav-items .home{
     cursor: pointer;
 }
@@ -60,12 +57,10 @@
 }
 
 .dropdown {
-    position: absolute;
     cursor: pointer;
 }
 .dropdown-content {
     background: #fff;
-    height: 600px;
     width: 300px;
     z-index: 5;
     border-radius: 2px;
@@ -76,10 +71,17 @@
 
 .dropdown-content li{
     list-style: none;
+    display: block;
+    padding: 10px 20px;
+    color: #333;
+    font-size: 18px;
+    font-family: Poppins, sans-serif;
+    font-weight: 500;
+    text-transform: capitalize;
+    cursor: pointer;
 }
 
 .dropdown-content .nav-service1{
-    position: absolute;
     z-index: 3;
     color: #333;
     top: -2%;
@@ -91,7 +93,7 @@
     cursor: pointer;
 }
 .dropdown-content .nav-service2{
-    position: absolute;
+   
     z-index: 3;
     color: #333;
     top: 9%;
@@ -105,7 +107,6 @@
 }
 
 .dropdown-content .nav-service3{
-    position: absolute;
     z-index: 3;
     color: #333;
     top: 20%;
@@ -118,7 +119,7 @@
 }
 
 .dropdown-content .nav-service4{
-    position: absolute;
+   
     z-index: 3;
     color: #333;
     top: 26%;
@@ -130,7 +131,7 @@
     cursor: pointer;
 }
 .dropdown-content .nav-service5{
-    position: absolute;
+   
     z-index: 3;
     color: #333;
     top: 33%;
@@ -142,7 +143,7 @@
     cursor: pointer;
 }
 .dropdown-content .nav-service6{
-    position: absolute;
+   
     z-index: 3;
     color: #333;
     top: 40%;
@@ -154,7 +155,7 @@
     cursor: pointer;
 }
 .dropdown-content .nav-service7{
-    position: absolute;
+   
     z-index: 3;
     color: #333;
     top: 47%;
@@ -166,7 +167,7 @@
     cursor: pointer;
 }
 .dropdown-content .nav-service8{
-    position: absolute;
+   
     z-index: 3;
     color: #333;
     top: 54%;
@@ -178,7 +179,7 @@
     cursor: pointer;
 }
 .dropdown-content .nav-service9{
-    position: absolute;
+   
     z-index: 3;
     color: #333;
     top: 61%;
@@ -190,7 +191,7 @@
     cursor: pointer;
 }
 .dropdown-content .nav-service10{
-    position: absolute;
+   
     z-index: 3;
     color: #333;
     top: 68%;
@@ -202,7 +203,7 @@
     cursor: pointer;
 }
 .dropdown-content .nav-service11{
-    position: absolute;
+   
     z-index: 3;
     color: #333;
     top: 75%;
@@ -214,7 +215,7 @@
     cursor: pointer;
 }
 .dropdown-content .nav-service12{
-    position: absolute;
+   
     z-index: 3;
     color: #333;
     top: 82%;
@@ -226,7 +227,7 @@
     cursor: pointer;
 }
 .dropdown-content .nav-service13{
-    position: absolute;
+   
     z-index: 3;
     color: #333;
     top: 89%;
@@ -375,7 +376,6 @@
     font-weight: 600;
     cursor: pointer;
     padding: 10px 25px 10px 25px;
-    position: absolute;
     border-radius: 15px;
     color: #233F81;
     z-index: 3;
@@ -383,7 +383,7 @@
     outline: 1px solid #fff;
     background: #fff;
     margin-top: -150px;
-    margin-left: 115px;
+    margin-left: -950px;
 
 }
 

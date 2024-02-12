@@ -26,7 +26,7 @@
 }
 
 #line1-brand{
-    top: 675%;
+    top: 695%;
     left: 51.9%;
     position: absolute;
     z-index: 1;
@@ -35,7 +35,7 @@
     padding: 0px 50px 4px 100px;
 }
 #line2-brand{
-    top: 675%;
+    top: 695%;
     left: 63.2%;
     position: absolute;
     z-index: 1;
@@ -44,7 +44,7 @@
     padding: 0px 10px 4px 35px;
 }
 #line3-brand{
-    top: 675%;
+    top: 695%;
     left: 66.9%;
     position: absolute;
     z-index: 1;
@@ -78,7 +78,7 @@
 }
 
 .brand-carousel{
-    margin-top: 100px;
+    margin-top: 235px;
     margin-left: 80px;
     position: absolute;
     top: 650%;

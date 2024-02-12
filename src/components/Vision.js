@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom';
 
 const About = () => {
   return (
-    <div className='vision-main'>
+    <div className='main-section2'>
         <h1 className='right-vision'>About Us</h1>
         <div id='line1-vision'></div>
         <div id='line2-vision'></div>
@@ -30,6 +30,7 @@ const About = () => {
       <div className='box'>&nbsp;</div>
       <div className='box1' >&nbsp;</div>
       <div className='vision-image'>
+        <img src='https://i.ibb.co/hVNvHLj/man-1.png'/>
       </div>
     </div>
   )
