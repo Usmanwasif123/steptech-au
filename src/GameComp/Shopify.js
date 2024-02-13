@@ -7,12 +7,12 @@ const Shopify = () => {
   return (
     <div className='shopify-container'>
       <h1 className='shopify-left-h'>
-      Ignite your Gaming Passion with RPG Game Development
+      Unlock the Power of Storytelling With our RGP Game Development
       </h1>
       <p className='shopify-left-p'>
-      We create your RPG games employing a variety of verticals involving artificial intelligence, audio effects, 3D 
-      graphics, animations, and diverse other components that give online games an elegant appearance (RPG). We are world
-      famous Roleplay Game development company that provides idealistic role-playing game services and solutions
+      We use an array of industries, including artificial intelligence, audio effects, 3D graphics, animations, and 
+      several other elements, for creating your <b>RPG games,</b> giving online games an elegant appearance (RPG). We are a 
+      world-renowned <b>Roleplay Game Development Agency</b> that offers idealistic role-playing game services and solutions.
       </p>
       <button className='sbtn' onClick={() => setIsVisible(true)}>talk to consultant</button>
       {isVisible && 

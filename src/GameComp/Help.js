@@ -8,12 +8,13 @@ const Help = () => {
   return (
     <div className='help-container'>
       <h1>
-      Turning Pixel into Excitement with Hyper Casual Game Development
+      Transform Boring Pixels Into an Intoxicating with our Hyper Casual Game Development 
       </h1>
       <p>
-      Our team of Shopify developers brings a wealth of technical expertise to fulfill all your website development needs.
-      From eCommerce development and custom theme design to integrations, mobile app development, and migration, we’ve 
-      delivered over 1000 Shopify stores with precision and finesse.
+      Our skill relies on developing engaging and addictive casual mobile games that engage an array of players and 
+      enthrall them in gaming sessions with minimal work, simple successes, and endless enjoyment. Our vast expertise 
+      with hyper-casual game development projects of all kinds and styles allows us to ensure full compliance with the 
+      client's demands for game development from the ground up, game art, or co-creation.
       </p>
       <button className='game-btn' onClick={() => setIsVisible(true)}>talk to consultant</button>
       {isVisible && 

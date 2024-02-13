@@ -8,17 +8,14 @@ const GameDev = () => {
   const [isVisible, setIsVisible] = useState(false);
   return (
     <div className='game-container'>
-        <h1>Upraise your Gaming Experience with Superior &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        &nbsp;&nbsp;&nbsp;
-        Game Development Agency</h1>
+        <h1>Hire the Best Game Developers in Australia</h1>
         <div className='game-line'></div>
         <p>
-        We provide all-inclusive game development services bridging all three stages – pre-production, production, and post-production. We 
-        provide full-cycle game development, gaming project revamps, and much more. Our experience in hands-on and captivating technology 
-        benefits you by offering outstanding modern gaming experiences to your audience. Sensational visuals and seamless and intuitive 
-        gameplay make your game charming for the game folks.<br/><br/>By incorporating the advanced updates and trends in the gaming 
-        industry, we ensure that your game is relevant and appealing to players. Moreover, AI-powered visions into player behavior and 
-        preferences empower us to build personalized experiences that vibrate with your target audience.
+        We have a team of the best game developers who are cutting-edge with the latest trends in the gaming industry. 
+        Our game developers design extraordinary games compatible with the most commonly encountered platforms to draw 
+        in a broader audience.  Their knowledge and experience in language programming and game engines, especially Unity
+        and Unreal Engine, allow us to offer a comprehensive variety of services for game development, from conception 
+        to game launch.
         </p>
 
         <button className='gamebtn-con' onClick={() => setIsVisible(true)}>talk to consultant</button>

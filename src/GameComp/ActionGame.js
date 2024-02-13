@@ -7,13 +7,13 @@ const ActionGame = () => {
   return (
     <div className='actgame-container'>
       <h1 data-aos="zoom-in" data-aos-duration="500" data-aos-easing="ease-in-sine" data-aos-offset="0">
-      Level up your Game experience with Stunning Action Games.
+       It’s Time to Gear Up the Adventure with our Action Games
       </h1>
       <p data-aos="zoom-in" data-aos-duration="500" data-aos-easing="ease-in-sine" data-aos-offset="0">
-      The endurance and acceptance of the action genre and our experience developing games have thrust our knowledge of 
-      gameplay styles, core game logic, and expertise in developing AI (Artificial Intelligence) for single or multiplayer.
-      To upgrade the experience of your action games. Our experts develop flexible and open-ended games that are simple to 
-      update in the future.
+      Our understanding of gameplay structure, basic gameplay logic, and skill in creating AI (Artificial Intelligence) 
+      for single or multiplayer games has been pushed by the action genre's continued popularity and acceptance in 
+      addition to our experience developing games. To enhance the quality of your action games. Our expertise creates 
+      flexible, flexible games that are easy to modify in the future.
       </p>
       <button className='actgame-btn' onClick={() => setIsVisible(true)}>talk to consultant</button>
       {isVisible && 

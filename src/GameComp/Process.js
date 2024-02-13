@@ -22,20 +22,21 @@ const Process = () => {
 
   return (
     <div className='gameprocess-container'>
-      <h1 className='webprocess-h1'>Our Web Development Processes</h1>
-      <p className='webprocess-p'>We look out of every stage. We begin with an all-inclusive and detailed understanding of your guidelines. Once 
-      the task ends, we ensure your solution’s uninterrupted operation after deployment.
+      <h1 className='webprocess-h1'>Process of Our Game App Development Services</h1>
+      <p className='webprocess-p'>Our approach for developing gaming apps is carefully designed and starts at the 
+      beginning of the project life cycle with an in-depth project scope assessment.
       </p>
       <Grid container spacing={-10}>
         <Grid item xs={6} md={3} className='research-grid'>
         <Item>
             <img className='research-img' src='https://i.ibb.co/WFC9b4R/image.png'/>
             <h1 data-aos="zoom-in-up" data-aos-duration="500" data-aos-easing="ease-in-sine" className='research'>
-              Research
+            Plan and Concept
             </h1> 
             <p data-aos="zoom-in-down" data-aos-duration="500" data-aos-easing="ease-in-sine" className='research-p'>
-            During this stage, we will collect requirements, perform market research, build the range of the project, 
-            establish what resources are needed, and get to identify your business in general.
+            Firstly, we conduct a concept review and analyses using client-provided guidelines, drafting game design 
+            documents, flow structure, and execution plans. After that, our team developed concept drawings and sketches 
+            consistent with the game's theme and vision.
             </p>
         </Item>
         </Grid>
@@ -43,11 +44,12 @@ const Process = () => {
          <Item>
              <img className='webdev-img' src='https://i.ibb.co/9ZLDdCB/image.png'/>
             <h1 data-aos="zoom-in-up" data-aos-duration="500" data-aos-easing="ease-in-sine" className='webdev'>
-            Web Development
+            Game Development
             </h1> 
             <p data-aos="zoom-in-down" data-aos-duration="500" data-aos-easing="ease-in-sine" className='webdev-p'>
-            Now, our front-end and back-end developers will work together to develop your website or web application 
-            according to your vision and the roadmap we have outlined.
+            Our developers use the latest technologies and tactics to make the design a top-notch game. There, the 
+            design team's ideas are carefully turned into a virtual setting that may be evaluated and directed to meet 
+            its requirements by our outstanding technological experts.
             </p> 
         </Item>
         </Grid>
@@ -55,12 +57,12 @@ const Process = () => {
        <Item>
             <img className='test-img' src='https://i.ibb.co/F7DFbS8/image.png'/>
             <h1 data-aos="zoom-in-up" data-aos-duration="500" data-aos-easing="ease-in-sine" className='test'>
-            Testing
+            Testing Storage
             </h1> 
             <p data-aos="zoom-in-down" data-aos-duration="500" data-aos-easing="ease-in-sine" className='test-p'>
-            Our QA engineers will complete vast testing to assess your website's multiple aspects, including performance,
-            usability, functionality, loading capacity, and many more. They will also fix bugs and defects if any are 
-            found.
+            Our expert engineers put all games through accurate QA and compatibility testing on multiple platforms. 
+            Furthermore, our Q/A engineer removes typos and grammatical errors, covers test artifacts, and reports any 
+            problems in the code for timely fixes.
             </p> 
         </Item>
         </Grid>
@@ -68,7 +70,7 @@ const Process = () => {
         <Item>
             <img className='launch-img' src='https://i.ibb.co/9s4mxH4/image.png'/>
             <h1 data-aos="zoom-in-up" data-aos-duration="500" data-aos-easing="ease-in-sine" className='launch'>
-            Launch
+            Launch and Maintenance
             </h1> 
             <p data-aos="zoom-in-down" data-aos-duration="500" data-aos-easing="ease-in-sine" className='launch-p'>
             It’s finally time to launch your website. But prior we do, we will confirm that you are totally satisfied 

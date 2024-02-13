@@ -5,11 +5,11 @@ import '../assets/SoftDevWrapper/PreBlockDev.css';
 const PreBlockDev = () => {
   return (
     <div className='software-section3'>
-      <h1>Development Company Consulting Services</h1>
-      <p>As one of the most in-demand top <b>Software Development Companies,</b> we examine your business needs,
-      conceptualize software structure, and assist you in getting better value from its development. Our 
-      dedicated team of <b>Software Developers</b> utilizes its technical prowess to provide tailored 
-      software solutions that drive productivity and competence.
+      <h1>Why Choose Our Custom Software Development Company</h1>
+      <p>Our <b>software development agency</b> has extensive expertise with <b>software development solutions</b> which are 
+        constructed for growth and can be up-to-date as the business grows. In addition to becoming more competitive, 
+        you'll be able to get rid of your outdated legacy system. Choosing custom software likewise enables you to make 
+        use of technologies such as the cloud while engaging with new and existing apps.
       </p>
       <div className='software-img3'></div>
     </div>

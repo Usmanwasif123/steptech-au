@@ -105,8 +105,8 @@ const Navbar = () => {
         <li><Link to='/'>home</Link></li>
             <li><Link to='/about-us' className='about'>about us</Link></li>
             <li className='dropdown' onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
-           <KeyboardArrowDownOutlined style={{position:'absolute', zIndex: 1, fontSize: '25px', top: '270%', left: '73.4px', color: "#fff"}}/>
-            <Link to='/service' className='service' style={{marginTop: '3px'}}>services</Link>
+           <KeyboardArrowDownOutlined style={{position:'absolute', zIndex: 1, fontSize: '25px', top: '100%', left: '73.4px', color: "#fff"}}/>
+            <Link to='/service' className='service' style={{marginTop: '-9px'}}>services</Link>
             {isDropdownOpen && 
             <div className='dropdown-content' ref={dropdownRef} onMouseEnter={handleDropdownMouseEnter} onMouseLeave={handleDropdownMouseLeave}>
              <li><Link to='/web-design-and-development' className='nav-service1'>web design & development</Link></li>
@@ -136,10 +136,11 @@ const Navbar = () => {
       <img src='https://i.ibb.co/Y8F8xfL/Rectangle-1.png' alt='Banner'></img>
       <div className='banner-line'></div>
       <div className='game-heading'>
-        <h1>Experience The Epic Adventure With Our Game Development Services<br/>
-        <p>Step Tech Global is one of the leading Game Development Companies that offer game development services across 
-        various platforms. Our Team offers an all-embracing list of adjacent services, with a skillful team that creates 
-        a product that parallels the customer’s imagination and player preferences.</p>
+        <h1>Unlocking the World of Adventure With Our Game Development Services<br/>
+        <p>Are you ready to begin the journey of thrilling adventure with the captivating game? At Step Tech, a top <b>Game 
+          Development Company,</b> we have a team of expert <b>game developers</b> who are skillful in their field and develop a 
+          product that reflects the customer's vision and player preferences. We provide an extensive list of related 
+          services. Our goal is to assist you in understanding and executing your vision in the gaming world!!</p>
         </h1>
       </div>
       <button className='gamebtn-start' onClick={() => setIsVisible(true)}  data-aos="flip-right" data-aos-duration="500" data-aos-easing="ease-in-sine" data-aos-offset="0">get started</button>

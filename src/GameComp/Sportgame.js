@@ -7,12 +7,13 @@ const Sportgame = () => {
   return (
     <div className='magneto-container'>
       <h1 className='magneto-right-h'>
-      Turn on Epic Adventure with Our Sports Game
+      Dominate the World of Sport With our Best Sports Games 
       </h1>
       <p className='magneto-right-p'>
-      Metaverse sports game development is the next big thing, and it’s time for you to join the race and build your own 
-      sports game. At Step Tech Global, we have extensive years of experience in the blockchain industry and assist you 
-      with futuristic game development solutions. We assist you in bringing your gaming business to new heights.
+      In the virtual world sports <b>game app development</b> is the next big thing in gaming, and it's time for you to get 
+      part and create a multiplayer sports game. Step Tech has significant experience in the blockchain business and 
+      will help you with future <b>game development solutions.</b> We can assist you in expanding your gaming business to new 
+      heights.
       </p>
       <button className='mbtn' onClick={() => setIsVisible(true)}>talk to consultant</button>
       {isVisible && 
