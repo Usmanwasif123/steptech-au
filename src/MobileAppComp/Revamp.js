@@ -6,12 +6,11 @@ const Revamp = () => {
   return (
     <div className='revamp-container'>
       <h1 >
-      We Revamp Brands With Latest Technologies
+      Get the latest and Stunning App Development Services with Us
       </h1>
-      <p>
-      knows moving thoughts and imaginative advanced arrangements with the most recent innovations and dialects to give 
-      you the best application experience. Hands down the most recent advances fuel up and drive us to go for the 
-      innovations like
+      <p>As a leading app-building company, we are the first choice of every business and enterprise in Australia; we take 
+      the right app development approach for developing stunning apps for our clients. So be ready to get the most latest
+      and appealing mobile application with Step Tech!
       </p>
       <h1 className='lang'>languages</h1>
       <div className='lang-box1'>&nbsp;</div>

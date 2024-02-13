@@ -57,38 +57,40 @@ const Services = () => {
     <div className='service-container'>
     <div className='service-container'>
       <img src='https://i.ibb.co/g95xXs4/Group-4.png' alt='layer' />
-      <h2 className='service-heading1'>About Us</h2>
+      <h2 className='service-heading1'>Services</h2>
       <div id='line1-service'></div>
       <div id='line2-service'></div>
       <div id='line3-service'></div>
-      <h1 className='service-heading2'>Check out Our Services</h1>
-      <p className='service-p'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
-      standard dummy text ever since the 1500s, when an unknown</p>
+      <h1 className='service-heading2'>What We Offer</h1>
+      <p className='service-p'>Step Tech, a well-known website development company has battle-tested developers who 
+      specialize in an extensive variety of digital services. These are some of our following services.</p>
       <div className='service-carousel'>
           <Slider {...setting}>
             <div className='card1'>
               <img className='circle1' src='https://i.ibb.co/1QnZmL0/circle.png'/>
                 <img className='ai' src='https://i.ibb.co/m6Cw4yy/image.png' alt='ai' />
-                <h3 className='h1-f'>Graphics Designing</h3>
-                <p className='p1-f'>Lorem Ipsum is simply dummy text of the printing and 
-                typesetting industry. Lorem Ipsum has been the industry's 
-                standard dummy text ever since the 1500s, when an unknown</p>
+                <h3 className='h1-f'>Website Development</h3>
+                <p className='p1-f'>We can create a web application that's easy to navigate and use with great content 
+                or an extensive e-commerce platform, according to your demands. The Step Tech team is an expert in 
+                building an appealing digital presence that will help your business create leads and turn visitors into 
+                customers.</p>
             </div> 
             <div className='card2'>
               <img className='circle2' src='https://i.ibb.co/1QnZmL0/circle.png'/>
               <img className='ai' src='https://i.ibb.co/L85bTDp/image.png' alt='ai' /> 
-                <h3 className='h2-g'>Website Design & Development</h3>
-                <p className='p2-g'>Lorem Ipsum is simply dummy text of the printing and 
-                typesetting industry. Lorem Ipsum has been the industry's 
-                standard dummy text ever since the 1500s, when an unknown</p>
+                <h3 className='h2-g'>Application Development</h3>
+                <p className='p2-g'>For all of your needs about the creation of mobile apps, we are the one-stop shop. 
+                We offer all the mobile application development services that today's industry expects. We offer our 
+                clients reasonable prices for all of our app development services. Step Tech can create mobile apps that
+                are cross-platform and compatible with all devices.</p>
             </div>
             <div className='card3'>
             <img className='circle3' src='https://i.ibb.co/1QnZmL0/circle.png'/>
             <img className='ai' src='https://i.ibb.co/c1zmjbq/image.png' alt='ai' />  
-                <h3 className='h3-w'>App Design & Development</h3>
-                <p className='p3-w'>Lorem Ipsum is simply dummy text of the printing and 
-                typesetting industry. Lorem Ipsum has been the industry's 
-                standard dummy text ever since the 1500s, when an unknown</p>
+                <h3 className='h3-w'>Game Development</h3>
+                <p className='p3-w'>We offer comprehensive services for developing games encompassing pre-production, 
+                production, and post-production processes. We strive to provide your user with incredible, compelling 
+                visuals, smooth gameplay, engaging narratives, and more.</p>
             </div> 
             <div className='card4'>
             <img className='circle4' src='https://i.ibb.co/1QnZmL0/circle.png'/>

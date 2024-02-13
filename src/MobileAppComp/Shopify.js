@@ -7,17 +7,17 @@ const Shopify = () => {
   return (
     <div className='appsec5-container'>
       <h1>
-      Get Outstanding Android App Development Service with Step Tech Global
+      Give your Android App an Innovative Look with our Android App Development Services
       </h1>
       <p>
-      Start your next project with skilled Android developers. Step Tech Global brings the best of the best Android 
-      developers to you. Our developers possess strong technical skills and expertise in the precise programming languages
-       or frameworks required for the job. Our services for creating Android apps aim to provide professional assistance 
-       at each stage of the development process, from conception, design, and coding to quality assurance and Google Play 
-       launch.Our vast expertise in the domain allowed us to build ourselves as a reputable company in the app development
-       industry.. Whether you want an app for a smartphone, a wearable device, or a TV, we build powerful solutions that 
-       work flawlessly across all devices and industries. Our approach solves tricky business challenges and boosts your
-       decision-making capabilities.
+      Begin a new endeavor with skilled Android developers. Step Tech offers you just the best Android developers. Our 
+      developers have significant technical expertise and expertise in the particular programming languages or frameworks
+      necessary for the assignment. Our Android app development services strive to give expert support at every level of
+      the development process, from idea, design, and coding to quality assurance and Google Play launch.Our years of 
+      expertise in the industry have enabled us to establish ourselves as an acknowledged firm in the app development 
+      sector. Whether you need an app for a smartphone, a wearable device, or a television, we offer powerful options 
+      that function seamlessly across all devices and sectors. Our method solves complicated business challenges and 
+      improves your decision-making capabilities.
       </p>
       <button className='appbtn4' onClick={() => setIsVisible(true)}>talk to consultant</button>
       {isVisible && 

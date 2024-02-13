@@ -77,9 +77,8 @@
     font-weight: 700;
     line-height: 48.5px; 
     letter-spacing: -1px;
-    top: 22%;
     top: 35%;
-    left: 30%;
+    left: 39%;
 }
 .service-p{
     position: absolute;
@@ -496,19 +495,19 @@ transition: all 0.5s ease;
 
 .card1 .h1-f{
     position: absolute;
-    margin-top: 150px !important;
-    margin-left: 50px !important;
+    margin-top: 135px;
+    margin-left: 50px ;
     color: #333;
     font-size: 22px;
 }
 .card1 .p1-f{
    position: absolute;
    z-index: 2;
-   margin: 200px 30px 0px 15px !important;
+   margin: 170px 30px 0px 15px;
    color: #616163;
    text-align: center;
    font-family: Poppins, sans-serif;
-   font-size: 16px;
+   font-size: 15.6px;
    font-style: normal;
    font-weight: 400;
    line-height: 20px; /* 131.492% */
@@ -516,19 +515,19 @@ transition: all 0.5s ease;
 }
 .card2 .h2-g{
     position: absolute;
-    margin-top: 150px !important;
-    margin-left: 2px !important;
+    margin-top: 135px ;
+    margin-left: 32px;
     color: #333;
     font-size: 22px;
 }
 .card2 .p2-g{
    position: absolute;
    z-index: 2;
-   margin: 200px 30px 0px 15px !important;
+   margin: 170px 30px 0px 15px;
    color: #616163;
    text-align: center;
    font-family: Poppins, sans-serif;
-   font-size: 16px;
+   font-size: 15.6px;
    font-style: normal;
    font-weight: 400;
    line-height: 20px; /* 131.492% */
@@ -537,15 +536,15 @@ transition: all 0.5s ease;
 
 .card3 .h3-w{
     position: absolute;
-    margin-top: 150px !important;
-    margin-left: 18px !important;
+    margin-top: 135px;
+    margin-left: 50px;
     color: #333;
     font-size: 22px;
 }
 .card3 .p3-w{
     position: absolute;
     z-index: 2;
-    margin: 200px 30px 0px 15px !important;
+    margin: 170px 30px 0px 15px;
     color: #616163;
     text-align: center;
     font-family: Poppins, sans-serif;

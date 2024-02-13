@@ -67,14 +67,15 @@ const Brand = () => {
             </div>
           </Slider>
       </div>
-        <h1 className='let-heading'>LET US INTRODUCE YOU!</h1>
+        <h1 className='let-heading'>Explore More About Us</h1>
         <div id='line1-brand'></div>
         <div id='line2-brand'></div>
         <div id='line3-brand'></div>
-        <h1 className='brand-heading'>PERFECT MATCH FOR YOUR CORPORATE BRANDING</h1>
-        <p className='brand-p'>Whether you are seeking to revamp or build your brand from scratch, our brand analysts
-         ensure uniformity from the brand logo to digital media. We always recommend customizations. However, here we 
-         have designed a package only to give you an idea.
+        <h1 className='brand-heading'>What Makes Us Standout In the Crowd</h1>
+        <p className='brand-p'>Joining Step Tech means accepting an obligation to excellence rather than simply selecting a 
+        service. Our passion, creativity, and dedication to your success are what drive us. We are pioneers of digital 
+        accomplishments, not just creators. Our team of experts dedicates themselves to turning your concepts into 
+        significant reality since they have an obsession with cutting-edge technology.
         </p>
     </div>
   )

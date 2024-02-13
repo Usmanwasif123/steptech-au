@@ -12,16 +12,20 @@
 
 .appprocess-h1{
     top: 6%;
-    left: 10%;
+    left: 7%;
     font-size: 40px;
     color: #333;
     position: absolute;
     z-index: 2;
 }
 .appprocess-p{
-    top: 20%;
-    left: 10%;
-    padding: 0 200px 0px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    top: 15%;
+    left: 3%;
+    padding: 0 200px 0px 100px;
     font-size: 20px;
     color: #333;
     position: absolute;
@@ -31,7 +35,7 @@
     position: absolute;
     z-index: 2;
     left: 1%; 
-    top: 40%;
+    top: 30%;
 }
 
 .resea-grid .resea-img{
@@ -59,7 +63,7 @@
     position: absolute;
     z-index: 2;
     left: 26%; 
-    top: 40%;
+    top: 30%;
 }
 
 .uiux-grid .uiux-img{
@@ -89,7 +93,7 @@
     position: absolute;
     z-index: 2;
     left: 51%; 
-    top: 40%;
+    top: 30%;
 }
 
 .deve-grid .deve-img{
@@ -117,7 +121,7 @@
     position: absolute;
     z-index: 2;
     left: 76%; 
-    top: 40%;
+    top: 30%;
 }
 
 .qa-launch-grid .qa-launch-img{

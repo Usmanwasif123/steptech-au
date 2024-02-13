@@ -28,18 +28,16 @@ const Solution = () => {
         <div className='sol-background'></div>
         <div id='sol-line1'></div>
         <div id='sol-line2'></div>
-        <h1 class='sol-heading-left' >ONE-STOP CREATIVE DESIGN & DEVELOPMENT SOLUTION</h1>
-        <h2 className='sol-heading2-left' >Step Tech Is A Creative Design & Software 
-          Development Company Based In Melbourne, Australia.</h2>
-        <p className='sol-para-left' >We provide creative, IT, and digital marketing solutions to small and medium 
-          enterprises using cutting-edge technology. We do not only help businesses with brand 
-          designs, websites, apps, and game design and development, 2D & 3D animation, product 
-          photography, and videography but also optimize their digital potential with SEO, social 
-          media, and search engine management. It’s what makes us a complete software development 
-          company.
+        <h1 class='sol-heading-left' >Crafting a Stunning Digital Experience For Your Business</h1>
+        <h2 className='sol-heading2-left' >Achieve Your Business Goals And Build The Best  Digital Experience For Your Business Future With StepTech</h2>
+        <p className='sol-para-left' >We are a worldwide, multi-award-winning web development company offering outstanding
+          digital marketing, game development, web development, and app development solutions. We take delight in providing
+          our global clients with the ideal blend of knowledge and technology. We have a team of top-tier industry 
+          specialists constantly working to meet your needs for customized web, apps, games, and solutions. We don't just 
+          offer solutions for your brand; we build a business to help you thrive in your competitive market.
         </p>
         <Link to='/step-tech-on-designrush' className='btn-design'>
-          Step Tech on designrush
+          Learn More
         </Link>
         <div className='right-side'>
           <img src='https://i.ibb.co/WDV5tKS/Layer-1.png' alt="layer"/>

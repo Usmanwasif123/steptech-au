@@ -30,7 +30,7 @@
     color: #616163;
     text-align: center;
     font-family: Poppins, sans-serif;
-    font-size: 15.21px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: 20px; /* 131.492% */
@@ -86,10 +86,10 @@
 }
 
 .app-cards .h2-ai{
-    font-size: 30px;
+    font-size: 27px;
     position: absolute;
     margin-top: 150px;
-    margin-left: 12px;
+    margin-left: 7px;
     color: #333;
 }
 .app-cards .h2-ai:hover{
@@ -116,7 +116,7 @@
     font-size: 30px;
     position: absolute;
     margin-top: 150px;
-    margin-left: 10px;
+    margin-left: 45px;
     color: #333;
 }
 .app-cards .h3-ai:hover{
@@ -126,7 +126,6 @@
 .app-cards .p3-ai{
    position: absolute;
    z-index: 3;
-   margin-top: 180px; 
    color: #616163;
    text-align: center;
    font-family: Poppins, sans-serif;
@@ -136,7 +135,7 @@
    line-height: 20px; /* 131.492% */
    letter-spacing: -0.331px;
    left: 27%;
-   margin: 250px 2400px 0px -40px;
+   margin: 255px 2400px 0px -40px;
    padding: 0px 2860px 0px 0px;
 }
 
@@ -144,7 +143,7 @@
     font-size: 30px;
     position: absolute;
     margin-top: 150px;
-    margin-left: 10px;
+    margin-left: 55px;
     color: #333;
 }
 .app-cards .h4-ai:hover{
@@ -154,7 +153,6 @@
 .app-cards .p4-ai{
    position: absolute;
    z-index: 3;
-   margin-top: 180px; 
    color: #616163;
    text-align: center;
    font-family: Poppins, sans-serif;
@@ -164,7 +162,7 @@
    line-height: 20px; /* 131.492% */
    letter-spacing: -0.331px;
    left: 35%;
-   margin: 250px 2400px 0px -250px;
+   margin: 260px 2400px 0px -250px;
    padding: 0px 2455px 0px 0px;
 }
 
@@ -172,7 +170,7 @@
     font-size: 30px;
     position: absolute;
     margin-top: 150px;
-    margin-left: 10px;
+    margin-left: 60px;
     color: #333;
 }
 .app-cards .h5-ai:hover{
@@ -186,13 +184,13 @@
    color: #616163;
    text-align: center;
    font-family: Poppins, sans-serif;
-   font-size: 15.21px;
+   font-size: 15px;
    font-style: normal;
    font-weight: 400;
    line-height: 20px; /* 131.492% */
    letter-spacing: -0.331px;
    left: 40%;
-   margin: 250px 2400px 0px -235px;
+   margin: 260px 2400px 0px -235px;
    padding: 0px 2050px 0px 0px;
 }
 

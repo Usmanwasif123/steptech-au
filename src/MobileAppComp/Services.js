@@ -50,58 +50,53 @@ const Services = () => {
     
   return (
     <div className='appservice-container'>
-      <h1>Get All App Development Services From Technophiles</h1>
-      <p>We know the force of versatile application improvement, that is the reason we decide to 
-      fill in as an imaginative portable application improvement organization. We just lean toward stylish plans and 
-      great usefulness while creating applications for your organizations. It’s our tendency to convey the best. Win more
-      with versatile application improvement administrations.</p>
+      <h1>StepTech Mobile Application Development Services</h1>
+      <p>At StepTech Australia, the top application development company in Australia, we offer our clients all-inclusive 
+        mobile app development services for our clients. The mobile application services we offer are the following.</p>
       <div className='app-carousel'>
           <Slider {...setting}>
             <div className='app-cards'>
                 <img className='img1' src='https://i.ibb.co/jhhbnm7/image.png' alt='ai'/>
-                <h3 className='h1-ai'>Software Quality</h3>
-                <p className='p1-ai'>We support nothing without testing, and with regards to programming quality testing, 
-                we are generally inquisitive to fix things for portable applications. Our careful QA specialists 
-                exclusively center around further developing portable applications making it more smooth and more 
-                vigorous with measurements and programming quality testing.</p>
+                <h3 className='h1-ai'>IOS App Development</h3>
+                <p className='p1-ai'>With the help of mobile apps, our iOS app development services allow you to 
+                redefine your business and take it to a new, digitally sustainable level where the delivery of value 
+                and market discernment are optimized.</p>
             </div> 
               <div className='app-cards'> 
                 <img className='img2' src='https://i.ibb.co/C9rNB3j/image.png' alt='ai'/>
-                <h3 className='h2-ai'>Migration Services</h3>
-                <p className='p2-ai'>It's a great opportunity to relocate all your versatile applications to another web 
-                structure without problem. You are fortunate that we are here to move your versatile applications to your 
-                ongoing web engineering with complete security, intelligent and responsive details. Now is the ideal time to 
-                stream carefully with us.</p>
+                <h3 className='h2-ai'>Android App Development</h3>
+                <p className='p2-ai'>StepTech develops Android applications from the bottom up. It works with existing 
+                IT teams to improve their apps with distinctive functions, integrations, and modules, providing a more 
+                personalized solution and a fantastic user experience.</p>
               </div>
               <div className='app-cards'>
                 <img className='img3' src='https://i.ibb.co/4RMvfQT/image.png' alt='ai'/>
-                <h3 className='h3-ai'>UX/UI Engineering</h3>
-                <p className='p3-ai'>UI/UX is the spirit of portable turn of events. Clients collaborate with applications
-                 that have great plans and looks since it's the way to finding success. We will foster UI/UX wIth inventive
-                 Cta's, Essential activity buttons, picture overlaying, tempting symbols, and all that catch the clients' 
-                 eye.</p>
+                <h3 className='h3-ai'>ReactNative App <br/>Development</h3>
+                <p className='p3-ai'>With extensive expertise in the field, our professional React Native developers can 
+                deliver head-to-head services that let our clients fully benefit from the React Native web framework, 
+                which is quick, durable, and highly adaptable while developing.</p>
               </div> 
               <div className='app-cards'>
                 <img className='img4' src='https://i.ibb.co/BT0yLd7/image.png' alt='ai'/>
-                 <h3 className='h4-ai'>Android App</h3>            
-                <p className='p4-ai'>We astutely convey proficient outcomes, inventive thoughts, and advanced Android 
-                application improvement to our important clients. Dexterous, Scrum, Kunban, Blade 2, Java, and Gradle are
-                our instruments to fabricate savage android application improvement for you. Move computerized, this time 
-                with an android application improvement office.</p>
+                 <h3 className='h4-ai'>Flutter App <br/>Development</h3>            
+                <p className='p4-ai'>Our Flutter Developers specialize in creating incredibly customized apps according 
+                to your requirements. We emphasize timely project delivery and a results-driven app development approach.
+                </p>
                </div>  
               <div className='app-cards'>
                 <img className='img5' src='https://i.ibb.co/DfLxmcT/image.png' alt='ai'/>
-                <h3 className='h5-ai'>Prototyping</h3>
+                <h3 className='h5-ai'>Xamarin App <br/>Development</h3>
                 <p className='p5-ai'>Divert your thoughts from paper to computerized structure since we make an intelligent model to catch the 
                 most recent plan ideas. It's a second to see your thoughts with your eyes and approve your ideas and plans to go with the right 
-                methodology. We cleverly discharge your items and administrations.</p>
+                methodology. We cleverly discharge your items and administrations.At Step Tech, we take great delight in our outstanding Xamarin
+                development services.</p>
               </div> 
               <div className='app-cards'>
                 <img className='img6' src='https://i.ibb.co/t3syVkT/image.png' alt='ai'/>
-                <h3 className='h6-ai'>Blockchain App</h3>
-                <p className='p6-ai'>Secure your information with open-source innovation since we're specialists in blockchain application 
-                advancement. Experience a powerful 'Brilliant Worker for hire' and a legitimate decentralized structure to work cleverly in 
-                blockchains. Reshape your method of business even with portable based applications.</p>
+                <h3 className='h6-ai'>Ionic App Development</h3>
+                <p className='p6-ai'>As one of the leading Ionic App Development firms, we look to develop native apps 
+                that use the Ionic framework to meet your cross-platform requirements. We create engaging and stylish 
+                mobile apps on various platforms with our Iconic app development services.</p>
                 </div>
               <div className='app-cards'>
                 <img  className='img7' src='https://i.ibb.co/XWvvfJm/image.png' alt='ai'/>

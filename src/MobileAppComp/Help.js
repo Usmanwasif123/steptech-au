@@ -7,16 +7,16 @@ const Help = () => {
   return (
     <div className='appsec6-container'>
       <h1>
-      Get the Advancment in Your Business With Progressive Web App Development
+      Welcome Innovation in Your Business With Progressive Web App Development
       </h1>
       <p>
-      Step Tech Global extensive experience in mobile application development also helps us provide 360-degree progressive
-      web app solutions. With our expert app developers at your dumping, you can continuously undertake PWA development to 
-      dispose fast, engaging, and cross-platform user experiences.As a top-leading mobile app development services company,
-       we design progressive web app development solutions that benefit companies combine astute solutions applied in web 
-       and mobile applications beneficial for simple development and distribution. Using our advanced web app solutions, 
-       you allow persistent access to app-like elements and features on any device with a web browser, augmenting your 
-       customer reach and brand presence.
+      Our in-depth knowledge of creating <b>mobile applications</b> adds to our ability to offer 360-degree advanced web app 
+      solutions. With our adept <b>app developers</b> at your fingertips, you can continually focus on PWA development to 
+      deliver quick, engaging, and cross-platform user experiences. As an established <b>mobile app development services</b> 
+      provider, we provide advanced <b>web app development</b> solutions that help companies by integrating clever techniques 
+      used in web and mobile apps to streamline creation and execution. With our strong <b>web app solutions,</b> you can offer 
+      constant access to app-like elements and functionalities on any device with a web browser, therefore increasing 
+      your consumer reach and brand presence.
       </p>
       <button className='appbtn5' onClick={() => setIsVisible(true)}>talk to consultant</button>
       {isVisible && 

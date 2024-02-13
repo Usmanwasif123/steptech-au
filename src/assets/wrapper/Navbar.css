@@ -5,11 +5,12 @@
 }
 
 .nav-container{
-    height: 100vh;
-   width: 100vw;
+  height: 100vh;
+  width: 100vw;
   display: flex;
   flex-direction: column;
   align-items: center;
+  flex-wrap: wrap;
 }
 .nav-container img{
     display: flex; /* Apply Flexbox properties */
@@ -21,10 +22,10 @@
 }
 
 .logo{
-    margin-top: -40px;
+    margin-top: -4vh;
     z-index: 3;
     background: url('https://i.ibb.co/WxpLfrH/image.png');
-    height: 50px; /* Adjust height as needed */
+    height: 5vh; /* Adjust height as needed */
     width: auto; /* Adjust width as needed */
     cursor: pointer;
     top: -10%;
@@ -64,8 +65,8 @@
     width: 300px;
     z-index: 5;
     border-radius: 2px;
-    margin-top: 85px;
-    margin-left: 20px;
+    margin-top: 8.5vh;
+    margin-left: 2vw;
     
 }
 
@@ -382,8 +383,8 @@
     border: none;
     outline: 1px solid #fff;
     background: #fff;
-    margin-top: -150px;
-    margin-left: -950px;
+    margin-top: -200px;
+    margin-left: -900px;
 
 }
 
@@ -696,11 +697,11 @@
         left: 23%;
     }
     
-    .btn-start{
+    .nav-container .btn-start{
         font-size: 20px;
         padding: 10px 25px 10px 25px;
-        margin-top: -162px;
-        margin-left: 100px;
+        margin-top: -201px;
+        margin-left: -640px;
     
     }
     

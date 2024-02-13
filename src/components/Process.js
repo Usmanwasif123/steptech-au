@@ -20,18 +20,18 @@ const Process = () => {
   return (
     <div className='process-container'>
       <img src='https://i.ibb.co/dJNKhKZ/process-bg.jpg' alt='bg-img'/>
-      <h2 className='process-detail'>A detailed process that</h2>
-      <h1 className='process-define'>Defines our Professional</h1>
-      <h2 className='process-excellence'>Excellence!</h2>
+      <h2 className='process-detail'>A Detailed Approach To</h2>
+      <h1 className='process-define'>Determining Our Professional</h1>
+      <h2 className='process-excellence'>Perfection</h2>
       <Grid container spacing={-10}>
         <Grid item xs={6} md={3} className='dis-grid'>
         <Item>
             <img className='dis-img' src='https://i.ibb.co/WFC9b4R/image.png'/>
             <h1 data-aos="zoom-in-up" data-aos-duration="500" data-aos-easing="ease-in-sine" className='discovery'>Discovery and Planning </h1> 
-            <p data-aos="zoom-in-down" data-aos-duration="500" data-aos-easing="ease-in-sine" className='dis-p'>At Step Tech Global, we commence our journey by meticulously exploring your objectives. 
-             We deeply understand your vision, ensuring every subsequent step aligns seamlessly with 
-             your aspirations. Our planning phase lays the groundwork for a development process that's
-             not just efficient but purpose-driven.
+            <p data-aos="zoom-in-down" data-aos-duration="500" data-aos-easing="ease-in-sine" className='dis-p'>
+            We begin our journey by thoroughly reviewing your objectives. We have an in-depth knowledge of your targets, 
+            so each step we take after that shall be in full accordance with your vision. The basis for an efficient and 
+            driven-by-purpose development process is set up during our planning phase.
             </p>
         </Item>
         </Grid>
@@ -39,9 +39,10 @@ const Process = () => {
          <Item>
              <img className='des-img' src='https://i.ibb.co/9ZLDdCB/image.png'/>
             <h1 data-aos="zoom-in-up" data-aos-duration="500" data-aos-easing="ease-in-sine" className='design'>Design and Prototyping</h1> 
-            <p data-aos="zoom-in-down" data-aos-duration="500" data-aos-easing="ease-in-sine" className='des-p'>Creativity takes center stage as we craft visually stunning designs and prototypes that
-             breathe life into your concepts. Our commitment to user-centric design ensures that every
-             pixel serves a purpose, creating an engaging digital experience that captivates your audience.
+            <p data-aos="zoom-in-down" data-aos-duration="500" data-aos-easing="ease-in-sine" className='des-p'>
+            As we develop stunning concepts and prototypes that bring your ideas to life, creativity takes the forefront.
+            Our commitment to user-centric design makes sure that every single pixel has a function, leading to a 
+            captivating digital experience that draws in viewers.
               </p> 
         </Item>
         </Grid>
@@ -49,9 +50,10 @@ const Process = () => {
        <Item>
             <img className='dev-img' src='https://i.ibb.co/F7DFbS8/image.png'/>
             <h1 data-aos="zoom-in-up" data-aos-duration="500" data-aos-easing="ease-in-sine" className='develop'>Development and Testing</h1> 
-            <p data-aos="zoom-in-down" data-aos-duration="500" data-aos-easing="ease-in-sine" className='dev-p'>The heart of our process lies in the development phase, where lines of code evolve into robust
-              digital solutions. We scrupulously code, test, and polish, ensuring a flawless end product that
-              exceeds expectations. Your project isn't just a task; it's a testament to our dedication to excellence.
+            <p data-aos="zoom-in-down" data-aos-duration="500" data-aos-easing="ease-in-sine" className='dev-p'>
+            Our development phase, when lines of code create real digital solutions, is the core of our approach. We 
+            carefully test, code, and polish to deliver a flawless final result that goes beyond and above. Your project 
+            is more than just a job; it proves our commitment to quality work.
             </p> 
         </Item>
         </Grid>
@@ -59,9 +61,10 @@ const Process = () => {
         <Item>
             <img className='dep-img' src='https://i.ibb.co/9s4mxH4/image.png'/>
             <h1 data-aos="zoom-in-up" data-aos-duration="500" data-aos-easing="ease-in-sine" className='deploy'>Deployment and Support</h1> 
-            <p data-aos="zoom-in-down" data-aos-duration="500" data-aos-easing="ease-in-sine" className='dep-p'>Witness your vision materialize as we deploy the final product, ensuring a seamless transition into 
-             the digital realm. But our support doesn't end there; Step Tech Global stands by you, providing 
-             ongoing assistance and updates to keep your digital presence ahead of the curve.
+            <p data-aos="zoom-in-down" data-aos-duration="500" data-aos-easing="ease-in-sine" className='dep-p'>
+            As we implement the final product, you will be ready to see the concept take shape existence and participate 
+            in an effortless digital transition. Nevertheless, we are there to support you, providing updates and ongoing
+            help to keep your digital footprint on the cutting edge.
             </p> 
         </Item>
         </Grid>

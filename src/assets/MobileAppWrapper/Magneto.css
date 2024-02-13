@@ -19,7 +19,7 @@
     font-weight: 700;
     line-height: 60px; 
     letter-spacing: -1px;
-    top: 5%;
+    top: 3%;
     left: 55%;
     padding: 30px 5px 0px 0px;
     color: #333;
@@ -33,7 +33,7 @@
     font-weight: 400;
     line-height: 30px; 
     letter-spacing: -1px;
-    top: 30%;
+    top: 36%;
     left: 55%;
     padding: 30px 50px 0px 0px;
     color: #333;
@@ -60,6 +60,7 @@
     -webkit-transition: ease-out 0.4s;
     -moz-transition: ease-out 0.4s;
     transition: ease-out 0.4s;
+    border: none;
 }
 
 .appsec4-container .appbtn3:hover {

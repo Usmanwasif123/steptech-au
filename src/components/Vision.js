@@ -10,21 +10,17 @@ const About = () => {
         <div id='line2-vision'></div>
         <div id='line3-vision'></div>
         <h1 className='right-heading'>
-          WHERE YOUR VISION IS REALISED
+        Maximize the High Potential of Your Business
         </h1>
       <p className='right-p'>
-        Step Tech is a software development and web design 
-      company. We provide State of the art IT solutions for small and medium 
-      businesses and enterprises. We've helped hundreds of businesses plan, 
-      develop and manage the perfect websites and apps for their internal needs 
-      and customers. Being software development company, we work on a wide range 
-      of technologies ranging from open source to proprietary and custom-built 
-      solutions. With years of experience, we have perfected the process, system, 
-      and technologies that enable us to create high-quality, web and mobile 
-      solutions.</p>
-      <p className='right-p'>
-      Having been in the creative and IT industry for longer than a decade, our 
-      focus is on understanding the specific need of our clients. Integrating this.
+      Step Tech is the most prominent website development company in Australia. We were established in 2015 to provide 
+      our customers with an unparalleled digital experience. We are not just building your website. We are building your 
+      business. We go beyond the ordinary for our clients by offering unique, customized, and productive solutions. 
+      Whether it is a web app, mobile app, game app development, or any IT Solution- it will be one of a kind.
+      <br/><br/>
+      Step Tech is a hub for growth, education, and exploration for creative individuals. We are an eclectic bunch of 
+      brave and creative thinkers from every background. Our focus on inclusion throughout the organization offers our 
+      personnel enormous opportunities, and our open culture propels achievement for our clients.
       </p>
       <Link to='/read-more' className='btn-visionread'>read more</Link>
       <div className='box'>&nbsp;</div>
