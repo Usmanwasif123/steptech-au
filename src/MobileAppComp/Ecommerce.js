@@ -7,17 +7,15 @@ const Ecommerce = () => {
   return (
     <div className='appsec1-container'>
       <h1>
-      Step Tech Global Not Only Build Mob Apps, We Build Your Dreams
+      More than Just Build an App We Build a Solution for the Inflame Your Success
       </h1>
       <p>
-      As a full-stack iOS Application Development company, we must dispose of 
-      hundreds of native iOS apps that have perceived skyrocketing success rates 
-      and were epics on the App Store. We have a highly skilled team of experienced
-      IOS best app builders and our foremost tech stack for creating iOS solutions 
-      in Objective-C and Swift. Our app-building company solves critical business 
-      challenges and facilitates bright decision-making through tailor-made Apple 
-      device applications. Serve from our deep expertise in iOS development to build
-      an appealing, visually engaging app that enhances your business in a 
+      Being a full-stack <b>iOS application development company</b> we have successfully gotten rid of thousands of native <b>iOS 
+      applications</b> that were epic tales on the App Store and appeared to have explosive success rates. We have a highly 
+      skilled staff of professional <b>iOS best app</b> builders, as well as our main tech stack to create iOS solutions in 
+      Objective-C and Fast technologies. <b>Our app development company</b> responds to vital company challenges and allows 
+      informed choices through custom Apple device applications. Use the privilege of significant <b>iOS development</b> 
+      experience to develop an attractive, visually engaging app that will assist your business break out in a highly
       competitive marketplace.
       </p>
       <button className='appbtn2' onClick={() => setIsVisible(true)}>talk to consultant</button>

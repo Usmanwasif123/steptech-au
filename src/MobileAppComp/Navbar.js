@@ -141,9 +141,12 @@ const Navbar = () => {
       <img src='https://i.ibb.co/Y8F8xfL/Rectangle-1.png' alt='Banner'></img>
       <div className='banner-line'></div>
       <div className='app-banner-heading'>
-        <h1>Build Your Online Success With Our Precise App Development Services<br/>
-        <p>At Step Tech Global, we are turning app concepts into digital masterpieces. As a well-known mobile app 
-        development company, we offer the best app development services to clear up your business concerns.
+        <h1>Bring Life to Your Digital Dream With Our App Development Service<br/>
+        <p>Be ready to maximize the potential of your business and transform your idea into digital reality with Step 
+          Tech, a <b>top app development company.</b> Our best app developers build functionally reliable mobile applications 
+          for startups, consumers, and leading enterprises backed by magnificent interfaces unique to their company. We 
+          build digital pieces of art out of app concepts. As a recognized <b>mobile app development company,</b> we offer the 
+          greatest <b>app development services</b> to alleviate your business issues.
         </p>
         </h1>
       </div>
