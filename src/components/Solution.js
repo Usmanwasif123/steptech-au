@@ -40,7 +40,7 @@ const Solution = () => {
           Learn More
         </Link>
         <div className='right-side'>
-          <img src='https://i.ibb.co/WDV5tKS/Layer-1.png' alt="layer"/>
+          <img className='bg-img'src='https://i.ibb.co/WDV5tKS/Layer-1.png' alt="layer"/>
           <div className='right-half'>&nbsp;
             <img className='circle' src={circle} alt='web-design' />
             <img className='lines' src={line} alt='lines'/>

@@ -109,7 +109,7 @@
     box-shadow: inset 0 0 0 50px #e6e1e4;
     color: #233F81;
 }
-.right-side img{
+.right-side .bg-img{
     position: absolute;
     z-index: 1;
     top: 175%;
@@ -136,7 +136,7 @@
     position: absolute;
     z-index: 3;
     top:  5%;
-    left: -55%;
+    left: 1rem;
     height: 80vh;
     width: 40vw;
     transform: rotate(0deg);
@@ -145,7 +145,7 @@
     position: absolute;
     z-index: 3;
     top:  20%;
-    left: -42%;
+    left: 7rem;
     height: 45vh;
     width: 25vw;
     transform: rotate(0deg);
@@ -153,8 +153,8 @@
 .right-half .ang{
     position: absolute;
     z-index: 3;
-    top:  5%;
-    left: -35%;
+    top:  3rem;
+    left: 7rem;
     height: 9vh;
     width: 4.5vw;
     transform: rotate(0deg);
@@ -166,8 +166,8 @@
 .right-half .node{
     position: absolute;
     z-index: 3;
-    top:  22%;
-    left: -51%;
+    top:  8rem;
+    left: 2rem;
     height: 9vh;
     width: 4.5vw;
     transform: rotate(0deg);
@@ -179,8 +179,8 @@
 .right-half .py{
     position: absolute;
     z-index: 3;
-    top:  47%;
-    left: -58%;
+    top:  20rem;
+    left: 1rem;
     height: 9vh;
     width: 4.5vw;
     transform: rotate(0deg);
@@ -193,8 +193,8 @@
 .right-half .ios{
     position: absolute;
     z-index: 3;
-    top:  78%;
-    left: -47%;
+    top:  27rem;
+    left: 7rem;
     height: 9vh;
     width: 4.5;
     transform: rotate(0deg);
@@ -207,8 +207,8 @@
 .right-half .and{
     position: absolute;
     z-index: 3;
-    top:  89%;
-    left: -20%;
+    top:  29rem;
+    left: 16rem;
     height: 9vh;
     width: 5.5vw;
     transform: rotate(0deg);
@@ -221,8 +221,8 @@
 .right-half .js{
     position: absolute;
     z-index: 3;
-    top:  5%;
-    left: -1%;
+    top:  1rem;
+    left: 20rem;
     height: 9vh;
     width: 4.5vw;
     transform: rotate(0deg);
@@ -236,8 +236,8 @@
 .right-half .re{
     position: absolute;
     z-index: 3;
-    top:  81%;
-    left: 5%;
+    top:  8rem;
+    left: 30rem;
     height: 9vh;
     width: 4.5vw;
     transform: rotate(0deg);
@@ -250,8 +250,8 @@
 .right-half .fl{
     position: absolute;
     z-index: 3;
-    top:  55%;
-    left: 20%;
+    top:  20rem;
+    left: 32rem;
     height: 9vh;
     width: 4.5vw;
     transform: rotate(0deg);
@@ -264,8 +264,8 @@
 .right-half .sw{
     position: absolute;
     z-index: 3;
-    top:  25%;
-    left: 17%;
+    top:  27rem;
+    left: 25rem;
     height: 9vh;
     width: 4.5vw;
     transform: rotate(0deg);
@@ -279,8 +279,8 @@
 .right-half .wf{
     position: absolute;
     z-index: 3;
-    top:  15%;
-    left: -18%;
+    top:  5rem;
+    left: 17rem;
     height: 6vh;
     width: 3.2vw;
 }
@@ -289,8 +289,8 @@
 .right-half .fb{
     position: absolute;
     z-index: 3;
-    top:  25%;
-    left: -35%;
+    top:  8rem;
+    left: 10rem;
     height: 6vh;
     width: 3.2vw;
     transform: rotate(0deg);
@@ -304,8 +304,8 @@
 .right-half .aws{
     position: absolute;
     z-index: 3;
-    top:  43%;
-    left: -45%;
+    top:  14rem;
+    left: 5rem;
     height: 6vh;
     width: 3.2vw;
 }
@@ -313,8 +313,8 @@
 .right-half .xd{
     position: absolute;
     z-index: 3;
-    top:  59%;
-    left: -44%;
+    top:  19rem;
+    left: 6rem;
     height: 6vh;
     width: 3.2vw;
     transform: rotate(0deg);
@@ -328,8 +328,8 @@
 .right-half .fg{
     position: absolute;
     z-index: 3;
-    top:  71%;
-    left: -18%;
+    top:  23rem;
+    left: 17rem;
     height: 6vh;
     width: 3.2vw;
 
@@ -338,8 +338,8 @@
 .right-half .ht{
     position: absolute;
     z-index: 3;
-    top: 55%;
-    left: 5%;
+    top:  18rem;
+    left: 26rem;
     height: 6vh;
     width: 3.2vw;
     transform: rotate(0deg);
@@ -353,16 +353,16 @@
 .right-half .ko{
     position: absolute;
     z-index: 3;
-    top: 40%;
-    left: 10%;
+    top:  13rem;
+    left: 28rem;
     height: 6vh;
     width: 3.2vw;
 }
 .right-half .gc{
     position: absolute;
     z-index: 3;
-    top: 23%;
-    left: 1%;
+    top:  8rem;
+    left: 24rem;
     height: 6vh;
     width: 3.2vw;
     transform: rotate(0deg);
@@ -376,8 +376,8 @@
 .right-half .st{
     position: absolute;
     z-index: 3;
-    top: 38%;
-    left: -25%;
+    top:  12rem;
+    left: 14rem;
     height: 20vh;
     width: 10vw;
     transform: rotate(0deg);
@@ -385,8 +385,12 @@
 @media only screen and (max-width: 1024px) {
 
     .solution-container{
-        height: 120vh !important;
+        height: 140vh;
      }
+
+     .solution-container .sol-background{
+        height: 140vh;
+    }
     
     #sol-line1{
         margin-top: 2rem;
@@ -400,21 +404,21 @@
     .sol-heading-left{
         font-size: 25px;
         padding: 0px 30px 1px 40px;
-        margin: -650px 400px 0px 20px !important;
+        margin: -772px 586px 0px 20px;
     }
     .sol-heading2-left{
-        font-size: 20px;
-        padding: 0px 20px 1px 35px !important;
-        margin: -510px 650px 0px 5px !important;
+        font-size: 19px;
+        padding: 0px 20px 1px 35px;
+        margin: -609px 650px 0px 5px;
     }
     .sol-para-left{
         font-size: 16px;
         padding: 0px 20px 1px 25px;
-        margin: -390px 630px 0px 15px !important;
+        margin: -470px 630px 0px 15px;
     }
     .btn-design{
-        top: 327%;
-        left: 8%;
+        margin-top: 11rem;
+        margin-left: -3rem;
         font-size: 17px;
         font-weight: 600;
     
@@ -423,21 +427,20 @@
         box-shadow: inset 0 0 0 50px #e6e1e4;
         color: #233F81;
     }
-    .right-side img{
-        top: 154%;
-        left: 10%;
+    .right-side .bg-img{
+        margin-top: 2rem;
+        margin-left: 21rem;
     }
     .right-half{
-        left: 37.4%;
-        top: 235%;
+        margin-left: -29.9rem;
+        margin-top: 12rem;
         padding: 80px 80px 350px 550px;
-        margin-left: 0px;
     }
     .right-half .circle {
         position: absolute;
         z-index: 3;
-        top:  2%;
-        left: -55%;
+        margin-top: 0rem;
+        margin-left: 2rem;
         height: 70vh;
         width: 40vw;
         transform: rotate(0deg);
@@ -445,120 +448,120 @@
     .right-half .lines{
         position: absolute;
         z-index: 3;
-        top:  12%;
-        left: -47%;
+        margin-top: -1rem;
+        margin-left: -1rem;
         height: 50vh;
         width: 27vw;
         transform: rotate(0deg);
     }
     .right-half .ang{
-        top:  4%;
-        left: -42%;
+        margin-top: 1rem;
+        margin-left: -1rem;
         height: 8vh;
         width: 5vw;
     }
 
     .right-half .node{
-        top:  25%;
-        left: -55%;
+        margin-top: 2rem;
+        margin-left: 0rem;
         height: 8vh;
         width: 5vw;
     }
     .right-half .py{
-        top:  50%;
-        left: -57%;
+        margin-top: -2rem;
+        margin-left: 1rem;
         height: 8vh;
         width: 5vw;
     }
     .right-half .ios{
-        top:  75%;
-        left: -49%;
+        margin-top: -4rem;
+        margin-left: -1rem;
         height: 8vh;
         width: 5vw;
     }
     .right-half .and{
-        top:  87%;
-        left: -30%;
+        margin-top: -4rem;
+        margin-left: -3rem;
         height: 8vh;
         width: 6vw;
     }
     .right-half .js{
-        top:  4%;
-        left: -16%;
+        margin-top: 3rem;
+        margin-left: 2rem;
         height: 8vh;
         width: 5vw;
     }
     .right-half .re{
-        top:  76%;
-        left: -8%;
+        margin-top: 3rem;
+        margin-left: -4rem;
         height: 8vh;
         width: 5vw;
     }
 
     .right-half .fl{
-        top:  52%;
-        left: 1%;
+        margin-top: -1rem;
+        margin-left: -7rem;    
         height: 8vh;
         width: 5vw;
     }
     .right-half .sw{
-        top:  24%;
-        left: -1%;
+        margin-top: -3rem;
+        margin-left: -4rem;
         height: 8vh;
         width: 5vw;
     }
     .right-half .wf{
-        top:  6%;
-        left: -28%;
+        margin-top: -2rem;
+        margin-left: -3rem;
         height: 6vh;
         width: 4vw;
     }  
     .right-half .fb{
-        top:  17%;
-        left: -42%;
+        margin-top: -1rem;
+        margin-left: -2rem;
         height: 6vh;
         width: 4vw;
     }
     
     .right-half .aws{
-        top:  41%;
-        left: -48%;
+        margin-top: -1rem;
+        margin-left: 0rem;
         height: 6vh;
         width: 4vw;
     }
     .right-half .xd{
-        top:  60%;
-        left: -49%;
+        margin-top: -1rem;
+        margin-left: 0rem;
         height: 6vh;
         width: 4vw;
     }
     .right-half .fg{
-        top: 76%;
-        left: -28%;
+        margin-top: -1rem;
+        margin-left: -3rem;
         height: 6vh;
         width: 4vw;
     }
     .right-half .ht{
-        top: 37%;
-        left: -6%;
+        margin-top: -1rem;
+        margin-left: -5rem;    
         height: 6vh;
         width: 4vw;
     }
     .right-half .ko{
-        top: 56%;
-        left: -9%;
+        margin-top: -1rem;
+        margin-left: -5rem;    
         height: 6vh;
         width: 4vw;
     }
     .right-half .gc{
-        top: 18%;
-        left: -14%;
+        margin-top: -2rem;
+        margin-left: -5rem;  
         height: 6vh;
         width: 4vw;
     }
     .right-half .st{
-        top: 38%;
-        left: -32%;
+        margin-top: 0rem;
+        margin-left: -2rem; 
         height: 15vh;
         width: 9vw;
     }

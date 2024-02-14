@@ -24,8 +24,8 @@
 .logo{
     margin-top: -4vh;
     z-index: 3;
-    background: url('https://i.ibb.co/WxpLfrH/image.png');
-    height: 5vh; /* Adjust height as needed */
+    background: url('https://i.ibb.co/PmL8cdY/image.png');
+    height: 100vh; /* Adjust height as needed */
     width: auto; /* Adjust width as needed */
     cursor: pointer;
     top: -10%;
@@ -869,7 +869,7 @@
         width: 97.8vw;
 
     }
-    .logo{
+    .nav-container .logo{
         height: 100vh;
         width: 50vw;
         top: 7%;
@@ -940,7 +940,7 @@
     }
 }
 @media only screen and (max-width: 480px) {
-    .logo{
+    .nav-container .logo{
         height: 100vh;
         width: 50vw;
         top: 7%;

@@ -20,8 +20,8 @@
     margin-top: -40px;
     position:absolute;
     z-index: 3;
-    background: url('https://i.ibb.co/WxpLfrH/image.png');
-    height: 100vh;
+    background: url('https://i.ibb.co/PmL8cdY/image.png');
+    height: 50vh;
     width: 50vw;
     top: 10.2%;
     left: 14%;
@@ -308,8 +308,9 @@
     text-transform: capitalize;
 }
 .web-carousel{
-    margin-top: -200px;
-    margin-left: -640px;
+    margin-top: 25rem;
+    margin-left: -118.75rem;
+    height: 7rem;
 }
 
 .web-carousel .wordpress-image{
