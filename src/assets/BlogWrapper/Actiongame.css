@@ -11,16 +11,16 @@
     margin-top: 0px !important;
 }
 .blog-section2 .box1{
-    top: 25%;
-    left:25%;
+    top: 20%;
+    left:7.9%;
     position: absolute;
     z-index: 1;
     border-radius: 5px;
     transform: rotate(180deg);
     background: #fff;
-    padding: 340px 280px 250px 100px;
+    padding: 250px 280px 250px 100px;
     -webkit-box-shadow: 0 0 15px #b8b2b6;
-        box-shadow: 0 0 15px #b8b2b6;
+    box-shadow: 0 0 15px #b8b2b6;
 }
 .blog1-img{
     position:absolute;

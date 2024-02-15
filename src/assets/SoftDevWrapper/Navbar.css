@@ -16,17 +16,17 @@
     object-fit: cover;
     background-repeat: no-repeat;
 }
-.logo{
+.software-nav-container .logo{
     margin-top: -40px;
     position:absolute;
     z-index: 3;
     background: url('https://i.ibb.co/PmL8cdY/image.png');
-    height: 100vh;
-    width: 50vw;
-    top: 10.2%;
-    left: 14%;
     cursor: pointer;
-    background-size: 20%;
+    height: 20vh; /* Adjust height as needed */
+    width: 20vw; /* Adjust width as needed */
+    background-size: 60%;
+    top: 8%;
+    left: 14%;
     background-repeat: no-repeat;
 }
 

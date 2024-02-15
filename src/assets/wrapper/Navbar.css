@@ -25,13 +25,13 @@
     margin-top: -4vh;
     z-index: 3;
     background: url('https://i.ibb.co/PmL8cdY/image.png');
-    height: 100vh; /* Adjust height as needed */
-    width: auto; /* Adjust width as needed */
     cursor: pointer;
-    top: -10%;
-    left: 10%;
     cursor: pointer;
-    background-size: 20%;
+    height: 20vh; /* Adjust height as needed */
+    width: 20vw; /* Adjust width as needed */
+    background-size: 60%;
+    top: 7%;
+    left: 14%;
     background-repeat: no-repeat;
 }
 

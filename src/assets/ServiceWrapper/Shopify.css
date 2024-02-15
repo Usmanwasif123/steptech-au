@@ -63,11 +63,12 @@
     font-weight: 500;
     line-height: 30px; 
     letter-spacing: -1px;
-    top: 68%;
-    left:12%;
-    padding: 30px 70px 0px 0px;
+    top: 70%;
+    left:49%;
+    padding: 30px 20px 0px 0px;
     color: #333;
     margin-right: 10px;
+    margin-left: 100px;
 }
 .service-left4{
     position:absolute;

@@ -17,17 +17,17 @@
     background-repeat: no-repeat;
     background-size: 100%;
 }
-.logo{
+.bitcoinblog-nav-container .logo{
     margin-top: -40px;
     position:absolute;
     z-index: 3;
     background: url('https://i.ibb.co/PmL8cdY/image.png');
-    height: 100vh;
-    width: 50vw;
-    top: 10.2%;
-    left: 14%;
     cursor: pointer;
-    background-size: 20%;
+    height: 20vh; /* Adjust height as needed */
+    width: 20vw; /* Adjust width as needed */
+    background-size: 60%;
+    top: 8%;
+    left: 14%;
     background-repeat: no-repeat;
 }
 
@@ -66,28 +66,208 @@
 .nav-items .blog{
     left: 68%;
 }
+.dropdown {
+    position: relative;
+    cursor: pointer;
+}
+.dropdown-content {
+    background: #fff;
+    height: 600px;
+    width: 300px;
+    position: absolute;
+    z-index: 5;
+    border-radius: 2px;
+    margin-top: 85px;
+    margin-left: 20px;
+    
+}
 
-.quote-btn{
+.dropdown-content li{
+    list-style: none;
+}
+
+.dropdown-content .nav-service1{
+    position: absolute;
+    z-index: 3;
+    color: #333;
+    top: 5%;
+    left: 5%;
+    font-size: 18px;
+    font-family: Poppins, sans-serif;
+    font-weight: 500p;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.dropdown-content .nav-service2{
+    position: absolute;
+    z-index: 3;
+    color: #333;
+    top: 12%;
+    left: 5%;
+    font-size: 18px;
+    font-family: Poppins, sans-serif;
+    font-weight: 500p;
+    text-transform: capitalize;
+    cursor: pointer;
+    
+}
+
+.dropdown-content .nav-service3{
+    position: absolute;
+    z-index: 3;
+    color: #333;
+    top: 20%;
+    left: 5%;
+    font-size: 18px;
+    font-family: Poppins, sans-serif;
+    font-weight: 500p;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+.dropdown-content .nav-service4{
+    position: absolute;
+    z-index: 3;
+    color: #333;
+    top: 26%;
+    left: 5%;
+    font-size: 18px;
+    font-family: Poppins, sans-serif;
+    font-weight: 500p;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.dropdown-content .nav-service5{
+    position: absolute;
+    z-index: 3;
+    color: #333;
+    top: 33%;
+    left: 5%;
+    font-size: 18px;
+    font-family: Poppins, sans-serif;
+    font-weight: 500p;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.dropdown-content .nav-service6{
+    position: absolute;
+    z-index: 3;
+    color: #333;
+    top: 40%;
+    left: 5%;
+    font-size: 18px;
+    font-family: Poppins, sans-serif;
+    font-weight: 500p;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.dropdown-content .nav-service7{
+    position: absolute;
+    z-index: 3;
+    color: #333;
+    top: 47%;
+    left: 5%;
+    font-size: 18px;
+    font-family: Poppins, sans-serif;
+    font-weight: 500p;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.dropdown-content .nav-service8{
+    position: absolute;
+    z-index: 3;
+    color: #333;
+    top: 54%;
+    left: 5%;
+    font-size: 18px;
+    font-family: Poppins, sans-serif;
+    font-weight: 500p;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.dropdown-content .nav-service9{
+    position: absolute;
+    z-index: 3;
+    color: #333;
+    top: 61%;
+    left: 5%;
+    font-size: 18px;
+    font-family: Poppins, sans-serif;
+    font-weight: 500p;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.dropdown-content .nav-service10{
+    position: absolute;
+    z-index: 3;
+    color: #333;
+    top: 68%;
+    left: 5%;
+    font-size: 18px;
+    font-family: Poppins, sans-serif;
+    font-weight: 500p;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.dropdown-content .nav-service11{
+    position: absolute;
+    z-index: 3;
+    color: #333;
+    top: 75%;
+    left: 5%;
+    font-size: 18px;
+    font-family: Poppins, sans-serif;
+    font-weight: 500p;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.dropdown-content .nav-service12{
+    position: absolute;
+    z-index: 3;
+    color: #333;
+    top: 82%;
+    left: 5%;
+    font-size: 18px;
+    font-family: Poppins, sans-serif;
+    font-weight: 500p;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.dropdown-content .nav-service13{
+    position: absolute;
+    z-index: 3;
+    color: #333;
+    top: 89%;
+    left: 5%;
+    font-size: 18px;
+    font-family: Poppins, sans-serif;
+    font-weight: 500p;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+.call-btn{
     display: flex;
     align-items: center;
     justify-content: center;
     text-transform: capitalize;
     text-decoration: none;
-    font-size: 14px;
-    padding: 10px 25px 10px 25px;
+    font-size: 17px;
+    font-weight: 600;
+    padding: 15px 26px;
     position: absolute;
-    border-radius: 60px;
+    border-radius: 20px;
+    border: none;
     cursor: pointer;
-    color: #fff;
+    color: #233f81;
     z-index: 1;
-    outline: 1px solid #fff;
-    background: transparent;
-    top: 8%;
+    background: #fff;
+    top: 6%;
     left: 78%;
 }
 
-.banner-line{
-    top: 20%;
+.bitcoinblog-nav-container .banner-line{
+    top: 22%;
     left: 9%;
     position: absolute;
     z-index: 1;

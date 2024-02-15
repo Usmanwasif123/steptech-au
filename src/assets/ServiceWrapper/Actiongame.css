@@ -63,11 +63,12 @@
     font-weight: 500;
     line-height: 30px; 
     letter-spacing: -1px;
-    top: 70%;
-    left:8%;
+    top: 72%;
+    left:45%;
     padding: 30px 20px 0px 0px;
     color: #333;
     margin-right: 10px;
+    margin-left: 100px;
 }
 .service-left2{
     position:absolute;

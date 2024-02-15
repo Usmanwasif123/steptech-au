@@ -64,10 +64,11 @@
     line-height: 30px; 
     letter-spacing: -1px;
     top: 64%;
-    left:8%;
+    left:45%;
     padding: 30px 20px 0px 0px;
     color: #fff;
     margin-right: 10px;
+    margin-left: 100px;
 }
 .service-left5{
     position:absolute;
