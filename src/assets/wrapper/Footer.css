@@ -29,7 +29,7 @@
     cursor: pointer;
     background-size: 20%;
     cursor: pointer;
-    background-size: 30%;
+    background-size: 50%;
     background-repeat: no-repeat;
 }
 
@@ -132,6 +132,10 @@
     list-style: none;
     text-transform: capitalize;
     color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 .contact-foolinks li a{
     color: #fff;
@@ -144,6 +148,11 @@
     position: absolute;
     left: -3%;
     margin-top: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
 }
 
 .copyright{
@@ -170,18 +179,43 @@
         margin: -18px 687px 0px -98px;
         font-size: 19px;
     }
+
+    .footer-container .footer-logo{
+        background-size: 60%;
+    }
     .footer-container .quick-links  h1{
         font-size: 22px;
     }
     .footer-container .quick-foolinks li{
         font-size: 14px;
-        padding-top: 3px;
+        padding-top: 6px;
+        margin-top: 8px;
     }
     .footer-container .service-links h1{
-        font-size: 22px;
+        font-size: 20px;
+        
     }
     .footer-container .service-foolinks li{
         font-size: 15px;
-        margin-left: 5px;
+        margin-left: 0px;
+        padding-top: 2px;
+    }
+    .footer-container .service-links2 h1{
+        font-size: 20px;
+        margin-left: 20px;
+    }
+    .footer-container .service-foolinks2 li{
+        font-size: 15px;
+        margin-left: 5px; 
+        padding-top: 2px;
+    }
+
+    .footer-container .contact-link h1{
+        font-size: 20px;
+    }
+    .footer-container .contact-foolinks li{
+        font-size: 15px;
+        margin-left: 5px; 
+        padding-top: 2px;
     }
 }

@@ -137,10 +137,9 @@
       .partner-grid1{
         position: absolute;
         z-index: 2;
-        left: 4%;
-        
-    }
+        left: 2%;
 
+    }
     .partner-item1 img{
         position: absolute;
         z-index: 2;
@@ -148,7 +147,7 @@
         background-repeat: no-repeat;
         left: 15%;
         top: 5%;
-        height: 10rem;
+        height: 8rem;
     }
     .partner-grid2{
         position: absolute;

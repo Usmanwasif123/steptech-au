@@ -428,11 +428,11 @@
         width: 97.8vw;
 
     }
-    .logo{
+    .nav-container .logo{
         height: 100vh;
         width: 50vw;
-        top: 7%;
-        background-size: 30%;
+        top: 5%;
+        background-size: 40%;
     }
     .nav-items{
      display: none;

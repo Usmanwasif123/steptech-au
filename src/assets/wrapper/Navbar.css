@@ -13,9 +13,6 @@
   flex-wrap: wrap;
 }
 .nav-container img{
-    display: flex; /* Apply Flexbox properties */
-    justify-content: center; /* Center horizontally */
-    align-items: center;
     max-height: 100%;
     max-width: 100%;
     object-fit: cover;
@@ -33,6 +30,9 @@
     top: 7%;
     left: 14%;
     background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .nav-items{
@@ -67,6 +67,8 @@
     border-radius: 2px;
     margin-top: 8.5vh;
     margin-left: 2vw;
+    display: flex;
+    flex-direction: column;
     
 }
 
@@ -270,6 +272,9 @@
     margin-left: -120px;
     padding: 0px 673px 1px;
     margin-top: -10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .banner-span{
@@ -391,9 +396,6 @@
 .btn-start:hover{ 
     background: linear-gradient(200deg, #47277f 29.100%, #101b37 93.15%);
 }
-
-
-
 .visible-div{
     background: #47267F;
     height: 600px;
@@ -707,10 +709,7 @@
     
     .btn-start:hover{ 
         background: linear-gradient(200deg, #47277f 29.100%, #101b37 93.15%);
-    }
-    
-    
-    
+    }   
     .visible-div{
         background: #47267F;
         height: 600px;
@@ -842,8 +841,6 @@
         border: 1px solid #212457;
         background: #212457;
         color: #fff;
-    
-    
     }
     
     .visible-contact-form .btn-close{
@@ -867,13 +864,13 @@
     .nav-container img{
         height:  100vh;
         width: 97.8vw;
-
     }
+
     .nav-container .logo{
         height: 100vh;
         width: 50vw;
-        top: 7%;
-        background-size: 30%;
+        top: 5%;
+        background-size: 40%;
     }
     .nav-items{
      display: none;

@@ -5,10 +5,15 @@
 }
 
 .graph-nav-container{
-    height: 140vh;
+    height: 130vh;
     width: 98.7vw;
     position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
 }
+
 .graph-nav-container img{
     position: relative;
     height:  125vh;
@@ -494,7 +499,7 @@
 }
 
 @media only screen and (max-width: 1024px) {
-    .logo{
+    .graph-nav-container .logo{
         height: 100vh;
         width: 50vw;
         top: 11%;
@@ -513,23 +518,26 @@
         top: 75%;
         left: 23%;
     }
-    .banner-line{
+    .graph-banner-line{
         margin-left: -91px;
         padding-right: 339px;
     }
 }
 
 @media only screen and (max-width: 768px) {
+    .graph-nav-container{
+        width: 98.7vw;
+    }
     .nav-container img{
         height:  100vh;
         width: 97.8vw;
 
     }
-    .logo{
+    .graph-nav-container .logo{
         height: 100vh;
         width: 50vw;
-        top: 7%;
-        background-size: 30%;
+        top: 5%;
+        background-size: 40%;
     }
     .nav-items{
      display: none;
@@ -546,8 +554,8 @@
         position: absolute;
         z-index: 2;
     }
-    .banner-line{
-        margin-top: -30px;
+    .graph-nav-container .graph-banner-line{
+        margin-top: -35px;
         margin-left: -100px;
         padding-right: 109px;
     }
@@ -593,6 +601,12 @@
     .btn-read{
         left: 10%;
         top: 86%;
+    }
+
+    .graph-heading h1{
+        font-size: 30px;
+        margin: 0px 200px 0px -20px;
+        padding: 0px 50px 0px 5px;
     }
 }
 @media only screen and (max-width: 480px) {

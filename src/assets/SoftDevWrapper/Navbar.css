@@ -528,11 +528,11 @@
         width: 97.8vw;
 
     }
-    .logo{
+    .software-nav-container  .logo{
         height: 100vh;
         width: 50vw;
         top: 7%;
-        background-size: 30%;
+        background-size: 60%;
     }
     .nav-items{
      display: none;

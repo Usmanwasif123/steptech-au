@@ -23,7 +23,7 @@ const Partner = () => {
   };
   const mediaQueryStyles = {
     '@media (max-width: 1024px)': {
-      maxHeight: isOpen ? '350vh' : '120vh', // Adjust the values as needed
+      maxHeight: isOpen ? '370vh' : '190vh', // Adjust the values as needed
     }
   };
   const mergedStyles = { ...containerStyles, ...mediaQueryStyles };
@@ -35,6 +35,12 @@ const Partner = () => {
   const btnStyles={
     top: isOpen ? '95%' : '90%'
   }
+  const btnmediaQueryStyles = {
+    '@media (max-width: 1024px)': {
+      top: isOpen ? '95%' : '90%', // Adjust the values as needed
+    }
+  };
+  const btnmergedStyles= {...btnStyles, ...btnmediaQueryStyles}
     
   const headingStyle={
     top: isOpen ? '20%' : '35%'
@@ -46,33 +52,39 @@ const Partner = () => {
         position: 'absolute',
         height: '40px',
         width: '70px',
-        left: '2%',
+        marginLeft: '-40px',
+
+        // Media queries for responsiveness
+    '@media (max-width: 1024px)': {
+      width: '40px', // Adjust width for smaller screens
+      marginLeft: '-50px',
+  },
     }));
 
   return (
     <div className={`partner-container ${isOpen ? 'open' : ''}`} style={mergedStyles}>
       <Grid container spacing={5}>
-        <Grid item xs={6} md={4} className='partner-grid1'>
+        <Grid item xs={12} sm={6} md={4} lg={3} xl={2} className='partner-grid1'>
         <Item className='partner-item1'>
             <img src='https://i.ibb.co/hgkfw35/image1.png' alt='campaign'/>
         </Item>
         </Grid>
-        <Grid item xs={6} md={4} className='partner-grid2'>
+        <Grid item xs={12} sm={6} md={4} lg={3} xl={2} className='partner-grid2'>
         <Item className='partner-item2'>
             <img src='https://i.ibb.co/VYjTnMp/Adobe-Solution-Partner-Program.png' alt='campaign'/>
         </Item>
         </Grid>
-        <Grid item xs={6} md={4} className='partner-grid3'>
+        <Grid item xs={12} sm={6} md={4} lg={3} xl={2} className='partner-grid3'>
         <Item className='partner-item3'>
             <img src='https://i.ibb.co/h7HDHLC/image.png' alt='campaign'/>
         </Item>
         </Grid>
-        <Grid item xs={6} md={4} className='partner-grid4'>
+        <Grid item xs={12} sm={6} md={4} lg={3} xl={2} className='partner-grid4'>
         <Item className='partner-item4'>
             <img src='https://i.ibb.co/f9V59K5/image.png' alt='campaign'/>
         </Item>
         </Grid>
-        <Grid item xs={6} md={4} className='partner-grid5'>
+        <Grid item xs={12} sm={6} md={4} lg={3} xl={2} className='partner-grid5'>
         <Item className='partner-item5'>
             <img src='https://i.ibb.co/LpwJXkm/image.png' alt='campaign'/>
         </Item>
@@ -119,7 +131,7 @@ const Partner = () => {
             can expect us to have an exhaustive understanding of your needs, industry regulations, and requirements. So 
             partner with us right now and give your business new heights with our expertise!! 
         </p>
-        <button style={btnStyles} className={`read-btn`} onClick={()=> setIsOpen(!isOpen)}>{isOpen ? 'read less': 'read more'}</button>
+        <button style={btnmergedStyles} className={`read-btn`} onClick={()=> setIsOpen(!isOpen)}>{isOpen ? 'read less': 'read more'}</button>
     </div>
   )
 }

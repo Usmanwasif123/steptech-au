@@ -55,6 +55,9 @@
 
 }
 @media only screen and (max-width: 1024px) {
+    .client-container{
+        margin-top: -2px;
+    }
     .client-container h1{
         font-size: 35px;
         margin-left: 400px;

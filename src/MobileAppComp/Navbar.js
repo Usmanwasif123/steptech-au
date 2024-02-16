@@ -55,7 +55,7 @@ const Navbar = () => {
 
   const [isSidebarOpen, setSidebarOpen] = useState(false);
   const [isVisible, setIsVisible] = useState(false);
-  const [isDropdownOpen, setDropdownOpen] = useState(false);
+  const [isDropdownOpen, setDropdownOpen] = useState(true);
   const dropdownRef = useRef(null);
   const [closeTimeout, setCloseTimeout] = useState(null);
 
@@ -109,11 +109,11 @@ const Navbar = () => {
         <ul className='nav-items'>
         <li><Link to='/'>home</Link></li>
             <li><Link to='/about-us' className='about'>about us</Link></li>
-            <li className='dropdown' onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
+            <li className='dropdown'  onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
            <KeyboardArrowDownOutlined style={{position:'absolute', zIndex: 1, fontSize: '25px', top: '77px', left: '76.4px', color: "#fff"}}/>
             <Link to='/service' className='service' style={{marginTop: '15px'}}>services</Link>
             {isDropdownOpen && 
-            <div className='dropdown-content' ref={dropdownRef} onMouseEnter={handleDropdownMouseEnter} onMouseLeave={handleDropdownMouseLeave}>
+            <div className='dropdown-content' style={{marginTop: '100px'}} ref={dropdownRef} onMouseEnter={handleDropdownMouseEnter} onMouseLeave={handleDropdownMouseLeave}>
              <li><Link to='/web-design-and-development' className='nav-service1'>web design & development</Link></li>
              <li><Link to='/app-development' className='nav-service2'>Mobile UI/UX Design & development</Link></li>
              <li><Link to='/game-design-and-development' className='nav-service3'>game design and development</Link></li>
