@@ -4,42 +4,42 @@
 }
 
 .service-container{
-    height: 180vh;
-    height: 120vh;
+    height: 150vh;
     width: 98.7vw;
     background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: relative;
 }
 
 .service-container img{
-    position: relative;
-    height: 120vh;
+    height: 130vh;
     width: 98.7vw;
-    margin-top: -41px;
+    margin-top: -2.563rem;
+    position: relative;
 }
 
 .service-heading1{
     position: absolute;
     z-index: 2;
-    left: 45%;
-    top: 12%;
-    top: 20%;
+    left: 10%;
+    top: 17rem;
     background: linear-gradient(255deg, #7554C1 29.51%, #243F82 93.15%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-family: Poppins, sans-serif;
-    font-size: 22px;
+    font-family: Frank Ruhl Libre,serif;
+    font-size: 25px;
     font-style: normal;
     font-weight: 400;
-    line-height: 92.5px; /* 420.455% */
-    letter-spacing: -1px;
+    line-height: 5.781rem; /* 420.455% */
+    letter-spacing:-0.063rem;
 }
 
 #line1-service{
-    top: 18%;
-    top: 30%;
-    left: 44.6%;
+    left: 18%;
+    top: 38%;
     position: absolute;
     z-index: 1;
     border-radius: 2px 2px 2px 2px;
@@ -47,9 +47,8 @@
     padding: 0px 50px 4px 20px;
 }
 #line2-service{
-    top: 18%;
-    top: 30%;
-    left: 50%;
+    left: 23.5%;
+    top: 38%;
     position: absolute;
     z-index: 1;
     border-radius: 2px 2px 2px 2px;
@@ -57,9 +56,8 @@
     padding: 0px 8px 4px 5px;
 }
 #line3-service{
-    top:18%;
-    top:30%;
-    left: 51.2%;
+    left: 24.7%;
+    top: 38%;
     position: absolute;
     z-index: 1;
     border-radius: 2px 2px 2px 2px;
@@ -68,747 +66,134 @@
 }
 
 .service-heading2{
-    position: absolute;
     z-index: 1;
     color: #464646;
-    font-family: Poppins, sans-serif;
-    font-size: 49px;
+    font-family: Frank Ruhl Libre,serif;
+    font-size: 70px;
     font-style: normal;
     font-weight: 700;
     line-height: 48.5px; 
     letter-spacing: -1px;
-    top: 35%;
-    left: 39%;
+    left: 10%;
+    top: 40%;
+    margin-right: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
 }
 .service-p{
     position: absolute;
     z-index: 1;
     color: #616163;
     text-align: center;
-    font-family: Poppins, sans-serif;
-    font-size: 15.21px;
+    font-family: Lato,sans-serif;
+    font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: 20px; /* 131.492% */
     letter-spacing: -0.331px;
-    top: 30%;
-    top: 45%;
-    left: 25%;
-    padding: 0px 300px 0px 0px ;
+    top: 50%;
+    padding-right: 750px;
+    margin-left: 135px;
 }
 
-.service-carousel{
-    position: absolute;
-    z-index: 2;
-    box-sizing: border-box;
-    padding: 5rem;
-    height: 80vh;
-    width: 98.7vw;
-    margin-top: -300px;
-}
-
-.card1{
-    background: #F4F6FF;
-    height: 340px !important;
-    border-radius: 20px;
-    border: 2px solid #E3E4F6;
-    width:90% !important;
-    margin-top: 140px !important;
-   
-}
-
-.card2{
-    background: #F4F6FF;
-    height: 340px !important;
-    border-radius: 20px;
-    border: 2px solid #E3E4F6;
-    width:90% !important;
-    margin-top: 140px !important;
-}
-.card3{
-    background: #F4F6FF;
-    height: 340px !important;
-    border-radius: 20px;
-    border: 2px solid #E3E4F6;
-    width:90% !important;
-    margin-top: 140px !important;
-}
-.card4{
-    background: #F4F6FF;
-    height: 340px !important;
-    border-radius: 20px;
-    border: 2px solid #E3E4F6;
-    width:90% !important;
-    margin-top: 140px !important;
-}
-.card5{
-    background: #F4F6FF;
-    height: 340px !important;
-    border-radius: 20px;
-    border: 2px solid #E3E4F6;
-    width:90% !important;
-    margin-top: 140px !important;
-}
-.card6{
-    background: #F4F6FF;
-    height: 340px !important;
-    border-radius: 20px;
-    border: 2px solid #E3E4F6;
-    width:90% !important;
-    margin-top: 140px !important;
-}
-.card7{
-    background: #F4F6FF;
-    height: 340px !important;
-    border-radius: 20px;
-    border: 2px solid #E3E4F6;
-    width:90% !important;
-    margin-top: 140px !important;
-}
-.card8{
-    background: #F4F6FF;
-    height: 340px !important;
-    border-radius: 20px;
-    border: 2px solid #E3E4F6;
-    width:90% !important;
-    margin-top: 140px !important;
-}
-.card9{
-    background: #F4F6FF;
-    height: 340px !important;
-    border-radius: 20px;
-    border: 2px solid #E3E4F6;
-    width:90% !important;
-    margin-top: 140px !important;
-}
-.card10{
-    background: #F4F6FF;
-    height: 340px !important;
-    border-radius: 20px;
-    border: 2px solid #E3E4F6;
-    width:90% !important;
-    margin-top: 140px !important;
-}
-.card11{
-    background: #F4F6FF;
-    height: 340px !important;
-    border-radius: 20px;
-    border: 2px solid #E3E4F6;
-    width:90% !important;
-    margin-top: 140px !important;
-}
-.card12{
-    background: #F4F6FF;
-    height: 340px !important;
-    border-radius: 20px;
-    border: 2px solid #E3E4F6;
-    width:90% !important;
-    margin-top: 140px !important;
-}
-.card13{
-    background: #F4F6FF;
-    height: 340px !important;
-    border-radius: 20px;
-    border: 2px solid #E3E4F6;
-    width:90% !important;
-    margin-top: 140px !important;
-}
-.card1 .circle1{
-    position: absolute;
-    z-index: 3;
-    height: 100px;
-    width: 100px;
-    top: 13%;
-    left: 32%;
-    -webkit-filter: brightness(100%);
-    background-size: 100%;
-    background-repeat: none;
-    background-size: contain;
-}
-.card2 .circle2{
-    position: absolute;
-    z-index: 3;
-    height: 100px;
-    width: 100px;
-    top: 13%;
-    left: 32%;
-    -webkit-filter: brightness(100%);
-    background-size: 100%;
-    background-repeat: none;
-    background-size: contain;
-}
-.card3 .circle3{
-    position: absolute;
-    z-index: 3;
-    height: 100px;
-    width: 100px;
-    top: 13%;
-    left: 32%;
-    -webkit-filter: brightness(100%);
-    background-size: 100%;
-    background-repeat: none;
-    background-size: contain;
-}
-.card4 .circle4{
-    position: absolute;
-    z-index: 3;
-    height: 100px;
-    width: 100px;
-    top: 13%;
-    left: 33%;
-    -webkit-filter: brightness(100%);
-    background-size: 100%;
-    background-repeat: none;
-    background-size: contain;
-}
-.card5 .circle5{
-    position: absolute;
-    z-index: 3;
-    height: 100px;
-    width: 100px;
-    top: 13%;
-    left: 38.2%;
-    -webkit-filter: brightness(100%);
-    background-size: 100%;
-    background-repeat: none;
-    background-size: contain;
-}
-.card6 .circle6{
-    position: absolute;
-    z-index: 3;
-    height: 100px;
-    width: 100px;
-    top: 13%;
-    left: 32%;
-    -webkit-filter: brightness(100%);
-    background-size: 100%;
-    background-repeat: none;
-    background-size: contain;
-}
-.card7 .circle7{
-    position: absolute;
-    z-index: 3;
-    height: 100px;
-    width: 100px;
-    top: 13%;
-    left: 32%;
-    -webkit-filter: brightness(100%);
-    background-size: 100%;
-    background-repeat: none;
-    background-size: contain;
-}
-.card8 .circle8{
-    position: absolute;
-    z-index: 3;
-    height: 100px;
-    width: 100px;
-    top: 13%;
-    left: 32%;
-    -webkit-filter: brightness(100%);
-    background-size: 100%;
-    background-repeat: none;
-    background-size: contain;
-}
-.card9 .circle9{
-    position: absolute;
-    z-index: 3;
-    height: 100px;
-    width: 100px;
-    top: 13%;
-    left: 32%;
-    -webkit-filter: brightness(100%);
-    background-size: 100%;
-    background-repeat: none;
-    background-size: contain;
-}
-.card10 .circle10{
-    position: absolute;
-    z-index: 3;
-    height: 100px;
-    width: 100px;
-    top: 13%;
-    left: 32%;
-    -webkit-filter: brightness(100%);
-    background-size: 100%;
-    background-repeat: none;
-    background-size: contain;
-}
-.card11 .circle11{
-    position: absolute;
-    z-index: 3;
-    height: 100px;
-    width: 100px;
-    top: 13%;
-    left: 32%;
-    -webkit-filter: brightness(100%);
-    background-size: 100%;
-    background-repeat: none;
-    background-size: contain;
-}
-.card12 .circle12{
-    position: absolute;
-    z-index: 3;
-    height: 100px;
-    width: 100px;
-    top: 13%;
-    left: 32%;
-    -webkit-filter: brightness(100%);
-    background-size: 100%;
-    background-repeat: none;
-    background-size: contain;
-}
-.card13 .circle13{
-    position: absolute;
-    z-index: 3;
-    height: 100px;
-    width: 100px;
-    top: 13%;
-    left: 32%;
-    -webkit-filter: brightness(100%);
-    background-size: 100%;
-    background-repeat: none;
-    background-size: contain;
-}
-.card1 .ai{
-    position:absolute;
-    z-index: 3;
-    height: 100px;
-    width: 100px;
-    top: 20%;
-    left: 40%;
-}
-.card2 .ai{
-    position:absolute;
-    z-index: 3;
-    height: 100px;
-    width: 100px;
-    top: 20%;
-    left: 40%;
-}
-.card3 .ai{
-    position:absolute;
-    z-index: 3;
-    height: 100px;
-    width: 100px;
-    top: 20%;
-    left: 40%;
-}
-.card4 .ai{
-    position:absolute;
-    z-index: 3;
-    height: 100px;
-    width: 100px;
-    top: 20%;
-    left: 40%;
-}
-.card5 .ai{
-    position:absolute;
-    z-index: 3;
-    height: 100px;
-    width: 100px;
-    top: 20%;
-    left: 40%;
-}
-.card6 .ai{
-    position:absolute;
-    z-index: 3;
-    height: 100px;
-    width: 100px;
-    top: 20%;
-    left: 40%;
-}
-.card7 .ai{
-    position:absolute;
-    z-index: 3;
-    height: 100px;
-    width: 100px;
-    top: 20%;
-    left: 40%;
-}
-.card8 .ai{
-    position:absolute;
-    z-index: 3;
-    height: 100px;
-    width: 100px;
-    top: 20%;
-    left: 40%;
-}
-.card9 .ai{
-    position:absolute;
-    z-index: 3;
-    height: 100px;
-    width: 100px;
-    top: 20%;
-    left: 40%;
-}
-
-.card10 .ai{
-    position:absolute;
-    z-index: 3;
-    height: 100px;
-    width: 100px;
-    top: 20%;
-    left: 40%;
-}
-.card11 .ai{
-    position:absolute;
-    z-index: 3;
-    height: 100px;
-    width: 100px;
-    top: 20%;
-    left: 40%;
-}
-.card12 .ai{
-    position:absolute;
-    z-index: 3;
-    height: 100px;
-    width: 100px;
-    top: 20%;
-    left: 40%;
-}
-.card13 .ai{
-    position:absolute;
-    z-index: 3;
-    height: 100px;
-    width: 100px;
-    top: 20%;
-    left: 40%;
-}
-.ai:hover{
-    box-shadow:
-1px 1px #8298ff,
-2px 2px #8298ff,
-3px 3px #8298ff,
-4px 4px #8298ff,
-5px 5px #8298ff,
-6px 6px #8298ff;
--webkit-transform: translateX(-3px);
-transform: translateX(-3px);
-transition: .5s ease;
--webkit-filter: brightness(50%);
--webkit-transition: all 0.5s ease;
--moz-transition: all 0.5s ease;
--o-transition: all 0.5s ease;
--ms-transition: all 0.5s ease;
-transition: all 0.5s ease;
-}
-
-.card1 .h1-f{
-    position: absolute;
-    margin-top: 135px;
-    margin-left: 50px ;
-    color: #333;
-    font-size: 22px;
-}
-.card1 .p1-f{
-   position: absolute;
-   z-index: 2;
-   margin: 170px 30px 0px 15px;
-   color: #616163;
-   text-align: center;
-   font-family: Poppins, sans-serif;
-   font-size: 15.6px;
-   font-style: normal;
-   font-weight: 400;
-   line-height: 20px; /* 131.492% */
-   letter-spacing: -0.331px;
-}
-.card2 .h2-g{
-    position: absolute;
-    margin-top: 135px ;
-    margin-left: 32px;
-    color: #333;
-    font-size: 22px;
-}
-.card2 .p2-g{
-   position: absolute;
-   z-index: 2;
-   margin: 170px 30px 0px 15px;
-   color: #616163;
-   text-align: center;
-   font-family: Poppins, sans-serif;
-   font-size: 15.6px;
-   font-style: normal;
-   font-weight: 400;
-   line-height: 20px; /* 131.492% */
-   letter-spacing: -0.331px;
-}
-
-.card3 .h3-w{
-    position: absolute;
-    margin-top: 135px;
-    margin-left: 50px;
-    color: #333;
-    font-size: 22px;
-}
-.card3 .p3-w{
-    position: absolute;
-    z-index: 2;
-    margin: 170px 30px 0px 15px;
-    color: #616163;
-    text-align: center;
-    font-family: Poppins, sans-serif;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 20px; /* 131.492% */
-    letter-spacing: -0.331px;
-}
-
-.card4 .h4-a{
-    position: absolute;
-    margin-top: 150px !important;
-    margin-left: 40px !important;
-    color: #333;
-    font-size: 22px;
-}
-.card4 .p4-a{
-    position: absolute;
-    z-index: 2;
-    margin: 200px 30px 0px 15px !important;
-    color: #616163;
-    text-align: center;
-    font-family: Poppins, sans-serif;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 20px; /* 131.492% */
-    letter-spacing: -0.331px;
-}
-
-.card5 .h5-b{
-    position: absolute;
-    margin-top: 150px !important;
-    margin-left: 22px !important;
-    color: #333;
-    font-size: 22px;
-}
-.card5 .p5-b{
-    position: absolute;
-    z-index: 2;
-    margin: 200px 30px 0px 15px !important;
-    color: #616163;
-    text-align: center;
-    font-family: Poppins, sans-serif;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 20px; /* 131.492% */
-    letter-spacing: -0.331px;
-}
-
-.card6 .h6-c{
-    position: absolute;
-    margin-top: 150px !important;
-    margin-left: 22px !important;
-    color: #333;
-    font-size: 22px;
-}
-.card6 .p6-c{
-    position: absolute;
-    z-index: 2;
-    margin: 200px 30px 0px 15px !important;
-    color: #616163;
-    text-align: center;
-    font-family: Poppins, sans-serif;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 20px; /* 131.492% */
-    letter-spacing: -0.331px;
-}
-.card7 .h7-d{
-    position: absolute;
-    margin-top: 150px !important;
-    margin-left: 70px !important;
-    color: #333;
-    font-size: 22px;
-}
-.card7 .p7-d{
-    position: absolute;
-    z-index: 2;
-    margin: 200px 30px 0px 15px !important;
-    color: #616163;
-    text-align: center;
-    font-family: Poppins, sans-serif;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 20px; /* 131.492% */
-    letter-spacing: -0.331px;
-}
-
-.card8 .h8-e{
-    position: absolute;
-    margin-top: 150px !important;
-    margin-left: 90px !important;
-    color: #333;
-    font-size: 22px;
-}
-.card8 .p8-e{
-    position: absolute;
-    z-index: 2;
-    margin: 200px 30px 0px 15px !important;
-    color: #616163;
-    text-align: center;
-    font-family: Poppins, sans-serif;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 20px; /* 131.492% */
-    letter-spacing: -0.331px;
-}
-.card9 .h9-e{
-    position: absolute;
-    margin-top: 150px !important;
-    margin-left: 12px !important;
-    color: #333;
-    font-size: 22px;
-}
-.card9 .p9-e{
-    position: absolute;
-    z-index: 2;
-    margin: 200px 30px 0px 15px !important;
-    color: #616163;
-    text-align: center;
-    font-family: Poppins, sans-serif;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 20px; /* 131.492% */
-    letter-spacing: -0.331px;
-}
-
-.card10 .h10-e{
-    position: absolute;
-    margin-top: 150px !important;
-    margin-left: 80px !important;
-    color: #333;
-    font-size: 22px;
-}
-.card10 .p10-e{
-    position: absolute;
-    z-index: 2;
-    margin: 200px 30px 0px 15px !important;
-    color: #616163;
-    text-align: center;
-    font-family: Poppins, sans-serif;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 20px; /* 131.492% */
-    letter-spacing: -0.331px;
-}
-.card11 .h11-e{
-    position: absolute;
-    margin-top: 150px !important;
-    margin-left: 30px !important;
-    color: #333;
-    font-size: 22px;
-}
-.card11 .p11-e{
-    position: absolute;
-    z-index: 2;
-    margin: 200px 30px 0px 15px !important;
-    color: #616163;
-    text-align: center;
-    font-family: Poppins, sans-serif;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 20px; /* 131.492% */
-    letter-spacing: -0.331px;
-}
-.card12 .h12-e{
-    position: absolute;
-    margin-top: 150px !important;
-    margin-left: 150px !important;
-    color: #333;
-    font-size: 22px;
-}
-.card12 .p12-e{
-    position: absolute;
-    z-index: 2;
-    margin: 200px 30px 0px 15px !important;
-    color: #616163;
-    text-align: center;
-    font-family: Poppins, sans-serif;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 20px; /* 131.492% */
-    letter-spacing: -0.331px;
-}
-.card13 .h13-e{
-    position: absolute;
-    margin-top: 150px !important;
-    margin-left: 50px !important;
-    color: #333;
-    font-size: 22px;
-}
-.card13 .p13-e{
-    position: absolute;
-    z-index: 2;
-    margin: 200px 30px 0px 15px !important;
-    color: #616163;
-    text-align: center;
-    font-family: Poppins, sans-serif;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 20px; /* 131.492% */
-    letter-spacing: -0.331px;
-}
-
-.service-carousel .slick-slider {
-    width: 1200px !important;
-}
-
-.service-carousel .slick-slide div{
-    margin: -140px 1px 0 0;
-    width: 370px;
-    height: 500px;
-    position: relative;
-    z-index: 3;
-  
-}
-
-.service-carousel .slick-dots li.slick-active button:before {
-    color: #3C4B90 !important;
-    
-}
-.service-carousel .slick-dots li button:before {
-    color: #DDE3FF;
-    font-size: 1rem !important;
-    top: 1rem !important;
-}
-
-.service-carousel .slick-initialized .slick-slide {
+.service-button{
     display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 150px;
+    margin-top: 450px;
+    background: linear-gradient(255deg, #7554C1 29.51%, #243F82 93.15%);
+    left: 1%;
+    top: 150px;
+    position: absolute;
+    z-index: 1;
+    padding: 14px 10px;
+    border-radius: 10px;
+    font-size: 19px;
+    border: none;
+    color: #fff;
+    text-decoration: none;
 }
 
-.service-carousel .slick-prev {
-    left: 0px;
-    margin-left: -30px;
-    background-color:#434395 !important;
-    border-radius: 10px;
+.service-container .card{
+    background-color: #fff;
+    transition: background-color 0.3s ease;
+    transition: color 0.3s ease;
 }
-.service-carousel .slick-next{
-    right: 0px;
-    background-color: #434395 !important;
-    border-radius: 10px 10px 10px 10px;
+
+
+.service-container .card:hover{
+    background: url('file:///C:/Users/Lap%20Zone/Downloads/IoT%20Device%20Management.webp');
+    background-size:cover;
+    background-repeat: no-repeat;
 }
+
+.service-container .card-image{
+    height: 50px;
+    width: 50px;
+    margin-left: 20px;
+}
+.service-container .card-image::after {
+    content: ''; /* Required for pseudo-elements */
+    background-color: rgba(255, 255, 255, 0); /* Transparent white layer */
+    transition: background-color 0.3s ease; /* Smooth transition for better user experience */
+}
+
+.service-container .card:hover .card-image::after {
+    background-color: rgba(255, 255, 255, 0.5); /* Semi-transparent white layer on hover */
+}
+.service-container .card-heading{
+    font-size: 23px;
+    margin-left: 16px;
+    font-family: Frank Ruhl Libre,serif;
+    margin-top: 20px;
+
+}
+
+.service-container .card-para{
+    font-size: 15px;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-family: Lato,sans-serif;
+
+}
+
+.service-container .card-arrow{
+    font-size: 40px;
+    margin-left: 30px;
+    margin-top: 30px;
+    width: 50px;
+    height: auto;
+    transition: margin-left 0.3s ease;
+    color: linear-gradient(256deg, #6347AA 7.85%, #233F81 107.97%);
+}
+
+.service-container .card:hover .card-heading,
+.service-container .card:hover .card-para,  
+.service-container .card:hover .card-arrow{
+    color: #fff;
+}
+
+.service-container .card-arrow:hover{
+    margin-left: 50px;
+}
+
 
 .service-box{
         background: linear-gradient(256deg, #6347AA 7.85%, #233F81 107.97%);
         height: 20px;
         width: 75vw;
         border-radius: 35px;
-        margin-top: 240px;
+        margin-top: 600px;
         padding: 80px;
-        margin-left: 70px;
+        margin-left: -1250px;
         position: absolute;
         box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.7);
+        display: flex;
+
 }
 
 .service-phone{

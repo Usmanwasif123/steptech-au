@@ -1,84 +1,81 @@
 import React, {useState} from 'react';
 import '../assets/wrapper/Brand.css';
-import { Grid, styled, Paper } from '@mui/material';
-import { ShoppingCart, HeadsetMic, Cloud, 
-         Home, ConnectWithoutContact, SportsGymnastics,
-         SignalCellularAlt, LocalHospital, Flight, 
-         MonitorHeart, Celebration, PersonalVideo}
-     from '@mui/icons-material';
-import Slider from 'react-slick';
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+import { Link } from 'react-router-dom';
+import { Container, Row, Col } from 'react-bootstrap';
+
 
 const Brand = () => {
+  const [content, setContent] = useState({
+    heading: 'branding',
+    paragraph: 'We are conveying the best application improvement administrations for the medical care area since we are in the advanced world. We are planning applications going from telemedicine to applications created for patients and emergency clinics. Everything is conceivable with creatives like us.',
+    imageSrc: 'https://i.ibb.co/V33HHvz/image.png'
+});
+const handleLinkClick = (category) => {
+switch (category) {
+case 'branding':
+  setContent({
+    heading: 'branding',
+    paragraph: 'We are conveying the best application improvement administrations for the medical care area since we are in the advanced world. We are planning applications going from telemedicine to applications created for patients and emergency clinics. Everything is conceivable with creatives like us.',
+    imageSrc: 'https://i.ibb.co/V33HHvz/image.png'
+  });
+  break;
+case 'marketing':
+  setContent({
+    heading: 'marketing',
+    paragraph: 'Phones are adequately not to make you run your eatery. We can construct applications for your cafés with a super present day approach. Presently reserve a spot, take orders, help simple installments and draw in clients through your café application.',
+    imageSrc: 'https://i.ibb.co/jMhGnq4/image.png'
+  });
+  break;
+case 'blockchain':
+  setContent({
+    heading: 'blockchain',
+    paragraph: 'We fabricate educated Internet business applications for Web based business stores. We have done it before for our clients to make them arrive at the business’ recent fads. Watch out for your orders, stock, and client experience. Profit of the best Internet business applications up until this point.',
+    imageSrc: "https://i.ibb.co/NTGXBM4/image.png"
+  });
+  break;
+case 'artificialintelligence':
+  setContent({
+    heading: 'artificial intelligence',
+    paragraph: 'We additionally increase land areas and permit land vendors to impart quicker and share their property subtleties, portfolios, offers, and new plans with clients with our imaginative versatile application advancement administrations. Sell with intelligence.',
+    imageSrc: "https://i.ibb.co/RBs6LMm/image.png"
+  });
+  break;
+case 'blockchain':
+  setContent({
+    heading: 'blockchain',
+    paragraph: 'We plan instructive learning applications with inventive and enamoring energies, particularly for understudies. Increment information, altered learning courses of events, refreshed web-based instructive entrances, and simplicity of learning and correspondence with one of a kind elements.',
+    imageSrc: "https://i.ibb.co/7nPfy0t/image.png"
+  });
+}
+};
 
-  const[setting, setSetting] = useState({
-    dots: true,
-    infinite: false,
-    autoplay: true,
-    speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    initialSlide: 0,
-    responsive: [
-      {
-        breakpoint: 1920,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          infinite: false,
-          dots: true
-        }
-      },
-      {
-        breakpoint: 768,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          initialSlide: 2
-        }
-      },
-      {
-        breakpoint: 480,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1
-        }
-      },
-      {
-        breakpoint: 320,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1
-        }
-      }
-    ]
-      });
+
 
   return (
-    <div className='brand-container'>
-      <div className='brand-carousel'>
-          <Slider {...setting}>
-            <div>
-                <img src='https://i.ibb.co/y5VqCNL/image.png' alt='ai'/>
-            </div> 
-            <div>
-                <img src='https://i.ibb.co/x3HCdm5/image.png' alt='ai'/>
-            </div>
-          </Slider>
+    <Container  className='brand-container' style={{marginTop: '363px'}}>
+      <Row>
+      <Col xs={12} md={6}>
+      <div className='link-container' style={{marginTop: '200px'}}>
+      <Link className='link'   onClick={() => handleLinkClick('branding')}>branding</Link>
+      <Link className='link'  onClick={() => handleLinkClick('marketing')}>marketing</Link>
+      <Link className='link'  onClick={() => handleLinkClick('blockchain')}>blockchain</Link>
+      <Link className='link'  onClick={() => handleLinkClick('artificialintelligence')}>artificial intelligence</Link>
+      <Link className='link'  onClick={() => handleLinkClick('blockchain')}>ecommerce</Link>
       </div>
+      </Col>
+      </Row>
+      <Row>
+        <Col xs={12} md={6}>
         <h1 className='let-heading'>Explore More About Us</h1>
-        <div id='line1-brand'></div>
-        <div id='line2-brand'></div>
-        <div id='line3-brand'></div>
-        <h1 className='brand-heading'>What Makes Us Standout In the Crowd</h1>
-        <p className='brand-p'>Joining Step Tech means accepting an obligation to excellence rather than simply selecting a 
-        service. Our passion, creativity, and dedication to your success are what drive us. We are pioneers of digital 
-        accomplishments, not just creators. Our team of experts dedicates themselves to turning your concepts into 
-        significant reality since they have an obsession with cutting-edge technology.
-        </p>
-    </div>
+        <h1 className='brand-heading'>{content.heading}</h1>
+        <p className='brand-p'>{content.paragraph}</p>
+        <img className='brand-image'src={content.imageSrc} alt={content.heading} />
+        </Col>
+        </Row>
+      </Container>
   )
-}
+};
+
+
 
 export default Brand

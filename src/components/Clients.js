@@ -62,7 +62,7 @@ const Clients = () => {
                 <img src='https://i.ibb.co/WvR8mck/image.png' alt='ai'/>
             </div> 
             <div>
-                <img src='https://i.ibb.co/VxmvFKy/image.png' alt='ai'/>
+                <img src='https://imgtr.ee/images/2024/02/20/48c6f8ac1ebe36fdecd0762d23e5aff1.png' alt='ai'/>
             </div>
             <div>
                 <img src='https://i.ibb.co/HFc9GBq/image.png' alt='ai'/>
@@ -74,7 +74,7 @@ const Clients = () => {
                 <img src='https://i.ibb.co/jDp4WFv/image.png' alt='ai'/>
             </div> 
             <div>
-                <img src='https://i.ibb.co/3WWnwR5/image.png' alt='ai'/>
+                <img src='https://imgtr.ee/images/2024/02/20/1bb114b653de2e3dfa9678093d1a4cd6.png' alt='ai'/>
             </div>
             <div>
                 <img src='https://i.ibb.co/SB1P0ny/image.png' alt='ai'/>
@@ -89,7 +89,7 @@ const Clients = () => {
                 <img src='https://i.ibb.co/k1pq10H/image.png' alt='ai'/>
             </div> 
             <div>
-                <img src='https://i.ibb.co/61G4Wt9/image.png' alt='ai'/>
+                <img src='https://imgtr.ee/images/2024/02/20/9bd63f594cc6b41fbc634f6b4134f889.png' alt='ai'/>
             </div> 
             <div>
                 <img src='https://i.ibb.co/WHsfR1b/image.png' alt='ai'/>
@@ -98,7 +98,7 @@ const Clients = () => {
                 <img src='https://i.ibb.co/MnYsRc0/image.png' alt='ai'/>
             </div> 
             <div>
-                <img src='https://i.ibb.co/r3CRmSy/image.png' alt='ai'/>
+                <img src='https://imgtr.ee/images/2024/02/20/6544bdf0997a13ee5af6ea8b9b5991a9.png' alt='ai'/>
             </div> 
           </Slider>
       </div>

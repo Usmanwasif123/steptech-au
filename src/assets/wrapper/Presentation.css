@@ -4,389 +4,61 @@
 }
 
 .present-container{
-    height: 170vh;
+    height: 290vh;
     width: 98.7vw;
-    background: #fff;
+    background: #333;
     position: relative;
-    margin-top: 0px;
+    margin-top: -200px;
 }
 
-.present-grid1{
-    position: absolute;
-    z-index: 2;
-    left: 5%;
-    top: 30%;
+.present-container .link-container{
+    display: flex;
+    justify-content: center;
+    align-items:  center;
+  
 }
 
-.present-item1 {
-    display: flex; /* Use flexbox for layout */
-    flex-direction: column; /* Stack elements vertically */
-    align-items: center; /* Center items horizontally */
+.present-container .link{
+    margin-right: 20px;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding-top: 30px;
+    color:  linear-gradient(255deg, #7554C1 29.51%, #243F82 93.15%);
+    margin-top: 30px;
+
+}
+
+
+.column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
   }
-.present-item1 img{
-    position: absolute;
-    z-index: 2;
-    object-fit:initial;
-    background-repeat: no-repeat;
-    height: 45vh;
-    width: 25vw;
-    left: 8%;
-    top: 12%;
-}
 
-.present-item1 img:hover{
-    opacity: .2;  
-    cursor: pointer;
-}
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width:100%
+ }
+  
+ /* Responsive layout - makes a two column-layout instead of four columns */
+@media (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
 
-.present-item1 .present-btn{
-    background: transparent;
-    border: 2px solid #fff;
-    color: #fff;
-    padding: 10px;
-    margin-top: 50px;
-    margin-left: -10px;
-    font-family: Poppins, sans-serif;
-    cursor: pointer;
-    font-size: 20px;
-    text-decoration: none;  
-    opacity: 1;
-    transition: opacity 0.3s;
-}
 
-.present-item1 .present-btn:hover{
-    opacity: 1; 
-    border-color: #fff;
-    color: #fff;
-}
-
-.present-item1 h1{
-    color: #fff;
-    margin-top: 50px;
-    font-family: Poppins, sans-serif;
-    font-size: 25px;
-    cursor: pointer;
-    display:contents;
-    position: absolute;
-    z-index: 3;
-}
-
-.present-grid2{
-    position: absolute;
-    z-index: 2;
-    left: 38%;
-    top: 30%;
-}
-.present-item2 img{
-    position: absolute;
-    z-index: 2;
-    object-fit: initial;
-    background-repeat: no-repeat;
-    height: 45vh;
-    width: 25vw;
-    left: 8%;
-    top: 12%;
-}
-.present-item2 img:hover{
-    opacity: .2;
-    cursor: pointer;
-}
-
-.present-item2 .present-btn{
-    position: absolute;
-    background: transparent;
-    border: 2px solid #fff;
-    color: #fff;
-    padding: 10px;
-    margin-top: 50px;
-    margin-left: -80px;
-    font-family: Poppins, sans-serif;
-    cursor: pointer;
-    font-size: 20px;
-    text-decoration: none;    
-}
-
-.present-item2 .present-btn:hover{
-    position: absolute;
-    z-index: 3;
-}
-.present-item2 h1{
-    color: #fff;
-    margin-top: 50px;
-    font-family: Poppins, sans-serif;
-    font-size: 25px;
-    cursor: pointer;
-    display:contents;
-    position: absolute;
-    z-index: 4;
-}
-.present-grid3{
-    position: absolute;
-    z-index: 2;
-    left: 70%;
-    top: 30%;
-}
-
-.present-item3 img{
-    position: absolute;
-    z-index: 2;
-    object-fit: initial;
-    background-repeat: no-repeat;
-    height: 45vh;
-    width: 25vw;
-    left: 8%;
-    top: 12%;
-}
-.present-item3 img:hover{
-    opacity: .2;
-    cursor: pointer;
-}
-.present-item3 .present-btn{
-    position: absolute;
-    background: transparent;
-    border: 2px solid #fff;
-    color: #fff;
-    padding: 10px;
-    margin-top: 70px;
-    margin-left: -120px;
-    font-family: Poppins, sans-serif;
-    cursor: pointer;
-    font-size: 20px;
-    text-decoration: none;   
-}
-
-.present-item3 .present-btn:hover{
-    position: absolute;
-    z-index: 5;
-    color: #fff;
-}
-.present-item3 h1{
-    color: #fff;
-    padding: 10px;
-    margin-top: 0px;
-    font-family: Poppins, sans-serif;
-    font-size: 25px;
-    cursor: pointer;
-    display:contents;
-    position: absolute;
-    z-index: 3;
-}
-.present-grid4{
-    position: absolute;
-    z-index: 2;
-    top: 68%;
-    left: 5%;
-}
-.present-item4 img{
-    position: absolute;
-    z-index: 2;
-    object-fit: initial;
-    background-repeat: no-repeat;
-    height: 45vh;
-    width: 25vw;
-    left: 8%;
-    top: 12%;
-}
-.present-item4 img:hover{
-    opacity: .2;
-    cursor: pointer;
-}
-
-.present-item4 .present-btn{
-    position: absolute;
-    background: transparent;
-    border: 2px solid #fff;
-    color: #fff;
-    padding: 10px;
-    margin-top: 70px;
-    margin-left: -120px;
-    font-family: Poppins, sans-serif;
-    cursor: pointer;
-    font-size: 20px;
-    text-decoration: none;   
-}
-
-.present-item4 .present-btn:hover{
-    position: absolute;
-    z-index: 3;
-}
-.present-item4 h1{
-    color: #fff;
-    padding: 10px;
-    margin-top: 0px;
-    font-family: Poppins, sans-serif;
-    font-size: 25px;
-    cursor: pointer;
-    display:contents;
-    position: absolute;
-    z-index: 3;
-}
-.present-grid5{
-    position: absolute;
-    z-index: 2;
-    left: 38%;
-    top: 68%;
-}
-.present-item5 img{
-    position: absolute;
-    z-index: 2;
-    object-fit: initial;
-    background-repeat: no-repeat;
-    height: 45vh;
-    width: 25vw;
-    left: 8%;
-    top: 12%;
-}
-.present-item5 img:hover{
-    opacity: .2;
-    cursor: pointer;
-}
-.present-item5 .present-btn{
-    position: absolute;
-    background: transparent;
-    border: 2px solid #fff;
-    color: #fff;
-    padding: 10px;
-    margin-top: 70px;
-    margin-left: -150px;
-    font-family: Poppins, sans-serif;
-    cursor: pointer;
-    font-size: 20px;
-    text-decoration: none;   
-}
-
-.present-item5 .present-btn:hover{
-    position: absolute;
-    z-index: 3;
-}
-.present-item5 h1{
-    color: #fff;
-    padding: 10px;
-    margin-top: 0px;
-    font-family: Poppins, sans-serif;
-    font-size: 25px;
-    cursor: pointer;
-    display:contents;
-    position: absolute;
-    z-index: 3;
-}
-.present-grid6{
-    position: absolute;
-    z-index: 2;
-    left: 70%;
-    top: 68%;
-}
-
-.present-item6 img{
-    position: absolute;
-    z-index: 2;
-    object-fit: initial;
-    background-repeat: no-repeat;
-    height: 45vh;
-    width: 25vw;
-    left: 8%;
-    top: 12%;
-}
-.present-item6 img:hover{
-    opacity: .2;
-    cursor: pointer;
-}
-.present-item6 .present-btn{
-    position: absolute;
-    background: transparent;
-    border: 2px solid #fff;
-    color: #fff;
-    padding: 10px;
-    margin-top: 70px;
-    margin-left: -160px;
-    font-family: Poppins, sans-serif;
-    cursor: pointer;
-    font-size: 20px;
-    text-decoration: none;   
-}
-
-.present-item6 .present-btn:hover{
-    position: absolute;
-    z-index: 3;
-}
-.present-item6 h1{
-    color: #fff;
-    padding: 10px;
-    margin-top: 0px;
-    font-family: Poppins, sans-serif;
-    font-size: 25px;
-    cursor: pointer;
-    display:contents;
-    position: absolute;
-    z-index: 3;
-}
-
-.webpresent-btn{
-    background: transparent;
-    border: 1px solid #6347AA;
-    color: #333;
-    padding: 15px;
-    margin-top:60px;
-    margin-left: 350px;
-    font-family: Poppins, sans-serif;
-    cursor: pointer;
-    font-size: 18px;
-    font-weight: 500;
-    border-radius: 5px;
-    text-transform: uppercase;
-}
-.webpresent-btn:hover{
-    background: linear-gradient(256deg, #6347AA 7.85%, #233F81 107.97%);
-    color: #fff;
-}
-.webpresent-btn:focus{
-    background: linear-gradient(256deg, #6347AA 7.85%, #233F81 107.97%);
-    color: #fff ;
-}
-.apppresent-btn{
-    background: transparent;
-    border: 1px solid #6347AA;
-    color: #333;
-    padding: 15px;
-    margin-top:60px;
-    margin-left: 20px;
-    font-family: Poppins, sans-serif;
-    cursor: pointer;
-    font-size: 18px;
-    font-weight: 500;
-    border-radius: 5px;
-    text-transform: uppercase;
-}
-.apppresent-btn:hover{
-    background: linear-gradient(256deg, #6347AA 7.85%, #233F81 107.97%);
-    color: #fff;
-}
-.apppresent-btn:focus{
-    background: linear-gradient(256deg, #6347AA 7.85%, #233F81 107.97%);
-    color: #fff ;
-}
-.gamepresent-btn{
-    background: transparent;
-    border: 1px solid #6347AA;
-    color: #333;
-    padding: 15px;
-    margin-top:60px;
-    margin-left: 20px;
-    font-family: Poppins, sans-serif;
-    cursor: pointer;
-    font-size: 18px;
-    font-weight: 500;
-    border-radius: 5px;
-    text-transform: uppercase;
-}
-.gamepresent-btn:hover{
-    background: linear-gradient(256deg, #6347AA 7.85%, #233F81 107.97%);
-    color: #fff;
-}
-.gamepresent-btn:focus{
-    background: linear-gradient(256deg, #6347AA 7.85%, #233F81 107.97%);
-    color: #fff ;
-}
 
 @media only screen and (max-width: 1024px) {
     .webpresent-btn{

@@ -7,7 +7,7 @@
     height: 90vh;
     width: 98.7vw;
     background-color: #fff;
-    margin-top: 363px;
+    
 }
 
 .let-heading{
@@ -17,40 +17,12 @@
     font-weight: 500;
     line-height: 92.5px; 
     letter-spacing: -1px;
-    padding: 30px 0px 0px 700px;
+    padding: 30px 0px 0px 650px;
     background: linear-gradient(255deg, #7554C1 29.51%, #243F82 93.15%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    margin-top: -20px;
-}
-
-#line1-brand{
-    top: 695%;
-    left: 51.9%;
-    position: absolute;
-    z-index: 1;
-    border-radius: 2px 2px 2px 2px;
-    background: linear-gradient(255deg, #7554C1 29.51%, #243F82 93.15%);
-    padding: 0px 50px 4px 100px;
-}
-#line2-brand{
-    top: 695%;
-    left: 63.2%;
-    position: absolute;
-    z-index: 1;
-    border-radius: 2px 2px 2px 2px;
-    background: linear-gradient(255deg, #7554C1 29.51%, #243F82 93.15%);
-    padding: 0px 10px 4px 35px;
-}
-#line3-brand{
-    top: 695%;
-    left: 66.9%;
-    position: absolute;
-    z-index: 1;
-    border-radius: 2px 2px 2px 2px;
-    background: linear-gradient(255deg, #7554C1 29.51%, #243F82 93.15%);
-    padding: 0px 5px 4px 15px;
+    margin-top: -140px;
 }
 
 
@@ -63,7 +35,8 @@
     line-height: 48.5px; /* 98.98% */
     letter-spacing: -1px;
     padding: 14px 0px 1px 1px;
-    margin: 1px 150px 12px 700px;
+    margin: 50px 150px 12px 660px;
+    text-transform: uppercase;
 }
 
 .brand-p{
@@ -74,44 +47,37 @@
     font-weight: 400;
     line-height: 28.5px; /* 142.5% */
     padding: 0px 30px 1px 1px;
-    margin: 17px 175px 12px 700px;
+    margin: 25px 100px 12px 660px;
 }
 
-.brand-carousel{
-    margin-top: 235px;
-    margin-left: 80px;
-    position: absolute;
-    top: 650%;
-    left: 5%;
+.brand-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20%;
+    width: 20%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -380px;
+    margin-left: 200px;
 }
 
-.brand-carousel img{
-    height: 400px;
-    width: 400px;
-    padding-right: 200px;
-    cursor: pointer;
+.brand-container .link-container{
+    display: flex;
+    justify-content: flex-end;
+    align-items:  flex-end;
+  
 }
 
-.brand-carousel .slick-slider {
-    width: 400px !important;
-}
-.brand-carousel .slick-dots li.slick-active button:before {
-    color: #3C4B90 !important;
-}
-
-.brand-carousel .slick-dots li button:before {
-    color: #DDE3FF;
-    font-size: 1rem !important;
-    top: 1rem !important;
+.brand-container .link{
+    margin-right: 19px;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding-top: 50px;
+    color:  linear-gradient(255deg, #7554C1 29.51%, #243F82 93.15%);
 }
 
-.brand-carousel .slick-prev {
-    background: transparent;
-
-}
-.brand-carousel .slick-next{
-    background: transparent;
-}
 
 @media only screen and (max-width: 1024px) {
     .let-heading{

@@ -1,179 +1,90 @@
-import React, { useState} from 'react';
+import React from 'react';
 import '../assets/wrapper/services.css';
-import Slider from 'react-slick';
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-import ai from '../assets/images/asi.png';
-import desktop from '../assets/images/pc.png';
-import laptop from '../assets/images/pc1.png';
-import mobile from '../assets/images/mb.png';
 import {PhoneInTalk, HeadsetMic, MenuBook} from '@mui/icons-material';
+import Card from 'react-bootstrap/Card';
+import ArrowRightAltIcon from '@mui/icons-material/ArrowRightAlt';
+import { Link } from 'react-router-dom';
+import { Container, Row, Col } from 'react-bootstrap';
+
 
 const Services = () => {
-
-    const[setting, setSetting] = useState({
-      dots: true,
-      infinite: false,
-      speed: 500,
-      slidesToShow: 4,
-      slidesToScroll: 4,
-      initialSlide: 0,
-      responsive: [
-        {
-          breakpoint: 1920,
-          settings: {
-            slidesToShow: 3,
-            slidesToScroll: 3,
-            infinite: true,
-            dots: true
-          }
-        },
-        {
-          breakpoint: 768,
-          settings: {
-            slidesToShow: 2,
-            slidesToScroll: 2,
-            initialSlide: 2
-          }
-        },
-        {
-          breakpoint: 480,
-          settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1
-          }
-        },
-        {
-          breakpoint: 320,
-          settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1
-          }
-        }
-      ]
-        });
-    
+      
   return (
-    <div className='service-container'>
-    <div className='service-container'>
+    <Container className='service-container'>
+      <Row>
+      <Col col={12} md={8} lg={6}>
       <img src='https://i.ibb.co/g95xXs4/Group-4.png' alt='layer' />
-      <h2 className='service-heading1'>Services</h2>
-      <div id='line1-service'></div>
-      <div id='line2-service'></div>
-      <div id='line3-service'></div>
+      <h2 className='service-heading1'><b>Services</b></h2>
       <h1 className='service-heading2'>What We Offer</h1>
       <p className='service-p'>Step Tech, a well-known website development company has battle-tested developers who 
       specialize in an extensive variety of digital services. These are some of our following services.</p>
-      <div className='service-carousel'>
-          <Slider {...setting}>
-            <div className='card1'>
-              <img className='circle1' src='https://i.ibb.co/1QnZmL0/circle.png'/>
-                <img className='ai' src='https://i.ibb.co/m6Cw4yy/image.png' alt='ai' />
-                <h3 className='h1-f'>Website Development</h3>
-                <p className='p1-f'>We can create a web application that's easy to navigate and use with great content 
-                or an extensive e-commerce platform, according to your demands. The Step Tech team is an expert in 
-                building an appealing digital presence that will help your business create leads and turn visitors into 
-                customers.</p>
-            </div> 
-            <div className='card2'>
-              <img className='circle2' src='https://i.ibb.co/1QnZmL0/circle.png'/>
-              <img className='ai' src='https://i.ibb.co/L85bTDp/image.png' alt='ai' /> 
-                <h3 className='h2-g'>Application Development</h3>
-                <p className='p2-g'>For all of your needs about the creation of mobile apps, we are the one-stop shop. 
-                We offer all the mobile application development services that today's industry expects. We offer our 
-                clients reasonable prices for all of our app development services. Step Tech can create mobile apps that
-                are cross-platform and compatible with all devices.</p>
-            </div>
-            <div className='card3'>
-            <img className='circle3' src='https://i.ibb.co/1QnZmL0/circle.png'/>
-            <img className='ai' src='https://i.ibb.co/c1zmjbq/image.png' alt='ai' />  
-                <h3 className='h3-w'>Game Development</h3>
-                <p className='p3-w'>We offer comprehensive services for developing games encompassing pre-production, 
-                production, and post-production processes. We strive to provide your user with incredible, compelling 
-                visuals, smooth gameplay, engaging narratives, and more.</p>
-            </div> 
-            <div className='card4'>
-            <img className='circle4' src='https://i.ibb.co/1QnZmL0/circle.png'/>
-            <img className='ai' src='https://i.ibb.co/TBCTC94/image.png' alt='ai' />
-                <h3 className='h4-a'>Software Development</h3>            
-                <p className='p4-a'>Lorem Ipsum is simply dummy text of the printing and 
-                typesetting industry. Lorem Ipsum has been the industry's 
-                standard dummy text ever since the 1500s, when an unknown</p>
-            </div>  
-            <div className='card5'>
-            <img className='circle5' src='https://i.ibb.co/1QnZmL0/circle.png'/>
-            <img className='ai' src='https://i.ibb.co/m6Cw4yy/image.png' alt='ai' />               
-                <h3 className='h5-b'>Search Engine Optimization</h3>
-                <p className='p5-b'>Lorem Ipsum is simply dummy text of the printing and 
-                typesetting industry. Lorem Ipsum has been the industry's 
-                standard dummy text ever since the 1500s, when an unknown</p>
-            </div> 
-            <div className='card6'>
-            <img className='circle6' src='https://i.ibb.co/1QnZmL0/circle.png'/>
-            <img className='ai' src='https://i.ibb.co/m6Cw4yy/image.png' alt='ai' />               
-                <h3 className='h6-c'>Social Media Management</h3>
-                <p className='p6-c'>Lorem Ipsum is simply dummy text of the printing and 
-                typesetting industry. Lorem Ipsum has been the industry's 
-                standard dummy text ever since the 1500s, when an unknown</p>
-            </div>
-            <div className='card7'>
-            <img className='circle7' src='https://i.ibb.co/1QnZmL0/circle.png'/>
-            <img className='ai' src='https://i.ibb.co/m6Cw4yy/image.png' alt='ai' />             
-                <h3 className='h7-d'>Digital Marketing</h3>
-                <p className='p7-d'>Lorem Ipsum is simply dummy text of the printing and 
-                typesetting industry. Lorem Ipsum has been the industry's 
-              standard dummy text ever since the 1500s, when an unknown</p>
-            </div> 
-            <div className='card8'>
-            <img className='circle8' src='https://i.ibb.co/1QnZmL0/circle.png'/>
-            <img className='ai' src='https://i.ibb.co/m6Cw4yy/image.png' alt='ai' />            
-                <h3 className='h8-e'>E-Commerce</h3>            
-                <p className='p8-e'>Lorem Ipsum is simply dummy text of the printing and 
-                typesetting industry. Lorem Ipsum has been the industry's 
-                standard dummy text ever since the 1500s, when an unknown</p>
-            </div>
-            <div className='card9'>
-            <img className='circle9' src='https://i.ibb.co/1QnZmL0/circle.png'/>
-            <img className='ai' src='https://i.ibb.co/m6Cw4yy/image.png' alt='ai' />            
-                <h3 className='h9-e'>Game Design & Development</h3>            
-                <p className='p9-e'>Lorem Ipsum is simply dummy text of the printing and 
-                typesetting industry. Lorem Ipsum has been the industry's 
-                standard dummy text ever since the 1500s, when an unknown</p>
-            </div> 
-            <div className='card10'>
-            <img className='circle10' src='https://i.ibb.co/1QnZmL0/circle.png'/>
-            <img className='ai' src='https://i.ibb.co/m6Cw4yy/image.png' alt='ai' />            
-                <h3 className='h10-e'>2D/3D Animation</h3>            
-                <p className='p10-e'>Lorem Ipsum is simply dummy text of the printing and 
-                typesetting industry. Lorem Ipsum has been the industry's 
-                standard dummy text ever since the 1500s, when an unknown</p>
-            </div> 
-            <div className='card11'>
-            <img className='circle11' src='https://i.ibb.co/1QnZmL0/circle.png'/>
-            <img className='ai' src='https://i.ibb.co/m6Cw4yy/image.png' alt='ai' />            
-                <h3 className='h11-e'>Block Chain Development</h3>            
-                <p className='p11-e'>Lorem Ipsum is simply dummy text of the printing and 
-                typesetting industry. Lorem Ipsum has been the industry's 
-                standard dummy text ever since the 1500s, when an unknown</p>
-            </div> 
-            <div className='card12'>
-            <img className='circle12' src='https://i.ibb.co/1QnZmL0/circle.png'/>
-            <img className='ai' src='https://i.ibb.co/m6Cw4yy/image.png' alt='ai' />            
-                <h3 className='h12-e'>NFT</h3>            
-                <p className='p12-e'>Lorem Ipsum is simply dummy text of the printing and 
-                typesetting industry. Lorem Ipsum has been the industry's 
-                standard dummy text ever since the 1500s, when an unknown</p>
-            </div> 
-            <div className='card13'>
-            <img className='circle13' src='https://i.ibb.co/1QnZmL0/circle.png'/>
-            <img className='ai' src='https://i.ibb.co/m6Cw4yy/image.png' alt='ai' />            
-                <h3 className='h13-e'>Artificial Intelligence</h3>            
-                <p className='p13-e'>Lorem Ipsum is simply dummy text of the printing and 
-                typesetting industry. Lorem Ipsum has been the industry's 
-                standard dummy text ever since the 1500s, when an unknown</p>
-            </div> 
-          </Slider>
-      </div>
+      <button><Link to='/service' className='service-button'>What we do
+      <ArrowRightAltIcon style={{ color: '#fff', fontSize: '25px', marginLeft: '2px'}}/>
+      </Link>
+      </button>
+      </Col>
+      </Row>
+      <Row>
+      <Col md={4} lg={2} sm={1}>
+      <Card className='card' style={{position: 'absolute', zIndex: '1', border: '#fff', borderRadius: '0.625rem', 
+      padding: '6.25rem 0.313rem', width: '16rem',height: '100px', marginLeft: '-40rem',marginTop: '-200px',  boxShadow: '0px 10px 20px 0px rgba(0, 0, 0, 0.3)',
+      }}>
+      <Card.Img className='card-image' src="https://imgtr.ee/images/2024/02/20/2d7b5bb08e8d390833d91059c0470cb7.png" alt="Card image" />
+      <Card.Text className='card-heading'>
+         Website Development
+        </Card.Text>
+      <Card.Text className='card-para'>
+          We can create a web application that's easy to navigate and use.
+        </Card.Text>
+        <Link to='/service' style={{textDecoration: 'none'}}><ArrowRightAltIcon className='card-arrow'/></Link>
+      </Card>
+      </Col>
+      <Col  md={4} lg={2} sm={1}>
+      <Card className='card' style={{position: 'absolute', zIndex: '1', border: '#fff', borderRadius: '0.625rem', 
+      padding: '6.25rem 0.313rem', width: '16rem', height: '100px', marginLeft: '-22rem',marginTop: '-200px',  boxShadow: '0px 10px 20px 0px rgba(0, 0, 0, 0.3)',
+      }}>
+      <Card.Img className='card-image' src="https://imgtr.ee/images/2024/02/20/199561892305abc0e9a28b8deca0aac5.png" alt="Card image" />
+      <Card.Text className='card-heading'>
+        Application Development
+        </Card.Text>
+      <Card.Text className='card-para'>
+      For all of your needs about the creation of mobile apps.
+        </Card.Text>
+        <Link to='/service' style={{textDecoration: 'none'}}><ArrowRightAltIcon className='card-arrow'/></Link>
+      </Card>
+      </Col>
+      <Col  md={4} lg={2} sm={1}>
+      <Card className='card' style={{position: 'absolute', zIndex: '1', border: '#fff', borderRadius: '0.625rem', 
+      padding: '6.25rem 0.313rem', width: '16rem',height: '100px', marginLeft: '-40rem',marginTop: '150px',  
+      boxShadow: '0px 10px 20px 0px rgba(0, 0, 0, 0.3)',
+      }}>
+      <Card.Img className='card-image' src="https://imgtr.ee/images/2024/02/20/113eed58ae34d798cb01c892a15bf730.png" alt="Card image" />
+      <Card.Text className='card-heading'>
+       Game Development 
+        </Card.Text>
+      <Card.Text className='card-para'>
+      We offer comprehensive services for developing games.
+        </Card.Text>
+        <Link to='/service' style={{textDecoration: 'none'}}><ArrowRightAltIcon className='card-arrow'/></Link>
+      </Card>
+      </Col>
+      <Col  md={4} lg={2} sm={1}>
+      <Card className='card' style={{position: 'absolute', zIndex: '1', border: '#fff', borderRadius: '0.625rem', 
+      padding: '6.25rem 0.313rem', width: '16rem',height: '100px', marginLeft: '-22rem',marginTop: '150px',  boxShadow: '0px 10px 20px 0px rgba(0, 0, 0, 0.3)',
+      }}>
+      <Card.Img  className='card-image' src="https://imgtr.ee/images/2024/02/20/0079b8737e5cb10ebafe8077f5ba934c.png" alt="Card image" />
+      <Card.Text className='card-heading'>
+       Software Development
+        </Card.Text>
+      <Card.Text className='card-para'>
+          Some quick example text to build on the card title
+        </Card.Text>
+        <Link to='/service' style={{textDecoration: 'none'}}><ArrowRightAltIcon className='card-arrow'/></Link>
+      </Card>
+      </Col>
+      </Row>
+      <Row>
+      <Col col={12} md={6}>
       <div className='service-box'>
       &nbsp;
       <PhoneInTalk className='service-phone'/>
@@ -184,8 +95,9 @@ const Services = () => {
       <MenuBook style={{position: 'absolute', color: '#fff', transform: 'scale(2.5)', left: '80%', top: '20%'}} classsName='service-book'/>
       <p className='service-book-p'>Estimate Your Project's Cost<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Talk to Consultant</p>
       </div>
-  </div>  
-  </div>  
+      </Col>
+      </Row>
+    </Container>
   )
 }
 

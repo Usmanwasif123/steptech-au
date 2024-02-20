@@ -26,6 +26,9 @@
     color: #333;
 }
 
+.client-container 
+
+
 .client-carousel{
     margin-top: 40px;
     margin-left: 80px;
@@ -34,7 +37,12 @@
 .client-carousel img{
     height: 100px;
     cursor: pointer;
+    filter: grayscale(100%);
+    transition: filter 0.3s ease;
+}
 
+.client-carousel img:hover{
+    filter: grayscale(0%);
 }
 .client-carousel .slick-slide div{
     width: 50px;
