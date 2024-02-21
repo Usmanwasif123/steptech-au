@@ -4,9 +4,8 @@
 }
 
 .present-container{
-    height: 290vh;
     width: 98.7vw;
-    background: #333;
+    background: #fff;
     position: relative;
     margin-top: -200px;
 }
