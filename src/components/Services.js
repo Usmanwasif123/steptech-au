@@ -29,7 +29,7 @@ const Services = () => {
       <Card className='card' style={{position: 'absolute', zIndex: '1', border: '#fff', borderRadius: '0.625rem', 
       padding: '6.25rem 0.313rem', width: '16rem',height: '100px', marginLeft: '-40rem',marginTop: '-200px',  boxShadow: '0px 10px 20px 0px rgba(0, 0, 0, 0.3)',
       }}>
-      <Card.Img className='card-image' src="https://imgtr.ee/images/2024/02/20/2d7b5bb08e8d390833d91059c0470cb7.png" alt="Card image" />
+      <Card.Img className='card-image' src="https://imgtr.ee/images/2024/02/22/51f9bd30ac6189817252d8b810499577.png" alt="Card image" />
       <Card.Text className='card-heading'>
          Website Development
         </Card.Text>
@@ -43,7 +43,7 @@ const Services = () => {
       <Card className='card' style={{position: 'absolute', zIndex: '1', border: '#fff', borderRadius: '0.625rem', 
       padding: '6.25rem 0.313rem', width: '16rem', height: '100px', marginLeft: '-22rem',marginTop: '-200px',  boxShadow: '0px 10px 20px 0px rgba(0, 0, 0, 0.3)',
       }}>
-      <Card.Img className='card-image' src="https://imgtr.ee/images/2024/02/20/199561892305abc0e9a28b8deca0aac5.png" alt="Card image" />
+      <Card.Img className='card-image' src="https://imgtr.ee/images/2024/02/22/142144d86688e9539e5f9abd616b9682.png" alt="Card image" />
       <Card.Text className='card-heading'>
         Application Development
         </Card.Text>

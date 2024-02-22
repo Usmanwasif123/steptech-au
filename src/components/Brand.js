@@ -5,12 +5,15 @@ import { Container, Row, Col } from 'react-bootstrap';
 
 
 const Brand = () => {
+  const [activeCategory, setActiveCategory] = useState('branding');
+
   const [content, setContent] = useState({
     heading: 'branding',
     paragraph: 'We are conveying the best application improvement administrations for the medical care area since we are in the advanced world. We are planning applications going from telemedicine to applications created for patients and emergency clinics. Everything is conceivable with creatives like us.',
     imageSrc: 'https://i.ibb.co/V33HHvz/image.png'
 });
 const handleLinkClick = (category) => {
+setActiveCategory(category);
 switch (category) {
 case 'branding':
   setContent({
@@ -40,9 +43,9 @@ case 'artificialintelligence':
     imageSrc: "https://i.ibb.co/RBs6LMm/image.png"
   });
   break;
-case 'blockchain':
+case 'ecommerce':
   setContent({
-    heading: 'blockchain',
+    heading: 'ecommerce',
     paragraph: 'We plan instructive learning applications with inventive and enamoring energies, particularly for understudies. Increment information, altered learning courses of events, refreshed web-based instructive entrances, and simplicity of learning and correspondence with one of a kind elements.',
     imageSrc: "https://i.ibb.co/7nPfy0t/image.png"
   });
@@ -56,11 +59,26 @@ case 'blockchain':
       <Row>
       <Col xs={12} md={6}>
       <div className='link-container' style={{marginTop: '200px'}}>
-      <Link className='link'   onClick={() => handleLinkClick('branding')}>branding</Link>
-      <Link className='link'  onClick={() => handleLinkClick('marketing')}>marketing</Link>
-      <Link className='link'  onClick={() => handleLinkClick('blockchain')}>blockchain</Link>
-      <Link className='link'  onClick={() => handleLinkClick('artificialintelligence')}>artificial intelligence</Link>
-      <Link className='link'  onClick={() => handleLinkClick('blockchain')}>ecommerce</Link>
+      <Link className={activeCategory === 'branding' ? 'link active' : 'link'}  onClick={() => handleLinkClick('branding')}>
+        branding
+        {activeCategory === 'branding' && <div className='active-bar'></div>}
+      </Link>
+      <Link className={activeCategory === 'marketing' ? 'link active' : 'link'}  onClick={() => handleLinkClick('marketing')}>
+        marketing
+        {activeCategory === 'marketing' && <div className='active-bar'></div>}
+        </Link>
+      <Link className={activeCategory === 'blockchain' ? 'link active' : 'link'}  onClick={() => handleLinkClick('blockchain')}>
+        blockchain
+        {activeCategory === 'blockchain' && <div className='active-bar'></div>}
+        </Link>
+      <Link className={activeCategory === 'artificialintelligence' ? 'link active' : 'link'}  onClick={() => handleLinkClick('artificialintelligence')}>
+        artificial intelligence
+        {activeCategory === 'artificialintelligence' && <div className='active-bar'></div>}
+        </Link>
+      <Link className={activeCategory === 'ecommerce' ? 'link active' : 'link'}  onClick={() => handleLinkClick('ecommerce')}>
+        ecommerce
+        {activeCategory === 'ecommerce' && <div className='active-bar' style={{background: '#333', height: '3px', position: 'absolute', bottom: '0', left: '0', width: '100%', zIndex: '2' }}></div>}
+        </Link>
       </div>
       </Col>
       </Row>

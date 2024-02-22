@@ -26,7 +26,7 @@ const Cube = () => {
     scene.add(cube);
 
      // Increase the scale of the cube
-     cube.scale.set(3, 3, 3); // Adjust the scale as needed
+     cube.scale.set(2.5, 2.5, 2.5); // Adjust the scale as needed
 
 
     camera.position.z = 5;
@@ -34,8 +34,22 @@ const Cube = () => {
     const animate = function () {
       requestAnimationFrame(animate);
 
-      cube.rotation.x += 0.01;
-      cube.rotation.y += 0.01;
+      const time = Date.now() * 0.0005; // Adjust speed of rotation
+  
+  // Rotate the cube left to right
+  cube.rotation.y = Math.sin(time);
+
+  // Rotate the cube up to down
+  cube.rotation.x = Math.cos(time);
+
+  // Rotate the cube right to left (opposite of left to right)
+  cube.rotation.y = -Math.sin(time);
+
+  // Rotate the cube down to up (opposite of up to down)
+  cube.rotation.x = -Math.cos(time);
+
+  // Rotate the cube around the z-axis
+  cube.rotation.z += 0.01; // Adjust the speed and direction as needed
 
       renderer.render(scene, camera);
     };
