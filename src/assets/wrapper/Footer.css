@@ -4,14 +4,15 @@
 }
 
 .footer-container{
-    height: 70vh;
+    height: 100vh;
     width: 98.7vw;
     background: #333;
     position: relative;
+    margin-top: 100px;
 }
 
 .footer-container img{
-    height: 70vh;
+    height: 100vh;
     width: 98.7vw;
     position: relative;
     object-fit: cover;
@@ -53,18 +54,24 @@
 
 .quick-links  h1{
     font-size: 25px;
+    text-transform: capitalize;
 }
 
 .quick-foolinks li{
     font-size: 15px;
-    font-weight: 700;
-    margin-left:15px;
+    line-height: 1.5;
+    font-weight: 500;
+    margin-left: 15px;
     margin-top: 10px;
     padding-top: 2px;
     list-style: none;
     color: #fff;
-    text-transform: uppercase;
+    text-transform: capitalize;
     font-family: Poppins, sans-serif;
+}
+
+.quick-foolinks li:hover{
+    color: #333;
 }
 
 .service-links {
@@ -72,12 +79,13 @@
     top: 19%;
     left: 46%;
     color: #fff;
-    text-transform: uppercase;
+    text-transform: capitalize;
     font-size: 13px;
 }
 
 .service-links h1{
     font-size: 25px;
+    text-transform: capitalize;
 }
 .service-foolinks li{
     font-size: 15px;
@@ -94,11 +102,12 @@
     top: 19%;
     left: 65%;
     color: #fff;
-    text-transform: uppercase;
+    text-transform: capitalize;
     font-size: 13px;
 }
 .service-links2 h1{
     font-size: 25px;
+    text-transform: capitalize;
 }
 .service-foolinks2 li{
     font-size: 15px;
@@ -116,11 +125,12 @@
     top: 19%;
     left: 83%;
     color: #fff;
-    text-transform: uppercase;
+    text-transform: capitalize;
     font-size: 13px;
 }
 .contact-link h1{
     font-size: 25px;
+    text-transform: capitalize;
 }
 
 .contact-foolinks li{
@@ -155,21 +165,27 @@
     
 }
 
-.copyright{
-    background: #464060;
+.footer-container .banner-line{
+    top: 95%;
+    left: 9%;
     position: absolute;
-    z-index: 2;
-    width: 98.7vw;
-    height: 6vh;
-    top: 100%;
+    z-index: 1;
+    background: rgb(255, 255, 255);
+    margin-left: -120px;
+    padding: 0px 673px 1px;
+    margin-top: -10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.copyright h1{
+
+.copyright-h1{
     position: absolute;
-    z-index: 3;
+    z-index: 2;
     color: #fff;
-    top: 7%;
-    left: 40%;
+    top: 90%;
+    left: 1%;
     font-size: 19px;
 }
 

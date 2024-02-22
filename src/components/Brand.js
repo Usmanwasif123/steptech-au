@@ -77,7 +77,7 @@ case 'ecommerce':
         </Link>
       <Link className={activeCategory === 'ecommerce' ? 'link active' : 'link'}  onClick={() => handleLinkClick('ecommerce')}>
         ecommerce
-        {activeCategory === 'ecommerce' && <div className='active-bar' style={{background: '#333', height: '3px', position: 'absolute', bottom: '0', left: '0', width: '100%', zIndex: '2' }}></div>}
+        {activeCategory === 'ecommerce' && <div className='active-bar'></div>}
         </Link>
       </div>
       </Col>

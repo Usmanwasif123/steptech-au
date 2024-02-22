@@ -79,12 +79,26 @@
 }
 
 .active {
-    color: blue;
+    color: linear-gradient(255deg, #7554C1 29.51%, #243F82 93.15%);
     /* Add any other styles you want for the active link */
   }
 
   .active-bar {
-    
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: calc(32% / 5); /* Divide the width equally among the 5 links */
+    height: 5px;
+    background: linear-gradient(255deg, #7554C1 29.51%, #243F82 93.15%); /* Adjust the color as needed */
+    top: 275.6rem;
+    z-index: 2;
+    margin-left: 40.7rem;
+    transition: transform 0.3s ease; /* Add transition for smooth movement */
+
+  }
+
+  .link.active .active-bar {
+    transform: translateY(100%); /* Move the active bar to the bottom of the active link */
   }
 
 

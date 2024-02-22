@@ -14,12 +14,12 @@ const Cube = () => {
 
     const geometry = new THREE.BoxGeometry();
     const materials = [
-      new THREE.MeshBasicMaterial({ map: new THREE.TextureLoader().load('https://imgtr.ee/images/2024/02/20/078be0c22df45ec68a636526f0a045ab.png') }), // Adjust path
-      new THREE.MeshBasicMaterial({ map: new THREE.TextureLoader().load('https://imgtr.ee/images/2024/02/20/078be0c22df45ec68a636526f0a045ab.png') }), // Adjust path
-      new THREE.MeshBasicMaterial({ map: new THREE.TextureLoader().load('https://imgtr.ee/images/2024/02/20/078be0c22df45ec68a636526f0a045ab.png') }), // Adjust path
-      new THREE.MeshBasicMaterial({ map: new THREE.TextureLoader().load('https://imgtr.ee/images/2024/02/20/078be0c22df45ec68a636526f0a045ab.png') }), // Adjust path
-      new THREE.MeshBasicMaterial({ map: new THREE.TextureLoader().load('https://imgtr.ee/images/2024/02/20/078be0c22df45ec68a636526f0a045ab.png') }), // Adjust path
-      new THREE.MeshBasicMaterial({ map: new THREE.TextureLoader().load('https://imgtr.ee/images/2024/02/20/078be0c22df45ec68a636526f0a045ab.png') }), // Adjust path
+      new THREE.MeshBasicMaterial({ map: new THREE.TextureLoader().load('https://i.ibb.co/sHydKJD/image.png'), transparent: true }), // Adjust path
+      new THREE.MeshBasicMaterial({ map: new THREE.TextureLoader().load('https://i.ibb.co/sHydKJD/image.png'), transparent: true }), // Adjust path
+      new THREE.MeshBasicMaterial({ map: new THREE.TextureLoader().load('https://i.ibb.co/sHydKJD/image.png'), transparent: true }), // Adjust path
+      new THREE.MeshBasicMaterial({ map: new THREE.TextureLoader().load('https://i.ibb.co/sHydKJD/image.png'), transparent: true }), // Adjust path
+      new THREE.MeshBasicMaterial({ map: new THREE.TextureLoader().load('https://i.ibb.co/sHydKJD/image.png'), transparent: true }), // Adjust path
+      new THREE.MeshBasicMaterial({ map: new THREE.TextureLoader().load('https://i.ibb.co/sHydKJD/image.png'), transparent: true }), // Adjust path
     ];
 
     const cube = new THREE.Mesh(geometry, materials);

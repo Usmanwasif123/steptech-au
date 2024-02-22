@@ -135,7 +135,7 @@
 .video-container {
     position: relative; /* Change position to relative */
     z-index: 3;
-    width: 50%; /* Set width to 100% of parent container */
+    width: 30%; /* Set width to 100% of parent container */
     height: auto; /* Set height to auto to maintain aspect ratio */
     margin-top: -40rem; /* Set margin as desired */
     margin-left: 40rem; /* Set margin as desired */

@@ -3,12 +3,27 @@ import '../assets/wrapper/Navbar.css';
 import {Link} from 'react-router-dom';
 import {FaBars, FaTimes} from 'react-icons/fa';
 import {KeyboardArrowDownOutlined, Clear}from '@mui/icons-material';
+import navbarGif  from "../assets/videos/navbar_gif.mp4";
 
 const Navbar = () => {
   const [isSidebarOpen, setSidebarOpen] = useState(false);
   const [isVisible, setIsVisible] = useState(false);
   const [isDropdownVisible, setDropdownVisible] = useState(false);
+  const [showNavbar, setShowNavbar] = useState(false);
   const dropdownRef = useRef(null);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const threshold = 100; // Adjust as needed
+      setShowNavbar(window.scrollY > threshold);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
 
   const handleMouseEnter = () => {
     setDropdownVisible(true);
@@ -20,11 +35,15 @@ const Navbar = () => {
 
 
   return (
-    <div className='nav-container'>
-         <div className='logo'><a href='https://steptech.com.au/'></a></div>
+    <div className={`nav-container ${showNavbar ? 'navbar-visible' : ''}`} style={{ '--nav-width': '100vw', '--nav-height': '100vh' }}>
+       <video autoPlay loop muted>
+        <source src={navbarGif} type="video/mp4"/>
+      </video>
+         <div className={`logo ${showNavbar ? 'logo-hidden' : ''}`}><a href='https://steptech.com.au/'></a></div>
          <button className='bars' onClick={() => setSidebarOpen(!isSidebarOpen)} >
               {isSidebarOpen ? <FaTimes /> : <FaBars />}
           </button>
+          {showNavbar && (
         <nav>
         <ul className='nav-items'>
             <li><Link to='/' className='home'>home</Link></li>
@@ -60,6 +79,7 @@ const Navbar = () => {
             </button>
         </ul>
         </nav>
+        )}
       <img src='https://i.ibb.co/Y8F8xfL/Rectangle-1.png' alt='Banner'></img>
       <div className='banner-line'></div>
       <div className='banner-span'>

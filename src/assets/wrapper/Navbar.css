@@ -20,9 +20,8 @@
 
 .logo{
     margin-top: -4vh;
-    z-index: 3;
+    z-index: 15;
     background: url('https://i.ibb.co/PmL8cdY/image.png');
-    cursor: pointer;
     cursor: pointer;
     height: 20vh; /* Adjust height as needed */
     width: 20vw; /* Adjust width as needed */
@@ -545,6 +544,14 @@
     color: #fff;
     padding: 5px;
     cursor: pointer;
+}
+
+.nav-container video {
+    display: flex; /* Ensure the video is displayed as a block element */
+    width: 100%; /* Set video width to fill its container */
+    height: 93%; /* Set video height to fill its container */
+    position: absolute;
+    z-index: 5;
 }
 
 
