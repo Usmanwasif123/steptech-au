@@ -25,20 +25,26 @@
     padding-top: 30px;
     color:  linear-gradient(255deg, #7554C1 29.51%, #243F82 93.15%);
     margin-top: 30px;
+    opacity: 1;
+    transform: scale(0.001);
+    transform: translate3d(0px, 0px, 0px);
+    transition-property: opacity, transform;
+    transition-duration: 0.5s;
+    transition-delay: 0ms;
 
 }
 
-
 .column {
     flex: 25%;
-    max-width: 25%;
+    max-width: 45%;
     padding: 0 4px;
   }
 
 .column img {
     margin-top: 8px;
     vertical-align: middle;
-    width:100%
+    width: 98%;
+    height: 100%;
  }
   
  /* Responsive layout - makes a two column-layout instead of four columns */

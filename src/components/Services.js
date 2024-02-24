@@ -36,7 +36,7 @@ const Services = () => {
       <Card.Text className='card-para'>
           We can create a web application that's easy to navigate and use.
         </Card.Text>
-        <Link to='/service' style={{textDecoration: 'none'}}><ArrowRightAltIcon className='card-arrow'/></Link>
+        <Link to='/web-design-and-development' style={{textDecoration: 'none'}}><ArrowRightAltIcon className='card-arrow'/></Link>
       </Card>
       </Col>
       <Col  md={4} lg={2} sm={1}>
@@ -50,7 +50,7 @@ const Services = () => {
       <Card.Text className='card-para'>
       For all of your needs about the creation of mobile apps.
         </Card.Text>
-        <Link to='/service' style={{textDecoration: 'none'}}><ArrowRightAltIcon className='card-arrow'/></Link>
+        <Link to='/app-development' style={{textDecoration: 'none'}}><ArrowRightAltIcon className='card-arrow'/></Link>
       </Card>
       </Col>
       <Col  md={4} lg={2} sm={1}>
@@ -65,7 +65,7 @@ const Services = () => {
       <Card.Text className='card-para'>
       We offer comprehensive services for developing games.
         </Card.Text>
-        <Link to='/service' style={{textDecoration: 'none'}}><ArrowRightAltIcon className='card-arrow'/></Link>
+        <Link to='/game-design-and-development' style={{textDecoration: 'none'}}><ArrowRightAltIcon className='card-arrow'/></Link>
       </Card>
       </Col>
       <Col  md={4} lg={2} sm={1}>
@@ -79,7 +79,7 @@ const Services = () => {
       <Card.Text className='card-para'>
           Some quick example text to build on the card title
         </Card.Text>
-        <Link to='/service' style={{textDecoration: 'none'}}><ArrowRightAltIcon className='card-arrow'/></Link>
+        <Link to='/software-development' style={{textDecoration: 'none'}}><ArrowRightAltIcon className='card-arrow'/></Link>
       </Card>
       </Col>
       </Row>

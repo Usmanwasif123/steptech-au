@@ -54,18 +54,22 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 20%;
-    width: 20%;
+    height: 45%;
+    width:  45%;
     background-repeat: no-repeat;
     background-size: cover;
-    margin-top: -380px;
-    margin-left: 200px;
+    margin-top: -290px;
+    margin-left: 10px;
+    position: absolute;
+    border-radius: 0%;
+    box-shadow: 0 10px 15px 0 rgba(99, 107, 211, 0.7);
 }
 
 .brand-container .link-container{
     display: flex;
     justify-content: flex-end;
     align-items:  flex-end;
+    margin-top: 200px;
   
 }
 
@@ -102,45 +106,46 @@
   }
 
 
-@media only screen and (max-width: 1024px) {
-    .let-heading{
-        font-size: 19px;
-        margin-left: -59px;
-        margin-top: -66px;
+@media only screen and (min-width: 992px) and (max-width: 1024px) {
+
+    .brand-container{
+        height: 90vh;
     }
-    #line1-brand{
-        top: 662%;
-        left: 63.9%;
-    }
-    #line2-brand{
-        top: 662%;
-        left: 78.9%;
-    }
-    #line3-brand{
-        top: 662%;
-        left: 83.9%;
+    .brand-container .let-heading{
+        font-size: 20px;
+        margin-left: -30px;
+        margin-top: 100px;
+        position: absolute;
     }
     .brand-heading{
         font-size: 35px;
-        margin: -28px 50px 12px 631px;
+        margin: 50px 50px 12px 300px;
+        position: absolute;
     }
     .brand-p{
         font-size: 19px;
-        margin: -17px 0px 12px 629px;
-    }
-    .brand-carousel{
-        margin-top: 61px;
-        margin-left: 80px;
+        margin: 150px 25px 12px 90px;
         position: absolute;
-        top: 700%;
-        left: 5%;
     }
+    .brand-container .link-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 500px;
+      
+    }
+    .brand-container .link{
+        margin-top: 200px;
+    }
+    .active-bar {
+       margin-top: 200px;
+       margin-left: 150px;
     
-    .brand-carousel img{
-        height: 370px;
-        width: 370px;
-        padding-right: 200px;
-        cursor: pointer;
+      }
+      .brand-image{
+        margin-top: -400px;
+        margin-left: 250px;
+    
     }
 
 }

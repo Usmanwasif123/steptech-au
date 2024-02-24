@@ -152,6 +152,14 @@
 
 
 @media only screen and (max-width: 1024px) {
+
+    .process-container{
+        height: 120vh;
+    }
+
+    .process-container img{
+        height: 170vh;
+    }
     .process-detail{
         font-size: 25px;
     }
@@ -176,9 +184,12 @@
     }
     .discovery{
         font-size: 25px;
+        margin-left: -10px;
     }
     .dis-p{
-        font-size: 19px;
+        font-size: 18px;
+        margin: 20px -70px 0px -70px;
+        padding: 47px 0px 0px 0px;
     }
     .des-grid{
         position: absolute;
@@ -195,9 +206,12 @@
     }
     .design{
         font-size: 25px;
+        margin-left: -15px;
     }
     .des-p{
-        font-size: 19px;
+        font-size: 18px;
+        margin: 68px -100px 0px -130px;
+        padding: 0px 40px 0px 65px;
     }
     .dev-grid{
         position: absolute;
@@ -214,9 +228,12 @@
     }
     .develop{
         font-size: 25px;
+        margin-left: -25px;
     }
     .dev-p{
         font-size: 19px;
+        margin: 95px -70px 0px -70px;
+        padding: 0px 0px 0px 0px;
     }
     .dep-grid{
         position: absolute;
@@ -233,8 +250,11 @@
     }
     .deploy{
         font-size: 25px;
+        margin-left: -25px;
     }
     .dep-p{
         font-size: 19px;
+        margin: 95px -70px 0px -70px;
+        padding: 0px 0px 0px 0px;
     }
 }

@@ -15,6 +15,11 @@ const Process = () => {
         background: 'transparent',
         marginLeft: '5px',
         width: '150px',
+
+        '@media only screen and (min-width: 1024px) and (max-width: 1200px)': {
+          /* Your CSS rules for screens between 1024px and 1200px wide */
+          width: '70px', // Example of changing width for this media query
+      },
     }));
 
   return (
@@ -40,7 +45,7 @@ const Process = () => {
              <img className='des-img' src='https://i.ibb.co/9ZLDdCB/image.png'/>
             <h1 data-aos="zoom-in-up" data-aos-duration="500" data-aos-easing="ease-in-sine" className='design'>Design and Prototyping</h1> 
             <p data-aos="zoom-in-down" data-aos-duration="500" data-aos-easing="ease-in-sine" className='des-p'>
-            As we develop stunning concepts and prototypes that bring your ideas to life, creativity takes the forefront.
+            Concepts and prototypes that bring your ideas to life, creativity takes the forefront.
             Our commitment to user-centric design makes sure that every single pixel has a function, leading to a 
             captivating digital experience that draws in viewers.
               </p> 
@@ -51,7 +56,7 @@ const Process = () => {
             <img className='dev-img' src='https://i.ibb.co/F7DFbS8/image.png'/>
             <h1 data-aos="zoom-in-up" data-aos-duration="500" data-aos-easing="ease-in-sine" className='develop'>Development and Testing</h1> 
             <p data-aos="zoom-in-down" data-aos-duration="500" data-aos-easing="ease-in-sine" className='dev-p'>
-            Our development phase, when lines of code create real digital solutions, is the core of our approach. We 
+            Our development phase, is the core of our approach. We 
             carefully test, code, and polish to deliver a flawless final result that goes beyond and above. Your project 
             is more than just a job; it proves our commitment to quality work.
             </p> 
@@ -62,7 +67,7 @@ const Process = () => {
             <img className='dep-img' src='https://i.ibb.co/9s4mxH4/image.png'/>
             <h1 data-aos="zoom-in-up" data-aos-duration="500" data-aos-easing="ease-in-sine" className='deploy'>Deployment and Support</h1> 
             <p data-aos="zoom-in-down" data-aos-duration="500" data-aos-easing="ease-in-sine" className='dep-p'>
-            As we implement the final product, you will be ready to see the concept take shape existence and participate 
+            Concept take shape existence and participate 
             in an effortless digital transition. Nevertheless, we are there to support you, providing updates and ongoing
             help to keep your digital footprint on the cutting edge.
             </p> 

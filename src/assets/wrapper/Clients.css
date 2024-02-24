@@ -27,8 +27,6 @@
 }
 
 .client-container 
-
-
 .client-carousel{
     margin-top: 40px;
     margin-left: 80px;
@@ -64,7 +62,8 @@
 }
 @media only screen and (max-width: 1024px) {
     .client-container{
-        margin-top: -2px;
+        margin-top: -5px;
+        height: 50vh;
     }
     .client-container h1{
         font-size: 35px;
@@ -73,7 +72,13 @@
     .client-container p{
         font-size: 20px;
         margin-left: 90px;
+        margin-top: 30px;
     }
+    .client-container 
+    .client-carousel{
+    margin-top: 60px;
+    margin-left: 80px;
+}
     .client-carousel img{
         height: 85px;
         cursor: pointer;

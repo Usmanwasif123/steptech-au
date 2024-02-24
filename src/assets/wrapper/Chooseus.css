@@ -43,12 +43,13 @@
     left: 4%;
 }
 
-.choose-item1 h2{
+.choose-item1 h3{
     font-family: Poppins, sans-serif;
     font-size: 20px;
     position: absolute;
     left: 2%;
     top: 50%;
+    color: #fff;
 
 }
 .choose-grid2{
@@ -57,12 +58,13 @@
     left: 23%;
 }
 
-.choose-item2 h2{
+.choose-item2 h3{
     font-family: Poppins, sans-serif;
     font-size: 20px;
     position: absolute;
     left: 2%;
     top: 50%;
+    color: #fff;
 
 }
 
@@ -71,12 +73,13 @@
     z-index: 2;
     left: 42%;
 }
-.choose-item3 h2{
+.choose-item3 h3{
     font-family: Poppins, sans-serif;
     font-size: 20px;
     position: absolute;
     left: 2%;
     top: 50%;
+    color: #fff;
 
 }
 
@@ -85,12 +88,13 @@
     z-index: 2;
     left: 61%;
 }
-.choose-item4 h2{
+.choose-item4 h3{
     font-family: Poppins, sans-serif;
     font-size: 20px;
     position: absolute;
     left: 2%;
     top: 50%;
+    color: #fff;
 
 }
 
@@ -99,20 +103,24 @@
     z-index: 2;
     left: 80%;
 }
-.choose-item5 h2{
+.choose-item5 h3{
     font-family: Poppins, sans-serif;
     font-size: 20px;
     position: absolute;
     left: 2%;
     top: 50%;
+    color: #fff;
 
 }
 
 @media only screen and (max-width: 1024px) {
     .choose-container{
         margin-top: 0px;
-
     }
+    .choose-container h3{
+        font-size: 17px;
+    }
+
 }
 
 

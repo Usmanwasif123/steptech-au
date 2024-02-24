@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import '../assets/wrapper/Contact.css';
-import contactGif  from "../assets/videos/contact_gif.mp4";
+import contactGif  from "../assets/videos/contactus_gif.webm";
 const Contact = () => {
 
    const forminitial={
@@ -38,7 +38,7 @@ const Contact = () => {
       </form>
       <div className='video-container'>
       <video autoPlay loop muted>
-        <source src={contactGif} type="video/mp4"/>
+        <source src={contactGif} type="video/webm"/>
       </video>
     </div>
     </div>

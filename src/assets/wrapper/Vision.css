@@ -43,6 +43,7 @@
     padding: 0px 10px 4px 10px;
     margin-top: -4px;
     margin-left: 230px;
+    display: flex;
 
 }
 .main-section2 #line3-vision{
@@ -51,6 +52,7 @@
     border-radius: 2px 2px 2px 2px;
     background: linear-gradient(255deg, #7554C1 29.51%, #243F82 93.15%);
     padding: 0px 5px 4px 5px;
+    display: flex;
 }
 
 .main-section2 .right-heading{
@@ -104,35 +106,45 @@
 .main-section2 .vision-image img{
         position: absolute;
         z-index: 3;
-        height: 500px;
-        width: 500px;
+        height: 31.25rem;
+        width: 31.25rem;
         margin-top: -40%;
         margin-left: -45%;
         background-repeat: no-repeat; 
         background-size: contain;       
+}
+.main-section2 .btn-box {
+    padding: 40px 50px;
+    margin-top: -130px;
+    margin-left: -550px;
 }
 
 @media only screen and (max-width: 1024px) {
     .main-section2 .right-vision{
         font-size: 20px;
         padding: 30px 0px 0px 0px;
-        margin-top: -3rem;
+        margin-top: 5rem;
         margin-left: 4rem;
     }
     .main-section2 #line1-vision{
         margin-top: -2rem;
         margin-left: 3rem;
         padding: 0px 30px 4px 22px;
+        display: flex;
     }
     .main-section2 #line2-vision{
         margin-top: 0rem;
-        margin-left: 8rem;
+        margin-left: -1.5rem;
         padding: 0px 10px 4px 10px;
+        display: flex;
+        position: absolute;
     }
     .main-section2 #line3-vision{
-        margin-top: -0.2rem;
-        margin-left: 11rem;
+        margin-top: 0rem;
+        margin-left: -1.5rem;
         padding: 0px 5px 4px 5px;
+        display: flex;
+        position: absolute;
     }
     .main-section2 .right-heading{
         font-size: 30px;
@@ -146,26 +158,24 @@
     }
     .main-section2 .btn-visionread{
         margin-top: 0rem;
-        margin-left: 8rem;
+        margin-left: 10rem;
     
     }
-    .main-section2 .box{
-        margin-top: -34rem;
-        margin-left: -37rem;
-        padding: 340px 200px 50px 100px;
-    }
-    .main-section2 .box1{
-        margin-top: -24rem;
-        margin-left: -33rem;
-        padding: 340px 200px 50px 100px;
-    }
-    .main-section2 .vision-image{
+    .main-section2 .vision-image img{
+        position: absolute;
+        z-index: 3;
         height: 500px;
-        width: 500px;
-        margin-top: -8rem;
-        margin-left: 27rem;
-        background-size: 40%;
-    }
+        width: 450px;
+        margin-top: -54%;
+        margin-left: -17%;
+        background-repeat: no-repeat; 
+        background-size: contain;       
+}
+    .main-section2 .btn-box {
+        padding: 30px 40px;
+        margin-top: -110px;
+        margin-left: -390px;
+}
 }
 @media only screen and (max-width: 768px) {
   

@@ -147,6 +147,7 @@
     display: block; /* Ensure the video is displayed as a block element */
     width: 100%; /* Set video width to fill its container */
     height: 50%; /* Set video height to fill its container */
+    background:#2B4B8B;
 }
 
 @media only screen and (max-width: 1024px) {

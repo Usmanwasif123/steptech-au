@@ -37,34 +37,6 @@
     letter-spacing:-0.063rem;
 }
 
-#line1-service{
-    left: 18%;
-    top: 38%;
-    position: absolute;
-    z-index: 1;
-    border-radius: 2px 2px 2px 2px;
-    background: linear-gradient(255deg, #7554C1 29.51%, #243F82 93.15%);
-    padding: 0px 50px 4px 20px;
-}
-#line2-service{
-    left: 23.5%;
-    top: 38%;
-    position: absolute;
-    z-index: 1;
-    border-radius: 2px 2px 2px 2px;
-    background: linear-gradient(255deg, #7554C1 29.51%, #243F82 93.15%);
-    padding: 0px 8px 4px 5px;
-}
-#line3-service{
-    left: 24.7%;
-    top: 38%;
-    position: absolute;
-    z-index: 1;
-    border-radius: 2px 2px 2px 2px;
-    background: linear-gradient(255deg, #7554C1 29.51%, #243F82 93.15%);
-    padding: 0px 7px 4px 3px;
-}
-
 .service-heading2{
     z-index: 1;
     color: #464646;
@@ -147,7 +119,7 @@
 
 .service-container .card-image{
     height: 50px;
-    width: 50px;
+    width: 55px;
     margin-left: 20px;
     transition: filter 0.3s ease;
     z-index: 2;
@@ -269,503 +241,34 @@
        .service-container img{
         position: relative;
     }
-        .service-heading1{
-            left: 45%;
-            top: 5% !important;
-
-        }
-        #line1-service{
-            top: 20% !important;
-            left: 44.6%;
-            padding: 0px 45px 4px 20px;
-        }
-        #line2-service{
-            top: 20% !important;
-            left: 51.3%;
-            padding: 0px 7px 4px 5px;
-        }
-        #line3-service{
-            top: 20% !important;
-            left: 52.6%;
-            padding: 0px 6px 4px 3px;
-        }
+       .service-heading1{
+        margin-left: -25rem;
+        font-size: 25px;
+       
+    }
         .service-heading2{
-            font-size: 35px;
-            margin-top: -3rem;
-            margin-left: 6rem;
+            font-size: 70px;
+            margin-left: -16rem;
         }
-        .service-p{
-            top: 40% !important;
-            left: 20%;
-            font-size: 13px;
-            padding: 0px 5px 0px 0px;
-            margin-left: -160px;
+        .service-container .service-p{
+            margin-right: 41rem;
+            margin-left: -187px;
+            font-size: 25px;
         }
-        .service-carousel{
-            position: absolute;
-            z-index: 3;
-        }
-        
-        .card1{
-            height: 355px !important;
-            border-radius: 20px;
-            border: 2px solid #E3E4F6;
-            width: 92% !important;
-            margin-top: 140px !important;
-           
-        }
-        
-        .card2{
-            background: #F4F6FF;
-            height: 355px !important;
-            border-radius: 20px;
-            border: 2px solid #E3E4F6;
-            width: 92% !important;
-            margin-top: 140px !important;
-        }
-        .card3{
-            background: #F4F6FF;
-            height: 355px !important;
-            border-radius: 20px;
-            border: 2px solid #E3E4F6;
-            width: 92% !important;
-            margin-top: 140px !important;
-        }
-        .card4{
-            background: #F4F6FF;
-            height: 355px !important;
-            border-radius: 20px;
-            border: 2px solid #E3E4F6;
-                    width: 92% !important;
-            margin-top: 140px !important;
-        }
-        .card5{
-            background: #F4F6FF;
-            height: 355px !important;
-            border-radius: 20px;
-            border: 2px solid #E3E4F6;
-                    width: 92% !important;
-            margin-top: 140px !important;
-        }
-        .card6{
-            background: #F4F6FF;
-            height: 355px !important;
-            border-radius: 20px;
-            border: 2px solid #E3E4F6;
-                    width: 92% !important;
-            margin-top: 140px !important;
-        }
-        .card7{
-            background: #F4F6FF;
-            height: 355px !important;
-            border-radius: 20px;
-            border: 2px solid #E3E4F6;
-                    width: 92% !important;
-            margin-top: 140px !important;
-        }
-        .card8{
-            background: #F4F6FF;
-            height: 355px !important;
-            border-radius: 20px;
-            border: 2px solid #E3E4F6;
-                    width: 92% !important;
-            margin-top: 140px !important;
-        }
-        .card9{
-            background: #F4F6FF;
-            height: 355px !important;
-            border-radius: 20px;
-            border: 2px solid #E3E4F6;
-                    width: 92% !important;
-            margin-top: 140px !important;
-        }
-        .card10{
-            background: #F4F6FF;
-            height: 355px !important;
-            border-radius: 20px;
-            border: 2px solid #E3E4F6;
-                    width: 92% !important;
-            margin-top: 140px !important;
-        }
-        .card11{
-            background: #F4F6FF;
-            height: 355px !important;
-            border-radius: 20px;
-            border: 2px solid #E3E4F6;
-                    width: 92% !important;
-            margin-top: 140px !important;
-        }
-        .card12{
-            background: #F4F6FF;
-            height: 355px !important;
-            border-radius: 20px;
-            border: 2px solid #E3E4F6;
-            width:90% !important;
-            margin-top: 140px !important;
-        }
-        .card13{
-            background: #F4F6FF;
-            height: 355px !important;
-            border-radius: 20px;
-            border: 2px solid #E3E4F6;
-            width:90% !important;
-            margin-top: 140px !important;
-        }
-        .card1 .circle1{
-            height: 90px;
-            width: 90px;
-            top: 13%;
-            left: 32%;
+        .service-button{
+            margin-left: 75px;
+            margin-top: 273px;
 
-        }
-        .card2 .circle2{
-            height: 90px;
-            width: 90px;
-            top: 13%;
-            left: 32%;
             
         }
-        .card3 .circle3{
-            height: 90px;
-            width: 90px;
-            top: 13%;
-            left: 32%;
-            
-        }
-        .card4 .circle4{
-            height: 90px;
-            width: 90px;
-            top: 13%;
-            left: 33%;
-            
-        }
-        .card5 .circle5{
-            height: 90px;
-            width: 90px;
-            top: 13%;
-            left: 38.2%;
-            
-        }
-        .card6 .circle6{
-            height: 90px;
-            width: 90px;
-            top: 13%;
-            left: 32%;
-            
-        }
-        .card7 .circle7{
-            height: 90px;
-            width: 90px;
-            top: 13%;
-            left: 32%;
-            
-        }
-        .card8 .circle8{
-            height: 90px;
-            width: 90px;
-            top: 13%;
-            left: 32%;
-            
-        }
-        .card9 .circle9{
-            height: 90px;
-            width: 90px;
-            top: 13%;
-            left: 32%;
-            
-        }
-        .card10 .circle10{
-            height: 90px;
-            width: 90px;
-            top: 13%;
-            left: 32%;
-            
-        }
-        .card11 .circle11{
-            height: 90px;
-            width: 90px;
-            top: 13%;
-            left: 32%;
-            
-        }
-        .card12 .circle12{
-            height: 90px;
-            width: 90px;
-            top: 13%;
-            left: 32%;
-            
-        }
-        .card13 .circle13{
-            height: 90px;
-            width: 90px;
-            top: 13%;
-            left: 32%;
-            
-        }
-        .card1 .ai{
-            height: 90px;
-            width: 90px;
-            top: 20%;
-            left: 40%;
-        }
-        .card2 .ai{
-            height: 90px;
-            width: 90px;
-            top: 20%;
-            left: 40%;
-        }
-        .card3 .ai{
-            height: 90px;
-            width: 90px;
-            top: 20%;
-            left: 40%;
-        }
-        .card4 .ai{
-            height: 90px;
-            width: 90px;
-            top: 20%;
-            left: 40%;
-        }
-        .card5 .ai{
-            height: 90px;
-            width: 90px;
-            top: 20%;
-            left: 40%;
-        }
-        .card6 .ai{
-            height: 90px;
-            width: 90px;
-            top: 20%;
-            left: 40%;
-        }
-        .card7 .ai{
-            height: 90px;
-            width: 90px;
-            top: 20%;
-            left: 40%;
-        }
-        .card8 .ai{
-            height: 90px;
-            width: 90px;
-            top: 20%;
-            left: 40%;
-        }
-        .card9 .ai{
-            height: 90px;
-            width: 90px;
-            top: 20%;
-            left: 40%;
-        }
         
-        .card10 .ai{
-            height: 90px;
-            width: 90px;
-            top: 20%;
-            left: 40%;
-        }
-        .card11 .ai{
-            height: 90px;
-            width: 90px;
-            top: 20%;
-            left: 40%;
-        }
-        .card12 .ai{
-            height: 90px;
-            width: 90px;
-            top: 20%;
-            left: 40%;
-        }
-        .card13 .ai{
-            height: 90px;
-            width: 90px;
-            top: 20%;
-            left: 40%;
-        }
-        .ai:hover{
-            box-shadow:
-        1px 1px #8298ff,
-        2px 2px #8298ff,
-        3px 3px #8298ff,
-        4px 4px #8298ff,
-        5px 5px #8298ff,
-        6px 6px #8298ff;
-        -webkit-transform: translateX(-3px);
-        transform: translateX(-3px);
-        transition: .5s ease;
-        -webkit-filter: brightness(50%);
-        -webkit-transition: all 0.5s ease;
-        -moz-transition: all 0.5s ease;
-        -o-transition: all 0.5s ease;
-        -ms-transition: all 0.5s ease;
-        transition: all 0.5s ease;
-        }
-        
-        .card1 .h1-f{
-            margin-left: 2.5rem !important;
-            font-size: 1.1rem;
-        }
-        .card1 .p1-f{
-           margin: 11.25rem 0.06rem 0rem 0.625rem !important;
-           font-size: 1rem;
-      
-        }
-        .card2 .h2-g{
-            margin-left:  2.5rem !important;
-            font-size: 1.1rem;
-        }
-        .card2 .p2-g{
-            margin: 11.25rem 0.06rem 0rem 0.625rem !important;
-           font-size: 0.92rem;
-        }
-        
-        .card3 .h3-w{
-            margin-left: 3.125rem !important;
-            font-size: 1.1rem;
-        }
-        .card3 .p3-w{
-            margin: 11.25rem 0.06rem 0rem 0.625rem !important;
-            font-size: 1rem;
-        }
-        
-        .card4 .h4-a{
-            margin-left: 2.5rem !important;
-            font-size: 1.1rem;
-        }
-        .card4 .p4-a{
-            margin: 11.25rem 0.06rem 0rem 0.625rem !important;
-            font-size: 1rem;
-        }
-        
-        .card5 .h5-b{
-            margin-left: 2rem !important;
-            font-size: 1.1rem;
-        }
-        .card5 .p5-b{
-            margin: 11.40rem 0.06rem 0rem 0.625rem !important;
-            font-size: 1rem;
-
-        }
-        
-        .card6 .h6-c{
-            margin-left: 2rem !important;
-            font-size: 1.1rem;
-        }
-        .card6 .p6-c{
-             margin: 11.40rem 0.06rem 0rem 0.625rem !important;
-             font-size: 1rem;
-        }
-        .card7 .h7-d{
-            margin-left: 3.5rem !important;
-            font-size: 1.1rem;
-        }
-        .card7 .p7-d{
-            margin: 11.25rem 0.06rem 0rem 0.625rem !important;
-            font-size: 1rem;
-        }
-        
-        .card8 .h8-e{
-            margin-left: 5rem !important;
-            font-size: 1.1rem;
-        }
-        .card8 .p8-e{
-            margin: 11.25rem 0.06rem 0rem 0.625rem !important;
-            font-size: 1rem;
-          
-        }
-        .card9 .h9-e{
-            margin-left: 1.5rem !important;
-            font-size: 1.1rem;
-
-        }
-        .card9 .p9-e{
-            margin: 11.25rem 0.06rem 0rem 0.625rem !important;
-            font-size: 1rem;
-
-        }
-        
-        .card10 .h10-e{
-            margin-left: 4rem !important;
-            font-size: 1.1rem;
-        }
-        .card10 .p10-e{
-            margin: 11.25rem 0.06rem 0rem 0.625rem !important;
-            font-size: 1rem;
-        }
-        .card11 .h11-e{
-            margin-left: 2.1rem !important;
-            font-size: 1.1rem;
-        }
-        .card11 .p11-e{
-            margin: 11.25rem 0.06rem 0rem 0.625rem !important;
-            font-size: 1rem;
-
-        }
-        .card12 .h12-e{
-            margin-left: 8.125rem  !important;
-            font-size: 1.1rem;
-        }
-        .card12 .p12-e{
-            margin: 11.25rem 0.06rem 0rem 0.625rem !important;
-            font-size: 1rem;
-        }
-        .card13 .h13-e{
-            margin-left: 3.125rem !important;
-            font-size: 1.1rem;
-        }
-        .card13 .p13-e{
-            margin: 11.25rem 0.06rem 0rem 0.625rem !important;
-            font-size: 1rem;
-        }
-        
-        .service-carousel .slick-slider {
-            margin-top: -13rem !important;
-            width: 57rem !important;
-        }
-        
-        .service-carousel .slick-slide div{
-            margin: -140px 1px 0 0;
-            width: 370px;
-            height: 500px;
-            position: relative;
-            z-index: 3;
-          
-        }
-        
-        .service-carousel .slick-dots li.slick-active button:before {
-            color: #3C4B90 !important;
-            
-        }
-        .service-carousel .slick-dots li button:before {
-            color: #DDE3FF;
-            font-size: 1rem !important;
-            top: 1rem !important;
-        }
-        
-        .service-carousel .slick-initialized .slick-slide {
-            display: flex;
-        }
-        
-        .service-carousel .slick-prev {
-            left: 0px;
-            margin-left: -30px;
-            background-color:#434395 !important;
-            border-radius: 10px;
-        }
-        .service-carousel .slick-next{
-            right: 0px;
-            background-color: #434395 !important;
-            border-radius: 10px 10px 10px 10px;
-        }
-        .service-box{
-            background: linear-gradient(256deg, #6347AA 7.85%, #233F81 107.97%);
+        .service-container .service-box{
             height: 20px;
             width: 75vw;
             border-radius: 35px;
-            margin-top: 20px;
+            margin-top: 480px;
             padding: 60px;
-            margin-left: 70px;
-            position: absolute;
-            box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.7);
+            margin-left: -970px;
     }
     
     .service-phone{
@@ -816,6 +319,7 @@
         top: 50%;
         left: 70%;
     }
+
     }
 
 @media only screen and (max-width: 768px) {

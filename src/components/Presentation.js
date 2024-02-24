@@ -15,7 +15,7 @@ const Presentation = () => {
 
 
   const [content, setContent] = useState({
-    imageSrc1: 'https://imgtr.ee/images/2024/02/20/078be0c22df45ec68a636526f0a045ab.png',
+    imageSrc1: 'https://i.ibb.co/SsHBgxS/1.jpg',
     imageSrc2: 'https://imgtr.ee/images/2024/02/20/65da18de939f926930b9430b2e80df64.png',
     imageSrc3: 'https://imgtr.ee/images/2024/02/20/078be0c22df45ec68a636526f0a045ab.png',
     imageSrc4: 'https://imgtr.ee/images/2024/02/20/65da18de939f926930b9430b2e80df64.png',
@@ -40,14 +40,14 @@ case 'all':
   break;
 case 'web':
   setContent({
-    imageSrc1: 'https://imgtr.ee/images/2024/02/20/078be0c22df45ec68a636526f0a045ab.png',
-    imageSrc2: undefined,
-    imageSrc3: undefined,
-    imageSrc4: undefined,
-    imageSrc5: 'https://imgtr.ee/images/2024/02/20/65da18de939f926930b9430b2e80df64.png',
-    imageSrc6: 'https://imgtr.ee/images/2024/02/20/078be0c22df45ec68a636526f0a045ab.png',
-    imageSrc7: undefined,
-    imageSrc8: undefined,
+    imageSrc1: 'https://i.ibb.co/sb3svFn/image-4.jpg',
+    imageSrc2: 'https://i.ibb.co/LCV2GCg/2.jpg',
+    imageSrc3: 'https://i.ibb.co/DkshKyG/Mask-group-2.jpg',
+    imageSrc4: 'https://i.ibb.co/4K0X7D7/Mask-group-3.jpg',
+    imageSrc5: 'https://i.ibb.co/SsHBgxS/1.jpg',
+    imageSrc6: 'https://i.ibb.co/DkshKyG/Mask-group-2.jpg',
+    imageSrc7: 'https://i.ibb.co/SsHBgxS/1.jpg',
+    imageSrc8: 'https://i.ibb.co/sb3svFn/image-4.jpg',
   });
   break;
 case 'app':
@@ -88,37 +88,22 @@ useEffect(() => {
         baseHeight = 500 + Math.ceil(numImages / 2) * 300;
         break;
       case 'web':
-        baseHeight = 200 + Math.ceil(numImages / 2) * 50;
+        baseHeight = 500 + Math.ceil(numImages / 2) * 300;
         break;
       case 'app':
-        baseHeight = 100 + Math.ceil(numImages / 2) * 25;
+        baseHeight = 500 + Math.ceil(numImages / 2) * 300;
         break;
       case 'game':
-        baseHeight = 5 + Math.ceil(numImages / 2) * 5;
+        baseHeight = 500 + Math.ceil(numImages / 2) * 300;
         break;
       default:
         baseHeight = 500;
         break;
     }
-
-    const additionalHeight = Math.ceil(numImages / 2) * (
-      category === 'web' ? 50 : (
-        category === 'app' ? 25 : (
-          category === 'game' ? 5 : 300
-        )
-      )
-    );
-
-    const finalHeight = baseHeight + additionalHeight;
-    console.log("final_height", finalHeight );
-    return finalHeight;
-  };
+  }
 
   const initialHeight = calculateInitialHeight();
-  console.log("i_height", initialHeight);
   setContainerHeight(initialHeight);
-  console.log('Category:', category); // Log category value
-    console.log('Content:', content); // Log content value
 }, [category, content]);
 
 return (
@@ -135,12 +120,13 @@ return (
       {/* Create four equal columns that sit next to each other */}
       <Col col={12} md={8} lg={6} className='column'>
         {Object.values(content).slice(0, 4).map((src, index) =>
-          src && <img key={index} src={src} className="img-fluid" alt="wedding" />
+          src &&
+          <img key={index} src={src} className="img-fluid" alt="wedding" />
         )}
       </Col>
       <Col col={12} md={8} lg={6} className='column'>
         {Object.values(content).slice(4).map((src, index) =>
-          src && <img key={index} src={src} className="img-fluid" alt="rocks" />
+          src && <img key={index} src={src} className="img-fluid" alt="rocks" /> 
         )}
       </Col>
     </Row>

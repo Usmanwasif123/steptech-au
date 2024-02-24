@@ -1,12 +1,13 @@
 import React, { useState } from 'react';
 import '../assets/wrapper/Vision.css';
 import { Link } from 'react-router-dom';
+import { Container, Row, Col } from 'react-bootstrap';
 
 const About = () => {
   const images = [
-    'https://imgtr.ee/images/2024/02/21/62fadf09cc1c385227b233bdff72977e.png',
-    'https://imgtr.ee/images/2024/02/20/65da18de939f926930b9430b2e80df64.png',
-    'https://imgtr.ee/images/2024/02/20/078be0c22df45ec68a636526f0a045ab.png',
+    'https://i.ibb.co/NrW3xb5/image.png',
+    'https://i.ibb.co/4sfpZDb/image.png',
+    'https://i.ibb.co/fC0THMv/image.png',
     // Add more image URLs as needed
   ];
 
@@ -52,9 +53,6 @@ const About = () => {
         className='btn-box'
         style={{
           background: '#fff',
-          padding: '40px 50px',
-          marginTop: '-130px',
-          marginLeft: '-550px',
           zIndex: '3',
           display: 'flex',
           alignItems: 'center',
