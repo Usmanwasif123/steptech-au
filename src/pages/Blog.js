@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from '../BlogComp/Navbar';
-import Footer from '../BlogComp/Footer';
+import Footer from '../components/Footer';
 import ActionGame from '../BlogComp/ActionGame';
 
 const Blog = () => {

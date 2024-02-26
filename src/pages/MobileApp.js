@@ -4,7 +4,7 @@ import Ecommerce from '../MobileAppComp/Ecommerce';
 import Process from '../MobileAppComp/Process';
 import Webdevelopement from '../MobileAppComp/Webdevelopement';
 import Contact from '../MobileAppComp/Contact';
-import Footer from '../MobileAppComp/Footer';
+import Footer from '../components/Footer';
 import Magneto from '../MobileAppComp/Magneto';
 import Shopify from '../MobileAppComp/Shopify';
 import Help from '../MobileAppComp/Help';

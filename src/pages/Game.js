@@ -2,7 +2,7 @@ import React from 'react';
 import Navbar from '../GameComp/Navbar';
 import Process from '../GameComp/Process';
 import Contact from '../GameComp/Contact';
-import Footer from '../GameComp/Footer';
+import Footer from '../components/Footer';
 import Shopify from '../GameComp/Shopify';
 import Help from '../GameComp/Help';
 import Partner from '../GameComp/Partner';

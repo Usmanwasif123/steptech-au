@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from '../BitcoinBlogComp/Navbar';
-import Footer from '../BitcoinBlogComp/Footer';
+import Footer from '../components/Footer';
 import ActionGame from '../BitcoinBlogComp/ActionGame';
 
 const Bitcoinblog = () => {

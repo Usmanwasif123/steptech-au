@@ -1,5 +1,5 @@
 import React from 'react';
-import '../assets/BlogWrapper/Footer.css';
+import '../assets/wrapper/Footer.css';
 import {Facebook, Instagram, LinkedIn, Twitter, ArrowRight, ChevronRight} from '@mui/icons-material/';
 import { Link } from 'react-router-dom';
 

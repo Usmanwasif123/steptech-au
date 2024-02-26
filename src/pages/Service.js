@@ -2,7 +2,7 @@ import React from 'react';
 import Navbar from '../ServiceComp/Navbar';
 import Process from '../ServiceComp/Process';
 import Contact from '../ServiceComp/Contact';
-import Footer from '../ServiceComp/Footer';
+import Footer from '../components/Footer';
 import Shopify from '../ServiceComp/Shopify';
 import Help from '../ServiceComp/Help';
 import Partner from '../ServiceComp/Partner';

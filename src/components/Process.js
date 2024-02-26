@@ -15,6 +15,7 @@ const Process = () => {
         background: 'transparent',
         marginLeft: '5px',
         width: '150px',
+        height: '400px',
 
         '@media only screen and (min-width: 1024px) and (max-width: 1200px)': {
           /* Your CSS rules for screens between 1024px and 1200px wide */

@@ -4,7 +4,7 @@ import Ecommerce from '../WebComp/Ecommerce';
 import Process from '../WebComp/Process';
 import Webdevelopement from '../WebComp/Webdevelopement';
 import Contact from '../WebComp/Contact';
-import Footer from '../WebComp/Footer';
+import Footer from '../components/Footer';
 import Magneto from '../WebComp/Magneto';
 import Shopify from '../WebComp/Shopify';
 import Help from '../WebComp/Help';

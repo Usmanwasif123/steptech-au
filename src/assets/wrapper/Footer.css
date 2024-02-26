@@ -4,15 +4,15 @@
 }
 
 .footer-container{
-    height: 100vh;
+    height: 90vh;
     width: 98.7vw;
     background: #333;
     position: relative;
-    margin-top: 100px;
+    margin-top: 0px;
 }
 
 .footer-container img{
-    height: 100vh;
+    height: 90vh;
     width: 98.7vw;
     position: relative;
     object-fit: cover;
@@ -37,7 +37,7 @@
 .footer-container .footer-para{
     position: absolute;
     z-index: 2;
-    top: 45%;
+    top: 35%;
     left: -27%;
     padding: 0px 25px 0px 380px;
     margin: 0px 1000px 0px 0px;
@@ -55,19 +55,21 @@
 .quick-links  h1{
     font-size: 25px;
     text-transform: capitalize;
+    color: #fff;
 }
 
 .quick-foolinks li{
-    font-size: 15px;
+    font-size: 20px;
     line-height: 1.5;
     font-weight: 500;
-    margin-left: 15px;
+    margin-left: 7px;
     margin-top: 10px;
     padding-top: 2px;
     list-style: none;
     color: #fff;
     text-transform: capitalize;
     font-family: Poppins, sans-serif;
+    text-decoration: none;
 }
 
 .quick-foolinks li:hover{
@@ -86,16 +88,18 @@
 .service-links h1{
     font-size: 25px;
     text-transform: capitalize;
+    margin-left: -2rem;
 }
 .service-foolinks li{
-    font-size: 15px;
+    font-size: 18px;
     font-weight: 500;
-    margin-left:5px;
+    margin-left: -2rem;
     margin-top: 10px;
     padding-top: 2px;
     list-style: none;
     text-transform: capitalize;
     color: #fff;
+    
 }
 .service-links2 {
     position: absolute;
@@ -110,7 +114,7 @@
     text-transform: capitalize;
 }
 .service-foolinks2 li{
-    font-size: 15px;
+    font-size: 18px;
     font-weight: 500;
     margin-left:5px;
     margin-top: 10px;
@@ -123,7 +127,7 @@
 .contact-link {
     position: absolute;
     top: 19%;
-    left: 83%;
+    left: 85%;
     color: #fff;
     text-transform: capitalize;
     font-size: 13px;
@@ -166,13 +170,13 @@
 }
 
 .footer-container .banner-line{
-    top: 95%;
-    left: 9%;
+    top: 85%;
+    left: 10%;
     position: absolute;
     z-index: 1;
     background: rgb(255, 255, 255);
     margin-left: -120px;
-    padding: 0px 673px 1px;
+    padding: 0px 650px 1px;
     margin-top: -10px;
     display: flex;
     align-items: center;
