@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import '../assets/wrapper/Contact.css';
-import contactGif  from "../assets/videos/contactus_gif.webm";
+import contactGif  from "../assets/videos/contact_gif.mp4";
 const Contact = () => {
 
    const forminitial={
@@ -28,7 +28,7 @@ const Contact = () => {
       <div className='contact-box' style={{borderRadius: '30px'}}>&nbsp;</div>
       <h1 className='main-heading'>Contact<span className='main-span'>us</span></h1>
       <p>Get To Know More About  By Connecting With Us.</p>
-      <form className='contact-form' onSubmit={onSubmit}>
+      <form className='contact-form' onSubmit={onSubmit} style={{marginLeft: '-5rem'}}>
       <input className='firstname-input' type='text' name='firstname' value={values.firstname} placeholder='First Name' onChange={handleChange}/>
       <input className='lastname-input'type='text' name='lastname'value={values.lastname} placeholder='Last Name'  onChange={handleChange}/>
       <input className='email-input' type='email' name='email' value={values.email} placeholder='Email'  onChange={handleChange}/>
@@ -38,7 +38,7 @@ const Contact = () => {
       </form>
       <div className='video-container'>
       <video autoPlay loop muted>
-        <source src={contactGif} type="video/webm"/>
+        <source src={contactGif} type="video/mp4"/>
       </video>
     </div>
     </div>

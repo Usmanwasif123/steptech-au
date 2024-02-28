@@ -31,7 +31,7 @@ const Presentation = () => {
   },
   
   imageSrc2: {
-     src: 'https://imgtr.ee/images/2024/02/20/65da18de939f926930b9430b2e80df64.png',
+     src: 'https://i.ibb.co/jD9S8Sz/Mockup-3-motor-mods-01-01.jpg',
      heading: 'Heading 2',
   },
 
@@ -47,13 +47,13 @@ const Presentation = () => {
   } ,
 
   imageSrc5:{
-    src: 'https://imgtr.ee/images/2024/02/20/65da18de939f926930b9430b2e80df64.png',
+    src: 'https://i.ibb.co/DkshKyG/Mask-group-2.jpg',
     heading: 'Heading 5',
 
   },
 
   imageSrc6:{
-    src: 'https://imgtr.ee/images/2024/02/20/078be0c22df45ec68a636526f0a045ab.png',
+    src: 'https://i.ibb.co/d53fCj5/mockup-4-jpg-Mesa-de-trabajo-1.jpg',
     heading: 'Heading 6',
   }, 
   imageSrc7:{
@@ -76,7 +76,7 @@ case 'all':
   },
   
   imageSrc2: {
-     src: 'https://imgtr.ee/images/2024/02/20/65da18de939f926930b9430b2e80df64.png',
+     src: 'https://i.ibb.co/jD9S8Sz/Mockup-3-motor-mods-01-01.jpg',
      heading: 'Heading 2',
   },
 
@@ -92,13 +92,13 @@ case 'all':
   } ,
 
   imageSrc5:{
-    src: 'https://imgtr.ee/images/2024/02/20/65da18de939f926930b9430b2e80df64.png',
+    src: 'https://i.ibb.co/DkshKyG/Mask-group-2.jpg',
     heading: 'Heading 5',
 
   },
 
   imageSrc6:{
-    src: 'https://imgtr.ee/images/2024/02/20/078be0c22df45ec68a636526f0a045ab.png',
+    src: 'https://i.ibb.co/d53fCj5/mockup-4-jpg-Mesa-de-trabajo-1.jpg',
     heading: 'Heading 6',
   }, 
   imageSrc7:{
@@ -152,11 +152,11 @@ case 'web':
 case 'app':
   setContent({
     imageSrc1:{
-      src:'https://imgtr.ee/images/2024/02/20/078be0c22df45ec68a636526f0a045ab.png',
+      src:'https://i.ibb.co/GF4y2th/Mockup-1-stylista-01.jpg',
       heading: 'App 1'
     }, 
     imageSrc2:{
-      src: 'https://imgtr.ee/images/2024/02/20/65da18de939f926930b9430b2e80df64.png',
+      src: 'https://i.ibb.co/jD9S8Sz/Mockup-3-motor-mods-01-01.jpg',
       heading: 'App 2'
     },
     imageSrc3:{
@@ -168,11 +168,11 @@ case 'app':
       heading: 'App 4'
     }, 
     imageSrc5:{
-      src:'https://imgtr.ee/images/2024/02/20/65da18de939f926930b9430b2e80df64.png',
+      src:'https://i.ibb.co/d53fCj5/mockup-4-jpg-Mesa-de-trabajo-1.jpg',
       heading: 'App 5'
     }, 
     imageSrc6:{
-      src: 'https://imgtr.ee/images/2024/02/20/078be0c22df45ec68a636526f0a045ab.png',
+      src: 'https://i.ibb.co/NZccq9b/Mockup-2-doctor-aid-01.jpg',
       heading: 'App 6'
     }, 
     imageSrc7:{

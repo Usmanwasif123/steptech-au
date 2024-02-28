@@ -56,8 +56,8 @@ const Partner = () => {
 
         // Media queries for responsiveness
     '@media (max-width: 1024px)': {
-      width: '40px', // Adjust width for smaller screens
-      marginLeft: '-50px',
+      width: '20px', // Adjust width for smaller screens
+      height: '20px'
   },
     }));
 

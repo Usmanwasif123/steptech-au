@@ -11,7 +11,7 @@
     margin-top: 0px;
 }
 
-.footer-container img{
+.footer-container .footer-image{
     height: 90vh;
     width: 98.7vw;
     position: relative;
@@ -194,6 +194,12 @@
 }
 
 @media only screen and (max-width: 1024px) {
+    .footer-container{
+        height: 110vh;
+    }
+    .footer-container .footer-image{
+        height: 110vh;
+    }
     .footer-container .footer-para{
         padding: 0px 25px 0px 380px;
         margin: -18px 687px 0px -98px;
@@ -205,37 +211,51 @@
     }
     .footer-container .quick-links  h1{
         font-size: 22px;
+         margin-left: 3rem;
     }
     .footer-container .quick-foolinks li{
-        font-size: 14px;
+        font-size: 16px;
         padding-top: 6px;
         margin-top: 8px;
+        margin-left: 3rem;
     }
     .footer-container .service-links h1{
+        margin-left: 4rem;
+        margin-top: 0.5rem;
         font-size: 20px;
         
     }
     .footer-container .service-foolinks li{
-        font-size: 15px;
-        margin-left: 0px;
+        font-size: 16px;
+        margin-left: 63px;
         padding-top: 2px;
     }
     .footer-container .service-links2 h1{
         font-size: 20px;
-        margin-left: 20px;
+        margin-left: 116px;
     }
     .footer-container .service-foolinks2 li{
-        font-size: 15px;
-        margin-left: 5px; 
+        font-size: 16px;
+        margin-left: 119px;
         padding-top: 2px;
     }
 
     .footer-container .contact-link h1{
         font-size: 20px;
+        margin-top: 16rem;
+        margin-left: -32rem;
     }
     .footer-container .contact-foolinks li{
         font-size: 15px;
-        margin-left: 5px; 
+        margin-left: -54rem; 
         padding-top: 2px;
+    }
+    .footer-container .contact-foolinks img{
+        margin-left: -34rem;
+    }
+
+    .footer-container .banner-line{
+        padding: 0px 487px 1px;
+        margin-left: -91px;
     }
 }

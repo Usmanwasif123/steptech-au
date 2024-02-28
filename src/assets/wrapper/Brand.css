@@ -42,6 +42,7 @@
     text-transform: capitalize;
     cursor: pointer;
     opacity: 0.5;
+    transition: opacity 0.3s ease 0s, color 0.3s ease 0s;
 }
 
 .brand-container .link-active{
@@ -127,11 +128,6 @@
         margin: 50px 50px 12px 300px;
         position: absolute;
     }
-    .brand-p{
-        font-size: 19px;
-        margin: 150px 25px 12px 90px;
-        position: absolute;
-    }
     .brand-container .link-container{
         display: flex;
         justify-content: center;
@@ -145,12 +141,21 @@
     .active-bar {
        margin-top: 200px;
        margin-left: 150px;
+    }
+       .brand-p{
+        padding: 0px 10px 1px 1px;
+        margin: -200px 15px 12px 600px;
+    }
     
-      }
-      .brand-image{
-        margin-top: -400px;
-        margin-left: 250px;
-    
+    .brand-image{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50%;
+        width:  35%;
+        margin-top: -350px;
+        margin-left: 600px;
+
     }
 
 }

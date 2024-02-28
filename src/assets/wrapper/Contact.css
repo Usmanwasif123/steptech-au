@@ -19,7 +19,7 @@
 
 .contact-container .contact-box{
     top: -15%;
-    left: 30%;
+    left: 23%;
     position: absolute;
     z-index: 1;
     border: 1px solid #dae1fa;
@@ -34,7 +34,7 @@
     position: absolute;
     z-index: 2;
     top: 15%;
-    left: 15%;
+    left: 8%;
     font-size: 50px;
     font-family: Poppins, sans-serif;
     text-transform: capitalize;
@@ -43,7 +43,7 @@
 .contact-container .main-span{
     position: absolute;
     z-index: 2;
-    left: 105%;
+    left: 100%;
     font-size: 50px;
     font-family: Poppins, sans-serif;
     text-transform: capitalize;
@@ -54,7 +54,7 @@
     position: absolute;
     z-index: 2;
     top: 28%;
-    left: 15%;
+    margin-left: -8%;
     font-size: 20px;
     font-family: Poppins, sans-serif;
     text-transform: capitalize;
@@ -64,7 +64,7 @@
     position: absolute;
     z-index: 2;
     top: 35%;
-    left: 14%;
+    left: -10%;
 }
 
 .firstname-input{
@@ -134,20 +134,21 @@
 }
 .video-container {
     position: relative; /* Change position to relative */
-    z-index: 3;
-    width: 30%; /* Set width to 100% of parent container */
-    height: auto; /* Set height to auto to maintain aspect ratio */
-    margin-top: -40rem; /* Set margin as desired */
-    margin-left: 40rem; /* Set margin as desired */
-    background: #333; /* Remove background color */
+    z-index: 9999;
+    width: 50%; /* Set width to 100% of parent container */
+    height: 100%; /* Set height to auto to maintain aspect ratio */
+    margin-top: -37rem; /* Set margin as desired */
+    margin-left: 42rem; /* Set margin as desired */
     overflow: hidden;
+    
 }
 
 .video-container video {
     display: block; /* Ensure the video is displayed as a block element */
     width: 100%; /* Set video width to fill its container */
-    height: 50%; /* Set video height to fill its container */
-    background:#2B4B8B;
+    height: 100%; /* Set video height to fill its container */
+    background: transparent;
+    background-size: 100%;
 }
 
 @media only screen and (max-width: 1024px) {

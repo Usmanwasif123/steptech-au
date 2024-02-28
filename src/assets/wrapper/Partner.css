@@ -138,35 +138,35 @@
         position: absolute;
         z-index: 2;
         left: 2%;
-
     }
+
     .partner-item1 img{
         position: absolute;
         z-index: 2;
         object-fit: cover;
         background-repeat: no-repeat;
-        left: 15%;
-        top: 5%;
+        left: 17%;
+        top: 15%;
         height: 8rem;
     }
     .partner-grid2{
         position: absolute;
         z-index: 2;
-        left: 23%;
+        left: 21.5%;
     }
     .partner-item2 img{
         position: absolute;
         z-index: 2;
         object-fit: cover;
         background-repeat: no-repeat;
-        left: 9%;
-        top: 5%;
-        height: 10rem;
+        left: 17%;
+        top: 15%;
+        height: 8rem;
     }
     .partner-grid3{
         position: absolute;
         z-index: 2;
-        left: 42%;
+        left: 41%;
     }
     
     .partner-item3 img{
@@ -174,23 +174,23 @@
         z-index: 2;
         object-fit: cover;
         background-repeat: no-repeat;
-        left: 9%;
-        top: 5%;
-        height: 10rem;
+        left: 17%;
+        top: 15%;
+        height: 8rem;
     }
     .partner-grid4{
         position: absolute;
         z-index: 2;
-        left: 61%;
+        left: 60.5%;
     }
     .partner-item4 img{
         position: absolute;
         z-index: 2;
         object-fit: cover;
         background-repeat: no-repeat;
-        left: 9%;
-        top: 5%;
-        height: 10rem;
+        left: 17%;
+        top: 15%;
+        height: 8rem;
     }
     .partner-grid5{
         position: absolute;
@@ -204,7 +204,9 @@
         background-repeat: no-repeat;
         left: 9%;
         top: 5%;
-        height: 10rem;
+        height: 10rem; left: 17%;
+        top: 15%;
+        height: 8rem;
     }
 
     .partner-container h1{

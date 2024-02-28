@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 const Footer = () => {
   return (
     <div className='footer-container'>
-      <img src='https://i.ibb.co/fMtLC6F/footer.jpg' alt='footer-bg'/>
+      <img  className='footer-image' src='https://i.ibb.co/fMtLC6F/footer.jpg' alt='footer-bg'/>
       <div className='footer-logo'><a href='https://steptech.com.au/'></a></div>
       <p className='footer-para'>At Step Tech Global, your journey isn’t just a project; it’s our shared expedition towards excellence. 
         Join hands with us to redefine possibilities and conquer new horizons in the digital real.

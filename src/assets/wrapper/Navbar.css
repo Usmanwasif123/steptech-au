@@ -5,13 +5,28 @@
 }
 
 .nav-container{
+  position: fixed;
   height: 100vh;
   width: 100vw;
   display: flex;
   flex-direction: column;
   align-items: center;
   flex-wrap: wrap;
+  margin-left: 0px;
+  background: transparent;
+ 
 }
+ 
+.awssld__content 
+{
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: -50px;
+}
+
 .nav-container img{
     max-height: 100vh;
     max-width: 100vw;
@@ -64,8 +79,8 @@
     background: #fff;
     width: 300px;
     z-index: 5;
-    border-radius: 2px;
-    margin-top: 8.5vh;
+    border-radius: 0.13rem;
+    margin-top: -50rem;
     margin-left: 2vw;
     display: flex;
     flex-direction: column;
@@ -258,7 +273,7 @@
     cursor: pointer;
     color: #233f81;
     z-index: 1;
-    background: #fff;
+    background: #ffffff;
     top: 6%;
     left: 78%;
 }
@@ -291,7 +306,13 @@
     line-height: 92.5px;
     letter-spacing: -1px;   
 }
-.banner-heading h1{
+
+@keyframes slidein {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+.banner-heading{
     position: absolute;
     z-index: 1;
     top: 35%;
@@ -304,7 +325,15 @@
     line-height: 100.5px; 
     letter-spacing: -1px;
     text-transform: capitalize;
+    animation: slidein 5s;
+    animation-iteration-count: infinite;
+    -webkit-animation: slidein 5s;
+    -moz-animation: slidein 5s;
+    -o-animation: slidein 5s;
+    -ms-animation: slidein 5s;
 }
+
+
 .banner-half-h {
     position: absolute;
     z-index: 2;
@@ -373,7 +402,7 @@
     padding: 0px 5px 4px;
 }
 
-.btn-start{
+.nav-container .btn-start{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -388,8 +417,8 @@
     border: none;
     outline: 1px solid #fff;
     background: #fff;
-    margin-top: -150px;
-    margin-left: -915px;
+    margin-top: 460px;
+    margin-left: -2255px;
 
 }
 
@@ -557,7 +586,8 @@
     display: hidden;
 }
 
-@media only screen and (max-width: 1024px) {
+/* Media query for larger devices (e.g., laptops and desktops) */
+@media only screen and (min-width: 1024px) {
     .nav-container .logo{
         top: 9%;
     }
@@ -584,11 +614,11 @@
     }
     
     .nav-items .portfolio{
-        left: 60%;
+        left: 62%;
     }
     
     .nav-items .blog{
-        left: 68%;
+        left: 69%;
     }
     
     .dropdown {
@@ -712,7 +742,7 @@
         font-size: 20px;
         padding: 10px 25px 10px 25px;
         margin-top: -201px;
-        margin-left: -640px;
+        margin-left: -600px;
     
     }
     
@@ -869,7 +899,8 @@
     }
 }
 
-@media only screen and (max-width: 768px) {
+/* Media query for medium-sized devices (e.g., tablets) */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
     .nav-container img{
         height:  100vh;
         width: 97.8vw;
@@ -945,7 +976,8 @@
         top: 86%;
     }
 }
-@media only screen and (max-width: 480px) {
+/* Media query for small devices (e.g., mobile phones) */
+@media only screen and (max-width: 767px) {
     .nav-container .logo{
         height: 100vh;
         width: 50vw;
@@ -1004,72 +1036,3 @@
     }
 }
 
-@media only screen and (max-width: 320px) {
-    .nav-container{
-        width: 95vw;
-    }
-    .nav-container img{
-        width: 95vw;
-    }
-    .nav-container .logo{
-        height: 100vh;
-        width: 50vw;
-        top: 8%;
-        background-size: 55%;
-    }
-    .bars{
-        display: none;
-    }
-    .banner-line{
-        top: 10%;
-        left: 0%;
-        margin-top: 1px;
-        margin-left: 283px;
-        margin-right: 20px;
-        padding: 0px 0px 1px;
-        background: rgb(206, 12, 5);
-    }
-    .banner-span{
-       font-size: 20px;
-       top: 200px;
-    }
-    .banner-half-h {
-        margin-left: -80px;
-        top: 80px;
-        padding: 40px 0px 40px 190px;
-    }
-    .banner-heading h1{
-        top: 280px;
-        font-size: 30px;
-    }
-    h1.digital {
-        margin-top: -290px;
-        margin-left: 50px;
-        font-size: 30px;
-    }
-    .banner-heading .potential{
-        font-size: 30px;
-        margin-left: -12px;
-        top: 70px;
-    }
-    #line1{
-        top: 75%;
-        left: 10%;
-        padding: 0px 20px 4px;
-    }
-    #line2{
-        top: 75%;
-        left: 24%;
-        padding: 0px 3px 4px;
-    }
-    #line3{
-        top: 75%;
-        left: 27%;
-        padding: 0px 2px 4px;
-    }
-    .btn-read{
-        left: 10%;
-        font-size: 10px;
-        padding-left: 15px;
-    }
-}

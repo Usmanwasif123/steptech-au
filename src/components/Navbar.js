@@ -3,13 +3,26 @@ import '../assets/wrapper/Navbar.css';
 import {Link} from 'react-router-dom';
 import {FaBars, FaTimes} from 'react-icons/fa';
 import {KeyboardArrowDownOutlined, Clear}from '@mui/icons-material';
-import navbarGif  from "../assets/videos/navbar_gif.mp4";
+import AwesomeSlider from 'react-awesome-slider';
+import 'react-awesome-slider/dist/styles.css';
+
 
 const Navbar = () => {
   const [isSidebarOpen, setSidebarOpen] = useState(false);
   const [isVisible, setIsVisible] = useState(false);
   const [isDropdownVisible, setDropdownVisible] = useState(false);
   const dropdownRef = useRef(null);
+  const [currentIndex, setCurrentIndex] = useState(0);
+  const backgrounds = [ '#4d459c', '#362175', '#0c071c'];
+  const texts = ['OPTIMIZE YOUR DIGITAL POTENTIAL', 'You’re in Good Hands With Allstate', 'Think Different.']; // Example texts
+  
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentIndex((prevIndex) => (prevIndex + 1) % backgrounds.length);
+    }, 5000); // Change slide every 5 seconds
+
+    return () => clearInterval(interval);
+  }, []);
 
 
   const handleMouseEnter = () => {
@@ -22,22 +35,25 @@ const Navbar = () => {
 
 
   return (
-    <div className={'nav-container'} style={{ '--nav-width': '100vw', '--nav-height': '100vh' }}>
-         <div className={'logo'}><a href='https://steptech.com.au/'></a></div>
+    <div className={'nav-container'} col-md-6 col-xs-6>
+         <div className={'logo'} col-md-6 col-xs-6><a href='https://steptech.com.au/'></a></div>
          <button className='bars' onClick={() => setSidebarOpen(!isSidebarOpen)} >
               {isSidebarOpen ? <FaTimes /> : <FaBars />}
           </button>
+          <AwesomeSlider selected={currentIndex} bullets={false} className='awssld__content'>
+        {backgrounds.map((bgColor, index) => (
+          <div key={index} style={{ backgroundColor: bgColor}}>
         <nav>
         <ul className='nav-items'>
             <li><Link to='/' className='home'>home</Link></li>
             <li><Link to='/about-us' className='about'>about us</Link></li>
             <li className='dropdown' ref={dropdownRef}>
-            <Link to='/service'  className='service' style={{paddingTop: '85px'}}onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
+            <Link to='/service'  className='service' style={{marginTop: '-340px'}}onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
               services
             <KeyboardArrowDownOutlined style={{position:'absolute', zIndex: 1, fontSize: '25px', marginTop: '1px', paddingLeft: '63px', color: "#fff"}} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}/>
             </Link>
             {isDropdownVisible &&
-              <div className='dropdown-content'>
+              <div className='dropdown-content' style={{marginTop: '-15.39rem'}}>
                 <li><Link to='/web-design-and-development' className='nav-service1'>web design & development</Link></li>
                 <li><Link to='/app-development' className='nav-service2'>Mobile UI/UX Design & development</Link></li>
                 <li><Link to='/game-design-and-development' className='nav-service3'>game design and development</Link></li>
@@ -56,29 +72,15 @@ const Navbar = () => {
           </li>
             <li><Link to='/portfolio' className='portfolio'>portfolio</Link></li>
             <li><Link to='/blog' className='blog'>blog</Link></li>
-            <button><a href='tel:+61410025346' class='call-btn'>+61 410 025 346</a></button>
-            <button>
-              <FaTimes/>
-            </button>
+            <button style={{color: 'transparent'}}><a href='tel:+61410025346' className='call-btn'>+61 410 025 346</a></button>
         </ul>
         </nav>
-      <img src='https://i.ibb.co/Y8F8xfL/Rectangle-1.png' alt='Banner'></img>
-      <div className='banner-line'></div>
-      <div className='banner-span'>
-        <span>Welcome to step tech</span>
-      </div>
-      <div className='banner-heading'>
-        <h1>OPTIMIZE YOUR<br/>
-        <div className='banner-half-h'>
-            <h1 className='digital'>DIGITAL</h1>
-        </div>
-        <h1 className='potential'>POTENTIAL</h1>
-        </h1>
-      </div>
-      <div id='line1'></div>
-      <div id='line2'></div>
-      <div id='line3'></div>
-      <button className='btn-start' onClick={() => setIsVisible(true)}>get started</button>
+          <div className='banner-line'></div>
+            <p className='banner-heading'>{texts[index]}</p>
+          </div>
+        ))}
+      </AwesomeSlider>
+      <button className='btn-start' col-md-6 col-xs-6 onClick={() => setIsVisible(true)}>get started</button>
       {isVisible && 
         <div className='visible-div'>
           <img style={{height: '300px', width: '500px'}} src='https://i.ibb.co/h8xCwvR/image.png' alt='visible-image' />
