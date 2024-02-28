@@ -587,7 +587,7 @@
 }
 
 /* Media query for larger devices (e.g., laptops and desktops) */
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1024px) and (max-width: 1200px){
     .nav-container .logo{
         top: 9%;
     }
