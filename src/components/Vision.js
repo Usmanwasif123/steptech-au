@@ -25,13 +25,14 @@ const About = () => {
   const isLastImage = currentImageIndex === images.length - 1;
 
   return (
-    <div className='main-section2'>
-      <h1 className='right-vision'>About Us</h1>
-      <div id='line1-vision'></div>
-      <div id='line2-vision'></div>
-      <div id='line3-vision'></div>
-      <h1 className='right-heading'>Maximize the High Potential of Your Business</h1>
-      <p className='right-p'>
+    <Container className='main-section2'>
+      <Row>
+      <Col  xs={12}  md={6} className='right-vision'>About Us</Col>
+      <Col   xs={12} md={6}id='line1-vision'></Col>
+      <Col  xs={12}  md={6} id='line2-vision'></Col>
+      <Col  xs={12}  md={6} id='line3-vision'></Col>
+      <Col  xs={12}  md={6} className='right-heading'>Maximize the High Potential of Your Business</Col>
+      <Col  xs={12}  md={6} className='right-p'>
         Step Tech is the most prominent website development company in Australia. We were established in 2015 to provide
         our customers with an unparalleled digital experience. We are not just building your website. We are building
         your business. We go beyond the ordinary for our clients by offering unique, customized, and productive
@@ -42,14 +43,18 @@ const About = () => {
         Step Tech is a hub for growth, education, and exploration for creative individuals. We are an eclectic bunch of
         brave and creative thinkers from every background. Our focus on inclusion throughout the organization offers our
         personnel enormous opportunities, and our open culture propels achievement for our clients.
-      </p>
+      </Col>
+      <Col xs={12} md={6}>
       <Link to='/portfolio' className='btn-visionread'>
         see projects
       </Link>
-      <div className='vision-image'>
+      </Col>
+      </Row>
+      <Row>
+      <Col xs={12} md={6} className='vision-image'>
         <img src={images[currentImageIndex]} alt={`Image ${currentImageIndex + 1}`} />
-      </div>
-      <div
+      </Col>
+      <Col xs={12} md={6}
         className='btn-box'
         style={{
           background: '#fff',
@@ -95,8 +100,9 @@ const About = () => {
         >
           Next
         </button>
-      </div>
-    </div>
+      </Col>
+      </Row>
+    </Container>
   );
 };
 

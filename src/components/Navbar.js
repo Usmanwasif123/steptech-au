@@ -6,7 +6,6 @@ import {KeyboardArrowDownOutlined, Clear}from '@mui/icons-material';
 import AwesomeSlider from 'react-awesome-slider';
 import 'react-awesome-slider/dist/styles.css';
 
-
 const Navbar = () => {
   const [isSidebarOpen, setSidebarOpen] = useState(false);
   const [isVisible, setIsVisible] = useState(false);
@@ -35,8 +34,8 @@ const Navbar = () => {
 
 
   return (
-    <div className={'nav-container'} col-md-6 col-xs-6>
-         <div className={'logo'} col-md-6 col-xs-6><a href='https://steptech.com.au/'></a></div>
+    <div className={'nav-container'}>
+         <div className={'logo'}><a href='https://steptech.com.au/'></a></div>
          <button className='bars' onClick={() => setSidebarOpen(!isSidebarOpen)} >
               {isSidebarOpen ? <FaTimes /> : <FaBars />}
           </button>
@@ -72,7 +71,7 @@ const Navbar = () => {
           </li>
             <li><Link to='/portfolio' className='portfolio'>portfolio</Link></li>
             <li><Link to='/blog' className='blog'>blog</Link></li>
-            <button style={{color: 'transparent'}}><a href='tel:+61410025346' className='call-btn'>+61 410 025 346</a></button>
+            <button><a href='tel:+61410025346' className='call-btn'>+61 410 025 346</a></button>
         </ul>
         </nav>
           <div className='banner-line'></div>
@@ -80,7 +79,7 @@ const Navbar = () => {
           </div>
         ))}
       </AwesomeSlider>
-      <button className='btn-start' col-md-6 col-xs-6 onClick={() => setIsVisible(true)}>get started</button>
+      <button className='btn-start' onClick={() => setIsVisible(true)}>get started</button>
       {isVisible && 
         <div className='visible-div'>
           <img style={{height: '300px', width: '500px'}} src='https://i.ibb.co/h8xCwvR/image.png' alt='visible-image' />
