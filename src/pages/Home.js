@@ -1,6 +1,6 @@
 import React from 'react';
-import  NavBar from '../components/Navbar';
-import Vision from '../components/Vision';
+import NavBar from '../components/Navbar';
+import Ourwork from '../components/Vision';
 import Solution from '../components/Solution';
 import Services from '../components/Services';
 import Process from '../components/Process';
@@ -16,6 +16,8 @@ const Home = () => {
   return (
     <div>
       <NavBar/>
+      <Ourwork/>
+      <Solution/>
     </div>
   )
 }
