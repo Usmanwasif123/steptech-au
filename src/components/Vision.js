@@ -84,6 +84,8 @@ const Ourwork = () => {
         height: '100vh', 
         width: '98.5vw', 
         overflow: 'hidden', 
+        transition: 'transform 0.5s ease',
+        scrollBehavior: 'smooth'
         
       }} 
       onMouseDown={handleMouseDown}
@@ -103,7 +105,7 @@ const Ourwork = () => {
               style={{ flex: '0 0 auto', width: '20vw', cursor: dragging ? `url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" viewBox="0 0 24 24"><circle cx="50%" cy="50%" r="8" fill="blue" stroke="blue" stroke-width="1"/><text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-size="6" fill="white">Drag</text></svg>') 12 12, auto` 
               : 'auto' }}>
                 <Card style={{ height: '17rem', width: '15rem', background: '#333', marginLeft: '2rem', marginTop: '2rem' }}>
-                  <img src={slide.image} alt='Slide Image' style={{ width: '100%', height: 'auto' }} />
+                  <img src={slide.image} alt='card-images' style={{ width: '100%', height: 'auto' }} />
                 </Card>
                 <h1 style={{ marginLeft: '2rem', marginTop: '0.5rem', display: 'inline-flex' }}>{slide.title}</h1>
                 <p style={{ marginLeft: '2rem', paddingRight: '0rem', marginTop: '0.5rem', width: '15rem', display: 'flex' }}>{slide.content}</p>
