@@ -20,6 +20,7 @@ const Home = () => {
       <Solution/>
       <Services/>
       <Presentation/>
+      <Brand/>
     </div>
   )
 }
