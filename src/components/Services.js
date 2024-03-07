@@ -32,7 +32,7 @@ const Services = () => {
   }, [animateFirstCard, animateSecondCard, animateThirdCard]);
       
   return (
-   <Container style={{height: '100vh', width: '98.5vw', background: '#333', position: 'relative', scrollBehavior: 'smooth'}}>
+   <Container style={{height: '100vh', width: '98.7vw', background: '#333', position: 'relative', scrollBehavior: 'smooth'}}>
     <Row>
       <Col>
         <div style={{fontSize: '5rem', marginLeft: '3rem', marginTop: '9rem', background: '#fff', display: 'inline-flex'}}>

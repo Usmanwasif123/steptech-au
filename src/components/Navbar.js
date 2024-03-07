@@ -28,7 +28,7 @@ const  NavBar = () => {
 
   return (
       <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
-        <Container className='navbar-container' style={{ background: '#333', height: '100vh', width: '98.5vw', scrollBehavior: 'smooth'}}>
+        <Container className='navbar-container' style={{ background: '#333', height: '100vh', width: '98.7vw', scrollBehavior: 'smooth'}}>
           <Navbar.Brand href="/">
             <img src={'https://i.ibb.co/19gmTW3/logo-05.jpg'} alt="Logo" className="logo" style={{height: '5rem', width: '5rem', marginLeft: '-12rem', marginTop: '-3rem'}}/>
           </Navbar.Brand>

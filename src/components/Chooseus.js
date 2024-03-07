@@ -1,75 +1,33 @@
 import React from 'react';
 import '../assets/wrapper/Chooseus.css';
-import { Grid, styled, Paper } from '@mui/material';
-import {Person, Shield, FindInPage, AttachMoney, HistoryEdu} from '@mui/icons-material';
+import { Container, Row, Col, Card } from 'react-bootstrap';
 
 const Chooseus = () => {
-    const isMediumScreen = window.innerWidth >= 1024 && window.innerWidth <= 1200;
-
-    const Item = styled(Paper)(({ theme }) => ({
-        padding: theme.spacing(10),
-        textAlign: 'center',
-        background: 'transparent',
-        border: '1px solid #fff',
-        position: 'absolute',
-        height: '40px',
-        width: '70px',
-        left: '2%',
-        top: '-700%',
-
-        '@media only screen and (min-width: 1024px) and (max-width: 1200px)': {
-            /* Your CSS rules for screens between 1024px and 1200px wide */
-            width: '20px', // Example of changing width for this media query
-        },
-    }));
-
-  return (
-    <div className='choose-container'>
-      <img src='https://i.ibb.co/HCD7dvD/choose-bg.png' alt='choose-img'/>
-      <h1>why choose us</h1>
-      <h2>Professionally Proven Worldwide</h2>
-      <Grid container spacing={5} data-aos="fade-right" data-aos-duration="500" data-aos-easing="ease-in-sine" data-aos-offset="0">
-        <Grid item xs={6} md={4} className='choose-grid1'>
-        <Item className='choose-item1'>
-            <Person style={{transform:'scale(2.5)', position:'absolute', top: '20%',left: '45%', color: '#fff',
-            ...(isMediumScreen && { fontSize: '1rem' }) // Apply different style for medium screens 
-        }}/>
-            <h3>CONSTANT CLIENT CO-ORDINATION</h3>
-        </Item>
-        </Grid>
-        <Grid item xs={6} md={4} className='choose-grid2'>
-        <Item className='choose-item2'>
-        <Person style={{transform:'scale(2.5)', position:'absolute', top: '20%', left: '45%', color: '#fff', 
-        ...(isMediumScreen && { fontSize: '1rem' })}}/>
-        <Shield style={{transform:'scale(1.3)', position:'absolute', top: '25%', 
-        left: '53%', color:'#FAF9F6', ...(isMediumScreen && { fontSize: '1rem' }) }}/>
-            <h3>SUPREME CUSTOMER SATISFACTION</h3>
-        </Item>
-        </Grid>
-        <Grid item xs={6} md={4} className='choose-grid3'>
-        <Item className='choose-item3'>
-        <FindInPage style={{transform:'scale(2.5)', position:'absolute', top: '20%', left: '45%', color: '#fff', 
-        ...(isMediumScreen && { fontSize: '1rem' })
-    }}/>
-            <h3>100% OWNERSHIP RIGHTS</h3>
-        </Item>
-        </Grid>
-        <Grid item xs={6} md={4} className='choose-grid4'>
-        <Item className='choose-item4'>
-        <AttachMoney style={{transform:'scale(2.5)', position:'absolute', top: '20%', left: '45%', color: '#fff', 
-        ...(isMediumScreen && { fontSize: '1rem' })}}/>
-            <h3>SECURE MONEY BACK GUARANTEE</h3>
-        </Item>
-        </Grid>
-        <Grid item xs={6} md={4} className='choose-grid5'>
-        <Item className='choose-item5'>
-        <HistoryEdu style={{transform:'scale(2.5)', position:'absolute', top: '20%', left: '45%', color: '#fff', 
-        ...(isMediumScreen && { fontSize: '1rem' })}}/>
-            <h3>INDUSTRY PROVEN PROFESSIONALS</h3>
-        </Item>
-        </Grid>
-        </Grid>
-    </div>
+      return (
+    <Container style={{height: '130vh', width: '98.7vw', background: '#447070',}}>
+        <Row>
+            <Col>
+            <h1 style={{paddingTop: '5rem', fontSize: '3rem', display: 'flex', textAlign: 'center', justifyContent: 'center'}}>Why choose us</h1>
+            <p style={{fontSize: '1.5rem', display: 'flex', textAlign: 'center', justifyContent: 'center', paddingRight: '0rem', marginLeft: '25rem', width: '40rem', background: '#fff'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et</p>
+            </Col>
+            <Col>
+            <Card style={{background: '#fff', width: '20rem', height: '27rem', borderRadius: '1.5rem', marginLeft: '5rem', marginTop: '2rem', display: 'flex', textAlign: 'flex-start', justifyContent: 'flex-start'}}>
+            <img style={{width: '100%', height: 'auto', objectFit: 'cover', borderRadius: '1.5rem'}} src='https://i.ibb.co/L9XHDX2/image.png' alt='card-img'/>
+            </Card>
+            </Col>
+            <Col>
+            <Card style={{background: '#fff', width: '20rem', height: '27rem', borderRadius: '1.5rem', marginLeft: '30rem', marginTop: '-23rem', display: 'flex', textAlign: 'flex-start', justifyContent: 'flex-start'}}>
+            <img style={{width: '100%', height: 'auto', objectFit: 'cover', borderRadius: '1.5rem'}} src='https://i.ibb.co/L9XHDX2/image.png' alt='card-img'/>
+            </Card>
+            </Col>
+            <Col>
+            <Card style={{background: '#fff', width: '20rem', height: '27rem', borderRadius: '1.5rem', marginLeft: '55rem', marginTop: '-30.5rem', display: 'flex', textAlign: 'flex-start', justifyContent: 'flex-start'}}>
+            <img style={{width: '100%', height: 'auto', objectFit: 'cover', borderRadius: '1.5rem'}} src='https://i.ibb.co/L9XHDX2/image.png' alt='card-img'/>
+            </Card>
+            </Col>
+        </Row>
+    </Container>
   )
 }
 

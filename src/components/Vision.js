@@ -82,7 +82,7 @@ const Ourwork = () => {
       style={{ 
         background: '#0000ff', 
         height: '100vh', 
-        width: '98.5vw', 
+        width: '98.7vw', 
         overflow: 'hidden', 
         transition: 'transform 0.5s ease',
         scrollBehavior: 'smooth'

@@ -26,7 +26,7 @@ const Solution = () => {
   };
 
   return (
-        <Container style={{height: '100vh', width: '98.5vw', background: '#006677'}}>
+        <Container style={{height: '100vh', width: '98.7vw', background: '#006677'}}>
           <Row>
             <Col>
             <div style={{fontSize: '5rem', paddingTop: '3rem', marginLeft: '3rem'}}>Solution</div>
