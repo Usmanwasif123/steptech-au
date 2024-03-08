@@ -80,40 +80,40 @@ const Contact = () => {
   };
 
      return (
-      <Container style={{height: '100vh', width: '98.7vw', background: '#333'}}>
+      <Container style={{height: '100vh', width: '98.7vw', background: '#333', backgroundImage: "url('https://i.ibb.co/JHdZGZR/anout-banner.jpg')", scrollBehavior: 'smooth'}}>
         <Row>
           <Col>
           <div style={{paddingTop: '5rem'}}>
-            <Card style={{background: '#fff', height: '30rem', width: '40rem', marginLeft: '2rem', zIndex: '2', position: 'absolute'}}>
-              <h1 style={{fontSize: '3rem', marginLeft: '2rem', marginTop: '1rem'}}>Contact us</h1>
+            <Card style={{background: 'linear-gradient(256.4deg, #6347AA 7.85%, #233F81 107.97%)', height: '30rem', width: '40rem', marginLeft: '2rem', zIndex: '2', position: 'absolute', borderRadius: '5rem'}}>
+              <h1 style={{fontSize: '3rem', marginLeft: '2rem', marginTop: '1rem', color: '#fff', textTransform: 'capitalize'}}>Contact <span style={{color: '#333'}}>us</span></h1>
               <form onSubmit={handleSubmit}>
-        <div style={{fontSize: '1.2rem', marginTop: '2rem', background: "", width: '20rem'}}> 
-          <input style={{fontSize:'1.4rem', border: '2px solid #ccc', background: '#ccc', marginLeft: '2rem', textTransform: 'capitalize'}} type="text" name="firstName" value={formData.firstName} placeholder='first name' onChange={handleChange} />
+        <div style={{fontSize: '1.2rem', marginTop: '2rem', width: '20rem'}}> 
+          <input className="custom-input" style={{fontSize:'1.2rem', background: 'transparent', border: '2px solid #D8BFD8', borderRadius: '1rem', marginLeft: '2rem', textTransform: 'capitalize', padding: '0.4rem'}} type="text" name="firstName" value={formData.firstName} placeholder='first name' onChange={handleChange} />
           {toast.error.firstName && <span style={{ color: 'red' }}>{toast.error.firstName}</span>}
         </div>
-        <div style={{fontSize: '1.5rem', marginTop: '-1.8rem', background: "", marginLeft: '18rem'}}>
-          <input style={{fontSize:'1.4rem',border: '2px solid #ccc', background: '#ccc', marginLeft: '2rem', textTransform: 'capitalize'}} type="text" name="lastName" value={formData.lastName} placeholder='last name' onChange={handleChange} />
+        <div style={{fontSize: '1.5rem', marginTop: '-2.2rem', marginLeft: '18rem'}}>
+          <input className="custom-input" style={{fontSize:'1.2rem', background: 'transparent',border: '2px solid #D8BFD8', borderRadius: '1rem',  marginLeft: '2rem', textTransform: 'capitalize', padding: '0.4rem'}} type="text" name="lastName" value={formData.lastName} placeholder='last name' onChange={handleChange} />
           {toast.error.lastName && <span style={{ color: 'red' }}>{toast.error.lastName}</span>}
         </div>
-        <div style={{fontSize: '1.2rem', marginTop: '1rem', background: "", width: '20rem'}}>
-          <input style={{fontSize:'1.4rem', border: '2px solid #ccc', background: '#ccc', marginLeft: '2rem', textTransform: 'capitalize'}} type="email" name="email" value={formData.email} placeholder='email' onChange={handleChange} />
+        <div style={{fontSize: '1.2rem', marginTop: '1rem', width: '20rem'}}>
+          <input className="custom-input" style={{fontSize:'1.2rem', background: 'transparent',  border: '2px solid #D8BFD8', borderRadius: '1rem',  marginLeft: '2rem', textTransform: 'capitalize', padding: '0.4rem'}} type="email" name="email" value={formData.email} placeholder='email' onChange={handleChange} />
           {toast.error.email && <span style={{ color: 'red' }}>{toast.error.email}</span>}
         </div>
-        <div style={{fontSize: '1.5rem', marginTop: '-1.8rem', background: "", marginLeft: '18rem'}}>
-          <input style={{fontSize:'1.4rem', border: '2px solid #ccc', background: '#ccc', marginLeft: '2rem', textTransform: 'capitalize'}} type="tel" name="phone" value={formData.phone} placeholder='phone' onChange={handleChange} />
+        <div style={{fontSize: '1.5rem', marginTop: '-2.2rem', marginLeft: '18rem'}}>
+          <input className="custom-input" style={{fontSize:'1.2rem', background: 'transparent', border: '2px solid #D8BFD8', borderRadius: '1rem',  marginLeft: '2rem', textTransform: 'capitalize', padding: '0.4rem', color: '#555'}} type="tel" name="phone" value={formData.phone} placeholder='phone' onChange={handleChange} />
           {toast.error.phone && <span style={{ color: 'red' }}>{toast.error.phone}</span>}
         </div>
-        <div style={{fontSize: '1.2rem', marginTop: '1rem', background: "", width: '40rem'}}>
-          <textarea style={{fontSize:'1.4rem', border: '2px solid #ccc', background: '#ccc', marginLeft: '2rem', width: '35rem',height: '15rem', textTransform: 'capitalize'}} name="message" value={formData.message} placeholder='message' onChange={handleChange}></textarea>
+        <div style={{fontSize: '1.2rem', marginTop: '1rem', width: '40rem'}}>
+          <textarea className="custom-input" style={{fontSize:'1.2rem', background: 'transparent', border: '2px solid #D8BFD8', borderRadius: '1rem', marginLeft: '2rem', width: '35rem',height: '10rem', textTransform: 'capitalize', padding: '0.4rem'}} name="message" value={formData.message} placeholder='message' onChange={handleChange}></textarea>
           {toast.error.message && <span style={{ color: 'red' }}>{toast.error.message}</span>}
         </div>
-        <button style={{fontSize: '1.4rem',marginLeft: '2rem',  border: '2px solid #ccc', background: '#ccc', textTransform: 'capitalize'}} type="submit">send message</button>
+        <button style={{fontSize: '1.2rem', marginLeft: '2rem',  border: '2px solid #D8BFD8', background: '#D8BFD8', borderRadius: '1rem', textTransform: 'capitalize', padding: '0.4rem'}} type="submit">send message</button>
       </form>
             </Card>
           </div>
           </Col>
           <Col>
-          <Card style={{background: '#0033ff', height: '33rem', width: '40rem', marginLeft: '40rem', marginTop: '-2rem'}}>
+          <Card style={{background: '#ffffff', height: '33rem', width: '40rem', marginLeft: '40rem', marginTop: '-2rem', borderRadius: '5rem'}}>
           </Card>
           </Col>
         </Row>

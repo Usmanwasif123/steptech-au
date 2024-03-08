@@ -6,7 +6,13 @@ import { Container, Row, Col, Card } from 'react-bootstrap';
 const Presentation = () => {
   
 return (
-  <div>hello</div>
+  <Container style={{background: '#006677'}}>
+    <Row>
+      <Col>
+      <h1>Presentation</h1>
+      </Col>
+    </Row>
+  </Container>
 );
 }
 

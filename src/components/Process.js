@@ -5,7 +5,7 @@ import { Container, Row, Col, Card } from 'react-bootstrap';
 const Process = () => {
    
   return (
-    <Container style={{height: '620vh', width: '98.7vw', background: '#445454', scrollBehavior: 'smooth'}}>
+    <Container style={{height: '620vh', width: '98.7vw', background: 'linear-gradient(256.4deg, #6347AA 7.85%, #233F81 107.97%)', scrollBehavior: 'smooth'}}>
     <Row>
       <Col>
       <div style={{paddingTop: '2rem'}}>

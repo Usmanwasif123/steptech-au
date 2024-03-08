@@ -5,7 +5,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 const Partner = () => {
     
   return (
-    <Container style={{height: '130vh', width: '98.7vw', background: '#006677'}}>
+    <Container style={{height: '130vh', width: '98.7vw', background: '#ffffff', scrollBehavior: 'smooth'}}>
       <Row>
         <Col>
         <div style={{height: '30rem', paddingTop: '15rem', width: '80rem', marginLeft: '2rem'}}>
