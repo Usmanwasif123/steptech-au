@@ -55,13 +55,13 @@ const Footer = () => {
         <li  style={{marginTop: '1rem', marginBottom: '1rem',  textTransform: 'capitalize'}}><a style={{textDecoration: 'none', color: '#fff'}}  href='/software-development'>software development</a></li>
         <li  style={{marginTop: '1rem', marginBottom: '1rem',  textTransform: 'capitalize'}}><a style={{textDecoration: 'none', color: '#fff'}}  href='/search-engine-optimization'>search engine optimization</a></li>
         <li  style={{marginTop: '1rem', marginBottom: '1rem',  textTransform: 'capitalize'}}><a style={{textDecoration: 'none', color: '#fff'}}  href='/social-media-management'>social media management</a></li>
+        <li  style={{marginTop: '1rem', marginBottom: '1rem',  textTransform: 'capitalize'}}><a style={{textDecoration: 'none', color: '#fff'}}  href='/social-media-management'>digital marketing</a></li>
         </ul>
         </Col>
         <Row>
-          <Col style={{background: '', width: '15rem', marginLeft: '33rem', height: 'auto', marginTop: '-19.8rem'}}>
+          <Col style={{background: '', width: '15rem', marginLeft: '33rem', height: 'auto', marginTop: '-22rem'}}>
         <h1 style={{fontSize:'1.5rem', marginLeft: '0rem', textTransform: 'capitalize', color: '#fff'}}>services</h1>
         <ul style={{fontSize: '1.2rem', textDecoration: 'none', listStyleType: 'none', marginLeft: '0rem'}}>
-        <li  style={{marginTop: '1rem', marginBottom: '1rem', textTransform: 'capitalize'}}><a style={{textDecoration: 'none', color: '#fff'}} href='/digital-marketing'>digital marketing</a></li>
         <li  style={{marginTop: '1rem', marginBottom: '1rem',  textTransform: 'capitalize'}}><a style={{textDecoration: 'none', color: '#fff'}}  href='/ecommerce'>e-commmerce</a></li>
         <li  style={{marginTop: '1rem', marginBottom: '1rem', textTransform: 'capitalize', }}><a style={{textDecoration: 'none', color: '#fff'}} href='/game-design-and-development'>game design & development</a></li>
         <li  style={{marginTop: '1rem', marginBottom: '1rem',  textTransform: 'capitalize'}}><a style={{textDecoration: 'none', color: '#fff'}}  href='/2D/3D-Animation'>2D/3D animation</a></li>
@@ -72,7 +72,7 @@ const Footer = () => {
         </Col>
         </Row>
         <Row>
-          <Col style={{width: '15rem', marginLeft: '48rem', height: 'auto', marginTop: '-20.75rem'}}>
+          <Col style={{width: '15rem', marginLeft: '48rem', height: 'auto', marginTop: '-18rem'}}>
         <h1 style={{fontSize:'1.5rem', marginLeft: '0rem', textTransform: 'capitalize', color: '#fff'}}>Connect with us</h1>
         <ul style={{fontSize: '1.2rem', textDecoration: 'none', listStyleType: 'none', marginLeft: '0rem'}}>
         <li style={{marginTop: '1rem', marginBottom: '1rem', textTransform: 'capitalize', fontSize: '1.1rem'}}>
