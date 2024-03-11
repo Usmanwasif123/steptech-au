@@ -8,9 +8,9 @@ const Brand = () => {
     <Container style={{height: '160vh', width: '98.7vw', background: '#ffffff', position: 'relative', scrollBehavior: 'smooth'}}>
       <Row>
         <Col>
-        <div style={{ marginTop: '5rem', marginLeft: '0rem', position: 'absolute', display: 'inline-block', width: '41rem', height: '23rem'}}> {/* Adjust margin-top as needed */}
+        <div className="image" style={{ marginTop: '5rem', marginLeft: '0rem', position: 'absolute', display: 'inline-block', width: '41rem', height: '23rem'}}> {/* Adjust margin-top as needed */}
           <Card style={{ background: '#fff', height: '20rem', width: '38rem', marginLeft: '3rem', zIndex: '0', borderRadius: '0.5rem', overflow: 'hidden'}}>
-            <img style={{width: '100%', height: 'auto', objectFit: 'cover', borderRadius: '0.5rem'}} src='https://i.ibb.co/L9XHDX2/image.png' alt='card-img'/>
+            <img style={{width: '100%', height: 'auto', objectFit: 'cover', borderRadius: '0.5rem', transition: 'transform 0.3s ease-in-out'}} src='https://i.ibb.co/L9XHDX2/image.png' alt='card-img'/>
           </Card>
           <h1 style={{marginLeft: '3rem',marginTop: '1rem', textTransform: 'capitalize'}}>artificial intelligence</h1>
         </div>

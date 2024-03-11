@@ -3,20 +3,8 @@
     padding: 0;
 }
 
-.animatedCard {
-    animation: slideInFromLeft 1s ease forwards;
-  }
-  
-  @keyframes slideInFromLeft {
-    from {
-      transform: translateX(-100%);
-      opacity: 0;
-    }
-    to {
-      transform: translateX(0);
-      opacity: 1;
-    }
-  }
+
+
 @media only screen and (max-width: 1024px) {
          .service-container{
             height: 80vh;
