@@ -3,38 +3,7 @@
     padding: 0px;
     font-family: Sora,sans-serif;
 }
-.water-effect:hover {
-    position: relative;
-    display: inline-block;
-    overflow: hidden;
-  }
-  
-  
-  .water-effect::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 7%;
-    width: 95%;
-    height: 85%;
-    background-image: linear-gradient(to bottom, rgba(0, 0, 255, 0.1), rgba(0, 0, 255, 0.3));
-    z-index: 1;
-    animation: water 2s infinite alternate;
-    object-fit: cover;
-  }
-  
-  @keyframes water {
-    0% {
-      transform: translateY(-2%);
-    }
-    100% {
-      transform: translateY(2%);
-    }
-  }
-  
-  .image:hover {
-    transform: scale(1.1) rotate(5deg);
-  }
+
 
 @media only screen and (min-width: 992px) and (max-width: 1024px) {
 

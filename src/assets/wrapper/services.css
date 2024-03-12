@@ -3,7 +3,18 @@
     padding: 0;
 }
 
-
+@keyframes slideInLeft {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0%);
+    }
+  }
+  
+  .slideLeft {
+    animation: slideInLeft 0.5s forwards;
+  }
 
 @media only screen and (max-width: 1024px) {
          .service-container{

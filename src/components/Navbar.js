@@ -30,7 +30,7 @@ const  NavBar = () => {
       <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
         <Container className='navbar-container' style={{ background: '#333', height: '100vh', width: '98.7vw', scrollBehavior: 'smooth'}}>
           <Navbar.Brand href="/">
-            <img src={'https://i.ibb.co/19gmTW3/logo-05.jpg'} alt="Logo" className="logo" style={{height: '5rem', width: '5rem', marginLeft: '-12rem', marginTop: '-3rem'}}/>
+            <img src={'https://i.ibb.co/j8S1jw9/image.png'} alt="Logo" className="" style={{height: '5rem', width: '5rem', marginLeft: '-12rem', marginTop: '-5rem'}}/>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav">
             <span className="navbar-toggler-icon"></span>

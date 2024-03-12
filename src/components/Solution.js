@@ -31,7 +31,7 @@ const Solution = () => {
             <Col>
             <div style={{fontSize: '5rem', paddingTop: '3rem', marginLeft: '3rem'}}>Solution</div>
             <Card className={`card ${isFlipped1 ? 'flipped' : ''}`} onClick={handleCard1Click}  
-            style={{ height: '25rem', width: '18rem', background: '#333', marginLeft: '3rem', marginTop: '2rem', 
+            style={{ height: '25rem', width: '18rem', background: 'transparent', border: '2px solid #d8bfd8',  marginLeft: '3rem', marginTop: '2rem', 
             borderRadius: '1rem',  transformStyle: 'preserve-3d',
             transform: isFlipped1 ? 'rotateY(180deg)' : 'rotateY(0deg)', // Rotate based on isFlipped state
             transition: 'transform 0.5s',}}>
@@ -47,7 +47,7 @@ const Solution = () => {
            </div>
             </Card>
             <Card className={`card ${isFlipped2 ? 'flipped' : ''}`} onClick={handleCard2Click}  
-            style={{ height: '25rem', width: '18rem', background: '#333', marginLeft: '23rem', marginTop: '-25rem', 
+            style={{ height: '25rem', width: '18rem', background: 'transparent', border: '2px solid #d8bfd8', marginLeft: '23rem', marginTop: '-25.5rem', 
             borderRadius: '1rem', transformStyle: 'preserve-3d',
             transform: isFlipped2 ? 'rotateY(180deg)' : 'rotateY(0deg)', // Rotate based on isFlipped state
             transition: 'transform 0.5s',}}>
@@ -61,7 +61,7 @@ const Solution = () => {
            </div>
             </Card>
             <Card className={`card ${isFlipped3 ? 'flipped' : ''}`} onClick={handleCard3Click}  
-            style={{ height: '25rem', width: '18rem', background: '#333', marginLeft: '43rem', marginTop: '-25rem', 
+            style={{ height: '25rem', width: '18rem', background: 'transparent', border: '2px solid #d8bfd8', marginLeft: '43rem', marginTop: '-25.5rem', 
             borderRadius: '1rem', transformStyle: 'preserve-3d',
             transform: isFlipped3 ? 'rotateY(180deg)' : 'rotateY(0deg)', // Rotate based on isFlipped state
             transition: 'transform 0.5s',}}>
@@ -75,7 +75,7 @@ const Solution = () => {
            </div>
             </Card>
             <Card className={`card ${isFlipped4 ? 'flipped' : ''}`} onClick={handleCard4Click}  
-            style={{ height: '25rem', width: '18rem', background: '#333', marginLeft: '63rem', marginTop: '-25rem', 
+            style={{ height: '25rem', width: '18rem', background: 'transparent', border: '2px solid #d8bfd8', marginLeft: '63rem', marginTop: '-25.5rem', 
             borderRadius: '1rem', transformStyle: 'preserve-3d',
             transform: isFlipped4 ? 'rotateY(180deg)' : 'rotateY(0deg)', // Rotate based on isFlipped state
             transition: 'transform 0.5s',}}>
