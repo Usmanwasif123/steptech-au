@@ -53,10 +53,12 @@ const Solution = () => {
             transition: 'transform 0.5s',}}>
             <div className="card-inner" style={{ transformStyle: 'preserve-3d', width: '100%', height: '100%', transition: 'transform 0.5s' }}>
             <div className="card-front" style={{ position: 'absolute', width: '100%', height: '100%', backfaceVisibility: 'hidden' }}>
-             {/* Content for the front side of the card */}
+            <img src='https://i.ibb.co/WBrfgGK/15.png' style={{height: 'auto', width: '50%', objectFit: 'contain', marginTop: '2rem', marginLeft: '4rem'}}/>
+             <h1 style={{fontSize: '1rem', marginLeft: '1rem', color: '#fff'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis laoreet erat. Fusce dignissim lacinia justo dignissim tristique. Vestibulum tempus.</h1>
             </div>
            <div className="card-back" style={{ position: 'absolute', width: '100%', height: '100%', backfaceVisibility: 'hidden', transform: 'rotateY(180deg)' }}>
-            {/* Content for the back side of the card */}
+           <img src='https://i.ibb.co/1X0JHkm/26.png' style={{height: 'auto', width: '50%', objectFit: 'contain', marginTop: '2rem', marginLeft: '4rem'}}/>
+           <h1 style={{fontSize: '1rem', marginLeft: '1rem', color: '#fff'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis laoreet erat. Fusce dignissim lacinia justo dignissim tristique. Vestibulum tempus.</h1>
            </div>
            </div>
             </Card>
@@ -67,10 +69,12 @@ const Solution = () => {
             transition: 'transform 0.5s',}}>
             <div className="card-inner" style={{ transformStyle: 'preserve-3d', width: '100%', height: '100%', transition: 'transform 0.5s' }}>
             <div className="card-front" style={{ position: 'absolute', width: '100%', height: '100%', backfaceVisibility: 'hidden' }}>
-             {/* Content for the front side of the card */}
+            <img src='https://i.ibb.co/1RpkjXW/35.png' style={{height: 'auto', width: '50%', objectFit: 'contain', marginTop: '2rem', marginLeft: '4rem'}}/>
+             <h1 style={{fontSize: '1rem', marginLeft: '1rem', color: '#fff'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis laoreet erat. Fusce dignissim lacinia justo dignissim tristique. Vestibulum tempus.</h1>
             </div>
            <div className="card-back" style={{ position: 'absolute', width: '100%', height: '100%', backfaceVisibility: 'hidden', transform: 'rotateY(180deg)' }}>
-            {/* Content for the back side of the card */}
+           <img src='https://i.ibb.co/Wyvz0Bs/11.png' style={{height: 'auto', width: '50%', objectFit: 'contain', marginTop: '2rem', marginLeft: '4rem'}}/>
+           <h1 style={{fontSize: '1rem', marginLeft: '1rem', color: '#fff'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis laoreet erat. Fusce dignissim lacinia justo dignissim tristique. Vestibulum tempus.</h1>
            </div>
            </div>
             </Card>
@@ -81,10 +85,12 @@ const Solution = () => {
             transition: 'transform 0.5s',}}>
             <div className="card-inner" style={{ transformStyle: 'preserve-3d', width: '100%', height: '100%', transition: 'transform 0.5s' }}>
             <div className="card-front" style={{ position: 'absolute', width: '100%', height: '100%', backfaceVisibility: 'hidden' }}>
-             {/* Content for the front side of the card */}
+            <img src='https://i.ibb.co/vq6rQ6Z/4-1.png' style={{height: 'auto', width: '50%', objectFit: 'contain', marginTop: '2rem', marginLeft: '4rem'}}/>
+             <h1 style={{fontSize: '1rem', marginLeft: '1rem', color: '#fff'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis laoreet erat. Fusce dignissim lacinia justo dignissim tristique. Vestibulum tempus.</h1>
             </div>
            <div className="card-back" style={{ position: 'absolute', width: '100%', height: '100%', backfaceVisibility: 'hidden', transform: 'rotateY(180deg)' }}>
-            {/* Content for the back side of the card */}
+           <img src='https://i.ibb.co/Wyvz0Bs/11.png' style={{height: 'auto', width: '50%', objectFit: 'contain', marginTop: '2rem', marginLeft: '4rem'}}/>
+           <h1 style={{fontSize: '1rem', marginLeft: '1rem', color: '#fff'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis laoreet erat. Fusce dignissim lacinia justo dignissim tristique. Vestibulum tempus.</h1>
            </div>
            </div>
             </Card>

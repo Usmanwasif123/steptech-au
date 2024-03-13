@@ -75,10 +75,16 @@ const Ourwork = () => {
     const containerWidth = containerRef.current.offsetWidth;
     const slideWidth = containerWidth / slides.length;
     const deltaIndex = Math.round(deltaX / slideWidth);
-    setCurrentIndex((prevIndex) => {
-      const newIndex = prevIndex - deltaIndex;
-      return newIndex < 0 ? slides.length - 1 : newIndex % slides.length;
-    });
+  
+    // Calculate the new index
+  let newIndex = currentIndex - deltaIndex;
+  
+  // If dragging to the last slide, continue dragging but move back to the first slide
+  if (newIndex >= slides.length -1) {
+    newIndex = 0;
+  }
+  
+    setCurrentIndex(newIndex);
     setStartX(e.clientX);
   };
 
@@ -117,7 +123,7 @@ const Ourwork = () => {
               <div key={index}
               onMouseEnter={() => setDragging(true)}
               onMouseLeave={() => setDragging(false)} 
-              style={{ flex: '0 0 auto', width: '20vw', cursor: dragging ? `url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" viewBox="0 0 24 24"><circle cx="50%" cy="50%" r="8" fill="blue" stroke="blue" stroke-width="1"/><text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-size="6" fill="white">Drag</text></svg>') 12 12, auto` 
+              style={{ flex: '0 0 auto', width: '20vw', cursor: dragging ? `url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" viewBox="0 0 24 24"><circle cx="50%" cy="50%" r="8" fill="purple" stroke="purple" stroke-width="1"/><text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-size="6" fill="white">Drag</text></svg>') 12 12, auto` 
               : 'auto' }}>
                 <Card style={{ height: '17rem', width: '15rem', background: '#333', marginLeft: '2rem', marginTop: '2rem', overflow: 'hidden' }}>
                   <img src={slide.image} alt='card-images' style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
