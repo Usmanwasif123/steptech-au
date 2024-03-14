@@ -33,6 +33,7 @@
     transform: scaleY(1.05) rotateX(-5deg);
   }
 
+ 
 @media only screen and (max-width: 1024px) {
 
     .process-container{

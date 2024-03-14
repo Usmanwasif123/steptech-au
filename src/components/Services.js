@@ -31,12 +31,12 @@ const Services = () => {
           <img style={{height: 'auto', width: '100%'}} src='https://i.ibb.co/NTPLxtM/1-banner.jpg' alt=''/>
           </Card>
         </div>
-        <div style={{ marginTop: '8rem', marginLeft: '25rem', position: 'absolute', display: 'inline-block', zIndex: '1', width: '50rem', transition: 'transform 0.5s ease', transform: scrollPosition <= 200 ? `translateX(-${scrollPosition / 5}px)` : scrollPosition <= 400 ? `translateX(-${scrollPosition / 20}px)` : `translateX(${scrollPosition / -100}px)`}}> {/* Adjust margin-top as needed */}
+        <div style={{ marginTop: '8rem', marginLeft: '25rem', position: 'absolute', display: 'inline-block', zIndex: '1', width: '50rem', transition: 'transform 0.5s ease', transform: scrollPosition <= 200 ? `translateX(-${scrollPosition / 5}px)` : scrollPosition <= 400 ? `translateX(-${scrollPosition / 50}px)` : `translateX(${scrollPosition / -50}px)`}}> {/* Adjust margin-top as needed */}
           <Card className='slideLeft' style={{ background: '#0000ff', height: '31rem', width: '50rem', marginLeft: '5rem', marginTop: '-31rem',  overflow: 'hidden' }}>
           <img style={{height: 'auto', width: '100%'}} src='https://i.ibb.co/BZ9bR3s/2-banner.jpg' alt=''/>
           </Card>
         </div>
-        <div style={{ marginTop: '10rem', marginLeft: '25rem', position: 'absolute', display: 'inline-block',zIndex: '2', width: '50rem', transition: 'transform 0.5s ease', transform: scrollPosition <= 200 ? `translateX(-${scrollPosition / 5}px)` : scrollPosition <= 400 ? `translateX(-${scrollPosition / 20}px)` : `translateX(${scrollPosition / -40}px)`}}> {/* Adjust margin-top as needed */}
+        <div style={{ marginTop: '10rem', marginLeft: '25rem', position: 'absolute', display: 'inline-block',zIndex: '2', width: '50rem', transition: 'transform 0.5s ease', transform: scrollPosition <= 200 ? `translateX(-${scrollPosition / 5}px)` : scrollPosition <= 400 ? `translateX(-${scrollPosition / 40}px)` : `translateX(${scrollPosition / -20}px)`}}> {/* Adjust margin-top as needed */}
           <Card className='slideLeft' style={{ background: '#0044ff', height: '29rem', width: '50rem', marginLeft: '3rem', marginTop: '-29rem',  overflow: 'hidden' }}>
             <img style={{height: 'auto', width: '100%'}} src='https://i.ibb.co/LZxM3cq/3-banner.jpg' alt=''/>
           </Card>

@@ -4,32 +4,17 @@
     font-family: Sora,sans-serif;
 }
 
-.card-img-container {
-    position: relative;
-    overflow: hidden;
-  }
-  
-  .ripple {
-    position: absolute;
-    top: 0;
-    left: 0;
+.card-image{
     width: 100%;
-    height: 100%;
-    background: rgba(255, 255, 255, 0.4);
-    border-radius: 50%;
-    transform: scale(0);
-    animation: rippleEffect 0.5s linear;
-  }
+    height: auto;
+    object-fit: cover;
+    border-radius: 0.5rem;
+    transition: transform 0.5s ease;
+    z-index: 1;
+    position: relative;
+    
+}
   
-  @keyframes rippleEffect {
-    to {
-      transform: scale(4);
-      opacity: 0;
-    }
-  }
-
-
-
 @media only screen and (min-width: 992px) and (max-width: 1024px) {
 
     .brand-container{
