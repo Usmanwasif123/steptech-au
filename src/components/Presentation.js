@@ -49,7 +49,7 @@ const Presentation = () => {
   }, []);
 
   return (
-    <Container style={{ background: 'linear-gradient(256.4deg, #6347AA 7.85%, #233F81 107.97%)', height: '110vh', width: '98.7vw', position: 'relative' }}>
+    <Container fluid style={{ background: 'linear-gradient(256.4deg, #6347AA 7.85%, #233F81 107.97%)', height: '110vh', width: '98.7vw', position: 'relative' }}>
       <Row>
       <Col style={{ marginTop: '5rem', marginLeft: '10rem', height: '30rem', width: '30rem', position: 'absolute', transition: 'opacity 0.5s' }}>
           {headings.map((heading, index) => (

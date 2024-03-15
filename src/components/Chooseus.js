@@ -4,7 +4,7 @@ import { Container, Row, Col, Card } from 'react-bootstrap';
 
 const Chooseus = () => {
       return (
-    <Container style={{height: '135vh', width: '98.7vw', background: 'linear-gradient(256.4deg, #6347AA 7.85%, #233F81 107.97%)', scrollBehavior: 'smooth'}}>
+    <Container fluid style={{height: '135vh', width: '98.7vw', background: 'linear-gradient(256.4deg, #6347AA 7.85%, #233F81 107.97%)', scrollBehavior: 'smooth'}}>
         <Row>
             <Col>
             <h1 style={{paddingTop: '2rem', fontSize: '3rem', display: 'flex', textAlign: 'center', justifyContent: 'center', color: '#fff'}}>Why choose us</h1>

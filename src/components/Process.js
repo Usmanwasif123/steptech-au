@@ -11,7 +11,7 @@ const Process = () => {
 
   
   return (
-    <Container style={{height: '620vh', width: '98.7vw', background: 'linear-gradient(256.4deg, #6347AA 7.85%, #233F81 107.97%)', scrollBehavior: 'smooth'}}>
+    <Container fluid style={{height: '620vh', width: '98.7vw', background: 'linear-gradient(256.4deg, #6347AA 7.85%, #233F81 107.97%)', scrollBehavior: 'smooth'}}>
     <Row>
       <Col>
       <div style={{paddingTop: '2rem'}}>

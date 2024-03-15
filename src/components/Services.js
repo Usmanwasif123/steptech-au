@@ -18,7 +18,7 @@ const Services = () => {
   }, []);
 
   return (
-   <Container style={{height: '100vh', width: '98.7vw', background: '#fff', position: 'relative', scrollBehavior: 'smooth'}}>
+   <Container fluid style={{height: '100vh', width: '98.7vw', background: '#fff', position: 'relative', scrollBehavior: 'smooth'}}>
     <Row>
       <Col>
         <div style={{fontSize: '5rem', marginLeft: '3rem', marginTop: '9rem', display: 'inline-flex', color: '#333'}}>

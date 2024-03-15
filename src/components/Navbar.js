@@ -28,7 +28,7 @@ const  NavBar = () => {
 
   return (
       <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
-        <Container className='navbar-container' style={{ background: '#333', height: '100vh', width: '98.7vw', scrollBehavior: 'smooth'}}>
+        <Container fluid  className='navbar-container mt-n3 bg-dark' style={{ height: '100vh', width: '98.7vw', scrollBehavior: 'smooth', marginTop: '-0.5rem'}}>
           <Navbar.Brand href="/">
             <img src={'https://i.ibb.co/j8S1jw9/image.png'} alt="Logo" className="" style={{height: '5rem', width: '5rem', marginLeft: '-12rem', marginTop: '-5rem'}}/>
           </Navbar.Brand>
@@ -36,7 +36,7 @@ const  NavBar = () => {
             <span className="navbar-toggler-icon"></span>
           </Navbar.Toggle>
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="ms-auto" style={{marginLeft: '35rem', display: 'inline-flex'}}>
+            <Nav className="ms-auto col-lg-12 justify-content-center d-inline-flex" style={{marginRight: '-20rem', marginTop: '-32rem'}}>
               <Nav.Link href="#home" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')} style={{marginLeft: '3rem', color: '#fff', textDecoration: 'none'}}>Home</Nav.Link>
               <Nav.Link href="#skills" className={activeLink === 'about' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('skills')} style={{marginLeft: '3rem', color: '#fff', textDecoration: 'none'}}>About</Nav.Link>
               <Nav.Link href="#project" className={activeLink === 'services' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')} style={{marginLeft: '3rem', color: '#fff', textDecoration: 'none'}}>Services</Nav.Link>
@@ -45,7 +45,7 @@ const  NavBar = () => {
             </Nav>
             <span className="navbar-text" style={{marginTop: '-2.2rem', display: 'flex', background: 'tranparent'}}>
               <HashLink to='#connect'>
-                <button className="main-button" style={{background: '#00ddFF', border: 'none', marginLeft: '70rem', marginTop: '0rem', padding: '1.5rem 1.5rem', fontSize: '1rem', zIndex: '2'}}>
+                <button className="main-button mx-n5 my-n5" style={{background: '#00ddFF', border: 'none', padding: '1.5rem 1.5rem', fontSize: '1rem', zIndex: '2'}}>
                   <span style={{color: '#333'}}>Let’s Connect</span>
                 </button>
               </HashLink>

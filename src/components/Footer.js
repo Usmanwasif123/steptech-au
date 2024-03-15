@@ -5,7 +5,7 @@ import {Facebook, Instagram, LinkedIn, Twitter} from '@mui/icons-material/';
 
 const Footer = () => {
   return (
-   <Container style={{height: '70vh', width: '98.7vw', position: 'relative', background: 'linear-gradient(256.4deg, #6347AA 7.85%, #233F81 107.97%)', scrollBehavior: 'smooth'}}>
+   <Container fluid style={{height: '70vh', width: '98.7vw', position: 'relative', background: 'linear-gradient(256.4deg, #6347AA 7.85%, #233F81 107.97%)', scrollBehavior: 'smooth'}}>
     <Row>
       <Col>
       <div style={{marginTop: '1.99rem', position: 'absolute', width: '20rem', }}>

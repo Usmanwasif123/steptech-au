@@ -21,7 +21,7 @@ const Brand = () => {
   }, []); // Run only once on component mount
 
   return (
-    <Container style={{ height: '160vh', width: '98.7vw', background: '#ffffff', position: 'relative', scrollBehavior: 'smooth' }}>
+    <Container fluid style={{ height: '160vh', width: '98.7vw', background: '#ffffff', position: 'relative', scrollBehavior: 'smooth' }}>
       <Row>
         <Col>
           <div style={{ marginTop: '5rem', marginLeft: '0rem', position: 'absolute', display: 'inline-block', width: '41rem', height: '23rem'}}>

@@ -80,7 +80,7 @@ const Contact = () => {
   };
 
      return (
-      <Container style={{height: '100vh', width: '98.7vw', background: '#333', backgroundImage: "url('https://i.ibb.co/JHdZGZR/anout-banner.jpg')", scrollBehavior: 'smooth'}}>
+      <Container fluid style={{height: '100vh', width: '98.7vw', background: '#333', backgroundImage: "url('https://i.ibb.co/JHdZGZR/anout-banner.jpg')", scrollBehavior: 'smooth'}}>
         <Row>
           <Col>
           <div style={{paddingTop: '5rem'}}>

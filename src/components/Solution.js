@@ -26,7 +26,7 @@ const Solution = () => {
   };
 
   return (
-        <Container style={{height: '100vh', width: '98.7vw', background: 'linear-gradient(256.4deg, #6347AA 7.85%, #233F81 107.97%)'}}>
+        <Container fluid style={{height: '100vh', width: '98.7vw', background: 'linear-gradient(256.4deg, #6347AA 7.85%, #233F81 107.97%)'}}>
           <Row>
             <Col>
             <div style={{fontSize: '5rem', paddingTop: '3rem', marginLeft: '3rem'}}>Solution</div>

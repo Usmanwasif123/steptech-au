@@ -99,11 +99,9 @@ const Ourwork = () => {
   };
 
   return (
-    <Container 
-      style={{ 
+    <Container fluid 
+     style={{ 
         background: '#fff', 
-        height: '100vh', 
-        width: '98.7vw', 
         overflow: 'hidden', 
         transition: 'transform 0.5s ease',
         scrollBehavior: 'smooth'
