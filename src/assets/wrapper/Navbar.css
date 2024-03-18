@@ -13,13 +13,14 @@
     height: 9rem;
     width: 9rem;
     margin-top: -28rem;
-    margin-left: 1rem;
+    margin-left: -20rem;
     background-size: contain;
     background-repeat: no-repeat;
 }
 
 .navbar-items{
     margin-top: -32rem;
+    margin-left: 1rem;
 }
 
 .navbar-link{
@@ -49,7 +50,7 @@
     color: #fff;
     font-size: 4rem;
     margin-top: 5rem;
-    margin-left: -8rem; 
+    margin-left: -10rem; 
     padding-left: 43.75rem;
     display: flex;
     text-align: flex-end;
