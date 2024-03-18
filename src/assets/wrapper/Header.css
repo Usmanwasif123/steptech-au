@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header-section{
+    height: 100dvh;
+    width: auto;
+    
+}
+
+.left-heading{
+    color: #fff;
+}
