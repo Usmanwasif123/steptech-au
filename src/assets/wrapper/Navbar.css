@@ -3,455 +3,233 @@
     padding: 0;
 
 }
+.navbar-container{
+    height: 100vh;
+    width: 98.7vw;
+    scroll-behavior: smooth;
+    margin-top: -0.5rem;
+}
+.navbar-logo{
+    height: 9rem;
+    width: 9rem;
+    margin-top: -28rem;
+    margin-left: 1rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
 
+.navbar-items{
+    margin-top: -32rem;
+}
 
-/* Media query for larger devices (e.g., laptops and desktops) */
-@media only screen and (min-width: 1024px) and (max-width: 1200px){
-    .nav-container .logo{
-        top: 9%;
+.navbar-link{
+    margin-left: 3rem;
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar-link:active{
+    color:  #6C50B1;
+}
+
+.navbar-text{
+    margin-top: -32rem;
+    margin-left: 2.4rem;
+    display: flex;
+}
+.main-button{
+    background: #00ddFF;
+    border: none; 
+    padding: 1.5rem 1.5rem;
+    font-size: 1rem;
+    z-index: 2;
+}
+
+.main-heading{
+    color: #fff;
+    font-size: 4rem;
+    margin-top: 5rem;
+    margin-left: -8rem; 
+    padding-left: 43.75rem;
+    display: flex;
+    text-align: flex-end;
+    justify-content: flex-end;
+    text-transform: uppercase;
+}
+.main-para{
+    color: #fff;
+    font-size: 1rem;
+    margin-top: 20rem;
+    padding-right: 40rem;
+    margin-left: -73rem;
+    display: flex;
+    text-align: flex-start;
+    justify-content: flex-start;
+}
+.main-link{
+    position: absolute;
+    margin-left: 7rem;
+    color: #fff;
+    text-decoration: none;
+    margin-top: 28rem; 
+    display: flex;
+    text-align: flex-start; 
+    justify-content: flex-start;
+}
+.fb{
+    color: #fff;
+    margin-top: 32rem;
+    margin-left: 7rem;
+    position: absolute;
+}
+.tw{
+    color: #fff;
+    margin-top: 32rem;
+    margin-left: 10rem;
+    position: absolute;
+}
+.ig{
+    color: #fff;
+    margin-top: 32rem;
+    margin-left: 13rem;
+    position: absolute;
+}
+
+.li{
+    color: #fff;
+    margin-top: 32rem;
+    margin-left: 16rem;
+    position: absolute;
+}
+
+/* Media query for small devices (e.g., mobiles) */
+@media only screen and (max-width: 576px){
+    .navbar-logo{
+        margin-top: -10rem; 
+        margin-left: -1rem;
     }
-    
-    .nav-items{
-        margin-top: -21px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    
+    .main-heading{
+        font-size: 3rem;
+        margin-top: -20rem;
+        margin-left: 5rem; 
     }
-    .bars{
+    .main-link{
+        font-size: 1rem;
+        margin-left: 7rem;
+        margin-top: 27rem;
+    }
+    .main-para{
         display: none;
     }
-    .nav-items .home{
-    cursor: pointer;
-    
-    }
-    .nav-items .about{
-        left: 42%;
-    }
-    .nav-items .service{
-        left: 75%;
-    }
-    
-    .nav-items .portfolio{
-        left: 62%;
-    }
-    
-    .nav-items .blog{
-        left: 69%;
-    }
-    
-    .dropdown {
-        position: relative;
-        cursor: pointer;
-    }
-    .dropdown-content {
-        height: 500px;
-        width: 250px; 
-    }
-   
-    .dropdown-content .nav-service1{
-        font-size: 17px;
-    }
-    .dropdown-content .nav-service2{
-        font-size: 17px;
-        
-    }
-    
-    .dropdown-content .nav-service3{
-        font-size: 17px;
-        margin-top: 5px;
-    }
-    
-    .dropdown-content .nav-service4{
-        font-size: 17px;
-        margin-top: 20px;
-    }
-    .dropdown-content .nav-service5{
-        font-size: 17px;
-        margin-top: 20px;
-    }
-    .dropdown-content .nav-service6{
-        font-size: 17px;
-        margin-top: 20px;
-    }
-    .dropdown-content .nav-service7{
-        font-size: 17px;
-        margin-top: 20px;
-    }
-    .dropdown-content .nav-service8{
-        font-size: 17px;
-        margin-top: 20px;
-    }
-    .dropdown-content .nav-service9{
-        font-size: 17px;
-        margin-top: 20px;
-    }
-    .dropdown-content .nav-service10{
-        font-size: 17px;
-        margin-top: 20px;
-    }
-    .dropdown-content .nav-service11{
-        font-size: 17px;
-        margin-top: 20px;
-    }
-    .dropdown-content .nav-service12{
-        font-size: 17px;
-        margin-top: 20px;
-    }
-    .dropdown-content .nav-service13{
-        font-size: 17px;
-        margin-top: 20px;
-    }
-    
-    
-    .quote-btn{
-        top: 8%;
-        left: 78%;
-    }
-    
-    .banner-line{
-        top: 18%;
-    }
-    
-    .banner-span{
-        top: 25%;
-        left: 10%;
-        font-size: 39px;
-    }
-    .banner-heading h1{
-        top: 37%;
-        left: 9%;
-        font-size: 70px;
-
-    }
-    .banner-half-h {
-        top: 90%;
-        border-radius: 0px 12px 12px 0px;
-        margin-left: -120px;
-
-    }
-    
-    .banner-half-h .digital {
-        margin-top: -45px;
-        margin-left: 70px;
-        font-size: 70px;
-    }
-    
-    .banner-heading .potential {
-        top: 80%;
-        left: 55%;
-        font-size: 70px;
-    }
-    .nav-container #line1 {
-        top: 61%;
-        left: 10%;
-    }
-
-    .nav-container #line2 {
-        top: 61%;
-        left: 20.5%;
-    }
-
-    .nav-container #line3 {
-        top: 61%;
-        left: 23%;
-    }
-    
-    .nav-container .btn-start{
-        font-size: 20px;
-        padding: 10px 25px 10px 25px;
-        margin-top: -201px;
-        margin-left: -600px;
-    
-    }
-    
-    .btn-start:hover{ 
-        background: linear-gradient(200deg, #47277f 29.100%, #101b37 93.15%);
-    }   
-    .visible-div{
-        background: #47267F;
-        height: 600px;
-        width: 1000px;
-        position: absolute;
-        z-index: 5;
-        top: 18%;
-        left: 15%;
-        border-radius: 70px;
-    }
-    
-    .visible-div img{
-        background-size: cover;
-        background-repeat: no-repeat;
-        position: absolute;
-        z-index: 6;
-        top: 20%;
-        left: 1%;
-        border-radius: 50px 0px 50px 0px;
-    }
-    
-    .visible-div .visible-p1{
-        position: absolute;
-        z-index: 5;
-        top: 75%;
-        left: -1%;
-        color: #FFF;
-        font-family: Poppins, sans-serif;
-        font-size: 35px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 40px; 
-        letter-spacing: -1px;
-        text-transform: capitalize;
-        padding-left: 20px;
-        padding-right: 400px;
-    }
-    
-    .visible-div .visible-p2{
-        position: absolute;
-        z-index: 5;
-        top: 15%;
-        left: 55%;
-        color: #FFF;
-        font-family: Poppins, sans-serif;
-        font-size: 30px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 40px; 
-        letter-spacing: -1px;
-        text-transform: capitalize;
-    }
-    
-    .visible-div .visible-p3{
-        position: absolute;
-        z-index: 5;
-        top: 25%;
-        left: 55%;
-        color: #FFF;
-        font-family: Poppins, sans-serif;
-        font-size: 17px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: 25px; 
-        letter-spacing: -1px;
-        text-transform: capitalize;
-    }
-    
-    .visible-contact-form{
-        position: absolute;
-        z-index: 5;
-        top: 40%;
-        left: 55%;
-    }
-    
-    .visible-contact-form .full-name{
-        height: 50px;
-        width: 390px;
-        color: #fff;
-        font-size: 19px;
-        margin-left: 10px;
-        background: transparent;
-        border: none;
-        border-bottom: 2px solid #fff;
-    }
-    .visible-contact-form .email{
-        height: 50px;
-        width: 390px;
-        color: #fff;
-        font-size: 19px;
-        margin-left: 10px;
-        background: transparent;
-        border: none;
-        border-bottom: 2px solid #fff;
-    }
-    .visible-contact-form .phone-no{
-        height: 50px;
-        width: 390px;
-        color: #fff;
-        font-size: 19px;
-        margin-left: 10px;
-        background: transparent;
-        border: none;
-        border-bottom: 2px solid #fff;
-    }
-    .visible-contact-form .message-input{
-        position: absolute;
-        z-index: 5;
-        height: 25px;
-        width: 140px;
-        color: #fff;
-        font-size: 18px;
-        top:110%;
-        background: transparent;
-        border: none;
-        border-bottom: 2px solid #fff;
-    }
-    
-    .visible-contact-form .submit-btn{
-        position: absolute;
-        z-index: 5;
-        left: 25%;
-        top: 180%;
-        font-size: 15px;
-        font-family: Poppins, sans-serif;
-        text-transform: uppercase;
-        font-weight: 600;
-        border-radius: 10px;
-        border: 1px solid #212457;
-        background: #212457;
-        color: #fff;
-    }
-    
-    .visible-contact-form .btn-close{
-        position: absolute;
-        z-index: 5;
-        left: 95%;
-        top: -160%;
-        font-family: Poppins, sans-serif;
-        text-transform: uppercase;
-        font-weight: 600;
-        border-radius: 10px;
-        border: 1px solid transparent;
-        background: transparent;
-        color: #fff;
-        padding: 5px;
-        cursor: pointer;
-    }
 }
-
-/* Media query for medium-sized devices (e.g., tablets) */
-@media only screen and (min-width: 768px) and (max-width: 1023px) {
-    .nav-container img{
-        height:  100vh;
-        width: 97.8vw;
+/* Media query for medium devices (e.g., tablet and small pc) */
+@media only screen and (min-width: 576px) and (max-width: 768px){
+    .navbar-logo{
+        margin-top: -10rem; 
+        margin-left: -1rem;
+        position:absolute;
     }
-
-    .nav-container .logo{
-        height: 100vh;
-        width: 50vw;
-        top: 5%;
-        background-size: 40%;
+    .main-heading{
+        font-size: 4rem;
+        margin-top: -20rem;
+        margin-left: 5rem; 
     }
-    .nav-items{
-     display: none;
+    .main-link{
+        font-size: 1rem;
+        margin-left: 7rem;
+        margin-top: 27rem;
     }
-    .bars{
-        display: flex;
-        margin-left: 625px;
-        margin-top: 30px;
-        font-size: 36px;
-        background: transparent;
-        color: white;
-        border: none;
-        justify-content: flex-end;
-        position: absolute;
-        z-index: 2;
-    }
-    .banner-line{
-        margin-top: -30px;
-        margin-left: -100px;
-        padding-right: 109px;
-    }
-    .banner-span{
-        font-size: 35px;
-    }
-    .banner-half-h {
-        position: absolute;
-        z-index: 2;
-        top: 90%;
-        border-radius: 0px 12px 12px 0px;
-        background: rgb(255, 255, 255);
-        margin-left: -120px;
-        padding: 40px 0px 40px 350px;
-    }
-
-    .banner-heading h1{
-        font-size: 50px;
-    }
-    h1.digital {
-        position: absolute;
-        z-index: 3;
-        color: #6C50B1;
-        margin-top: -45px;
-        margin-left: 100px;
-    }
-    .banner-heading .potential{
-        font-size: 50px;
-        margin-left: 25px;
-    }
-    #line1{
-        top: 77%;
-        left: 10%;
-    }
-    #line2{
-        top: 77%;
-        left: 24%;
-    }
-    #line3{
-        top: 77%;
-        left: 27%;
-    }
-    .btn-read{
-        left: 10%;
-        top: 86%;
-    }
-}
-/* Media query for small devices (e.g., mobile phones) */
-@media only screen and (max-width: 767px) {
-    .nav-container .logo{
-        height: 100vh;
-        width: 50vw;
-        top: 7%;
-        background-size: 50%;
-    }
-    .nav-items{
+    .main-para{
         display: none;
     }
-    .banner-line{
-        margin-top: 50px;
-        margin-left: -57px;
-        margin-right: 43px;
-        padding: 0px 0px 1px;
+}
+
+/* Media query for large devices (e.g., desktop) */
+@media only screen and (min-width: 768px) and (max-width: 992px){
+    .navbar-logo{
+        margin-top: -20rem; 
+        margin-left: -1rem;
+        position:absolute;
     }
-    .banner-span{
-        font-size: 30px;
+
+    .navbar-items{
+        margin-top: -32rem;
+        margin-left: 30rem;
     }
-    .banner-half-h {
-        margin-left: -180px;
+    .navbar-text{
+        margin-left: 8.6rem;
     }
-    .banner-heading h1{
-        font-size: 40px;
-        
+
+    .main-heading{
+        font-size: 4rem;
+        margin-top: 10rem;
+        margin-left: -28rem; 
     }
-    h1.digital {
-        position: absolute;
-        z-index: 3;
-        color: #6C50B1;
-        margin-top: -45px;
-        margin-left: 150px;
+    .main-link{
+        font-size: 1rem;
+        margin-left: 7rem;
+        margin-top: 27rem;
     }
-    .banner-heading .potential{
-        font-size: 40px;
-        margin-left: 15px;
-    }
-    #line1{
-        top: 76%;
-        left: 10%;
-        padding: 0px 30px 4px;
-    }
-    #line2{
-        top: 76%;
-        left: 23%;
-        padding: 0px 6px 4px;
-    }
-    #line3{
-        top: 76%;
-        left: 26%;
-        padding: 0px 3px 4px;
-    }
-    .btn-read{
-        left: 10%;
-        font-size: 12px;
-        padding-left: 15px;
+    .main-para{
+        display: none;
     }
 }
 
+/* Media query for extra large devices (e.g., extra large desktop) */
+@media only screen and (min-width: 992px) and (max-width: 1200px){
+    .navbar-logo{
+        margin-top: -28rem;
+    }
+    
+    .navbar-items{
+        margin-top: -32rem;
+    }
+    
+    .navbar-link{
+        margin-left: 3rem;
+    }
+       
+    .navbar-text{
+        margin-top: -32rem;
+        margin-left: 2.4rem;
+    }
+
+    .main-button{
+        padding: 1.5rem 1.5rem;
+        font-size: 1rem;
+
+    }
+
+    .main-heading{
+        margin-top: 5rem;
+        margin-left: -8rem; 
+
+    }
+    .main-para{
+        margin-top: 20rem;
+        margin-left: -73rem;
+
+    }
+    .main-link{
+        margin-left: 7rem;
+        margin-top: 28rem; 
+    }
+    .fb{
+        margin-top: 32rem;
+        margin-left: 7rem;
+
+    }
+    .tw{
+        margin-top: 32rem;
+        margin-left: 10rem;
+    }
+    .ig{
+        margin-top: 32rem;
+        margin-left: 13rem;
+    }
+    
+    .li{
+        margin-top: 32rem;
+        margin-left: 16rem;
+    }
+}

@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import { HashLink } from 'react-router-hash-link';
 import {Facebook, Twitter, Instagram, LinkedIn, LocalPhone} from '@mui/icons-material';
+import '../assets/wrapper/Navbar.css'
 
 const  NavBar = () => {
 
@@ -28,41 +29,44 @@ const  NavBar = () => {
 
   return (
       <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
-        <Container fluid  className='navbar-container mt-n3 bg-dark' style={{ height: '100vh', width: '98.7vw', scrollBehavior: 'smooth', marginTop: '-0.5rem'}}>
+        <Container fluid  className='navbar-container bg-dark'>
+        <video autoPlay loop muted className="video">
+        <source src="your-video-source.mp4" type="video/mp4" />
+        </video> 
           <Navbar.Brand href="/">
-            <img src={'https://i.ibb.co/j8S1jw9/image.png'} alt="Logo" className="" style={{height: '5rem', width: '5rem', marginLeft: '-12rem', marginTop: '-5rem'}}/>
+            <img src={'https://i.ibb.co/j8S1jw9/image.png'} alt="Logo" className="navbar-logo" />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav">
             <span className="navbar-toggler-icon"></span>
           </Navbar.Toggle>
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="ms-auto col-lg-12 justify-content-center d-inline-flex" style={{marginRight: '-20rem', marginTop: '-32rem'}}>
-              <Nav.Link href="#home" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')} style={{marginLeft: '3rem', color: '#fff', textDecoration: 'none'}}>Home</Nav.Link>
-              <Nav.Link href="#skills" className={activeLink === 'about' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('skills')} style={{marginLeft: '3rem', color: '#fff', textDecoration: 'none'}}>About</Nav.Link>
-              <Nav.Link href="#project" className={activeLink === 'services' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')} style={{marginLeft: '3rem', color: '#fff', textDecoration: 'none'}}>Services</Nav.Link>
-              <Nav.Link href="#project" className={activeLink === 'portfolio' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')} style={{marginLeft: '3rem', color: '#fff', textDecoration: 'none'}}>Portfolio</Nav.Link>
-              <Nav.Link href="#project" className={activeLink === 'blog' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')} style={{marginLeft: '3rem', color: '#fff', textDecoration: 'none'}}>Blog</Nav.Link>
+            <Nav className="navbar-items ms-5 col-lg-12 justify-content-end d-flex">
+              <Nav.Link href="/" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')} >Home</Nav.Link>
+              <Nav.Link href="/about-us" className={activeLink === 'about' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('about')} >About</Nav.Link>
+              <Nav.Link href="/services" className={activeLink === 'services' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('services')} >Services</Nav.Link>
+              <Nav.Link href="/portfolio" className={activeLink === 'portfolio' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('portfolio')} >Portfolio</Nav.Link>
+              <Nav.Link href="/blog" className={activeLink === 'blog' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('blog')} >Blog</Nav.Link>
             </Nav>
-            <span className="navbar-text" style={{marginTop: '-2.2rem', display: 'flex', background: 'tranparent'}}>
+            <span className="navbar-text p-4">
               <HashLink to='#connect'>
-                <button className="main-button mx-n5 my-n5" style={{background: '#00ddFF', border: 'none', padding: '1.5rem 1.5rem', fontSize: '1rem', zIndex: '2'}}>
+                <button className="main-button">
                   <span style={{color: '#333'}}>Let’s Connect</span>
                 </button>
               </HashLink>
-              <button className="main-button" style={{background: '#00ddFF', border: 'none', marginLeft: '0rem', marginTop: '0rem', padding: '1rem 1.5rem', fontSize: '0.5rem', zIndex: '2'}}>
+              <button className="main-button" >
                   <LocalPhone style={{color: '#333'}}></LocalPhone>
                 </button>
             </span>
           </Navbar.Collapse>
-          <h1 className="main-heading" style={{color: '#fff', fontSize: '60px', marginTop: '120px', marginLeft: '5rem', paddingLeft: '700px', display: 'flex', textAlign: 'flex-end', justifyContent: 'flex-end', textTransform: 'uppercase'}}>
+          <h1 className="main-heading ps-1">
             optimizing the potential
           </h1>
-          <p className="main-para" style={{color: '#fff', fontSize: '1rem', marginTop: '5rem', paddingRight: '50rem', marginLeft: '3rem', display: 'flex', textAlign: 'flex-start', justifyContent: 'flex-start'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Euismod in pellentesque massa placerat duis ultricies lacus sed turpis.</p>
-          <Nav.Link href="#letstalks" className={'main-link'} onClick={() => onUpdateActiveLink('letstalks')} style={{marginLeft: '3rem', color: '#fff', textDecoration: 'none', marginTop: '3rem', display: 'flex', textAlign: 'flex-start', justifyContent: 'flex-start'}}>Lets's Talk</Nav.Link>
-          <Facebook style={{color: '#fff', marginTop: '2rem', marginLeft: '3rem'}}></Facebook>
-          <Twitter style={{color: '#fff', marginTop: '2rem', marginLeft: '1rem'}}></Twitter>
-          <Instagram  style={{color: '#fff', marginTop: '2rem', marginLeft: '1rem'}}></Instagram>
-          <LinkedIn  style={{color: '#fff', marginTop: '2rem', marginLeft: '1rem'}}></LinkedIn>
+          <p className="main-para ps-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Euismod in pellentesque massa placerat duis ultricies lacus sed turpis.</p>
+          <Nav.Link href="#letstalks" className='main-link' onClick={() => onUpdateActiveLink('letstalks')}>Lets's Talk</Nav.Link>
+          <Facebook className='fb'></Facebook>
+          <Twitter className='tw' ></Twitter>
+          <Instagram className='ig' ></Instagram>
+          <LinkedIn  className='li'></LinkedIn>
         </Container>
       </Navbar>
   )

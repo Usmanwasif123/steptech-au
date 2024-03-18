@@ -4,770 +4,302 @@
 }
 
 .solution-container{
-   height: 100vh;
-   width: 98vw;
+    height: 100vh;
+    width: 98.7vw; 
+    background: linear-gradient(256.4deg, #6347AA 7.85%, #233F81 107.97%);
 }
 
-.solution-container .sol-background{
-    position: relative;
-    background-repeat: no-repeat;
-    background: linear-gradient(270deg, #6347AA 7.85%, #233F81 50.97%);
-    height: 120vh;
-    width: 98.7vw;
-    margin-top: 10rem;
-    z-index: 1;
+.sol-main-heading{
+    font-size: 5rem;
+    padding-top: 3rem;
+    margin-left: 3rem;
 }
 
-#sol-line1{
-    top: 250%;
-    left: 2%;
-    position: absolute;
-    z-index: 1;
-    transform: rotate(90deg);
-    transform-origin: 20% 50%;
-    background: #fff;
-    padding: 0px 80px 1px 80px;
-}
-#sol-line2{
-    top: 250%;
-    left: 2%;
-    position: absolute;
-    z-index: 1;
-    background: #fff;
-    padding: 0px 80px 1px 80px;
-}
-
-.sol-heading-left{
-    position: absolute;
-    z-index: 2;
-    padding: 0px 70px 1px 50px;
-    margin: -670px 600px 0px 30px;
-    color: #FDFDFD;
-    font-family: Poppins, sans-serif;
-    font-size: 49px; 
-    font-style: normal;
-    font-weight: 700;
-    line-height: 48.5px; /* 98.98% */
-    letter-spacing: -1px;
-}
-.sol-heading2-left{
-    position: absolute;
-    z-index: 2;
-    color: #F4F4F4;
-    padding: 0px 20px 1px 50px;
-    margin: -500px 800px 0px 30px;
-    font-family: Poppins, sans-serif;
-    font-size: 29px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 34.5px; /* 118.966% */
-    letter-spacing: -1px;
-}
-
-.sol-para-left{
-    position: absolute;
-    z-index: 2;
-    color: #F4F4F4;
-    padding: 0px 20px 1px 70px;
-    margin: -340px 700px 0px 5px;
-    font-family: Poppins, sans-serif;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 28.5px; /* 142.5% */
-}
-
-.btn-design{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-transform: capitalize;
-    text-decoration: none;
-    padding: 15px 50px 15px 30px;
-    margin-left: -40px;
-    position: absolute;
-    border-radius: 0px 60px 60px 0px;
-    cursor: pointer;
-    color: #fff;
-    z-index: 1;
-    outline: 1px solid #fff;
+.card1{
+    height: 25rem;
+    width: 18rem;
     background: transparent;
-    top: 355%;
-    left: 9%;
-    color: #FDFDFD;
-    font-family: Poppins, sans-serif;
-    font-size: 22px;
-    font-style: normal;
-    font-weight: 400;
-    letter-spacing: -1px;
-    box-shadow: inset 0 0 0 0 #233F81;
-    -webkit-transition: ease-out 0.4s;
-    -moz-transition: ease-out 0.4s;
-    transition: ease-out 0.4s;
-}
-.btn-design:hover {
-    box-shadow: inset 0 0 0 50px #e6e1e4;
-    color: #233F81;
-}
-
-.stage-cube-cont {
-    height: 90%;
-    margin-left: 0;
-    overflow: hidden;
-    padding-top: 18%;
-    position: absolute;
-    right: 0;
-    top: 260%;
-    width: 50%;
-    z-index: 3;
-}
-
-@keyframes spincube {
-    0% { transform: rotateY(0deg) rotateX(0deg); }
-    100% { transform: rotateY(360deg) rotateX(360deg); }
-}
-
-.cubespinner {
-    -webkit-animation-duration: 10s;
-    animation-duration: 10s;
-    -webkit-animation-iteration-count: infinite;
-    animation-iteration-count: infinite;
-    -webkit-animation-name: spincube;
-    animation-name: spincube;
-    -webkit-animation-timing-function: ease-in-out;
-    animation-timing-function: ease-in-out;
-    margin-left: calc(50% - 100px);
-    -webkit-transform-origin: 100px 100px 0;
-    transform-origin: 100px 100px 0;
-    -webkit-transform-style: preserve-3d;
+    border: 2px solid #d8bfd8;
+    margin-left: 3rem;
+    margin-top: 1rem;
+    border-radius: 1rem;
     transform-style: preserve-3d;
+    transition: transform 0.5s;
+}
+.card2{
+    height: 25rem;
+    width: 18rem; 
+    background: transparent; 
+    border: 2px solid #d8bfd8; 
+    margin-left: 23rem; 
+    margin-top: -25rem; 
+    border-radius: 1rem;
+    transform-style: preserve-3d;
+    transition: transform 0.5s;
 }
 
-.cubespinner div {
-    align-items: center;
-    background: hsla(0,0%,100%,.4);
-    border: 1px solid #ccc;
-    box-shadow: 0 0 20px 0 #ffffe0;
-    display: flex;
-    font-size: 100px;
-    height: 200px;
-    justify-content: center;
+.card3{
+    height: 25rem; 
+    width: 18rem; 
+    background: transparent; 
+    border: 2px solid #d8bfd8; 
+    margin-left: 43rem; 
+    margin-top: -25rem;
+    border-radius: 1rem; 
+    transform-style: preserve-3d;
+    transition: transform 0.5s;
+}
+
+.card4{
+    height: 25rem; 
+    width: 18rem; 
+    background: transparent; 
+    border: 2px solid #d8bfd8; 
+    margin-left: 63rem; 
+    margin-top: -25rem;
+    border-radius: 1rem;
+    transform-style: preserve-3d;
+    transition: transform 0.5s;
+}
+
+.card-inner{
+    transform-style: preserve-3d;
+    width: 100%; 
+    height: 100%;
+    transition: transform 0.5s;
+}
+.card-front{
+    position: absolute; 
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    overflow: hidden;
+}
+
+.frontimage{
+    height: auto;
+    width: 50%;
+    object-fit: contain;
+    margin-top: 2rem;
+    margin-left: 4rem;
+}
+
+.frontpara{
+    font-size: 1rem; 
+    margin-left: 1rem; 
+    color: #fff;
+}
+.card-back{
     position: absolute;
-    text-align: center;
-    width: 200px;
+    width: 100%; 
+    height: 100%; 
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
 }
 
-.cubespinner .face1 {
-    color: #dd0031;
-    -webkit-transform: translateZ(100px);
-    transform: translateZ(100px);
+.backimage{
+    height: auto; 
+    width: 50%; 
+    object-fit: contain; 
+    margin-top: 2rem; 
+    margin-left: 4rem;
 }
-
-.cubespinner .face2 {
-    color: #f06529;
-    -webkit-transform: rotateY(90deg) translateZ(100px);
-    transform: rotateY(90deg) translateZ(100px);
+.backpara{
+    font-size: 1rem; 
+    margin-left: 1rem; 
+    color: #fff;
 }
-
-.cubespinner .face3 {
-    color: #28a4d9;
-    -webkit-transform: rotateY(90deg) rotateX(90deg) translateZ(100px);
-    transform: rotateY(90deg) rotateX(90deg) translateZ(100px);
+/* Media query for small devices (e.g., mobiles) */
+@media only screen and (max-width: 576px){
+    .solution-container{
+        height: 300vh;
+    }
+    .sol-main-heading{
+        font-size: 4rem;
+    }
+    
+    .card1{
+        height: 25rem;
+        width: 25rem;
+        margin-left: 3rem;
+        margin-top: 1rem;
+    }
+    .card2{
+        height: 25rem;
+        width: 25rem; 
+        margin-left: 3rem; 
+        margin-top: 1rem;
+    }
+    
+    .card3{
+        height: 25rem;
+        width: 25rem; 
+        margin-left: 3rem; 
+        margin-top: 1rem;
+    }
+    
+    .card4{
+        height: 25rem;
+        width: 25rem; 
+        margin-left: 3rem; 
+        margin-top: 1rem;
+    }
+  
+    
+    .frontimage{
+        margin-left: 5rem;
+    }
+    
+    .frontpara{
+        font-size: 1.5rem; 
+    }
+      
+    .backimage{
+        margin-left: 5rem;
+    }
+    .backpara{
+        font-size: 1.5rem; 
+    }
 }
-
-.cubespinner .face4 {
-    color: #5ed4f4;
-    -webkit-transform: rotateY(180deg) rotate(90deg) translateZ(100px);
-    transform: rotateY(180deg) rotate(90deg) translateZ(100px);
-}
-
-.cubespinner .face5 {
-    color: #efd81d;
-    -webkit-transform: rotateY(-90deg) rotate(90deg) translateZ(100px);
-    transform: rotateY(-90deg) rotate(90deg) translateZ(100px);
-}
-
-.cubespinner .face6 {
-     color: #ec4d28; 
-    -webkit-transform: rotateX(-90deg) translateZ(100px);
-     transform: rotateX(-90deg) translateZ(100px); 
-}
-
-@media only screen and (max-width: 1024px) {
+/* Media query for medium devices (e.g., tablet and small pc) */
+@media only screen and (min-width: 576px) and (max-width: 768px){
 
     .solution-container{
-        height: 130vh;
-     }
-
-     .solution-container .sol-background{
-        height: 130vh;
+        height: 180vh;
+    }
+    .sol-main-heading{
+        font-size: 5rem;
+        padding-top: 3rem;
+        margin-left: 3rem;
     }
     
-    #sol-line1{
-        margin-top: 6rem;
-        margin-left: -1rem;
+    .card1{
+        height: 25rem;
+        width: 20rem;
+        margin-left: 3rem;
+        margin-top: 1rem;
     }
-
-    #sol-line2{
-        margin-top: 6rem;
-        margin-left: 0rem;
-    }
-    .sol-heading-left{
-        font-size: 30px;
-        padding: 0px 30px 1px 40px;
-        margin: -700px 500px 0px 20px;
-    }
-    .sol-heading2-left{
-        font-size: 25px;
-        padding: 0px 20px 1px 35px;
-        margin: -550px 450px 0px 5px;
-    }
-    .sol-para-left{
-        font-size: 20px;
-        padding: 0px 0px 1px 0px;
-        margin: -400px 441px 0px 35px;
-    }
-    .btn-design{
-        margin-top: 11rem;
-        margin-left: -3rem;
-        font-size: 19px;
-        font-weight: 600;
-    
-    }
-    .btn-design:hover{
-        box-shadow: inset 0 0 0 50px #e6e1e4;
-        color: #233F81;
+    .card2{
+        height: 25rem;
+        width: 20rem; 
+        margin-left: 25rem; 
+        margin-top: -25rem; 
     }
     
-    .stage-cube-cont {
-        margin-top: 9rem;
-    }
-   
-}
-@media only screen and (max-width: 768px) {
-    .solution-container .sol-background{
-        height: 160vh;
-    }
-    #sol-line1{
-        top: 300%;
-        left: 2%;
-    }
-
-    #sol-line2{
-        top: 300%;
-        left: 2%;
-    }
-
-    .sol-heading-left{
-        font-size: 25px;
-        padding: 0px 1px 1px 40px;
-        margin: -470px -10px 0px 20px;
-    }
-    .sol-heading2-left{
-        font-size: 20px;
-        padding: 0px 20px 1px 35px;
-        margin: -320px -5px 0px -5px;
-    }
-
-    .sol-para-left{
-        font-size: 16px;
-        padding: 0px 20px 1px 25px;
-        margin: -230px 10px 0px 6px;
-    }
-    .btn-design{
-        top: 372%;
-        left: 10%;
-        font-size: 17px;
-        box-shadow: inset 0 0 0 0 #233F81;
-        -webkit-transition: ease-out 0.4s !important;
-        -moz-transition: ease-out 0.4s !important;
-        transition: ease-out 0.4s;
-        cursor: pointer;
-    }
-    .btn-design:hover{
-        box-shadow: inset 0 0 0 50px #e6e1e4 !important;
-        color: #233F81 !important;
-    }
-    .right-side img{
-        top: 257%;
-        left: 2%;
-        height: 105vh;
-    }
-    .right-half{
-        outline: none;
-        background: transparent;
-        border-radius: none;
-    }
-    .right-half .circle {
-        position: absolute;
-        z-index: 3;
-        top:  -15%;
-        left: -85%;
-        height: 70vh;
-        width: 60vw;
-    }
-    .right-half .lines{
-        position: absolute;
-        z-index: 3;
-        top:  -1%;
-        left: -71%;
-        height: 50vh;
-        width: 35vw;
-    }
-    .right-half .ang{
-        top:  -10%;
-        left: -74%;
-        height: 8vh;
-        width: 7vw;
-    }
-
-    .right-half .node{
-        top:  13%;
-        left: -86%;
-        height: 8vh;
-        width: 7vw;
-    }
-    .right-half .py{
-        top:  45%;
-        left: -85%;
-        height: 8vh;
-        width: 7vw;
-    }
-    .right-half .ios{
-        top:  65%;
-        left: -73%;
-        height: 8vh;
-        width: 7vw;
-    }
-    .right-half .and{
-        top:  72%;
-        left: -53%;
-        height: 8vh;
-        width: 9vw;
-    }
-    .right-half .js{
-        top:  -11%;
-        left: -35%;
-        height: 8vh;
-        width: 7vw;
-    }
-    .right-half .re{
-        top:  63%;
-        left: -34%;
-        height: 8vh;
-        width: 7vw;
-    }
-
-    .right-half .fl{
-        top:  45%;
-        left: -23%;
-        height: 8vh;
-        width: 7vw;
-    }
-    .right-half .sw{
-        top:  13%;
-        left: -22%;
-        height: 8vh;
-        width: 7vw;
-    }
-    .right-half .wf{
-        top:  -7%;
-        left: -52.5%;
-        height: 6vh;
-        width: 5vw;
-    }  
-    .right-half .fb{
-        top:  4%;
-        left: -67%;
-        height: 6vh;
-        width: 5vw;
+    .card3{
+        height: 25rem; 
+        width: 20rem; 
+        margin-left: 3rem;
+        margin-top: 1rem;
     }
     
-    .right-half .aws{
-        top:  28%;
-        left: -77%;
-        height: 6vh;
-        width: 5vw;
+    .card4{
+        height: 25rem;
+        width: 20rem; 
+        margin-left: 25rem; 
+        margin-top: -25rem; 
     }
-    .right-half .xd{
-        top:  48%;
-        left: -73%;
-        height: 6vh;
-        width: 5vw;
+    
+    .frontimage{
+        margin-left: 5rem;
     }
-    .right-half .fg{
-        top:  63%;
-        left: -52%;
-        height: 6vh;
-        width: 5vw;
+    
+    .frontpara{
+        font-size: 1.3rem; 
     }
-    .right-half .ht{
-        top: 25%;
-        left: -30%;
-        height: 6vh;
-        width: 5vw;
+        
+    .backimage{
+        margin-left: 5rem;
     }
-    .right-half .ko{
-        top: 45%;
-        left: -34%;
-        height: 6vh;
-        width: 5vw;
-    }
-    .right-half .gc{
-        top: 5%;
-        left: -37%;
-        height: 6vh;
-        width: 5vw;
-    }
-    .right-half .st{
-        top: 20%;
-        left: -58%;
-        height: 20vh;
-        width: 15vw;
+    .backpara{
+        font-size: 1.3rem; 
     }
 }
 
-@media only screen and (max-width: 480px) {
-    #sol-line1{
-        top: 295%;
-        left: 4%;
-        padding: 0px 50px 1px 50px;
+/* Media query for large devices (e.g., desktop) */
+@media only screen and (min-width: 768px) and (max-width: 992px){
+    .solution-container{
+        height: 180vh;
     }
-    #sol-line2{
-        top: 295%;
-        left: 5%;
-        padding: 0px 50px 1px 50px;
-    }
-    .sol-heading-left{
-        font-size: 25px;
-        padding: 0px 1px 1px 5px;
-        margin: -520px 20px 0px 50px;
-    }
-    .sol-heading2-left{
-        font-size: 18px;
-        padding: 0px 20px 1px 35px;
-        margin: -410px -5px 0px -5px;
-    }
-    .sol-para-left{
-        font-size: 14px;
-        padding: 0px 0px 1px 25px;
-        margin: -320px 12px 0px 6px;
-    }
-    .btn-design{
-        font-size: 15px;
-        top: 371%;
-        left: 15%;
-        padding-left: 20px;
-        box-shadow: inset 0 0 0 0 #233F81;
-        -webkit-transition: ease-out 0.4s;
-        -moz-transition: ease-out 0.4s ;
-        transition: ease-out 0.4s;
-        cursor: pointer;
-    }
-    .btn-design:hover{
-        box-shadow: inset 0 0 0 50px #e6e1e4;
-        color: #233F81;
-    }
-    .right-side img{
-        top: 263%;
-        left: -52%;
-        height: 105vh;
-    }
-    .right-half .circle {
-        left: -45%;
-    }
-    .right-half .lines{
-        top:  7%;
-        left: -38%;
-        height: 45vh;
-        width: 35vw;
-    }
-    .right-half .ang{
-        top:  1%;
-        left: -35%;
-        height: 7vh;
-        width: 7vw;
-    }
-
-    .right-half .node{
-        top:  13%;
-        left: -43%;
-        height: 7vh;
-        width: 7vw;
-    }
-    .right-half .py{
-        top:  35%;
-        left: -46%;
-        height: 7vh;
-        width: 7vw;
-    }
-    .right-half .ios{
-        top:  55%;
-        left: -40%;
-        height: 7vh;
-        width: 7vw;
-    }
-    .right-half .and{
-        top:  61%;
-        left: -27%;
-        height: 7vh;
-        width: 9vw;
-    }
-    .right-half .js{
-        top:  2%;
-        left: -16%;
-        height: 7vh;
-        width: 7vw;
-    }
-    .right-half .re{
-        top:  55%;
-        left: -12%;
-        height: 7vh;
-        width: 7vw;
-    }
-
-    .right-half .fl{
-        top:  35%;
-        left: -5%;
-        height: 7vh;
-        width: 7vw;
-    }
-    .right-half .sw{
-        top:  15%;
-        left: -7%;
-        height: 7vh;
-        width: 7vw;
-    }
-    .right-half .wf{
-        top:  3%;
-        left: -26%;
-        height: 5vh;
-        width: 5vw;
-    }  
-    .right-half .fb{
-        top:  12%;
-        left: -36%;
-        height: 5vh;
-        width: 5vw;
+    .sol-main-heading{
+        font-size: 5rem;
+        padding-top: 3rem;
+        margin-left: 3rem;
     }
     
-    .right-half .aws{
-        top:  30%;
-        left: -40%;
-        height: 5vh;
-        width: 5vw;
+    .card1{
+        height: 25rem;
+        width: 20rem;
+        margin-left: 3rem;
+        margin-top: 1rem;
     }
-    .right-half .xd{
-        top:  45%;
-        left: -39%;
-        height: 5vh;
-        width: 5vw;
+    .card2{
+        height: 25rem;
+        width: 20rem; 
+        margin-left: 25rem; 
+        margin-top: -25rem; 
     }
-    .right-half .fg{
-        top:  55%;
-        left: -26%;
-        height: 5vh;
-        width: 5vw;
+    
+    .card3{
+        height: 25rem; 
+        width: 20rem; 
+        margin-left: 3rem;
+        margin-top: 1rem;
     }
-    .right-half .ht{
-        top: 27%;
-        left: -12%;
-        height: 5vh;
-        width: 5vw;
+    
+    .card4{
+        height: 25rem;
+        width: 20rem; 
+        margin-left: 25rem; 
+        margin-top: -25rem; 
     }
-    .right-half .ko{
-        top: 43%;
-        left: -15%;
-        height: 5vh;
-        width: 5vw;
+    
+    .frontimage{
+        margin-left: 5rem;
     }
-    .right-half .gc{
-        top: 12%;
-        left: -17%;
-        height: 5vh;
-        width: 5vw;
+    
+    .frontpara{
+        font-size: 1.3rem; 
     }
-    .right-half .st{
-        top: 27%;
-        left: -29%;
-        height: 13vh;
-        width: 13vw;
+        
+    .backimage{
+        margin-left: 5rem;
     }
-
+    .backpara{
+        font-size: 1.3rem; 
+    }
 }
 
-@media only screen and (max-width: 320px) {
-    .solution-container .sol-background{
-        height: 170vh;
-    }
-    #sol-line1{
-        top: 305%;
-        left: 4%;
-        padding: 0px 50px 1px 50px;
-    }
-    #sol-line2{
-        top: 305%;
-        left: 5%;
-        padding: 0px 50px 1px 50px;
-    }
-    .sol-heading-left{
-        font-size: 18px;
-        padding: 0px 1px 1px 5px;
-        margin: -630px 20px 0px 50px;
-    }
-    .sol-heading2-left{
-        font-size: 15px;
-        padding: 0px 20px 1px 35px;
-        margin: -480px -5px 0px -5px;
-    }
-    .sol-para-left{
-        font-size: 12px;
-        padding: 0px 0px 1px 25px;
-        margin: -365px 12px 0px 6px;
-    }
-    .btn-design{
-        font-size: 11px;
-        top: 405%;
-        left: 24%;
-        padding-left: 20px;
-        box-shadow: inset 0 0 0 0 #233F81;
-        -webkit-transition: ease-out 0.4s;
-        -moz-transition: ease-out 0.4s ;
-        transition: ease-out 0.4s;
-        cursor: pointer;
-        letter-spacing: 1px;
-    }
-    .btn-design:hover{
-        box-shadow: inset 0 0 0 50px #e6e1e4;
-        color: #233F81;
-    }
-    .right-side img{
-        top: 320%;
-        left: -99%;
-        height: 62vh;
-    }
-    .right-half .circle {
-        top: 40px;
-        left: -77%;
-        height: 50vh;
-        width: 85vw;
-
-    }
-    .right-half .lines{
-        top:  20%;
-        left: -65%;
-        height: 30vh;
-        width: 35vw;
-    }
-    .right-half .ang{
-        top:  10%;
-        left: -69%;
-        height: 7vh;
-        width: 9vw;
-    }
-
-    .right-half .node{
-        top:  25%;
-        left: -76.5%;
-        height: 7vh;
-        width: 9vw;
-    }
-    .right-half .py{
-        top:  46%;
-        left: -78%;
-        height: 7vh;
-        width: 9vw;
-    }
-    .right-half .ios{
-        top:  64%;
-        left: -71%;
-        height: 7vh;
-        width: 9vw;
-    }
-    .right-half .and{
-        top:  70%;
-        left: -60%;
-        height: 7vh;
-        width: 15vw;
-    }
-    .right-half .js{
-        top:  9%;
-        left: -50%;
-        height: 7vh;
-        width: 9vw;
-    }
-    .right-half .re{
-        top:  60%;
-        left: -44%;
-        height: 7vh;
-        width: 9vw;
-    }
-
-    .right-half .fl{
-        top:  45%;
-        left: -40%;
-        height: 7vh;
-        width: 9vw;
-    }
-    .right-half .sw{
-        top:  25%;
-        left: -40%;
-        height: 7vh;
-        width: 9vw;
-    }
-    .right-half .wf{
-        top:  15%;
-        left: -58%;
-        height: 5vh;
-        width: 9vw;
-    }  
-    .right-half .fb{
-        top:  22%;
-        left: -66%;
-        height: 5vh;
-        width: 9vw;
+/* Media query for extra large devices (e.g., extra large desktop) */
+@media only screen and (min-width: 992px) and (max-width: 1200px){
+    .section2-main{
+        font-size: 5rem;
+        margin-left: 2rem;
     }
     
-    .right-half .aws{
-        top:  37%;
-        left: -69%;
-        height: 5vh;
-        width: 9vw;
+    .outer-div{
+        display: flex;
+        transition: transform 1s ease;
     }
-    .right-half .xd{
-        top:  50%;
-        left: -67%;
-        height: 5vh;
-        width: 9vw;
+    
+    .card-style{
+        margin-left: 2rem; 
+        margin-top: 2rem; 
+
     }
-    .right-half .fg{
-        top:  60%;
-        left: -58%;
-        height: 5vh;
-        width: 9vw;
+    
+    .cards-image{
+        width: 100%;
+        height: 100%; 
+        object-fit: cover;
     }
-    .right-half .ht{
-        top: 35%;
-        left: -48%;
-        height: 5vh;
-        width: 9vw;
+    .cards-heading{
+        margin-left: 2rem;
+        margin-top: 0.5rem; 
     }
-    .right-half .ko{
-        top: 47%;
-        left: -50.5%;
-        height: 5vh;
-        width: 9vw;
-    }
-    .right-half .gc{
-        top: 22%;
-        left: -51%;
-        height: 5vh;
-        width: 9vw;
-    }
-    .right-half .st{
-        top: 35%;
-        left: -61%;
-        height: 11vh;
-        width: 20vw;
+    
+    .card-para{
+        margin-left: 2rem; 
+        margin-top: 0.5rem;
     }
 }

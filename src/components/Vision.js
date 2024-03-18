@@ -99,14 +99,7 @@ const Ourwork = () => {
   };
 
   return (
-    <Container fluid 
-     style={{ 
-        background: '#fff', 
-        overflow: 'hidden', 
-        transition: 'transform 0.5s ease',
-        scrollBehavior: 'smooth'
-        
-      }} 
+    <Container fluid className='vision-container'
       onMouseDown={handleMouseDown}
       onMouseMove={handleMouseMove}
       onMouseUp={handleMouseUp}
@@ -115,19 +108,19 @@ const Ourwork = () => {
     >
       <Row>
         <Col>
-          <div className='section2-main' style={{ fontSize: '5rem', color: '#333', paddingTop: '2rem', marginLeft: '2rem' }}>About us</div>
-          <div style={{ display: 'flex', transition: 'transform 1s ease', transform: `translateX(-${currentIndex * 20}vw)` }}>
+          <div className='section2-main'>About us</div>
+          <div className='outer-div' style={{ transform: `translateX(-${currentIndex * 20}vw)` }}>
             {duplicatedSlides.map((slide, index) => (
               <div key={index}
               onMouseEnter={() => setDragging(true)}
               onMouseLeave={() => setDragging(false)} 
               style={{ flex: '0 0 auto', width: '20vw', cursor: dragging ? `url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" viewBox="0 0 24 24"><circle cx="50%" cy="50%" r="8" fill="purple" stroke="purple" stroke-width="1"/><text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-size="6" fill="white">Drag</text></svg>') 12 12, auto` 
               : 'auto' }}>
-                <Card style={{ height: '17rem', width: '15rem', background: '#333', marginLeft: '2rem', marginTop: '2rem', overflow: 'hidden' }}>
-                  <img src={slide.image} alt='card-images' style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                <Card className='card-style'>
+                  <img src={slide.image} alt='card-images' className='cards-image'/>
                 </Card>
-                <h1 style={{ marginLeft: '2rem', marginTop: '0.5rem', display: 'inline-flex' }}>{slide.title}</h1>
-                <p style={{ marginLeft: '2rem', paddingRight: '0rem', marginTop: '0.5rem', width: '15rem', display: 'flex' }}>{slide.content}</p>
+                <h1 className='cards-heading'>{slide.title}</h1>
+                <p className='card-para'>{slide.content}</p>
               </div>
             ))}
           </div>
