@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import '../assets/wrapper/Presentation.css';
-import { Container, Row, Col, Card } from 'react-bootstrap';
+import { Container, Row, Col, Card, Button } from 'react-bootstrap';
 
 const Presentation = () => {
   const [scrolledSection, setScrolledSection] = useState(0);
 
-  const images = ['https://i.ibb.co/5sW8MtH/image.png', 'https://i.ibb.co/v1Jqt74/image.png', 'https://i.ibb.co/r5rNvwQ/image.png'];
+  const images = ['https://i.ibb.co/qN44fV3/image.png', 'https://i.ibb.co/v1Jqt74/image.png', 'https://i.ibb.co/r5rNvwQ/image.png'];
   const headings = ['Web Development', 'App Development', 'Game Development'];
 
   
@@ -49,28 +49,30 @@ const Presentation = () => {
   }, []);
 
   return (
-    <Container fluid style={{ background: 'linear-gradient(256.4deg, #6347AA 7.85%, #233F81 107.97%)', height: '110vh', width: '98.7vw', position: 'relative' }}>
+    <Container fluid className="presentation-container">
       <Row>
-      <Col style={{ marginTop: '5rem', marginLeft: '10rem', height: '30rem', width: '30rem', position: 'absolute', transition: 'opacity 0.5s' }}>
+      <Col xs={12} md={6} lg={4} className="presentation-heading mt-5 ms-5">
           {headings.map((heading, index) => (
-            <h1 key={index} style={{ fontSize: '2rem', textTransform: 'capitalize', paddingTop: '10rem', paddingLeft: '5rem', color: '#fff', opacity: scrolledSection === index ? 1 : 0 }}>
+            <h1 key={index} 
+            className={`presentation-heading-text text-white text-capitalize fs-1 ms-5`}
+            style={{opacity: scrolledSection === index ? 1 : 0 }}>
               {heading}
             </h1>
           ))}
         </Col>
       </Row>
       <Row>
-        <Col style={{ marginTop: '20rem', marginLeft: '18rem', position: 'absolute', transition: 'opacity 0.5s' }}>
-          <button style={{ fontSize: '1rem', textTransform: 'initial', borderRadius: '5rem', paddingRight: '2rem', paddingLeft: '2rem', border: '2px solid white', paddingTop: '1rem', paddingBottom: '1rem', marginTop: '2rem', background: 'transparent', color: '#fff', fontWeight: '600', opacity: 1 }}>
+        <Col className="presentation-button ms-5">
+          <Button className="view-more-btn fs-5 text-initial border-white rounded-pill fw-600 p-3 text-white bg-transparent">
             View more
-          </button>
+          </Button>
         </Col>
       </Row>
       <Row>
-      <Col style={{ marginTop: '7rem', marginLeft: '45rem', height: '25rem', width: '30rem', position: 'absolute', transition: 'opacity 0.5s' }}>
+      <Col xs={12} md={6} lg={4} className="presentation-images">
           {images.map((image, index) => (
-            <Card key={index} style={{ background: '#333', height: '25rem', width: '30rem', borderRadius: '4rem', overflow: 'hidden', opacity: scrolledSection === index ? 1 : 0 }}>
-              <img src={image} style={{ height: '100%', width: '100%', objectFit: 'cover' }} alt={`Section ${index}`} />
+            <Card  className='presentation-card h-100 w-100 rounded-5 overflow-hidden' key={index} style={{opacity: scrolledSection === index ? 1 : 0 }}>
+              <Card.Img src={image} className='presentation-image' alt={`Section ${index}`} />
             </Card>
           ))}
         </Col>

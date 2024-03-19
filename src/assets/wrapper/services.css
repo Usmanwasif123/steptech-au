@@ -4,7 +4,7 @@
 }
 
 .service-container{
-    height: 100dvh;
+    height: 110dvh;
     width: auto;
     position: relative; 
     scroll-behavior: smooth;
@@ -17,9 +17,210 @@
 
 .lead{
     margin-left: -10rem;
+    margin-right: -50rem;
 }
 
 .explore-btn{
     background: linear-gradient(256.4deg, #6347AA 7.85%, #233F81 107.97%);
     margin-left: -10rem;
+}
+
+.game-card{
+   height: 33rem; 
+   width: 45rem; 
+   z-index: 0;
+   overflow: hidden;
+   margin-top: -25rem;
+   margin-left: 37rem;
+}
+
+.web-card{
+    height: 31rem; 
+    width: 45rem;
+    z-index: 1;
+    margin-left: 12rem;
+    margin-top: -20rem;
+    overflow: hidden;
+}
+
+.app-card{
+    height: 29rem;
+    width: 45rem;
+    z-index: 2;
+    overflow: hidden;
+    margin-left: -18rem;
+    margin-top: -15rem;
+}
+
+/* Media query for small devices (e.g., mobiles) */
+@media only screen and (max-width: 576px){
+    .service-container{
+        height: 200dvh;
+    }
+       
+    .display-2{
+        margin-left: 10rem;
+        margin-top: -5rem;
+    }
+    
+    .lead{
+        margin-left: 10rem;
+        margin-right: 0rem;
+    }
+    
+    .explore-btn{
+        background: linear-gradient(256.4deg, #6347AA 7.85%, #233F81 107.97%);
+        margin-left: 10rem;
+    }
+    
+    .game-card{
+       height: 20rem; 
+       width: 33rem; 
+       margin-top: -1rem;
+       margin-left: 0rem;
+    }
+    
+    .web-card{
+        height: 20rem; 
+        width: 33rem; 
+        margin-left: 10.5rem;
+        margin-top: 1rem;
+        
+    }
+    
+    .app-card{
+        height: 20rem; 
+        width: 33rem; 
+        margin-left: 10.5rem;
+        margin-top: 1rem;
+    }
+}
+/* Media query for medium devices (e.g., tablet and small pc) */
+@media only screen and (min-width: 576px) and (max-width: 768px){
+    .service-container{
+        height: 200dvh;
+    }
+       
+    .display-2{
+        margin-left: 10rem;
+        margin-top: -5rem;
+    }
+    
+    .lead{
+        margin-left: 10rem;
+        margin-right: 0rem;
+    }
+    
+    .explore-btn{
+        background: linear-gradient(256.4deg, #6347AA 7.85%, #233F81 107.97%);
+        margin-left: 10rem;
+    }
+    
+    .game-card{
+       height: 30rem; 
+       width: 100%; 
+       margin-top: -1rem;
+       margin-left: 0rem;
+    }
+    
+    .web-card{
+        height: 30rem; 
+        width: 100%; 
+        margin-left: 9rem;
+        margin-top: 1rem;
+        
+    }
+    
+    .app-card{
+        height: 30rem; 
+        width: 100%; 
+        margin-left: 9rem;
+        margin-top: 1rem;
+    }
+}
+
+/* Media query for large devices (e.g., desktop) */
+@media only screen and (min-width: 768px) and (max-width: 992px){
+    .service-container{
+        height: 120dvh;
+    }
+    
+    .display-2{
+        margin-left: -10rem;
+        margin-top: 5rem;
+    }
+    
+    .lead{
+        margin-left: -10rem;
+        margin-right: -50rem;
+    }
+    
+    .explore-btn{
+        margin-left: -10rem;
+    }
+    
+    .game-card{
+       height: 33rem; 
+       width: 40rem; 
+       margin-top: -25rem;
+       margin-left: 20rem;
+    }
+    
+    .web-card{
+        height: 31rem; 
+        width: 40rem; 
+        margin-left: -5rem;
+        margin-top: -20rem;
+    }
+    
+    .app-card{
+        height: 29rem;
+        width: 40rem; 
+        margin-left: -7rem;
+        margin-top: -25rem;
+    }
+}
+
+/* Media query for extra large devices (e.g., extra large desktop) */
+@media only screen and (min-width: 992px) and (max-width: 1200px){
+    .service-container{
+        height: 100dvh;
+        width: auto;
+    }
+    
+    .display-2{
+        margin-left: -10rem;
+        margin-top: 5rem;
+    }
+    
+    .lead{
+        margin-left: -10rem;
+        margin-right: -50rem;
+    }
+    
+    .explore-btn{
+        margin-left: -10rem;
+    }
+    
+    .game-card{
+       height: 33rem; 
+       width: 50rem; 
+       margin-top: -25rem;
+       margin-left: 32rem;
+    }
+    
+    .web-card{
+        height: 31rem; 
+        width: 50rem;
+        margin-left: 5rem;
+        margin-top: -20rem;
+        
+    }
+    
+    .app-card{
+        height: 29rem;
+        width: 50rem;
+        margin-left: -25rem;
+        margin-top: -15rem;
+    }
 }

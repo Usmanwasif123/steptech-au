@@ -21,33 +21,41 @@ const Brand = () => {
   }, []); // Run only once on component mount
 
   return (
-    <Container fluid style={{ height: '160vh', width: '98.7vw', background: '#ffffff', position: 'relative', scrollBehavior: 'smooth' }}>
-      <Row>
-        <Col>
-          <div style={{ marginTop: '5rem', marginLeft: '0rem', position: 'absolute', display: 'inline-block', width: '41rem', height: '23rem'}}>
-          <Card style={{ position: 'relative', background: '#fff', height: '20rem', width: '38rem', marginLeft: '3rem', zIndex: '0', borderRadius: '0.5rem', overflow: 'hidden'}} >
-             <img ref={imgRef} className="card-image" src='https://i.ibb.co/L9XHDX2/image.png' alt='card-img' />
+    <Container fluid  expand="lg" className='brand-container'>
+      <Row className='justify-content-center'>
+        <Col xs={12} md={6} lg={2}>
+          <div className='outer-div'>
+          <Card className='card-inner' id='card1-inner'>
+             <Card.Img ref={imgRef} className="card-image" src='https://i.ibb.co/L9XHDX2/image.png' alt='card-img' />
           </Card>
-            <h1 style={{marginLeft: '3rem',marginTop: '1rem', textTransform: 'capitalize'}}>artificial intelligence</h1>
+            <h1 className='card-heading text-capitalize mt-4' id='heading-1'>artificial intelligence</h1>
           </div>
-        <div style={{ marginTop: '5rem', marginLeft: '0rem', position: 'absolute', display: 'inline-block', width: '41rem', height: '23rem'}}> {/* Adjust margin-top as needed */}
-          <Card style={{ background: '#333', height: '20rem', width: '39rem', marginLeft: '43rem', zIndex: '0', borderRadius: '0.5rem', overflow: 'hidden'}}>
-            <img style={{width: '100%', height: '110%', objectFit: 'cover', borderRadius: '0.5rem'}} src='https://i.ibb.co/pLLSFyH/Blockchain.jpg' alt='card-img'/>
+          </Col>
+          <Col xs={12} md={6} lg={2}>
+        <div className='outer-div'> {/* Adjust margin-top as needed */}
+          <Card className='card-inner' id='card2-inner'>
+            <Card.Img className="card-image" src='https://i.ibb.co/pLLSFyH/Blockchain.jpg' alt='card-img'/>
             <div className="ripple"></div>
           </Card>
-          <h1 style={{marginLeft: '43rem',marginTop: '1rem', textTransform: 'capitalize'}}>blockchain</h1>
+          <h1 className='card-heading text-capitalize mt-4' id='heading-2'>blockchain</h1>
         </div>
-        <div style={{ marginTop: '35rem', marginLeft: '0rem', position: 'absolute', display: 'inline-block', width: '41rem', height: '23rem'}}> {/* Adjust margin-top as needed */}
-          <Card  style={{ background: '#0044ff', height: '20rem', width: '38rem', marginLeft: '3rem', marginTop: '0rem', zIndex: '2', borderRadius: '0.5rem', overflow: 'hidden'}}>
-          <img style={{width: '100%', height: 'auto', objectFit: 'cover', borderRadius: '0.5rem'}} src='https://i.ibb.co/QCJvbmX/Branding.png' alt='card-img'/>
+        </Col>
+        </Row>
+        <Row className='justify-content-center'>
+        <Col xs={12} lg={6}>
+        <div className='second-outer-div'> {/* Adjust margin-top as needed */}
+          <Card className='card-inner' id='card3-inner'>
+          <img className="card-image" src='https://i.ibb.co/QCJvbmX/Branding.png' alt='card-img'/>
           </Card>
-          <h1 style={{marginLeft: '3rem',marginTop: '1rem', textTransform: 'capitalize'}}>branding</h1>
+          <h1 className='card-heading text-capitalize ms-3 mt-4'>branding</h1>
         </div>
-        <div style={{ marginTop: '35rem', marginLeft: '43rem', position: 'absolute', display: 'inline-block', width: '38rem', height: '23rem'}}> {/* Adjust margin-top as needed */}
-          <Card  style={{ background: '#0000ff', height: '20rem', width: '38rem', marginLeft: '0rem', marginTop: '0rem', zIndex: '1', borderRadius: '0.5rem', overflow: 'hidden'}}>
-          <img style={{width: '100%', height: 'auto', objectFit: 'cover', borderRadius: '0.5rem'}} src='https://i.ibb.co/6Wb4526/Marketing.jpg' alt='card-img'/>
+        </Col>
+        <Col xs={12} lg={6}>
+        <div className='second-outer-div'> {/* Adjust margin-top as needed */}
+          <Card className='card-inner' id='card4-inner'>
+          <img className="card-image" src='https://i.ibb.co/6Wb4526/Marketing.jpg' alt='card-img'/>
           </Card>
-          <h1 style={{marginLeft: '0rem',marginTop: '1rem', textTransform: 'capitalize'}}>marketing</h1>
+          <h1 className='card-heading text-capitalize mt-4' id='heading-4'>marketing</h1>
         </div>
         </Col>
       </Row>

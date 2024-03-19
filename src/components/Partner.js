@@ -5,11 +5,11 @@ import { Container, Row, Col, Card } from 'react-bootstrap';
 const Partner = () => {
     
   return (
-    <Container fluid style={{height: '130vh', width: '98.7vw', background: '#ffffff', scrollBehavior: 'smooth'}}>
-      <div style={{background: '#6347AA', marginLeft: '-2.5rem'}}>
-      <Row>
-        <Col>
-        <Card style={{height: '15rem', width: '15rem', background: '#e6e6e6', position: 'absolute', marginTop: '1rem', marginLeft: '5rem', overflow: 'hidden', borderRadius: '3rem'}}>
+    <Container fluid className="partner-container" style={{height: '130vh', width: '98.7vw', background: '#ffffff', scrollBehavior: 'smooth'}}>
+     
+      <Row className="justify-content-center">
+        <Col xs={12} md={6} lg={4}>
+        <Card className="partner-card h-25 w-25 bg-secondary.bg-gradient" style={{position: 'absolute', marginTop: '1rem', marginLeft: '5rem', overflow: 'hidden', borderRadius: '3rem'}}>
           <img src='https://i.ibb.co/tq1TLJD/image.png' style={{height: '90%', width:'90%', objectFit: 'contain', paddingTop: '1rem', paddingLeft: '0.7rem'}} />
         </Card>
         </Col>
@@ -42,7 +42,6 @@ const Partner = () => {
         </Card>
         </Col>
       </Row>
-      </div>
       <Row>
         <Col>
         <div style={{height: '30rem', paddingTop: '15rem', width: '80rem', marginLeft: '2rem'}}>

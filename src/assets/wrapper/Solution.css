@@ -17,7 +17,7 @@
 
 .card1{
     height: 25rem;
-    width: 20rem;
+    width: 18rem;
     background: transparent;
     border: 2px solid #d8bfd8;
     margin-left: 3rem;
@@ -28,7 +28,7 @@
 }
 .card2{
     height: 25rem;
-    width: 20rem;
+    width: 18rem;
     background: transparent; 
     border: 2px solid #d8bfd8; 
     margin-left: 2rem; 
@@ -40,10 +40,10 @@
 
 .card3{
     height: 25rem; 
-    width: 20rem;
+    width: 18rem;
     background: transparent; 
     border: 2px solid #d8bfd8; 
-    margin-left: 2rem; 
+    margin-left: 1rem; 
     margin-top: 11.5rem; 
     border-radius: 1rem; 
     transform-style: preserve-3d;
@@ -52,10 +52,10 @@
 
 .card4{
     height: 25rem; 
-    width: 20rem;
+    width: 18rem;
     background: transparent; 
     border: 2px solid #d8bfd8; 
-    margin-left: 2rem; 
+    margin-left: 0.5rem; 
     margin-top: 11.5rem; 
     border-radius: 1rem;
     transform-style: preserve-3d;
@@ -113,6 +113,7 @@
 @media only screen and (max-width: 576px){
     .solution-container{
         height: 300vh;
+        
     }
     .sol-main-heading{
         font-size: 4rem;

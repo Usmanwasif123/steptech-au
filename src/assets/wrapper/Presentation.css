@@ -4,6 +4,48 @@
   font-family: Sora,sans-serif;
 }
 
+.presentation-container{
+  background: linear-gradient(256.4deg, #6347AA 7.85%, #233F81 107.97%);
+  height: 100vh; 
+  width: 98.7vw; 
+  position: relative;
+
+}
+
+.presentation-heading{
+  position: absolute;
+  transition: opacity 0.5s;
+}
+
+.presentation-heading-text{
+  padding-left: 3rem;
+  padding-top: 10rem;
+
+}
+.presentation-button{
+  position: absolute;
+  transition: opacity 0.5s;
+}
+
+.view-more-btn{
+  margin-top: 18rem;
+  margin-left: 10rem;
+}
+
+.presentation-images{
+  margin-top: 7rem; 
+  margin-left: 45rem; 
+  height: 25rem; 
+  width: 30rem; 
+  position: absolute; 
+  transition: opacity 0.5s;
+}
+.presentation-image{
+  height: 100%;
+  width: 100%; 
+  object-fit: cover;
+}
+
 @keyframes slide-up {
   from {
     transform: translateY(50%);
@@ -19,38 +61,143 @@
 
 
 
- /* Responsive layout - makes a two column-layout instead of four columns */
-@media (max-width: 800px) {
-    .column {
-      flex: 50%;
-      max-width: 50%;
-    }
+ /* Media query for small devices (e.g., mobiles) */
+@media only screen and (max-width: 576px){
+  .presentation-container{
+    height: 110vh; 
   }
   
-  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-  @media (max-width: 600px) {
-    .column {
-      flex: 100%;
-      max-width: 100%;
-    }
+  .presentation-heading-text{
+    padding-left: 3rem;
+    padding-top: 1rem;
+  
   }
+  .presentation-button{
+    margin-top: -10rem;
+  }
+  
+  .view-more-btn{
+    margin-top: 18rem;
+    margin-left: 10rem;
+  }
+  
+  .presentation-images{
+    margin-top: 15rem; 
+    margin-left: 3rem; 
+    
+  }
+  
+}
+/* Media query for medium devices (e.g., tablet and small pc) */
+@media only screen and (min-width: 576px) and (max-width: 768px){
+  .presentation-container{
+    height: 110vh; 
+  }
+  
+  .presentation-heading-text{
+    padding-left: 3rem;
+    padding-top: 1rem;
+  
+  }
+  .presentation-button{
+    margin-top: -10rem;
+  }
+  
+  .view-more-btn{
+    margin-top: 18rem;
+    margin-left: 10rem;
+  }
+  
+  .presentation-images{
+    margin-top: 15rem; 
+    margin-left: 3rem; 
+    
+  }
+  
+}
 
+/* Media query for large devices (e.g., desktop) */
+@media only screen and (min-width: 768px) and (max-width: 992px){
+  .presentation-container{
+    height: 100vh;   
+  }
+  
+  .presentation-heading{
+    position: absolute;
+    transition: opacity 0.5s;
+  }
+  
+  .presentation-heading-text{
+    padding-left: 3rem;
+    padding-top: 10rem;
+  
+  }
+  .presentation-button{
+    position: absolute;
+    transition: opacity 0.5s;
+  }
+  
+  .view-more-btn{
+    margin-top: 18rem;
+    margin-left: 10rem;
+  }
+  
+  .presentation-images{
+    margin-top: 7rem; 
+    margin-left: 30rem; 
+    height: 25rem; 
+    width: 30rem; 
+    position: absolute; 
+    transition: opacity 0.5s;
+  }
+  .presentation-image{
+    height: 100%;
+    width: 100%; 
+    object-fit: cover;
+  }
+}
 
-
-@media only screen and (max-width: 1024px) {
-    .webpresent-btn{
-        margin-left: 150px;
-        margin-top: 82px;
-    }
-    .apppresent-btn{
-        margin-left: 20px;
-        margin-top: 82px;
-
-    }
-    .gamepresent-btn{
-        position: absolute;
-        margin-left: 20px;
-        margin-top: 82px;
-    }
-
+/* Media query for extra large devices (e.g., extra large desktop) */
+@media only screen and (min-width: 992px) and (max-width: 1200px){
+  .presentation-container{
+    background: linear-gradient(256.4deg, #6347AA 7.85%, #233F81 107.97%);
+    height: 100vh; 
+    width: 98.7vw; 
+    position: relative;
+  
+  }
+  
+  .presentation-heading{
+    position: absolute;
+    transition: opacity 0.5s;
+  }
+  
+  .presentation-heading-text{
+    padding-left: 3rem;
+    padding-top: 10rem;
+  
+  }
+  .presentation-button{
+    position: absolute;
+    transition: opacity 0.5s;
+  }
+  
+  .view-more-btn{
+    margin-top: 18rem;
+    margin-left: 10rem;
+  }
+  
+  .presentation-images{
+    margin-top: 7rem; 
+    margin-left: 45rem; 
+    height: 25rem; 
+    width: 30rem; 
+    position: absolute; 
+    transition: opacity 0.5s;
+  }
+  .presentation-image{
+    height: 100%;
+    width: 100%; 
+    object-fit: cover;
+  }
 }
