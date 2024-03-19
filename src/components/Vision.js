@@ -99,28 +99,28 @@ const Ourwork = () => {
   };
 
   return (
-    <Container fluid className='vision-container'
-      onMouseDown={handleMouseDown}
-      onMouseMove={handleMouseMove}
-      onMouseUp={handleMouseUp}
-      onMouseLeave={handleMouseLeave}
-      ref={containerRef}
-    >
+    <Container fluid className='vision-container' ref={containerRef}>
       <Row>
-        <Col>
+        <Col xs={12} md={8}>
           <div className='section2-main'>About us</div>
-          <div className='outer-div' style={{ transform: `translateX(-${currentIndex * 20}vw)` }}>
+          <div className='outer-div'
+          onMouseDown={handleMouseDown} 
+          onMouseMove={handleMouseMove} 
+          onMouseUp={handleMouseUp} 
+          onMouseLeave={handleMouseLeave}>
             {duplicatedSlides.map((slide, index) => (
-              <div key={index}
-              onMouseEnter={() => setDragging(true)}
-              onMouseLeave={() => setDragging(false)} 
-              style={{ flex: '0 0 auto', width: '20vw', cursor: dragging ? `url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" viewBox="0 0 24 24"><circle cx="50%" cy="50%" r="8" fill="purple" stroke="purple" stroke-width="1"/><text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-size="6" fill="white">Drag</text></svg>') 12 12, auto` 
-              : 'auto' }}>
+              <div key={index} className='slide-div'
+              onMouseEnter={() => setDragging(true)} 
+              onMouseLeave={() => setDragging(false)}
+              style={{  
+              cursor: dragging ? `url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" viewBox="0 0 24 24"><circle cx="50%" cy="50%" r="8" fill="purple" stroke="purple" stroke-width="1"/><text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-size="6" fill="white">Drag</text></svg>') 12 12, auto` : 'auto' }}>
                 <Card className='card-style'>
-                  <img src={slide.image} alt='card-images' className='cards-image'/>
+                  <Card.Img variant="top" src={slide.image} alt='card-images' className='cards-image'/>
+                  <Card.Body>
+                    <Card.Title className='text-white'>{slide.title}</Card.Title>
+                    <Card.Text className='text-white'>{slide.content}</Card.Text>
+                  </Card.Body>
                 </Card>
-                <h1 className='cards-heading'>{slide.title}</h1>
-                <p className='card-para'>{slide.content}</p>
               </div>
             ))}
           </div>

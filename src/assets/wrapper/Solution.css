@@ -17,7 +17,7 @@
 
 .card1{
     height: 25rem;
-    width: 18rem;
+    width: 20rem;
     background: transparent;
     border: 2px solid #d8bfd8;
     margin-left: 3rem;
@@ -28,11 +28,11 @@
 }
 .card2{
     height: 25rem;
-    width: 18rem; 
+    width: 20rem;
     background: transparent; 
     border: 2px solid #d8bfd8; 
-    margin-left: 23rem; 
-    margin-top: -25rem; 
+    margin-left: 2rem; 
+    margin-top: 11.5rem; 
     border-radius: 1rem;
     transform-style: preserve-3d;
     transition: transform 0.5s;
@@ -40,11 +40,11 @@
 
 .card3{
     height: 25rem; 
-    width: 18rem; 
+    width: 20rem;
     background: transparent; 
     border: 2px solid #d8bfd8; 
-    margin-left: 43rem; 
-    margin-top: -25rem;
+    margin-left: 2rem; 
+    margin-top: 11.5rem; 
     border-radius: 1rem; 
     transform-style: preserve-3d;
     transition: transform 0.5s;
@@ -52,11 +52,11 @@
 
 .card4{
     height: 25rem; 
-    width: 18rem; 
+    width: 20rem;
     background: transparent; 
     border: 2px solid #d8bfd8; 
-    margin-left: 63rem; 
-    margin-top: -25rem;
+    margin-left: 2rem; 
+    margin-top: 11.5rem; 
     border-radius: 1rem;
     transform-style: preserve-3d;
     transition: transform 0.5s;
@@ -236,8 +236,8 @@
     .card2{
         height: 25rem;
         width: 20rem; 
-        margin-left: 25rem; 
-        margin-top: -25rem; 
+        margin-left: -5rem;
+        margin-top: 11.5rem;
     }
     
     .card3{
@@ -250,8 +250,8 @@
     .card4{
         height: 25rem;
         width: 20rem; 
-        margin-left: 25rem; 
-        margin-top: -25rem; 
+        margin-left: -5rem; 
+        margin-top: 1rem;
     }
     
     .frontimage{

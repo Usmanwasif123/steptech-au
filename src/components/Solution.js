@@ -26,25 +26,27 @@ const Solution = () => {
   };
 
   return (
-        <Container fluid className='solution-container'>
+        <Container fluid className='solution-container mt-2'>
           <Row>
-            <Col>
-            <div className='sol-main-heading'>Solution</div>
-            <Card className={`card1 ${isFlipped1 ? 'flipped' : ''}`} onClick={handleCard1Click}  
+          <Col xs={12} md={6} lg={3}>
+          <div className='sol-main-heading'>Solution</div>
+          <Card className={`card1 ${isFlipped1 ? 'flipped' : ''}`} onClick={handleCard1Click}
             style={{transform: isFlipped1 ? 'rotateY(180deg)' : 'rotateY(0deg)' // Rotate based on isFlipped state
             }}> 
             <div className="card-inner">
             <div className="card-front">
              <img src='https://i.ibb.co/vq6rQ6Z/4-1.png' className='frontimage'/>
-             <h1 className='frontpara'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis laoreet erat. Fusce dignissim lacinia justo dignissim tristique. Vestibulum tempus.</h1>
+             <h1 className='frontpara mt-3'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis laoreet erat. Fusce dignissim lacinia justo dignissim tristique. Vestibulum tempus.</h1>
             </div>
            <div className="card-back">
            <img src='https://i.ibb.co/Wyvz0Bs/11.png' className='backimage' />
-           <h1 className='backpara'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis laoreet erat. Fusce dignissim lacinia justo dignissim tristique. Vestibulum tempus.</h1>
+           <h1 className='backpara mt-3'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis laoreet erat. Fusce dignissim lacinia justo dignissim tristique. Vestibulum tempus.</h1>
            </div>
            </div>
             </Card>
-            <Card className={`card2 ${isFlipped2 ? 'flipped' : ''}`} onClick={handleCard2Click}  
+            </Col>
+            <Col xs={12} md={6} lg={3}>
+           <Card className={`card2 ${isFlipped2 ? 'flipped' : ''}`} onClick={handleCard2Click}
             style={{transform: isFlipped2 ? 'rotateY(180deg)' : 'rotateY(0deg)', // Rotate based on isFlipped state
             }}>
             <div className="card-inner">
@@ -58,7 +60,9 @@ const Solution = () => {
            </div>
            </div>
             </Card>
-            <Card className={`card3 ${isFlipped3 ? 'flipped' : ''}`} onClick={handleCard3Click}  
+            </Col>
+            <Col xs={12} md={6} lg={3}>
+            <Card className={`card3 ${isFlipped3 ? 'flipped' : ''}`} onClick={handleCard2Click}  
             style={{transform: isFlipped3 ? 'rotateY(180deg)' : 'rotateY(0deg)', // Rotate based on isFlipped state
             }}>
             <div className="card-inner">
@@ -72,7 +76,9 @@ const Solution = () => {
            </div>
            </div>
             </Card>
-            <Card className={`card4 ${isFlipped4 ? 'flipped' : ''}`} onClick={handleCard4Click}  
+            </Col>
+            <Col xs={12} md={6} lg={3}>
+            <Card className={`card4 ${isFlipped4 ? 'flipped' : ''}`} onClick={handleCard2Click}   
             style={{transform: isFlipped4 ? 'rotateY(180deg)' : 'rotateY(0deg)', // Rotate based on isFlipped state
             }}>
             <div className="card-inner" >
