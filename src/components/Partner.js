@@ -9,7 +9,7 @@ const Partner = () => {
      
       <Row className="justify-content-center">
         <Col xs={12} md={6} lg={4}>
-        <Card className="partner-card h-25 w-25 bg-secondary.bg-gradient" style={{position: 'absolute', marginTop: '1rem', marginLeft: '5rem', overflow: 'hidden', borderRadius: '3rem'}}>
+        <Card className="partner-card h-25 w-25 bg-body-secondary" style={{position: 'absolute', marginTop: '1rem', marginLeft: '5rem', overflow: 'hidden', borderRadius: '3rem'}}>
           <img src='https://i.ibb.co/tq1TLJD/image.png' style={{height: '90%', width:'90%', objectFit: 'contain', paddingTop: '1rem', paddingLeft: '0.7rem'}} />
         </Card>
         </Col>
