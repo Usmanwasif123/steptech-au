@@ -15,6 +15,10 @@ function Header() {
       <Container>
       {/* Stack the columns on mobile by making one full-width and the other half-width */}
       <Row className='align-items-center h-100'>
+      <video autoPlay loop muted className="video">
+        <source src="your-video-source.mp4" type="video/mp4" />
+        
+      </video>
         <Col xs={12} md={8}>
           <h1 className='left-heading p-1 text-uppercase'>optimization the potential</h1>
         </Col>
