@@ -18,6 +18,7 @@ import Seo from './pages/Seo';
 import SocailMed from './pages/Socialmedia';
 import Digitalmarketing from './pages/DigitMarketing';
 
+
 function App() {
   return (
     <Router>

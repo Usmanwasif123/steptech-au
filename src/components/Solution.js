@@ -62,7 +62,7 @@ const Solution = () => {
             </Card>
             </Col>
             <Col xs={12} md={6} lg={3}>
-            <Card className={`card3 ${isFlipped3 ? 'flipped' : ''}`} onClick={handleCard2Click}  
+            <Card className={`card3 ${isFlipped3 ? 'flipped' : ''}`} onClick={handleCard3Click}  
             style={{transform: isFlipped3 ? 'rotateY(180deg)' : 'rotateY(0deg)', // Rotate based on isFlipped state
             }}>
             <div className="card-inner">
@@ -78,7 +78,7 @@ const Solution = () => {
             </Card>
             </Col>
             <Col xs={12} md={6} lg={3}>
-            <Card className={`card4 ${isFlipped4 ? 'flipped' : ''}`} onClick={handleCard2Click}   
+            <Card className={`card4 ${isFlipped4 ? 'flipped' : ''}`} onClick={handleCard4Click}   
             style={{transform: isFlipped4 ? 'rotateY(180deg)' : 'rotateY(0deg)', // Rotate based on isFlipped state
             }}>
             <div className="card-inner" >

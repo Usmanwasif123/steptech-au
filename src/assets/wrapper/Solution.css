@@ -77,17 +77,16 @@
 }
 
 .frontimage{
-    height: auto;
+    height: 50%;
     width: 50%;
     object-fit: contain;
-    margin-top: 2rem;
-    margin-left: 4rem;
+    margin-left: -2rem;
 }
 
 .frontpara{
-    font-size: 1rem; 
-    margin-left: 1rem; 
+    font-size: 1rem;  
     color: #fff;
+    width: 45%;
 }
 .card-back{
     position: absolute;
@@ -98,7 +97,7 @@
 }
 
 .backimage{
-    height: auto; 
+    height: 50%; 
     width: 50%; 
     object-fit: contain; 
     margin-top: 2rem; 

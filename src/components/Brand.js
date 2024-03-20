@@ -23,7 +23,7 @@ const Brand = () => {
   return (
     <Container fluid  expand="lg" className='brand-container'>
       <Row className='justify-content-center'>
-        <Col xs={12} md={6} lg={2}>
+        <Col xs={12} lg={6}>
           <div className='outer-div'>
           <Card className='card-inner' id='card1-inner'>
              <Card.Img ref={imgRef} className="card-image" src='https://i.ibb.co/L9XHDX2/image.png' alt='card-img' />
@@ -31,7 +31,7 @@ const Brand = () => {
             <h1 className='card-heading text-capitalize mt-4' id='heading-1'>artificial intelligence</h1>
           </div>
           </Col>
-          <Col xs={12} md={6} lg={2}>
+          <Col xs={12} lg={6}>
         <div className='outer-div'> {/* Adjust margin-top as needed */}
           <Card className='card-inner' id='card2-inner'>
             <Card.Img className="card-image" src='https://i.ibb.co/pLLSFyH/Blockchain.jpg' alt='card-img'/>

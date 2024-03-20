@@ -1,11 +1,34 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: Sora, sans-serif;
+    box-sizing: border-box;
 }
 
+.contact-container{
+    height: 100vh; 
+    width: auto;
+    background-image: url('https://i.ibb.co/JHdZGZR/anout-banner.jpg');
+    scroll-behavior: smooth;
+}
+.contact-card{
+    background: linear-gradient(256.4deg, #6347AA 7.85%, #233F81 107.97%);
+    z-index:1;
+}
+.contact-h1{
+    margin-left: -3rem;
+}
+.contact-span{
+    margin-left: 5rem;
+}
+.contact-image-card{
+    padding: 17rem;
+    margin-left: -5rem;
+    z-index:0;
+}
 .custom-input::placeholder {
     color: #D8BFD8; /* Change placeholder text color here */
-  }
+}
 
 @media only screen and (max-width: 1024px) {
     .contact-container{

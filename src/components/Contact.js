@@ -80,44 +80,41 @@ const Contact = () => {
   };
 
      return (
-      <Container fluid style={{height: '100vh', width: '98.7vw', background: '#333', backgroundImage: "url('https://i.ibb.co/JHdZGZR/anout-banner.jpg')", scrollBehavior: 'smooth'}}>
-        <Row>
-          <Col>
-          <div style={{paddingTop: '5rem'}}>
-            <Card style={{background: 'linear-gradient(256.4deg, #6347AA 7.85%, #233F81 107.97%)', height: '30rem', width: '40rem', marginLeft: '2rem', zIndex: '2', position: 'absolute', borderRadius: '5rem'}}>
-              <h1 style={{fontSize: '3rem', marginLeft: '2rem', marginTop: '1rem', color: '#fff', textTransform: 'capitalize'}}>Contact <span style={{color: '#333'}}>us</span></h1>
-              <form onSubmit={handleSubmit}>
-        <div style={{fontSize: '1.2rem', marginTop: '2rem', width: '20rem'}}> 
-          <input className="custom-input" style={{fontSize:'1.2rem', background: 'transparent', border: '2px solid #D8BFD8', borderRadius: '1rem', marginLeft: '2rem', textTransform: 'capitalize', padding: '0.4rem'}} type="text" name="firstName" value={formData.firstName} placeholder='first name' onChange={handleChange} />
-          {toast.error.firstName && <span style={{ color: 'red' }}>{toast.error.firstName}</span>}
-        </div>
-        <div style={{fontSize: '1.5rem', marginTop: '-2.2rem', marginLeft: '18rem'}}>
-          <input className="custom-input" style={{fontSize:'1.2rem', background: 'transparent',border: '2px solid #D8BFD8', borderRadius: '1rem',  marginLeft: '2rem', textTransform: 'capitalize', padding: '0.4rem'}} type="text" name="lastName" value={formData.lastName} placeholder='last name' onChange={handleChange} />
-          {toast.error.lastName && <span style={{ color: 'red' }}>{toast.error.lastName}</span>}
-        </div>
-        <div style={{fontSize: '1.2rem', marginTop: '1rem', width: '20rem'}}>
-          <input className="custom-input" style={{fontSize:'1.2rem', background: 'transparent',  border: '2px solid #D8BFD8', borderRadius: '1rem',  marginLeft: '2rem', textTransform: 'capitalize', padding: '0.4rem'}} type="email" name="email" value={formData.email} placeholder='email' onChange={handleChange} />
-          {toast.error.email && <span style={{ color: 'red' }}>{toast.error.email}</span>}
-        </div>
-        <div style={{fontSize: '1.5rem', marginTop: '-2.2rem', marginLeft: '18rem'}}>
-          <input className="custom-input" style={{fontSize:'1.2rem', background: 'transparent', border: '2px solid #D8BFD8', borderRadius: '1rem',  marginLeft: '2rem', textTransform: 'capitalize', padding: '0.4rem', color: '#555'}} type="tel" name="phone" value={formData.phone} placeholder='phone' onChange={handleChange} />
-          {toast.error.phone && <span style={{ color: 'red' }}>{toast.error.phone}</span>}
-        </div>
-        <div style={{fontSize: '1.2rem', marginTop: '1rem', width: '40rem'}}>
-          <textarea className="custom-input" style={{fontSize:'1.2rem', background: 'transparent', border: '2px solid #D8BFD8', borderRadius: '1rem', marginLeft: '2rem', width: '35rem',height: '10rem', textTransform: 'capitalize', padding: '0.4rem'}} name="message" value={formData.message} placeholder='message' onChange={handleChange}></textarea>
-          {toast.error.message && <span style={{ color: 'red' }}>{toast.error.message}</span>}
-        </div>
-        <button style={{fontSize: '1.2rem', marginLeft: '2rem',  border: '2px solid #D8BFD8', background: '#D8BFD8', borderRadius: '1rem', textTransform: 'capitalize', padding: '0.4rem'}} type="submit">send message</button>
-      </form>
-            </Card>
-          </div>
-          </Col>
-          <Col>
-          <Card style={{background: '#ffffff', height: '33rem', width: '40rem', marginLeft: '40rem', marginTop: '-2rem', borderRadius: '5rem'}}>
+      <Container fluid className='contact-container bg-dark'>
+        <Row className="justify-content-start align-items-start">
+          <Col xs={12} lg={6}>
+          <Card className="p-5 mt-5 contact-card rounded-4">
+            <h1 className="text-center text-white fs-1 fw-600 contact-h1">Contact <span className='text-black fs-1 ps-5 fw-600 contact-span'>us</span></h1>
+            <form onSubmit={handleSubmit} className='mt-5'>
+              <div className="mb-3">
+                <input className="form-control" type="text" name="firstName" value={formData.firstName} placeholder="First Name" onChange={handleChange} />
+                {errors.firstName && <span className="text-danger">{errors.firstName}</span>}
+              </div>
+              <div className="mb-3">
+                <input className="form-control" type="text" name="lastName" value={formData.lastName} placeholder="Last Name" onChange={handleChange} />
+                {errors.lastName && <span className="text-danger">{errors.lastName}</span>}
+              </div>
+              <div className="mb-3">
+                <input className="form-control" type="email" name="email" value={formData.email} placeholder="Email" onChange={handleChange} />
+                {errors.email && <span className="text-danger">{errors.email}</span>}
+              </div>
+              <div className="mb-3">
+                <input className="form-control" type="tel" name="phone" value={formData.phone} placeholder="Phone" onChange={handleChange} />
+                {errors.phone && <span className="text-danger">{errors.phone}</span>}
+              </div>
+              <div className="mb-3">
+                <textarea className="form-control" name="message" value={formData.message} placeholder="Message" onChange={handleChange}></textarea>
+                {errors.message && <span className="text-danger">{errors.message}</span>}
+              </div>
+              <button className="btn btn-primary" type="submit">Send Message</button>
+            </form>
           </Card>
-          </Col>
-        </Row>
-      </Container>
+        </Col>
+        <Col xs={12} lg={6}>
+          <Card className="contact-image-card rounded-4 mt-4"></Card>
+        </Col>
+    </Row>
+  </Container>
     
   )
 }

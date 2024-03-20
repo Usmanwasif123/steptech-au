@@ -4,123 +4,60 @@
 }
 
 .choose-container{
-    height: 100vh;
-    width: 98.7vw;
-    background: #fff;
-    margin-top: 0px;
-    position: relative;
+    height: 130vh;
+    width: auto;
+    background: linear-gradient(256.4deg, #6347AA 7.85%, #233F81 107.97%);
+    scroll-behavior: smooth;
 }
 
-.choose-container img{
-    height: 100vh;
-    width: 98.7vw;
-    margin-left: -1px;
-    position: relative;
-}
-.choose-container h1{
-    position: absolute;
-    z-index: 2;
-    top: 25%;
-    left: 35%;
-    color: #fff;
-    font-size: 40px;
-    text-transform: uppercase;
+.choose-card{
+    height: 28rem;
+    width: auto;
 }
 
-.choose-container h2{
-    position: absolute;
-    z-index: 2;
-    top: 35%;
-    left: 37%;
-    color: #fff;
-    font-size: 18px;
-    text-transform: capitalize;
-}
-
-.choose-grid1{
-    position: absolute;
-    z-index: 2;
-    left: 4%;
-}
-
-.choose-item1 h3{
-    font-family: Poppins, sans-serif;
-    font-size: 20px;
-    position: absolute;
-    left: 2%;
-    top: 50%;
-    color: #fff;
-
-}
-.choose-grid2{
-    position: absolute;
-    z-index: 2;
-    left: 23%;
-}
-
-.choose-item2 h3{
-    font-family: Poppins, sans-serif;
-    font-size: 20px;
-    position: absolute;
-    left: 2%;
-    top: 50%;
-    color: #fff;
-
-}
-
-.choose-grid3{
-    position: absolute;
-    z-index: 2;
-    left: 42%;
-}
-.choose-item3 h3{
-    font-family: Poppins, sans-serif;
-    font-size: 20px;
-    position: absolute;
-    left: 2%;
-    top: 50%;
-    color: #fff;
-
-}
-
-.choose-grid4{
-    position: absolute;
-    z-index: 2;
-    left: 61%;
-}
-.choose-item4 h3{
-    font-family: Poppins, sans-serif;
-    font-size: 20px;
-    position: absolute;
-    left: 2%;
-    top: 50%;
-    color: #fff;
-
-}
-
-.choose-grid5{
-    position: absolute;
-    z-index: 2;
-    left: 80%;
-}
-.choose-item5 h3{
-    font-family: Poppins, sans-serif;
-    font-size: 20px;
-    position: absolute;
-    left: 2%;
-    top: 50%;
-    color: #fff;
-
-}
-
-@media only screen and (max-width: 1024px) {
+/* Media query for small devices (e.g., mobiles) */
+@media only screen and (max-width: 576px){
     .choose-container{
-        margin-top: 0px;
-    }
-    .choose-container h3{
-        font-size: 17px;
+        height: 280vh;
     }
 
+    .choose-card{
+        height: 28rem;
+        width: auto;
+    }
+    
+}
+/* Media query for medium devices (e.g., tablet and small pc) */
+@media only screen and (min-width: 576px) and (max-width: 768px){
+    .choose-container{
+        height: 270vh;
+    }
+    
+    .choose-card{
+        height: 28rem;
+        width: auto;
+    }
 }
 
+/* Media query for large devices (e.g., desktop) */
+@media only screen and (min-width: 768px) and (max-width: 992px){
+    .choose-container{
+        height: 130vh;
+    }
 
+    .choose-card{
+        height: 26rem;
+        width: auto;
+    }
+}
+
+/* Media query for extra large devices (e.g., extra large desktop) */
+@media only screen and (min-width: 992px) and (max-width: 1200px){
+    .choose-container{
+        height: 130vh;
+    }
+    .choose-card{
+        height: 28rem;
+        width: auto;
+    }
+}

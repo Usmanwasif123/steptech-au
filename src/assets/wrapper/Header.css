@@ -4,12 +4,24 @@
 }
 
 .header-section{
-    height: 100dvh;
+    height: 100vh;
     width: auto;
-    
+    position: relative;
+    overflow: hidden;
 }
 
 .left-heading{
-    color: #fff;
     font-size: 4rem;
 }
+
+.header-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+}
+
