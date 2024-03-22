@@ -114,8 +114,7 @@ const Ourwork = () => {
               <div key={index} className='slide-div'
               onMouseEnter={() => setDragging(true)} 
               onMouseLeave={() => setDragging(false)}
-              style={{  
-                transform: `translateX(-${currentIndex * slideWidth + offset}px)`,
+              style={{ transform: `translateX(-${currentIndex * slideWidth + offset}px)`,
               transition: dragging ? 'none' : 'transform 0.5s ease',
               cursor: dragging ? `url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" viewBox="0 0 24 24"><circle cx="50%" cy="50%" r="8" fill="purple" stroke="purple" stroke-width="1"/><text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-size="6" fill="white">Drag</text></svg>') 12 12, auto` : 'auto' }}>
                 <Card className='card-style' onClick={handleCardClick}>

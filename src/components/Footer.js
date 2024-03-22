@@ -1,111 +1,84 @@
 import React from 'react';
 import '../assets/wrapper/Footer.css';
-import { Container, Row, Col, Card } from 'react-bootstrap';
+import { Container, Row, Col } from 'react-bootstrap';
 import {Facebook, Instagram, LinkedIn, Twitter} from '@mui/icons-material/';
 
 const Footer = () => {
   return (
-   <Container fluid style={{height: '70vh', width: '98.7vw', position: 'relative', background: 'linear-gradient(256.4deg, #6347AA 7.85%, #233F81 107.97%)', scrollBehavior: 'smooth'}}>
-    <Row>
-      <Col>
-      <div style={{marginTop: '1.99rem', position: 'absolute', width: '20rem', }}>
-      <img  style={{height: '10rem', width: 'auto', backgroundSize: 'cover',  marginTop: '0rem', marginLeft: '2rem', position: 'absolute', display: 'flex', textAlign: 'center', justifyContent: 'center'}} 
-        src='https://i.ibb.co/j8S1jw9/image.png' alt='footer-logo'/>
-        <p style={{fontSize: '1.2rem', color: '#fff', paddingTop: '10.2rem', marginLeft: '1rem', marginRight: '-2rem', paddingRight: '1rem' }}>At Step Tech Australia, your journey isn't just a project; it's our shared expedition towards excellence. 
+    <Container fluid className="footeres-container">
+    <Row className="justify-content-center align-items-center">
+      <Col xs={12} md={6}>
+      <div className="footer-content">
+      <img className="footer-logo" src='https://i.ibb.co/j8S1jw9/image.png' alt='footer-logo'/>
+        <p className="footer-text text-white">At Step Tech Australia, your journey isn't just a project; it's our shared expedition towards excellence. 
           Join hands with us to redefine possibilities and conquer new horizons in the digital real.</p>
-        <Facebook style={{position: 'absolute', zIndex: '3', top: '120%', left: '71rem',
-        color: '#fff', transform: 'scale(1.3)'}}/>
-        <Instagram style={{position: 'absolute', zIndex: '3', top: '120%', left: '74rem',
-        color: '#fff', transform: 'scale(1.3)'}}/>
-        < LinkedIn style={{position: 'absolute', zIndex: '3', top: '120%', left: '77rem',
-        color: '#fff', transform: 'scale(1.3)'}}/>
-        <Twitter style={{position: 'absolute', zIndex: '3', top: '120%', left: '80rem',
-        color: '#fff', transform: 'scale(1.3)'}}/>
+          <div className="social-icons">
+        <Facebook className="social-icon" id='fb-i'/>
+        <Instagram className="social-icon" id='ig-i'/>
+        < LinkedIn className="social-icon" id='li-i' />
+        <Twitter className="social-icon" id='tw-i' />
+        </div>
       </div>
       </Col>
-      <Col>
-      <div style={{marginTop: '1.5rem', position: 'absolute', marginLeft: '21rem'}}>
-        <Row>
-          <Col style={{width: '6rem', marginLeft: '0.5rem', height: 'auto' }}>
-        <h1 style={{fontSize:'1.4rem', textTransform: 'capitalize', marginTop: '0.5rem', color: '#fff'}}>pages</h1>
-        <ul style={{fontSize: '1.2rem', textDecoration: 'none', listStyleType: 'none'}}>
-        <li  style={{marginTop: '1rem', marginBottom: '1rem',textTransform: 'capitalize' }}><a style={{textDecoration: 'none', color: '#fff'}} href='/about-us'>about us</a></li>
-        <li  style={{marginTop: '1rem', marginBottom: '1rem', textTransform: 'capitalize'}}><a style={{textDecoration: 'none', color: '#fff'}}  href='/service'>services </a></li>
-        <li  style={{marginTop: '1rem', marginBottom: '1rem', textTransform: 'capitalize'}}><a style={{textDecoration: 'none', color: '#fff'}}  href='portfolio'>portfolio</a></li>
-        <li  style={{marginTop: '1rem', marginBottom: '1rem', textTransform: 'capitalize'}}><a style={{textDecoration: 'none', color: '#fff'}}  href='/blog'>blog</a></li>
-        </ul>
-        </Col>
-        </Row>
-        <Row>
-          <Col style={{width: '10rem', marginLeft: '7rem', height: 'auto'}}>
-        <h1 style={{fontSize:'1.5rem', marginLeft: '0rem', marginTop: '-12rem', textTransform: 'capitalize', color: '#fff'}}>useful links</h1>
-        <ul style={{fontSize: '1.2rem', textDecoration: 'none', listStyleType: 'none', marginTop: '1rem', marginLeft: '0rem'}}>
-        <li  style={{marginTop: '1rem', marginBottom: '1rem', textTransform: 'capitalize'}}><a style={{textDecoration: 'none', color: '#fff'}} href='/about-us'>FAQs</a></li>
-        <li  style={{marginTop: '1rem', marginBottom: '1rem',  textTransform: 'capitalize'}}><a style={{textDecoration: 'none', color: '#fff'}}  href='/service'>privacy & policy</a></li>
-        </ul>
-        </Col>
-        </Row>
-        <Row>
-          <Col style={{width: '15rem', marginLeft: '17.7rem', marginTop: '-7.5rem', height: 'auto'}}>
-        <h1 style={{fontSize:'1.5rem', marginLeft: '0rem', textTransform: 'capitalize', color: '#fff'}}>services</h1>
-        <ul style={{fontSize: '1.2rem', textDecoration: 'none', listStyleType: 'none', marginLeft: '0rem'}}>
-        <li  style={{marginTop: '1rem', marginBottom: '1rem', textTransform: 'capitalize'}}><a style={{textDecoration: 'none', color: '#fff'}} href='/graphic-designing'>graphics designing</a></li>
-        <li  style={{marginTop: '1rem', marginBottom: '1rem',  textTransform: 'capitalize'}}><a style={{textDecoration: 'none', color: '#fff'}}  href='/web-design-and-development'>website design & development</a></li>
-        <li  style={{marginTop: '1rem', marginBottom: '1rem', textTransform: 'capitalize'}}><a style={{textDecoration: 'none', color: '#fff'}} href='/app-development'>mobile design & development</a></li>
-        <li  style={{marginTop: '1rem', marginBottom: '1rem',  textTransform: 'capitalize'}}><a style={{textDecoration: 'none', color: '#fff'}}  href='/software-development'>software development</a></li>
-        <li  style={{marginTop: '1rem', marginBottom: '1rem',  textTransform: 'capitalize'}}><a style={{textDecoration: 'none', color: '#fff'}}  href='/search-engine-optimization'>search engine optimization</a></li>
-        <li  style={{marginTop: '1rem', marginBottom: '1rem',  textTransform: 'capitalize'}}><a style={{textDecoration: 'none', color: '#fff'}}  href='/social-media-management'>social media management</a></li>
-        <li  style={{marginTop: '1rem', marginBottom: '1rem',  textTransform: 'capitalize'}}><a style={{textDecoration: 'none', color: '#fff'}}  href='/social-media-management'>digital marketing</a></li>
-        </ul>
-        </Col>
-        <Row>
-          <Col style={{background: '', width: '15rem', marginLeft: '33rem', height: 'auto', marginTop: '-22rem'}}>
-        <h1 style={{fontSize:'1.5rem', marginLeft: '0rem', textTransform: 'capitalize', color: '#fff'}}>services</h1>
-        <ul style={{fontSize: '1.2rem', textDecoration: 'none', listStyleType: 'none', marginLeft: '0rem'}}>
-        <li  style={{marginTop: '1rem', marginBottom: '1rem',  textTransform: 'capitalize'}}><a style={{textDecoration: 'none', color: '#fff'}}  href='/ecommerce'>e-commmerce</a></li>
-        <li  style={{marginTop: '1rem', marginBottom: '1rem', textTransform: 'capitalize', }}><a style={{textDecoration: 'none', color: '#fff'}} href='/game-design-and-development'>game design & development</a></li>
-        <li  style={{marginTop: '1rem', marginBottom: '1rem',  textTransform: 'capitalize'}}><a style={{textDecoration: 'none', color: '#fff'}}  href='/2D/3D-Animation'>2D/3D animation</a></li>
-        <li  style={{marginTop: '1rem', marginBottom: '1rem',  textTransform: 'capitalize'}}><a style={{textDecoration: 'none', color: '#fff'}}  href='/block-chain-development'>blockchain development</a></li>
-        <li  style={{marginTop: '1rem', marginBottom: '1rem',  textTransform: 'capitalize'}}><a style={{textDecoration: 'none', color: '#fff'}}  href='/nft'>nft</a></li>
-        <li  style={{marginTop: '1rem', marginBottom: '1rem',  textTransform: 'capitalize'}}><a style={{textDecoration: 'none', color: '#fff'}}  href='/artificial-intelligence-development'>artificial intelligence</a></li>
-        </ul>
-        </Col>
-        </Row>
-        <Row>
-          <Col style={{width: '15rem', marginLeft: '48rem', height: 'auto', marginTop: '-18rem'}}>
-        <h1 style={{fontSize:'1.5rem', marginLeft: '0rem', textTransform: 'capitalize', color: '#fff'}}>Connect with us</h1>
-        <ul style={{fontSize: '1.2rem', textDecoration: 'none', listStyleType: 'none', marginLeft: '0rem'}}>
-        <li style={{marginTop: '1rem', marginBottom: '1rem', textTransform: 'capitalize', fontSize: '1.1rem'}}>
-        <img style={{height: '1rem', width: '1.5rem', paddingRight: '0.5rem'}} src='https://i.ibb.co/b3XwQZv/aus-flag.png'/>
-        <a  style={{textDecoration: 'none', color: '#fff'}} href='tel:+61410025346'>AUS: +61 410 025 346</a>
+      <Col xs={12} md={6}>
+      <div className="footer-links text-white" >
+      <h1 className="footer-heading">Pages</h1>
+            <ul className="footer-list">
+              <li><a href='/about-us' className='footer-list-item'>About Us</a></li>
+              <li><a href='/service'  className='footer-list-item'>Services</a></li>
+              <li><a href='/portfolio'  className='footer-list-item'>Portfolio</a></li>
+              <li><a href='/blog'  className='footer-list-item'>Blog</a></li>
+            </ul>
+            <h1 className="footer-heading2">Useful Links</h1>
+            <ul className="footer-list2">
+              <li><a href='/faq'  className='footer-list-item'>FAQs</a></li>
+              <li><a href='/privacy-policy'  className='footer-list-item'>Privacy & Policy</a></li>
+            </ul>
+        <h1 className="footer-heading3">Services</h1>
+            <ul className="footer-list3">
+              <li><a href='/graphic-designing'  className='footer-list-item'>Web Design & Development</a></li>
+              <li><a href='/web-design-and-development'  className='footer-list-item' id='footer-mobile-item'>MobileApp UI UX Design & Development</a></li>
+              <li><a href='/graphic-designing'  className='footer-list-item'>2D/3D Animation</a></li>
+              <li><a href='/web-design-and-development'  className='footer-list-item'>BlockChain Development</a></li>
+              <li><a href='/graphic-designing'  className='footer-list-item'>NFT</a></li>
+              <li><a href='/web-design-and-development'  className='footer-list-item'>ArtificialIntelligence Development</a></li>
+              </ul>
+              <h1 className="footer-heading4">Services</h1>
+            <ul className="footer-list4">
+              <li><a href='/graphic-designing'  className='footer-list-item'>Software Development</a></li>
+              <li><a href='/web-design-and-development'  className='footer-list-item'>Ecommerce</a></li>
+              <li><a href='/web-design-and-development'  className='footer-list-item'>Graphic Design</a></li>
+              <li><a href='/web-design-and-development'  className='footer-list-item'>Search Engine Optimization</a></li>
+              <li><a href='/web-design-and-development'  className='footer-list-item'>Social Media Management</a></li>
+              <li><a href='/web-design-and-development'  className='footer-list-item'>Digital Marketing</a></li>
+              </ul>
+              <h1 className="footer-heading5">Connect with Us</h1>
+            <ul className="footer-list5">
+              <li>
+                <img 
+                className="footer-flag" src='https://i.ibb.co/b3XwQZv/aus-flag.png' alt="AUS Flag" />
+                <a className='footer-flag-phone'style={{textDecoration: 'none', color: '#fff'}} href='tel:+61410025346'>AUS: +61 410 025 346</a>
+              </li>
+          <li>
+        <img className="footer-flag" src='https://i.ibb.co/Jd2ytp6/Untitled-design-1-1.png'/>
+        <a className='footer-flag-phone' style={{textDecoration: 'none', color: '#fff'}}  href='tel:+8772290844'>USA: (877) 229 0844</a>
         </li>
-        <li  style={{marginTop: '1rem', marginBottom: '1rem',  textTransform: 'capitalize', fontSize: '1.1rem'}}>
-        <img style={{height: '1rem', width: '1.5rem', paddingRight: '0.5rem'}}src='https://i.ibb.co/Jd2ytp6/Untitled-design-1-1.png'/>
-        <a style={{textDecoration: 'none', color: '#fff'}}  href='tel:+8772290844'>USA: (877) 229 0844</a>
+        <li>
+        <img className="footer-flag" src='https://i.ibb.co/F40skg4/uk-flag.png'/>
+        <a className='footer-flag-phone' style={{textDecoration: 'none', color: '#fff'}} href='tel:+442030384780'>UK: +44 203 038 4780</a>
         </li>
-        <li  style={{marginTop: '1rem', marginBottom: '1rem', textTransform: 'capitalize', fontSize: '1.1rem' }}>
-        <img style={{height: '1rem', width: '1.5rem', paddingRight: '0.5rem'}} src='https://i.ibb.co/F40skg4/uk-flag.png'/>
-        <a style={{textDecoration: 'none', color: '#fff'}} href='tel:+442030384780'>UK: +44 203 038 4780</a>
-        </li>
-        <li  style={{marginTop: '1rem', marginBottom: '1rem',  textTransform: 'capitalize', fontSize: '1.1rem'}}>
-        <img style={{height: '1rem', width: '1.5rem', paddingRight: '0.5rem'}} src='https://i.ibb.co/Wn56L99/pk-flag.png'/>
-        <a style={{textDecoration: 'none', color: '#fff'}}  href='tel:+923042989911'>PK: +92 304 298 9911</a>
+        <li>
+        <img className="footer-flag" src='https://i.ibb.co/Wn56L99/pk-flag.png'/>
+        <a className='footer-flag-phone' style={{}}  href='tel:+923042989911'>PK: +92 304 298 9911</a>
         </li>
         </ul>
-        </Col>
-        </Row>
-        <Row>
-          <Col style={{marginTop: '10.95rem',marginLeft: '-20.99rem',}}>
-          <div>
-            <h1 style={{fontSize: '1.3rem', color: '#fff', marginLeft: '1rem'}}>© [2024] Steptechglobal</h1>
+        <div className="footer-copy">
+              <h1>© [2024] Steptechglobal</h1>
+            </div>
           </div>
-          </Col>
-        </Row>
-        </Row>
-      </div>
-      </Col>
-    </Row>
-   </Container>
+        </Col>
+      </Row>
+    </Container>
   );
 }
 

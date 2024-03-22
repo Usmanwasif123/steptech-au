@@ -30,88 +30,71 @@
     color: #D8BFD8; /* Change placeholder text color here */
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 576px) {
     .contact-container{
-        margin-top: 0px;
+        height: 190vh; 
+        width: auto;
     }
-    .contact-container .contact-box{
-        top: -7%;
-        left: 26%;
-        padding: 408px 300px 100px 200px;
+    .contact-h1{
+        margin-left: -1rem;
+    }
+    .contact-span{
+        margin-left: 3rem;
+    }
+    .contact-image-card{
+        padding: 16rem;
+        margin-left: 0rem;
+        z-index:0;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 768px){
+    .contact-container{
+        height: 190vh; 
+        width: auto;
+    }
+    .contact-h1{
+        margin-left: -3rem;
+    }
+    .contact-span{
+        margin-left: 4rem;
+    }
+    .contact-image-card{
+        padding: 16rem;
+        margin-left: 0rem;
+        z-index:0;
     }
 
-    .contact-container  .contact-box1{
-        top: 2.1%;
-        left: 70%;
-        padding: 272px 200px 100px 301px
-    }
-    .contact-container .main-heading{
-        left: 10%;
-        font-size: 45px;
-    }
-    .contact-container .main-span{
-        font-size: 45px;
-    }
-    .contact-container p{
-        margin-left: -50px;
-        font-size: 45px;
-    }
-    .contact-form{
-        margin-left: -65px;
-    }
-    .contact-container .firstname-input{
-        font-size: 14px;
-        padding: 15px 20px 15px 12px;
-        margin-left: 10px;
-    }
+}
 
-    .contact-container  .lastname-input{
-        font-size: 14px;
+@media only screen and (min-width: 768px) and (max-width: 992px){
+    .contact-container{
+        height: 190vh; 
+        width: auto;
     }
-    .contact-container .email-input{
-        font-size: 14px;
-        padding: 15px 239px 15px 12px;
+    .contact-h1{
+        margin-left: -5rem;
     }
+    .contact-span{
+        margin-left: 4rem;
+    }
+    .contact-image-card{
+        padding: 16rem;
+        margin-left: 0rem;
+        z-index:0;
+    }
+}
 
-    .contact-container .phone-input{
-        font-size: 14px;
-        padding: 15px 239px 15px 12px;
+@media only screen and (min-width: 992px) and (max-width: 1200px){
+    .contact-h1{
+        margin-left: -3rem;
     }
-    .contact-container .message-input{
-        font-size: 14px;
-        padding: 12px 232px 40px 12px;
+    .contact-span{
+        margin-left: 5rem;
     }
-    .contact-container .submit-btn{ 
-        font-size: 19px;
-
-    }
-    .contact-container  .contact-carousel{ 
-        margin-left: -66px;
-    }
-    .contact-container  .contact-carousel .heading1{
-        margin-left: 5px;
-        font-size: 17px;
-    }
-    .contact-container .contact-carousel .heading1 .span1{
-        font-size: 17px;
-     }
-     .contact-container  .contact-carousel .heading2{
-        margin-left: 5px;
-        font-size: 17px;
-    }
-    .contact-container .contact-carousel .heading2 .span2{
-        font-size: 17px;
-     }
-     .contact-container  .contact-carousel .heading3{
-        margin-left: 5px;
-        font-size: 17px;
-    }
-    .contact-container .contact-carousel .heading3 .span3{
-        font-size: 17px;
-     }
-     .contact-container .contact-carousel .slick-next{
-        margin-right: 35px;
-        margin-top: 50px;
-    
+    .contact-image-card{
+        padding: 17rem;
+        margin-left: -5rem;
+        z-index:0;
     }
 }
