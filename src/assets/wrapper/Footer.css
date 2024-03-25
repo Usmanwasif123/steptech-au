@@ -153,12 +153,14 @@
 
 .footer-logo{
     margin-left: 5rem;
+    height: 8rem;
+    width: auto;
 }
 
 .footer-text{
-    margin-left: -4rem;
-    width: 32rem;
-    font-size: 1.6rem;
+    margin-left: -5rem;
+    width: 35rem;
+    font-size: 1rem;
 }
 
 .social-icons{
@@ -168,85 +170,67 @@
 .social-icon{
     z-index: 3;
     color: #fff;
-    transform: scale(1.5);
+    transform: scale(1.7);
 }
 
 .footer-links{
     margin-top: 7rem;
     margin-left: 0rem;
-    font-size: 2rem;
 }
 
 .footer-heading{
-    font-size: 2rem;
-    margin-top: -5rem;
+    font-size: 1.2rem;
+    margin-top: -4rem;
 }
 
 .footer-list{
     list-style: none;
     margin-left: -2rem;
-    font-size: 1.2rem;
+    font-size: 0.8rem;
 }
-
-.footer-list-item{
-    text-decoration: none;
-    color: #fff;
-}
-
+    
 .footer-heading2{
-    font-size: 2rem;
-    margin-top: -9.5rem;
+    font-size: 1.2rem;
+    margin-top: -9rem;
     margin-left: 8rem;
 }
 
 .footer-list2{
-    text-decoration: none;
-    list-style: none;
-    color: #fff;
     margin-left: 6rem;
-    font-size: 1.2rem;
+    font-size: 0.8rem;
 }
 
 .footer-heading3{
-    font-size: 2rem;
-    margin-top: -7.5rem;
+    font-size: 1.2rem;
+    margin-top: -6rem;
     margin-left: 20rem;
 }
 
 .footer-list3{
-    text-decoration: none;
-    list-style: none;
-    color: #fff;
     margin-left: 18rem;
-    font-size: 1.2rem;
+    font-size: 0.8rem;
 }
 
 .footer-heading4{
-    font-size: 2rem;
-    margin-top: 2rem;
+    font-size: 1.2rem;
+    margin-top: 0rem;
     margin-left: 0rem;
 }
 
 .footer-list4{
-    text-decoration: none;
-    list-style: none;
-    color: #fff;
     margin-left: -2rem;
-    font-size: 1.2rem;
+    font-size: -0.8rem;
 }
 
 .footer-heading5{
-    font-size: 2rem;
-    margin-top: -14.5rem;
-    margin-left: 17rem;
+    font-size: 1.2rem;
+    margin-top: -12rem;
+    margin-left: 19rem;
 }
 
 .footer-list5{
-    text-decoration: none;
-    list-style: none;
-    color: #fff;
-    margin-left: 15rem;
-    font-size: 1.2rem;
+    margin-left: 17rem;
+    font-size: 0.8rem;
 }
 .footer-flag{
     height: 1rem;
@@ -259,13 +243,14 @@
 }
 
 .footer-copy{
-    margin-top: 5.5rem;
-    margin-left: 5.9rem;
+    margin-top: 8.2rem;
+    margin-left: 10rem;
 }
 
 .footer-copy h1{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
+
 
 }
 /* Media query for medium devices (e.g., tablet and small pc) */
