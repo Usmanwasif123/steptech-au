@@ -18,8 +18,8 @@
     margin-left: 2rem;
 }
 
-.outer-div{
-    margin-top: -5rem;
+.outer-div-vis{
+    width: 160%;
 }
 
 .card-style{
@@ -63,7 +63,7 @@
     
     .card-style{
         height: 17rem;
-        width: 30rem;
+        width: 20rem;
         background: #333;
         margin-left: 2rem; 
         margin-top: 2rem; 

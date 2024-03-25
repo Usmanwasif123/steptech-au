@@ -33,7 +33,7 @@ const Solution = () => {
           <Card className={`card1 ${isFlipped1 ? 'flipped' : ''}`} onClick={handleCard1Click}
             style={{transform: isFlipped1 ? 'rotateY(180deg)' : 'rotateY(0deg)' // Rotate based on isFlipped state
             }}> 
-            <div className="card-inner">
+            <div className="card-inner-sol">
             <div className="card-front">
              <img src='https://i.ibb.co/vq6rQ6Z/4-1.png' className='frontimage'/>
              <h1 className='frontpara mt-3'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis laoreet erat. Fusce dignissim lacinia justo dignissim tristique. Vestibulum tempus.</h1>
@@ -45,11 +45,11 @@ const Solution = () => {
            </div>
             </Card>
             </Col>
-            <Col xs={12} md={6} lg={3}>
+            <Col xs={12} md={6} lg={3} >
            <Card className={`card2 ${isFlipped2 ? 'flipped' : ''}`} onClick={handleCard2Click}
             style={{transform: isFlipped2 ? 'rotateY(180deg)' : 'rotateY(0deg)', // Rotate based on isFlipped state
             }}>
-            <div className="card-inner">
+            <div className="card-inner-sol">
             <div className="card-front" >
             <img src='https://i.ibb.co/WBrfgGK/15.png' className='frontimage'/>
              <h1 className='frontpara'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis laoreet erat. Fusce dignissim lacinia justo dignissim tristique. Vestibulum tempus.</h1>
@@ -61,11 +61,11 @@ const Solution = () => {
            </div>
             </Card>
             </Col>
-            <Col xs={12} md={6} lg={3}>
+            <Col xs={12} md={6} lg={3} >
             <Card className={`card3 ${isFlipped3 ? 'flipped' : ''}`} onClick={handleCard3Click}  
             style={{transform: isFlipped3 ? 'rotateY(180deg)' : 'rotateY(0deg)', // Rotate based on isFlipped state
             }}>
-            <div className="card-inner">
+            <div className="card-inner-sol">
             <div className="card-front">
             <img src='https://i.ibb.co/1RpkjXW/35.png' className='frontimage' />
              <h1  className='frontpara'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis laoreet erat. Fusce dignissim lacinia justo dignissim tristique. Vestibulum tempus.</h1>
@@ -81,7 +81,7 @@ const Solution = () => {
             <Card className={`card4 ${isFlipped4 ? 'flipped' : ''}`} onClick={handleCard4Click}   
             style={{transform: isFlipped4 ? 'rotateY(180deg)' : 'rotateY(0deg)', // Rotate based on isFlipped state
             }}>
-            <div className="card-inner" >
+            <div className="card-inner-sol">
             <div className="card-front">
             <img src='https://i.ibb.co/vq6rQ6Z/4-1.png' className='frontimage'/>
              <h1  className='frontpara'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis laoreet erat. Fusce dignissim lacinia justo dignissim tristique. Vestibulum tempus.</h1>

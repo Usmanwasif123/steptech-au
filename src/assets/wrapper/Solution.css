@@ -62,11 +62,14 @@
     transition: transform 0.5s;
 }
 
-.card-inner{
+.card-inner-sol{
     transform-style: preserve-3d;
-    width: 100%; 
-    height: 100%;
     transition: transform 0.5s;
+    height: 20rem;
+    width: 18rem;
+    z-index: 0;
+    border-radius: 0.5rem;
+    overflow: hidden;
 }
 .card-front{
     position: absolute; 
@@ -80,13 +83,13 @@
     height: 50%;
     width: 50%;
     object-fit: contain;
-    margin-left: -2rem;
+    margin-left: 4rem;
 }
 
 .frontpara{
     font-size: 1rem;  
     color: #fff;
-    width: 45%;
+    width: 100%;
 }
 .card-back{
     position: absolute;

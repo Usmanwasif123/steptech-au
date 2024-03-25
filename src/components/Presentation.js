@@ -71,7 +71,7 @@ const Presentation = () => {
       <Row>
       <Col xs={12} md={6} lg={4} className="presentation-images">
           {images.map((image, index) => (
-            <Card  className='presentation-card h-100 w-100 rounded-5 overflow-hidden' key={index} style={{opacity: scrolledSection === index ? 1 : 0 }}>
+            <Card  className='presentation-card h-100 w-100 rounded-5 overflow-hidden' key={index} style={{opacity: scrolledSection === index ? 1 : 0 }} >
               <Card.Img src={image} className='presentation-image' alt={`Section ${index}`} />
             </Card>
           ))}

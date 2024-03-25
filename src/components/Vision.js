@@ -105,7 +105,7 @@ const Ourwork = () => {
       <Row>
         <Col xs={12} md={8}>
           <div className='section2-main text-black fs-1 mt-2'>About us</div>
-          <div className='outer-div d-flex flex-row h-70 w-100 overflow-x-hidden overflow-y-hidden'
+          <div className='outer-div-vis d-flex flex-row overflow-x-hidden overflow-y-hidden'
           onMouseDown={handleMouseDown} 
           onMouseMove={handleMouseMove} 
           onMouseUp={handleMouseUp} 
