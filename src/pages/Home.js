@@ -18,7 +18,10 @@ const Home = () => {
     <div>
       <NavBar/>
       <Header/>
-      
+      <Ourwork/>
+      <Solution/>
+      <Services/>
+      <Process/>      
       <Footer/>
     </div>
   )

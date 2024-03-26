@@ -22,20 +22,20 @@ const Footer = () => {
       </Col>
       <Col xs={12} md={6}>
       <div className="footer-links text-white" >
-      <h1 className="footer-heading">Pages</h1>
-            <ul className="footer-list">
+      <h1 className="footer-heading" id='footer-heading'>Pages</h1>
+            <ul className="footer-list" id='footer-list'>
               <li><a href='/about-us' className='footer-list-item'>About Us</a></li>
               <li><a href='/service'  className='footer-list-item'>Services</a></li>
               <li><a href='/portfolio'  className='footer-list-item'>Portfolio</a></li>
               <li><a href='/blog'  className='footer-list-item'>Blog</a></li>
             </ul>
-            <h1 className="footer-heading2">Useful Links</h1>
-            <ul className="footer-list2">
+            <h1 className="footer-heading2" id='footer-heading2'>Useful Links</h1>
+            <ul className="footer-list2" id='footer-list2'>
               <li><a href='/faq'  className='footer-list-item'>FAQs</a></li>
               <li><a href='/privacy-policy'  className='footer-list-item'>Privacy & Policy</a></li>
             </ul>
-        <h1 className="footer-heading3">Services</h1>
-            <ul className="footer-list3">
+        <h1 className="footer-heading3" id='footer-heading3'>Services</h1>
+            <ul className="footer-list3" id='footer-list3'>
               <li><a href='/graphic-designing'  className='footer-list-item'>Web Design & Development</a></li>
               <li><a href='/web-design-and-development'  className='footer-list-item' id='footer-mobile-item'>MobileApp UI UX Design & Development</a></li>
               <li><a href='/graphic-designing'  className='footer-list-item'>2D/3D Animation</a></li>
@@ -43,8 +43,8 @@ const Footer = () => {
               <li><a href='/graphic-designing'  className='footer-list-item'>NFT</a></li>
               <li><a href='/web-design-and-development'  className='footer-list-item'>ArtificialIntelligence Development</a></li>
               </ul>
-              <h1 className="footer-heading4">Services</h1>
-            <ul className="footer-list4">
+              <h1 className="footer-heading4" id='footer-heading4'>Services</h1>
+            <ul className="footer-list4" id='footer-list4'>
               <li><a href='/graphic-designing'  className='footer-list-item'>Software Development</a></li>
               <li><a href='/web-design-and-development'  className='footer-list-item'>Ecommerce</a></li>
               <li><a href='/web-design-and-development'  className='footer-list-item'>Graphic Design</a></li>
@@ -52,8 +52,8 @@ const Footer = () => {
               <li><a href='/web-design-and-development'  className='footer-list-item'>Social Media Management</a></li>
               <li><a href='/web-design-and-development'  className='footer-list-item'>Digital Marketing</a></li>
               </ul>
-              <h1 className="footer-heading5">Connect with Us</h1>
-            <ul className="footer-list5">
+              <h1 className="footer-heading5" id='footer-heading5'>Connect with Us</h1>
+            <ul className="footer-list5" id='footer-list5'>
               <li>
                 <img 
                 className="footer-flag" src='https://i.ibb.co/b3XwQZv/aus-flag.png' alt="AUS Flag" />

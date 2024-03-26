@@ -37,7 +37,7 @@ const Presentation = () => {
           }
         };
       };
-      return throttle(handleScroll, 5);
+      return throttle(handleScroll, 10);
     };
 
     const handleScrollThrottled = throttledScroll();
