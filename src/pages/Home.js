@@ -18,10 +18,11 @@ const Home = () => {
     <div>
       <NavBar/>
       <Header/>
-      <Ourwork/>
-      <Solution/>
-      <Services/>
-      <Process/>      
+      <Ourwork/> 
+      <Solution/>  
+      <Services/> 
+      <Brand/>
+      <Partner/>
       <Footer/>
     </div>
   )

@@ -11,35 +11,69 @@
 
 }
 
-/* Media query for small devices (e.g., mobiles) */
-@media only screen and (max-width: 576px){
+.card-img-top{
+    width: 100%;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
     .partner-container{
-        height: 530vh;
-        width: auto;
+        height: auto;
+        width: auto;   
+    
     }
     
-}
-/* Media query for medium devices (e.g., tablet and small pc) */
-@media only screen and (min-width: 576px) and (max-width: 768px){
+    .card-img-top{
+        width: 100%;
+    }
+  }
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
     .partner-container{
-        height: 700vh;
-        width: auto;
+        height: auto;
+        width: auto;   
+    }
+    
+    .card-img-top{
+        width: 100%;
+    }
+    }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    .partner-container{
+        height: auto;
+        width: auto;   
+    
+    }
+    
+    .card-img-top{
+        width: 100%;
+    }
     }
 
-}
-
-/* Media query for large devices (e.g., desktop) */
-@media only screen and (min-width: 768px) and (max-width: 992px){
+/* Large devices (laptops/desktops, 992 and up) */
+@media only screen and (min-width: 992px) {
     .partner-container{
-        height: 300vh;
-        width: auto;
+        height: auto;
+        width: auto;   
+    
     }
-}
-
-/* Media query for extra large devices (e.g., extra large desktop) */
-@media only screen and (min-width: 992px) and (max-width: 1200px){
+    
+    .card-img-top{
+        width: 100%;
+    }
+    }
+/* Large devices (laptops/desktops, 1200 and up) */
+@media only screen and (min-width: 1200px) {
     .partner-container{
         height: 100vh;
         width: auto;
+    
     }
-}
+    
+    .card-img-top{
+        width: 100%;
+    }
+    }
+  

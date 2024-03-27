@@ -84,8 +84,6 @@
 
 
 .footer-heading2{
-    margin-top: -9.5rem;
-    margin-left: 0rem;
     font-size: 2rem;
 }
 
@@ -184,6 +182,8 @@
     .footer-logo {
       height: 6rem; /* Adjust logo size */
       margin-bottom: 1rem; /* Add margin below logo */
+      margin-top: -1rem;
+      margin-left: -4rem;
     }
   
     .footer-text {
@@ -199,6 +199,7 @@
     .footer-links {
       margin-top: 0rem; /* Adjust margin */
       text-align: center; /* Center align content */
+      margin-left: -20rem;
     }
   
     .footer-heading,
@@ -243,8 +244,8 @@
   
     .footer-copy { /* Adjust margin */
        /* Center align content */
-       margin-top: -5rem;
-       padding-left: 17rem;
+       margin-top: 2rem;
+      padding-left: 38rem;
       text-align: center;
     }
   }
@@ -263,6 +264,8 @@
       .footer-logo {
         height: 8rem; /* Adjust logo size */
         margin-bottom: 1rem; /* Add margin below logo */
+        margin-top: -1rem;
+        margin-left: -1rem;
       }
     
       .footer-text {
@@ -278,6 +281,7 @@
       .footer-links {
         margin-top: 0rem; /* Adjust margin */
         text-align: center; /* Center align content */
+        margin-left: -18rem;
       }
     
       .footer-heading,
@@ -349,8 +353,8 @@
     
       .footer-copy { /* Adjust margin */
          /* Center align content */
-         margin-top: -5rem;
-         padding-left: 17rem;
+         margin-top: 5rem;
+         padding-left: 34rem;
         text-align: center;
       }
     }
@@ -379,7 +383,7 @@
         width: 57%;
         margin: 0rem auto 1rem;
         font-size: 1rem;
-        margin-left: 0rem;
+        margin-left: -1rem;
       }
     
       .social-icons {
@@ -391,6 +395,7 @@
       .footer-links {
         margin-top: 0rem; /* Adjust margin */
         text-align: center; /* Center align content */
+        margin-left: -23rem;
       }
     
       .footer-heading,
@@ -462,12 +467,250 @@
     
       .footer-copy { 
          margin-top: 2rem;
-         padding-left: 0rem;
+         padding-left: 10rem;
          justify-content: center;
          text-align: center;/* Adjust margin */
         /* Center align content */
       }
     }
+
+/* Large devices (laptops/desktops, 992 and up) */
+@media only screen and (min-width: 992px) {
+    .footeres-container {
+        padding-bottom: 0rem; /* Add some padding at the bottom */
+        height: auto;
+      }
+    
+      .footer-content {
+        margin-top: 2rem; /* Adjust margin */
+        text-align: center; /* Center align content */
+      }
+    
+      .footer-logo {
+         /* Adjust logo size */
+         height: 9rem;
+         margin-bottom: 1rem;
+         margin-left: -20rem;
+         margin-top: -25rem;
+      }
+    
+      .footer-text {
+        width: 35%;
+        margin: -9rem auto 1rem;
+        font-size: 1rem;
+        margin-left: 0rem;
+      }
+    
+      .social-icons {
+        margin-top: 1rem; /* Adjust margin */
+        margin-left: -20rem;
+        transform: scale(1.1);
+
+    }
+    
+      .footer-links {
+        margin-top: 0rem; /* Adjust margin */
+        text-align: center; /* Center align content */
+        margin-left: -29.5rem;
+
+      }
+    
+      .footer-heading,
+      .footer-heading2,
+      .footer-heading3,
+      .footer-heading4,
+      .footer-heading5{
+        text-align: justify; 
+      }
+      
+      #footer-heading{
+        margin-bottom: 9rem;      /* Add margin below headings */ 
+        margin-left: 12rem;
+        margin-top: 3rem;
+      }
+
+      #footer-heading2{
+        margin-bottom: 9rem;
+        margin-left: 20rem;
+       margin-top: -10rem;
+      }
+
+      #footer-heading3{
+        margin-bottom: 9rem;      /* Add margin below headings */ 
+        margin-left: 33rem;
+        margin-top: -7.5rem;   
+      }
+
+      #footer-heading4{
+        margin-bottom: 9rem;      /* Add margin below headings */ 
+        margin-left: 47rem;
+        margin-top: -16.5rem;
+      }
+
+      #footer-heading5{
+        margin-bottom: 9rem;      /* Add margin below headings */ 
+        margin-left: 12rem;
+        margin-top: 4.5rem;   
+      }
   
+      .footer-list,
+      .footer-list2,
+      .footer-list3,
+      .footer-list4,
+      .footer-list5 {
+        text-align: start;
+        margin-top: -8rem;  
+      } 
+      #footer-list{
+          padding-left: 14rem; /* Reset padding */ 
+      }
+      #footer-list2{
+          padding-left: 15rem; /* Reset padding */ 
+          
+      }
+      #footer-list3{
+        margin-left: 6rem;
+        margin-right: 12rem;
+      }
+      #footer-list4{
+        margin-left: 45rem;
+        margin-right: 0rem;
+      }
+      #footer-list5{
+          margin-left: 10rem;
+      }
+      
+      .footer-flag-phone {
+        margin-left: 8px;
+        display: inline-flex; /* Ensure flags and phone numbers stack vertically */
+      }
+    
+      .footer-copy { 
+        margin-top: 3rem;
+        padding-left: 20rem;    
+         padding-top: 1rem;
+         justify-content: center;
+         text-align: center;/* Adjust margin */
+        /* Center align content */
+      }
+    }
+/* Large devices (laptops/desktops, 1200 and up) */
+@media only screen and (min-width: 1200px) {
+    .footeres-container {
+        padding-bottom: 0rem; /* Add some padding at the bottom */
+        height: auto;
+      }
+    
+      .footer-content {
+        margin-top: 2rem; /* Adjust margin */
+        text-align: center; /* Center align content */
+      }
+    
+      .footer-logo {
+         /* Adjust logo size */
+         height: 9rem;
+         margin-bottom: 1rem;
+         margin-left: -20rem;
+         margin-top: -18rem;
+      }
+    
+      .footer-text {
+        width: 57%;
+        margin: -5rem auto 1rem;
+        font-size: 1rem;
+        margin-left: 0rem;
+      }
+    
+      .social-icons {
+        margin-top: 1rem; /* Adjust margin */
+        margin-left: -17rem;
+        transform: scale(1.3);
+
+    }
+    
+      .footer-links {
+        margin-top: 0rem; /* Adjust margin */
+        text-align: center; /* Center align content */
+        margin-left: -29.5rem;
+      }
+    
+      .footer-heading,
+      .footer-heading2,
+      .footer-heading3,
+      .footer-heading4,
+      .footer-heading5{
+        text-align: justify; 
+      }
+      
+      #footer-heading{
+        margin-bottom: 9rem;      /* Add margin below headings */ 
+        margin-left: 12rem;
+        margin-top: 3rem;
+      }
+
+      #footer-heading2{
+        margin-bottom: 9rem;
+        margin-left: 20rem;
+       margin-top: -10rem;
+      }
+
+      #footer-heading3{
+        margin-bottom: 9rem;      /* Add margin below headings */ 
+        margin-left: 33rem;
+        margin-top: -7.5rem;   
+      }
+
+      #footer-heading4{
+        margin-bottom: 9rem;      /* Add margin below headings */ 
+        margin-left: 45rem;
+        margin-top: -21rem;
+      }
+
+      #footer-heading5{
+        margin-bottom: 9rem;      /* Add margin below headings */ 
+        margin-left: 56rem;
+        margin-top: -16rem;    
+      }
   
+      .footer-list,
+      .footer-list2,
+      .footer-list3,
+      .footer-list4,
+      .footer-list5 {
+        text-align: start;
+        margin-top: -8rem;  
+      } 
+      #footer-list{
+          padding-left: 14rem; /* Reset padding */ 
+      }
+      #footer-list2{
+          padding-left: 15rem; /* Reset padding */ 
+          
+      }
+      #footer-list3{
+        margin-left: 6rem;
+        margin-right: 29rem;
+      }
+      #footer-list4{
+          margin-left: 43rem;
+          margin-right: 14rem;
+      }
+      #footer-list5{
+          margin-left: 55rem;
+      }
+      
+      .footer-flag-phone {
+        margin-left: 8px;
+        display: inline-flex; /* Ensure flags and phone numbers stack vertically */
+      }
+    
+      .footer-copy { 
+         margin-top: 24rem;
+         padding-left: 0rem;
+         padding-top: 1rem;
+         justify-content: center;
+         text-align: center;/* Adjust margin */
+        /* Center align content */
+      }
+    }
   

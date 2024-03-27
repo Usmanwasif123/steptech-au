@@ -3,8 +3,8 @@
     padding: 0;
 }
 
-.service-container{
-    height: 110dvh;
+.services-container{
+    height: 100vh;
     width: auto;
     position: relative; 
     scroll-behavior: smooth;
@@ -17,12 +17,13 @@
 
 .lead{
     margin-left: -10rem;
-    margin-right: -50rem;
+    width: 50%;
 }
 
 .explore-btn{
     background: linear-gradient(256.4deg, #6347AA 7.85%, #233F81 107.97%);
     margin-left: -10rem;
+    width: 50%;
 }
 
 .game-card{
@@ -38,9 +39,28 @@
     height: 31rem; 
     width: 45rem;
     z-index: 1;
-    margin-left: 12rem;
+    margin-left: 10rem;
     margin-top: -20rem;
     overflow: hidden;
+    transition: transform 0.5s ease;
+    animation: scrollAnimation 5s infinite linear; /* Adjust timing as needed */
+}
+
+
+
+@keyframes scrollAnimation {
+    0% {
+        transform: translateX(0);
+    }
+    25% {
+        transform: translateX(-10rem); /* Equivalent to scrollPosition / 5px */
+    }
+    50% {
+        transform: translateX(-5rem); /* Equivalent to scrollPosition / 20px */
+    }
+    100% {
+        transform: translateX(-2rem); /* Equivalent to scrollPosition / -20px */
+    }
 }
 
 .app-card{
@@ -50,177 +70,283 @@
     overflow: hidden;
     margin-left: -18rem;
     margin-top: -15rem;
+    transition: transform 0.5s ease;
+    animation: scrollAnimation 5s infinite linear; /* Adjust timing as needed */
 }
 
-/* Media query for small devices (e.g., mobiles) */
-@media only screen and (max-width: 576px){
-    .service-container{
-        height: 200dvh;
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .services-container{
+        height: auto;
     }
-       
+    
     .display-2{
-        margin-left: 10rem;
-        margin-top: -5rem;
+        margin-left: 0rem;
+        margin-top: 0rem;
     }
     
     .lead{
-        margin-left: 10rem;
-        margin-right: 0rem;
+        margin-left: 0rem;
+        width: 100%;
     }
     
     .explore-btn{
         background: linear-gradient(256.4deg, #6347AA 7.85%, #233F81 107.97%);
-        margin-left: 10rem;
+        margin-left: 0rem;
+        width: 100%;
     }
     
     .game-card{
-       height: 20rem; 
-       width: 33rem; 
-       margin-top: -1rem;
-       margin-left: 0rem;
-    }
-    
-    .web-card{
-        height: 20rem; 
-        width: 33rem; 
-        margin-left: 10.5rem;
-        margin-top: 1rem;
+        height: auto;
+        width: 100%;
+        margin-top: -2rem;
+        margin-left: 0rem;
         
     }
     
-    .app-card{
-        height: 20rem; 
-        width: 33rem; 
-        margin-left: 10.5rem;
+    .web-card{
+        height: auto;
+        width: 100%;
+        margin-left: 0rem;
         margin-top: 1rem;
+        animation: none;
     }
-}
-/* Media query for medium devices (e.g., tablet and small pc) */
-@media only screen and (min-width: 576px) and (max-width: 768px){
-    .service-container{
-        height: 200dvh;
+    
+    .app-card{
+        height: auto;
+        width: 100%;
+        margin-left: 0rem;
+        margin-top: 1rem;
+        animation: none;
+
     }
-       
+  }
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .services-container{
+        height: auto;
+    }
+    
     .display-2{
-        margin-left: 10rem;
-        margin-top: -5rem;
+        margin-left: 0rem;
+        margin-top: 0rem;
     }
     
     .lead{
-        margin-left: 10rem;
-        margin-right: 0rem;
+        margin-left: 0rem;
+        width: 100%;
     }
     
     .explore-btn{
         background: linear-gradient(256.4deg, #6347AA 7.85%, #233F81 107.97%);
-        margin-left: 10rem;
+        margin-left: 0rem;
+        width: 100%;
     }
     
     .game-card{
-       height: 30rem; 
-       width: 100%; 
-       margin-top: -1rem;
-       margin-left: 0rem;
+        height: auto;
+        width: 100%;
+        margin-top: -2rem;
+        margin-left: 0rem;
     }
     
     .web-card{
-        height: 30rem; 
-        width: 100%; 
-        margin-left: 9rem;
+        height: auto;
+        width: 100%;
+        margin-left: 0rem;
         margin-top: 1rem;
-        
+        transition: none;
+
     }
     
     .app-card{
-        height: 30rem; 
-        width: 100%; 
-        margin-left: 9rem;
+        height: auto;
+        width: 100%;
+        margin-left: 0rem;
         margin-top: 1rem;
-    }
-}
+        transition: none;
 
-/* Media query for large devices (e.g., desktop) */
-@media only screen and (min-width: 768px) and (max-width: 992px){
-    .service-container{
-        height: 120dvh;
+    }
+    }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    .services-container{
+        height: auto;
     }
     
     .display-2{
-        margin-left: -10rem;
-        margin-top: 5rem;
+        margin-left: 0rem;
+        margin-top: 0rem;
     }
     
     .lead{
-        margin-left: -10rem;
-        margin-right: -50rem;
+        margin-left: 0rem;
+        width: 100%;
     }
     
     .explore-btn{
-        margin-left: -10rem;
+        background: linear-gradient(256.4deg, #6347AA 7.85%, #233F81 107.97%);
+        margin-left: 0rem;
+        width: 100%;
     }
     
     .game-card{
-       height: 33rem; 
-       width: 40rem; 
-       margin-top: -25rem;
-       margin-left: 20rem;
+        height: auto;
+        width: 200%;
+        margin-top: -2rem;
+        margin-left: 0rem;
     }
     
     .web-card{
-        height: 31rem; 
-        width: 40rem; 
-        margin-left: -5rem;
-        margin-top: -20rem;
+        height: auto;
+        width: 200%;
+        margin-left: -24rem;
+        margin-top: 35rem;
+        animation: none;
     }
     
     .app-card{
-        height: 29rem;
-        width: 40rem; 
-        margin-left: -7rem;
-        margin-top: -25rem;
+        height: auto;
+        width: 200%;
+        margin-left: -24rem;
+        margin-top: 1rem;
+        animation: none;
     }
 }
 
-/* Media query for extra large devices (e.g., extra large desktop) */
-@media only screen and (min-width: 992px) and (max-width: 1200px){
-    .service-container{
-        height: 100dvh;
+/* Large devices (laptops/desktops, 992 and up) */
+@media only screen and (min-width: 992px) {
+    .services-container{
+        height: auto;
+    }
+    
+    .display-2{
+        margin-left: 0rem;
+        margin-top: 0rem;
+    }
+    
+    .lead{
+        margin-left: 0rem;
+        width: 100%;
+    }
+    
+    .explore-btn{
+        background: linear-gradient(256.4deg, #6347AA 7.85%, #233F81 107.97%);
+        margin-left: 0rem;
+        width: 100%;
+    }
+    
+    .game-card{
+        height: auto;
+        width: 314%;
+        margin-top: -2rem;
+        margin-left: 0rem;
+    }
+    
+    .web-card{
+        height: auto;
+    width: 314%;
+    margin-left: -20.5rem;
+    margin-top: 48rem;
+    animation: none;
+    }
+    
+    .app-card{
+        height: auto;
+        width: 314%;
+        margin-left: -41rem;
+        margin-top: 98rem;
+        animation: none;
+    }
+}
+/* Large devices (laptops/desktops, 1200 and up) */
+@media only screen and (min-width: 1200px) {
+    .services-container{
+        height: 100vh;
         width: auto;
+        position: relative; 
+        scroll-behavior: smooth;
     }
     
     .display-2{
         margin-left: -10rem;
         margin-top: 5rem;
+        width: 50%;
     }
     
     .lead{
         margin-left: -10rem;
-        margin-right: -50rem;
+        width: 50%;
     }
     
     .explore-btn{
+        background: linear-gradient(256.4deg, #6347AA 7.85%, #233F81 107.97%);
         margin-left: -10rem;
+        width: 50%;
     }
     
     .game-card{
        height: 33rem; 
-       width: 50rem; 
+       width: 45rem; 
+       z-index: 0;
+       overflow: hidden;
        margin-top: -25rem;
-       margin-left: 32rem;
+       margin-left: 37rem;
     }
     
     .web-card{
         height: 31rem; 
-        width: 50rem;
-        margin-left: 5rem;
+        width: 45rem;
+        z-index: 1;
+        margin-left: 12rem;
         margin-top: -20rem;
-        
+        overflow: hidden;
+        transition: transform 0.5s ease;
+        animation: scrollAnimation 5s infinite linear; /* Adjust timing as needed */
+    }
+    
+    
+    
+    @keyframes scrollAnimation {
+        0% {
+            transform: translateX(0);
+        }
+        25% {
+            transform: translateX(-10rem); /* Equivalent to scrollPosition / 5px */
+        }
+        50% {
+            transform: translateX(-5rem); /* Equivalent to scrollPosition / 20px */
+        }
+        100% {
+            transform: translateX(-3rem); /* Equivalent to scrollPosition / -20px */
+        }
+    }
+    @keyframes scrollAnimation2 {
+        0% {
+            transform: translateX(0);
+        }
+        25% {
+            transform: translateX(-10rem); /* Equivalent to scrollPosition / 5px */
+        }
+        50% {
+            transform: translateX(-5rem); /* Equivalent to scrollPosition / 20px */
+        }
+        100% {
+            transform: translateX(-3rem); /* Equivalent to scrollPosition / -20px */
+        }
     }
     
     .app-card{
         height: 29rem;
-        width: 50rem;
-        margin-left: -25rem;
+        width: 45rem;
+        z-index: 2;
+        overflow: hidden;
+        margin-left: -18rem;
         margin-top: -15rem;
+        transition: transform 0.5s ease;
+        animation: scrollAnimation2 6s infinite linear; /* Adjust timing as needed */
     }
 }
+  

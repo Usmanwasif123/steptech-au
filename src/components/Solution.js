@@ -36,11 +36,11 @@ const Solution = () => {
             <div className="card-inner-sol">
             <div className="card-front">
              <img src='https://i.ibb.co/vq6rQ6Z/4-1.png' className='frontimage'/>
-             <h1 className='frontpara mt-3'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis laoreet erat. Fusce dignissim lacinia justo dignissim tristique. Vestibulum tempus.</h1>
+             <h1 className='frontpara'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis laoreet erat. Fusce dignissim lacinia justo dignissim tristique. Vestibulum tempus.</h1>
             </div>
            <div className="card-back">
            <img src='https://i.ibb.co/Wyvz0Bs/11.png' className='backimage' />
-           <h1 className='backpara mt-3'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis laoreet erat. Fusce dignissim lacinia justo dignissim tristique. Vestibulum tempus.</h1>
+           <h1 className='backpara'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis laoreet erat. Fusce dignissim lacinia justo dignissim tristique. Vestibulum tempus.</h1>
            </div>
            </div>
             </Card>

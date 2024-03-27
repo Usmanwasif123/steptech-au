@@ -10,7 +10,7 @@ const Partner = () => {
           <Card className="partner-card bg-body-secondary">
             <img
               src="https://i.ibb.co/4dp1XCK/image-1.png"
-              className="card-img-top img-fluid w-100"
+              className="card-img-top img-fluid"
               alt="partner image"
             />
           </Card>
@@ -19,7 +19,7 @@ const Partner = () => {
           <Card className="partner-card bg-body-secondary">
             <img
               src="https://i.ibb.co/1n2khpD/image.png"
-              className="card-img-top img-fluid w-100"
+              className="card-img-top img-fluid"
               alt="partner image"
             />
           </Card>
@@ -28,7 +28,7 @@ const Partner = () => {
           <Card className="partner-card bg-body-secondary">
             <img
               src="https://i.ibb.co/M2zFcGD/image.png"
-              className="card-img-top img-fluid w-100"
+              className="card-img-top img-fluid"
               alt="partner image"
             />
           </Card>
@@ -37,7 +37,7 @@ const Partner = () => {
           <Card className="partner-card bg-body-secondary">
             <img
               src="https://i.ibb.co/wYR2wDY/image.png"
-              className="card-img-top img-fluid w-100"
+              className="card-img-top img-fluid"
               alt="partner image"
             />
           </Card>
@@ -46,7 +46,7 @@ const Partner = () => {
           <Card className="partner-card bg-body-secondary">
             <img
               src="https://i.ibb.co/bgfNCBt/image.png"
-              className="card-img-top img-fluid w-100"
+              className="card-img-top img-fluid"
               alt="partner image"
             />
           </Card>

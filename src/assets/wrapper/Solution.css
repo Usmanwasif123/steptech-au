@@ -5,7 +5,7 @@
 
 .solution-container{
     height: 100vh;
-    width: 98.7vw; 
+    width: auto; 
     background: linear-gradient(256.4deg, #6347AA 7.85%, #233F81 107.97%);
 }
 
@@ -16,8 +16,8 @@
 }
 
 .card1{
-    height: 25rem;
-    width: 18rem;
+    height: 100%;
+    width: 100%;
     background: transparent;
     border: 2px solid #d8bfd8;
     margin-left: 3rem;
@@ -27,8 +27,8 @@
     transition: transform 0.5s;
 }
 .card2{
-    height: 25rem;
-    width: 18rem;
+    height: 100%;
+    width: 100%;
     background: transparent; 
     border: 2px solid #d8bfd8; 
     margin-left: 2rem; 
@@ -39,8 +39,8 @@
 }
 
 .card3{
-    height: 25rem; 
-    width: 18rem;
+    height: 100%;
+    width: 100%;
     background: transparent; 
     border: 2px solid #d8bfd8; 
     margin-left: 1rem; 
@@ -51,8 +51,8 @@
 }
 
 .card4{
-    height: 25rem; 
-    width: 18rem;
+    height: 100%;
+    width: 100%;
     background: transparent; 
     border: 2px solid #d8bfd8; 
     margin-left: 0.5rem; 
@@ -65,8 +65,8 @@
 .card-inner-sol{
     transform-style: preserve-3d;
     transition: transform 0.5s;
-    height: 20rem;
-    width: 18rem;
+    height: 100%;
+    width: 100%;
     z-index: 0;
     border-radius: 0.5rem;
     overflow: hidden;
@@ -80,8 +80,8 @@
 }
 
 .frontimage{
-    height: 50%;
-    width: 50%;
+    height: 100%;
+    width: 100%;
     object-fit: contain;
     margin-left: 4rem;
 }
@@ -100,8 +100,8 @@
 }
 
 .backimage{
-    height: 50%; 
-    width: 50%; 
+    height: 100%;
+    width: 100%;
     object-fit: contain; 
     margin-top: 2rem; 
     margin-left: 4rem;
@@ -111,198 +111,418 @@
     margin-left: 1rem; 
     color: #fff;
 }
-/* Media query for small devices (e.g., mobiles) */
-@media only screen and (max-width: 576px){
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
     .solution-container{
-        height: 300vh;
-        
+       height: 415vh;
     }
+    
     .sol-main-heading{
-        font-size: 4rem;
+        font-size: 3rem;
+        padding-top: 3rem;
+        margin-left: 3rem;
     }
     
     .card1{
-        height: 25rem;
-        width: 25rem;
-        margin-left: 3rem;
+        height: 100%;
+        width: 100%;
+        margin-left: 0rem;
         margin-top: 1rem;
     }
     .card2{
-        height: 25rem;
-        width: 25rem; 
-        margin-left: 3rem; 
-        margin-top: 1rem;
+        height: 100%;
+        width: 100%;
+        margin-left: 0rem; 
+        margin-top: 9.5rem; 
     }
     
     .card3{
-        height: 25rem;
-        width: 25rem; 
-        margin-left: 3rem; 
-        margin-top: 1rem;
+        height: 100%;
+        width: 100%;
+        margin-left: 0rem;
+        margin-top: 10.5rem; 
     }
     
     .card4{
-        height: 25rem;
-        width: 25rem; 
-        margin-left: 3rem; 
-        margin-top: 1rem;
+        height: 100%;
+        width: 100%;
+        margin-left: 0rem; 
+        margin-top: 11.5rem; 
+    }
+    
+    .card-inner-sol{
+        height: 20rem;
+        width: 100%;
+    }
+    .card-front{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .frontimage{
+        height: 100%;
+        width: 100%;
+        object-fit: contain;
+        margin-left: 0rem;
+    }
+    
+    .frontpara{
+       width: 100%;
+       height: 100%;
+       margin-left: 0rem;
+       margin-top: -4rem;
+    }
+    .card-back{
+        position: absolute;
+        width: 100%; 
+        height: 100%; 
+        backface-visibility: hidden;
+        transform: rotateY(180deg);
+    }
+    
+    .backimage{
+        height: 100%;
+        width: 100%;
+        object-fit: contain;
+        margin-left: 0rem;
+    }
+    .backpara{
+        width: 100%;
+        height: 100%;
+        margin-left: 0rem;
+        margin-top: -4rem;
+    }
+  }
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .solution-container{
+        height: 170vh;
+     }
+     
+     .sol-main-heading{
+         font-size: 3rem;
+         padding-top: 3rem;
+         margin-left: 3rem;
+     }
+     
+     .card1{
+         height: 100%;
+         width: 100%;
+         margin-left: 0rem;
+         margin-top: 1rem;
+     }
+     .card2{
+         height: 100%;
+         width: 100%;
+         margin-left: 0rem; 
+         margin-top: 9.5rem; 
+     }
+     
+     .card3{
+         height: 100%;
+         width: 100%;
+         margin-left: 0rem;
+         margin-top: 10.5rem; 
+     }
+     
+     .card4{
+         height: 100%;
+         width: 100%;
+         margin-left: 0rem; 
+         margin-top: 11.5rem; 
+     }
+     
+     .card-inner-sol{
+         height: 100%;
+         width: 100%;
+     }
+     .card-front{
+         width: 100%;
+         height: 100%;
+     }
+     
+     .frontimage{
+         height: 100%;
+         width: 100%;
+         object-fit: contain;
+         margin-left: 0rem;
+     }
+     
+     .frontpara{
+        width: 100%;
+        height: 100%;
+        margin-left: 0rem;
+        margin-top: -4rem;
+     }
+     .card-back{
+         position: absolute;
+         width: 100%; 
+         height: 100%; 
+         backface-visibility: hidden;
+         transform: rotateY(180deg);
+     }
+     
+     .backimage{
+         height: 100%;
+         width: 100%;
+         object-fit: contain;
+         margin-left: 0rem;
+     }
+     .backpara{
+         width: 100%;
+         height: 100%;
+         margin-left: 0rem;
+         margin-top: -4rem;
+     }
     }
   
-    
-    .frontimage{
-        margin-left: 5rem;
-    }
-    
-    .frontpara{
-        font-size: 1.5rem; 
-    }
-      
-    .backimage{
-        margin-left: 5rem;
-    }
-    .backpara{
-        font-size: 1.5rem; 
-    }
-}
-/* Media query for medium devices (e.g., tablet and small pc) */
-@media only screen and (min-width: 576px) and (max-width: 768px){
-
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
     .solution-container{
-        height: 180vh;
-    }
-    .sol-main-heading{
-        font-size: 5rem;
-        padding-top: 3rem;
-        margin-left: 3rem;
-    }
-    
-    .card1{
-        height: 25rem;
-        width: 20rem;
-        margin-left: 3rem;
-        margin-top: 1rem;
-    }
-    .card2{
-        height: 25rem;
-        width: 20rem; 
-        margin-left: 25rem; 
-        margin-top: -25rem; 
-    }
-    
-    .card3{
-        height: 25rem; 
-        width: 20rem; 
-        margin-left: 3rem;
-        margin-top: 1rem;
-    }
-    
-    .card4{
-        height: 25rem;
-        width: 20rem; 
-        margin-left: 25rem; 
-        margin-top: -25rem; 
-    }
-    
-    .frontimage{
-        margin-left: 5rem;
-    }
-    
-    .frontpara{
-        font-size: 1.3rem; 
-    }
-        
-    .backimage{
-        margin-left: 5rem;
-    }
-    .backpara{
-        font-size: 1.3rem; 
-    }
-}
-
-/* Media query for large devices (e.g., desktop) */
-@media only screen and (min-width: 768px) and (max-width: 992px){
-    .solution-container{
-        height: 180vh;
-    }
-    .sol-main-heading{
-        font-size: 5rem;
-        padding-top: 3rem;
-        margin-left: 3rem;
-    }
-    
-    .card1{
-        height: 25rem;
-        width: 20rem;
-        margin-left: 3rem;
-        margin-top: 1rem;
-    }
-    .card2{
-        height: 25rem;
-        width: 20rem; 
-        margin-left: -5rem;
-        margin-top: 11.5rem;
-    }
-    
-    .card3{
-        height: 25rem; 
-        width: 20rem; 
-        margin-left: 3rem;
-        margin-top: 1rem;
-    }
-    
-    .card4{
-        height: 25rem;
-        width: 20rem; 
-        margin-left: -5rem; 
-        margin-top: 1rem;
-    }
-    
-    .frontimage{
-        margin-left: 5rem;
-    }
-    
-    .frontpara{
-        font-size: 1.3rem; 
-    }
-        
-    .backimage{
-        margin-left: 5rem;
-    }
-    .backpara{
-        font-size: 1.3rem; 
-    }
-}
-
-/* Media query for extra large devices (e.g., extra large desktop) */
-@media only screen and (min-width: 992px) and (max-width: 1200px){
-    .section2-main{
-        font-size: 5rem;
-        margin-left: 2rem;
-    }
-    
-    .outer-div{
-        display: flex;
-        transition: transform 1s ease;
-    }
-    
-    .card-style{
-        margin-left: 2rem; 
-        margin-top: 2rem; 
-
-    }
-    
-    .cards-image{
+        height: 100vh;
+     }
+     
+     .sol-main-heading{
+         font-size: 3rem;
+         padding-top: 3rem;
+         margin-left: 3rem;
+     }
+     
+     .card1{
+         height: 100%;
+         width: 100%;
+         margin-left: 0rem;
+         margin-top: 1rem;
+     }
+     .card2{
+         height: 100%;
+         width: 100%;
+         margin-left: 0rem; 
+         margin-top: 8.5rem; 
+     }
+     
+     .card3{
+         height: 100%;
+         width: 100%;
+         margin-left: 0rem;
+         margin-top: 10.5rem; 
+     }
+     
+     .card4{
+         height: 100%;
+         width: 100%;
+         margin-left: 0rem; 
+         margin-top: 10.5rem; 
+     }
+     
+     .card-inner-sol{
+         height: 100%;
+         width: 100%;
+     }
+     .card-front{
+         width: 100%;
+         height: 100%;
+     }
+     
+     .frontimage{
+         height: 100%;
+         width: 100%;
+         object-fit: contain;
+         margin-left: 0rem;
+     }
+     
+     .frontpara{
         width: 100%;
-        height: 100%; 
-        object-fit: cover;
+        height: 100%;
+        margin-left: 0rem;
+        margin-top: -5rem;
+     }
+     .card-back{
+         position: absolute;
+         width: 100%; 
+         height: 100%; 
+         backface-visibility: hidden;
+         transform: rotateY(180deg);
+     }
+     
+     .backimage{
+         height: 100%;
+         width: 100%;
+         object-fit: contain;
+         margin-left: 0rem;
+     }
+     .backpara{
+         width: 100%;
+         height: 100%;
+         margin-left: 0rem;
+         margin-top: -4rem;
+     }
     }
-    .cards-heading{
-        margin-left: 2rem;
-        margin-top: 0.5rem; 
+
+/* Large devices (laptops/desktops, 992 and up) */
+@media only screen and (min-width: 992px) {
+    .solution-container{
+        height: 100vh;
+     }
+     
+     .sol-main-heading{
+         font-size: 3rem;
+         padding-top: 3rem;
+         margin-left: 3rem;
+     }
+     
+     .card1{
+         height: 260%;
+         width: 100%;
+         margin-left: 0rem;
+         margin-top: 1rem;
+     }
+     .card2{
+         height: 260%;
+         width: 100%;
+         margin-left: 0rem; 
+         margin-top: 8.5rem; 
+     }
+     
+     .card3{
+         height: 260%;
+         width: 100%;
+         margin-left: 0rem;
+         margin-top: 8.5rem; 
+     }
+     
+     .card4{
+         height: 260%;
+         width: 100%;
+         margin-left: 0rem; 
+         margin-top: 8.5rem; 
+     }
+     
+     .card-inner-sol{
+         height: 100%;
+         width: 100%;
+     }
+     .card-front{
+         width: 100%;
+         height: 100%;
+     }
+     
+     .frontimage{
+         height: 100%;
+         width: 100%;
+         object-fit: contain;
+         margin-top: 0rem;
+         margin-left: 0rem;
+     }
+     
+     .frontpara{
+        width: 100%;
+        height: 100%;
+        margin-left: 0rem;
+        margin-top: -5rem;
+     }
+     .card-back{
+         position: absolute;
+         width: 100%; 
+         height: 100%; 
+         backface-visibility: hidden;
+         transform: rotateY(180deg);
+     }
+     
+     .backimage{
+         height: 100%;
+         width: 100%;
+         object-fit: contain;
+         margin-left: 0rem;
+     }
+     .backpara{
+         width: 100%;
+         height: 100%;
+         margin-left: 0rem;
+         margin-top: -4rem;
+     }
     }
-    
-    .card-para{
-        margin-left: 2rem; 
-        margin-top: 0.5rem;
+/* Large devices (laptops/desktops, 1200 and up) */
+@media only screen and (min-width: 1200px) {
+    .solution-container{
+        height: 100vh;
+     }
+     
+     .sol-main-heading{
+         font-size: 3rem;
+         padding-top: 3rem;
+         margin-left: 3rem;
+     }
+     
+     .card1{
+         height: 310%;
+         width: 100%;
+         margin-left: 0rem;
+         margin-top: 1rem;
+     }
+     .card2{
+         height: 310%;
+         width: 100%;
+         margin-left: 0rem; 
+         margin-top: 8.5rem; 
+     }
+     
+     .card3{
+        height: 310%;
+         width: 100%;
+         margin-left: 0rem;
+         margin-top: 8.5rem; 
+     }
+     
+     .card4{
+         height: 310%;
+         width: 100%;
+         margin-left: 0rem; 
+         margin-top: 8.5rem; 
+     }
+     
+     .card-inner-sol{
+         height: 100%;
+         width: 100%;
+     }
+     .card-front{
+         width: 100%;
+         height: 100%;
+     }
+     
+     .frontimage{
+         height: 100%;
+         width: 100%;
+         object-fit: contain;
+         margin-top: 0rem;
+         margin-left: 0rem;
+     }
+     
+     .frontpara{
+        width: 100%;
+        height: 100%;
+        margin-left: 0rem;
+        margin-top: -5rem;
+     }
+     .card-back{
+         position: absolute;
+         width: 100%; 
+         height: 100%; 
+         backface-visibility: hidden;
+         transform: rotateY(180deg);
+     }
+     
+     .backimage{
+         height: 100%;
+         width: 100%;
+         object-fit: contain;
+         margin-left: 0rem;
+     }
+     .backpara{
+         width: 100%;
+         height: 100%;
+         margin-left: 0rem;
+         margin-top: -4rem;
+     }
     }
-}
+  
