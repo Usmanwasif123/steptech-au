@@ -13,17 +13,20 @@
 .display-2{
     margin-left: -10rem;
     margin-top: 5rem;
+    font-size: 2rem;
 }
 
 .lead{
     margin-left: -10rem;
     width: 50%;
+    font-size: 1.5rem;
 }
 
 .explore-btn{
     background: linear-gradient(256.4deg, #6347AA 7.85%, #233F81 107.97%);
     margin-left: -10rem;
     width: 50%;
+    font-size: 1.5rem;
 }
 
 .game-card{
@@ -247,9 +250,9 @@
     
     .web-card{
         height: auto;
-    width: 314%;
-    margin-left: -20.5rem;
-    margin-top: 48rem;
+        width: 314%;
+       margin-left: -20.5rem;
+       margin-top: 48rem;
     animation: none;
     }
     
@@ -348,5 +351,93 @@
         transition: transform 0.5s ease;
         animation: scrollAnimation2 6s infinite linear; /* Adjust timing as needed */
     }
+}
+
+/* Extra Extra Large devices (laptops/desktops, 2500 and up) */
+@media only screen and (min-width: 2500px) {
+    .services-container{
+        height: 100vh;
+    }
+    
+    .display-2{
+        margin-left: -10rem;
+        margin-top: 5rem;
+        width: 50%;
+        font-size: 8rem;
+    }
+    
+    .lead{
+        margin-left: -10rem;
+        width: 50%;
+        font-size: 2.5rem;
+    }
+    
+    .explore-btn{
+        background: linear-gradient(256.4deg, #6347AA 7.85%, #233F81 107.97%);
+        margin-left: -10rem;
+        width: 50%;
+        font-size: 2rem;
+    }
+    
+    .game-card{
+        height: auto;
+        width: 130%;
+       margin-top: -25rem;
+       margin-left: 90rem;
+    }
+    
+    .web-card{
+        height: auto;
+        width: 130%;
+        z-index: 1;
+        margin-left: 36rem;
+        margin-top: -20rem;
+        overflow: hidden;
+        transition: transform 0.5s ease;
+        animation: scrollAnimation 5s infinite linear; /* Adjust timing as needed */
+    }
+    
+    
+    
+    @keyframes scrollAnimation {
+        0% {
+            transform: translateX(0);
+        }
+        25% {
+            transform: translateX(-10rem); /* Equivalent to scrollPosition / 5px */
+        }
+        50% {
+            transform: translateX(-5rem); /* Equivalent to scrollPosition / 20px */
+        }
+        100% {
+            transform: translateX(-3rem); /* Equivalent to scrollPosition / -20px */
+        }
+    }
+    @keyframes scrollAnimation2 {
+        0% {
+            transform: translateX(0);
+        }
+        25% {
+            transform: translateX(-10rem); /* Equivalent to scrollPosition / 5px */
+        }
+        50% {
+            transform: translateX(-5rem); /* Equivalent to scrollPosition / 20px */
+        }
+        100% {
+            transform: translateX(-3rem); /* Equivalent to scrollPosition / -20px */
+        }
+    }
+    
+    .app-card{
+        height: auto;
+        width: 130%;
+        z-index: 2;
+        overflow: hidden;
+        margin-left: -29rem;
+        margin-top: -15rem;
+        transition: transform 0.5s ease;
+        animation: scrollAnimation2 6s infinite linear; /* Adjust timing as needed */
+    }
+
 }
   

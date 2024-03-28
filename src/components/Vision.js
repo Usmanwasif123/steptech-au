@@ -104,7 +104,7 @@ const Ourwork = () => {
     <Container fluid className='vision-container bg-white overflow-hidden' ref={containerRef}>
       <Row>
         <Col xs={12} md={8}>
-          <div className='section2-main text-black fs-1 mt-2'>About us</div>
+          <div className='section2-main text-black mt-2'>About us</div>
           <div className='outer-div-vis d-flex flex-row overflow-x-hidden overflow-y-hidden'
           onMouseDown={handleMouseDown} 
           onMouseMove={handleMouseMove} 

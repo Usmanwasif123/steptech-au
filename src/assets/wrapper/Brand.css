@@ -8,7 +8,7 @@
 .brand-container{
     height: 160vh;
     width: auto; 
-    background: #ffffff;
+    background: #fff;
     position: relative; 
     scroll-behavior: smooth;
 }
@@ -134,12 +134,12 @@
         border-radius: 0.5rem; /* Adjust border-radius */
     }
 }
-/* Large devices (laptops/desktops, 1200 and up) */
+/*Extra Large devices (laptops/desktops, 1200 and up) */
 @media only screen and (min-width: 1200px) {
     .brand-container{
         height: 160vh;
         width: auto; 
-        background: #ffffff;
+        background: #fff;
         position: relative; 
         scroll-behavior: smooth;
     }
@@ -173,6 +173,45 @@
         position: absolute; 
         width: 41rem; 
         height: 23rem;
-    } 
+    }  
+}
+
+/* Extra Extra Large devices (laptops/desktops, 2500 and up) */
+@media only screen and (min-width: 2500px) {
+    .brand-container{
+        height: 124vh;
+        background: #fff;
+    }
+    .outer-div{
+        margin-top: 5rem; 
+        position: absolute; 
+        width: 41rem; 
+        height: 23rem;
+    }
+    .card-inner{
+        position: relative; 
+        height: 180%;
+        width: 180%;
+        z-index: 0;
+        border-radius: 0.5rem; 
+        overflow: hidden;
+    }
+    
+    .card-image{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 0.5rem;
+        transition: transform 0.5s ease;
+        z-index: 1;
+        position: relative;
+    }
+    
+    .second-outer-div{
+        margin-top: 53rem; 
+        position: absolute; 
+        width: 41rem; 
+        height: 23rem;
+    }  
 }
   

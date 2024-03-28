@@ -80,8 +80,8 @@
 }
 
 .frontimage{
-    height: 100%;
-    width: 100%;
+    height: 80%;
+    width: 80%;
     object-fit: contain;
     margin-left: 4rem;
 }
@@ -491,10 +491,10 @@
      }
      
      .frontimage{
-         height: 100%;
+         height: 50%;
          width: 100%;
          object-fit: contain;
-         margin-top: 0rem;
+         margin-top: 1rem;
          margin-left: 0rem;
      }
      
@@ -502,7 +502,7 @@
         width: 100%;
         height: 100%;
         margin-left: 0rem;
-        margin-top: -5rem;
+        margin-top: 5rem;
      }
      .card-back{
          position: absolute;
@@ -523,6 +523,92 @@
          height: 100%;
          margin-left: 0rem;
          margin-top: -4rem;
+     }
+    }
+/* Extra Extra Large devices (laptops/desktops, 2500 and up) */
+@media only screen and (min-width: 2500px) {
+    .solution-container{
+        height: 100vh;
+     }
+     
+     .sol-main-heading{
+         font-size: 3rem;
+         padding-top: 3rem;
+         margin-left: 3rem;
+     }
+     
+     .card1{
+         height: 760%;
+         width: 100%;
+         margin-left: 0rem;
+         margin-top: 1rem;
+     }
+     .card2{
+         height: 760%;
+         width: 100%;
+         margin-left: 0rem; 
+         margin-top: 8.5rem; 
+     }
+     
+     .card3{
+        height: 760%;
+         width: 100%;
+         margin-left: 0rem;
+         margin-top: 8.5rem; 
+     }
+     
+     .card4{
+         height: 760%;
+         width: 100%;
+         margin-left: 0rem; 
+         margin-top: 8.5rem; 
+     }
+     
+     .card-inner-sol{
+         height: 100%;
+         width: 100%;
+     }
+     .card-front{
+         width: 100%;
+         height: 100%;
+     }
+     
+     .frontimage{
+         height: 50%;
+         width: 100%;
+         object-fit: contain;
+         margin-top: 1rem;
+         margin-left: 0rem;
+     }
+     
+     .frontpara{
+        width: 100%;
+        height: 100%;
+        margin-left: 0rem;
+        margin-top: 5rem;
+        font-size: 2.9rem;
+        
+     }
+     .card-back{
+         position: absolute;
+         width: 100%; 
+         height: 100%; 
+         backface-visibility: hidden;
+         transform: rotateY(180deg);
+     }
+     
+     .backimage{
+         height: 100%;
+         width: 100%;
+         object-fit: contain;
+         margin-left: 0rem;
+     }
+     .backpara{
+         width: 100%;
+         height: 100%;
+         margin-left: 0rem;
+         margin-top: -4rem;
+         font-size: 2.9rem;
      }
     }
   

@@ -19,7 +19,7 @@
     height: 10rem;
     width: auto;
     background-size:cover;
-    margin-top: -20rem;
+    margin-top: -30rem;
     margin-left: -30rem;
 }
 
@@ -133,7 +133,7 @@
 .footer-heading5{
     margin-left: 46rem;
     margin-top: -12.9rem;
-    font-size: 2rem;
+    font-size: 1.8rem;
 }
 
 .footer-list5{
@@ -594,7 +594,7 @@
         /* Center align content */
       }
     }
-/* Large devices (laptops/desktops, 1200 and up) */
+/* Extra Large devices (laptops/desktops, 1200 and up) */
 @media only screen and (min-width: 1200px) {
     .footeres-container {
         padding-bottom: 0rem; /* Add some padding at the bottom */
@@ -713,4 +713,119 @@
         /* Center align content */
       }
     }
+
+/* Extra Extra Large devices (laptops/desktops, 2500px and up) */
+@media only screen and (min-width: 2500px) {
+    .footeres-container {
+        /* Adjust properties for footer container */
+        height: auto; /* Adjust as needed */
+        background: linear-gradient(256.4deg, #6347AA 7.85%, #233F81 107.97%);
+        scroll-behavior: smooth;
+    }
+
+    .footer-content {
+        margin-top: -15rem; /* Adjust top margin */
+    }
+
+    .footer-logo {
+        margin-top: -2rem;
+        margin-left: -40rem;
+        height: 17rem;
+    }
+
+    .footer-text {
+        width: 50rem; /* Adjust width */
+        margin-top: -1rem; /* Adjust top margin */
+        font-size: 2rem;
+    }
+    .social-icons{
+        margin-top: 2rem;
+        margin-left: -33rem;
+       transform: scale(2);
+    }
+    .footer-links {
+        margin-left: -40rem; /* Adjust left margin */
+        font-size: 2rem;
+    }
+
+      .footer-heading,
+      .footer-heading2,
+      .footer-heading3,
+      .footer-heading4,
+      .footer-heading5{
+        text-align: justify; 
+        font-size: 3rem;
+      }
+      
+      #footer-heading{
+        margin-bottom: 9rem;      /* Add margin below headings */ 
+        margin-left: 12rem;
+        margin-top: 3rem;
+        
+      }
+
+      #footer-heading2{
+        margin-bottom: 9rem;
+        margin-left: 23rem;
+        margin-top: -17rem;
+       
+      }
+
+      #footer-heading3{
+        margin-bottom: 9rem;
+        margin-left: 42rem;
+        margin-top: -11.5rem;
+           
+      }
+
+      #footer-heading4{
+        margin-bottom: 9rem;
+        margin-left: 70rem;
+        margin-top: -26rem;
+        font-size: 4rem;
+        
+      }
+
+      #footer-heading5{
+        margin-bottom: 9rem;
+        margin-left: 96rem;
+        margin-top: -24rem;
+        font-size: 3rem;
+           
+      }
   
+      .footer-list,
+      .footer-list2,
+      .footer-list3,
+      .footer-list4,
+      .footer-list5 {
+        text-align: start;
+        margin-top: -8rem;  
+        line-height: 1.5;
+      } 
+      #footer-list{
+          padding-left: 14rem; /* Reset padding */ 
+      }
+      #footer-list2{
+        padding-left: 17rem; 
+          
+      }
+      #footer-list3{
+        margin-left: 15rem;
+        margin-right: 29rem;
+      }
+      #footer-list4{
+        margin-left: 68rem;
+        margin-right: 14rem;
+      }
+      #footer-list5{
+        margin-left: 94rem;
+      }
+
+    .footer-copy {
+        margin-left: -30rem; /* Adjust left margin */
+    }
+    .footer-copy h1 {
+        font-size: 2.5rem;
+    }
+}

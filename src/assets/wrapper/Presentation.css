@@ -7,7 +7,7 @@
 .presentation-container{
   background: linear-gradient(256.4deg, #6347AA 7.85%, #233F81 107.97%);
   height: 100vh; 
-  width: 98.7vw; 
+  width: auto; 
   position: relative;
 
 }
@@ -15,21 +15,29 @@
 .presentation-heading{
   position: absolute;
   transition: opacity 0.5s;
+  margin-top:3rem;
+  margin-left: 5rem;
 }
 
 .presentation-heading-text{
-  padding-left: 3rem;
   padding-top: 10rem;
+  font-size: 5rem;
+
 
 }
 .presentation-button{
   position: absolute;
   transition: opacity 0.5s;
+  margin-left: 0rem;
+  margin-top:9rem;
 }
 
 .view-more-btn{
   margin-top: 18rem;
-  margin-left: 10rem;
+  margin-left: 9rem;
+  font-size: 1rem;
+  padding: 0.9rem;
+  font-weight: 600;
 }
 
 .presentation-images{
@@ -48,7 +56,7 @@
 
 @keyframes slide-up {
   from {
-    transform: translateY(50%);
+    transform: translateY(10%);
   }
   to {
     transform: translateY(0);
@@ -59,110 +67,123 @@
   animation: slide-up 0.5s ease;
 }
 
-
-
- /* Media query for small devices (e.g., mobiles) */
-@media only screen and (max-width: 576px){
-  .presentation-container{
-    height: 110vh; 
-  }
-  
-  .presentation-heading-text{
-    padding-left: 3rem;
-    padding-top: 1rem;
-  
-  }
-  .presentation-button{
-    margin-top: -10rem;
-  }
-  
-  .view-more-btn{
-    margin-top: 18rem;
-    margin-left: 10rem;
-  }
-  
-  .presentation-images{
-    margin-top: 15rem; 
-    margin-left: 3rem; 
-    
-  }
-  
-}
-/* Media query for medium devices (e.g., tablet and small pc) */
-@media only screen and (min-width: 576px) and (max-width: 768px){
-  .presentation-container{
-    height: 110vh; 
-  }
-  
-  .presentation-heading-text{
-    padding-left: 3rem;
-    padding-top: 1rem;
-  
-  }
-  .presentation-button{
-    margin-top: -10rem;
-  }
-  
-  .view-more-btn{
-    margin-top: 18rem;
-    margin-left: 10rem;
-  }
-  
-  .presentation-images{
-    margin-top: 15rem; 
-    margin-left: 3rem; 
-    
-  }
-  
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .presentation-container {
+    height: 160vh; /* Adjust height to fit content */
+    width: auto; /* Full width */
 }
 
-/* Media query for large devices (e.g., desktop) */
-@media only screen and (min-width: 768px) and (max-width: 992px){
-  .presentation-container{
-    height: 100vh;   
-  }
-  
-  .presentation-heading{
-    position: absolute;
-    transition: opacity 0.5s;
-  }
-  
-  .presentation-heading-text{
-    padding-left: 3rem;
-    padding-top: 10rem;
-  
-  }
-  .presentation-button{
-    position: absolute;
-    transition: opacity 0.5s;
-  }
-  
-  .view-more-btn{
-    margin-top: 18rem;
-    margin-left: 10rem;
-  }
-  
-  .presentation-images{
-    margin-top: 7rem; 
-    margin-left: 30rem; 
-    height: 25rem; 
-    width: 30rem; 
-    position: absolute; 
-    transition: opacity 0.5s;
-  }
-  .presentation-image{
-    height: 100%;
-    width: 100%; 
-    object-fit: cover;
-  }
+.presentation-heading {
+  margin-top: -6rem;
+  margin-left: 9rem;
+}
+.presentation-heading-text{
+  padding-top: 10rem;
+  font-size: 2rem;
 }
 
-/* Media query for extra large devices (e.g., extra large desktop) */
-@media only screen and (min-width: 992px) and (max-width: 1200px){
+.presentation-button {
+  margin-top: -10rem;
+  margin-left: 6rem;
+
+}
+
+.presentation-images {
+  margin-top: 15rem;
+  margin-left: 0rem;
+  width: 100%;
+  height: auto;
+}
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .presentation-container {
+    height: 160vh; /* Adjust height to fit content */
+    width: auto; /* Full width */
+}
+
+.presentation-heading {
+  margin-top: -7rem;
+  margin-left: 3rem;
+}
+.presentation-heading-text{
+  font-size: 3rem;
+}
+.presentation-button {
+  margin-top: -10rem;
+  margin-left: 6rem;
+
+}
+
+.presentation-images {
+  margin-top: 15rem;
+  margin-left: 0rem;
+  width: 100%;
+  height: auto;
+}
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .presentation-container {
+    height: 194vh; /* Adjust height to fit content */
+    width: auto; /* Full width */
+}
+
+.presentation-heading {
+  margin-top: -7rem;
+    margin-left: 11rem;
+}
+.presentation-heading-text{
+  font-size: 2rem;
+}
+.presentation-button {
+  margin-top: -10rem;
+  margin-left: 9rem;
+}
+
+.presentation-images {
+  margin-top: 15rem;
+  margin-left: 0rem;
+  width: 100%;
+  height: auto;
+}
+}
+
+/* Large devices (laptops/desktops, 992 and up) */
+@media only screen and (min-width: 992px) {
+  .presentation-container {
+    height: 255vh; /* Adjust height to fit content */
+    width: auto; /* Full width */
+}
+
+.presentation-heading {
+  margin-top: -7rem;
+    margin-left: 11rem;
+}
+.presentation-heading-text{
+  font-size: 2rem;
+}
+.presentation-button {
+  margin-top: -3rem;
+    margin-left: 3rem;
+}
+
+.presentation-images {
+  margin-top: 21rem;
+  margin-left: 0rem;
+  width: 100%;
+  height: auto;
+}
+}
+/*Extra Large devices (laptops/desktops, 1200 and up) */
+@media only screen and (min-width: 1200px) {
   .presentation-container{
     background: linear-gradient(256.4deg, #6347AA 7.85%, #233F81 107.97%);
     height: 100vh; 
-    width: 98.7vw; 
+    width: auto; 
     position: relative;
   
   }
@@ -170,21 +191,29 @@
   .presentation-heading{
     position: absolute;
     transition: opacity 0.5s;
+    margin-top:3rem;
+    margin-left: 5rem;
   }
   
   .presentation-heading-text{
-    padding-left: 3rem;
     padding-top: 10rem;
+    font-size: 5rem;
+  
   
   }
   .presentation-button{
     position: absolute;
     transition: opacity 0.5s;
+    margin-left: 0rem;
+    margin-top:9rem;
   }
   
   .view-more-btn{
     margin-top: 18rem;
-    margin-left: 10rem;
+    margin-left: 9rem;
+    font-size: 1rem;
+    padding: 0.9rem;
+    font-weight: 600;
   }
   
   .presentation-images{
@@ -200,4 +229,73 @@
     width: 100%; 
     object-fit: cover;
   }
+  
+  @keyframes slide-up {
+    from {
+      transform: translateY(10%);
+    }
+    to {
+      transform: translateY(0);
+    }
+  }
+  
+  .slide-up {
+    animation: slide-up 0.5s ease;
+  }
+  
 }
+
+/* Extra Extra Large devices (laptops/desktops, 2500 and up) */
+@media only screen and (min-width: 2500px) {
+  .presentation-container{
+    background: linear-gradient(256.4deg, #6347AA 7.85%, #233F81 107.97%);
+    height: 100vh; 
+    width: 100%; 
+  
+  }
+  
+  .presentation-heading{
+    position: absolute;
+    transition: opacity 0.5s;
+    margin-top: 3rem;
+    margin-left: 2rem;
+  }
+  
+  .presentation-heading-text{
+    padding-top: 10rem;
+    font-size: 7rem;
+  
+  
+  }
+  .presentation-button{
+    position: absolute;
+    transition: opacity 0.5s;
+    margin-left: -6rem;
+    margin-top: 17rem;
+  }
+  
+  .view-more-btn{
+    margin-top: 18rem;
+    margin-left: 9rem;
+    font-size: 3rem;
+    padding: 1.9rem;
+    font-weight: 600;
+  }
+  
+  .presentation-images{
+    margin-top: 7rem; 
+    margin-left: 45rem; 
+    height: 90%;
+    width: 70%;
+    position: absolute; 
+    transition: opacity 0.5s;
+  }
+  .presentation-image{
+    height: 100%;
+    width: 100%; 
+    object-fit: cover;
+  }
+  
+}
+
+

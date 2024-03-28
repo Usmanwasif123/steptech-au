@@ -15,6 +15,10 @@
     width: 100%;
 }
 
+.partner-text{
+    font-size: 1.5rem;
+}
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     .partner-container{
@@ -64,7 +68,7 @@
         width: 100%;
     }
     }
-/* Large devices (laptops/desktops, 1200 and up) */
+/*Extra Large devices (laptops/desktops, 1200 and up) */
 @media only screen and (min-width: 1200px) {
     .partner-container{
         height: 100vh;
@@ -75,5 +79,20 @@
     .card-img-top{
         width: 100%;
     }
-    }
+}
   
+/* Extra Extra Large devices (laptops/desktops, 2500 and up) */
+@media only screen and (min-width: 2500px) {
+    .partner-container{
+        height: 66vh;
+        width: auto;
+    
+    }
+    
+    .card-img-top{
+        width: 100%;
+    }
+    .partner-text{
+        font-size: 3rem;
+    }
+}

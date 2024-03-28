@@ -51,10 +51,10 @@ const Presentation = () => {
   return (
     <Container fluid className="presentation-container">
       <Row>
-      <Col xs={12} md={6} lg={4} className="presentation-heading mt-5 ms-5">
+      <Col xs={12} md={6} lg={4} className="presentation-heading">
           {headings.map((heading, index) => (
             <h1 key={index} 
-            className={`presentation-heading-text text-white text-capitalize fs-1 ms-5`}
+            className={`presentation-heading-text text-white text-capitalize`}
             style={{opacity: scrolledSection === index ? 1 : 0 }}>
               {heading}
             </h1>
@@ -62,8 +62,8 @@ const Presentation = () => {
         </Col>
       </Row>
       <Row>
-        <Col className="presentation-button ms-5">
-          <Button className="view-more-btn fs-5 text-initial border-white rounded-pill fw-600 p-3 text-white bg-transparent">
+        <Col className="presentation-button">
+          <Button className="view-more-btn text-initial border-white rounded-pill text-white bg-transparent">
             View more
           </Button>
         </Col>

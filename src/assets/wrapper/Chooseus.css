@@ -9,55 +9,159 @@
     background: linear-gradient(256.4deg, #6347AA 7.85%, #233F81 107.97%);
     scroll-behavior: smooth;
 }
-
+.choose-heading{
+    font-size: 2rem;
+    padding-top: 2rem;
+}
+.choose-paragraph{
+    font-size: 2rem;
+    margin-top: 2rem;
+}
 .choose-card{
     height: 28rem;
     width: auto;
+    margin-top: 2rem;
 }
 
-/* Media query for small devices (e.g., mobiles) */
-@media only screen and (max-width: 576px){
-    .choose-container{
-        height: 280vh;
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .choose-container {
+        height: auto; /* Adjust height to fit content */
     }
 
+    .choose-heading {
+        font-size: 1.5rem; /* Adjust font size */
+        padding-top: 1rem; /* Adjust padding-top */
+    }
+
+    .choose-paragraph {
+        font-size: 1.5rem; /* Adjust font size */
+        margin-top: 1rem; /* Adjust margin-top */
+    }
+
+    .choose-card {
+        height: auto; /* Adjust height to fit content */
+        width: 90%; /* Adjust width */
+        margin: 1rem auto; /* Center-align and adjust margin */
+    }
+  }
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    /* Adjustments for small devices */
+    .choose-container {
+        height: auto; /* Adjust height as needed */
+    }
+
+    .choose-heading {
+        font-size: 2.5rem; /* Increase font size for better readability */
+        padding-top: 3rem; /* Adjust padding for better spacing */
+    }
+
+    .choose-paragraph {
+        font-size: 1.5rem; /* Decrease font size for better readability */
+        margin-top: 1.5rem; /* Adjust margin for better spacing */
+    }
+
+    .choose-card {
+        height: 30rem; /* Adjust height for better layout */
+        width: 80%; /* Adjust width for better responsiveness */
+        margin-top: 3rem; /* Adjust margin for better spacing */
+        margin-left: 3rem;
+    }
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    * Adjustments for medium devices */
+    .choose-container {
+        height: 100vh; /* Adjust height as needed */
+    }
+
+    .choose-heading {
+        font-size: 2.5rem; /* Increase font size for better readability */
+        padding-top: 3rem; /* Adjust padding for better spacing */
+    }
+
+    .choose-paragraph {
+        font-size: 1.7rem; /* Decrease font size for better readability */
+        margin-top: 2rem; /* Adjust margin for better spacing */
+    }
+
+    .choose-card {
+        height: 30rem; /* Adjust height for better layout */
+        width: 100%; /* Adjust width for better responsiveness */
+        margin-top: 3rem; /* Adjust margin for better spacing */
+        margin-left:0rem;
+    }
+}
+
+/* Large devices (laptops/desktops, 992 and up) */
+@media only screen and (min-width: 992px) {
+    .choose-container{
+        height: 175vh;
+        width: auto;
+        background: linear-gradient(256.4deg, #6347AA 7.85%, #233F81 107.97%);
+        scroll-behavior: smooth;
+    }
+    .choose-heading{
+        font-size: 2rem;
+        padding-top: 2rem;
+    }
+    .choose-paragraph{
+        font-size: 2rem;
+        margin-top: 2rem;
+    }
     .choose-card{
         height: 28rem;
         width: auto;
+        margin-top: 2rem;
     }
     
 }
-/* Media query for medium devices (e.g., tablet and small pc) */
-@media only screen and (min-width: 576px) and (max-width: 768px){
+/*Extra Large devices (laptops/desktops, 1200 and up) */
+@media only screen and (min-width: 1200px) {
     .choose-container{
-        height: 270vh;
+        height: 130vh;
+        width: auto;
+        background: linear-gradient(256.4deg, #6347AA 7.85%, #233F81 107.97%);
+        scroll-behavior: smooth;
+    }
+    .choose-heading{
+        font-size: 2rem;
+        padding-top: 2rem;
+    }
+    .choose-paragraph{
+        font-size: 2rem;
+        margin-top: 2rem;
+    }
+    .choose-card{
+        height: 28rem;
+        width: auto;
+        margin-top: 2rem;
     }
     
-    .choose-card{
-        height: 28rem;
-        width: auto;
-    }
 }
 
-/* Media query for large devices (e.g., desktop) */
-@media only screen and (min-width: 768px) and (max-width: 992px){
+/* Extra Extra Large devices (laptops/desktops, 2500 and up) */
+@media only screen and (min-width: 2500px) {
     .choose-container{
         height: 130vh;
-    }
-
-    .choose-card{
-        height: 26rem;
         width: auto;
+        background: linear-gradient(256.4deg, #6347AA 7.85%, #233F81 107.97%);
+        scroll-behavior: smooth;
     }
-}
-
-/* Media query for extra large devices (e.g., extra large desktop) */
-@media only screen and (min-width: 992px) and (max-width: 1200px){
-    .choose-container{
-        height: 130vh;
+    .choose-heading{
+        font-size: 2rem;
+        padding-top: 2rem;
+    }
+    .choose-paragraph{
+        font-size: 2rem;
+        margin-top: 2rem;
     }
     .choose-card{
         height: 28rem;
         width: auto;
+        margin-top: 2rem;
     }
-}
+    
+  }

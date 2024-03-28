@@ -55,15 +55,15 @@ const Partner = () => {
       <Row>
         <Col>
           <div className="partner-content text-center mt-5">
-            <p className="partner-text  fs-4">
+            <p className="partner-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et
             </p>
-            <p className="partner-text  fs-4">
+            <p className="partner-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et
             </p>
-            <p className="partner-text  fs-4">
+            <p className="partner-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et
             </p>

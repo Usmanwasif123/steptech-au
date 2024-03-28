@@ -21,10 +21,10 @@ const Services = () => {
    <Container fluid className='services-container bg-white mt-5'>
     <Row className="justify-content-center">
       <Col xs={12} md={8} className="text-start mt-5">
-      <h1 className="display-2 fs-1 text-black d-inline-flex">Services</h1>
-        <p className="lead fs-5 text-black d-flex justify-content-start">Lorem ipsum dolor sit amet, consectetur 
+      <h1 className="display-2 text-black d-inline-flex">Services</h1>
+        <p className="lead text-black d-flex justify-content-start">Lorem ipsum dolor sit amet, consectetur 
         adipiscing elit, sed do eiusmod tempor incididunt ut labore et</p>
-        <Button href='/service' className='btn-lg border-0 rounded text-white fs-4 d-flex justify-content-center explore-btn'>Explore More</Button>
+        <Button href='/service' className='btn-lg border-0 rounded text-white d-flex justify-content-center explore-btn'>Explore More</Button>
         </Col>
       </Row>
       <Row className="d-flex justify-content-end mt-5">

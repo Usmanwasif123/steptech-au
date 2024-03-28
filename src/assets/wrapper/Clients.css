@@ -60,33 +60,310 @@
     border-radius: 50%;
 
 }
-@media only screen and (max-width: 1024px) {
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .client-container {
+        height: auto; /* Adjust height for better responsiveness */
+        margin-top: 20px; /* Adjust margin for better spacing */
+    }
+
+    .client-container h1 {
+        font-size: 30px; /* Decrease font size for better fit */
+        margin-left: 168px; /* Adjust margin for better spacing */
+    }
+
+    .client-container p {
+        font-size: 16px; /* Decrease font size for better fit */
+        margin-left: 20px; /* Adjust margin for better spacing */
+        margin-top: 5px; /* Adjust margin for better spacing */
+    }
+
+    .client-carousel {
+        margin-top: 20px; /* Adjust margin for better spacing */
+        margin-left: 20px; /* Adjust margin for better spacing */
+    }
+
+    .client-carousel img {
+        height: 100px; /* Decrease image height for better fit */
+    }
+
+    .client-carousel .slick-slide div {
+        width: 30px; /* Decrease slide width for better fit */
+    }
+
+    .client-carousel .slick-prev {
+        margin-left: -20px; /* Adjust margin for better positioning */
+    }
+
+    .client-carousel .slick-next {
+        margin-right: 159px; /* Adjust margin for better positioning */
+    }
+  }
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .client-container {
+        height: auto; /* Adjust height for better responsiveness */
+        width: 90%; /* Adjust width for better fit */
+        margin: 20px auto; /* Center the container and adjust margin */
+        padding: 20px; /* Add padding for better spacing */
+    }
+
+    .client-container h1 {
+        font-size: 30px; /* Decrease font size for better fit */
+        margin-left: 0; /* Remove left margin */
+        text-align: center; /* Center align the heading */
+    }
+
+    .client-container p {
+        font-size: 18px; /* Decrease font size for better fit */
+        margin-left: 0; /* Remove left margin */
+        margin-top: 10px; /* Adjust margin for better spacing */
+        text-align: center; /* Center align the paragraph */
+    }
+
+    .client-carousel {
+        margin-top: 20px; /* Adjust margin for better spacing */
+        margin-left: 0rem; /* Center the carousel */
+        margin-right: auto; /* Center the carousel */
+        width: 90%; /* Adjust width for better fit */
+       
+    }
+
+    .client-carousel img {
+        height: 100px; /* Decrease image height for better fit */
+    }
+
+    .client-carousel .slick-slide div {
+        width: 40px; /* Adjust slide width for better fit */
+        
+    }
+
+    .client-carousel .slick-prev {
+        left: 0; /* Adjust position of the previous button */
+        margin-left: -40px; /* Adjust margin for better positioning */
+    }
+
+    .client-carousel .slick-next {
+        right: 0; /* Adjust position of the next button */
+        margin-right: -40px; /* Adjust margin for better positioning */
+
+    }
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    .client-container {
+        height: auto; /* Adjust height for better responsiveness */
+        width: 90%; /* Adjust width for better fit */
+        margin: 20px auto; /* Center the container and adjust margin */
+        padding: 20px; /* Add padding for better spacing */
+    }
+
+    .client-container h1 {
+        font-size: 36px; /* Decrease font size for better fit */
+        margin-left: 0; /* Remove left margin */
+        text-align: center; /* Center align the heading */
+    }
+
+    .client-container p {
+        font-size: 18px; /* Decrease font size for better fit */
+        margin-left: 0; /* Remove left margin */
+        margin-top: 10px; /* Adjust margin for better spacing */
+        text-align: center; /* Center align the paragraph */
+    }
+
+    .client-carousel {
+        margin-top: 20px; /* Adjust margin for better spacing */
+        margin-left: auto; /* Center the carousel */
+        margin-right: auto; /* Center the carousel */
+        width: 90%; /* Adjust width for better fit */
+    }
+
+    .client-carousel img {
+        height: 100px; /* Decrease image height for better fit */
+    }
+
+    .client-carousel .slick-slide div {
+        width: 40px; /* Adjust slide width for better fit */
+    }
+
+    .client-carousel .slick-prev {
+        left: 0; /* Adjust position of the previous button */
+        margin-left: -40px; /* Adjust margin for better positioning */
+    }
+
+    .client-carousel .slick-next {
+        right: 0; /* Adjust position of the next button */
+        margin-right: -40px; /* Adjust margin for better positioning */
+    }
+}
+
+/* Large devices (laptops/desktops, 992 and up) */
+@media only screen and (min-width: 992px) {
+    .client-container {
+        height: auto; /* Adjust height for better responsiveness */
+        width: 90%; /* Adjust width for better fit */
+        margin: 50px auto; /* Center the container and adjust margin */
+        padding: 20px; /* Add padding for better spacing */
+    }
+
+    .client-container h1 {
+        font-size: 48px; /* Increase font size for better readability */
+        margin-left: 0; /* Remove left margin */
+        text-align: center; /* Center align the heading */
+    }
+
+    .client-container p {
+        font-size: 24px; /* Increase font size for better readability */
+        margin-left: 0; /* Remove left margin */
+        margin-top: 20px; /* Adjust margin for better spacing */
+        text-align: center; /* Center align the paragraph */
+    }
+
+    .client-carousel {
+        margin-top: 40px; /* Adjust margin for better spacing */
+        margin-left: auto; /* Center the carousel */
+        margin-right: auto; /* Center the carousel */
+        width: 90%; /* Adjust width for better fit */
+    }
+
+    .client-carousel img {
+        height: 80px; /* Increase image height for better visibility */
+    }
+
+    .client-carousel .slick-slide div {
+        width: 60px; /* Adjust slide width for better fit */
+    }
+
+    .client-carousel .slick-prev {
+        left: 0; /* Adjust position of the previous button */
+        margin-left: -60px; /* Adjust margin for better positioning */
+    }
+
+    .client-carousel .slick-next {
+        right: 0; /* Adjust position of the next button */
+        margin-right: -60px; /* Adjust margin for better positioning */
+    }
+}
+/*Extra Large devices (laptops/desktops, 1200 and up) */
+@media only screen and (min-width: 1200px) {
     .client-container{
-        margin-top: -5px;
-        height: 50vh;
+        height: 40vh;
+        width: 98.7vw;
+        background: #fff;
+        margin-top: 50px;
     }
+    
     .client-container h1{
-        font-size: 35px;
-        margin-left: 400px;
+        font-size: 40px;
+        font-weight: 800;
+        font-family: Poppins, sans-serif;
+        margin-left: 50px;
+        color: #233F81;
     }
+    
     .client-container p{
         font-size: 20px;
-        margin-left: 90px;
-        margin-top: 30px;
+        font-family: Poppins, sans-serif;
+        margin-left: 25px;
+        margin-top: 10px;
+        color: #333;
     }
+    
     .client-container 
     .client-carousel{
-    margin-top: 60px;
-    margin-left: 80px;
-}
+        margin-top: 40px;
+        margin-left: 80px;
+    }
+    
     .client-carousel img{
-        height: 85px;
+        height: 100px;
         cursor: pointer;
+        filter: grayscale(100%);
+        transition: filter 0.3s ease;
     }
+    
+    .client-carousel img:hover{
+        filter: grayscale(0%);
+    }
+    .client-carousel .slick-slide div{
+        width: 50px;
+    }
+    
+    
     .client-carousel .slick-prev {
-        margin-left: -20px;
+        left: 0px;
+        background-color:transparent !important;
+        margin-left: -50px;
+        border-radius: 50%;
     }
-
-
-
+    .client-carousel .slick-next{
+        right: 0px;
+        margin-right: 0px;
+        background-color:transparent !important;
+        border-radius: 50%;
+    
+    }
 }
+
+/* Extra Extra Large devices (laptops/desktops, 2500 and up) */
+@media only screen and (min-width: 2500px) {
+    .client-container{
+        height: 40vh;
+        width: 98.7vw;
+        background: #fff;
+        margin-top: 50px;
+    }
+    
+    .client-container h1{
+        font-size: 69px;
+    font-weight: 800;
+    font-family: Poppins, sans-serif;
+    margin-left: 171px;
+    color: #233F81;
+    }
+    
+    .client-container p{
+        font-size: 45px;
+        font-family: Poppins, sans-serif;
+        margin-left: 250px;
+        margin-top: 10px;
+        color: #333;
+    }
+    
+    .client-container 
+    .client-carousel{
+        margin-top: 40px;
+        margin-left: 80px;
+    }
+    
+    .client-carousel img{
+        height: 185px;
+        cursor: pointer;
+        filter: grayscale(100%);
+        transition: filter 0.3s ease;
+    }
+    
+    .client-carousel img:hover{
+        filter: grayscale(0%);
+    }
+    .client-carousel .slick-slide div{
+        width: 50px;
+    }
+    
+    
+    .client-carousel .slick-prev {
+        left: 0px;
+        background-color:transparent !important;
+        margin-left: -50px;
+        border-radius: 50%;
+    }
+    .client-carousel .slick-next{
+        right: 0px;
+        margin-right: 0px;
+        background-color:transparent !important;
+        border-radius: 50%;
+    
+    }
+  }

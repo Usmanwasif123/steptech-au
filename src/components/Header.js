@@ -23,7 +23,7 @@ function Header() {
           <h1 className='left-heading text-uppercase text-white'>optimization the potential</h1>
         </Col>
         <Col xs={12} md={4}>
-        <p className='left-para text-uppercase text-white mt-5'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+        <p className='left-para text-uppercase text-white'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
         Duis sem elit, varius nec magna nec, viverra dictum risus. Sed suscipit ornare pretium. </p>
         <FacebookIcon className='header-icons' style={{color: '#fff', fontSize: '2rem'}}/>
         <InstagramIcon className='header-icons' style={{color: '#fff', fontSize: '2rem'}}/>

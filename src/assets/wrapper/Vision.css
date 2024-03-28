@@ -17,6 +17,7 @@
 .section2-main{
     padding-top: 2rem;
     margin-left: 2rem;
+    font-size: 2rem;
 }
 
 .outer-div-vis{
@@ -273,4 +274,50 @@
     }
     
     }
-  
+  /* Extra Extra Large devices (laptops/desktops, 2500 and up) */
+@media only screen and (min-width: 2500px) {
+    .vision-container{
+        height: 50vh;
+    }
+    
+    .section2-main{
+        padding-top: 2rem;
+        margin-left: 2rem;
+        font-size: 5rem;
+    }
+    
+    .outer-div-vis{
+        width: 160%;
+        margin-top: 2rem;
+    }
+    
+    .card-style{
+        height: 100%;
+        width: auto;
+        background: #fff;
+        margin-left: 2rem; 
+        overflow: hidden;
+        
+    }
+    
+    .cards-image{
+        width: 100%;
+        height: 100%; 
+        object-fit: cover;
+    }
+    .cards-heading{
+        margin-left: 2rem;
+        margin-top: 0.5rem; 
+        
+    }
+    
+    .card-para{
+        margin-left: 2rem; 
+        padding-right: 0rem; 
+        margin-top: 0.5rem;
+        width: 15rem; 
+        
+    }
+    
+    }
+      
